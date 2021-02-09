@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "# #",
+    "# #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:cobalt_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:cobalt_boots",
+    "count": 1
+  }
+}

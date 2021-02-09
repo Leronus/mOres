@@ -1,0 +1,81 @@
+{
+  "mores:mores/obtain_amethyst_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:36:35 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:27:07 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_amethyst_gear": {
+    "criteria": {
+      "craft_amethyst_pickaxe": "2021-02-03 11:26:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-03 11:27:30 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_onyx": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:36:23 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_moissanite": {
+    "criteria": {
+      "obtain_moissanite_ore": "2021-02-03 11:31:50 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_onyx_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:26:40 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:27:25 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_copper_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:27:19 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 11:27:30 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tin_ore": {
+    "criteria": {
+      "obtain_tin_ore": "2021-02-03 11:27:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_cobalt_ore": "2021-02-03 11:36:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2021-02-03 11:26:27 +0100",
+      "taiga": "2021-02-03 11:26:12 +0100"
+    },
+    "done": false
+  }
+}

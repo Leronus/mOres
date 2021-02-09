@@ -1,0 +1,56 @@
+{
+  "mores:mores/obtain_copper_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 12:12:43 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-02-03 12:13:46 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_topaz": {
+    "criteria": {
+      "obtain_topaz_gem": "2021-02-03 12:16:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-03 12:15:15 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tin_ore": {
+    "criteria": {
+      "obtain_tin_ore": "2021-02-03 12:13:22 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_amethyst": {
+    "criteria": {
+      "obtain_amethyst_gem": "2021-02-03 12:15:15 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tourmaline": {
+    "criteria": {
+      "obtain_tourmaline_gem": "2021-02-03 12:15:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-02-03 12:12:26 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-03 12:14:05 +0100"
+    },
+    "done": true
+  }
+}

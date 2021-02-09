@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Even Worse Than Copper",
+    "description": "You have mined your very first tin ore",
+    "icon": {
+      "item": "mores:tin_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/mores",
+  "criteria": {
+    "obtain_tin_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tin_ore"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

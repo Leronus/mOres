@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Omgggg Its Pink",
+    "description": "You have mined your very first tourmaline gem",
+    "icon": {
+      "item": "mores:tourmaline_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/mores",
+  "criteria": {
+    "obtain_tourmaline_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tourmaline_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

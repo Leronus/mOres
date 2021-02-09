@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Man of Steel",
+    "description": "You have made a stronger version of iron",
+    "icon": {
+      "item": "mores:steel_ingot"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/craft_alloy_furnace",
+  "criteria": {
+    "obtain_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

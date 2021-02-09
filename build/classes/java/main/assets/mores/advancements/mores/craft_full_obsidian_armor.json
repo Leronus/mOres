@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "Rocky IV",
+    "description": "You have crafted the four essential tools using obsidian",
+    "icon": {
+      "item": "mores:obsidian_chest"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/form_obsidian",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:obsidian_helmet"
+          },
+          {
+            "item": "mores:obsidian_chest"
+          },
+          {
+            "item": "mores:obsidian_legs"
+          },
+          {
+            "item": "mores:obsidian_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

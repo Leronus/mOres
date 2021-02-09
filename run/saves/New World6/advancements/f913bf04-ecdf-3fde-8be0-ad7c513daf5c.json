@@ -1,0 +1,54 @@
+{
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2021-02-06 12:23:15 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_axe": "2021-02-06 12:16:58 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_amethyst_gear": {
+    "criteria": {
+      "craft_amethyst_axe": "2021-02-06 12:15:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-06 12:15:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2021-02-06 12:15:48 +0100",
+      "diamond_helmet": "2021-02-06 12:15:48 +0100",
+      "diamond_chestplate": "2021-02-06 12:15:48 +0100",
+      "diamond_boots": "2021-02-06 12:15:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-02-06 12:24:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-02-06 12:15:48 +0100",
+      "forest_hills": "2021-02-06 12:23:41 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2021-02-06 12:23:46 +0100"
+    },
+    "done": true
+  }
+}

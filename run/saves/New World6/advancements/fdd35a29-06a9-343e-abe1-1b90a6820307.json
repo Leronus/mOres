@@ -1,0 +1,20 @@
+{
+  "mores:mores/craft_amethyst_gear": {
+    "criteria": {
+      "craft_amethyst_sword": "2021-02-06 12:57:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2021-02-06 12:57:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2021-02-06 12:57:53 +0100"
+    },
+    "done": false
+  }
+}

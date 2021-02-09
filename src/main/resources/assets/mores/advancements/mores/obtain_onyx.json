@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "This Is The End",
+    "description": "You have mined your very first onyx gem",
+    "icon": {
+      "item": "mores:onyx_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/mores",
+  "criteria": {
+    "obtain_onyx_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:onyx_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

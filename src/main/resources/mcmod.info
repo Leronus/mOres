@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mores",
+  "name": "mOres",
+  "description": "An ore mod made by Its Infinite",
+  "version": "2.0",
+  "mcversion": "1.12.2",
+  "url": "https://www.youtube.com/channel/UC5AkoFInSkfiRxSFvdoteEw",
+  "updateUrl": "https://www.dropbox.com/sh/ouolj66sj3ln5ur/AABVFLNBO6cHHTIBgpecacBSa?dl=1",
+  "authorList": ["Its Infinite"],
+  "credits": "Bram (texturing), Luuk (testing), Its Infinite subscribers (supporting my streams)",
+  "logoFile": "assets/mores/textures/logo/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

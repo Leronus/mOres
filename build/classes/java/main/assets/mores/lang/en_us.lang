@@ -1,0 +1,311 @@
+tile.alloy_furnace.name=Alloy Furnace
+container.alloy_furnace=Alloy Furnace
+
+item.ruby_gem.name=Ruby
+tile.ruby_block.name=Ruby Block
+tile.ruby_ore.name=Ruby Ore
+
+item.ruby_sword.name=Ruby Sword
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_axe.name=Ruby Axe
+item.ruby_hoe.name=Ruby Hoe
+
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chest.name=Ruby Chestplate
+item.ruby_legs.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
+
+item.cobalt_ingot.name=Cobalt Ingot
+tile.cobalt_block.name=Cobalt Block
+tile.cobalt_ore.name=Cobalt Ore
+
+item.cobalt_sword.name=Cobalt Sword
+item.cobalt_shovel.name=Cobalt Shovel
+item.cobalt_pickaxe.name=Cobalt Pickaxe
+item.cobalt_axe.name=Cobalt Axe
+item.cobalt_hoe.name=Cobalt Hoe
+
+item.cobalt_helmet.name=Cobalt Helmet
+item.cobalt_chest.name=Cobalt Chestplate
+item.cobalt_legs.name=Cobalt Leggings
+item.cobalt_boots.name=Cobalt Boots
+
+
+item.amethyst_gem.name=Amethyst
+tile.amethyst_block.name=Amethyst Block
+tile.amethyst_ore.name=Amethyst Ore
+
+item.amethyst_sword.name=Amethyst Sword
+item.amethyst_shovel.name=Amethyst Shovel
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.amethyst_axe.name=Amethyst Axe
+item.amethyst_hoe.name=Amethyst Hoe
+
+item.amethyst_helmet.name=Amethyst Helmet
+item.amethyst_chest.name=Amethyst Chestplate
+item.amethyst_legs.name=Amethyst Leggings
+item.amethyst_boots.name=Amethyst Boots
+
+
+item.sapphire_gem.name=Sapphire
+tile.sapphire_block.name=Sapphire Block
+tile.sapphire_ore.name=Sapphire Ore
+
+item.sapphire_sword.name=Sapphire Sword
+item.sapphire_shovel.name=Sapphire Shovel
+item.sapphire_pickaxe.name=Sapphire Pickaxe
+item.sapphire_axe.name=Sapphire Axe
+item.sapphire_hoe.name=Sapphire Hoe
+
+item.sapphire_helmet.name=Sapphire Helmet
+item.sapphire_chest.name=Sapphire Chestplate
+item.sapphire_legs.name=Sapphire Leggings
+item.sapphire_boots.name=Sapphire Boots
+
+
+item.copper_ingot.name=Copper Ingot
+tile.copper_block.name=Copper Block
+tile.copper_ore.name=Copper Ore
+
+item.copper_sword.name=Copper Sword
+item.copper_shovel.name=Copper Shovel
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+
+item.copper_helmet.name=Copper Helmet
+item.copper_chest.name=Copper Chestplate
+item.copper_legs.name=Copper Leggings
+item.copper_boots.name=Copper Boots
+
+
+item.emerald_sword.name=Emerald Sword
+item.emerald_shovel.name=Emerald Shovel
+item.emerald_pickaxe.name=Emerald Pickaxe
+item.emerald_axe.name=Emerald Axe
+item.emerald_hoe.name=Emerald Hoe
+
+item.emerald_helmet.name=Emerald Helmet
+item.emerald_chest.name=Emerald Chestplate
+item.emerald_legs.name=Emerald Leggings
+item.emerald_boots.name=Emerald Boots
+
+
+item.obsidian_sword.name=Obsidian Sword
+item.obsidian_shovel.name=Obsidian Shovel
+item.obsidian_pickaxe.name=Obsidian Pickaxe
+item.obsidian_axe.name=Obsidian Axe
+item.obsidian_hoe.name=Obsidian Hoe
+
+item.obsidian_helmet.name=Obsidian Helmet
+item.obsidian_chest.name=Obsidian Chestplate
+item.obsidian_legs.name=Obsidian Leggings
+item.obsidian_boots.name=Obsidian Boots
+
+
+item.silver_ingot.name=Silver Ingot
+tile.silver_block.name=Silver Block
+tile.silver_ore.name=Silver Ore
+
+item.silver_sword.name=Silver Sword
+item.silver_shovel.name=Silver Shovel
+item.silver_pickaxe.name=Silver Pickaxe
+item.silver_axe.name=Silver Axe
+item.silver_hoe.name=Silver Hoe
+
+item.silver_helmet.name=Silver Helmet
+item.silver_chest.name=Silver Chestplate
+item.silver_legs.name=Silver Leggings
+item.silver_boots.name=Silver Boots
+
+item.topaz_gem.name=Topaz
+tile.topaz_block.name=Topaz Block
+tile.topaz_ore.name=Topaz Ore
+
+item.topaz_sword.name=Topaz Sword
+item.topaz_shovel.name=Topaz Shovel
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.topaz_axe.name=Topaz Axe
+item.topaz_hoe.name=Topaz Hoe
+
+item.topaz_helmet.name=Topaz Helmet
+item.topaz_chest.name=Topaz Chestplate
+item.topaz_legs.name=Topaz Leggings
+item.topaz_boots.name=Topaz Boots
+
+item.turquoise_gem.name=Turquoise
+tile.turquoise_block.name=Turquoise Block
+tile.turquoise_ore.name=Turquoise Ore
+
+tile.moissanite_nether_ore.name=Moissanite Ore
+tile.moissanite_block.name=Moissanite Block
+item.moissanite_gem.name=Moissanite
+
+item.moissanite_sword.name=Moissanite Sword
+item.moissanite_shovel.name=Moissanite Shovel
+item.moissanite_pickaxe.name=Moissanite Pickaxe
+item.moissanite_axe.name=Moissanite Axe
+item.moissanite_hoe.name=Moissanite Hoe
+
+item.moissanite_helmet.name=Moissanite Helmet
+item.moissanite_chest.name=Moissanite Chestplate
+item.moissanite_legs.name=Moissanite Leggings
+item.moissanite_boots.name=Moissanite Boots
+
+
+item.tin_ingot.name=Tin Ingot
+tile.tin_block.name=Tin Block
+tile.tin_ore.name=Tin Ore
+
+item.tin_sword.name=Tin Sword
+item.tin_shovel.name=Tin Shovel
+item.tin_pickaxe.name=Tin Pickaxe
+item.tin_axe.name=Tin Axe
+item.tin_hoe.name=Tin Hoe
+
+item.tin_helmet.name=Tin Helmet
+item.tin_chest.name=Tin Chestplate
+item.tin_legs.name=Tin Leggings
+item.tin_boots.name=Tin Boots
+
+
+item.bronze_ingot.name=Bronze Ingot
+tile.bronze_block.name=Bronze Block
+tile.bronze_ore.name=Bronze Ore
+
+item.bronze_sword.name=Bronze Sword
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_axe.name=Bronze Axe
+item.bronze_hoe.name=Bronze Hoe
+
+item.bronze_helmet.name=Bronze Helmet
+item.bronze_chest.name=Bronze Chestplate
+item.bronze_legs.name=Bronze Leggings
+item.bronze_boots.name=Bronze Boots
+
+
+item.steel_ingot.name=Carbon Steel Ingot
+tile.steel_block.name=Carbon Steel Block
+
+item.steel_sword.name=Carbon Steel Sword
+item.steel_shovel.name=Carbon Steel Shovel
+item.steel_pickaxe.name=Carbon Steel Pickaxe
+item.steel_axe.name=Carbon Steel Axe
+item.steel_hoe.name=Carbon Steel Hoe
+
+item.steel_helmet.name=Carbon Steel Helmet
+item.steel_chest.name=Carbon Steel Chestplate
+item.steel_legs.name=Carbon Steel Leggings
+item.steel_boots.name=Carbon Steel Boots
+
+
+item.sterling_helmet.name=Sterling Silver Helmet
+item.sterling_chest.name=Sterling Silver Chestplate
+item.sterling_legs.name=Sterling Silver Leggings
+item.sterling_boots.name=Sterling Silver Boots
+
+item.sterling_ingot.name=Sterling Silver Ingot
+tile.sterling_block.name=Sterling Silver Block
+
+item.sterling_sword.name=Sterling Silver Sword
+item.sterling_shovel.name=Sterling Silver Shovel
+item.sterling_pickaxe.name=Sterling Silver Pickaxe
+item.sterling_axe.name=Sterling Silver Axe
+item.sterling_hoe.name=Sterling Silver Hoe
+
+
+item.tourmaline_gem.name=Tourmaline
+tile.tourmaline_block.name=Tourmaline Block
+tile.tourmaline_ore.name=Tourmaline Ore
+
+item.tourmaline_sword.name=Tourmaline Sword
+item.tourmaline_shovel.name=Tourmaline Shovel
+item.tourmaline_pickaxe.name=Tourmaline Pickaxe
+item.tourmaline_axe.name=Tourmaline Axe
+item.tourmaline_hoe.name=Tourmaline Hoe
+
+item.tourmaline_helmet.name=Tourmaline Helmet
+item.tourmaline_chest.name=Tourmaline Chestplate
+item.tourmaline_legs.name=Tourmaline Leggings
+item.tourmaline_boots.name=Tourmaline Boots
+
+
+item.tanzanite_gem.name=Tanzanite
+tile.tanzanite_block.name=Tanzanite Block
+tile.tanzanite_ore.name=Tanzanite Ore
+
+item.tanzanite_sword.name=Tanzanite Sword
+item.tanzanite_shovel.name=Tanzanite Shovel
+item.tanzanite_pickaxe.name=Tanzanite Pickaxe
+item.tanzanite_axe.name=Tanzanite Axe
+item.tanzanite_hoe.name=Tanzanite Hoe
+
+item.tanzanite_helmet.name=Tanzanite Helmet
+item.tanzanite_chest.name=Tanzanite Chestplate
+item.tanzanite_legs.name=Tanzanite Leggings
+item.tanzanite_boots.name=Tanzanite Boots
+
+
+item.onyx_gem.name=Onyx
+tile.onyx_block.name=Onyx Block
+tile.onyx_ore.name=Onyx Ore
+
+item.onyx_sword.name=Onyx Sword
+item.onyx_shovel.name=Onyx Shovel
+item.onyx_pickaxe.name=Onyx Pickaxe
+item.onyx_axe.name=Onyx Axe
+item.onyx_hoe.name=Onyx Hoe
+
+item.onyx_helmet.name=Onyx Helmet
+item.onyx_chest.name=Onyx Chestplate
+item.onyx_legs.name=Onyx Leggings
+item.onyx_boots.name=Onyx Boots
+
+
+item.graphene_gem.name=Graphene
+tile.graphene_block.name=Graphene Block
+tile.graphene_ore.name=Graphene Ore
+
+item.graphene_sword.name=Graphene Sword
+item.graphene_shovel.name=Graphene Shovel
+item.graphene_pickaxe.name=Graphene Pickaxe
+item.graphene_axe.name=Graphene Axe
+item.graphene_hoe.name=Graphene Hoe
+
+item.graphene_helmet.name=Graphene Helmet
+item.graphene_chest.name=Graphene Chestplate
+item.graphene_legs.name=Graphene Leggings
+item.graphene_boots.name=Graphene Boots
+
+
+item.turquartz_gem.name=Turquartz
+tile.turquartz_block.name=Turquartz Block
+tile.turquartz_ore.name=Turquartz Ore
+
+item.turquartz_sword.name=Turquartz Sword
+item.turquartz_shovel.name=Turquartz Shovel
+item.turquartz_pickaxe.name=Turquartz Pickaxe
+item.turquartz_axe.name=Turquartz Axe
+item.turquartz_hoe.name=Turquartz Hoe
+
+item.turquartz_helmet.name=Turquartz Helmet
+item.turquartz_chest.name=Turquartz Chestplate
+item.turquartz_legs.name=Turquartz Leggings
+item.turquartz_boots.name=Turquartz Boots
+
+
+item.rooiekool.name=Rooiekool
+
+itemGroup.moresitemstab=mOres Items
+itemGroup.moresblockstab=mOres Blocks
+itemGroup.morestoolstab=mOres Tools
+itemGroup.moresarmortab=mOres Armor
+itemGroup.moresorestab=more Ores
+
+
+
+
+
