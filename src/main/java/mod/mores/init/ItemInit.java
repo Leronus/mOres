@@ -281,9 +281,9 @@ public class ItemInit {
     public static final Item STONE_DAGGER = new ToolDagger("stone_dagger", Item.ToolMaterial.STONE);
     public static final Item STONE_MACE = new ToolMace("stone_mace", Item.ToolMaterial.STONE);
 
-    public static final Item IRON_BATTLEAXE = new ToolBattleaxe("stone_battleaxe", Item.ToolMaterial.IRON);
-    public static final Item IRON_DAGGER = new ToolDagger("stone_dagger", Item.ToolMaterial.IRON);
-    public static final Item IRON_MACE = new ToolMace("stone_mace", Item.ToolMaterial.IRON);
+    public static final Item IRON_BATTLEAXE = new ToolBattleaxe("iron_battleaxe", Item.ToolMaterial.IRON);
+    public static final Item IRON_DAGGER = new ToolDagger("iron_dagger", Item.ToolMaterial.IRON);
+    public static final Item IRON_MACE = new ToolMace("iron_mace", Item.ToolMaterial.IRON);
 
     public static final Item GOLD_BATTLEAXE = new ToolBattleaxe("gold_battleaxe", Item.ToolMaterial.GOLD);
     public static final Item GOLD_DAGGER = new ToolDagger("gold_dagger", Item.ToolMaterial.GOLD);
