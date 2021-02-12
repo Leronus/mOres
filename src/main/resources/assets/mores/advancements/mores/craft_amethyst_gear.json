@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/obtain_amethyst",
   "criteria": {
     "craft_amethyst_sword": {
       "trigger": "minecraft:inventory_changed",
