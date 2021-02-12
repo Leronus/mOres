@@ -1,4 +1,4 @@
-Args: "--in-jar", "C:\Users\Leron\Desktop\mOres_mod\build\libs\mOres-v2.0.jar", "--out-jar", "C:\Users\Leron\Desktop\mOres_mod\build\reobfJar\output.jar", "--srg-in", "C:\Users\Leron\Desktop\mOres_mod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Users\Leron\Desktop\Mcmod\mOres_mod\build\libs\mOres-v2.0.jar", "--out-jar", "C:\Users\Leron\Desktop\Mcmod\mOres_mod\build\reobfJar\output.jar", "--srg-in", "C:\Users\Leron\Desktop\Mcmod\mOres_mod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12-recomp.jar
 Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar
@@ -69,7 +69,7 @@ Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-ana
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar
-WorkDir: C:\Users\Leron\Desktop\mOres_mod\build\reobfJar
+WorkDir: C:\Users\Leron\Desktop\Mcmod\mOres_mod\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

@@ -102,116 +102,172 @@ public class ItemInit {
     public static final Item AMETHYST_AXE = new ToolAxe(7.0F, -3.1F, "amethyst_axe", TOOL_AMETHYST);
     public static final Item AMETHYST_SHOVEL = new ToolShovel("amethyst_shovel", TOOL_AMETHYST);
     public static final Item AMETHYST_HOE = new ToolHoe("amethyst_hoe", TOOL_AMETHYST);
-    public static final Item AMETHYST_BATTLEAXE = new ToolBattleaxe(7.5F, -2.8F, "amethyst_battleaxe", TOOL_AMETHYST);
+    public static final Item AMETHYST_BATTLEAXE = new ToolBattleaxe("amethyst_battleaxe", TOOL_AMETHYST);
+    public static final Item AMETHYST_DAGGER = new ToolDagger("amethyst_dagger", TOOL_AMETHYST);
+    public static final Item AMETHYST_MACE = new ToolMace("amethyst_mace", TOOL_AMETHYST);
 
     public static final Item MOISSANITE_SWORD = new ToolSword("moissanite_sword", TOOL_MOISSANITE);
     public static final Item MOISSANITE_PICKAXE = new ToolPickaxe("moissanite_pickaxe", TOOL_MOISSANITE);
     public static final Item MOISSANITE_AXE = new ToolAxe(8.0F, -2.8F, "moissanite_axe", TOOL_MOISSANITE);
     public static final Item MOISSANITE_SHOVEL = new ToolShovel("moissanite_shovel", TOOL_MOISSANITE);
     public static final Item MOISSANITE_HOE = new ToolHoe("moissanite_hoe", TOOL_MOISSANITE);
-    public static final Item MOISSANITE_BATTLEAXE = new ToolBattleaxe(8.5F, -2.5F, "moissanite_battleaxe", TOOL_MOISSANITE);
+    public static final Item MOISSANITE_BATTLEAXE = new ToolBattleaxe("moissanite_battleaxe", TOOL_MOISSANITE);
+    public static final Item MOISSANITE_DAGGER = new ToolDagger("moissanite_dagger", TOOL_MOISSANITE);
+    public static final Item MOISSANITE_MACE = new ToolMace("moissanite_mace", TOOL_MOISSANITE);
 
     public static final Item ONYX_SWORD = new ToolSword("onyx_sword", TOOL_ONYX);
     public static final Item ONYX_PICKAXE = new ToolPickaxe("onyx_pickaxe", TOOL_ONYX);
     public static final Item ONYX_AXE = new ToolAxe(8.5F, -2.9F, "onyx_axe", TOOL_ONYX);
     public static final Item ONYX_SHOVEL = new ToolShovel("onyx_shovel", TOOL_ONYX);
     public static final Item ONYX_HOE = new ToolHoe("onyx_hoe", TOOL_ONYX);
+    public static final Item ONYX_BATTLEAXE = new ToolBattleaxe("onyx_battleaxe", TOOL_ONYX);
+    public static final Item ONYX_DAGGER = new ToolDagger("onyx_dagger", TOOL_ONYX);
+    public static final Item ONYX_MACE = new ToolMace("onyx_mace", TOOL_ONYX);
 
     public static final Item RUBY_SWORD = new ToolSword("ruby_sword", TOOL_RUBY);
     public static final Item RUBY_PICKAXE = new ToolPickaxe("ruby_pickaxe", TOOL_RUBY);
     public static final Item RUBY_AXE = new ToolAxe(8.0F, -3.0F, "ruby_axe", TOOL_RUBY);
     public static final Item RUBY_SHOVEL = new ToolShovel("ruby_shovel", TOOL_RUBY);
     public static final Item RUBY_HOE = new ToolHoe("ruby_hoe", TOOL_RUBY);
+    public static final Item RUBY_BATTLEAXE = new ToolBattleaxe("ruby_battleaxe", TOOL_RUBY);
+    public static final Item RUBY_DAGGER = new ToolDagger("ruby_dagger", TOOL_RUBY);
+    public static final Item RUBY_MACE = new ToolMace("ruby_mace", TOOL_RUBY);
 
     public static final Item SAPPHIRE_SWORD = new ToolSword("sapphire_sword", TOOL_SAPPHIRE);
     public static final Item SAPPHIRE_PICKAXE = new ToolPickaxe("sapphire_pickaxe", TOOL_SAPPHIRE);
     public static final Item SAPPHIRE_AXE = new ToolAxe(8.0F, -3.0F, "sapphire_axe", TOOL_SAPPHIRE);
     public static final Item SAPPHIRE_SHOVEL = new ToolShovel("sapphire_shovel", TOOL_SAPPHIRE);
     public static final Item SAPPHIRE_HOE = new ToolHoe("sapphire_hoe", TOOL_SAPPHIRE);
+    public static final Item SAPPHIRE_BATTLEAXE = new ToolBattleaxe("sapphire_battleaxe", TOOL_SAPPHIRE);
+    public static final Item SAPPHIRE_DAGGER = new ToolDagger("sapphire_dagger", TOOL_SAPPHIRE);
+    public static final Item SAPPHIRE_MACE = new ToolMace("sapphire_mace", TOOL_SAPPHIRE);
 
     public static final Item TOURMALINE_SWORD = new ToolSword("tourmaline_sword", TOOL_TOURMALINE);
     public static final Item TOURMALINE_PICKAXE = new ToolPickaxe("tourmaline_pickaxe", TOOL_TOURMALINE);
     public static final Item TOURMALINE_AXE = new ToolAxe(7.7F, -3.0F, "tourmaline_axe", TOOL_TOURMALINE);
     public static final Item TOURMALINE_SHOVEL = new ToolShovel("tourmaline_shovel", TOOL_TOURMALINE);
     public static final Item TOURMALINE_HOE = new ToolHoe("tourmaline_hoe", TOOL_TOURMALINE);
+    public static final Item TOURMALINE_BATTLEAXE = new ToolBattleaxe("tourmaline_battleaxe", TOOL_TOURMALINE);
+    public static final Item TOURMALINE_DAGGER = new ToolDagger("tourmaline_dagger", TOOL_TOURMALINE);
+    public static final Item TOURMALINE_MACE = new ToolMace("tourmaline_mace", TOOL_TOURMALINE);
 
     public static final Item GRAPHENE_SWORD = new ToolSword("graphene_sword", TOOL_GRAPHENE);
     public static final Item GRAPHENE_PICKAXE = new ToolPickaxe("graphene_pickaxe", TOOL_GRAPHENE);
     public static final Item GRAPHENE_AXE = new ToolAxe(8.2F, -2.9F, "graphene_axe", TOOL_GRAPHENE);
     public static final Item GRAPHENE_SHOVEL = new ToolShovel("graphene_shovel", TOOL_GRAPHENE);
     public static final Item GRAPHENE_HOE = new ToolHoe("graphene_hoe", TOOL_GRAPHENE);
+    public static final Item GRAPHENE_BATTLEAXE = new ToolBattleaxe("graphene_battleaxe", TOOL_GRAPHENE);
+    public static final Item GRAPHENE_DAGGER = new ToolDagger("graphene_dagger", TOOL_GRAPHENE);
+    public static final Item GRAPHENE_MACE = new ToolMace("graphene_mace", TOOL_GRAPHENE);
 
     public static final Item TANZANITE_SWORD = new ToolSword("tanzanite_sword", TOOL_TANZANITE);
     public static final Item TANZANITE_PICKAXE = new ToolPickaxe("tanzanite_pickaxe", TOOL_TANZANITE);
     public static final Item TANZANITE_AXE = new ToolAxe(7.7F, -3.0F, "tanzanite_axe", TOOL_TANZANITE);
     public static final Item TANZANITE_SHOVEL = new ToolShovel("tanzanite_shovel", TOOL_TANZANITE);
     public static final Item TANZANITE_HOE = new ToolHoe("tanzanite_hoe", TOOL_TANZANITE);
+    public static final Item TANZANITE_BATTLEAXE = new ToolBattleaxe("tanzanite_battleaxe", TOOL_TANZANITE);
+    public static final Item TANZANITE_DAGGER = new ToolDagger("tanzanite_dagger", TOOL_TANZANITE);
+    public static final Item TANZANITE_MACE = new ToolMace("tanzanite_mace", TOOL_TANZANITE);
 
     public static final Item TOPAZ_SWORD = new ToolSword("topaz_sword", TOOL_TOPAZ);
     public static final Item TOPAZ_PICKAXE = new ToolPickaxe("topaz_pickaxe", TOOL_TOPAZ);
     public static final Item TOPAZ_AXE = new ToolAxe(7.7F, -3.0F, "topaz_axe", TOOL_TOPAZ);
     public static final Item TOPAZ_SHOVEL = new ToolShovel("topaz_shovel", TOOL_TOPAZ);
     public static final Item TOPAZ_HOE = new ToolHoe("topaz_hoe", TOOL_TOPAZ);
+    public static final Item TOPAZ_BATTLEAXE = new ToolBattleaxe("topaz_battleaxe", TOOL_TOPAZ);
+    public static final Item TOPAZ_DAGGER = new ToolDagger("topaz_dagger", TOOL_TOPAZ);
+    public static final Item TOPAZ_MACE = new ToolMace("topaz_mace", TOOL_TOPAZ);
 
     public static final Item TURQUARTZ_SWORD = new ToolSword("turquartz_sword", TOOL_TURQUARTZ);
     public static final Item TURQUARTZ_PICKAXE = new ToolPickaxe("turquartz_pickaxe", TOOL_TURQUARTZ);
     public static final Item TURQUARTZ_AXE = new ToolAxe(7.7F, -3.0F, "turquartz_axe", TOOL_TURQUARTZ);
     public static final Item TURQUARTZ_SHOVEL = new ToolShovel("turquartz_shovel", TOOL_TURQUARTZ);
     public static final Item TURQUARTZ_HOE = new ToolHoe("turquartz_hoe", TOOL_TURQUARTZ);
+    public static final Item TURQUARTZ_BATTLEAXE = new ToolBattleaxe("turquartz_battleaxe", TOOL_TURQUARTZ);
+    public static final Item TURQUARTZ_DAGGER = new ToolDagger("turquartz_dagger", TOOL_TURQUARTZ);
+    public static final Item TURQUARTZ_MACE = new ToolMace("turquartz_mace", TOOL_TURQUARTZ);
 
     public static final Item COBALT_SWORD = new ToolSword("cobalt_sword", TOOL_COBALT);
     public static final Item COBALT_PICKAXE = new ToolPickaxe("cobalt_pickaxe", TOOL_COBALT);
     public static final Item COBALT_AXE = new ToolAxe(7.2F, -3.1F, "cobalt_axe", TOOL_COBALT);
     public static final Item COBALT_SHOVEL = new ToolShovel("cobalt_shovel", TOOL_COBALT);
     public static final Item COBALT_HOE = new ToolHoe("cobalt_hoe", TOOL_COBALT);
+    public static final Item COBALT_BATTLEAXE = new ToolBattleaxe("cobalt_battleaxe", TOOL_COBALT);
+    public static final Item COBALT_DAGGER = new ToolDagger("cobalt_dagger", TOOL_COBALT);
+    public static final Item COBALT_MACE = new ToolMace("cobalt_mace", TOOL_COBALT);
 
     public static final Item COPPER_SWORD = new ToolSword("copper_sword", TOOL_COPPER);
     public static final Item COPPER_PICKAXE = new ToolPickaxe("copper_pickaxe", TOOL_COPPER);
     public static final Item COPPER_AXE = new ToolAxe(6.5F, -3.3F, "copper_axe", TOOL_COPPER);
     public static final Item COPPER_SHOVEL = new ToolShovel("copper_shovel", TOOL_COPPER);
     public static final Item COPPER_HOE = new ToolHoe("copper_hoe", TOOL_COPPER);
+    public static final Item COPPER_BATTLEAXE = new ToolBattleaxe("copper_battleaxe", TOOL_COPPER);
+    public static final Item COPPER_DAGGER = new ToolDagger("copper_dagger", TOOL_COPPER);
+    public static final Item COPPER_MACE = new ToolMace("copper_mace", TOOL_COPPER);
 
     public static final Item SILVER_SWORD = new ToolSword("silver_sword", TOOL_SILVER);
     public static final Item SILVER_PICKAXE = new ToolPickaxe("silver_pickaxe", TOOL_SILVER);
     public static final Item SILVER_AXE = new ToolAxe(7.0F, -3.2F, "silver_axe", TOOL_SILVER);
     public static final Item SILVER_SHOVEL = new ToolShovel("silver_shovel", TOOL_SILVER);
     public static final Item SILVER_HOE = new ToolHoe("silver_hoe", TOOL_SILVER);
+    public static final Item SILVER_BATTLEAXE = new ToolBattleaxe("silver_battleaxe", TOOL_SILVER);
+    public static final Item SILVER_DAGGER = new ToolDagger("silver_dagger", TOOL_SILVER);
+    public static final Item SILVER_MACE = new ToolMace("silver_mace", TOOL_SILVER);
 
     public static final Item STEEL_SWORD = new ToolSword("steel_sword", TOOL_STEEL);
     public static final Item STEEL_PICKAXE = new ToolPickaxe("steel_pickaxe", TOOL_STEEL);
     public static final Item STEEL_AXE = new ToolAxe(7.5F, -3.1F, "steel_axe", TOOL_STEEL);
     public static final Item STEEL_SHOVEL = new ToolShovel("steel_shovel", TOOL_STEEL);
     public static final Item STEEL_HOE = new ToolHoe("steel_hoe", TOOL_STEEL);
+    public static final Item STEEL_BATTLEAXE = new ToolBattleaxe("steel_battleaxe", TOOL_STEEL);
+    public static final Item STEEL_DAGGER = new ToolDagger("steel_dagger", TOOL_STEEL);
+    public static final Item STEEL_MACE = new ToolMace("steel_mace", TOOL_STEEL);
 
     public static final Item TIN_SWORD = new ToolSword("tin_sword", TOOL_TIN);
     public static final Item TIN_PICKAXE = new ToolPickaxe("tin_pickaxe", TOOL_TIN);
     public static final Item TIN_AXE = new ToolAxe(6.5F, -3.3F, "tin_axe", TOOL_TIN);
     public static final Item TIN_SHOVEL = new ToolShovel("tin_shovel", TOOL_TIN);
     public static final Item TIN_HOE = new ToolHoe("tin_hoe", TOOL_TIN);
+    public static final Item TIN_BATTLEAXE = new ToolBattleaxe("tin_battleaxe", TOOL_TIN);
+    public static final Item TIN_DAGGER = new ToolDagger("tin_dagger", TOOL_TIN);
+    public static final Item TIN_MACE = new ToolMace("tin_mace", TOOL_TIN);
 
     public static final Item BRONZE_SWORD = new ToolSword("bronze_sword", TOOL_BRONZE);
     public static final Item BRONZE_PICKAXE = new ToolPickaxe("bronze_pickaxe", TOOL_BRONZE);
     public static final Item BRONZE_AXE = new ToolAxe(7.0F, -3.2F, "bronze_axe", TOOL_BRONZE);
     public static final Item BRONZE_SHOVEL = new ToolShovel("bronze_shovel", TOOL_BRONZE);
     public static final Item BRONZE_HOE = new ToolHoe("bronze_hoe", TOOL_BRONZE);
+    public static final Item BRONZE_BATTLEAXE = new ToolBattleaxe("bronze_battleaxe", TOOL_BRONZE);
+    public static final Item BRONZE_DAGGER = new ToolDagger("bronze_dagger", TOOL_BRONZE);
+    public static final Item BRONZE_MACE = new ToolMace("bronze_mace", TOOL_BRONZE);
 
     public static final Item STERLING_SWORD = new ToolSword("sterling_sword", TOOL_STERLING);
     public static final Item STERLING_PICKAXE = new ToolPickaxe("sterling_pickaxe", TOOL_STERLING);
     public static final Item STERLING_AXE = new ToolAxe(6.5F, -3.3F, "sterling_axe", TOOL_STERLING);
     public static final Item STERLING_SHOVEL = new ToolShovel("sterling_shovel", TOOL_STERLING);
     public static final Item STERLING_HOE = new ToolHoe("sterling_hoe", TOOL_STERLING);
+    public static final Item STERLING_BATTLEAXE = new ToolBattleaxe("sterling_battleaxe", TOOL_STERLING);
+    public static final Item STERLING_DAGGER = new ToolDagger("sterling_dagger", TOOL_STERLING);
+    public static final Item STERLING_MACE = new ToolMace("sterling_mace", TOOL_STERLING);
 
     public static final Item EMERALD_SWORD = new ToolSword("emerald_sword", TOOL_EMERALD);
     public static final Item EMERALD_PICKAXE = new ToolPickaxe("emerald_pickaxe", TOOL_EMERALD);
     public static final Item EMERALD_AXE = new ToolAxe(7.5F, -3.0F, "emerald_axe", TOOL_EMERALD);
     public static final Item EMERALD_SHOVEL = new ToolShovel("emerald_shovel", TOOL_EMERALD);
     public static final Item EMERALD_HOE = new ToolHoe("emerald_hoe", TOOL_EMERALD);
+    public static final Item EMERALD_BATTLEAXE = new ToolBattleaxe("emerald_battleaxe", TOOL_EMERALD);
+    public static final Item EMERALD_DAGGER = new ToolDagger("emerald_dagger", TOOL_EMERALD);
+    public static final Item EMERALD_MACE = new ToolMace("emerald_mace", TOOL_EMERALD);
 
     public static final Item OBSIDIAN_SWORD = new ToolSword("obsidian_sword", TOOL_OBSIDIAN);
     public static final Item OBSIDIAN_PICKAXE = new ToolPickaxe("obsidian_pickaxe", TOOL_OBSIDIAN);
     public static final Item OBSIDIAN_AXE = new ToolAxe(7.5F, -3.0F, "obsidian_axe", TOOL_OBSIDIAN);
     public static final Item OBSIDIAN_SHOVEL = new ToolShovel("obsidian_shovel", TOOL_OBSIDIAN);
     public static final Item OBSIDIAN_HOE = new ToolHoe("obsidian_hoe", TOOL_OBSIDIAN);
+    public static final Item OBSIDIAN_BATTLEAXE = new ToolBattleaxe("obsidian_battleaxe", TOOL_OBSIDIAN);
+    public static final Item OBSIDIAN_DAGGER = new ToolDagger("obsidian_dagger", TOOL_OBSIDIAN);
+    public static final Item OBSIDIAN_MACE = new ToolMace("obsidian_mace", TOOL_OBSIDIAN);
+
 
 
 
