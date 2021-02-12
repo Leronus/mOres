@@ -4,6 +4,7 @@ import mod.mores.objects.ItemBase;
 import mod.mores.objects.items.armor.ArmorBase;
 import mod.mores.objects.items.tools.*;
 import mod.mores.util.Reference;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -93,7 +94,11 @@ public class ItemInit {
     public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot");
     //public static final Item STERLING_INGOT = new ItemBase("sterling_ingot");
 
+    public static final Item CHAIN = new ItemBase("chain");
+
+    //Fuels
     public static final Item ROOIEKOOL = new ItemBase("rooiekool");
+
 
 
     //Tools
@@ -268,7 +273,25 @@ public class ItemInit {
     public static final Item OBSIDIAN_DAGGER = new ToolDagger("obsidian_dagger", TOOL_OBSIDIAN);
     public static final Item OBSIDIAN_MACE = new ToolMace("obsidian_mace", TOOL_OBSIDIAN);
 
+    public static final Item WOOD_BATTLEAXE = new ToolBattleaxe("wood_battleaxe", Item.ToolMaterial.WOOD);
+    public static final Item WOOD_DAGGER = new ToolDagger("wood_dagger", Item.ToolMaterial.WOOD);
+    public static final Item WOOD_MACE = new ToolMace("wood_mace", Item.ToolMaterial.WOOD);
 
+    public static final Item STONE_BATTLEAXE = new ToolBattleaxe("stone_battleaxe", Item.ToolMaterial.STONE);
+    public static final Item STONE_DAGGER = new ToolDagger("stone_dagger", Item.ToolMaterial.STONE);
+    public static final Item STONE_MACE = new ToolMace("stone_mace", Item.ToolMaterial.STONE);
+
+    public static final Item IRON_BATTLEAXE = new ToolBattleaxe("stone_battleaxe", Item.ToolMaterial.IRON);
+    public static final Item IRON_DAGGER = new ToolDagger("stone_dagger", Item.ToolMaterial.IRON);
+    public static final Item IRON_MACE = new ToolMace("stone_mace", Item.ToolMaterial.IRON);
+
+    public static final Item GOLD_BATTLEAXE = new ToolBattleaxe("gold_battleaxe", Item.ToolMaterial.GOLD);
+    public static final Item GOLD_DAGGER = new ToolDagger("gold_dagger", Item.ToolMaterial.GOLD);
+    public static final Item GOLD_MACE = new ToolMace("gold_mace", Item.ToolMaterial.GOLD);
+
+    public static final Item DIAMOND_BATTLEAXE = new ToolBattleaxe("diamond_battleaxe", Item.ToolMaterial.DIAMOND);
+    public static final Item DIAMOND_DAGGER = new ToolDagger("diamond_dagger", Item.ToolMaterial.DIAMOND);
+    public static final Item DIAMOND_MACE = new ToolMace("diamond_mace", Item.ToolMaterial.DIAMOND);
 
 
 

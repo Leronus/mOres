@@ -49,13 +49,13 @@ public class ToolMace extends ItemSword {
         if (slot == EntityEquipmentSlot.MAINHAND) {
             //1.5 multiplier -> attack damage = 11.5
             //1.6 multiplier -> attack damage = 12.2
-            replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 1);
+            replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_DAMAGE, ATTACK_DAMAGE_MODIFIER, 0.9);
             //1.2 multiplier -> attack speed = 1.12
             //1.3 multiplier -> attack speed = 0.88
             //1.4 multiplier -> attack speed = 0.64
             //1.5 multiplier -> attack speed = 0.40
             //2.0 multiplier -> attack speed = -0.8
-            replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.8);
+            replaceModifier(modifiers, SharedMonsterAttributes.ATTACK_SPEED, ATTACK_SPEED_MODIFIER, 0.75);
         }
 
         return modifiers;
