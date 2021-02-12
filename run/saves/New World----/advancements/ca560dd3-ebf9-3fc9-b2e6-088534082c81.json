@@ -1,0 +1,214 @@
+{
+  "mores:mores/craft_full_silver_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 21:35:33 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/mores": {
+    "criteria": {
+      "crafting_table": "2021-02-12 21:30:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_copper_pickaxe": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 21:35:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2021-02-12 21:33:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2021-02-12 21:31:17 +0100",
+      "ice_mountains": "2021-02-12 21:32:19 +0100",
+      "taiga_cold": "2021-02-12 21:29:44 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-12 21:29:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_onyx_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 21:32:55 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 21:34:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-02-12 21:30:41 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_copper_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-02-12 21:33:38 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tin_ore": {
+    "criteria": {
+      "obtain_tin_ore": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2021-02-12 21:33:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-12 21:29:44 +0100"
+    },
+    "done": true
+  }
+}

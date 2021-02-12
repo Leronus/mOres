@@ -107,6 +107,6 @@
     ["craft_emerald_sword", "craft_emerald_pickaxe", "craft_emerald_axe", "craft_emerald_shovel", "craft_emerald_hoe", "craft_emerald_helmet", "craft_emerald_chest", "craft_emerald_legs", "craft_emerald_boots"]
   ],
   "rewards": {
-    "experience": 40
+    "experience": 45
   }
 }

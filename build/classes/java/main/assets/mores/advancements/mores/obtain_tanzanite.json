@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "I'm Blue Dabadee",
+    "description": "You have mined your very first tanzanite gem",
+    "icon": {
+      "item": "mores:tanzanite_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_amethyst",
+  "criteria": {
+    "obtain_tourmaline_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tanzanite_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

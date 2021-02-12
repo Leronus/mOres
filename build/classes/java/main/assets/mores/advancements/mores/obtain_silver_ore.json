@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/obtain_copper_ore",
   "criteria": {
     "obtain_copper_ore": {
       "trigger": "minecraft:inventory_changed",
