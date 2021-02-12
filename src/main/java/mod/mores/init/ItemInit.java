@@ -45,6 +45,7 @@ public class ItemInit {
     //Tool materials
     public static final Item.ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("copper", 2, 87, 5.0F, 1.5F, 10);
     public static final Item.ToolMaterial TOOL_TIN = EnumHelper.addToolMaterial("tin", 2, 100, 4.8F, 1.5F, 13);
+
     public static final Item.ToolMaterial TOOL_SILVER = EnumHelper.addToolMaterial("silver", 3, 234, 5.5F, 1.8F, 25);
 
     public static final Item.ToolMaterial TOOL_BRONZE = EnumHelper.addToolMaterial("bronze", 4, 256, 5.5F, 2.0F, 12);

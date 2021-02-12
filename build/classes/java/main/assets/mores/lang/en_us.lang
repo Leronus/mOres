@@ -1,6 +1,32 @@
 tile.alloy_furnace.name=Alloy Furnace
 container.alloy_furnace=Alloy Furnace
 
+
+item.wood_battleaxe.name=Wood Battle Axe
+item.wood_mace.name=Wood Mace
+item.wood_dagger.name=Wood Dagger
+item.wood_spear.name=Wood Spear
+
+item.stone_battleaxe.name=Stone Battle Axe
+item.stone_mace.name=Stone Mace
+item.stone_dagger.name=Stone Dagger
+item.stone_spear.name=Stone Spear
+
+item.iron_battleaxe.name=Iron Battle Axe
+item.iron_mace.name=Iron Mace
+item.iron_dagger.name=Iron Dagger
+item.iron_spear.name=Iron Spear
+
+item.gold_battleaxe.name=Gold Battle Axe
+item.gold_mace.name=Gold Mace
+item.gold_dagger.name=Gold Dagger
+item.gold_spear.name=Gold Spear
+
+item.diamond_battleaxe.name=Diamond Battle Axe
+item.diamond_mace.name=Diamond Mace
+item.diamond_dagger.name=Diamond Dagger
+item.diamond_spear.name=Diamond Spear
+
 item.ruby_gem.name=Ruby
 tile.ruby_block.name=Ruby Block
 tile.ruby_ore.name=Ruby Ore
@@ -369,6 +395,7 @@ item.turquartz_chest.name=Turquartz Chestplate
 item.turquartz_legs.name=Turquartz Leggings
 item.turquartz_boots.name=Turquartz Boots
 
+item.chain.name=Chain
 
 item.rooiekool.name=Rooiekool
 
