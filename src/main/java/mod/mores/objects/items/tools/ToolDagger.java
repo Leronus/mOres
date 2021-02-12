@@ -27,6 +27,7 @@ public class ToolDagger extends ItemSword {
     public ToolDagger(String name, Item.ToolMaterial material)
     {
         super(material);
+        toolMaterial = material;
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Mores.MORESTOOLSTAB);
