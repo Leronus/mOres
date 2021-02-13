@@ -2,10 +2,10 @@ tile.alloy_furnace.name=Alloy Furnace
 container.alloy_furnace=Alloy Furnace
 
 
-item.wood_battleaxe.name=Wood Battle Axe
-item.wood_mace.name=Wood Mace
-item.wood_dagger.name=Wood Dagger
-item.wood_spear.name=Wood Spear
+item.wood_battleaxe.name=Wooden Battle Axe
+item.wood_mace.name=Wooden Mace
+item.wood_dagger.name=Wooden Dagger
+item.wood_spear.name=Wooden Spear
 
 item.stone_battleaxe.name=Stone Battle Axe
 item.stone_mace.name=Stone Mace
