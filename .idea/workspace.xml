@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-09-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-09-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_moissanite_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_ruby_armor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_sterling.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_tanzanite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_turquoise_9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/where.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/craft_full_obsidian_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/craft_full_obsidian_armor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_obsidian_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_obsidian_armor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_turquoise.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_turquoise.json" afterDir="false" />
-    </list>
+    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="Final advancement update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +104,9 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Mod now on github. Mores version 2 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mod now on github. Mores version 2 Initial commit" />
+    <MESSAGE value="Advancement update" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Final advancement update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final advancement update" />
   </component>
 </project>

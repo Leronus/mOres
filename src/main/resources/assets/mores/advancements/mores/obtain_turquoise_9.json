@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_ruby",
   "criteria": {
-    "obtain_steel_ingot": {
+    "obtain_turquoise_9": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
