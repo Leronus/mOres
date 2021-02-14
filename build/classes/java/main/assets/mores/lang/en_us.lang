@@ -1,6 +1,32 @@
 tile.alloy_furnace.name=Alloy Furnace
 container.alloy_furnace=Alloy Furnace
 
+
+item.wood_battleaxe.name=Wood Battle Axe
+item.wood_mace.name=Wood Mace
+item.wood_dagger.name=Wood Dagger
+item.wood_spear.name=Wood Spear
+
+item.stone_battleaxe.name=Stone Battle Axe
+item.stone_mace.name=Stone Mace
+item.stone_dagger.name=Stone Dagger
+item.stone_spear.name=Stone Spear
+
+item.iron_battleaxe.name=Iron Battle Axe
+item.iron_mace.name=Iron Mace
+item.iron_dagger.name=Iron Dagger
+item.iron_spear.name=Iron Spear
+
+item.gold_battleaxe.name=Gold Battle Axe
+item.gold_mace.name=Gold Mace
+item.gold_dagger.name=Gold Dagger
+item.gold_spear.name=Gold Spear
+
+item.diamond_battleaxe.name=Diamond Battle Axe
+item.diamond_mace.name=Diamond Mace
+item.diamond_dagger.name=Diamond Dagger
+item.diamond_spear.name=Diamond Spear
+
 item.ruby_gem.name=Ruby
 tile.ruby_block.name=Ruby Block
 tile.ruby_ore.name=Ruby Ore
@@ -10,6 +36,10 @@ item.ruby_shovel.name=Ruby Shovel
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_axe.name=Ruby Axe
 item.ruby_hoe.name=Ruby Hoe
+item.ruby_battleaxe.name=Ruby Battle Axe
+item.ruby_mace.name=Ruby Mace
+item.ruby_dagger.name=Ruby Dagger
+item.ruby_spear.name=Ruby Spear
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chest.name=Ruby Chestplate
@@ -26,6 +56,10 @@ item.cobalt_shovel.name=Cobalt Shovel
 item.cobalt_pickaxe.name=Cobalt Pickaxe
 item.cobalt_axe.name=Cobalt Axe
 item.cobalt_hoe.name=Cobalt Hoe
+item.cobalt_battleaxe.name=Cobalt Battle Axe
+item.cobalt_mace.name=Cobalt Mace
+item.cobalt_dagger.name=Cobalt Dagger
+item.cobalt_spear.name=Cobalt Spear
 
 item.cobalt_helmet.name=Cobalt Helmet
 item.cobalt_chest.name=Cobalt Chestplate
@@ -42,6 +76,10 @@ item.amethyst_shovel.name=Amethyst Shovel
 item.amethyst_pickaxe.name=Amethyst Pickaxe
 item.amethyst_axe.name=Amethyst Axe
 item.amethyst_hoe.name=Amethyst Hoe
+item.amethyst_battleaxe.name=Amethyst Battle Axe
+item.amethyst_mace.name=Amethyst Mace
+item.amethyst_dagger.name=Amethyst Dagger
+item.amethyst_spear.name=Amethyst Spear
 
 item.amethyst_helmet.name=Amethyst Helmet
 item.amethyst_chest.name=Amethyst Chestplate
@@ -58,6 +96,10 @@ item.sapphire_shovel.name=Sapphire Shovel
 item.sapphire_pickaxe.name=Sapphire Pickaxe
 item.sapphire_axe.name=Sapphire Axe
 item.sapphire_hoe.name=Sapphire Hoe
+item.sapphire_battleaxe.name=Sapphire Battle Axe
+item.sapphire_mace.name=Sapphire Mace
+item.sapphire_dagger.name=Sapphire Dagger
+item.sapphire_spear.name=Sapphire Spear
 
 item.sapphire_helmet.name=Sapphire Helmet
 item.sapphire_chest.name=Sapphire Chestplate
@@ -74,6 +116,10 @@ item.copper_shovel.name=Copper Shovel
 item.copper_pickaxe.name=Copper Pickaxe
 item.copper_axe.name=Copper Axe
 item.copper_hoe.name=Copper Hoe
+item.copper_battleaxe.name=Copper Battle Axe
+item.copper_mace.name=Copper Mace
+item.copper_dagger.name=Copper Dagger
+item.copper_spear.name=Copper Spear
 
 item.copper_helmet.name=Copper Helmet
 item.copper_chest.name=Copper Chestplate
@@ -86,6 +132,10 @@ item.emerald_shovel.name=Emerald Shovel
 item.emerald_pickaxe.name=Emerald Pickaxe
 item.emerald_axe.name=Emerald Axe
 item.emerald_hoe.name=Emerald Hoe
+item.emerald_battleaxe.name=Emerald Battle Axe
+item.emerald_mace.name=Emerald Mace
+item.emerald_dagger.name=Emerald Dagger
+item.emerald_spear.name=Emerald Spear
 
 item.emerald_helmet.name=Emerald Helmet
 item.emerald_chest.name=Emerald Chestplate
@@ -98,6 +148,10 @@ item.obsidian_shovel.name=Obsidian Shovel
 item.obsidian_pickaxe.name=Obsidian Pickaxe
 item.obsidian_axe.name=Obsidian Axe
 item.obsidian_hoe.name=Obsidian Hoe
+item.obsidian_battleaxe.name=Obsidian Battle Axe
+item.obsidian_mace.name=Obsidian Mace
+item.obsidian_dagger.name=Obsidian Dagger
+item.obsidian_spear.name=Obsidian Spear
 
 item.obsidian_helmet.name=Obsidian Helmet
 item.obsidian_chest.name=Obsidian Chestplate
@@ -114,6 +168,10 @@ item.silver_shovel.name=Silver Shovel
 item.silver_pickaxe.name=Silver Pickaxe
 item.silver_axe.name=Silver Axe
 item.silver_hoe.name=Silver Hoe
+item.silver_battleaxe.name=Silver Battle Axe
+item.silver_mace.name=Silver Mace
+item.silver_dagger.name=Silver Dagger
+item.silver_spear.name=Silver Spear
 
 item.silver_helmet.name=Silver Helmet
 item.silver_chest.name=Silver Chestplate
@@ -129,6 +187,10 @@ item.topaz_shovel.name=Topaz Shovel
 item.topaz_pickaxe.name=Topaz Pickaxe
 item.topaz_axe.name=Topaz Axe
 item.topaz_hoe.name=Topaz Hoe
+item.topaz_battleaxe.name=Topaz Battle Axe
+item.topaz_mace.name=Topaz Mace
+item.topaz_dagger.name=Topaz Dagger
+item.topaz_spear.name=Topaz Spear
 
 item.topaz_helmet.name=Topaz Helmet
 item.topaz_chest.name=Topaz Chestplate
@@ -148,6 +210,7 @@ item.moissanite_shovel.name=Moissanite Shovel
 item.moissanite_pickaxe.name=Moissanite Pickaxe
 item.moissanite_axe.name=Moissanite Axe
 item.moissanite_hoe.name=Moissanite Hoe
+item.moissanite_battleaxe.name=Moissanite Battle Axe
 
 item.moissanite_helmet.name=Moissanite Helmet
 item.moissanite_chest.name=Moissanite Chestplate
@@ -164,6 +227,10 @@ item.tin_shovel.name=Tin Shovel
 item.tin_pickaxe.name=Tin Pickaxe
 item.tin_axe.name=Tin Axe
 item.tin_hoe.name=Tin Hoe
+item.tin_battleaxe.name=Tin Battle Axe
+item.tin_mace.name=Tin Mace
+item.tin_dagger.name=Tin Dagger
+item.tin_spear.name=Tin Spear
 
 item.tin_helmet.name=Tin Helmet
 item.tin_chest.name=Tin Chestplate
@@ -180,6 +247,10 @@ item.bronze_shovel.name=Bronze Shovel
 item.bronze_pickaxe.name=Bronze Pickaxe
 item.bronze_axe.name=Bronze Axe
 item.bronze_hoe.name=Bronze Hoe
+item.bronze_battleaxe.name=Bronze Battle Axe
+item.bronze_mace.name=Bronze Mace
+item.bronze_dagger.name=Bronze Dagger
+item.bronze_spear.name=Bronze Spear
 
 item.bronze_helmet.name=Bronze Helmet
 item.bronze_chest.name=Bronze Chestplate
@@ -195,6 +266,10 @@ item.steel_shovel.name=Carbon Steel Shovel
 item.steel_pickaxe.name=Carbon Steel Pickaxe
 item.steel_axe.name=Carbon Steel Axe
 item.steel_hoe.name=Carbon Steel Hoe
+item.steel_battleaxe.name=Carbon Steel Battle Axe
+item.steel_mace.name=Carbon Steel Mace
+item.steel_dagger.name=Carbon Steel Dagger
+item.steel_spear.name=Carbon Steel Spear
 
 item.steel_helmet.name=Carbon Steel Helmet
 item.steel_chest.name=Carbon Steel Chestplate
@@ -215,6 +290,10 @@ item.sterling_shovel.name=Sterling Silver Shovel
 item.sterling_pickaxe.name=Sterling Silver Pickaxe
 item.sterling_axe.name=Sterling Silver Axe
 item.sterling_hoe.name=Sterling Silver Hoe
+item.sterling_battleaxe.name=Sterling Silver Battle Axe
+item.sterling_mace.name=Sterling Silver Mace
+item.sterling_dagger.name=Sterling Silver Dagger
+item.sterling_spear.name=Sterling Silver Spear
 
 
 item.tourmaline_gem.name=Tourmaline
@@ -226,6 +305,10 @@ item.tourmaline_shovel.name=Tourmaline Shovel
 item.tourmaline_pickaxe.name=Tourmaline Pickaxe
 item.tourmaline_axe.name=Tourmaline Axe
 item.tourmaline_hoe.name=Tourmaline Hoe
+item.tourmaline_battleaxe.name=Tourmaline Battle Axe
+item.tourmaline_mace.name=Tourmaline Mace
+item.tourmaline_dagger.name=Tourmaline Dagger
+item.tourmaline_spear.name=Tourmaline Spear
 
 item.tourmaline_helmet.name=Tourmaline Helmet
 item.tourmaline_chest.name=Tourmaline Chestplate
@@ -242,6 +325,10 @@ item.tanzanite_shovel.name=Tanzanite Shovel
 item.tanzanite_pickaxe.name=Tanzanite Pickaxe
 item.tanzanite_axe.name=Tanzanite Axe
 item.tanzanite_hoe.name=Tanzanite Hoe
+item.tanzanite_battleaxe.name=Tanzanite Battle Axe
+item.tanzanite_mace.name=Tanzanite Mace
+item.tanzanite_dagger.name=Tanzanite Dagger
+item.tanzanite_spear.name=Tanzanite Spear
 
 item.tanzanite_helmet.name=Tanzanite Helmet
 item.tanzanite_chest.name=Tanzanite Chestplate
@@ -258,6 +345,10 @@ item.onyx_shovel.name=Onyx Shovel
 item.onyx_pickaxe.name=Onyx Pickaxe
 item.onyx_axe.name=Onyx Axe
 item.onyx_hoe.name=Onyx Hoe
+item.onyx_battleaxe.name=Onyx Battle Axe
+item.onyx_mace.name=Onyx Mace
+item.onyx_dagger.name=Onyx Dagger
+item.onyx_spear.name=Onyx Spear
 
 item.onyx_helmet.name=Onyx Helmet
 item.onyx_chest.name=Onyx Chestplate
@@ -274,6 +365,10 @@ item.graphene_shovel.name=Graphene Shovel
 item.graphene_pickaxe.name=Graphene Pickaxe
 item.graphene_axe.name=Graphene Axe
 item.graphene_hoe.name=Graphene Hoe
+item.graphene_battleaxe.name=Graphene Battle Axe
+item.graphene_mace.name=Graphene Mace
+item.graphene_dagger.name=Graphene Dagger
+item.graphene_spear.name=Graphene Spear
 
 item.graphene_helmet.name=Graphene Helmet
 item.graphene_chest.name=Graphene Chestplate
@@ -290,12 +385,17 @@ item.turquartz_shovel.name=Turquartz Shovel
 item.turquartz_pickaxe.name=Turquartz Pickaxe
 item.turquartz_axe.name=Turquartz Axe
 item.turquartz_hoe.name=Turquartz Hoe
+item.turquartz_battleaxe.name=Turquartz Battle Axe
+item.turquartz_mace.name=Turquartz Mace
+item.turquartz_dagger.name=Turquartz Dagger
+item.turquartz_spear.name=Turquartz Spear
 
 item.turquartz_helmet.name=Turquartz Helmet
 item.turquartz_chest.name=Turquartz Chestplate
 item.turquartz_legs.name=Turquartz Leggings
 item.turquartz_boots.name=Turquartz Boots
 
+item.chain.name=Chain
 
 item.rooiekool.name=Rooiekool
 

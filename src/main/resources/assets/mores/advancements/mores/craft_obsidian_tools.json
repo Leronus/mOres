@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Unbreakable",
-    "description": "You have crafted all obsidian tools",
+    "description": "You have crafted the four obsidian tools",
     "icon": {
       "item": "mores:obsidian_axe"
     },
@@ -33,6 +33,6 @@
     }
   },
   "rewards": {
-    "experience": 150
+    "experience": 75
   }
 }

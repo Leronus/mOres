@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/obtain_amethyst",
   "criteria": {
     "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "experience": 150
+    "experience": 125
   }
 }

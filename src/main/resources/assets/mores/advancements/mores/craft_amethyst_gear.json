@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/obtain_amethyst",
   "criteria": {
     "craft_amethyst_sword": {
       "trigger": "minecraft:inventory_changed",
@@ -57,6 +57,6 @@
     ["craft_amethyst_sword", "craft_amethyst_pickaxe", "craft_amethyst_axe", "craft_amethyst_shovel"]
   ],
   "rewards": {
-    "experience": 50
+    "experience": 40
   }
 }

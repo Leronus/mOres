@@ -1,0 +1,140 @@
+{
+  "mores:mores/craft_full_silver_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 23:41:41 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-12 23:42:28 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_amethyst_gear": {
+    "criteria": {
+      "craft_amethyst_sword": "2021-02-12 23:42:37 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_ruby": {
+    "criteria": {
+      "obtain_ruby_gem": "2021-02-12 23:42:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-12 23:42:16 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_onyx": {
+    "criteria": {
+      "obtain_onyx_gem": "2021-02-12 23:42:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_moissanite": {
+    "criteria": {
+      "obtain_moissanite_ore": "2021-02-12 23:42:12 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tourmaline": {
+    "criteria": {
+      "obtain_tourmaline_gem": "2021-02-12 23:42:16 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_obsidian_tools": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 23:42:50 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 23:47:15 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_copper_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-12 23:41:41 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_bronze": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-12 23:42:29 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_sapphire": {
+    "criteria": {
+      "obtain_sapphire_gem": "2021-02-12 23:42:15 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_helmet": "2021-02-12 23:43:04 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-02-12 23:47:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_topaz": {
+    "criteria": {
+      "obtain_topaz_gem": "2021-02-12 23:46:32 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tin_ore": {
+    "criteria": {
+      "obtain_tin_ore": "2021-02-12 23:47:16 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_tanzanite": {
+    "criteria": {
+      "obtain_tourmaline_gem": "2021-02-12 23:42:17 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_amethyst": {
+    "criteria": {
+      "obtain_amethyst_gem": "2021-02-12 23:42:11 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_turquoise": {
+    "criteria": {
+      "obtain_turquoise_gem": "2021-02-12 23:42:19 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_cobalt_ore": "2021-02-12 23:42:24 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_emerald_armor": {
+    "criteria": {
+      "craft_emerald_tool": "2021-02-12 23:43:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga_cold": "2021-02-12 23:41:41 +0100"
+    },
+    "done": false
+  }
+}
