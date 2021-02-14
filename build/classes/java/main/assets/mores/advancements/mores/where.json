@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "WAT? WAAR ZIJN JULLIE?",
+    "description": "You wandered to far off just like Martijn...",
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/mores",
+  "criteria": {
+      "location_object": {
+        "position": {
+          "y": {
+            "max": 2.0
+          }
+        }
+      }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}
