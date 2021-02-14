@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Rocky IV",
-    "description": "You have crafted the four essential tools using obsidian",
+    "description": "You have crafted full armor out of obsidian",
     "icon": {
       "item": "mores:obsidian_chest"
     },
@@ -12,7 +12,7 @@
   },
   "parent": "minecraft:story/form_obsidian",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_full_obsidian_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
