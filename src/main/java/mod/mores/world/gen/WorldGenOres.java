@@ -110,8 +110,8 @@ public class WorldGenOres implements IWorldGenerator {
 
     private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
-        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 40);
-        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 65);
+        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 35);
+        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 50);
     }
     private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {

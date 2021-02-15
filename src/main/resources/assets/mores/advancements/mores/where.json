@@ -12,15 +12,17 @@
   },
   "parent": "mores:mores/mores",
   "criteria": {
-      "location_object": {
-        "position": {
-          "y": {
-            "max": 2.0
+  "trigger": {
+    "location_object": {
+      "position": {
+        "y": {
+          "max": 2.0
           }
         }
       }
+    }
   },
-  "rewards": {
+    "rewards": {
     "experience": 25
   }
 }
