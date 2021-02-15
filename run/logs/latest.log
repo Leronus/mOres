@@ -1,47 +1,47 @@
-[17:37:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:37:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:37:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[17:37:39] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\jre
-[17:37:39] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:37:39] [main/ERROR] [FML]: Full: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:37:39] [main/ERROR] [FML]: Trimmed: c:/users/leron/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:37:39] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:37:39] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[17:37:40] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:37:40] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:37:40] [main/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
-[17:37:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:37:41] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:37:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:37:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:37:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:37:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:37:41] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:37:41] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player171
-[17:37:43] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:37:43] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:37:44] [Client thread/INFO] [FML]: -- System Details --
+[14:45:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:45:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:45:45] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[14:45:45] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\jre
+[14:45:45] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[14:45:45] [main/ERROR] [FML]: Full: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[14:45:45] [main/ERROR] [FML]: Trimmed: c:/users/leron/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[14:45:46] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:45:46] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[14:45:46] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[14:45:46] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[14:45:46] [main/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
+[14:45:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:45:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:45:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:45:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:45:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:45:47] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[14:45:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:45:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:45:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:45:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:45:47] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:45:48] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player734
+[14:45:50] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:45:50] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[14:45:50] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_275, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
-	Memory: 1117610968 bytes (1065 MB) / 1291321344 bytes (1231 MB) up to 7618953216 bytes (7266 MB)
+	Memory: 1117857072 bytes (1066 MB) / 1288699904 bytes (1229 MB) up to 7618953216 bytes (7266 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 461.40' Renderer: 'GeForce RTX 2070 SUPER/PCIe/SSE2'
-[17:37:44] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[17:37:44] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:37:44] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:37:44] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:37:44] [Client thread/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
-[17:37:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[14:45:50] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[14:45:50] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:45:50] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:45:51] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:45:51] [Client thread/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
+[14:45:52] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -70,7 +70,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:37:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[14:45:52] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -103,7 +103,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[14:45:52] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -136,7 +136,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[14:45:52] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -165,7 +165,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:37:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[14:45:52] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -198,7 +198,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[14:45:52] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -231,7 +231,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[14:45:52] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -260,7 +260,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:37:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[14:45:52] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -293,7 +293,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[14:45:52] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -326,7 +326,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[14:45:52] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -355,7 +355,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:37:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[14:45:52] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -388,7 +388,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[14:45:52] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -421,38 +421,97 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:37:45] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[17:37:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at CLIENT
-[17:37:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at SERVER
-[17:37:46] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mOres
-[17:37:46] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:37:46] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[17:37:46] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:37:46] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:37:46] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:37:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:37:46] [Client thread/INFO] [mores]: Created blockstate with property BURNING = PropertyBool{name=burning, clazz=class java.lang.Boolean, values=[true, false]}
-[17:37:46] [Client thread/INFO] [mores]: Block is reset to default state
-[17:37:46] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:46] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:46] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:46] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:46] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:46] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:46] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:46] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:46] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:37:46] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:37:46] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 56663200 nanos
-[17:37:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[17:37:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[17:37:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[17:37:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:37:48] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[17:37:48] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[17:37:52] [Client thread/INFO] [FML]: Max texture size: 16384
-[17:37:55] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_shovel#inventory for item "mores:sterling_shovel", normal location exception: 
+[14:45:52] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[14:45:52] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at CLIENT
+[14:45:52] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at SERVER
+[14:45:52] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mOres
+[14:45:52] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:45:52] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 66188704 nanos
+[14:45:52] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[14:45:52] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:45:52] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:45:52] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:45:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:45:53] [Client thread/INFO] [mores]: Created blockstate with property BURNING = PropertyBool{name=burning, clazz=class java.lang.Boolean, values=[true, false]}
+[14:45:53] [Client thread/INFO] [mores]: Block is reset to default state
+[14:45:53] [Client thread/INFO] [FML]: Applying holder lookups
+[14:45:53] [Client thread/INFO] [FML]: Holder lookups applied
+[14:45:53] [Client thread/INFO] [FML]: Applying holder lookups
+[14:45:53] [Client thread/INFO] [FML]: Holder lookups applied
+[14:45:53] [Client thread/INFO] [FML]: Applying holder lookups
+[14:45:53] [Client thread/INFO] [FML]: Holder lookups applied
+[14:45:53] [Client thread/INFO] [FML]: Applying holder lookups
+[14:45:53] [Client thread/INFO] [FML]: Holder lookups applied
+[14:45:53] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:45:53] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:45:53] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[14:45:54] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[14:45:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[14:45:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:45:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[14:45:55] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[14:45:59] [Client thread/INFO] [FML]: Max texture size: 16384
+[14:46:02] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_dagger#inventory for item "mores:sterling_dagger", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_dagger with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.io.FileNotFoundException: mores:models/item/sterling_dagger.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_dagger#inventory for item "mores:sterling_dagger", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_dagger#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_shovel#inventory for item "mores:sterling_shovel", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_shovel with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -483,7 +542,7 @@ Caused by: java.io.FileNotFoundException: mores:models/item/sterling_shovel.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_shovel#inventory for item "mores:sterling_shovel", blockstate location exception: 
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_shovel#inventory for item "mores:sterling_shovel", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_shovel#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -511,7 +570,66 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_axe#inventory for item "mores:sterling_axe", normal location exception: 
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_battleaxe#inventory for item "mores:sterling_battleaxe", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_battleaxe with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: java.io.FileNotFoundException: mores:models/item/sterling_battleaxe.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_battleaxe#inventory for item "mores:sterling_battleaxe", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_battleaxe#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_axe#inventory for item "mores:sterling_axe", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_axe with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -542,7 +660,7 @@ Caused by: java.io.FileNotFoundException: mores:models/item/sterling_axe.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_axe#inventory for item "mores:sterling_axe", blockstate location exception: 
+[14:46:03] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_axe#inventory for item "mores:sterling_axe", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_axe#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -570,150 +688,177 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_sword#inventory for item "mores:sterling_sword", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_sword with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: java.io.FileNotFoundException: mores:models/item/sterling_sword.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_sword#inventory for item "mores:sterling_sword", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_sword#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_pickaxe#inventory for item "mores:sterling_pickaxe", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:item/sterling_pickaxe with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: java.io.FileNotFoundException: mores:models/item/sterling_pickaxe.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:37:55] [Client thread/ERROR] [FML]: Exception loading model for variant mores:sterling_pickaxe#inventory for item "mores:sterling_pickaxe", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model mores:sterling_pickaxe#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:513) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[17:37:55] [Client thread/FATAL] [FML]: Suppressed additional 0 model loading errors for domain mores
-[17:37:56] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:56] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ruby`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `amethyst`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobalt`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `copper`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sapphire`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `silver`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `topaz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquoise`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moissanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `steel`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `onyx`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tourmaline`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tin`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tanzanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bronze`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `graphene`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquartz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[17:37:56] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:37:56] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:37:56] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[17:37:56] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:37:56] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[17:37:57] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[17:42:26] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[17:42:26] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[17:42:27] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[14:46:03] [Client thread/FATAL] [FML]: Suppressed additional 3 model loading errors for domain mores
+[14:46:03] [Client thread/INFO] [FML]: Applying holder lookups
+[14:46:03] [Client thread/INFO] [FML]: Holder lookups applied
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ruby`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `amethyst`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobalt`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `copper`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sapphire`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `silver`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `topaz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquoise`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moissanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `steel`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `onyx`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tourmaline`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tin`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tanzanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bronze`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `graphene`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquartz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[14:46:03] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:46:03] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:46:03] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[14:46:03] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:46:03] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[14:46:04] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[14:47:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[14:47:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[14:47:22] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[14:47:22] [Server thread/INFO] [FML]: Applying holder lookups
+[14:47:22] [Server thread/INFO] [FML]: Holder lookups applied
+[14:47:22] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@38c3413c)
+[14:47:22] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement mores:mores/obtain_sterling
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'mores:sterling_ingot'
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:106) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.getItem(JsonUtils.java:123) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserializeIcon(DisplayInfo.java:133) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.DisplayInfo.deserialize(DisplayInfo.java:111) ~[DisplayInfo.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:236) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:353) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:385) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:409) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+[14:47:22] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement mores:mores/smelt_more
+com.google.gson.JsonSyntaxException: Unknown required criterion 'smelt_silver_ore'
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:282) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:353) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:385) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:409) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+[14:47:22] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement mores:mores/where
+com.google.gson.JsonSyntaxException: Missing trigger, expected to find a string
+	at net.minecraft.util.JsonUtils.getString(JsonUtils.java:88) ~[JsonUtils.class:?]
+	at net.minecraft.advancements.Criterion.criterionFromJson(Criterion.java:35) ~[Criterion.class:?]
+	at net.minecraft.advancements.Criterion.criteriaFromJson(Criterion.java:60) ~[Criterion.class:?]
+	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:238) ~[Advancement$Builder.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:353) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:385) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:409) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:14.23.5.2854]
+	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
+	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
+[14:47:22] [Server thread/ERROR] [net.minecraft.advancements.AdvancementList]: Couldn't load advancement mores:mores/craft_full_moissanite_armor: Task Advancement{parentId=mores:obtain_moissanite, display=net.minecraft.advancements.DisplayInfo@7e0f8c78, rewards=AdvancementRewards{experience=150, loot=[], recipes=[], function=null}, criteria={craft_full_moissanite_armor=net.minecraft.advancements.Criterion@1c1deb5e}, requirements=[[craft_full_moissanite_armor]]}
+[14:47:22] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 517 advancements
+[14:47:22] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@38c3413c)
+[14:47:22] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@38c3413c)
+[14:47:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[14:47:24] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:47:24] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:47:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 13, from 10
+[14:47:25] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[14:47:25] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[14:47:25] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2854,mores@2.0,mcp@9.42
+[14:47:25] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[14:47:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[14:47:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player734[local:E:cd42d09d] logged in with entity id 268 at (35.474846861592034, 66.0, 13.529916700351095)
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 joined the game
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Omgggg Its Pink]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [The Villager Gear]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Is This Diamond?]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [The Villagers Love Me]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Massive Improvement]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Very balt of you]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [The Bronze Age]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Man of Steel]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Yellow Emerald]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Cheap Iron]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Unbreakable]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [This Is The End]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Riches in the Netherlands]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Whiter Than Bart]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Even Worse Than Copper]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Amethyst Baby!]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Oooooh Purple!]
+[14:47:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Fiery Diamond]
+[14:47:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[14:47:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Omgggg Its Pink]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [The Villager Gear]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Is This Diamond?]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [The Villagers Love Me]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Massive Improvement]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Very balt of you]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [The Bronze Age]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Man of Steel]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Yellow Emerald]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Cheap Iron]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Unbreakable]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [This Is The End]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Riches in the Netherlands]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Whiter Than Bart]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Even Worse Than Copper]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Amethyst Baby!]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Oooooh Purple!]
+[14:47:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Fiery Diamond]
+[14:47:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 38 advancements
+[14:47:31] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 38 advancements
+[14:47:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 has made the advancement [Stone Age]
+[14:47:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player734 has made the advancement [Stone Age]
+[14:47:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 48 advancements
+[14:47:38] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 59 advancements
+[14:47:41] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 65 advancements
+[14:48:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[14:48:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[14:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[14:48:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player734 lost connection: Disconnected
+[14:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player734 left the game
+[14:48:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[14:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[14:48:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[14:48:12] [Server thread/INFO] [FML]: Unloading dimension 0
+[14:48:12] [Server thread/INFO] [FML]: Applying holder lookups
+[14:48:12] [Server thread/INFO] [FML]: Holder lookups applied
+[14:48:13] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[14:48:13] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[14:48:13] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

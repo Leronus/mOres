@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="Final advancement update" />
+    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="Final changes">
+      <change afterPath="$PROJECT_DIR$/Todo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/moissanite_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tin_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_battleaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_boots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_chest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_dagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_helmet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_legs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_mace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_sword.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_tanzanite.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_tanzanite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_turquoise.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_turquoise.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/smelt_more.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/smelt_more.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_battleaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_battleaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_dagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_dagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_mace.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/wood_mace.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +72,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="mOres_mod.main/invalid/Minecraft" />
+      <facet id="mOres_mod.test/invalid/Minecraft" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1oAcwAfZ55V6jOVo1VPhcGNb71E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,8 +92,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/mores/recipes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +104,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leron\Desktop\mOres_mod\src\main\resources\assets\mores\recipes" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -83,8 +129,25 @@
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="Final changes" />
+      <created>1613389158371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613389158371</updated>
+      <workItem from="1613389159778" duration="98000" />
+      <workItem from="1613393108048" duration="724000" />
+      <workItem from="1613395602466" duration="138000" />
+      <workItem from="1613395752567" duration="910000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="minecraft" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -107,6 +170,7 @@
     <MESSAGE value="Advancement update" />
     <MESSAGE value="Test" />
     <MESSAGE value="Final advancement update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final advancement update" />
+    <MESSAGE value="Final changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final changes" />
   </component>
 </project>

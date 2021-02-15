@@ -16,7 +16,8 @@
     },
     "$":
     {
-      "item": "minecraft:planks"
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
     }
   },
 
