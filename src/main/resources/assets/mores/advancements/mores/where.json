@@ -12,17 +12,19 @@
   },
   "parent": "mores:mores/mores",
   "criteria": {
-  "trigger": {
-    "location_object": {
-      "position": {
-        "y": {
-          "max": 2.0
+    "below_sea_level": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "y": {
+            "min": 0.0,
+            "max": 2.0
           }
         }
       }
     }
   },
     "rewards": {
-    "experience": 25
+    "experience": 500
   }
 }

@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "I Truly Hate Werewolves",
-    "description": "You have made a stronger version of silver",
+    "title": "Tanzaknight",
+    "description": "You have obtained a tanzanite gem",
     "icon": {
       "item": "mores:tanzanite_gem"
     },
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "experience": 35
+    "experience": 250
   }
 }

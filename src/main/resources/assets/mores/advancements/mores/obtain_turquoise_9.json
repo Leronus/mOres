@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_ruby",
+  "parent": "mores:mores/obtain_turquoise",
   "criteria": {
     "obtain_turquoise_9": {
       "trigger": "minecraft:inventory_changed",
