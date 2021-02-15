@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_copper_ore",
   "criteria": {
-    "smelt_more": {
+    "smelt_silver_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

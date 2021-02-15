@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_ruby",
+  "parent": "mores:mores/obtain_sapphire",
   "criteria": {
     "obtain_moissanite_ore": {
       "trigger": "minecraft:inventory_changed",
