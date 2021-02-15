@@ -61,7 +61,7 @@ public class WorldGenOres implements IWorldGenerator {
         cobalt_ore = new WorldGenMinable(BlockInit.COBALT_ORE.getDefaultState(), minThree_maxEight);
         amethyst_ore = new WorldGenMinable(BlockInit.AMETHYST_ORE.getDefaultState(), minTwo_maxSeven);
 
-        topaz_ore = new WorldGenMinable(BlockInit.TOPAZ_ORE.getDefaultState(), minThree_maxEight);
+        topaz_ore = new WorldGenMinable(BlockInit.TOPAZ_ORE.getDefaultState(), minTwo_maxSeven);
         tourmaline_ore = new WorldGenMinable(BlockInit.TOURMALINE_ORE.getDefaultState(), minTwo_maxSeven);
         tanzanite_ore = new WorldGenMinable(BlockInit.TANZANITE_ORE.getDefaultState(), minTwo_maxSix, BlockMatcher.forBlock(Blocks.NETHERRACK));
 
@@ -98,14 +98,14 @@ public class WorldGenOres implements IWorldGenerator {
     {
         generateOre(tin_ore, world, random, chunkX * 16, chunkZ * 16, 50, 80, 45);
         generateOre(copper_ore, world, random, chunkX * 16, chunkZ * 16, 45, 75, 50);
-        generateOre(silver_ore, world, random, chunkX * 16, chunkZ * 16, 30, 60, 30);
-        generateOre(cobalt_ore, world, random, chunkX * 16, chunkZ * 16, 25, 48, 25);
-        generateOre(amethyst_ore, world, random, chunkX * 16, chunkZ * 16, 20, 40, 20);
-        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 10, 32, 13);
+        generateOre(silver_ore, world, random, chunkX * 16, chunkZ * 16, 31, 45, 30);
+        generateOre(cobalt_ore, world, random, chunkX * 16, chunkZ * 16, 22, 50, 22);
+        generateOre(amethyst_ore, world, random, chunkX * 16, chunkZ * 16, 17, 43, 18);
+        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 10, 32, 12);
         generateOre(tourmaline_ore, world, random, chunkX * 16, chunkZ * 16, 8, 37, 15);
-        generateOre(ruby_ore, world, random, chunkX * 16, chunkZ * 16, 7, 18, 9);
-        generateOre(sapphire_ore, world, random, chunkX * 16, chunkZ * 16, 8, 18, 10);
-        generateOre(turquoise_ore, world, random, chunkX * 16, chunkZ * 16, 0, 8, 4);
+        generateOre(ruby_ore, world, random, chunkX * 16, chunkZ * 16, 7, 17, 9);
+        generateOre(sapphire_ore, world, random, chunkX * 16, chunkZ * 16, 4, 14, 10);
+        generateOre(turquoise_ore, world, random, chunkX * 16, chunkZ * 16, 0, 8, 5);
     }
 
     private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
