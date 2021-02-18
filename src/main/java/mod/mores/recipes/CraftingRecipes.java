@@ -99,8 +99,8 @@ public class CraftingRecipes {
         GameRegistry.addShapelessRecipe(new ResourceLocation("turquartz"), null, turquartz_gem, Ingredient.fromStacks(turquartz_block));
 
         //Sterling Silver
-        //ItemStack sterling_block = new ItemStack(BlockInit.STERLING_BLOCK);
-        //ItemStack sterling_ingot = new ItemStack(ItemInit.STERLING_INGOT, 9);
-        //GameRegistry.addShapelessRecipe(new ResourceLocation("sterling"), null, sterling_ingot, Ingredient.fromStacks(sterling_block));
+        ItemStack sterling_block = new ItemStack(BlockInit.STERLING_BLOCK);
+        ItemStack sterling_ingot = new ItemStack(ItemInit.STERLING_INGOT, 9);
+        GameRegistry.addShapelessRecipe(new ResourceLocation("sterling"), null, sterling_ingot, Ingredient.fromStacks(sterling_block));
     }
 }

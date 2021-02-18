@@ -144,9 +144,9 @@ public class BlockAlloyFurnace extends Block {
     public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos) {
         TileEntity te = world.getTileEntity(pos);
         if (te != null) {
-            return ((TileEntityAlloyFurnace) te).isActive() ? 15 : 0;
+            return ((TileEntityAlloyFurnace) te).isActive() ? (int) (0.8 * 15) : 0;
         }
-        return 15;
+        return 0;
     }
 
     @Override

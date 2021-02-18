@@ -30,6 +30,9 @@ public class BlockInit {
     //Bronze
     public static final Block BRONZE_BLOCK = new BlockBase("bronze_block", Material.IRON, 10.0F, 50.0F, 3, "pickaxe");
 
+    //Sterling
+    public static final Block STERLING_BLOCK = new BlockBase("sterling_block", Material.IRON, 10.0F, 50.0F, 3, "pickaxe");
+
     //Cobalt
     public static final Block COBALT_BLOCK = new BlockBase("cobalt_block", Material.IRON, 5.0F, 30.0F, 4, "pickaxe");
     public static final Block COBALT_ORE = new OreBase("cobalt_ore", Material.ROCK, 3.0F, 15.0F, 4, "pickaxe");
@@ -62,16 +65,16 @@ public class BlockInit {
     public static final Block SAPPHIRE_ORE = new SapphireOreBase("sapphire_ore", Material.ROCK, 3.0F, 15.0F, 7, "pickaxe");
 
     //Turquoise
-    public static final Block TURQUOISE_BLOCK = new BlockBase("turquoise_block", Material.IRON, 5.0F, 30.0F, 8, "pickaxe");
-    public static final Block TURQUOISE_ORE = new TurquoiseOreBase("turquoise_ore", Material.ROCK, 3.0F, 15.0F, 8, "pickaxe");
+    public static final Block TURQUOISE_BLOCK = new BlockBase("turquoise_block", Material.IRON, 10.0F, 30.0F, 8, "pickaxe");
+    public static final Block TURQUOISE_ORE = new TurquoiseOreBase("turquoise_ore", Material.ROCK, 5.0F, 15.0F, 8, "pickaxe");
 
     //Moissanite
     public static final Block MOISSANITE_BLOCK = new BlockBase("moissanite_block", Material.IRON, 5.0F, 30.0F, 7, "pickaxe");
-    public static final Block MOISSANITE_NETHER_ORE = new MoissaniteOreBase("moissanite_nether_ore", Material.ROCK, 3.0F, 15.0F, 7, "pickaxe");
+    public static final Block MOISSANITE_NETHER_ORE = new MoissaniteOreBase("moissanite_nether_ore", Material.ROCK, 4.0F, 15.0F, 7, "pickaxe");
 
     //Onyx
-    public static final Block ONYX_BLOCK = new BlockBase("onyx_block", Material.IRON, 5.0F, 30.0F, 8, "pickaxe");
-    public static final Block ONYX_ORE = new OnyxOreBase("onyx_ore", Material.ROCK, 3.0F, 15.0F, 8, "pickaxe");
+    public static final Block ONYX_BLOCK = new BlockBase("onyx_block", Material.IRON, 10.0F, 100.0F, 8, "pickaxe");
+    public static final Block ONYX_ORE = new OnyxOreBase("onyx_ore", Material.ROCK, 5.0F, 30.0F, 8, "pickaxe");
 
     //Turquartz
     public static final Block TURQUARTZ_BLOCK = new BlockBase("turquartz_block", Material.IRON, 15.0F, 100.0F, 7, "pickaxe");

@@ -28,7 +28,8 @@ public class ItemInit {
     public static final ItemArmor.ArmorMaterial ARMOR_COPPER = EnumHelper.addArmorMaterial("copper_armor", Reference.MODID + ":copper", 333, new int[] {1, 4, 5, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_TIN = EnumHelper.addArmorMaterial("tin_armor", Reference.MODID + ":tin", 300, new int[] {1, 4, 4, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_SILVER = EnumHelper.addArmorMaterial("silver_armor", Reference.MODID + ":silver", 367, new int[] {1, 4, 5, 1}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_BRONZE = EnumHelper.addArmorMaterial("bronze_armor", Reference.MODID + ":bronze", 479, new int[] {2, 4, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_BRONZE = EnumHelper.addArmorMaterial("bronze_armor", Reference.MODID + ":bronze", 479, new int[] {2, 4, 5, 2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_STERLING = EnumHelper.addArmorMaterial("sterling_armor", Reference.MODID + ":sterling", 547, new int[] {2, 4, 5, 2}, 30, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_EMERALD = EnumHelper.addArmorMaterial("emerald_armor", Reference.MODID + ":emerald", 678, new int[] {2, 5, 7, 2}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_OBSIDIAN = EnumHelper.addArmorMaterial("obsidian_armor", Reference.MODID + ":obsidian", 1891, new int[] {2, 5, 6, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_RUBY = EnumHelper.addArmorMaterial("ruby_armor", Reference.MODID + ":ruby", 1500, new int[] {3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
@@ -377,6 +378,11 @@ public class ItemInit {
     public static final Item BRONZE_CHEST = new ArmorBase("bronze_chest", ARMOR_BRONZE, 1, EntityEquipmentSlot.CHEST);
     public static final Item BRONZE_LEGS = new ArmorBase("bronze_legs", ARMOR_BRONZE, 2, EntityEquipmentSlot.LEGS);
     public static final Item BRONZE_BOOTS = new ArmorBase("bronze_boots", ARMOR_BRONZE, 1, EntityEquipmentSlot.FEET);
+
+    public static final Item STERLING_HELMET = new ArmorBase("sterling_helmet", ARMOR_STERLING, 1, EntityEquipmentSlot.HEAD);
+    public static final Item STERLING_CHEST = new ArmorBase("sterling_chest", ARMOR_STERLING, 1, EntityEquipmentSlot.CHEST);
+    public static final Item STERLING_LEGS = new ArmorBase("sterling_legs", ARMOR_STERLING, 2, EntityEquipmentSlot.LEGS);
+    public static final Item STERLING_BOOTS = new ArmorBase("sterling_boots", ARMOR_STERLING, 1, EntityEquipmentSlot.FEET);
 
     public static final Item EMERALD_HELMET = new ArmorBase("emerald_helmet", ARMOR_EMERALD, 1, EntityEquipmentSlot.HEAD);
     public static final Item EMERALD_CHEST = new ArmorBase("emerald_chest", ARMOR_EMERALD, 1, EntityEquipmentSlot.CHEST);
