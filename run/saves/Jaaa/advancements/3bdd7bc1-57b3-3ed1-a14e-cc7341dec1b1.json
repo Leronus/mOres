@@ -79,6 +79,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2021-02-18 11:07:45 +0100",
       "cold_beach": "2021-02-16 23:47:38 +0100"
     },
     "done": false
@@ -128,6 +129,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2021-02-16 23:47:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-18 11:07:45 +0100"
     },
     "done": true
   },

@@ -1,0 +1,154 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2/18/21 12:33 PM
+Description: Tesselating block model
+
+java.lang.NullPointerException: Tesselating block model
+	at mod.mores.objects.blocks.machines.BlockAlloyFurnace.getLightValue(BlockAlloyFurnace.java:148)
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getLightValue(BlockStateContainer.java:510)
+	at net.minecraft.block.Block.getPackedLightmapCoords(Block.java:378)
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getPackedLightmapCoords(BlockStateContainer.java:362)
+	at net.minecraftforge.client.model.pipeline.BlockInfo.updateFlatLighting(BlockInfo.java:194)
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.updateBlockInfo(VertexLighterFlat.java:323)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:112)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelFlat(ForgeBlockModelRenderer.java:61)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:47)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:38)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.rebuildChunk(RenderChunk.java:200)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.processTask(ChunkRenderWorker.java:122)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.updateChunkNow(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.setupTerrain(RenderGlobal.java:976)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1316)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1062)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.legacydev.Main.start(Main.java:86)
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at mod.mores.objects.blocks.machines.BlockAlloyFurnace.getLightValue(BlockAlloyFurnace.java:148)
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getLightValue(BlockStateContainer.java:510)
+	at net.minecraft.block.Block.getPackedLightmapCoords(Block.java:378)
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getPackedLightmapCoords(BlockStateContainer.java:362)
+	at net.minecraftforge.client.model.pipeline.BlockInfo.updateFlatLighting(BlockInfo.java:194)
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.updateBlockInfo(VertexLighterFlat.java:323)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:112)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelFlat(ForgeBlockModelRenderer.java:61)
+
+-- Block model being tesselated --
+Details:
+	Block: mores:alloy_furnace[burning=true,facing=east]
+	Block location: World: (17,64,-132), Chunk: (at 1,4,12 in 1,-9; contains blocks 16,0,-144 to 31,255,-129), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Using AO: false
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:47)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:38)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #284 (tile.alloy_furnace // mod.mores.objects.blocks.machines.BlockAlloyFurnace // mores:alloy_furnace)
+	Block data value: 5 / 0x5 / 0b0101
+	Block location: World: (17,64,-132), Chunk: (at 1,4,12 in 1,-9; contains blocks 16,0,-144 to 31,255,-129), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.rebuildChunk(RenderChunk.java:200)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.processTask(ChunkRenderWorker.java:122)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.updateChunkNow(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.setupTerrain(RenderGlobal.java:976)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1316)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1259)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player843'/186, l='MpServer', x=19.43, y=64.00, z=-130.91]]
+	Chunk stats: MultiplayerChunkCache: 700, 700
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (16,64,-145), Chunk: (at 0,4,15 in 1,-10; contains blocks 16,0,-160 to 31,255,-145), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 89287 game time, 65935 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 77 total; [EntityBat['Bat'/128, l='MpServer', x=39.46, y=53.10, z=-142.89], EntityBat['Bat'/129, l='MpServer', x=38.42, y=52.10, z=-140.77], EntityCreeper['Creeper'/130, l='MpServer', x=40.80, y=52.00, z=-143.27], EntityRabbit['Rabbit'/138, l='MpServer', x=61.99, y=66.00, z=-206.83], EntityZombie['Zombie'/139, l='MpServer', x=49.77, y=73.00, z=-169.82], EntityCreeper['Creeper'/140, l='MpServer', x=54.19, y=22.00, z=-158.53], EntityZombie['Zombie'/141, l='MpServer', x=48.21, y=53.00, z=-154.77], EntityCreeper['Creeper'/142, l='MpServer', x=52.19, y=64.00, z=-154.45], EntitySkeleton['Skeleton'/143, l='MpServer', x=59.50, y=16.00, z=-112.50], EntitySkeleton['Skeleton'/144, l='MpServer', x=61.77, y=16.00, z=-122.47], EntityZombie['Zombie'/148, l='MpServer', x=70.50, y=71.00, z=-188.74], EntitySquid['Squid'/149, l='MpServer', x=72.67, y=51.19, z=-120.39], EntitySquid['Squid'/150, l='MpServer', x=78.42, y=48.89, z=-107.68], EntitySquid['Squid'/151, l='MpServer', x=82.14, y=51.04, z=-100.14], EntitySquid['Squid'/152, l='MpServer', x=61.95, y=61.73, z=-76.73], EntityBat['Bat'/281, l='MpServer', x=-39.49, y=34.70, z=-145.03], EntitySquid['Squid'/161, l='MpServer', x=80.40, y=61.20, z=-192.40], EntityCreeper['Creeper'/162, l='MpServer', x=92.52, y=68.00, z=-144.18], EntityCreeper['Creeper'/163, l='MpServer', x=95.84, y=68.00, z=-146.49], EntityZombie['Zombie'/164, l='MpServer', x=91.56, y=21.00, z=-111.25], EntitySkeleton['Skeleton'/45, l='MpServer', x=-57.72, y=64.00, z=-209.60], EntityCreeper['Creeper'/46, l='MpServer', x=-53.68, y=66.00, z=-211.50], EntityZombie['Zombie'/47, l='MpServer', x=-49.80, y=67.00, z=-155.56], EntityCreeper['Creeper'/48, l='MpServer', x=-62.50, y=63.00, z=-122.50], EntityCreeper['Creeper'/57, l='MpServer', x=-36.50, y=36.00, z=-200.50], EntityCreeper['Creeper'/58, l='MpServer', x=-44.83, y=40.00, z=-202.47], EntitySpider['Spider'/59, l='MpServer', x=-39.50, y=63.00, z=-197.50], EntitySpider['Spider'/60, l='MpServer', x=-41.01, y=18.00, z=-186.01], EntityZombieVillager['Zombie Villager'/61, l='MpServer', x=-44.79, y=68.00, z=-160.77], EntityItem['item.item.slimeball'/62, l='MpServer', x=-44.63, y=18.00, z=-149.13], EntityCreeper['Creeper'/65, l='MpServer', x=-27.50, y=28.00, z=-209.50], EntityBat['Bat'/67, l='MpServer', x=-28.45, y=16.10, z=-201.45], EntityPlayerSP['Player843'/186, l='MpServer', x=19.43, y=64.00, z=-130.91], EntitySpider['Spider'/68, l='MpServer', x=-24.50, y=35.00, z=-207.50], EntityBat['Bat'/69, l='MpServer', x=-21.68, y=25.01, z=-192.04], EntityZombie['Zombie'/70, l='MpServer', x=-26.51, y=23.00, z=-189.19], EntitySkeleton['Skeleton'/71, l='MpServer', x=-31.27, y=23.00, z=-184.49], EntityZombie['Zombie'/72, l='MpServer', x=-19.26, y=28.00, z=-182.47], EntityZombieVillager['Zombie Villager'/73, l='MpServer', x=-28.54, y=42.00, z=-180.72], EntityCreeper['Creeper'/74, l='MpServer', x=-27.50, y=18.00, z=-140.90], EntityCreeper['Creeper'/75, l='MpServer', x=-27.50, y=18.00, z=-141.57], EntityCreeper['Creeper'/76, l='MpServer', x=-17.10, y=64.00, z=-127.07], EntityCreeper['Creeper'/81, l='MpServer', x=-12.74, y=70.00, z=-208.29], EntityStray['Stray'/83, l='MpServer', x=-15.27, y=71.00, z=-209.49], EntityStray['Stray'/84, l='MpServer', x=-11.50, y=70.00, z=-181.50], EntityCreeper['Creeper'/85, l='MpServer', x=-15.23, y=64.00, z=-137.54], EntityCreeper['Creeper'/88, l='MpServer', x=4.52, y=68.00, z=-210.20], EntityCreeper['Creeper'/89, l='MpServer', x=0.70, y=68.00, z=-210.20], EntityZombie['Zombie'/90, l='MpServer', x=8.46, y=36.00, z=-195.70], EntityZombie['Zombie'/91, l='MpServer', x=11.74, y=37.00, z=-191.55], EntitySpider['Spider'/92, l='MpServer', x=2.70, y=70.00, z=-190.07], EntityBat['Bat'/94, l='MpServer', x=1.75, y=46.10, z=-134.49], EntityCreeper['Creeper'/95, l='MpServer', x=3.54, y=17.00, z=-108.83], EntitySpider['Spider'/96, l='MpServer', x=10.83, y=28.00, z=-127.39], EntityZombie['Zombie'/97, l='MpServer', x=8.46, y=41.00, z=-121.23], EntitySkeleton['Skeleton'/98, l='MpServer', x=2.45, y=41.00, z=-120.77], EntityZombie['Zombie'/102, l='MpServer', x=18.29, y=37.00, z=-196.48], EntityZombie['Zombie'/103, l='MpServer', x=38.97, y=68.00, z=-206.10], EntityZombie['Zombie'/104, l='MpServer', x=29.74, y=68.00, z=-200.81], EntitySkeleton['Skeleton'/105, l='MpServer', x=30.48, y=24.00, z=-161.73], EntityBat['Bat'/106, l='MpServer', x=31.75, y=26.10, z=-164.75], EntityBat['Bat'/107, l='MpServer', x=30.61, y=45.10, z=-137.25], EntityBat['Bat'/108, l='MpServer', x=31.64, y=46.10, z=-140.54], EntityBat['Bat'/109, l='MpServer', x=30.49, y=45.10, z=-137.52], EntityBat['Bat'/110, l='MpServer', x=30.61, y=45.10, z=-137.40], EntityBat['Bat'/111, l='MpServer', x=29.81, y=45.10, z=-140.54], EntityBat['Bat'/112, l='MpServer', x=29.84, y=45.10, z=-140.17], EntityBat['Bat'/113, l='MpServer', x=30.22, y=45.10, z=-140.08], EntityBat['Bat'/114, l='MpServer', x=25.54, y=37.10, z=-117.25], EntitySquid['Squid'/115, l='MpServer', x=24.53, y=62.21, z=-106.90], EntitySkeleton['Skeleton'/120, l='MpServer', x=32.37, y=68.00, z=-211.29], EntityStray['Stray'/121, l='MpServer', x=39.02, y=68.00, z=-204.30], EntitySpider['Spider'/122, l='MpServer', x=41.98, y=69.00, z=-200.00], EntityStray['Stray'/124, l='MpServer', x=36.16, y=69.00, z=-190.16], EntityRabbit['Rabbit'/125, l='MpServer', x=44.71, y=72.00, z=-175.08], EntitySpider['Spider'/126, l='MpServer', x=41.70, y=71.00, z=-167.91], EntityBat['Bat'/127, l='MpServer', x=32.24, y=46.10, z=-140.25]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2741)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:419)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.legacydev.Main.start(Main.java:86)
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_275, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 1074155136 bytes (1024 MB) / 1894776832 bytes (1807 MB) up to 7618953216 bytes (7266 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID        | Version      | Source                                                             | Signature |
+	|:------ |:--------- |:------------ |:------------------------------------------------------------------ |:--------- |
+	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                                                      | None      |
+	| LCHIJA | mcp       | 9.42         | minecraft.jar                                                      | None      |
+	| LCHIJA | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | forge     | 14.23.5.2854 | forge-1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12-recomp.jar | None      |
+	| LCHIJA | mores     | 2.0          | main                                                               | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 461.40' Renderer: 'GeForce RTX 2070 SUPER/PCIe/SSE2'
+	Launched Version: ${MC_VERSION}
+	LWJGL: 2.9.4
+	OpenGL: GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 461.40, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 3800X 8-Core Processor 

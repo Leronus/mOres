@@ -1,7 +1,6 @@
 package mod.mores.util.handlers;
 
 import mod.mores.objects.blocks.machines.TileEntityAlloyFurnace;
-import mod.mores.objects.blocks.machines.TileEntityAlloySmelter;
 import mod.mores.util.Reference;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;

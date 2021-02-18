@@ -5,118 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/banned-ips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/banned-players.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-02-16_23.38.52-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-15-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-15-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-16-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-17-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/debug-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/0f12271c-8f6c-3b4a-9805-4e9544c8a791.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/25b11e49-a7c5-3d9c-8271-d4f68f211051.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/34692304-57b2-31f8-a84c-d22c6ff753f7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3f66a67c-db6c-36b7-b762-d7a40c17883b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/4292534d-f2c8-3960-ae02-8fc77d827539.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/4c4af65a-e991-33a8-a762-2d145c215578.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/6b70ab1d-ea1f-3080-82f2-6a9952eea911.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/c98187a9-e17b-3f48-8a33-882e62d18d19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d566deca-6b21-32cb-af90-4edf09eeac2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/eb3e37b3-0c87-3026-b460-637c38fd4fdd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/f8a1463c-07b2-3433-918f-386b8accf0f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/0f12271c-8f6c-3b4a-9805-4e9544c8a791.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/25b11e49-a7c5-3d9c-8271-d4f68f211051.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/34692304-57b2-31f8-a84c-d22c6ff753f7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3c604947-c962-3363-b382-8bb20e72179d.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3f66a67c-db6c-36b7-b762-d7a40c17883b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4292534d-f2c8-3960-ae02-8fc77d827539.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/6b70ab1d-ea1f-3080-82f2-6a9952eea911.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/c98187a9-e17b-3f48-8a33-882e62d18d19.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d566deca-6b21-32cb-af90-4edf09eeac2e.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d60321ce-54ba-31e5-bac3-cbb6a732015a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/eb3e37b3-0c87-3026-b460-637c38fd4fdd.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/f8a1463c-07b2-3433-918f-386b8accf0f1.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/0f12271c-8f6c-3b4a-9805-4e9544c8a791.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/25b11e49-a7c5-3d9c-8271-d4f68f211051.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/34692304-57b2-31f8-a84c-d22c6ff753f7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3f66a67c-db6c-36b7-b762-d7a40c17883b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/4292534d-f2c8-3960-ae02-8fc77d827539.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/538c2a55-7afc-37c7-ab76-b8f0ee8467dd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/6b70ab1d-ea1f-3080-82f2-6a9952eea911.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/c98187a9-e17b-3f48-8a33-882e62d18d19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d566deca-6b21-32cb-af90-4edf09eeac2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/eb3e37b3-0c87-3026-b460-637c38fd4fdd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/f8a1463c-07b2-3433-918f-386b8accf0f1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/whitelist.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM-1/data/villages_nether.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM-1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM1/data/villages_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/DIM1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/advancements/894eab55-c0a7-4c4e-8ce6-70d27e6ae2ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/data/Mineshaft.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/data/villages.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/playerdata/894eab55-c0a7-4c4e-8ce6-70d27e6ae2ec.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/stats/894eab55-c0a7-4c4e-8ce6-70d27e6ae2ec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-02-18_09.31.44-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-02-18_11.30.50-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-02-18_12.33.00-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-18-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/1178851a-8246-318e-85f8-1ae4517330a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/1b8221f7-5861-330e-bef0-ac96b785ff27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/2654e3c3-150d-3857-a426-0b141796a4e0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/39a095b5-aea9-3421-a918-d077b0105370.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/446355e4-985a-3d9c-a63c-4d95aa4b0dff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/68723020-3c7d-332b-9007-b1f8c7a00304.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/6ecd1629-dee4-373d-9457-481bd36b0826.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/a129ebab-93ca-3ac8-86a9-47cce1be86d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d96be705-d0ae-31d3-afba-31a637d80f6d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/dfa57433-6d23-31fd-a282-bdca1175e553.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/fe207da4-45aa-3a2a-bf67-72a700290388.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/1178851a-8246-318e-85f8-1ae4517330a2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/2654e3c3-150d-3857-a426-0b141796a4e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/39a095b5-aea9-3421-a918-d077b0105370.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/446355e4-985a-3d9c-a63c-4d95aa4b0dff.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/6ecd1629-dee4-373d-9457-481bd36b0826.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/a129ebab-93ca-3ac8-86a9-47cce1be86d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d75ffc85-72b0-3b94-be32-d104d89a3a6a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d96be705-d0ae-31d3-afba-31a637d80f6d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/dfa57433-6d23-31fd-a282-bdca1175e553.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/fe207da4-45aa-3a2a-bf67-72a700290388.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/1178851a-8246-318e-85f8-1ae4517330a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/2654e3c3-150d-3857-a426-0b141796a4e0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/39a095b5-aea9-3421-a918-d077b0105370.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/446355e4-985a-3d9c-a63c-4d95aa4b0dff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/5d6f5056-9d82-3950-9ee4-6a4e4ed3cf33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/6ecd1629-dee4-373d-9457-481bd36b0826.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/a129ebab-93ca-3ac8-86a9-47cce1be86d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/ad4a30d4-53bd-30c6-b482-5d77fb42b2d7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d96be705-d0ae-31d3-afba-31a637d80f6d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/dfa57433-6d23-31fd-a282-bdca1175e553.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/fe207da4-45aa-3a2a-bf67-72a700290388.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
@@ -124,34 +69,67 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/where.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/where.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/item/ItemBlockVariants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/BlockInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/BlockInit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloySmelter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloySmelter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/particle/TextureStitcherBreathFX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/util/interfaces/IMetaName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloySmelter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/TileEntityAlloySmelter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/util/handlers/TileEntityHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/util/handlers/TileEntityHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/servers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/servers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/2659329e-1c65-3850-9659-d27fc655aa3c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3c604947-c962-3363-b382-8bb20e72179d.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/4292534d-f2c8-3960-ae02-8fc77d827539.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/4292534d-f2c8-3960-ae02-8fc77d827539.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/f8a1463c-07b2-3433-918f-386b8accf0f1.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/f8a1463c-07b2-3433-918f-386b8accf0f1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/27fc360e-fa24-3dff-9bfe-79a065a3b88e.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3c604947-c962-3363-b382-8bb20e72179d.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/3c604947-c962-3363-b382-8bb20e72179d.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4292534d-f2c8-3960-ae02-8fc77d827539.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4292534d-f2c8-3960-ae02-8fc77d827539.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d60321ce-54ba-31e5-bac3-cbb6a732015a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d60321ce-54ba-31e5-bac3-cbb6a732015a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/f8a1463c-07b2-3433-918f-386b8accf0f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/f8a1463c-07b2-3433-918f-386b8accf0f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/03ba29a1-d6bd-32ba-90b2-375e4d65abc9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/27fc360e-fa24-3dff-9bfe-79a065a3b88e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/3c604947-c962-3363-b382-8bb20e72179d.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/4292534d-f2c8-3960-ae02-8fc77d827539.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/4292534d-f2c8-3960-ae02-8fc77d827539.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/ea1dedcc-65ad-3e4c-bece-937c54b0cb65.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/f8a1463c-07b2-3433-918f-386b8accf0f1.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/f8a1463c-07b2-3433-918f-386b8accf0f1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/fd2b0ed7-411b-3fc7-aa79-261670dbe34f.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/item/ItemBlockVariants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/BlockInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloySmelter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/particle/TextureStitcherBreathFX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/util/handlers/EnumHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/util/interfaces/IMetaName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloySmelter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/util/handlers/TileEntityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/util/handlers/TileEntityHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +204,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -238,6 +216,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.runClient" />
       <item itemvalue="Application.runServer" />
@@ -259,6 +250,10 @@
       <workItem from="1613489826774" duration="14684000" />
       <workItem from="1613556984082" duration="3194000" />
       <workItem from="1613609946930" duration="519000" />
+      <workItem from="1613610605694" duration="210000" />
+      <workItem from="1613635869693" duration="14000" />
+      <workItem from="1613636057889" duration="8986000" />
+      <workItem from="1613645193820" duration="3116000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -295,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613428580169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FURNACE FIXED SP">
+      <created>1613610779847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613610779847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,11 +332,77 @@
     <MESSAGE value="Advancement update" />
     <MESSAGE value="smelt_more.json advancement fix" />
     <MESSAGE value="More ore tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="More ore tweaks" />
+    <MESSAGE value="FURNACE FIXED SP" />
+    <option name="LAST_COMMIT_MESSAGE" value="FURNACE FIXED SP" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>312</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>296</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>537</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/TileEntityAlloyFurnace.java</url>
+          <line>532</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Boolean" memberName="value" />
         <PinnedItemInfo parentTag="mod.mores.objects.blocks.machines.TileEntityAlloyFurnace" memberName="itemStackHandlerInventory" />
       </pinned-members>
     </pin-to-top-manager>
@@ -342,6 +410,7 @@
       <configuration name="Application">
         <watch expression="tileentity" />
         <watch expression="tileentity" language="JAVA" />
+        <watch expression="((StateImplementation)stateIn).properties" custom="net.minecraft.block.state.BlockStateContainer.StateImplementation" />
       </configuration>
     </watches-manager>
   </component>

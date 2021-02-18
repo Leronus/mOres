@@ -3,7 +3,6 @@ package mod.mores.init;
 import mod.mores.modid.Mores;
 import mod.mores.objects.BlockBase;
 import mod.mores.objects.blocks.machines.BlockAlloyFurnace;
-import mod.mores.objects.blocks.machines.BlockAlloySmelter;
 import mod.mores.objects.blocks.ores.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

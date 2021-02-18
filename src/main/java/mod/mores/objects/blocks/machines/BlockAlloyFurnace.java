@@ -52,8 +52,6 @@ public class BlockAlloyFurnace extends Block {
     public static final PropertyDirection FACING = BlockHorizontal.FACING;
     public static final PropertyBool BURNING = PropertyBool.create("burning");
 
-    public boolean isActive;
-
     public BlockAlloyFurnace(String name, Material material, CreativeTabs creativeTab) {
         super(material);
         setUnlocalizedName(name);
@@ -68,7 +66,7 @@ public class BlockAlloyFurnace extends Block {
         // setLightOpacity(1);
         // setBlockUnbreakable();
 
-        this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+        this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
         Reference.LOGGER.info("Block is reset to default state");
 
         BlockInit.BLOCKS.add(this);
@@ -81,6 +79,7 @@ public class BlockAlloyFurnace extends Block {
         return Item.getItemFromBlock(BlockInit.ALLOY_FURNACE);
 
     }
+
     @Override
     @SideOnly(Side.CLIENT)
     public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state) {
@@ -91,9 +90,7 @@ public class BlockAlloyFurnace extends Block {
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
                                     EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-        if(!worldIn.isRemote)
-        {
-            isActive = state.getValue(BURNING);
+        if (!worldIn.isRemote) {
             playerIn.openGui(Mores.instance, Reference.GUI_ALLOY_FURNACE, worldIn, pos.getX(), pos.getY(), pos.getZ());
             Reference.LOGGER.info("Furnace GUI opened!");
         }
@@ -114,6 +111,7 @@ public class BlockAlloyFurnace extends Block {
                 facing = EnumFacing.NORTH;
             active = furnace.isActive();
         }
+        Reference.LOGGER.info("state: " + state.getValue(BURNING));
         return state.withProperty(BURNING, active);
     }
 
@@ -137,19 +135,18 @@ public class BlockAlloyFurnace extends Block {
                 face = EnumFacing.EAST;
             if (face == EnumFacing.EAST)
                 face = EnumFacing.WEST;
-            worldIn.setBlockState(pos, state.withProperty(FACING, face).withProperty(BURNING, false), 2);
+            worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
         }
     }
 
 
     @Override
-    public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos)
-    {
+    public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos) {
         TileEntity te = world.getTileEntity(pos);
-        if (te != null && te instanceof TileEntityAlloyFurnace)
-            return ((TileEntityAlloyFurnace) te).isActive() ? (int) (0.8 * 15) : 0;
-        else
-            return 0;
+        if (te != null) {
+            return ((TileEntityAlloyFurnace) te).isActive() ? 15 : 0;
+        }
+        return 15;
     }
 
     @Override
@@ -224,42 +221,43 @@ public class BlockAlloyFurnace extends Block {
 
     @SideOnly(Side.CLIENT)
     @SuppressWarnings("incomplete-switch")
-    public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand)
-    {
-        if (stateIn.getValue(BURNING))
-        {
-            EnumFacing enumfacing = stateIn.getValue(FACING);
-            double d0 = (double)pos.getX() + 0.5D;
-            double d1 = (double)pos.getY() + rand.nextDouble() * 6.0D / 16.0D;
-            double d2 = (double)pos.getZ() + 0.5D;
-            double d3 = 0.52D;
-            double d4 = rand.nextDouble() * 0.6D - 0.3D;
+    public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand) {
+        TileEntity te = worldIn.getTileEntity(pos);
+        if (te != null) {
+            TileEntityAlloyFurnace tef = (TileEntityAlloyFurnace) te;
+            if (tef.isActive()) {
+                EnumFacing enumfacing = stateIn.getValue(FACING);
+                double d0 = (double) pos.getX() + 0.5D;
+                double d1 = (double) pos.getY() + rand.nextDouble() * 6.0D / 16.0D;
+                double d2 = (double) pos.getZ() + 0.5D;
+                double d3 = 0.52D;
+                double d4 = rand.nextDouble() * 0.6D - 0.3D;
 
-            if (rand.nextDouble() < 0.1D)
-            {
-                worldIn.playSound((double)pos.getX() + 0.5D, pos.getY(), (double)pos.getZ() + 0.5D, SoundEvents.BLOCK_FURNACE_FIRE_CRACKLE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
-            }
+                if (rand.nextDouble() < 0.1D) {
+                    worldIn.playSound((double) pos.getX() + 0.5D, pos.getY(), (double) pos.getZ() + 0.5D, SoundEvents.BLOCK_FURNACE_FIRE_CRACKLE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
+                }
 
-            switch (enumfacing) {
-                case WEST:
-                    worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 - 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
-                    Particle newEffectWest = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 - 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
-                    Minecraft.getMinecraft().effectRenderer.addEffect(newEffectWest);
-                    break;
-                case EAST:
-                    worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
-                    Particle newEffectEast = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
-                    Minecraft.getMinecraft().effectRenderer.addEffect(newEffectEast);
-                    break;
-                case NORTH:
-                    worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + d4, d1, d2 - 0.52D, 0.0D, 0.0D, 0.0D);
-                    Particle newEffectNorth = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + d4, d1, d2 - 0.52D, 0.0D, 0.0D, 0.0D);
-                    Minecraft.getMinecraft().effectRenderer.addEffect(newEffectNorth);
-                    break;
-                case SOUTH:
-                    worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + d4, d1, d2 + 0.52D, 0.0D, 0.0D, 0.0D);
-                    Particle newEffectSouth = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + d4, d1, d2 + 0.52D, 0.0D, 0.0D, 0.0D);
-                    Minecraft.getMinecraft().effectRenderer.addEffect(newEffectSouth);
+                switch (enumfacing) {
+                    case WEST:
+                        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 - 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
+                        Particle newEffectWest = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 - 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
+                        Minecraft.getMinecraft().effectRenderer.addEffect(newEffectWest);
+                        break;
+                    case EAST:
+                        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
+                        Particle newEffectEast = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + 0.52D, d1, d2 + d4, 0.0D, 0.0D, 0.0D);
+                        Minecraft.getMinecraft().effectRenderer.addEffect(newEffectEast);
+                        break;
+                    case NORTH:
+                        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + d4, d1, d2 - 0.52D, 0.0D, 0.0D, 0.0D);
+                        Particle newEffectNorth = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + d4, d1, d2 - 0.52D, 0.0D, 0.0D, 0.0D);
+                        Minecraft.getMinecraft().effectRenderer.addEffect(newEffectNorth);
+                        break;
+                    case SOUTH:
+                        worldIn.spawnParticle(EnumParticleTypes.SMOKE_NORMAL, d0 + d4, d1, d2 + 0.52D, 0.0D, 0.0D, 0.0D);
+                        Particle newEffectSouth = new ParticleCustom(new ParticleCustom.TextureDefinition("flame_fx"), worldIn, d0 + d4, d1, d2 + 0.52D, 0.0D, 0.0D, 0.0D);
+                        Minecraft.getMinecraft().effectRenderer.addEffect(newEffectSouth);
+                }
             }
         }
     }
