@@ -1,0 +1,21 @@
+{
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-16 23:28:39 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-16 23:28:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2021-02-16 23:28:42 +0100",
+      "cold_beach": "2021-02-16 23:28:39 +0100"
+    },
+    "done": false
+  }
+}

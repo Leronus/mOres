@@ -52,6 +52,7 @@ public class BlockAlloyFurnace extends Block {
     public static final PropertyDirection FACING = BlockHorizontal.FACING;
     public static final PropertyBool BURNING = PropertyBool.create("burning");
 
+    public boolean isActive;
 
     public BlockAlloyFurnace(String name, Material material, CreativeTabs creativeTab) {
         super(material);
@@ -67,7 +68,7 @@ public class BlockAlloyFurnace extends Block {
         // setLightOpacity(1);
         // setBlockUnbreakable();
 
-        this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
+        this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
         Reference.LOGGER.info("Block is reset to default state");
 
         BlockInit.BLOCKS.add(this);
@@ -92,10 +93,28 @@ public class BlockAlloyFurnace extends Block {
                                     EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if(!worldIn.isRemote)
         {
+            isActive = state.getValue(BURNING);
             playerIn.openGui(Mores.instance, Reference.GUI_ALLOY_FURNACE, worldIn, pos.getX(), pos.getY(), pos.getZ());
             Reference.LOGGER.info("Furnace GUI opened!");
         }
+        //BURNING propertybool is set to false
         return true;
+    }
+    @Override
+    public IBlockState getActualState(IBlockState state, IBlockAccess world, BlockPos pos)
+    {
+        EnumFacing facing = EnumFacing.NORTH;
+        boolean active = false;
+
+        TileEntity te = world.getTileEntity(pos);
+        if (te != null && te instanceof TileEntityAlloyFurnace) {
+            TileEntityAlloyFurnace furnace = (TileEntityAlloyFurnace) te;
+            facing = EnumFacing.getFront(furnace.getFacing());
+            if (facing == EnumFacing.DOWN || facing == EnumFacing.UP)
+                facing = EnumFacing.NORTH;
+            active = furnace.isActive();
+        }
+        return state.withProperty(BURNING, active);
     }
 
     @Override
@@ -118,15 +137,19 @@ public class BlockAlloyFurnace extends Block {
                 face = EnumFacing.EAST;
             if (face == EnumFacing.EAST)
                 face = EnumFacing.WEST;
-            worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
+            worldIn.setBlockState(pos, state.withProperty(FACING, face).withProperty(BURNING, false), 2);
         }
     }
 
 
     @Override
-    public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos) {
-        // TODO Auto-generated method stub
-        return state.getValue(BURNING).booleanValue() ? 15 : 0;
+    public int getLightValue(IBlockState state, IBlockAccess world, BlockPos pos)
+    {
+        TileEntity te = world.getTileEntity(pos);
+        if (te != null && te instanceof TileEntityAlloyFurnace)
+            return ((TileEntityAlloyFurnace) te).isActive() ? (int) (0.8 * 15) : 0;
+        else
+            return 0;
     }
 
     @Override
@@ -156,7 +179,7 @@ public class BlockAlloyFurnace extends Block {
     @Override
     protected BlockStateContainer createBlockState() {
         // TODO Auto-generated method stub
-        Reference.LOGGER.info("Created blockstate with property BURNING = " + BURNING);
+        Reference.LOGGER.info("Created blockstate in BlockAlloyFurnace with property BURNING: " + BURNING);
         return new BlockStateContainer(this, BURNING, FACING);
     }
 

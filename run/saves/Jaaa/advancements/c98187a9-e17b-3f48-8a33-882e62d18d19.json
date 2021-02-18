@@ -1,0 +1,32 @@
+{
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-16 22:22:07 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-16 22:22:07 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_turquoise": {
+    "criteria": {
+      "obtain_turquoise_gem": "2021-02-16 22:22:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "cold_beach": "2021-02-16 22:22:07 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-16 22:22:07 +0100"
+    },
+    "done": true
+  }
+}

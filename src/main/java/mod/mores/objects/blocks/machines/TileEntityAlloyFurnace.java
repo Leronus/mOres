@@ -62,9 +62,11 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
 
     IBlockState state;
 
+    private byte facing;
     public boolean isActive = false;
     public int ticksSinceSync = 0;
     public boolean updateLight = false;
+
 
     public ItemStackHandler itemStackHandlerInventory = new ItemStackHandler(NonNullList.withSize(4, ItemStack.EMPTY)){
         @Override
@@ -97,21 +99,26 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
      * This constructor writes a successful tile entity bind to the build log
      */
     public TileEntityAlloyFurnace() {
+        isActive = isBurning();
         Reference.LOGGER.info("TileEntity is successfully bound to a block");
     }
 
-
+    /*
     @Override
     public boolean shouldRefresh(World world, BlockPos pos, IBlockState oldState, IBlockState newState)
     {
-        Reference.LOGGER.info("ShouldRefresh called!");
+
         if(oldState.getBlock() != newState.getBlock()){
+            Reference.LOGGER.info("ShouldRefresh called!");
             return true;
         }
         else{
+            Reference.LOGGER.info("ShouldRefresh not called!");
             return false;
         }
     }
+
+     */
 
     @Override
     public boolean hasCapability(Capability<?> capability, EnumFacing facing) {
@@ -163,7 +170,6 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
         this.isActive = compound.getBoolean("isActive");
 
         if(compound.hasKey("CustomName", 8)) this.setCustomName(compound.getString("CustomName"));
-
         if (world != null)
         {
             IBlockState state = world.getBlockState(pos);
@@ -197,50 +203,48 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
 
     public boolean isActive()
     {
-        return isActive;
+        return isBurning();
     }
 
-    /*
+    public byte getFacing()
+    {
+        return facing;
+    }
+
+    public void setFacing(byte value)
+    {
+        facing = value;
+        world.addBlockEvent(pos, BlockInit.ALLOY_FURNACE, 1, facing & 0xFF);
+    }
+
     /**
      * Checks if the burning state of the furnace has changed. If it has changed update the block.
      *
      * @param wasBurning Whether the furnace was burning in the previous tick.
      * @return True if the state has changed, false if not.
-
+     */
 
     private boolean updateBlockActiveState(boolean wasBurning)
     {
         boolean dirty = false;
 
-        if (wasBurning != this.isBurning() && type.fuelSlots > 0)
+        if (wasBurning != this.isBurning())
         {
             dirty = true;
             isActive = this.isBurning();
 
             IBlockState state = world.getBlockState(pos);
             world.notifyBlockUpdate(pos, state, state, 3);
-        } else if (type.fuelSlots == 0)
-        {
-            if (isActive != isBurning())
-            {
-                currentBurnTime = burnTime = 3600;
-                dirty = true;
-                isActive = this.isBurning();
 
-                IBlockState state = world.getBlockState(pos);
-                world.notifyBlockUpdate(pos, state, state, 3);
-            }
         }
-
         return dirty;
     }
 
-     */
 
     public void update()
     {
-        boolean flag = this.isBurning();
-        boolean flag1 = false;
+        boolean wasBurning = this.isBurning();
+        boolean dirty = false;
 
         if(this.isBurning()){
             --this.burnTime;
@@ -261,7 +265,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
 
                     if(this.isBurning())
                     {
-                        flag1 = true;
+                        dirty = true;
 
                         if(!fuel.isEmpty())
                         {
@@ -286,7 +290,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
                     {
                         this.cookTime = 0;
                         this.smeltItem();
-                        flag1 = true;
+                        dirty = true;
                     }
                 }
                 else this.cookTime = 0;
@@ -297,14 +301,14 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
             {
                 this.cookTime = MathHelper.clamp(this.cookTime - 2, 0, 20);
             }
-            if(flag != this.isBurning())
+            if(wasBurning != this.isBurning())
             {
-                flag1 = true;
-                setState(this.isBurning(), this.world, this.pos);
+                dirty = true;
+                setState(isActive, world, pos);
                 Reference.LOGGER.info("Blockstate set to: " + this.isBurning());
             }
         }
-        if(flag1) this.markDirty();
+        if(dirty) this.markDirty();
     }
 
     public static void setState(boolean active, World worldIn, BlockPos pos) {
@@ -537,9 +541,10 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
     @Override
     public void handleUpdateTag(NBTTagCompound tag) {
         readFromNBT(tag);
-        Reference.LOGGER.info(this.isBurning() + " = isBurning value");
+        Reference.LOGGER.info("update tag isBurning: " + isBurning());
         setState(isBurning(), getWorld(), getPos());
     }
+
     @Override
     public NBTTagCompound getUpdateTag() {
         return writeToNBT(new NBTTagCompound());
