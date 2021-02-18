@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_axe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_boots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_chest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_helmet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_hoe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_legs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_pickaxe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_shovel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sterling_sword.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/BlockInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/BlockInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/AlloyFurnaceRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/AlloyFurnaceRecipes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/recipes/CraftingRecipes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/recipes/CraftingRecipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/block/sterling_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_battleaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_ingot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_mace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_sword.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +138,7 @@
       <workItem from="1613610605694" duration="210000" />
       <workItem from="1613635869693" duration="14000" />
       <workItem from="1613636057889" duration="8986000" />
-      <workItem from="1613645193820" duration="5274000" />
+      <workItem from="1613645193820" duration="5728000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -195,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613648597065</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Sterling recipes added">
+      <created>1613651609983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613651609983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +233,8 @@
     <MESSAGE value="More ore tweaks" />
     <MESSAGE value="FURNACE FIXED SP" />
     <MESSAGE value="FURNACE FIXED MP" />
-    <option name="LAST_COMMIT_MESSAGE" value="FURNACE FIXED MP" />
+    <MESSAGE value="Sterling recipes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sterling recipes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
