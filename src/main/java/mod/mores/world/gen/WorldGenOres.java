@@ -68,7 +68,7 @@ public class WorldGenOres implements IWorldGenerator {
         ruby_ore = new WorldGenMinable(BlockInit.RUBY_ORE.getDefaultState(), minOne_maxFive);
         sapphire_ore = new WorldGenMinable(BlockInit.SAPPHIRE_ORE.getDefaultState(), minOne_maxFour);
 
-        turquoise_ore = new WorldGenMinable(BlockInit.TURQUOISE_ORE.getDefaultState(), minOne_maxFour);
+        turquoise_ore = new WorldGenMinable(BlockInit.TURQUOISE_ORE.getDefaultState(), minTwo_maxFive);
         moissanite_nether_ore = new WorldGenMinable(BlockInit.MOISSANITE_NETHER_ORE.getDefaultState(), minTwo_maxFour, BlockMatcher.forBlock(Blocks.NETHERRACK));
         onyx_ore = new WorldGenMinable(BlockInit.ONYX_ORE.getDefaultState(), minTwo_maxSix, BlockMatcher.forBlock(Blocks.END_STONE));
     }
@@ -105,13 +105,13 @@ public class WorldGenOres implements IWorldGenerator {
         generateOre(tourmaline_ore, world, random, chunkX * 16, chunkZ * 16, 8, 37, 15);
         generateOre(ruby_ore, world, random, chunkX * 16, chunkZ * 16, 7, 17, 9);
         generateOre(sapphire_ore, world, random, chunkX * 16, chunkZ * 16, 4, 14, 10);
-        generateOre(turquoise_ore, world, random, chunkX * 16, chunkZ * 16, 0, 8, 5);
+        generateOre(turquoise_ore, world, random, chunkX * 16, chunkZ * 16, 0, 8, 7);
     }
 
     private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
-        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 35);
-        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 50);
+        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 32);
+        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 47);
     }
     private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {

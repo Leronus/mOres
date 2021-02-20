@@ -1,0 +1,62 @@
+{
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-19 12:17:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2021-02-19 12:17:18 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_turquoise": {
+    "criteria": {
+      "obtain_turquoise_gem": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga": "2021-02-19 12:17:09 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2021-02-19 12:17:21 +0100"
+    },
+    "done": true
+  }
+}

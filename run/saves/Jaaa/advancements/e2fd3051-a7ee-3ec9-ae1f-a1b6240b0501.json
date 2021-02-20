@@ -1,0 +1,38 @@
+{
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-18 15:59:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-02-18 15:59:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-18 15:59:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2021-02-18 15:59:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2021-02-18 15:59:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "ice_flats": "2021-02-18 15:59:11 +0100"
+    },
+    "done": false
+  }
+}

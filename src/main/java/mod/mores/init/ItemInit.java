@@ -2,10 +2,12 @@ package mod.mores.init;
 
 import mod.mores.objects.ItemBase;
 import mod.mores.objects.items.armor.ArmorBase;
+import mod.mores.objects.items.armor.HorseArmorBase;
 import mod.mores.objects.items.tools.*;
 import mod.mores.util.Reference;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.passive.HorseArmorType;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -41,6 +43,8 @@ public class ItemInit {
     public static final ItemArmor.ArmorMaterial ARMOR_ONYX = EnumHelper.addArmorMaterial("onyx_armor", Reference.MODID + ":onyx", 3000, new int[] {3, 5, 7, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
     public static final ItemArmor.ArmorMaterial ARMOR_TURQUARTZ = EnumHelper.addArmorMaterial("turquartz_armor", Reference.MODID + ":turquartz", 2796, new int[] {3, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_GRAPHENE = EnumHelper.addArmorMaterial("graphene_armor", Reference.MODID + ":graphene", 5000, new int[] {2, 5, 7, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
+
+    public static final HorseArmorType HORSE_ARMOR_COPPER = EnumHelper.addHorseArmor("horse_armor", Reference.MODID + ":copper" , 3);
 
 
     //Tool materials
@@ -100,6 +104,9 @@ public class ItemInit {
 
     //Fuels
     public static final Item ROOIEKOOL = new ItemBase("rooiekool");
+
+    //Horse armor items
+
 
 
 

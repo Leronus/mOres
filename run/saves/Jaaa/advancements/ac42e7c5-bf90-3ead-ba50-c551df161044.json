@@ -23,21 +23,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2021-02-18 02:10:47 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2021-02-18 02:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2021-02-18 15:48:54 +0100"
     },
     "done": true
   },
@@ -96,21 +102,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/hopper": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
-    },
-    "done": true
-  },
   "mores:mores/obtain_steel": {
     "criteria": {
       "obtain_steel_ingot": "2021-02-18 02:10:47 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
+    },
+    "done": true
+  },
   "mores:mores/craft_alloy_furnace": {
     "criteria": {
       "obtain_copper_ore": "2021-02-18 02:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-02-18 15:48:54 +0100"
     },
     "done": true
   },
@@ -129,6 +141,12 @@
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2021-02-18 02:11:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-18 15:48:54 +0100"
     },
     "done": true
   },
@@ -162,15 +180,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_trapdoor": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2021-02-18 02:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-18 02:11:05 +0100"
     },
     "done": true
   },
@@ -210,9 +228,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2021-02-18 15:48:54 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2021-02-18 02:11:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-02-18 15:49:01 +0100"
     },
     "done": true
   }
