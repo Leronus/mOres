@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Very Efficient Indeed",
+    "description": "You have crafted a copper pickaxe",
+    "icon": {
+      "item": "mores:copper_pickaxe"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_sapphire_ore",
+  "criteria": {
+    "craft_sapphire_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

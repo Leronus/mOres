@@ -1,0 +1,112 @@
+{
+  "display": {
+    "title": "Iron Man",
+    "description": "You love carbon steel don't you, because you crafted all steel gear!",
+    "icon": {
+      "item": "mores:emerald_sword"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:obtain_steel",
+  "criteria": {
+    "craft_steel_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_sword"
+          }
+        ]
+      }
+    },
+    "craft_steel_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_pickaxe"
+          }
+        ]
+      }
+    },
+    "craft_steel_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_axe"
+          }
+        ]
+      }
+    },
+    "craft_steel_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_shovel"
+          }
+        ]
+      }
+    },
+    "craft_steel_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_hoe"
+          }
+        ]
+      }
+    },
+    "craft_steel_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_helmet"
+          }
+        ]
+      }
+    },
+    "craft_steel_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_chest"
+          }
+        ]
+      }
+    },
+    "craft_steel_legs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_legs"
+          }
+        ]
+      }
+    },
+    "craft_steel_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [["craft_steel_sword"], ["craft_steel_pickaxe"], ["craft_steel_axe"], ["craft_steel_shovel"], ["craft_steel_hoe"], ["craft_steel_helmet"], ["craft_steel_chest"], ["craft_steel_legs"], ["craft_steel_boots"]]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

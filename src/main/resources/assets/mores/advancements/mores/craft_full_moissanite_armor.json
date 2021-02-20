@@ -12,7 +12,7 @@
   },
   "parent": "mores:obtain_moissanite",
   "criteria": {
-    "craft_full_moissanite_armor": {
+    "craft_full_shrek_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

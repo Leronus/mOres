@@ -5,75 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/fe736038-102e-365b-a97e-eabc472944ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/fe736038-102e-365b-a97e-eabc472944ec.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/d2fd1c5d-4760-35a0-aa0f-c197e25af2ac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/fe736038-102e-365b-a97e-eabc472944ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/1178851a-8246-318e-85f8-1ae4517330a2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/905847c0-6737-32d8-85e6-3f64ecd32033.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/d566deca-6b21-32cb-af90-4edf09eeac2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/data/Mineshaft.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/data/Temple.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/1178851a-8246-318e-85f8-1ae4517330a2.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/905847c0-6737-32d8-85e6-3f64ecd32033.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/ca560dd3-ebf9-3fc9-b2e6-088534082c81.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/d566deca-6b21-32cb-af90-4edf09eeac2e.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/1178851a-8246-318e-85f8-1ae4517330a2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/905847c0-6737-32d8-85e6-3f64ecd32033.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/d566deca-6b21-32cb-af90-4edf09eeac2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/f2ba1573-0c0d-3978-bb86-e2dc9c0eb9a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mod/mores/network/PacketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mod/mores/network/PacketSendKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/items/armor/HorseArmorBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/copper_horse_armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_cobalt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_emerald.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_moissanite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_onyx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_sapphire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_steel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_tanzanite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_tourmaline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_bronze_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_sapphire_gear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_steel_gear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_topaz_gear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_tourmaline_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_sapphire_pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_graphene.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_turquartz.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
@@ -81,40 +20,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/moissanite_mace.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/moissanite_mace.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/BlockInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/BlockInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/AlloyFurnaceRecipes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/AlloyFurnaceRecipes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/objects/blocks/machines/BlockAlloyFurnace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/recipes/CraftingRecipes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/recipes/CraftingRecipes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-18-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-18-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ac42e7c5-bf90-3ead-ba50-c551df161044.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/advancements/ac42e7c5-bf90-3ead-ba50-c551df161044.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/playerdata/ac42e7c5-bf90-3ead-ba50-c551df161044.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Jaaa/stats/ac42e7c5-bf90-3ead-ba50-c551df161044.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Jaaa/stats/ac42e7c5-bf90-3ead-ba50-c551df161044.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/blocks/machines/BlockAlloyFurnace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/world/gen/WorldGenOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/world/gen/WorldGenOres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_battleaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/sterling_battleaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/moissanite_mace.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/moissanite_mace.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_moissanite_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_moissanite_armor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_amethyst.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +119,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.runClient" />
       <item itemvalue="Application.runServer" />
@@ -237,6 +159,8 @@
       <workItem from="1613733028137" duration="2022000" />
       <workItem from="1613735273898" duration="3872000" />
       <workItem from="1613748543106" duration="672000" />
+      <workItem from="1613814173851" duration="646000" />
+      <workItem from="1613838199962" duration="1645000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -301,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613651958312</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First official release. Furnace fixed (only has a light bug), all items &amp; recipes added. Only a few more advancements to go">
+      <created>1613814219900</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613814219900</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +271,8 @@
     <MESSAGE value="FURNACE FIXED MP" />
     <MESSAGE value="Sterling recipes added" />
     <MESSAGE value="Sterling item &amp; block models added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sterling item &amp; block models added" />
+    <MESSAGE value="First official release. Furnace fixed (only has a light bug), all items &amp; recipes added. Only a few more advancements to go" />
+    <option name="LAST_COMMIT_MESSAGE" value="First official release. Furnace fixed (only has a light bug), all items &amp; recipes added. Only a few more advancements to go" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

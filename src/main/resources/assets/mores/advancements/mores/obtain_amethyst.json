@@ -1,6 +1,6 @@
 {
   "display": {
-    "title": "Amethyst Baby!",
+    "title": "Amethyst - Fightstar",
     "description": "You have mined your very first amethyst",
     "icon": {
       "item": "mores:amethyst_ore"
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "experience": 35
+    "experience": 45
   }
 }

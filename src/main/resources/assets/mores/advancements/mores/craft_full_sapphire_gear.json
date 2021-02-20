@@ -1,0 +1,112 @@
+{
+  "display": {
+    "title": "Efficiency 100",
+    "description": "You crafted the most efficient overworld tools as well as some fancy armor",
+    "icon": {
+      "item": "mores:sapphire_axe"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:obtain_sapphire",
+  "criteria": {
+    "craft_sapphire_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_sword"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_pickaxe"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_axe"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_shovel"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_hoe"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_helmet"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_chest"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_legs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_legs"
+          }
+        ]
+      }
+    },
+    "craft_sapphire_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [["craft_sapphire_sword"], ["craft_sapphire_pickaxe"], ["craft_sapphire_axe"], ["craft_sapphire_shovel"], ["craft_sapphire_hoe"], ["craft_sapphire_helmet"], ["craft_sapphire_chest"], ["craft_sapphire_legs"], ["craft_sapphire_boots"]]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

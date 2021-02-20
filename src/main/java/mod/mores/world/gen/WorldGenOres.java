@@ -98,10 +98,10 @@ public class WorldGenOres implements IWorldGenerator {
     {
         generateOre(tin_ore, world, random, chunkX * 16, chunkZ * 16, 50, 80, 45);
         generateOre(copper_ore, world, random, chunkX * 16, chunkZ * 16, 45, 75, 50);
-        generateOre(silver_ore, world, random, chunkX * 16, chunkZ * 16, 31, 45, 30);
-        generateOre(cobalt_ore, world, random, chunkX * 16, chunkZ * 16, 22, 50, 22);
-        generateOre(amethyst_ore, world, random, chunkX * 16, chunkZ * 16, 17, 43, 18);
-        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 10, 32, 12);
+        generateOre(silver_ore, world, random, chunkX * 16, chunkZ * 16, 31, 50, 30);
+        generateOre(cobalt_ore, world, random, chunkX * 16, chunkZ * 16, 22, 45, 23);
+        generateOre(amethyst_ore, world, random, chunkX * 16, chunkZ * 16, 17, 40, 17);
+        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 10, 30, 12);
         generateOre(tourmaline_ore, world, random, chunkX * 16, chunkZ * 16, 8, 37, 15);
         generateOre(ruby_ore, world, random, chunkX * 16, chunkZ * 16, 7, 17, 9);
         generateOre(sapphire_ore, world, random, chunkX * 16, chunkZ * 16, 4, 14, 10);
