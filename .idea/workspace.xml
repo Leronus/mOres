@@ -4,31 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="Final advancement fixes">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-19-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-20-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/advancements/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/obtain_all.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/blockstates/sterling_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+    <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-20-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_axe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_battleaxe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_boots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_dagger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_helmet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_hoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_ingot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_legs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_pickaxe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_shovel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_sword.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/craft_full_moissanite_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/craft_full_moissanite_armor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_amethyst.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/advancements/mores/obtain_amethyst.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-19-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-19-6.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -42,11 +40,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_moissanite_armor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_moissanite_armor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_sapphire_gear.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_sapphire_gear.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_steel_gear.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_steel_gear.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_topaz_gear.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_full_topaz_gear.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_sapphire_pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_sapphire_pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/lang/en_us.lang" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +175,7 @@
       <workItem from="1613735273898" duration="3872000" />
       <workItem from="1613748543106" duration="672000" />
       <workItem from="1613814173851" duration="646000" />
-      <workItem from="1613838199962" duration="3871000" />
+      <workItem from="1613838199962" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -260,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613839869152</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final advancement fixes">
+      <created>1613845077516</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613845077516</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +302,8 @@
     <MESSAGE value="Sterling item &amp; block models added" />
     <MESSAGE value="First official release. Furnace fixed (only has a light bug), all items &amp; recipes added. Only a few more advancements to go" />
     <MESSAGE value="Advancements update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advancements update" />
+    <MESSAGE value="Final advancement fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final advancement fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

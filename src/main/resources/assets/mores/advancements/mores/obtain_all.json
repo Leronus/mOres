@@ -3,7 +3,7 @@
     "title": "Godverdomme Lekker Broodje",
     "description": "You have done it. You have collected them all. That must taste good.",
     "icon": {
-      "item": "mores:emerald_sword"
+      "item": "mores:graphene_battleaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
