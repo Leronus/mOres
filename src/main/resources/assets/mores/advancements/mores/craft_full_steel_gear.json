@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:obtain_steel",
+  "parent": "mores:mores/obtain_steel",
   "criteria": {
     "craft_steel_sword": {
       "trigger": "minecraft:inventory_changed",

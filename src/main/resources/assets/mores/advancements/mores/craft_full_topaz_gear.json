@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:obtain_topaz",
+  "parent": "mores:mores/obtain_topaz",
   "criteria": {
     "craft_topaz_sword": {
       "trigger": "minecraft:inventory_changed",

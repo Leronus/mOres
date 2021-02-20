@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_moissanite",
+  "parent": "mores:mores/obtain_moissanite",
   "criteria": {
     "craft_full_shrek_armor": {
       "trigger": "minecraft:inventory_changed",

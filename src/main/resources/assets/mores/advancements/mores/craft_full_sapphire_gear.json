@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:obtain_sapphire",
+  "parent": "mores:mores/obtain_sapphire",
   "criteria": {
     "craft_sapphire_sword": {
       "trigger": "minecraft:inventory_changed",

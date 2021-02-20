@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_sapphire_ore",
+  "parent": "mores:mores/obtain_sapphire",
   "criteria": {
     "craft_sapphire_pickaxe": {
       "trigger": "minecraft:inventory_changed",
