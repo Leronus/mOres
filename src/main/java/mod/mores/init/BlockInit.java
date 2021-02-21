@@ -15,13 +15,13 @@ public class BlockInit {
 
     //Blocks
 
+    //Tin
+    public static final Block TIN_BLOCK = new BlockBase("tin_block", Material.IRON, 5.0F, 30.0F, 1, "pickaxe");
+    public static final Block TIN_ORE = new OreBase("tin_ore", Material.ROCK, 3.0F, 15.0F, 1, "pickaxe");
     //Copper
     public static final Block COPPER_BLOCK = new BlockBase("copper_block", Material.IRON, 5.0F, 30.0F, 2, "pickaxe");
     public static final Block COPPER_ORE = new OreBase("copper_ore",Material.ROCK, 3.0F, 15.0F, 2, "pickaxe");
 
-    //Tin
-    public static final Block TIN_BLOCK = new BlockBase("tin_block", Material.IRON, 5.0F, 30.0F, 0, "pickaxe");
-    public static final Block TIN_ORE = new OreBase("tin_ore", Material.ROCK, 3.0F, 15.0F, 0, "pickaxe");
 
     //Silver
     public static final Block SILVER_BLOCK = new BlockBase("silver_block", Material.IRON, 5.0F, 30.0F, 2, "pickaxe");

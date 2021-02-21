@@ -104,7 +104,9 @@
     }
   },
   "requirements": [
-    [["craft_sapphire_sword"], ["craft_sapphire_pickaxe"], ["craft_sapphire_axe"], ["craft_sapphire_shovel"], ["craft_sapphire_hoe"], ["craft_sapphire_helmet"], ["craft_sapphire_chest"], ["craft_sapphire_legs"], ["craft_sapphire_boots"]]
+    ["craft_sapphire_sword"], ["craft_sapphire_pickaxe"], ["craft_sapphire_axe"], ["craft_sapphire_shovel"],
+      ["craft_sapphire_hoe"], ["craft_sapphire_helmet"], ["craft_sapphire_chest"], ["craft_sapphire_legs"],
+      ["craft_sapphire_boots"]
   ],
   "rewards": {
     "experience": 200

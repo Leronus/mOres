@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_steel",
   "criteria": {
-    "craft_steel_sword": {
+    "cfs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -22,7 +22,7 @@
         ]
       }
     },
-    "craft_steel_pickaxe": {
+    "csp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -32,7 +32,7 @@
         ]
       }
     },
-    "craft_steel_axe": {
+    "csa": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -42,7 +42,7 @@
         ]
       }
     },
-    "craft_steel_shovel": {
+    "css": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -52,7 +52,7 @@
         ]
       }
     },
-    "craft_steel_hoe": {
+    "csh": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -62,7 +62,7 @@
         ]
       }
     },
-    "craft_steel_helmet": {
+    "csh2": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -72,7 +72,7 @@
         ]
       }
     },
-    "craft_steel_chest": {
+    "csc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -82,7 +82,7 @@
         ]
       }
     },
-    "craft_steel_legs": {
+    "csl": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "craft_steel_boots": {
+    "csb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -104,7 +104,7 @@
     }
   },
   "requirements": [
-    [["craft_steel_sword"], ["craft_steel_pickaxe"], ["craft_steel_axe"], ["craft_steel_shovel"], ["craft_steel_hoe"], ["craft_steel_helmet"], ["craft_steel_chest"], ["craft_steel_legs"], ["craft_steel_boots"]]
+    ["cfs"], ["csp"], ["csa"], ["css"], ["csh"], ["csh2"], ["csc"], ["csl"], ["csb"]
   ],
   "rewards": {
     "experience": 200

@@ -515,7 +515,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
             else if(output.getItem()==result.getItem()) output.grow(result.getCount());
 
             input1.shrink(1);
-            input2.shrink(2);
+            input2.shrink(1);
         }
     }
     @Override

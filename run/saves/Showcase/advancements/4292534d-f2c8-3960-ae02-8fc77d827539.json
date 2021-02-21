@@ -1,0 +1,14 @@
+{
+  "mores:mores/obtain_turquartz": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-02-21 00:53:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-02-21 00:53:09 +0100"
+    },
+    "done": false
+  }
+}

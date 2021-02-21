@@ -22,8 +22,9 @@ import java.util.List;
 public class ItemInit {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
-
-    //Materials
+    /**
+     * Declaring all armor materials (String name, String textureName, int durability, int[armor strength points] {..., ..., ...}, int enchantability, SoundEvent, int toughness)
+     */
     public static final ItemArmor.ArmorMaterial ARMOR_AMETHYST = EnumHelper.addArmorMaterial("amethyst_armor", Reference.MODID + ":amethyst", 769, new int[] {2, 5, 7, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_COBALT = EnumHelper.addArmorMaterial("cobalt_armor", Reference.MODID + ":cobalt", 691, new int[] {2, 5, 7, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_STEEL = EnumHelper.addArmorMaterial("steel_armor", Reference.MODID + ":steel", 743, new int[] {2, 6, 7, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1);
@@ -47,12 +48,19 @@ public class ItemInit {
     public static final HorseArmorType HORSE_ARMOR_COPPER = EnumHelper.addHorseArmor("horse_armor", Reference.MODID + ":copper" , 3);
 
 
-    //Tool materials
-    public static final Item.ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("copper", 2, 87, 5.0F, 1.5F, 10);
-    public static final Item.ToolMaterial TOOL_TIN = EnumHelper.addToolMaterial("tin", 2, 100, 4.8F, 1.5F, 13);
 
+    /**
+     * Declaring all toolmaterials (String name, int harvestLevel, int maxUses, float efficiency, float damage, int enchantability
+     */
+    public static final Item.ToolMaterial TOOL_TIN = EnumHelper.addToolMaterial("tin", 1, 100, 4.8F, 1.5F, 13);
+
+    //Stone as well
+    public static final Item.ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("copper", 2, 87, 5.0F, 1.5F, 10);
+
+    //Gold as well
     public static final Item.ToolMaterial TOOL_SILVER = EnumHelper.addToolMaterial("silver", 3, 234, 5.5F, 1.8F, 25);
 
+    // Tool iron as well
     public static final Item.ToolMaterial TOOL_BRONZE = EnumHelper.addToolMaterial("bronze", 4, 256, 5.5F, 2.0F, 12);
     public static final Item.ToolMaterial TOOL_STERLING = EnumHelper.addToolMaterial("sterling", 4, 287, 6.0F, 2.2F, 17);
 
@@ -65,7 +73,7 @@ public class ItemInit {
 
     public static final Item.ToolMaterial TOOL_TOPAZ = EnumHelper.addToolMaterial("topaz", 7, 1245, 7.5F, 2.5F, 15);
     public static final Item.ToolMaterial TOOL_TOURMALINE = EnumHelper.addToolMaterial("tourmaline", 7, 1671, 7.0F, 3.0F, 20);
-    public static final Item.ToolMaterial TOOL_TANZANITE = EnumHelper.addToolMaterial("tanzanite", 6, 1963, 8.0F, 3.0F, 31);
+    public static final Item.ToolMaterial TOOL_TANZANITE = EnumHelper.addToolMaterial("tanzanite", 7, 1963, 8.0F, 3.0F, 31);
 
     public static final Item.ToolMaterial TOOL_RUBY = EnumHelper.addToolMaterial("ruby", 8, 1345, 8.5F, 3.0F, 12);
     public static final Item.ToolMaterial TOOL_SAPPHIRE = EnumHelper.addToolMaterial("sapphire", 8, 783, 8.0F, 3.5F, 20);

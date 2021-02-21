@@ -3,7 +3,7 @@
     "title": "Very Efficient Indeed",
     "description": "You have crafted a copper pickaxe",
     "icon": {
-      "item": "mores:copper_pickaxe"
+      "item": "mores:sapphire_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

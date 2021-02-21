@@ -211,6 +211,8 @@ item.moissanite_pickaxe.name=Moissanite Pickaxe
 item.moissanite_axe.name=Moissanite Axe
 item.moissanite_hoe.name=Moissanite Hoe
 item.moissanite_battleaxe.name=Moissanite Battle Axe
+item.moissanite_dagger.name=Moissanite Dagger
+item.moissanite_mace.name=Moissanite Mace
 
 item.moissanite_helmet.name=Moissanite Helmet
 item.moissanite_chest.name=Moissanite Chestplate

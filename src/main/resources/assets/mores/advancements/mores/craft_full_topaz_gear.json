@@ -104,7 +104,7 @@
     }
   },
   "requirements": [
-    [["craft_topaz_sword"], ["craft_topaz_pickaxe"], ["craft_topaz_axe"], ["craft_topaz_shovel"], ["craft_topaz_hoe"], ["craft_topaz_helmet"], ["craft_topaz_chest"], ["craft_topaz_legs"], ["craft_topaz_boots"]]
+    ["craft_topaz_sword"], ["craft_topaz_pickaxe"], ["craft_topaz_axe"], ["craft_topaz_shovel"], ["craft_topaz_hoe"], ["craft_topaz_helmet"], ["craft_topaz_chest"], ["craft_topaz_legs"], ["craft_topaz_boots"]
   ],
   "rewards": {
     "experience": 275

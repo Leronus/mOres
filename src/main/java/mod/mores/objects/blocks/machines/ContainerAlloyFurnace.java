@@ -1,5 +1,6 @@
 package mod.mores.objects.blocks.machines;
 
+import mod.mores.inventory.SlotInputOne;
 import mod.mores.inventory.SlotOutput;
 import mod.mores.objects.blocks.machines.slots.SlotAlloyFurnaceFuel;
 import net.minecraft.entity.player.EntityPlayer;
@@ -30,7 +31,7 @@ public class ContainerAlloyFurnace extends Container
         IItemHandler handler = tileentity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null);
 
         //Top Left Input Slot
-        this.addSlotToContainer(new SlotItemHandler(handler, INPUT_LEFT, 44, 17));
+        this.addSlotToContainer(new SlotInputOne(handler, INPUT_LEFT, 44, 17));
         //Top Right Input Slot
         this.addSlotToContainer(new SlotItemHandler(handler, INPUT_RIGHT, 66, 17));
         //Bottom Fuel Input Slot
