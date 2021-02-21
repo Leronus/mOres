@@ -17,6 +17,6 @@ public class SlotInputOne extends SlotItemHandler {
 
     @Override
     public boolean isItemValid(@Nullable ItemStack stack) {
-        return super.isItemValid(stack) && !stack.isEmpty() && stack.getItem() != null && stack.getItem() instanceof ItemBase;
+        return super.isItemValid(stack) && !stack.isEmpty() && stack.getItem() != null && stack.getItem() == Items.COAL && stack.getItem() == ItemInit.COPPER_INGOT && stack.getItem() == Items.QUARTZ;
     }
 }
