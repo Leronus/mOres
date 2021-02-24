@@ -6,6 +6,7 @@ import mod.mores.tabs.MoresItemsTab;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.event.RegistryEvent;
 
 public class ItemBase extends Item
 {

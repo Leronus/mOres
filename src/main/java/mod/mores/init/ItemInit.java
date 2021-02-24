@@ -23,27 +23,27 @@ public class ItemInit {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     /**
-     * Declaring all armor materials (String name, String textureName, int durability, int[armor strength points] {..., ..., ...}, int enchantability, SoundEvent, int toughness)
+     * Declaring all armor materials (String name, String textureName, int durability, int[armor strength points] {boots, legs, chest, helmet}, int enchantability, SoundEvent, int toughness)
      */
-    public static final ItemArmor.ArmorMaterial ARMOR_AMETHYST = EnumHelper.addArmorMaterial("amethyst_armor", Reference.MODID + ":amethyst", 769, new int[] {2, 5, 7, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_AMETHYST = EnumHelper.addArmorMaterial("amethyst_armor", Reference.MODID + ":amethyst", 769, new int[] {2, 6, 7, 2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_COBALT = EnumHelper.addArmorMaterial("cobalt_armor", Reference.MODID + ":cobalt", 691, new int[] {2, 5, 7, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0);
-    public static final ItemArmor.ArmorMaterial ARMOR_STEEL = EnumHelper.addArmorMaterial("steel_armor", Reference.MODID + ":steel", 743, new int[] {2, 6, 7, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_STEEL = EnumHelper.addArmorMaterial("steel_armor", Reference.MODID + ":steel", 743, new int[] {2, 6, 7, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_COPPER = EnumHelper.addArmorMaterial("copper_armor", Reference.MODID + ":copper", 333, new int[] {1, 4, 5, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_TIN = EnumHelper.addArmorMaterial("tin_armor", Reference.MODID + ":tin", 300, new int[] {1, 4, 4, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0);
     public static final ItemArmor.ArmorMaterial ARMOR_SILVER = EnumHelper.addArmorMaterial("silver_armor", Reference.MODID + ":silver", 367, new int[] {1, 4, 5, 1}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
     public static final ItemArmor.ArmorMaterial ARMOR_BRONZE = EnumHelper.addArmorMaterial("bronze_armor", Reference.MODID + ":bronze", 479, new int[] {2, 4, 5, 2}, 14, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_STERLING = EnumHelper.addArmorMaterial("sterling_armor", Reference.MODID + ":sterling", 547, new int[] {2, 4, 5, 2}, 30, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_EMERALD = EnumHelper.addArmorMaterial("emerald_armor", Reference.MODID + ":emerald", 678, new int[] {2, 5, 7, 2}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
-    public static final ItemArmor.ArmorMaterial ARMOR_OBSIDIAN = EnumHelper.addArmorMaterial("obsidian_armor", Reference.MODID + ":obsidian", 1891, new int[] {2, 5, 6, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_RUBY = EnumHelper.addArmorMaterial("ruby_armor", Reference.MODID + ":ruby", 1500, new int[] {3, 6, 8, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_SAPPHIRE = EnumHelper.addArmorMaterial("sapphire_armor", Reference.MODID + ":sapphire", 1142, new int[] {3, 6, 8, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_TOPAZ = EnumHelper.addArmorMaterial("topaz_armor", Reference.MODID + ":topaz", 924, new int[] {3, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_TOURMALINE = EnumHelper.addArmorMaterial("tourmaline_armor", Reference.MODID + ":tourmaline", 876, new int[] {2, 5, 7, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
+    public static final ItemArmor.ArmorMaterial ARMOR_STERLING = EnumHelper.addArmorMaterial("sterling_armor", Reference.MODID + ":sterling", 547, new int[] {2, 5, 6, 2}, 30, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_EMERALD = EnumHelper.addArmorMaterial("emerald_armor", Reference.MODID + ":emerald", 678, new int[] {2, 5, 7, 3}, 17, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_OBSIDIAN = EnumHelper.addArmorMaterial("obsidian_armor", Reference.MODID + ":obsidian", 1891, new int[] {2, 5, 7, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2);
+    public static final ItemArmor.ArmorMaterial ARMOR_RUBY = EnumHelper.addArmorMaterial("ruby_armor", Reference.MODID + ":ruby", 1500, new int[] {3, 6, 8, 3}, 13, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
+    public static final ItemArmor.ArmorMaterial ARMOR_SAPPHIRE = EnumHelper.addArmorMaterial("sapphire_armor", Reference.MODID + ":sapphire", 1844, new int[] {3, 6, 8, 3}, 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
+    public static final ItemArmor.ArmorMaterial ARMOR_TOPAZ = EnumHelper.addArmorMaterial("topaz_armor", Reference.MODID + ":topaz", 924, new int[] {3, 6, 8, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_TOURMALINE = EnumHelper.addArmorMaterial("tourmaline_armor", Reference.MODID + ":tourmaline", 876, new int[] {2, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
     public static final ItemArmor.ArmorMaterial ARMOR_TANZANITE = EnumHelper.addArmorMaterial("tanzanite_armor", Reference.MODID + ":tanzanite", 1245, new int[] {2, 5, 6, 2}, 27, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
     public static final ItemArmor.ArmorMaterial ARMOR_MOISSANITE = EnumHelper.addArmorMaterial("moissanite_armor", Reference.MODID + ":moissanite", 924, new int[] {2, 5, 7, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
-    public static final ItemArmor.ArmorMaterial ARMOR_ONYX = EnumHelper.addArmorMaterial("onyx_armor", Reference.MODID + ":onyx", 3000, new int[] {3, 5, 7, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
-    public static final ItemArmor.ArmorMaterial ARMOR_TURQUARTZ = EnumHelper.addArmorMaterial("turquartz_armor", Reference.MODID + ":turquartz", 2796, new int[] {3, 5, 7, 2}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1);
-    public static final ItemArmor.ArmorMaterial ARMOR_GRAPHENE = EnumHelper.addArmorMaterial("graphene_armor", Reference.MODID + ":graphene", 5000, new int[] {2, 5, 7, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
+    public static final ItemArmor.ArmorMaterial ARMOR_ONYX = EnumHelper.addArmorMaterial("onyx_armor", Reference.MODID + ":onyx", 3000, new int[] {3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
+    public static final ItemArmor.ArmorMaterial ARMOR_TURQUARTZ = EnumHelper.addArmorMaterial("turquartz_armor", Reference.MODID + ":turquartz", 2496, new int[] {2, 5, 7, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
+    public static final ItemArmor.ArmorMaterial ARMOR_GRAPHENE = EnumHelper.addArmorMaterial("graphene_armor", Reference.MODID + ":graphene", 5000, new int[] {3, 7, 8, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
 
     public static final HorseArmorType HORSE_ARMOR_COPPER = EnumHelper.addHorseArmor("horse_armor", Reference.MODID + ":copper" , 3);
 
@@ -76,13 +76,13 @@ public class ItemInit {
     public static final Item.ToolMaterial TOOL_TANZANITE = EnumHelper.addToolMaterial("tanzanite", 7, 1963, 8.0F, 3.0F, 31);
 
     public static final Item.ToolMaterial TOOL_RUBY = EnumHelper.addToolMaterial("ruby", 8, 1345, 8.5F, 3.0F, 12);
-    public static final Item.ToolMaterial TOOL_SAPPHIRE = EnumHelper.addToolMaterial("sapphire", 8, 783, 8.0F, 3.5F, 20);
+    public static final Item.ToolMaterial TOOL_SAPPHIRE = EnumHelper.addToolMaterial("sapphire", 8, 783, 8.0F, 4.0F, 20);
 
-    public static final Item.ToolMaterial TOOL_MOISSANITE = EnumHelper.addToolMaterial("moissanite", 9, 2471, 9.0F, 4.0F, 16);
-    public static final Item.ToolMaterial TOOL_ONYX = EnumHelper.addToolMaterial("onyx", 9, 3000, 9.0F, 4.0F, 25);
+    public static final Item.ToolMaterial TOOL_MOISSANITE = EnumHelper.addToolMaterial("moissanite", 9, 2471, 9.0F, 4.0F, 13);
+    public static final Item.ToolMaterial TOOL_ONYX = EnumHelper.addToolMaterial("onyx", 9, 3000, 10.0F, 4.5F, 22);
     public static final Item.ToolMaterial TOOL_TURQUARTZ = EnumHelper.addToolMaterial("turquartz", 9, 2769, 8.0F, 3.0F, 8);
 
-    public static final Item.ToolMaterial TOOL_GRAPHENE = EnumHelper.addToolMaterial("graphene", 10, 5000, 9.0F, 4.5F, 25);
+    public static final Item.ToolMaterial TOOL_GRAPHENE = EnumHelper.addToolMaterial("graphene", 10, 5000, 10.0F, 5.0F, 17);
 
 
     //Items

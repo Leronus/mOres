@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Time To Dig Deeper",
-    "description": "You have crafted a bronze pickaxe",
+    "title": "Kratos",
+    "description": "You have crafted the strongest weapon in the game, the graphene battleaxe",
     "icon": {
-      "item": "mores:bronze_pickaxe"
+      "item": "mores:graphene_battleaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "experience": 25
+    "experience": 100
   }
 }

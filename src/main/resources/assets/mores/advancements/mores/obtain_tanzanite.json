@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Tanzaknight",
-    "description": "You have obtained a tanzanite gem",
+    "description": "You have mined your very first tanzanite ore",
     "icon": {
       "item": "mores:tanzanite_gem"
     },

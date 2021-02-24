@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Man of Steel",
-    "description": "You have made a stronger version of iron",
+    "title": "Hephaestos",
+    "description": "You have alloyed coal and iron into steel",
     "icon": {
       "item": "mores:steel_ingot"
     },

@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Iron Man",
-    "description": "You love carbon steel don't you, because you crafted all steel gear!",
+    "title": "Man of Steel",
+    "description": "You love carbon steel don't you, because you crafted all vanilla gear out of steel",
     "icon": {
-      "item": "mores:emerald_sword"
+      "item": "mores:steel_boots"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
