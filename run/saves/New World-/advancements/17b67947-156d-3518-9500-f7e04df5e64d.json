@@ -1,0 +1,276 @@
+{
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_silver_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/mores": {
+    "criteria": {
+      "crafting_table": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2021-02-25 14:33:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2021-02-25 14:33:17 +0100",
+      "creeper": "2021-02-25 14:33:55 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_legs": "2021-02-25 14:32:57 +0100",
+      "craft_emerald_boots": "2021-02-25 14:32:57 +0100",
+      "craft_emerald_chest": "2021-02-25 14:32:57 +0100",
+      "craft_emerald_helmet": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
+    "criteria": {
+      "has_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_silver_sword": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_tanzanite_armor": {
+    "criteria": {
+      "obtain_tanzanite_armor": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert": "2021-02-25 14:32:57 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_onyx_armor": {
+    "criteria": {
+      "obtain_onyx_armor": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-02-25 14:33:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_lapis": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_all": {
+    "criteria": {
+      "obtain_silver_ingot": "2021-02-25 14:32:57 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_silver_ore": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_emerald_armor": {
+    "criteria": {
+      "craft_emerald_tool": "2021-02-25 14:32:57 +0100"
+    },
+    "done": true
+  }
+}

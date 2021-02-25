@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "The 9/11 Jumper",
+    "description": "You have crafted full tin armor, with which you gain the jump boost potion effect",
+    "icon": {
+      "item": "mores:tanzanite_chest"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores/mores:obtain_tin_ore",
+  "criteria": {
+    "obtain_tanzanite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tin_helmet"
+          },
+          {
+            "item": "mores:tin_chest"
+          },
+          {
+            "item": "mores:tin_legs"
+          },
+          {
+            "item": "mores:tin_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

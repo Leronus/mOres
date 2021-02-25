@@ -1,0 +1,197 @@
+{
+  "mores:mores/craft_full_silver_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_legs": "2021-02-24 23:10:47 +0100",
+      "craft_emerald_boots": "2021-02-24 23:10:47 +0100",
+      "craft_emerald_chest": "2021-02-24 23:10:47 +0100",
+      "craft_emerald_helmet": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_tanzanite_armor": {
+    "criteria": {
+      "obtain_tanzanite_armor": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert": "2021-02-24 23:10:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_ruby_gear": {
+    "criteria": {
+      "craft_ruby_pickaxe": "2021-02-24 23:10:47 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/craft_full_onyx_armor": {
+    "criteria": {
+      "obtain_onyx_armor": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_ruby_pickaxe": {
+    "criteria": {
+      "craft_sapphire_pickaxe": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_all": {
+    "criteria": {
+      "obtain_cobalt_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_cobalt_ore": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_emerald_armor": {
+    "criteria": {
+      "craft_emerald_tool": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:10:47 +0100"
+    },
+    "done": true
+  }
+}

@@ -1,4 +1,4 @@
-package mod.mores.objects.items.armor;
+package mod.mores.objects.items.armor.horse;
 
 import mod.mores.util.Reference;
 import net.minecraft.entity.passive.HorseArmorType;

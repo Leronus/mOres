@@ -1,0 +1,97 @@
+{
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2021-02-25 13:44:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-25 13:31:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_ruby_gear": {
+    "criteria": {
+      "craft_ruby_legs": "2021-02-25 13:31:14 +0100",
+      "craft_ruby_chest": "2021-02-25 13:31:13 +0100",
+      "craft_ruby_boots": "2021-02-25 13:31:14 +0100",
+      "craft_ruby_helmet": "2021-02-25 13:31:15 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/craft_full_ruby_armor": {
+    "criteria": {
+      "obtain_ruby": "2021-02-25 13:31:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-02-25 13:44:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_bronze_pickaxe": {
+    "criteria": {
+      "obtain_copper_ore": "2021-02-25 13:43:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-02-25 13:44:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 13:29:13 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_obsidian_armor": {
+    "criteria": {
+      "craft_full_obsidian_armor": "2021-02-25 13:42:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2021-02-25 13:42:45 +0100",
+      "plains": "2021-02-25 13:27:30 +0100",
+      "river": "2021-02-25 13:29:13 +0100"
+    },
+    "done": false
+  }
+}

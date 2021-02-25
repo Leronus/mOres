@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_ruby",
   "criteria": {
-    "craft_sapphire_sword": {
+    "craft_ruby_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

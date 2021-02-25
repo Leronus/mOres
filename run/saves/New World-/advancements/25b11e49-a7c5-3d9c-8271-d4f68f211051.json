@@ -1,0 +1,14 @@
+{
+  "mores:mores/craft_full_ruby_armor": {
+    "criteria": {
+      "obtain_ruby": "2021-02-24 19:34:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-02-24 19:34:25 +0100"
+    },
+    "done": false
+  }
+}

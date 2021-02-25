@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Less Shine, More Power",
-    "description": "You have made a stronger version of silver using the alloy furnace",
+    "description": "You have alloyed a stronger version of silver with copper",
     "icon": {
       "item": "mores:sterling_ingot"
     },

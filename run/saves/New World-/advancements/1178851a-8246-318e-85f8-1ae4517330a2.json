@@ -1,0 +1,15 @@
+{
+  "mores:mores/craft_full_onyx_armor": {
+    "criteria": {
+      "obtain_onyx_armor": "2021-02-24 21:48:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "birch_forest": "2021-02-24 21:48:44 +0100",
+      "desert": "2021-02-24 21:48:56 +0100"
+    },
+    "done": false
+  }
+}

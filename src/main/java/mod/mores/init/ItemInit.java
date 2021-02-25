@@ -1,20 +1,22 @@
 package mod.mores.init;
 
 import mod.mores.objects.ItemBase;
-import mod.mores.objects.items.armor.ArmorBase;
-import mod.mores.objects.items.armor.HorseArmorBase;
+import mod.mores.objects.items.armor.*;
 import mod.mores.objects.items.tools.*;
 import mod.mores.util.Reference;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.passive.HorseArmorType;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemAir;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.registries.IForgeRegistry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,19 +66,19 @@ public class ItemInit {
     public static final Item.ToolMaterial TOOL_BRONZE = EnumHelper.addToolMaterial("bronze", 4, 256, 5.5F, 2.0F, 12);
     public static final Item.ToolMaterial TOOL_STERLING = EnumHelper.addToolMaterial("sterling", 4, 287, 6.0F, 2.2F, 17);
 
-    public static final Item.ToolMaterial TOOL_OBSIDIAN = EnumHelper.addToolMaterial("obsidian", 5, 1931, 6.3F, 2.5F, 7);
     public static final Item.ToolMaterial TOOL_COBALT = EnumHelper.addToolMaterial("cobalt", 5, 351, 6.5F, 2.2F, 20);
     public static final Item.ToolMaterial TOOL_STEEL = EnumHelper.addToolMaterial("steel", 5, 407, 6.2F, 2.5F, 12);
 
+    public static final Item.ToolMaterial TOOL_OBSIDIAN = EnumHelper.addToolMaterial("obsidian", 6, 1931, 6.5F, 2.5F, 7);
     public static final Item.ToolMaterial TOOL_AMETHYST = EnumHelper.addToolMaterial("amethyst", 6, 1021, 7.0F, 2.5F, 12);
-    public static final Item.ToolMaterial TOOL_EMERALD = EnumHelper.addToolMaterial("emerald", 6, 455, 6.5F, 2.5F, 18);
+    public static final Item.ToolMaterial TOOL_EMERALD = EnumHelper.addToolMaterial("emerald", 6, 455, 7.0F, 3.0F, 19);
 
     public static final Item.ToolMaterial TOOL_TOPAZ = EnumHelper.addToolMaterial("topaz", 7, 1245, 7.5F, 2.5F, 15);
     public static final Item.ToolMaterial TOOL_TOURMALINE = EnumHelper.addToolMaterial("tourmaline", 7, 1671, 7.0F, 3.0F, 20);
     public static final Item.ToolMaterial TOOL_TANZANITE = EnumHelper.addToolMaterial("tanzanite", 7, 1963, 8.0F, 3.0F, 31);
 
     public static final Item.ToolMaterial TOOL_RUBY = EnumHelper.addToolMaterial("ruby", 8, 1345, 8.5F, 3.0F, 12);
-    public static final Item.ToolMaterial TOOL_SAPPHIRE = EnumHelper.addToolMaterial("sapphire", 8, 783, 8.0F, 4.0F, 20);
+    public static final Item.ToolMaterial TOOL_SAPPHIRE = EnumHelper.addToolMaterial("sapphire", 8, 1047, 8.0F, 4.0F, 20);
 
     public static final Item.ToolMaterial TOOL_MOISSANITE = EnumHelper.addToolMaterial("moissanite", 9, 2471, 9.0F, 4.0F, 13);
     public static final Item.ToolMaterial TOOL_ONYX = EnumHelper.addToolMaterial("onyx", 9, 3000, 10.0F, 4.5F, 22);
@@ -137,7 +139,7 @@ public class ItemInit {
     public static final Item MOISSANITE_DAGGER = new ToolDagger("moissanite_dagger", TOOL_MOISSANITE);
     public static final Item MOISSANITE_MACE = new ToolMace("moissanite_mace", TOOL_MOISSANITE);
 
-    public static final Item ONYX_SWORD = new ToolSword("onyx_sword", TOOL_ONYX);
+    public static final Item ONYX_SWORD = new OnyxSword("onyx_sword", TOOL_ONYX);
     public static final Item ONYX_PICKAXE = new ToolPickaxe("onyx_pickaxe", TOOL_ONYX);
     public static final Item ONYX_AXE = new ToolAxe(8.5F, -2.9F, "onyx_axe", TOOL_ONYX);
     public static final Item ONYX_SHOVEL = new ToolShovel("onyx_shovel", TOOL_ONYX);
@@ -147,7 +149,7 @@ public class ItemInit {
     public static final Item ONYX_MACE = new ToolMace("onyx_mace", TOOL_ONYX);
 
     public static final Item RUBY_SWORD = new ToolSword("ruby_sword", TOOL_RUBY);
-    public static final Item RUBY_PICKAXE = new ToolPickaxe("ruby_pickaxe", TOOL_RUBY);
+    public static final Item RUBY_PICKAXE = new RubyPickaxe("ruby_pickaxe", TOOL_RUBY);
     public static final Item RUBY_AXE = new ToolAxe(8.0F, -3.0F, "ruby_axe", TOOL_RUBY);
     public static final Item RUBY_SHOVEL = new ToolShovel("ruby_shovel", TOOL_RUBY);
     public static final Item RUBY_HOE = new ToolHoe("ruby_hoe", TOOL_RUBY);
@@ -227,7 +229,7 @@ public class ItemInit {
     public static final Item COPPER_DAGGER = new ToolDagger("copper_dagger", TOOL_COPPER);
     public static final Item COPPER_MACE = new ToolMace("copper_mace", TOOL_COPPER);
 
-    public static final Item SILVER_SWORD = new ToolSword("silver_sword", TOOL_SILVER);
+    public static final Item SILVER_SWORD = new SilverSword("silver_sword", TOOL_SILVER);
     public static final Item SILVER_PICKAXE = new ToolPickaxe("silver_pickaxe", TOOL_SILVER);
     public static final Item SILVER_AXE = new ToolAxe(7.0F, -3.2F, "silver_axe", TOOL_SILVER);
     public static final Item SILVER_SHOVEL = new ToolShovel("silver_shovel", TOOL_SILVER);
@@ -314,10 +316,10 @@ public class ItemInit {
 
 
     //Armor
-    public static final Item AMETHYST_HELMET = new ArmorBase("amethyst_helmet", ARMOR_AMETHYST, 1, EntityEquipmentSlot.HEAD);
-    public static final Item AMETHYST_CHEST = new ArmorBase("amethyst_chest", ARMOR_AMETHYST, 1, EntityEquipmentSlot.CHEST);
-    public static final Item AMETHYST_LEGS = new ArmorBase("amethyst_legs", ARMOR_AMETHYST, 2, EntityEquipmentSlot.LEGS);
-    public static final Item AMETHYST_BOOTS = new ArmorBase("amethyst_boots", ARMOR_AMETHYST, 1, EntityEquipmentSlot.FEET);
+    public static final Item AMETHYST_HELMET = new AmethystArmorBase("amethyst_helmet", ARMOR_AMETHYST, 1, EntityEquipmentSlot.HEAD);
+    public static final Item AMETHYST_CHEST = new AmethystArmorBase("amethyst_chest", ARMOR_AMETHYST, 1, EntityEquipmentSlot.CHEST);
+    public static final Item AMETHYST_LEGS = new AmethystArmorBase("amethyst_legs", ARMOR_AMETHYST, 2, EntityEquipmentSlot.LEGS);
+    public static final Item AMETHYST_BOOTS = new AmethystArmorBase("amethyst_boots", ARMOR_AMETHYST, 1, EntityEquipmentSlot.FEET);
 
     public static final Item MOISSANITE_HELMET = new ArmorBase("moissanite_helmet", ARMOR_MOISSANITE, 1, EntityEquipmentSlot.HEAD);
     public static final Item MOISSANITE_CHEST = new ArmorBase("moissanite_chest", ARMOR_MOISSANITE, 1, EntityEquipmentSlot.CHEST);
@@ -329,15 +331,15 @@ public class ItemInit {
     public static final Item ONYX_LEGS = new ArmorBase("onyx_legs", ARMOR_ONYX, 2, EntityEquipmentSlot.LEGS);
     public static final Item ONYX_BOOTS = new ArmorBase("onyx_boots", ARMOR_ONYX, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_RUBY, 1, EntityEquipmentSlot.HEAD);
-    public static final Item RUBY_CHEST = new ArmorBase("ruby_chest", ARMOR_RUBY, 1, EntityEquipmentSlot.CHEST);
-    public static final Item RUBY_LEGS = new ArmorBase("ruby_legs", ARMOR_RUBY, 2, EntityEquipmentSlot.LEGS);
-    public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_RUBY, 1, EntityEquipmentSlot.FEET);
+    public static final Item RUBY_HELMET = new FireResistantArmorBase("ruby_helmet",ARMOR_RUBY, 1,EntityEquipmentSlot.HEAD);
+    public static final Item RUBY_CHEST = new FireResistantArmorBase("ruby_chest", ARMOR_RUBY, 1, EntityEquipmentSlot.CHEST);
+    public static final Item RUBY_LEGS = new FireResistantArmorBase("ruby_legs", ARMOR_RUBY, 2, EntityEquipmentSlot.LEGS);
+    public static final Item RUBY_BOOTS = new FireResistantArmorBase("ruby_boots", ARMOR_RUBY, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item SAPPHIRE_HELMET = new ArmorBase("sapphire_helmet", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.HEAD);
-    public static final Item SAPPHIRE_CHEST = new ArmorBase("sapphire_chest", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.CHEST);
-    public static final Item SAPPHIRE_LEGS = new ArmorBase("sapphire_legs", ARMOR_SAPPHIRE, 2, EntityEquipmentSlot.LEGS);
-    public static final Item SAPPHIRE_BOOTS = new ArmorBase("sapphire_boots", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.FEET);
+    public static final Item SAPPHIRE_HELMET = new NightVisionArmorBase("sapphire_helmet", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.HEAD);
+    public static final Item SAPPHIRE_CHEST = new NightVisionArmorBase("sapphire_chest", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.CHEST);
+    public static final Item SAPPHIRE_LEGS = new NightVisionArmorBase("sapphire_legs", ARMOR_SAPPHIRE, 2, EntityEquipmentSlot.LEGS);
+    public static final Item SAPPHIRE_BOOTS = new NightVisionArmorBase("sapphire_boots", ARMOR_SAPPHIRE, 1, EntityEquipmentSlot.FEET);
 
     public static final Item TOURMALINE_HELMET = new ArmorBase("tourmaline_helmet", ARMOR_TOURMALINE, 1, EntityEquipmentSlot.HEAD);
     public static final Item TOURMALINE_CHEST = new ArmorBase("tourmaline_chest", ARMOR_TOURMALINE, 1, EntityEquipmentSlot.CHEST);
@@ -349,45 +351,45 @@ public class ItemInit {
     public static final Item GRAPHENE_LEGS = new ArmorBase("graphene_legs", ARMOR_GRAPHENE, 2, EntityEquipmentSlot.LEGS);
     public static final Item GRAPHENE_BOOTS = new ArmorBase("graphene_boots", ARMOR_GRAPHENE, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item TANZANITE_HELMET = new ArmorBase("tanzanite_helmet", ARMOR_TANZANITE, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TANZANITE_CHEST = new ArmorBase("tanzanite_chest", ARMOR_TANZANITE, 1, EntityEquipmentSlot.CHEST);
-    public static final Item TANZANITE_LEGS = new ArmorBase("tanzanite_legs", ARMOR_TANZANITE, 2, EntityEquipmentSlot.LEGS);
-    public static final Item TANZANITE_BOOTS = new ArmorBase("tanzanite_boots", ARMOR_TANZANITE, 1, EntityEquipmentSlot.FEET);
+    public static final Item TANZANITE_HELMET = new TanzaniteArmorBase( "tanzanite_helmet", ARMOR_TANZANITE, 1, EntityEquipmentSlot.HEAD);
+    public static final Item TANZANITE_CHEST = new TanzaniteArmorBase("tanzanite_chest", ARMOR_TANZANITE, 1, EntityEquipmentSlot.CHEST);
+    public static final Item TANZANITE_LEGS = new TanzaniteArmorBase("tanzanite_legs", ARMOR_TANZANITE, 2, EntityEquipmentSlot.LEGS);
+    public static final Item TANZANITE_BOOTS = new TanzaniteArmorBase("tanzanite_boots", ARMOR_TANZANITE, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item TOPAZ_HELMET = new ArmorBase("topaz_helmet", ARMOR_TOPAZ, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TOPAZ_CHEST = new ArmorBase("topaz_chest", ARMOR_TOPAZ, 1, EntityEquipmentSlot.CHEST);
-    public static final Item TOPAZ_LEGS = new ArmorBase("topaz_legs", ARMOR_TOPAZ, 2, EntityEquipmentSlot.LEGS);
-    public static final Item TOPAZ_BOOTS = new ArmorBase("topaz_boots", ARMOR_TOPAZ, 1, EntityEquipmentSlot.FEET);
+    public static final Item TOPAZ_HELMET = new TopazArmorBase("topaz_helmet", ARMOR_TOPAZ, 1, EntityEquipmentSlot.HEAD);
+    public static final Item TOPAZ_CHEST = new TopazArmorBase("topaz_chest", ARMOR_TOPAZ, 1, EntityEquipmentSlot.CHEST);
+    public static final Item TOPAZ_LEGS = new TopazArmorBase("topaz_legs", ARMOR_TOPAZ, 2, EntityEquipmentSlot.LEGS);
+    public static final Item TOPAZ_BOOTS = new TopazArmorBase("topaz_boots", ARMOR_TOPAZ, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item TURQUARTZ_HELMET = new ArmorBase("turquartz_helmet", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TURQUARTZ_CHEST = new ArmorBase("turquartz_chest", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.CHEST);
-    public static final Item TURQUARTZ_LEGS = new ArmorBase("turquartz_legs", ARMOR_TURQUARTZ, 2, EntityEquipmentSlot.LEGS);
-    public static final Item TURQUARTZ_BOOTS = new ArmorBase("turquartz_boots", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.FEET);
+    public static final Item TURQUARTZ_HELMET = new WaterBreathingArmorBase("turquartz_helmet", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.HEAD);
+    public static final Item TURQUARTZ_CHEST = new WaterBreathingArmorBase("turquartz_chest", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.CHEST);
+    public static final Item TURQUARTZ_LEGS = new WaterBreathingArmorBase("turquartz_legs", ARMOR_TURQUARTZ, 2, EntityEquipmentSlot.LEGS);
+    public static final Item TURQUARTZ_BOOTS = new WaterBreathingArmorBase("turquartz_boots", ARMOR_TURQUARTZ, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item COBALT_HELMET = new ArmorBase("cobalt_helmet", ARMOR_COBALT, 1, EntityEquipmentSlot.HEAD);
-    public static final Item COBALT_CHEST = new ArmorBase("cobalt_chest", ARMOR_COBALT, 1, EntityEquipmentSlot.CHEST);
-    public static final Item COBALT_LEGS = new ArmorBase("cobalt_legs", ARMOR_COBALT, 2, EntityEquipmentSlot.LEGS);
-    public static final Item COBALT_BOOTS = new ArmorBase("cobalt_boots", ARMOR_COBALT, 1, EntityEquipmentSlot.FEET);
+    public static final Item COBALT_HELMET = new CobaltArmorBase("cobalt_helmet", ARMOR_COBALT, 1, EntityEquipmentSlot.HEAD);
+    public static final Item COBALT_CHEST = new CobaltArmorBase("cobalt_chest", ARMOR_COBALT, 1, EntityEquipmentSlot.CHEST);
+    public static final Item COBALT_LEGS = new CobaltArmorBase("cobalt_legs", ARMOR_COBALT, 2, EntityEquipmentSlot.LEGS);
+    public static final Item COBALT_BOOTS = new CobaltArmorBase("cobalt_boots", ARMOR_COBALT, 1, EntityEquipmentSlot.FEET);
 
     public static final Item COPPER_HELMET = new ArmorBase("copper_helmet", ARMOR_COPPER, 1, EntityEquipmentSlot.HEAD);
     public static final Item COPPER_CHEST = new ArmorBase("copper_chest", ARMOR_COPPER, 1, EntityEquipmentSlot.CHEST);
     public static final Item COPPER_LEGS = new ArmorBase("copper_legs", ARMOR_COPPER, 2, EntityEquipmentSlot.LEGS);
     public static final Item COPPER_BOOTS = new ArmorBase("copper_boots", ARMOR_COPPER, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item SILVER_HELMET = new ArmorBase("silver_helmet", ARMOR_SILVER, 1, EntityEquipmentSlot.HEAD);
-    public static final Item SILVER_CHEST = new ArmorBase("silver_chest", ARMOR_SILVER, 1, EntityEquipmentSlot.CHEST);
-    public static final Item SILVER_LEGS = new ArmorBase("silver_legs", ARMOR_SILVER, 2, EntityEquipmentSlot.LEGS);
-    public static final Item SILVER_BOOTS = new ArmorBase("silver_boots", ARMOR_SILVER, 1, EntityEquipmentSlot.FEET);
+    public static final Item SILVER_HELMET = new SilverArmorBase("silver_helmet", ARMOR_SILVER, 1, EntityEquipmentSlot.HEAD);
+    public static final Item SILVER_CHEST = new SilverArmorBase("silver_chest", ARMOR_SILVER, 1, EntityEquipmentSlot.CHEST);
+    public static final Item SILVER_LEGS = new SilverArmorBase("silver_legs", ARMOR_SILVER, 2, EntityEquipmentSlot.LEGS);
+    public static final Item SILVER_BOOTS = new SilverArmorBase("silver_boots", ARMOR_SILVER, 1, EntityEquipmentSlot.FEET);
 
     public static final Item STEEL_HELMET = new ArmorBase("steel_helmet", ARMOR_STEEL, 1, EntityEquipmentSlot.HEAD);
     public static final Item STEEL_CHEST = new ArmorBase("steel_chest", ARMOR_STEEL, 1, EntityEquipmentSlot.CHEST);
     public static final Item STEEL_LEGS = new ArmorBase("steel_legs", ARMOR_STEEL, 2, EntityEquipmentSlot.LEGS);
     public static final Item STEEL_BOOTS = new ArmorBase("steel_boots", ARMOR_STEEL, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item TIN_HELMET = new ArmorBase("tin_helmet", ARMOR_TIN, 1, EntityEquipmentSlot.HEAD);
-    public static final Item TIN_CHEST = new ArmorBase("tin_chest", ARMOR_TIN, 1, EntityEquipmentSlot.CHEST);
-    public static final Item TIN_LEGS = new ArmorBase("tin_legs", ARMOR_TIN, 2, EntityEquipmentSlot.LEGS);
-    public static final Item TIN_BOOTS = new ArmorBase("tin_boots", ARMOR_TIN, 1, EntityEquipmentSlot.FEET);
+    public static final Item TIN_HELMET = new TinArmorBase("tin_helmet", ARMOR_TIN, 1, EntityEquipmentSlot.HEAD);
+    public static final Item TIN_CHEST = new TinArmorBase("tin_chest", ARMOR_TIN, 1, EntityEquipmentSlot.CHEST);
+    public static final Item TIN_LEGS = new TinArmorBase("tin_legs", ARMOR_TIN, 2, EntityEquipmentSlot.LEGS);
+    public static final Item TIN_BOOTS = new TinArmorBase("tin_boots", ARMOR_TIN, 1, EntityEquipmentSlot.FEET);
 
     public static final Item BRONZE_HELMET = new ArmorBase("bronze_helmet", ARMOR_BRONZE, 1, EntityEquipmentSlot.HEAD);
     public static final Item BRONZE_CHEST = new ArmorBase("bronze_chest", ARMOR_BRONZE, 1, EntityEquipmentSlot.CHEST);
@@ -399,14 +401,14 @@ public class ItemInit {
     public static final Item STERLING_LEGS = new ArmorBase("sterling_legs", ARMOR_STERLING, 2, EntityEquipmentSlot.LEGS);
     public static final Item STERLING_BOOTS = new ArmorBase("sterling_boots", ARMOR_STERLING, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item EMERALD_HELMET = new ArmorBase("emerald_helmet", ARMOR_EMERALD, 1, EntityEquipmentSlot.HEAD);
-    public static final Item EMERALD_CHEST = new ArmorBase("emerald_chest", ARMOR_EMERALD, 1, EntityEquipmentSlot.CHEST);
-    public static final Item EMERALD_LEGS = new ArmorBase("emerald_legs", ARMOR_EMERALD, 2, EntityEquipmentSlot.LEGS);
-    public static final Item EMERALD_BOOTS = new ArmorBase("emerald_boots", ARMOR_EMERALD, 1, EntityEquipmentSlot.FEET);
+    public static final Item EMERALD_HELMET = new EmeraldArmorBase("emerald_helmet", ARMOR_EMERALD, 1, EntityEquipmentSlot.HEAD);
+    public static final Item EMERALD_CHEST = new EmeraldArmorBase("emerald_chest", ARMOR_EMERALD, 1, EntityEquipmentSlot.CHEST);
+    public static final Item EMERALD_LEGS = new EmeraldArmorBase("emerald_legs", ARMOR_EMERALD, 2, EntityEquipmentSlot.LEGS);
+    public static final Item EMERALD_BOOTS = new EmeraldArmorBase("emerald_boots", ARMOR_EMERALD, 1, EntityEquipmentSlot.FEET);
 
-    public static final Item OBSIDIAN_HELMET = new ArmorBase("obsidian_helmet", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.HEAD);
-    public static final Item OBSIDIAN_CHEST = new ArmorBase("obsidian_chest", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.CHEST);
-    public static final Item OBSIDIAN_LEGS = new ArmorBase("obsidian_legs", ARMOR_OBSIDIAN, 2, EntityEquipmentSlot.LEGS);
-    public static final Item OBSIDIAN_BOOTS = new ArmorBase("obsidian_boots", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.FEET);
+    public static final Item OBSIDIAN_HELMET = new ObsidianArmorBase("obsidian_helmet", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.HEAD);
+    public static final Item OBSIDIAN_CHEST = new ObsidianArmorBase("obsidian_chest", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.CHEST);
+    public static final Item OBSIDIAN_LEGS = new ObsidianArmorBase("obsidian_legs", ARMOR_OBSIDIAN, 2, EntityEquipmentSlot.LEGS);
+    public static final Item OBSIDIAN_BOOTS = new ObsidianArmorBase("obsidian_boots", ARMOR_OBSIDIAN, 1, EntityEquipmentSlot.FEET);
 
 }

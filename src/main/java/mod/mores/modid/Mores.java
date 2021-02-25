@@ -59,7 +59,7 @@ public class Mores
         Blocks.IRON_ORE.setHarvestLevel("pickaxe", 3);
         Blocks.DIAMOND_ORE.setHarvestLevel("pickaxe", 7);
         Blocks.EMERALD_ORE.setHarvestLevel("pickaxe", 5);
-        Blocks.OBSIDIAN.setHarvestLevel("pickaxe", 4);
+        Blocks.OBSIDIAN.setHarvestLevel("pickaxe", 5);
     }
 
     @EventHandler

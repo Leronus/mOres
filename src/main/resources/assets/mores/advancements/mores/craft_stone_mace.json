@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/craft_wood_mace",
   "criteria": {
     "craft_stone_mace": {
       "trigger": "minecraft:inventory_changed",

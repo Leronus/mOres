@@ -1,0 +1,223 @@
+{
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_ruby_armor": {
+    "criteria": {
+      "obtain_ruby": "2021-02-25 12:50:04 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_helmet": "2021-02-25 12:51:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2021-02-25 12:52:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_topaz_gear": {
+    "criteria": {
+      "craft_topaz_chest": "2021-02-25 12:50:18 +0100",
+      "craft_topaz_boots": "2021-02-25 12:50:19 +0100",
+      "craft_topaz_legs": "2021-02-25 12:50:18 +0100",
+      "craft_topaz_helmet": "2021-02-25 12:50:17 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-02-25 12:53:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-02-25 12:40:05 +0100"
+    },
+    "done": false
+  },
+  "mores:mores/craft_wood_dagger": {
+    "criteria": {
+      "obtain_graphene": "2021-02-25 12:51:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-02-25 12:50:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2021-02-25 12:52:39 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_sapphire_armor": {
+    "criteria": {
+      "obtain_ruby": "2021-02-25 12:50:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-02-25 12:50:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_ruby_gear": {
+    "criteria": {
+      "craft_ruby_axe": "2021-02-25 12:50:36 +0100",
+      "craft_ruby_hoe": "2021-02-25 12:50:38 +0100",
+      "craft_ruby_legs": "2021-02-25 12:50:03 +0100",
+      "craft_ruby_chest": "2021-02-25 12:50:02 +0100",
+      "craft_ruby_boots": "2021-02-25 12:50:04 +0100",
+      "craft_ruby_sword": "2021-02-25 12:50:34 +0100",
+      "craft_ruby_pickaxe": "2021-02-25 12:50:35 +0100",
+      "craft_ruby_helmet": "2021-02-25 12:50:01 +0100",
+      "craft_ruby_shovel": "2021-02-25 12:50:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_ruby_pickaxe": {
+    "criteria": {
+      "craft_sapphire_pickaxe": "2021-02-25 12:50:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2021-02-25 12:52:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 12:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2021-02-25 12:52:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-02-25 12:40:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2021-02-25 12:52:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-02-25 12:53:35 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_emerald_armor": {
+    "criteria": {
+      "craft_emerald_tool": "2021-02-25 12:51:53 +0100"
+    },
+    "done": true
+  }
+}

@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_onyx",
   "criteria": {
-    "obtain_copper_ore": {
+    "obtain_onyx_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

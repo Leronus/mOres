@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": "Jack The Ripper",
+    "description": "You have crafted two graphene daggers for dual wielding",
+    "icon": {
+      "item": "mores:graphene_dagger"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_graphene",
+  "criteria": {
+    "obtain_graphene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:graphene_dagger",
+            "count": 2
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
