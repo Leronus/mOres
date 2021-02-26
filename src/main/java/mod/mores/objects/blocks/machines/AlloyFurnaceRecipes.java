@@ -27,7 +27,7 @@ public class AlloyFurnaceRecipes
     private AlloyFurnaceRecipes()
     {
         addAlloyRecipe(new ItemStack(Items.COAL), new ItemStack(Items.IRON_INGOT), new ItemStack(ItemInit.STEEL_INGOT), 5.0F);
-        addAlloyRecipe(new ItemStack(Items.COAL), new ItemStack(Items.DIAMOND), new ItemStack(ItemInit.GRAPHENE_GEM), 10.0F);
+        addAlloyRecipe(new ItemStack(Items.DIAMOND), new ItemStack(ItemInit.ONYX_GEM), new ItemStack(ItemInit.GRAPHENE_GEM), 10.0F);
         addAlloyRecipe(new ItemStack(ItemInit.COPPER_INGOT), new ItemStack(ItemInit.TIN_INGOT), new ItemStack(ItemInit.BRONZE_INGOT), 4.0F);
         addAlloyRecipe(new ItemStack(ItemInit.COPPER_INGOT), new ItemStack(ItemInit.SILVER_INGOT), new ItemStack(ItemInit.STERLING_INGOT), 5.0F);
         addAlloyRecipe(new ItemStack(Items.QUARTZ), new ItemStack(ItemInit.TURQUOISE_GEM), new ItemStack(ItemInit.TURQUARTZ_GEM), 6.0F);

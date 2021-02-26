@@ -67,7 +67,7 @@ public class BlockAlloyFurnace extends Block {
         // setBlockUnbreakable();
 
         this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
-        Reference.LOGGER.info("Block is reset to default state");
+        //Reference.LOGGER.info("Block is reset to default state");
 
         BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
@@ -92,7 +92,7 @@ public class BlockAlloyFurnace extends Block {
                                     EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
         if (!worldIn.isRemote) {
             playerIn.openGui(Mores.instance, Reference.GUI_ALLOY_FURNACE, worldIn, pos.getX(), pos.getY(), pos.getZ());
-            Reference.LOGGER.info("Furnace GUI opened!");
+            //Reference.LOGGER.info("Furnace GUI opened!");
         }
         //BURNING propertybool is set to false
         return true;
@@ -111,7 +111,6 @@ public class BlockAlloyFurnace extends Block {
                 facing = EnumFacing.NORTH;
             active = furnace.isActive();
         }
-        Reference.LOGGER.info("state: " + state.getValue(BURNING));
         return state.withProperty(BURNING, active);
     }
 
@@ -176,7 +175,7 @@ public class BlockAlloyFurnace extends Block {
     @Override
     protected BlockStateContainer createBlockState() {
         // TODO Auto-generated method stub
-        Reference.LOGGER.info("Created blockstate in BlockAlloyFurnace with property BURNING: " + BURNING);
+        //Reference.LOGGER.info("Created blockstate in BlockAlloyFurnace with property BURNING: " + BURNING);
         return new BlockStateContainer(this, BURNING, FACING);
     }
 
