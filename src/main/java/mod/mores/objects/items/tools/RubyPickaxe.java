@@ -44,7 +44,6 @@ public class RubyPickaxe extends ItemPickaxe
         Mores.proxy.registerItemRenderer(this, 0, "inventory");
     }
 
-    /*
     @Override
     public boolean onBlockDestroyed(ItemStack stack, World worldIn,
                                     IBlockState state, BlockPos pos, EntityLivingBase entityLiving)
@@ -53,7 +52,7 @@ public class RubyPickaxe extends ItemPickaxe
 
         return super.onBlockDestroyed(stack, worldIn, state, pos, entityLiving);
     }
-     */
+
 
     /*
     @Override

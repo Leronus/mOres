@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_graphene",
+  "parent": "mores:mores/obtain_onyx",
   "criteria": {
     "obtain_graphene": {
       "trigger": "minecraft:inventory_changed",

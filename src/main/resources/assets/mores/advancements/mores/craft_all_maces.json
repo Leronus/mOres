@@ -132,16 +132,6 @@
         ]
       }
     },
-    "obtain_turquoise_mace": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "mores:turquoise_mace"
-          }
-        ]
-      }
-    },
     "obtain_onyx_mace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -264,7 +254,7 @@
     }
   },
   "requirements": [
-    ["obtain_copper_mace"], ["obtain_tin_mace"], ["obtain_bronze_mace"], ["obtain_silver_mace"], ["obtain_steel_mace"], ["obtain_sterling_mace"], ["obtain_cobalt_mace"], ["obtain_amethyst_mace"], ["obtain_topaz_mace"], ["obtain_tourmaline_mace"], ["obtain_ruby_mace"], ["obtain_sapphire_mace"], ["obtain_turquoise_mace"], ["obtain_onyx_mace"], ["obtain_tanzanite_mace"], ["obtain_turquartz_mace"], ["obtain_moissanite_mace"], ["obtain_graphene_mace"], ["obtain_wood_mace"], ["obtain_stone_mace"], ["obtain_iron_mace"], ["obtain_gold_mace"], ["obtain_diamond_mace"], ["obtain_emerald_mace"], ["obtain_obsidian_mace"]
+    ["obtain_copper_mace"], ["obtain_tin_mace"], ["obtain_bronze_mace"], ["obtain_silver_mace"], ["obtain_steel_mace"], ["obtain_sterling_mace"], ["obtain_cobalt_mace"], ["obtain_amethyst_mace"], ["obtain_topaz_mace"], ["obtain_tourmaline_mace"], ["obtain_ruby_mace"], ["obtain_sapphire_mace"], ["obtain_onyx_mace"], ["obtain_tanzanite_mace"], ["obtain_turquartz_mace"], ["obtain_moissanite_mace"], ["obtain_graphene_mace"], ["obtain_wood_mace"], ["obtain_stone_mace"], ["obtain_iron_mace"], ["obtain_gold_mace"], ["obtain_diamond_mace"], ["obtain_emerald_mace"], ["obtain_obsidian_mace"]
   ],
   "rewards": {
     "experience": 500

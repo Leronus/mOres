@@ -132,16 +132,6 @@
         ]
       }
     },
-    "obtain_turquoise_dagger": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "mores:turquoise_dagger"
-          }
-        ]
-      }
-    },
     "obtain_onyx_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -264,7 +254,7 @@
     }
   },
   "requirements": [
-    ["obtain_copper_dagger"], ["obtain_tin_dagger"], ["obtain_bronze_dagger"], ["obtain_silver_dagger"], ["obtain_steel_dagger"], ["obtain_sterling_dagger"], ["obtain_cobalt_dagger"], ["obtain_amethyst_dagger"], ["obtain_topaz_dagger"], ["obtain_tourmaline_dagger"], ["obtain_ruby_dagger"], ["obtain_sapphire_dagger"], ["obtain_turquoise_dagger"], ["obtain_onyx_dagger"], ["obtain_tanzanite_dagger"], ["obtain_turquartz_dagger"], ["obtain_moissanite_dagger"], ["obtain_graphene_dagger"], ["obtain_wood_dagger"], ["obtain_stone_dagger"], ["obtain_iron_dagger"], ["obtain_gold_dagger"], ["obtain_diamond_dagger"], ["obtain_emerald_dagger"], ["obtain_obsidian_dagger"]
+    ["obtain_copper_dagger"], ["obtain_tin_dagger"], ["obtain_bronze_dagger"], ["obtain_silver_dagger"], ["obtain_steel_dagger"], ["obtain_sterling_dagger"], ["obtain_cobalt_dagger"], ["obtain_amethyst_dagger"], ["obtain_topaz_dagger"], ["obtain_tourmaline_dagger"], ["obtain_ruby_dagger"], ["obtain_sapphire_dagger"], ["obtain_onyx_dagger"], ["obtain_tanzanite_dagger"], ["obtain_turquartz_dagger"], ["obtain_moissanite_dagger"], ["obtain_graphene_dagger"], ["obtain_wood_dagger"], ["obtain_stone_dagger"], ["obtain_iron_dagger"], ["obtain_gold_dagger"], ["obtain_diamond_dagger"], ["obtain_emerald_dagger"], ["obtain_obsidian_dagger"]
   ],
   "rewards": {
     "experience": 500

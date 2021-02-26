@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
@@ -59,21 +65,27 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "husk": "2021-02-25 14:44:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "husk": "2021-02-25 14:44:08 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
     "criteria": {
       "has_lapis": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -95,9 +107,27 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
     "criteria": {
       "has_lapis": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -107,24 +137,31 @@
     },
     "done": true
   },
-  "mores:mores/craft_full_obsidian_armor": {
-    "criteria": {
-      "craft_full_obsidian_armor": "2021-02-25 14:43:44 +0100"
-    },
-    "done": true
-  },
   "mores:mores/craft_full_tanzanite_armor": {
     "criteria": {
       "obtain_tanzanite_armor": "2021-02-25 14:43:34 +0100"
     },
     "done": true
   },
+  "mores:mores/craft_full_obsidian_armor": {
+    "criteria": {
+      "craft_full_obsidian_armor": "2021-02-25 14:43:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "birch_forest": "2021-02-25 14:43:36 +0100",
+      "plains": "2021-02-25 16:00:07 +0100",
       "desert": "2021-02-25 14:43:34 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
@@ -156,9 +193,27 @@
     },
     "done": true
   },
+  "mores:mores/craft_full_ruby_gear": {
+    "criteria": {
+      "craft_ruby_pickaxe": "2021-02-25 16:00:07 +0100"
+    },
+    "done": false
+  },
   "mores:mores/craft_full_onyx_armor": {
     "criteria": {
       "obtain_onyx_armor": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -171,6 +226,24 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -192,6 +265,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "mores:mores/craft_full_emerald_armor": {
     "criteria": {
       "craft_emerald_tool": "2021-02-25 14:43:34 +0100"
@@ -210,15 +289,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -230,6 +333,12 @@
       "spider": "2021-02-25 14:44:12 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
@@ -252,9 +361,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -267,6 +388,30 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_ruby_pickaxe": {
+    "criteria": {
+      "craft_sapphire_pickaxe": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2021-02-25 16:00:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
@@ -285,6 +430,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-25 14:43:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-25 16:00:07 +0100"
     },
     "done": true
   },
