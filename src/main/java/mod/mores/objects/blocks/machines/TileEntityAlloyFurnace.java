@@ -100,7 +100,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
      */
     public TileEntityAlloyFurnace() {
         isActive = isBurning();
-        Reference.LOGGER.info("TileEntity is successfully bound to a block");
+        //Reference.LOGGER.info("TileEntity is successfully bound to a block");
     }
 
     @Override
@@ -224,7 +224,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
 
             IBlockState state = world.getBlockState(pos);
             world.notifyBlockUpdate(pos, state, state, 3);
-            Reference.LOGGER.info("updateBlockActiveState");
+            //Reference.LOGGER.info("updateBlockActiveState");
         }
         return dirty;
     }
@@ -295,7 +295,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
                 dirty = true;
                 isActive = this.isBurning();
                 setState(isActive, world, pos);
-                Reference.LOGGER.info("update: " + isActive);
+                //Reference.LOGGER.info("update: " + isActive);
             }
         }
         if(dirty) this.markDirty();
@@ -308,11 +308,11 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
         if (active) {
             worldIn.setBlockState(pos, BlockInit.ALLOY_FURNACE.getDefaultState()
                     .withProperty(BlockAlloyFurnace.FACING, state.getValue(BlockAlloyFurnace.FACING)).withProperty(BlockAlloyFurnace.BURNING, true), 1 | 2);
-            Reference.LOGGER.info("setState active: " + state.getValue(BlockAlloyFurnace.BURNING));
+            //Reference.LOGGER.info("setState active: " + state.getValue(BlockAlloyFurnace.BURNING));
         } else
             worldIn.setBlockState(pos, BlockInit.ALLOY_FURNACE.getDefaultState()
                     .withProperty(BlockAlloyFurnace.FACING, state.getValue(BlockAlloyFurnace.FACING)).withProperty(BlockAlloyFurnace.BURNING, false), 1 | 2);
-            Reference.LOGGER.info("setState inactive: " + state.getValue(BlockAlloyFurnace.BURNING));
+            //Reference.LOGGER.info("setState inactive: " + state.getValue(BlockAlloyFurnace.BURNING));
         if (tileentity != null) {
             tileentity.validate();
             worldIn.setTileEntity(pos, tileentity);
