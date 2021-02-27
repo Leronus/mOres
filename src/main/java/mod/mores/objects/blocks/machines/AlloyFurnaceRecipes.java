@@ -40,7 +40,7 @@ public class AlloyFurnaceRecipes
         if(getAlloyResult(input1, input2) != ItemStack.EMPTY) return;
         this.smeltingList.put(input1, input2, result);
         this.smeltingList.put(input2, input1, result);
-        this.experienceList.put(result, Float.valueOf(experience));
+        this.experienceList.put(result, experience);
     }
 
     public ItemStack getAlloyResult(ItemStack input1, ItemStack input2)
@@ -78,7 +78,7 @@ public class AlloyFurnaceRecipes
         {
             if(this.compareItemStacks(stack, (ItemStack)entry.getKey()))
             {
-                return ((Float)entry.getValue()).floatValue();
+                return (Float) entry.getValue();
             }
         }
         return 0.0F;

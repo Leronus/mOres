@@ -115,7 +115,7 @@ public class WorldGenOres implements IWorldGenerator {
     }
     private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
-        generateOre(onyx_ore, world, random, chunkX * 16, chunkZ * 16, 30, 100, 10);
+        generateOre(onyx_ore, world, random, chunkX * 16, chunkZ * 16, 30, 100, 8);
     }
 
 

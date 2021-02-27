@@ -30,7 +30,7 @@ public class OnyxSword extends ItemSword
     @Override
     public boolean hitEntity(ItemStack stack, EntityLivingBase target, EntityLivingBase attacker)
     {
-        target.addPotionEffect(new PotionEffect(MobEffects.WITHER, 100, 2, false, false));
+        target.addPotionEffect(new PotionEffect(MobEffects.WITHER, 100, 0, false, false));
         return true;
     }
 

@@ -5,9 +5,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+      "has_string": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -23,36 +41,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_leggings": {
+  "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_axe": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
-  },
-  "mores:mores/craft_emerald_gear": {
-    "criteria": {
-      "craft_emerald_legs": "2021-02-24 23:28:44 +0100",
-      "craft_emerald_boots": "2021-02-24 23:28:44 +0100",
-      "craft_emerald_chest": "2021-02-24 23:28:44 +0100",
-      "craft_emerald_helmet": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/shield": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+      "has_diamond": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
   "mores:mores/obtain_cobalt_ore": {
     "criteria": {
       "obtain_cobalt_ore": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -68,15 +77,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bucket": {
+  "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -88,6 +91,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "plains": "2021-02-27 12:18:37 +0100",
       "desert": "2021-02-24 23:28:44 +0100"
     },
     "done": false
@@ -98,9 +102,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/hopper": {
+  "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+      "has_diamond": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -134,9 +138,15 @@
     },
     "done": true
   },
-  "mores:mores/craft_ruby_pickaxe": {
+  "minecraft:recipes/combat/stone_sword": {
     "criteria": {
-      "craft_sapphire_pickaxe": "2021-02-24 23:28:44 +0100"
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -146,13 +156,178 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2021-02-24 23:28:44 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_trapdoor": {
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_cobalt_ore": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_emerald_armor": {
+    "criteria": {
+      "craft_emerald_tool": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_emerald_gear": {
+    "criteria": {
+      "craft_emerald_legs": "2021-02-24 23:28:44 +0100",
+      "craft_emerald_boots": "2021-02-24 23:28:44 +0100",
+      "craft_emerald_chest": "2021-02-24 23:28:44 +0100",
+      "craft_emerald_helmet": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_ruby_pickaxe": {
+    "criteria": {
+      "craft_sapphire_pickaxe": "2021-02-24 23:28:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2021-02-27 12:18:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2021-02-24 23:28:44 +0100"
     },
@@ -164,9 +339,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/shears": {
+  "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_iron_ingot": "2021-02-24 23:28:44 +0100"
+      "has_cobblestone": "2021-02-27 12:18:37 +0100"
     },
     "done": true
   },
@@ -175,18 +350,6 @@
       "obtain_cobalt_ingot": "2021-02-24 23:28:44 +0100"
     },
     "done": false
-  },
-  "mores:mores/smelt_more": {
-    "criteria": {
-      "smelt_cobalt_ore": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
-  },
-  "mores:mores/craft_full_emerald_armor": {
-    "criteria": {
-      "craft_emerald_tool": "2021-02-24 23:28:44 +0100"
-    },
-    "done": true
   },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {

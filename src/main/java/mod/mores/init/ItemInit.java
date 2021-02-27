@@ -2,6 +2,7 @@ package mod.mores.init;
 
 import mod.mores.objects.ItemBase;
 import mod.mores.objects.items.armor.*;
+import mod.mores.objects.items.armor.horse.HorseArmorBase;
 import mod.mores.objects.items.tools.*;
 import mod.mores.util.Reference;
 import net.minecraft.block.material.Material;
@@ -47,7 +48,6 @@ public class ItemInit {
     public static final ItemArmor.ArmorMaterial ARMOR_TURQUARTZ = EnumHelper.addArmorMaterial("turquartz_armor", Reference.MODID + ":turquartz", 2496, new int[] {2, 5, 7, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2);
     public static final ItemArmor.ArmorMaterial ARMOR_GRAPHENE = EnumHelper.addArmorMaterial("graphene_armor", Reference.MODID + ":graphene", 5000, new int[] {3, 7, 8, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3);
 
-    public static final HorseArmorType HORSE_ARMOR_COPPER = EnumHelper.addHorseArmor("horse_armor", Reference.MODID + ":copper" , 3);
 
 
 
@@ -112,10 +112,35 @@ public class ItemInit {
 
     public static final Item CHAIN = new ItemBase("chain");
 
+
     //Fuels
     public static final Item ROOIEKOOL = new ItemBase("rooiekool");
 
-    //Horse armor items
+
+    //Horse armor items (diamond horse armor hardness: 11)
+    //public static final Item AMETHYST_HORSE_ARMOR = new HorseArmorBase("amethyst", 7);
+    public static final Item MOISSANITE_HORSE_ARMOR = new HorseArmorBase("moissanite", 13);
+    public static final Item ONYX_HORSE_ARMOR = new HorseArmorBase("onyx", 14);
+    //public static final Item RUBY_HORSE_ARMOR = new HorseArmorBase("ruby", 12);
+    public static final Item SAPPHIRE_HORSE_ARMOR = new HorseArmorBase("sapphire", 11);
+    public static final Item TOURMALINE_HORSE_ARMOR = new HorseArmorBase("tourmaline", 9);
+    //public static final Item GRAPHENE_HORSE_ARMOR = new HorseArmorBase("graphene", 16);
+    public static final Item TANZANITE_HORSE_ARMOR = new HorseArmorBase("tanzanite", 10);
+    //public static final Item TOPAZ_HORSE_ARMOR = new HorseArmorBase("topaz", 9);
+    //public static final Item TURQUARTZ_HORSE_ARMOR = new HorseArmorBase("turquartz", 12);
+    public static final Item COBALT_HORSE_ARMOR = new HorseArmorBase("cobalt", 6);
+    public static final Item COPPER_HORSE_ARMOR = new HorseArmorBase("copper", 3);
+    public static final Item SILVER_HORSE_ARMOR = new HorseArmorBase("silver", 4);
+    public static final Item STEEL_HORSE_ARMOR = new HorseArmorBase("steel", 8);
+    //public static final Item TIN_HORSE_ARMOR = new HorseArmorBase("tin", 2);
+    public static final Item BRONZE_HORSE_ARMOR = new HorseArmorBase("bronze", 5);
+    //public static final Item STERLING_HORSE_ARMOR = new HorseArmorBase("sterling", 6);
+    //public static final Item EMERALD_HORSE_ARMOR = new HorseArmorBase("emerald", 9);
+    //public static final Item OBSIDIAN_HORSE_ARMOR = new HorseArmorBase("obsidian", 8);
+
+
+
+
 
 
 
