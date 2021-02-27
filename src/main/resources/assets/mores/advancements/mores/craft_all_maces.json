@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/craft_wood_mace",
+  "parent": "mores:mores/craft_stone_mace",
   "criteria": {
     "obtain_copper_mace": {
       "trigger": "minecraft:inventory_changed",
