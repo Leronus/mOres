@@ -1,13 +1,19 @@
 {
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2021-02-24 22:06:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
       "has_string": "2021-02-24 22:06:09 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "mores:mores/craft_graphene_dagger": {
     "criteria": {
-      "has_sand": "2021-02-24 22:06:05 +0100"
+      "craft_graphene_dagger": "2021-02-28 16:33:03 +0100"
     },
     "done": true
   },
@@ -26,6 +32,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2021-02-24 22:06:09 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/mores": {
+    "criteria": {
+      "crafting_table": "2021-02-28 16:33:03 +0100"
     },
     "done": true
   },
@@ -53,15 +65,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "husk": "2021-02-24 22:06:34 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-24 22:06:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "husk": "2021-02-24 22:06:34 +0100"
     },
     "done": true
   },
@@ -86,6 +98,12 @@
     },
     "done": true
   },
+  "mores:mores/craft_all_daggers": {
+    "criteria": {
+      "obtain_graphene_dagger": "2021-02-28 16:33:03 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-24 22:06:05 +0100"
@@ -106,6 +124,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "plains": "2021-02-28 16:33:03 +0100",
       "desert": "2021-02-24 22:06:05 +0100"
     },
     "done": false
@@ -146,6 +165,12 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-02-28 16:33:03 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-24 22:06:05 +0100"
@@ -158,15 +183,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2021-02-24 22:06:34 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-24 22:06:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-02-24 22:06:34 +0100"
     },
     "done": true
   },

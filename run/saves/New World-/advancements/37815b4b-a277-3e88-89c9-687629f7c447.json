@@ -88,6 +88,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "plains": "2021-02-27 21:02:07 +0100",
       "desert": "2021-02-24 23:23:55 +0100"
     },
     "done": false
@@ -101,6 +102,18 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2021-02-24 23:23:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2021-02-27 21:02:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-02-27 21:02:07 +0100"
     },
     "done": true
   },
@@ -185,6 +198,12 @@
   "mores:mores/craft_full_emerald_armor": {
     "criteria": {
       "craft_emerald_tool": "2021-02-24 23:23:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2021-02-27 21:02:07 +0100"
     },
     "done": true
   },

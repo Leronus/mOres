@@ -1,0 +1,20 @@
+{
+  "mores:mores/craft_graphene_dagger": {
+    "criteria": {
+      "craft_graphene_dagger": "2021-02-28 16:05:42 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_all_daggers": {
+    "criteria": {
+      "obtain_graphene_dagger": "2021-02-28 16:05:42 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-02-28 16:05:32 +0100"
+    },
+    "done": false
+  }
+}

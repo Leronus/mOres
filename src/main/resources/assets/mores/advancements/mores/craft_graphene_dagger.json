@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Jack The Ripper",
-    "description": "You have crafted two graphene daggers for dual wielding",
+    "description": "You have crafted a graphene dagger",
     "icon": {
       "item": "mores:graphene_dagger"
     },
@@ -12,13 +12,12 @@
   },
   "parent": "mores:mores/obtain_graphene",
   "criteria": {
-    "obtain_graphene": {
+    "craft_graphene_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:graphene_dagger",
-            "count": 2
+            "item": "mores:graphene_dagger"
           }
         ]
       }
