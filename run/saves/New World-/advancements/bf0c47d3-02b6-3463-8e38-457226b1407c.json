@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "mores:mores/mores": {
+    "criteria": {
+      "crafting_table": "2021-03-03 17:51:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_string": "2021-02-24 22:00:07 +0100"
@@ -101,9 +107,16 @@
     },
     "done": true
   },
+  "mores:mores/craft_full_obsidian_armor": {
+    "criteria": {
+      "craft_full_obsidian_armor": "2021-03-03 17:51:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "birch_forest": "2021-02-24 22:02:37 +0100",
+      "plains": "2021-03-03 17:51:38 +0100",
       "desert": "2021-02-24 21:59:39 +0100"
     },
     "done": false
@@ -228,6 +241,12 @@
     },
     "done": true
   },
+  "mores:mores/craft_graphene_dagger": {
+    "criteria": {
+      "craft_graphene_dagger": "2021-03-03 17:51:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2021-02-24 22:02:53 +0100"
@@ -290,6 +309,12 @@
     },
     "done": true
   },
+  "mores:mores/craft_all_daggers": {
+    "criteria": {
+      "obtain_graphene_dagger": "2021-03-03 17:51:38 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2021-02-24 22:00:07 +0100"
@@ -329,6 +354,12 @@
   "mores:mores/craft_ruby_pickaxe": {
     "criteria": {
       "craft_sapphire_pickaxe": "2021-02-24 23:38:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-03-03 17:51:38 +0100"
     },
     "done": true
   },

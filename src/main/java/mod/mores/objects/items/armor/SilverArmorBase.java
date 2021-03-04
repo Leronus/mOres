@@ -30,7 +30,7 @@ public class SilverArmorBase extends ItemArmor {
                 && player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() instanceof SilverArmorBase
                 && player.getItemStackFromSlot(EntityEquipmentSlot.LEGS).getItem() instanceof SilverArmorBase
                 && player.getItemStackFromSlot(EntityEquipmentSlot.FEET).getItem() instanceof SilverArmorBase) {
-            player.addPotionEffect(new PotionEffect(MobEffects.GLOWING, 10, 0, false, false));
+            player.addPotionEffect(new PotionEffect(MobEffects.GLOWING, 1, 0, false, false));
         }
     }
 

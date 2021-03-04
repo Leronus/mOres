@@ -118,16 +118,16 @@ public class ItemInit {
 
 
     //Horse armor items (diamond horse armor hardness: 11)
-    //public static final Item AMETHYST_HORSE_ARMOR = new HorseArmorBase("amethyst", 7);
+    public static final Item AMETHYST_HORSE_ARMOR = new HorseArmorBase("amethyst", 7);
     public static final Item MOISSANITE_HORSE_ARMOR = new HorseArmorBase("moissanite", 13);
     public static final Item ONYX_HORSE_ARMOR = new HorseArmorBase("onyx", 14);
-    //public static final Item RUBY_HORSE_ARMOR = new HorseArmorBase("ruby", 12);
+    public static final Item RUBY_HORSE_ARMOR = new HorseArmorBase("ruby", 12);
     public static final Item SAPPHIRE_HORSE_ARMOR = new HorseArmorBase("sapphire", 11);
     public static final Item TOURMALINE_HORSE_ARMOR = new HorseArmorBase("tourmaline", 9);
-    //public static final Item GRAPHENE_HORSE_ARMOR = new HorseArmorBase("graphene", 16);
+    public static final Item GRAPHENE_HORSE_ARMOR = new HorseArmorBase("graphene", 16);
     public static final Item TANZANITE_HORSE_ARMOR = new HorseArmorBase("tanzanite", 10);
-    //public static final Item TOPAZ_HORSE_ARMOR = new HorseArmorBase("topaz", 9);
-    //public static final Item TURQUARTZ_HORSE_ARMOR = new HorseArmorBase("turquartz", 12);
+    public static final Item TOPAZ_HORSE_ARMOR = new HorseArmorBase("topaz", 9);
+    public static final Item TURQUARTZ_HORSE_ARMOR = new HorseArmorBase("turquartz", 12);
     public static final Item COBALT_HORSE_ARMOR = new HorseArmorBase("cobalt", 6);
     public static final Item COPPER_HORSE_ARMOR = new HorseArmorBase("copper", 3);
     public static final Item SILVER_HORSE_ARMOR = new HorseArmorBase("silver", 4);
