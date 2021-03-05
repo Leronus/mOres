@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/lang/nl_nl.lang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/advancements/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/playerdata/ca560dd3-ebf9-3fc9-b2e6-088534082c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World3/stats/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/modid/Mores.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/modid/Mores.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -22,9 +39,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/lang/en_us.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/modid/Mores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/modid/Mores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +203,7 @@
       <workItem from="1614855921098" duration="4125000" />
       <workItem from="1614896185745" duration="1449000" />
       <workItem from="1614941100954" duration="673000" />
-      <workItem from="1614951535492" duration="3993000" />
+      <workItem from="1614951535492" duration="4342000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -378,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614953625315</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Dutch language file added">
+      <created>1614955641299</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614955641299</updated>
+    </task>
+    <task id="LOCAL-00029" summary="New creative tab added for horse armor">
+      <created>1614955783991</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614955783991</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,8 +434,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Advancement update" />
-    <MESSAGE value="smelt_more.json advancement fix" />
     <MESSAGE value="More ore tweaks" />
     <MESSAGE value="FURNACE FIXED SP" />
     <MESSAGE value="FURNACE FIXED MP" />
@@ -429,7 +457,9 @@
     <MESSAGE value="More horse armor item textures added" />
     <MESSAGE value="Final horse armor textures added" />
     <MESSAGE value="Horse armor name update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Horse armor name update" />
+    <MESSAGE value="Dutch language file added" />
+    <MESSAGE value="New creative tab added for horse armor" />
+    <option name="LAST_COMMIT_MESSAGE" value="New creative tab added for horse armor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

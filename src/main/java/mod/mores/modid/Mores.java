@@ -41,7 +41,7 @@ public class Mores
     public static final CreativeTabs MORESARMORTAB = new MoresArmorTab("moresarmortab");
     public static final CreativeTabs MORESBLOCKSTAB = new MoresBlocksTab("moresblockstab");
     public static final CreativeTabs MORESORESTAB = new MoresOresTab("moresorestab");
-    public static final CreativeTabs MORESHORSEARMORTAB = new MoresArmorTab("moreshorsearmortab");
+    public static final CreativeTabs MORESHORSEARMORTAB = new MoresHorseArmorTab("moreshorsearmortab");
 
 
     @EventHandler
