@@ -28,6 +28,7 @@ item.diamond_dagger.name=Diamond Dagger
 item.diamond_spear.name=Diamond Spear
 
 item.ruby_gem.name=Ruby
+item.ruby_horse_armor.name=Ruby Horse Armor
 tile.ruby_block.name=Ruby Block
 tile.ruby_ore.name=Ruby Ore
 
@@ -48,6 +49,7 @@ item.ruby_boots.name=Ruby Boots
 
 
 item.cobalt_ingot.name=Cobalt Ingot
+item.cobalt_horse_armor.name=Cobalt Horse Armor
 tile.cobalt_block.name=Cobalt Block
 tile.cobalt_ore.name=Cobalt Ore
 
@@ -68,6 +70,7 @@ item.cobalt_boots.name=Cobalt Boots
 
 
 item.amethyst_gem.name=Amethyst
+item.amethyst_horse_armor.name=Amethyst Horse Armor
 tile.amethyst_block.name=Amethyst Block
 tile.amethyst_ore.name=Amethyst Ore
 
@@ -88,6 +91,7 @@ item.amethyst_boots.name=Amethyst Boots
 
 
 item.sapphire_gem.name=Sapphire
+item.sapphire_horse_armor.name=Sapphire Horse Armor
 tile.sapphire_block.name=Sapphire Block
 tile.sapphire_ore.name=Sapphire Ore
 
@@ -108,6 +112,7 @@ item.sapphire_boots.name=Sapphire Boots
 
 
 item.copper_ingot.name=Copper Ingot
+item.copper_horse_armor.name=Copper Horse Armor
 tile.copper_block.name=Copper Block
 tile.copper_ore.name=Copper Ore
 
@@ -127,6 +132,8 @@ item.copper_legs.name=Copper Leggings
 item.copper_boots.name=Copper Boots
 
 
+item.emerald_horse_armor.name=Emerald Horse Armor
+
 item.emerald_sword.name=Emerald Sword
 item.emerald_shovel.name=Emerald Shovel
 item.emerald_pickaxe.name=Emerald Pickaxe
@@ -142,6 +149,8 @@ item.emerald_chest.name=Emerald Chestplate
 item.emerald_legs.name=Emerald Leggings
 item.emerald_boots.name=Emerald Boots
 
+
+item.obsidian_horse_armor.name=Obsidian Horse Armor
 
 item.obsidian_sword.name=Obsidian Sword
 item.obsidian_shovel.name=Obsidian Shovel
@@ -160,6 +169,7 @@ item.obsidian_boots.name=Obsidian Boots
 
 
 item.silver_ingot.name=Silver Ingot
+item.silver_horse_armor.name=Silver Horse Armor
 tile.silver_block.name=Silver Block
 tile.silver_ore.name=Silver Ore
 
@@ -179,6 +189,7 @@ item.silver_legs.name=Silver Leggings
 item.silver_boots.name=Silver Boots
 
 item.topaz_gem.name=Topaz
+item.topaz_horse_armor.name=Topaz Horse Armor
 tile.topaz_block.name=Topaz Block
 tile.topaz_ore.name=Topaz Ore
 
@@ -204,6 +215,7 @@ tile.turquoise_ore.name=Turquoise Ore
 tile.moissanite_nether_ore.name=Moissanite Ore
 tile.moissanite_block.name=Moissanite Block
 item.moissanite_gem.name=Moissanite
+item.moissanite_horse_armor.name=Moissanite Horse Armor
 
 item.moissanite_sword.name=Moissanite Sword
 item.moissanite_shovel.name=Moissanite Shovel
@@ -221,6 +233,7 @@ item.moissanite_boots.name=Moissanite Boots
 
 
 item.tin_ingot.name=Tin Ingot
+item.tin_horse_armor.name=Tin Horse Armor
 tile.tin_block.name=Tin Block
 tile.tin_ore.name=Tin Ore
 
@@ -241,6 +254,7 @@ item.tin_boots.name=Tin Boots
 
 
 item.bronze_ingot.name=Bronze Ingot
+item.bronze_horse_armor.name=Bronze Horse Armor
 tile.bronze_block.name=Bronze Block
 tile.bronze_ore.name=Bronze Ore
 
@@ -261,6 +275,7 @@ item.bronze_boots.name=Bronze Boots
 
 
 item.steel_ingot.name=Carbon Steel Ingot
+item.steel_horse_armor.name=Carbon Steel Horse Armor
 tile.steel_block.name=Carbon Steel Block
 
 item.steel_sword.name=Carbon Steel Sword
@@ -285,6 +300,7 @@ item.sterling_legs.name=Sterling Silver Leggings
 item.sterling_boots.name=Sterling Silver Boots
 
 item.sterling_ingot.name=Sterling Silver Ingot
+item.sterling_horse_armor.name=Sterling Silver Horse Armor
 tile.sterling_block.name=Sterling Silver Block
 
 item.sterling_sword.name=Sterling Silver Sword
@@ -299,6 +315,7 @@ item.sterling_spear.name=Sterling Silver Spear
 
 
 item.tourmaline_gem.name=Tourmaline
+item.tourmaline_horse_armor.name=Tourmaline Horse Armor
 tile.tourmaline_block.name=Tourmaline Block
 tile.tourmaline_ore.name=Tourmaline Ore
 
@@ -319,6 +336,7 @@ item.tourmaline_boots.name=Tourmaline Boots
 
 
 item.tanzanite_gem.name=Tanzanite
+item.tanzanite_horse_armor.name=Tanzanite Horse Armor
 tile.tanzanite_block.name=Tanzanite Block
 tile.tanzanite_ore.name=Tanzanite Ore
 
@@ -339,6 +357,7 @@ item.tanzanite_boots.name=Tanzanite Boots
 
 
 item.onyx_gem.name=Onyx
+item.onyx_horse_armor.name=Onyx Horse Armor
 tile.onyx_block.name=Onyx Block
 tile.onyx_ore.name=Onyx Ore
 
@@ -359,6 +378,7 @@ item.onyx_boots.name=Onyx Boots
 
 
 item.graphene_gem.name=Graphene
+item.graphene_horse_armor.name=Graphene Horse Armor
 tile.graphene_block.name=Graphene Block
 tile.graphene_ore.name=Graphene Ore
 
@@ -379,6 +399,7 @@ item.graphene_boots.name=Graphene Boots
 
 
 item.turquartz_gem.name=Turquartz
+item.turquartz_horse_armor.name=Turquartz Horse Armor
 tile.turquartz_block.name=Turquartz Block
 tile.turquartz_ore.name=Turquartz Ore
 
