@@ -23,7 +23,7 @@ public class HorseArmorBase extends Item {
     public HorseArmorBase(String name, int armorHardness){
         setRegistryName(name + "_horse_armor");
         setUnlocalizedName(name + "_horse_armor");
-        setCreativeTab(Mores.MORESITEMSTAB);
+        setCreativeTab(Mores.MORESHORSEARMORTAB);
         setMaxStackSize(1);
 
         this.name = name;
