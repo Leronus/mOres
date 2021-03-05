@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "mores:mores/mores": {
+    "criteria": {
+      "crafting_table": "2021-03-04 16:38:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_string": "2021-02-24 21:14:27 +0100"
@@ -285,6 +291,12 @@
     },
     "done": true
   },
+  "mores:mores/craft_graphene_dagger": {
+    "criteria": {
+      "craft_graphene_dagger": "2021-03-04 16:38:33 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2021-02-24 20:00:03 +0100"
@@ -351,6 +363,12 @@
     },
     "done": true
   },
+  "mores:mores/craft_all_daggers": {
+    "criteria": {
+      "obtain_graphene_dagger": "2021-03-04 16:38:33 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2021-02-24 20:00:03 +0100"
@@ -408,6 +426,12 @@
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2021-02-24 21:14:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-03-04 16:38:33 +0100"
     },
     "done": true
   },

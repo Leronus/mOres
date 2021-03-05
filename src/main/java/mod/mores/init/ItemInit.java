@@ -132,11 +132,11 @@ public class ItemInit {
     public static final Item COPPER_HORSE_ARMOR = new HorseArmorBase("copper", 3);
     public static final Item SILVER_HORSE_ARMOR = new HorseArmorBase("silver", 4);
     public static final Item STEEL_HORSE_ARMOR = new HorseArmorBase("steel", 8);
-    //public static final Item TIN_HORSE_ARMOR = new HorseArmorBase("tin", 2);
+    public static final Item TIN_HORSE_ARMOR = new HorseArmorBase("tin", 2);
     public static final Item BRONZE_HORSE_ARMOR = new HorseArmorBase("bronze", 5);
-    //public static final Item STERLING_HORSE_ARMOR = new HorseArmorBase("sterling", 6);
-    //public static final Item EMERALD_HORSE_ARMOR = new HorseArmorBase("emerald", 9);
-    //public static final Item OBSIDIAN_HORSE_ARMOR = new HorseArmorBase("obsidian", 8);
+    public static final Item STERLING_HORSE_ARMOR = new HorseArmorBase("sterling", 6);
+    public static final Item EMERALD_HORSE_ARMOR = new HorseArmorBase("emerald", 9);
+    public static final Item OBSIDIAN_HORSE_ARMOR = new HorseArmorBase("obsidian", 8);
 
 
 

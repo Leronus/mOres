@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-02-28-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_amethyst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_graphene.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_ruby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_topaz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_turquartz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/amethist_horse_armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/graphene_horse_armor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-03-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-03-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-04-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-04-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/amethyst_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/graphene_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/ruby_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/topaz_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/models/item/turquartz_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_obsidian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_sterling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_tin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_horse_armor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/tin_horse_armor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
@@ -20,15 +26,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/ruby_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/ruby_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/sapphire_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/sapphire_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/topaz_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/topaz_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/turquartz_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/items/turquartz_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/models/armor/ruby_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/models/armor/ruby_layer_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/models/armor/ruby_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/textures/models/armor/ruby_layer_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-02-28-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-02-28-6.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -36,24 +41,31 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/advancements/bf0c47d3-02b6-3463-8e38-457226b1407c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/advancements/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/advancements/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/advancements/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/data/villages.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/playerdata/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/playerdata/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World-/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World-/stats/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World-/stats/a2d3cb04-2e77-32ea-a568-7872ba7e9c5c.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/objects/items/armor/SilverArmorBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/objects/items/armor/SilverArmorBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_sapphire.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_sapphire.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_tanzanite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_tanzanite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/ruby_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/ruby_horse_armor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sapphire_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sapphire_horse_armor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/topaz_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/topaz_horse_armor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/turquartz_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/turquartz_horse_armor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/ruby_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/ruby_layer_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/ruby_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/ruby_layer_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_silver.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/entity/horse/armor/horse_armor_silver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/obsidian_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/obsidian_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/silver_horse_armor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/silver_horse_armor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_axe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_battleaxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_battleaxe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_boots.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_boots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_chest.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_chest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_dagger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_dagger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_helmet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_helmet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_hoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_hoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_legs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_legs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_mace.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/items/sterling_mace.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/textures/models/armor/sterling_layer_2.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +214,10 @@
       <workItem from="1614594380279" duration="658000" />
       <workItem from="1614673146402" duration="727000" />
       <workItem from="1614790225108" duration="609000" />
-      <workItem from="1614855921098" duration="2989000" />
+      <workItem from="1614855921098" duration="4125000" />
+      <workItem from="1614896185745" duration="1449000" />
+      <workItem from="1614941100954" duration="673000" />
+      <workItem from="1614951535492" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -372,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614526665642</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="More horse armor item textures added">
+      <created>1614870920128</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614870920128</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +420,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Final changes" />
     <MESSAGE value="Recipes update" />
     <MESSAGE value="Advancement update, ore tweaks" />
     <MESSAGE value="Advancement update" />
@@ -423,7 +444,8 @@
     <MESSAGE value="Horse armor update" />
     <MESSAGE value="Horse armor item textures added" />
     <MESSAGE value="Horse Armor no longer stackable (stackSize 1 instead of 64)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Horse Armor no longer stackable (stackSize 1 instead of 64)" />
+    <MESSAGE value="More horse armor item textures added" />
+    <option name="LAST_COMMIT_MESSAGE" value="More horse armor item textures added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
