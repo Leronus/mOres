@@ -1,0 +1,433 @@
+tile.alloy_furnace.name=Legeringsoven
+container.alloy_furnace=Legeringsoven
+
+
+item.wood_battleaxe.name=Houten strijdbijl
+item.wood_mace.name=Houten strijdknots
+item.wood_dagger.name=Houten dolk
+item.wood_spear.name=Houten speer
+
+item.stone_battleaxe.name=Stenen strijdbijl
+item.stone_mace.name=Stenen strijdknots
+item.stone_dagger.name=Stenen dolk
+item.stone_spear.name=Stenen speer
+
+item.iron_battleaxe.name=IJzeren strijdbijl
+item.iron_mace.name=IJzeren strijdknots
+item.iron_dagger.name=IJzeren dolk
+item.iron_spear.name=IJzeren speer
+
+item.gold_battleaxe.name=Gouden strijdbijl
+item.gold_mace.name=Gouden strijdknots
+item.gold_dagger.name=Gouden dolk
+item.gold_spear.name=Gouden speer
+
+item.diamond_battleaxe.name=Diamanten strijdbijl
+item.diamond_mace.name=Diamanten strijdknots
+item.diamond_dagger.name=Diamanten dolk
+item.diamond_spear.name=Diamanten speer
+
+item.ruby_gem.name=Robijn
+item.ruby_horse_armor.name=Robijnen paardenharnas
+tile.ruby_block.name=Robijnblok
+tile.ruby_ore.name=Robijnerts
+
+item.ruby_sword.name=Robijnen zwaard
+item.ruby_shovel.name=Robijnen schep
+item.ruby_pickaxe.name=Robijnen houweel
+item.ruby_axe.name=Robijnen bijl
+item.ruby_hoe.name=Robijnen schoffel
+item.ruby_battleaxe.name=Robijnen strijdbijl
+item.ruby_mace.name=Robijnen strijdknots
+item.ruby_dagger.name=Robijnen dolk
+item.ruby_spear.name=Robijnen speer
+
+item.ruby_helmet.name=Robijnen helm
+item.ruby_chest.name=Robijnen borstplaat
+item.ruby_legs.name=Robijnen beenstukken
+item.ruby_boots.name=Robijnen laarzen
+
+
+item.cobalt_ingot.name=Kobaltstaaf
+item.cobalt_horse_armor.name=Kobalten paardenharnas
+tile.cobalt_block.name=Kobaltblok
+tile.cobalt_ore.name=Kobalterts
+
+item.cobalt_sword.name=Kobalten zwaard
+item.cobalt_shovel.name=Kobalten schep
+item.cobalt_pickaxe.name=Kobalten houweel
+item.cobalt_axe.name=Kobalten bijl
+item.cobalt_hoe.name=Kobalten schoffel
+item.cobalt_battleaxe.name=Kobalten strijdbijl
+item.cobalt_mace.name=Kobalten strijdknots
+item.cobalt_dagger.name=Kobalten dolk
+item.cobalt_spear.name=Kobalten speer
+
+item.cobalt_helmet.name=Kobalten helm
+item.cobalt_chest.name=Kobalten borstplaat
+item.cobalt_legs.name=Kobalten beenstukken
+item.cobalt_boots.name=Kobalten laarzen
+
+
+item.amethyst_gem.name=Amethist
+item.amethyst_horse_armor.name=Amethisten paardenharnas
+tile.amethyst_block.name=Amethistblok
+tile.amethyst_ore.name=Amethisterts
+
+item.amethyst_sword.name=Amethisten zwaard
+item.amethyst_shovel.name=Amethisten schep
+item.amethyst_pickaxe.name=Amethisten houweel
+item.amethyst_axe.name=Amethisten bijl
+item.amethyst_hoe.name=Amethisten schoffel
+item.amethyst_battleaxe.name=Amethisten strijdbijl
+item.amethyst_mace.name=Amethisten strijdknots
+item.amethyst_dagger.name=Amethisten dolk
+item.amethyst_spear.name=Amethisten speer
+
+item.amethyst_helmet.name=Amethisten helm
+item.amethyst_chest.name=Amethisten borstplaat
+item.amethyst_legs.name=Amethisten beenstukken
+item.amethyst_boots.name=Amethisten laarzen
+
+
+item.sapphire_gem.name=Saffier
+item.sapphire_horse_armor.name=Saffieren paardenharnas
+tile.sapphire_block.name=Saffierblok
+tile.sapphire_ore.name=Saffiererts
+
+item.sapphire_sword.name=Saffieren zwaard
+item.sapphire_shovel.name=Saffieren schep
+item.sapphire_pickaxe.name=Saffieren houweel
+item.sapphire_axe.name=Saffieren bijl
+item.sapphire_hoe.name=Saffieren schoffel
+item.sapphire_battleaxe.name=Saffieren strijdbijl
+item.sapphire_mace.name=Saffieren strijdknots
+item.sapphire_dagger.name=Saffieren dolk
+item.sapphire_spear.name=Saffieren speer
+
+item.sapphire_helmet.name=Saffieren helm
+item.sapphire_chest.name=Saffieren borstplaat
+item.sapphire_legs.name=Saffieren beenstukken
+item.sapphire_boots.name=Saffieren laarzen
+
+
+item.copper_ingot.name=Koperstaaf
+item.copper_horse_armor.name=Koperen paardenharnas
+tile.copper_block.name=Koperblok
+tile.copper_ore.name=Kopererts
+
+item.copper_sword.name=Koperen zwaard
+item.copper_shovel.name=Koperen schep
+item.copper_pickaxe.name=Koperen houweel
+item.copper_axe.name=Koperen bijl
+item.copper_hoe.name=Koperen schoffel
+item.copper_battleaxe.name=Koperen strijdbijl
+item.copper_mace.name=Koperen strijdknots
+item.copper_dagger.name=Koperen dolk
+item.copper_spear.name=Koperen speer
+
+item.copper_helmet.name=Koperen helm
+item.copper_chest.name=Koperen borstplaat
+item.copper_legs.name=Koperen beenstukken
+item.copper_boots.name=Koperen laarzen
+
+
+item.emerald_horse_armor.name=Smaragden paardenharnas
+
+item.emerald_sword.name=Smaragden zwaard
+item.emerald_shovel.name=Smaragden schep
+item.emerald_pickaxe.name=Smaragden houweel
+item.emerald_axe.name=Smaragden bijl
+item.emerald_hoe.name=Smaragden schoffel
+item.emerald_battleaxe.name=Smaragden strijdbijl
+item.emerald_mace.name=Smaragden strijdknots
+item.emerald_dagger.name=Smaragden dolk
+item.emerald_spear.name=Smaragden speer
+
+item.emerald_helmet.name=Smaragden helm
+item.emerald_chest.name=Smaragden borstplaat
+item.emerald_legs.name=Smaragden beenstukken
+item.emerald_boots.name=Smaragden laarzen
+
+
+item.obsidian_horse_armor.name=Obsidianen paardenharnas
+
+item.obsidian_sword.name=Obsidianen zwaard
+item.obsidian_shovel.name=Obsidianen schep
+item.obsidian_pickaxe.name=Obsidianen houweel
+item.obsidian_axe.name=Obsidianen bijl
+item.obsidian_hoe.name=Obsidianen schoffel
+item.obsidian_battleaxe.name=Obsidianen strijdbijl
+item.obsidian_mace.name=Obsidianen strijdknots
+item.obsidian_dagger.name=Obsidianen dolk
+item.obsidian_spear.name=Obsidianen speer
+
+item.obsidian_helmet.name=Obsidianen helm
+item.obsidian_chest.name=Obsidianen borstplaat
+item.obsidian_legs.name=Obsidianen beenstukken
+item.obsidian_boots.name=Obsidianen laarzen
+
+
+item.silver_ingot.name=Zilverstaaf
+item.silver_horse_armor.name=Zilveren paardenharnas
+tile.silver_block.name=Zilverblok
+tile.silver_ore.name=Zilvererts
+
+item.silver_sword.name=Zilveren zwaard
+item.silver_shovel.name=Zilveren schep
+item.silver_pickaxe.name=Zilveren houweel
+item.silver_axe.name=Zilveren bijl
+item.silver_hoe.name=Zilveren schoffel
+item.silver_battleaxe.name=Zilveren strijdbijl
+item.silver_mace.name=Zilveren strijdknots
+item.silver_dagger.name=Zilveren dolk
+item.silver_spear.name=Zilveren speer
+
+item.silver_helmet.name=Zilveren helm
+item.silver_chest.name=Zilveren borstplaat
+item.silver_legs.name=Zilveren beenstukken
+item.silver_boots.name=Zilveren laarzen
+
+item.topaz_gem.name=Topaas
+item.topaz_horse_armor.name=Topazen paardenharnas
+tile.topaz_block.name=Topaasblok
+tile.topaz_ore.name=Topaaserts
+
+item.topaz_sword.name=Topazen zwaard
+item.topaz_shovel.name=Topazen schep
+item.topaz_pickaxe.name=Topazen houweel
+item.topaz_axe.name=Topazen bijl
+item.topaz_hoe.name=Topazen schoffel
+item.topaz_battleaxe.name=Topazen strijdbijl
+item.topaz_mace.name=Topazen strijdknots
+item.topaz_dagger.name=Topazen dolk
+item.topaz_spear.name=Topazen speer
+
+item.topaz_helmet.name=Topazen helm
+item.topaz_chest.name=Topazen borstplaat
+item.topaz_legs.name=Topazen beenstukken
+item.topaz_boots.name=Topazen laarzen
+
+item.turquoise_gem.name=Turkoois
+tile.turquoise_block.name=Turkooisblok
+tile.turquoise_ore.name=Turkooiserts
+
+tile.moissanite_nether_ore.name=Moissanieterts
+tile.moissanite_block.name=Moissanietblok
+item.moissanite_gem.name=Moissaniet
+item.moissanite_horse_armor.name=Moissanieten paardenharnas
+
+item.moissanite_sword.name=Moissanieten zwaard
+item.moissanite_shovel.name=Moissanieten schep
+item.moissanite_pickaxe.name=Moissanieten houweel
+item.moissanite_axe.name=Moissanieten bijl
+item.moissanite_hoe.name=Moissanieten schoffel
+item.moissanite_battleaxe.name=Moissanieten strijdbijl
+item.moissanite_dagger.name=Moissanieten dolk
+item.moissanite_mace.name=Moissanieten strijdknots
+
+item.moissanite_helmet.name=Moissanieten helm
+item.moissanite_chest.name=Moissanieten borstplaat
+item.moissanite_legs.name=Moissanieten beenstukken
+item.moissanite_boots.name=Moissanieten laarzen
+
+
+item.tin_ingot.name=Tinstaaf
+item.tin_horse_armor.name=Tinnen paardenharnas
+tile.tin_block.name=Tinblok
+tile.tin_ore.name=Tinerts
+
+item.tin_sword.name=Tinnen zwaard
+item.tin_shovel.name=Tinnen schep
+item.tin_pickaxe.name=Tinnen houweel
+item.tin_axe.name=Tinnen bijl
+item.tin_hoe.name=Tinnen schoffel
+item.tin_battleaxe.name=Tinnen strijdbijl
+item.tin_mace.name=Tinnen strijdknots
+item.tin_dagger.name=Tinnen dolk
+item.tin_spear.name=Tinnen speer
+
+item.tin_helmet.name=Tinnen helm
+item.tin_chest.name=Tinnen borstplaat
+item.tin_legs.name=Tinnen beenstukken
+item.tin_boots.name=Tinnen laarzen
+
+
+item.bronze_ingot.name=Bronsstaaf
+item.bronze_horse_armor.name=Bronzen paardenharnas
+tile.bronze_block.name=Bronsblok
+
+item.bronze_sword.name=Bronzen zwaard
+item.bronze_shovel.name=Bronzen schep
+item.bronze_pickaxe.name=Bronzen houweel
+item.bronze_axe.name=Bronzen bijl
+item.bronze_hoe.name=Bronzen schoffel
+item.bronze_battleaxe.name=Bronzen strijdbijl
+item.bronze_mace.name=Bronzen strijdknots
+item.bronze_dagger.name=Bronzen dolk
+item.bronze_spear.name=Bronzen speer
+
+item.bronze_helmet.name=Bronzen helm
+item.bronze_chest.name=Bronzen borstplaat
+item.bronze_legs.name=Bronzen beenstukken
+item.bronze_boots.name=Bronzen laarzen
+
+
+item.steel_ingot.name=Koolstofstaalstaaf
+item.steel_horse_armor.name=Koolstofstalen paardenharnas
+tile.steel_block.name=Koolstofstaalblok
+
+item.steel_sword.name=Koolstofstalen zwaard
+item.steel_shovel.name=Koolstofstalen schep
+item.steel_pickaxe.name=Koolstofstalen houweel
+item.steel_axe.name=Koolstofstalen bijl
+item.steel_hoe.name=Koolstofstalen schoffel
+item.steel_battleaxe.name=Koolstofstalen strijdbijl
+item.steel_mace.name=Koolstofstalen strijdknots
+item.steel_dagger.name=Koolstofstalen dolk
+item.steel_spear.name=Koolstofstalen speer
+
+item.steel_helmet.name=Koolstofstalen helm
+item.steel_chest.name=Koolstofstalen borstplaat
+item.steel_legs.name=Koolstofstalen beenstukken
+item.steel_boots.name=Koolstofstalen laarzen
+
+
+item.sterling_helmet.name=Sterling zilveren helm
+item.sterling_chest.name=Sterling zilveren borstplaat
+item.sterling_legs.name=Sterling zilveren beenstukken
+item.sterling_boots.name=Sterling zilveren laarzen
+
+item.sterling_ingot.name=Sterling zilverstaaf
+item.sterling_horse_armor.name=Sterling zilveren paardenharnas
+tile.sterling_block.name=Sterling zilverblok
+
+item.sterling_sword.name=Sterling zilveren zwaard
+item.sterling_shovel.name=Sterling zilveren schep
+item.sterling_pickaxe.name=Sterling zilveren houweel
+item.sterling_axe.name=Sterling zilveren bijl
+item.sterling_hoe.name=Sterling zilveren schoffel
+item.sterling_battleaxe.name=Sterling zilveren strijdbijl
+item.sterling_mace.name=Sterling zilveren strijdknots
+item.sterling_dagger.name=Sterling zilveren dolk
+item.sterling_spear.name=Sterling zilveren speer
+
+
+item.tourmaline_gem.name=Toermalijn
+item.tourmaline_horse_armor.name=Toermalijnen paardenharnas
+tile.tourmaline_block.name=Toermalijnblok
+tile.tourmaline_ore.name=Toermalijnerts
+
+item.tourmaline_sword.name=Toermalijnen zwaard
+item.tourmaline_shovel.name=Toermalijnen schep
+item.tourmaline_pickaxe.name=Toermalijnen houweel
+item.tourmaline_axe.name=Toermalijnen bijl
+item.tourmaline_hoe.name=Toermalijnen schoffel
+item.tourmaline_battleaxe.name=Toermalijnen strijdbijl
+item.tourmaline_mace.name=Toermalijnen strijdknots
+item.tourmaline_dagger.name=Toermalijnen dolk
+item.tourmaline_spear.name=Toermalijnen speer
+
+item.tourmaline_helmet.name=Toermalijnen helm
+item.tourmaline_chest.name=Toermalijnen borstplaat
+item.tourmaline_legs.name=Toermalijnen beenstukken
+item.tourmaline_boots.name=Toermalijnen laarzen
+
+
+item.tanzanite_gem.name=Tanzaniet
+item.tanzanite_horse_armor.name=Tanzanieten paardenharnas
+tile.tanzanite_block.name=Tanzanietblok
+tile.tanzanite_ore.name=Tanzanieterts
+
+item.tanzanite_sword.name=Tanzanieten zwaard
+item.tanzanite_shovel.name=Tanzanieten schep
+item.tanzanite_pickaxe.name=Tanzanieten houweel
+item.tanzanite_axe.name=Tanzanieten bijl
+item.tanzanite_hoe.name=Tanzanieten schoffel
+item.tanzanite_battleaxe.name=Tanzanieten strijdbijl
+item.tanzanite_mace.name=Tanzanieten strijdknots
+item.tanzanite_dagger.name=Tanzanieten dolk
+item.tanzanite_spear.name=Tanzanieten speer
+
+item.tanzanite_helmet.name=Tanzanieten helm
+item.tanzanite_chest.name=Tanzanieten borstplaat
+item.tanzanite_legs.name=Tanzanieten beenstukken
+item.tanzanite_boots.name=Tanzanieten laarzen
+
+
+item.onyx_gem.name=Onyx
+item.onyx_horse_armor.name=Onyxen paardenharnas
+tile.onyx_block.name=Onyxblok
+tile.onyx_ore.name=Onyxerts
+
+item.onyx_sword.name=Onyxen zwaard
+item.onyx_shovel.name=Onyxen schep
+item.onyx_pickaxe.name=Onyxen houweel
+item.onyx_axe.name=Onyxen bijl
+item.onyx_hoe.name=Onyxen schoffel
+item.onyx_battleaxe.name=Onyxen strijdbijl
+item.onyx_mace.name=Onyxen strijdknots
+item.onyx_dagger.name=Onyxen dolk
+item.onyx_spear.name=Onyxen speer
+
+item.onyx_helmet.name=Onyxen helm
+item.onyx_chest.name=Onyxen borstplaat
+item.onyx_legs.name=Onyxen beenstukken
+item.onyx_boots.name=Onyxen laarzen
+
+
+item.graphene_gem.name=Grafeen
+item.graphene_horse_armor.name=Grafenen paardenharnas
+tile.graphene_block.name=Grafeenblok
+tile.graphene_ore.name=Grafeenerts
+
+item.graphene_sword.name=Grafenen zwaard
+item.graphene_shovel.name=Grafenen schep
+item.graphene_pickaxe.name=Grafenen houweel
+item.graphene_axe.name=Grafenen bijl
+item.graphene_hoe.name=Grafenen schoffel
+item.graphene_battleaxe.name=Grafenen strijdbijl
+item.graphene_mace.name=Grafenen strijdknots
+item.graphene_dagger.name=Grafenen dolk
+item.graphene_spear.name=Grafenen speer
+
+item.graphene_helmet.name=Grafenen helm
+item.graphene_chest.name=Grafenen borstplaat
+item.graphene_legs.name=Grafenen beenstukken
+item.graphene_boots.name=Grafenen laarzen
+
+
+item.turquartz_gem.name=Turkwarts
+item.turquartz_horse_armor.name=Turkwartsen paardenharnas
+tile.turquartz_block.name=Turkwartsblok
+tile.turquartz_ore.name=Turkwartserts
+
+item.turquartz_sword.name=Turkwartsen zwaard
+item.turquartz_shovel.name=Turkwartsen schep
+item.turquartz_pickaxe.name=Turkwartsen houweel
+item.turquartz_axe.name=Turkwartsen bijl
+item.turquartz_hoe.name=Turkwartsen schoffel
+item.turquartz_battleaxe.name=Turkwartsen strijdbijl
+item.turquartz_mace.name=Turkwartsen strijdknots
+item.turquartz_dagger.name=Turkwartsen dolk
+item.turquartz_spear.name=Turkwartsen speer
+
+item.turquartz_helmet.name=Turkwartsen helm
+item.turquartz_chest.name=Turkwartsen borstplaat
+item.turquartz_legs.name=Turkwartsen beenstukken
+item.turquartz_boots.name=Turkwartsen laarzen
+
+item.chain.name=Ketting
+
+item.rooiekool.name=Rooiekool
+
+itemGroup.moresitemstab=mOres Voorwerpen
+itemGroup.moresblockstab=mOres Blokken
+itemGroup.morestoolstab=mOres Gereedschap
+itemGroup.moresarmortab=mOres Pantser
+itemGroup.moresorestab=more Ertsen
+
+
+
+
+
