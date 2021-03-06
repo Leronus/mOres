@@ -1,0 +1,14 @@
+{
+  "mores:mores/craft_chain": {
+    "criteria": {
+      "obtain_copper_ore": "2021-03-06 12:51:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-03-06 12:50:45 +0100"
+    },
+    "done": false
+  }
+}
