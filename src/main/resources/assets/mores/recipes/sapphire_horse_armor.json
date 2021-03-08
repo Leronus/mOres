@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:sapphire_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:sapphire_legs"
+    },
+    "G":
+    {
+      "item": "mores:sapphire_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:sapphire_horse_armor",
+    "count": 1
+  }
+}

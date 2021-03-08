@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:obsidian_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:obsidian_legs"
+    },
+    "G":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:obsidian_horse_armor",
+    "count": 1
+  }
+}

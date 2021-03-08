@@ -1,0 +1,152 @@
+{
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2021-03-06 15:27:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-03-06 15:27:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2021-03-06 15:27:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2021-03-06 15:17:49 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_silver_ore": {
+    "criteria": {
+      "obtain_copper_ore": "2021-03-06 15:28:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2021-03-06 15:28:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2021-03-06 15:28:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-03-06 15:21:53 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-03-06 15:28:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2021-03-06 15:28:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2021-03-06 15:28:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2021-03-06 15:17:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-03-06 15:27:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:26:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-03-06 15:17:32 +0100",
+      "swampland": "2021-03-06 15:19:54 +0100",
+      "birch_forest": "2021-03-06 15:24:50 +0100",
+      "beaches": "2021-03-06 15:17:55 +0100",
+      "plains": "2021-03-06 15:17:47 +0100",
+      "jungle_hills": "2021-03-06 15:18:42 +0100",
+      "jungle_edge": "2021-03-06 15:19:34 +0100",
+      "taiga": "2021-03-06 15:18:31 +0100",
+      "ocean": "2021-03-06 15:17:56 +0100",
+      "extreme_hills": "2021-03-06 15:19:56 +0100",
+      "roofed_forest": "2021-03-06 15:25:06 +0100",
+      "river": "2021-03-06 15:17:46 +0100",
+      "jungle": "2021-03-06 15:18:39 +0100"
+    },
+    "done": false
+  }
+}

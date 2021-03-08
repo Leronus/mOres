@@ -271,6 +271,37 @@
                     "weight": 15
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mores:cobalt_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "mores:amethyst_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "mores:emerald_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "mores:obsidian_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "mores:tanzanite_horse_armor",
+                    "weight": 5
+                }
+            ]
         }
+
     ]
 }

@@ -5,59 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-05-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-06-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World------/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World------/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World------/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World------/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World5/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World5/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World5/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM-1/data/villages_nether.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM-1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM1/data/villages_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/DIM1/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/advancements/04ba6478-628e-32a2-915d-0b45ca8b366b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/data/Mineshaft.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/data/Temple.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/data/villages.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/forcedchunks.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/playerdata/04ba6478-628e-32a2-915d-0b45ca8b366b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World9/stats/04ba6478-628e-32a2-915d-0b45ca8b366b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/abandoned_mineshaft.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/desert_pyramid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/end_city_treasure.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/igloo_chest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/jungle_temple.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/jungle_temple_dispenser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/nether_bridge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/simple_dungeon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/spawn_bonus_chest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/stronghold_corridor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/stronghold_crossing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/stronghold_library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/village_blacksmith.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/woodland_mansion.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-06-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-06-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-06-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-06-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/advancements/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/advancements/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/playerdata/d75ffc85-72b0-3b94-be32-d104d89a3a6a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/stats/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World10/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/advancements/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/advancements/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/Stronghold.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/Temple.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/Village.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.-1.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.-1.-3.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.-1.-4.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.0.-2.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.0.-3.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.0.-4.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.1.-3.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.1.-4.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.1.-5.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.2.-4.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/region/r.2.-5.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World11/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/advancements/mores/craft_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/amethyst_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/bronze_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/cobalt_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/copper_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/diamond_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/emerald_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/gold_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/graphene_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/iron_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/moissanite_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/obsidian_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/onyx_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/ruby_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/sapphire_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/silver_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/steel_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tanzanite_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tin_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/topaz_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/tourmaline_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/mores/recipes/turquartz_horse_armor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/assets/mores/lang/en_us.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/world/gen/WorldGenOres.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
@@ -67,6 +106,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/world/gen/WorldGenOres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/world/gen/WorldGenOres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/abandoned_mineshaft.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/abandoned_mineshaft.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/end_city_treasure.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/end_city_treasure.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/village_blacksmith.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/minecraft/loot_tables/chests/village_blacksmith.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +211,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.runClient" />
       <item itemvalue="Application.runServer" />
@@ -219,7 +273,8 @@
       <workItem from="1614896185745" duration="1449000" />
       <workItem from="1614941100954" duration="673000" />
       <workItem from="1614951535492" duration="6276000" />
-      <workItem from="1615028571090" duration="2822000" />
+      <workItem from="1615028571090" duration="6844000" />
+      <workItem from="1615245333081" duration="1680000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -431,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614956043582</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Custom loottables update">
+      <created>1615033795379</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1615033795379</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +519,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="FURNACE FIXED SP" />
     <MESSAGE value="FURNACE FIXED MP" />
     <MESSAGE value="Sterling recipes added" />
     <MESSAGE value="Sterling item &amp; block models added" />
@@ -482,7 +543,8 @@
     <MESSAGE value="Dutch language file added" />
     <MESSAGE value="New creative tab added for horse armor" />
     <MESSAGE value="Language update for the new creative tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Language update for the new creative tab" />
+    <MESSAGE value="Custom loottables update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom loottables update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

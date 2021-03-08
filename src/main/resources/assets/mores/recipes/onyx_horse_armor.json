@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:onyx_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:onyx_legs"
+    },
+    "G":
+    {
+      "item": "mores:onyx_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:onyx_horse_armor",
+    "count": 1
+  }
+}

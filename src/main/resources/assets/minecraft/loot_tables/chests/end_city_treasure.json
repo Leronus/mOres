@@ -226,7 +226,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:onyx_chest",
+                    "name": "mores:onyx_chest",
                     "weight": 3,
                     "functions": [
                         {

@@ -64,7 +64,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:steel_ingot",
+                    "name": "mores:steel_ingot",
                     "functions": [
                         {
                             "function": "set_count",

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:emerald_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:emerald_legs"
+    },
+    "G":
+    {
+      "item": "minecraft:emerald"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:emerald_horse_armor",
+    "count": 1
+  }
+}

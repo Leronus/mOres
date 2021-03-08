@@ -1,0 +1,74 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-03-06 15:11:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2021-03-06 15:09:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2021-03-06 15:08:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2021-03-06 15:09:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-03-06 15:09:14 +0100",
+      "swampland": "2021-03-06 15:08:37 +0100",
+      "birch_forest": "2021-03-06 15:08:39 +0100",
+      "beaches": "2021-03-06 15:10:43 +0100",
+      "extreme_hills_with_trees": "2021-03-06 15:08:25 +0100",
+      "forest_hills": "2021-03-06 15:09:23 +0100",
+      "plains": "2021-03-06 15:08:14 +0100",
+      "birch_forest_hills": "2021-03-06 15:08:36 +0100",
+      "ocean": "2021-03-06 15:10:22 +0100",
+      "extreme_hills": "2021-03-06 15:08:33 +0100",
+      "roofed_forest": "2021-03-06 15:09:29 +0100",
+      "river": "2021-03-06 15:08:34 +0100",
+      "stone_beach": "2021-03-06 15:10:49 +0100"
+    },
+    "done": false
+  }
+}

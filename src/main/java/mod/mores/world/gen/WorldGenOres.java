@@ -101,7 +101,7 @@ public class WorldGenOres implements IWorldGenerator {
         generateOre(silver_ore, world, random, chunkX * 16, chunkZ * 16, 31, 58, 27);
         generateOre(cobalt_ore, world, random, chunkX * 16, chunkZ * 16, 22, 50, 23);
         generateOre(amethyst_ore, world, random, chunkX * 16, chunkZ * 16, 17, 40, 16);
-        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 14, 30, 11);
+        generateOre(topaz_ore, world, random, chunkX * 16, chunkZ * 16, 14, 27, 11);
         generateOre(tourmaline_ore, world, random, chunkX * 16, chunkZ * 16, 12, 25, 14);
         generateOre(ruby_ore, world, random, chunkX * 16, chunkZ * 16, 7, 15, 8);
         generateOre(sapphire_ore, world, random, chunkX * 16, chunkZ * 16, 4, 14, 9);
@@ -110,8 +110,8 @@ public class WorldGenOres implements IWorldGenerator {
 
     private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
-        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 29);
-        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 38);
+        generateOre(moissanite_nether_ore, world, random, chunkX * 16, chunkZ * 16, 0, 50, 26);
+        generateOre(tanzanite_ore, world, random, chunkX * 16, chunkZ * 16, 0, 70, 36);
     }
     private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)
     {
