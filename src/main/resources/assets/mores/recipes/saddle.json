@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "LLL",
+    "S S",
+    "I I"
+  ],
+
+
+  "key":
+  {
+    "L":
+    {
+      "item": "mores:mores/mores"
+    },
+    "S":
+    {
+      "item": "minecraft:string"
+    },
+    "I":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "minecraft_saddle",
+    "count": 1
+  }
+}
