@@ -57,7 +57,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_horse_armor"
+            "item": "mores:emerald_horse_armor"
           }
         ]
       }
@@ -67,7 +67,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_horse_armor"
+            "item": "mores:obsidian_horse_armor"
           }
         ]
       }
@@ -87,7 +87,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_horse_armor"
+            "item": "mores:steel_horse_armor"
           }
         ]
       }
@@ -97,7 +97,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_horse_armor"
+            "item": "minecraft:golden_horse_armor"
           }
         ]
       }
@@ -107,7 +107,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_horse_armor"
+            "item": "minecraft:iron_horse_armor"
           }
         ]
       }
@@ -117,7 +117,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_horse_armor"
+            "item": "minecraft:diamond_horse_armor"
           }
         ]
       }
@@ -127,7 +127,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_horse_armor"
+            "item": "mores:amethyst_horse_armor"
           }
         ]
       }
@@ -137,7 +137,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_horse_armor"
+            "item": "mores:topaz_horse_armor"
           }
         ]
       }
@@ -147,7 +147,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_horse_armor"
+            "item": "mores:tourmaline_horse_armor"
           }
         ]
       }
@@ -157,7 +157,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_horse_armor"
+            "item": "mores:onyx_horse_armor"
           }
         ]
       }
@@ -167,7 +167,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_horse_armor"
+            "item": "mores:ruby_horse_armor"
           }
         ]
       }
@@ -177,7 +177,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_horse_armor"
+            "item": "mores:sapphire_horse_armor"
           }
         ]
       }
@@ -187,7 +187,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_horse_armor"
+            "item": "mores:turquartz_horse_armor"
           }
         ]
       }
@@ -197,7 +197,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_horse_armor"
+            "item": "mores:moissanite_horse_armor"
           }
         ]
       }
@@ -207,7 +207,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_horse_armor"
+            "item": "mores:graphene_horse_armor"
           }
         ]
       }
@@ -227,6 +227,6 @@
     ["craft_silver_horse_armor", "craft_copper_horse_armor", "craft_tin_horse_armor", "craft_cobalt_horse_armor", "craft_bronze_horse_armor", "craft_steel_horse_armor", "craft_amethyst_horse_armor", "craft_topaz_horse_armor", "craft_tourmaline_horse_armor", "craft_onyx_horse_armor", "craft_turquartz_horse_armor", "craft_graphene_horse_armor", "craft_iron_horse_armor", "craft_gold_horse_armor", "craft_diamond_horse_armor", "craft_ruby_horse_armor", "craft_sapphire_horse_armor", "craft_obsidian_horse_armor", "craft_emerald_horse_armor", "craft_sterling_horse_armor", "craft_moissanite_horse_armor"]
   ],
   "rewards": {
-    "experience": 30
+    "experience": 100
   }
 }
