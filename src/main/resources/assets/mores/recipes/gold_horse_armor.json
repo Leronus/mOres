@@ -13,7 +13,7 @@
   {
     "H":
     {
-      "item": "minecraft:gold_helmet"
+      "item": "minecraft:golden_helmet"
     },
     "W":
     {
@@ -22,7 +22,7 @@
     },
     "L":
     {
-      "item": "minecraft:gold_leggings"
+      "item": "minecraft:golden_leggings"
     },
     "G":
     {
@@ -32,7 +32,7 @@
 
   "result":
   {
-    "item":  "minecraft:gold_horse_armor",
+    "item":  "minecraft:golden_horse_armor",
     "count": 1
   }
 }

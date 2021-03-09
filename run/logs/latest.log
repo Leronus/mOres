@@ -1,47 +1,48 @@
-[00:55:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[00:55:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[00:55:04] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[00:55:04] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\jre
-[00:55:04] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[00:55:04] [main/ERROR] [FML]: Full: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[00:55:04] [main/ERROR] [FML]: Trimmed: c:/users/leron/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[00:55:04] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[00:55:04] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[00:55:04] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[00:55:04] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[00:55:04] [main/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
-[00:55:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:55:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:55:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:55:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:55:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:55:05] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[00:55:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:55:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:55:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:55:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:55:06] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[00:55:06] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player937
-[00:55:08] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[00:55:08] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[00:55:09] [Client thread/INFO] [FML]: -- System Details --
+[01:08:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[01:08:10] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\jre
+[01:08:10] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[01:08:10] [main/ERROR] [FML]: Full: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[01:08:10] [main/ERROR] [FML]: Trimmed: c:/users/leron/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[01:08:10] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:08:10] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[01:08:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:08:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:08:11] [main/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
+[01:08:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:08:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:08:12] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:08:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:08:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:08:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:08:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:08:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:08:12] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player437
+[01:08:14] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:08:14] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[01:08:15] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_275, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
-	Memory: 1108255552 bytes (1056 MB) / 1278214144 bytes (1219 MB) up to 7618953216 bytes (7266 MB)
+	Memory: 1116897128 bytes (1065 MB) / 1289224192 bytes (1229 MB) up to 7618953216 bytes (7266 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 461.72' Renderer: 'GeForce RTX 2070 SUPER/PCIe/SSE2'
-[00:55:09] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[00:55:09] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[00:55:09] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[00:55:09] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[00:55:09] [Client thread/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
-[00:55:10] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:08:15] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[01:08:15] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:08:15] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:08:15] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:08:15] [Client thread/INFO] [FML]: Searching C:\Users\Leron\Desktop\mOres_mod\run\.\mods for mods
+[01:08:16] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -70,7 +71,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:10] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[01:08:16] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -103,7 +104,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[01:08:16] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -136,7 +137,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:08:16] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -165,7 +166,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:10] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[01:08:16] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -198,7 +199,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[01:08:16] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -231,7 +232,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:08:16] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -260,7 +261,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:10] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[01:08:16] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -293,7 +294,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[01:08:16] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -326,7 +327,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:08:16] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -355,7 +356,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:10] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[01:08:16] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -388,7 +389,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[01:08:16] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -421,210 +422,36 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:55:10] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[00:55:10] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at CLIENT
-[00:55:10] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at SERVER
-[00:55:11] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mOres
-[00:55:11] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[00:55:11] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[00:55:11] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[00:55:11] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[00:55:11] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 74699100 nanos
-[00:55:11] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:55:11] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[00:55:11] [Client thread/INFO] [FML]: Applying holder lookups
-[00:55:11] [Client thread/INFO] [FML]: Holder lookups applied
-[00:55:11] [Client thread/INFO] [FML]: Applying holder lookups
-[00:55:11] [Client thread/INFO] [FML]: Holder lookups applied
-[00:55:11] [Client thread/INFO] [FML]: Applying holder lookups
-[00:55:11] [Client thread/INFO] [FML]: Holder lookups applied
-[00:55:11] [Client thread/INFO] [FML]: Applying holder lookups
-[00:55:11] [Client thread/INFO] [FML]: Holder lookups applied
-[00:55:11] [Client thread/INFO] [FML]: Injecting itemstacks
-[00:55:11] [Client thread/INFO] [FML]: Itemstack injection complete
-[00:55:11] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[00:55:13] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[00:55:13] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[00:55:13] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:55:13] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[00:55:13] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[00:55:18] [Client thread/INFO] [FML]: Max texture size: 16384
-[00:55:21] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:amethyst_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:bronze_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:cobalt_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:copper_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:diamond_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:emerald_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:gold_horse_armor
+[01:08:16] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[01:08:16] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at CLIENT
+[01:08:16] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mores] at SERVER
+[01:08:17] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:mOres
+[01:08:17] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:08:17] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:08:17] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:08:17] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:08:17] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:08:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:08:17] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:17] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:17] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:17] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:17] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:17] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:17] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:17] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:17] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:08:17] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:08:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:08:17] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 120307700 nanos
+[01:08:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[01:08:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[01:08:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:08:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[01:08:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[01:08:23] [Client thread/INFO] [FML]: Max texture size: 16384
+[01:08:26] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[01:08:27] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:gold_horse_armor
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:gold_helmet'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -653,181 +480,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:gold_helmet'
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:graphene_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:iron_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:moissanite_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:obsidian_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:onyx_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:ruby_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:saddle
+[01:08:27] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:saddle
 com.google.gson.JsonSyntaxException: Unknown item 'mores:mores/mores'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -856,9 +509,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'mores:mores/mores'
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:sapphire_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
+[01:08:27] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:silver_horse_armor
+com.google.gson.JsonSyntaxException: Unknown item 'mores:silver_gem'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:262) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
@@ -885,304 +538,29 @@ com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:silver_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:steel_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:tanzanite_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:tin_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:topaz_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:tourmaline_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/ERROR] [FML]: Parsing error loading recipe mores:turquartz_horse_armor
-com.google.gson.JsonParseException: Missing data for item 'minecraft:wool'
-	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:204) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:481) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getRecipe(CraftingHelper.java:416) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:723) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
-	at java.util.ArrayList.forEach(ArrayList.java:1259) [?:1.8.0_275]
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:535) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:55:22] [Client thread/INFO] [FML]: Applying holder lookups
-[00:55:22] [Client thread/INFO] [FML]: Holder lookups applied
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ruby`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `amethyst`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobalt`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `copper`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sapphire`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `silver`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `topaz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquoise`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moissanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `steel`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `onyx`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tourmaline`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tin`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tanzanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bronze`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `graphene`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquartz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sterling`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
-[00:55:22] [Client thread/INFO] [FML]: Injecting itemstacks
-[00:55:22] [Client thread/INFO] [FML]: Itemstack injection complete
-[00:55:22] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[00:55:22] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[00:55:22] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[00:55:23] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[00:56:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[00:56:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[00:56:01] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[00:56:01] [Server thread/INFO] [FML]: Applying holder lookups
-[00:56:01] [Server thread/INFO] [FML]: Holder lookups applied
-[00:56:01] [Server thread/INFO] [FML]: Loading dimension 0 (New World12) (net.minecraft.server.integrated.IntegratedServer@5da6f94c)
-[00:56:01] [Server thread/ERROR] [FML]: Parsing error loading built-in advancement mores:mores/craft_horse_armor
-com.google.gson.JsonSyntaxException: Unknown required criterion 'craft_bronze_horse_armor'
-	at net.minecraft.advancements.Advancement$Builder.deserialize(Advancement.java:282) ~[Advancement$Builder.class:?]
-	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[AdvancementManager$1.class:?]
-	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[AdvancementManager$1.class:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
-	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:353) ~[JsonUtils.class:?]
-	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:385) ~[JsonUtils.class:?]
-	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:409) ~[JsonUtils.class:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$loadAdvancements$0(ForgeHooks.java:1381) ~[ForgeHooks.class:14.23.5.2854]
-	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) [CraftingHelper.class:?]
-	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1359) [ForgeHooks.class:14.23.5.2854]
-	at net.minecraftforge.common.ForgeHooks.loadAdvancements(ForgeHooks.java:1326) [ForgeHooks.class:14.23.5.2854]
-	at net.minecraft.advancements.AdvancementManager.reload(AdvancementManager.java:69) [AdvancementManager.class:?]
-	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [AdvancementManager.class:?]
-	at net.minecraft.world.WorldServer.init(WorldServer.java:156) [WorldServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:122) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:156) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_275]
-[00:56:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 548 advancements
-[00:56:02] [Server thread/INFO] [FML]: Loading dimension -1 (New World12) (net.minecraft.server.integrated.IntegratedServer@5da6f94c)
-[00:56:02] [Server thread/INFO] [FML]: Loading dimension 1 (New World12) (net.minecraft.server.integrated.IntegratedServer@5da6f94c)
-[00:56:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[00:56:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
-[00:56:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 29%
-[00:56:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 42%
-[00:56:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[00:56:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 78%
-[00:56:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 97%
-[00:56:08] [Server thread/INFO] [FML]: Unloading dimension -1
-[00:56:08] [Server thread/INFO] [FML]: Unloading dimension 1
-[00:56:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 13, from 10
-[00:56:09] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[00:56:09] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[00:56:09] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2854,mores@2.0,mcp@9.42
-[00:56:09] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[00:56:10] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[00:56:10] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player937[local:E:3a85ecf1] logged in with entity id 2411 at (-169.5, 78.0, 257.5)
-[00:56:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player937 joined the game
-[00:56:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:56:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World12'/overworld
-[00:56:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:56:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World12'/overworld
-[00:57:15] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
-[00:57:22] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 24 advancements
-[00:57:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 28 advancements
-[00:57:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player937 has made the advancement [Acquire Hardware]
-[00:57:30] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player937 has made the advancement [Acquire Hardware]
-[00:57:30] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 58 advancements
-[00:57:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player937 has made the advancement [Suit Up]
-[00:57:31] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player937 has made the advancement [Suit Up]
-[00:57:31] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 58 advancements
-[00:58:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 77 advancements
-[00:58:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World12'/overworld
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[00:58:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player937 lost connection: Disconnected
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player937 left the game
-[00:58:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[00:58:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World12'/overworld
-[00:58:36] [Server thread/INFO] [FML]: Unloading dimension 0
-[00:58:37] [Server thread/INFO] [FML]: Applying holder lookups
-[00:58:37] [Server thread/INFO] [FML]: Holder lookups applied
+[01:08:27] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:27] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ruby`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `amethyst`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobalt`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `copper`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sapphire`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `silver`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `topaz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquoise`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moissanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `steel`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `onyx`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tourmaline`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tin`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tanzanite`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bronze`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `graphene`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `turquartz`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sterling`, expected `mores`. This could be a intended override, but in most cases indicates a broken mod.
+[01:08:27] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:08:27] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:08:27] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[01:08:27] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:08:27] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[01:08:28] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
