@@ -3,7 +3,7 @@ Implementation-Title: mOres_mod
 Implementation-Version: v2.0
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2021-03-09T00:53:05+0100
+Implementation-Timestamp: 2021-03-09T01:14:25+0100
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 
