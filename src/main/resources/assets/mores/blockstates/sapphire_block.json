@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:sapphire_block" }
+    "": { "model": "mores:block/sapphire_block" }
   }
 }

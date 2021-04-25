@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:amethyst_block" }
+    "": { "model": "mores:block/amethyst_block" }
   }
 }

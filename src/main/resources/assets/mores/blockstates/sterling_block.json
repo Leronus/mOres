@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:sterling_block" }
+    "": { "model": "mores:block/sterling_block" }
   }
 }

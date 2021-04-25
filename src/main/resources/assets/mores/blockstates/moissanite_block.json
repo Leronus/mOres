@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:moissanite_block" }
+    "": { "model": "mores:block/moissanite_block" }
   }
 }

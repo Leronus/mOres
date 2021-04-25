@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:topaz_block" }
+    "": { "model": "mores:block/topaz_block" }
   }
 }

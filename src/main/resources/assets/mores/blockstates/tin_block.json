@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:tin_block" }
+    "": { "model": "mores:block/tin_block" }
   }
 }

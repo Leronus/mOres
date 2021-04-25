@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:onyx_block" }
+    "": { "model": "mores:block/onyx_block" }
   }
 }

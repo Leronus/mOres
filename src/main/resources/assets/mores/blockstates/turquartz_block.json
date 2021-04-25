@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:turquartz_block" }
+    "": { "model": "mores:block/turquartz_block" }
   }
 }

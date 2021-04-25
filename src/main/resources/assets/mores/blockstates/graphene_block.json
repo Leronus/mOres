@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:graphene_block" }
+    "": { "model": "mores:block/graphene_block" }
   }
 }

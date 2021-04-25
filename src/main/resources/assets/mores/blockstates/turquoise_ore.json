@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:turquoise_ore" }
+    "": { "model": "mores:block/turquoise_ore" }
   }
 }

@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:copper_ore" }
+    "": { "model": "mores:block/copper_ore" }
   }
 }

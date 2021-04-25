@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:ruby_block" }
+    "": { "model": "mores:block/ruby_block" }
   }
 }

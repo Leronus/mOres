@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": { "model": "mores:tanzanite_ore" }
+    "": { "model": "mores:block/tanzanite_ore" }
   }
 }
