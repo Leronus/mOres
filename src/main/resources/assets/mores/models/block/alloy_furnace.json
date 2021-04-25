@@ -1,0 +1,13 @@
+
+{
+  "parent": "block/orientable",
+  "textures": {
+    "particle": "mores:blocks/alloy_furnace_side",
+    "up": "mores:blocks/alloy_furnace_top",
+    "down": "mores:blocks/alloy_furnace_side",
+    "north": "mores:blocks/alloy_furnace_front_off",
+    "east": "mores:blocks/alloy_furnace_side",
+    "south": "mores:blocks/alloy_furnace_side",
+    "west": "mores:blocks/alloy_furnace_side"
+  }
+}
