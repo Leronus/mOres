@@ -1,0 +1,2 @@
+ore: -177, 127, 12
+for the others I used curves then saturation
