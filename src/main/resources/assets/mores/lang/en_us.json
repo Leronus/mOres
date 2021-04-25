@@ -53,6 +53,8 @@
   "item.mores.cobalt_horse_armor" : "Cobalt Horse Armor",
   "block.mores.cobalt_block" : "Cobalt Block",
   "block.mores.cobalt_ore" : "Cobalt Ore",
+  "block.mores.deepslate_cobalt_ore" : "Deepslate Cobalt Ore",
+  "block.mores.raw_cobalt_block" : "Raw Block of Cobalt",
 
   "item.mores.cobalt_sword" : "Cobalt Sword",
   "item.mores.cobalt_shovel" : "Cobalt Shovel",
@@ -173,6 +175,9 @@
   "item.mores.silver_horse_armor" : "Silver Horse Armor",
   "block.mores.silver_block" : "Silver Block",
   "block.mores.silver_ore" : "Silver Ore",
+  "block.mores.nether_silver_ore" : "Nether Silver Ore",
+  "block.mores.deepslate_silver_ore" : "Deepslate Silver Ore",
+  "block.mores.raw_silver_block" : "Raw Block of Silver",
 
   "item.mores.silver_sword" : "Silver Sword",
   "item.mores.silver_shovel" : "Silver Shovel",
@@ -237,6 +242,8 @@
   "item.mores.tin_horse_armor" : "Tin Horse Armor",
   "block.mores.tin_block" : "Tin Block",
   "block.mores.tin_ore" : "Tin Ore",
+  "block.mores.deepslate_tin_ore" : "Deepslate Tin Ore",
+  "block.mores.raw_tin_block" : "Raw Block of Tin",
 
   "item.mores.tin_sword" : "Tin Sword",
   "item.mores.tin_shovel" : "Tin Shovel",

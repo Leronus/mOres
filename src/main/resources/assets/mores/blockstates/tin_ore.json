@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "block/mores:tin_ore" }
+    "": { "model": "mores:block/tin_ore" }
   }
 }
