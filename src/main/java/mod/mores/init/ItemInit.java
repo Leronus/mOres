@@ -1,0 +1,22 @@
+package mod.mores.init;
+
+import mod.mores.main.Mores;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import org.lwjgl.system.CallbackI;
+
+/**
+ * Class to initialise all items from mores
+ */
+public class ItemInit{
+    /**
+     * Register all mores items
+     */
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MOD_ID);
+
+    //Item Registry
+    public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+}
