@@ -1,5 +1,6 @@
 package mod.mores.main;
 
+import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -41,6 +42,7 @@ public class Mores
         bus.addListener(this::doClientStuff);
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

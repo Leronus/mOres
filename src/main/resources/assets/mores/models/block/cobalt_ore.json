@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:items/cobalt_ore"
+    "all": "mores:blocks/cobalt_ore"
   }
 }

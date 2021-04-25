@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "mores:moissanite_nether_ore" }
+  }
+}

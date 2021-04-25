@@ -1,5 +1,5 @@
 {
-  "tile.mores.alloy_furnace" : "Alloy Furnace",
+  "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
 
@@ -30,8 +30,8 @@
 
   "item.mores.ruby_gem" : "Ruby",
   "item.mores.ruby_horse_armor" : "Ruby Horse Armor",
-  "tile.mores.ruby_block" : "Ruby Block",
-  "tile.mores.ruby_ore" : "Ruby Ore",
+  "block.mores.ruby_block" : "Ruby Block",
+  "block.mores.ruby_ore" : "Ruby Ore",
 
   "item.mores.ruby_sword" : "Ruby Sword",
   "item.mores.ruby_shovel" : "Ruby Shovel",
@@ -51,8 +51,8 @@
 
   "item.mores.cobalt_ingot" : "Cobalt Ingot",
   "item.mores.cobalt_horse_armor" : "Cobalt Horse Armor",
-  "tile.mores.cobalt_block" : "Cobalt Block",
-  "tile.mores.cobalt_ore" : "Cobalt Ore",
+  "block.mores.cobalt_block" : "Cobalt Block",
+  "block.mores.cobalt_ore" : "Cobalt Ore",
 
   "item.mores.cobalt_sword" : "Cobalt Sword",
   "item.mores.cobalt_shovel" : "Cobalt Shovel",
@@ -72,8 +72,8 @@
 
   "item.mores.amethyst_gem" : "Amethyst",
   "item.mores.amethyst_horse_armor" : "Amethyst Horse Armor",
-  "tile.mores.amethyst_block" : "Amethyst Block",
-  "tile.mores.amethyst_ore" : "Amethyst Ore",
+  "block.mores.amethyst_block" : "Amethyst Block",
+  "block.mores.amethyst_ore" : "Amethyst Ore",
 
   "item.mores.amethyst_sword" : "Amethyst Sword",
   "item.mores.amethyst_shovel" : "Amethyst Shovel",
@@ -93,8 +93,8 @@
 
   "item.mores.sapphire_gem" : "Sapphire",
   "item.mores.sapphire_horse_armor" : "Sapphire Horse Armor",
-  "tile.mores.sapphire_block" : "Sapphire Block",
-  "tile.mores.sapphire_ore" : "Sapphire Ore",
+  "block.mores.sapphire_block" : "Sapphire Block",
+  "block.mores.sapphire_ore" : "Sapphire Ore",
 
   "item.mores.sapphire_sword" : "Sapphire Sword",
   "item.mores.sapphire_shovel" : "Sapphire Shovel",
@@ -114,8 +114,8 @@
 
   "item.mores.copper_ingot" : "Copper Ingot",
   "item.mores.copper_horse_armor" : "Copper Horse Armor",
-  "tile.mores.copper_block" : "Copper Block",
-  "tile.mores.copper_ore" : "Copper Ore",
+  "block.mores.copper_block" : "Copper Block",
+  "block.mores.copper_ore" : "Copper Ore",
 
   "item.mores.copper_sword" : "Copper Sword",
   "item.mores.copper_shovel" : "Copper Shovel",
@@ -171,8 +171,8 @@
 
   "item.mores.silver_ingot" : "Silver Ingot",
   "item.mores.silver_horse_armor" : "Silver Horse Armor",
-  "tile.mores.silver_block" : "Silver Block",
-  "tile.mores.silver_ore" : "Silver Ore",
+  "block.mores.silver_block" : "Silver Block",
+  "block.mores.silver_ore" : "Silver Ore",
 
   "item.mores.silver_sword" : "Silver Sword",
   "item.mores.silver_shovel" : "Silver Shovel",
@@ -191,8 +191,8 @@
 
   "item.mores.topaz_gem" : "Topaz",
   "item.mores.topaz_horse_armor" : "Topaz Horse Armor",
-  "tile.mores.topaz_block" : "Topaz Block",
-  "tile.mores.topaz_ore" : "Topaz Ore",
+  "block.mores.topaz_block" : "Topaz Block",
+  "block.mores.topaz_ore" : "Topaz Ore",
 
   "item.mores.topaz_sword" : "Topaz Sword",
   "item.mores.topaz_shovel" : "Topaz Shovel",
@@ -210,11 +210,11 @@
   "item.mores.topaz_boots" : "Topaz Boots",
 
   "item.mores.turquoise_gem" : "Turquoise",
-  "tile.mores.turquoise_block" : "Turquoise Block",
-  "tile.mores.turquoise_ore" : "Turquoise Ore",
+  "block.mores.turquoise_block" : "Turquoise Block",
+  "block.mores.turquoise_ore" : "Turquoise Ore",
 
-  "tile.mores.moissanite_nether_ore" : "Moissanite Ore",
-  "tile.mores.moissanite_block" : "Moissanite Block",
+  "block.mores.moissanite_nether_ore" : "Moissanite Ore",
+  "block.mores.moissanite_block" : "Moissanite Block",
   "item.mores.moissanite_gem" : "Moissanite",
   "item.mores.moissanite_horse_armor" : "Moissanite Horse Armor",
 
@@ -235,8 +235,8 @@
 
   "item.mores.tin_ingot" : "Tin Ingot",
   "item.mores.tin_horse_armor" : "Tin Horse Armor",
-  "tile.mores.tin_block" : "Tin Block",
-  "tile.mores.tin_ore" : "Tin Ore",
+  "block.mores.tin_block" : "Tin Block",
+  "block.mores.tin_ore" : "Tin Ore",
 
   "item.mores.tin_sword" : "Tin Sword",
   "item.mores.tin_shovel" : "Tin Shovel",
@@ -256,7 +256,7 @@
 
   "item.mores.bronze_ingot" : "Bronze Ingot",
   "item.mores.bronze_horse_armor" : "Bronze Horse Armor",
-  "tile.mores.bronze_block" : "Bronze Block",
+  "block.mores.bronze_block" : "Bronze Block",
 
   "item.mores.bronze_sword" : "Bronze Sword",
   "item.mores.bronze_shovel" : "Bronze Shovel",
@@ -276,7 +276,7 @@
 
   "item.mores.steel_ingot" : "Carbon Steel Ingot",
   "item.mores.steel_horse_armor" : "Carbon Steel Horse Armor",
-  "tile.mores.steel_block" : "Carbon Steel Block",
+  "block.mores.steel_block" : "Carbon Steel Block",
 
   "item.mores.steel_sword" : "Carbon Steel Sword",
   "item.mores.steel_shovel" : "Carbon Steel Shovel",
@@ -301,7 +301,7 @@
 
   "item.mores.sterling_ingot" : "Sterling Silver Ingot",
   "item.mores.sterling_horse_armor" : "Sterling Silver Horse Armor",
-  "tile.mores.sterling_block" : "Sterling Silver Block",
+  "block.mores.sterling_block" : "Sterling Silver Block",
 
   "item.mores.sterling_sword" : "Sterling Silver Sword",
   "item.mores.sterling_shovel" : "Sterling Silver Shovel",
@@ -316,8 +316,8 @@
 
   "item.mores.tourmaline_gem" : "Tourmaline",
   "item.mores.tourmaline_horse_armor" : "Tourmaline Horse Armor",
-  "tile.mores.tourmaline_block" : "Tourmaline Block",
-  "tile.mores.tourmaline_ore" : "Tourmaline Ore",
+  "block.mores.tourmaline_block" : "Tourmaline Block",
+  "block.mores.tourmaline_ore" : "Tourmaline Ore",
 
   "item.mores.tourmaline_sword" : "Tourmaline Sword",
   "item.mores.tourmaline_shovel" : "Tourmaline Shovel",
@@ -337,8 +337,8 @@
 
   "item.mores.tanzanite_gem" : "Tanzanite",
   "item.mores.tanzanite_horse_armor" : "Tanzanite Horse Armor",
-  "tile.mores.tanzanite_block" : "Tanzanite Block",
-  "tile.mores.tanzanite_ore" : "Tanzanite Ore",
+  "block.mores.tanzanite_block" : "Tanzanite Block",
+  "block.mores.tanzanite_ore" : "Tanzanite Ore",
 
   "item.mores.tanzanite_sword" : "Tanzanite Sword",
   "item.mores.tanzanite_shovel" : "Tanzanite Shovel",
@@ -358,8 +358,8 @@
 
   "item.mores.onyx_gem" : "Onyx",
   "item.mores.onyx_horse_armor" : "Onyx Horse Armor",
-  "tile.mores.onyx_block" : "Onyx Block",
-  "tile.mores.onyx_ore" : "Onyx Ore",
+  "block.mores.onyx_block" : "Onyx Block",
+  "block.mores.onyx_ore" : "Onyx Ore",
 
   "item.mores.onyx_sword" : "Onyx Sword",
   "item.mores.onyx_shovel" : "Onyx Shovel",
@@ -378,8 +378,8 @@
 
   "item.mores.graphene_gem" : "Graphene",
   "item.mores.graphene_horse_armor" : "Graphene Horse Armor",
-  "tile.mores.graphene_block" : "Graphene Block",
-  "tile.mores.graphene_ore" : "Graphene Ore",
+  "block.mores.graphene_block" : "Graphene Block",
+  "block.mores.graphene_ore" : "Graphene Ore",
 
   "item.mores.graphene_sword" : "Graphene Sword",
   "item.mores.graphene_shovel" : "Graphene Shovel",

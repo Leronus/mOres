@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:items/moissanite_block"
+    "all": "mores:blocks/moissanite_block"
   }
 }
