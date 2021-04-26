@@ -5,16 +5,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="584cdc32-9a8a-434f-b2f9-5959f633b5a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/libs/mOres-v2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/BlockFurnace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/IHarvestEffectHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/IWeaponEffectHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/ItemModPickaxe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/PlayerHarvestEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/SlayerAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/TileEntityFurnace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-09-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-20-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-03-20-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-04-14-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-04-14-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-04-19-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-04-19-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/advancements/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/data/Temple.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/playerdata/3c604947-c962-3363-b382-8bb20e72179d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World13-/stats/3c604947-c962-3363-b382-8bb20e72179d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM-1/data/villages_nether.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM-1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM1/data/villages_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/DIM1/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/advancements/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/data/Mineshaft.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/data/Village.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/data/villages.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/forcedchunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World14/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/mOres-v1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/mod/mores/init/ItemInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mOres-v2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mOres-v2.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-03-09-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-03-09-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mod/mores/init/ItemInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +128,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -116,6 +195,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.runClient" />
       <item itemvalue="Application.runServer" />
@@ -170,6 +260,20 @@
       <workItem from="1615028571090" duration="6844000" />
       <workItem from="1615245333081" duration="2195000" />
       <workItem from="1615247691537" duration="2453000" />
+      <workItem from="1615282418633" duration="418000" />
+      <workItem from="1615646433077" duration="614000" />
+      <workItem from="1615803891152" duration="48000" />
+      <workItem from="1616275878914" duration="797000" />
+      <workItem from="1617961412196" duration="29000" />
+      <workItem from="1618396949457" duration="1562000" />
+      <workItem from="1618409413532" duration="49000" />
+      <workItem from="1618829746391" duration="471000" />
+      <workItem from="1618996859994" duration="21000" />
+      <workItem from="1619360689658" duration="1432000" />
+      <workItem from="1619363600899" duration="622000" />
+      <workItem from="1619364681551" duration="149000" />
+      <workItem from="1619364876613" duration="600000" />
+      <workItem from="1619475067394" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="Recipes update">
       <created>1613396942602</created>
@@ -451,13 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615249561395</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Advancement fix">
+      <created>1615282580333</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1615282580333</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.lang" />
     <option featureType="com.intellij.facetType" implementationName="minecraft" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +577,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/1.16.5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -499,10 +623,10 @@
     <MESSAGE value="Golden horse armor fix" />
     <MESSAGE value="Saddle recipe fix" />
     <MESSAGE value="Saddle recipe fix 2" />
-    <MESSAGE value="Advancement fix" />
     <MESSAGE value="silver_horse_armor.json fix" />
     <MESSAGE value="Tiny update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tiny update" />
+    <MESSAGE value="Advancement fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Advancement fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

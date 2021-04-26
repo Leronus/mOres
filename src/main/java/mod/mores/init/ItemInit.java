@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ItemInit {
-    public static final List<Item> ITEMS = new ArrayList<Item>();
+    public static final List<Item> ITEMS = new ArrayList<>();
 
     /**
      * Declaring all armor materials (String name, String textureName, int durability, int[armor strength points] {boots, legs, chest, helmet}, int enchantability, SoundEvent, int toughness)
@@ -137,10 +137,6 @@ public class ItemInit {
     public static final Item STERLING_HORSE_ARMOR = new HorseArmorBase("sterling", 6);
     public static final Item EMERALD_HORSE_ARMOR = new HorseArmorBase("emerald", 9);
     public static final Item OBSIDIAN_HORSE_ARMOR = new HorseArmorBase("obsidian", 8);
-
-
-
-
 
 
 

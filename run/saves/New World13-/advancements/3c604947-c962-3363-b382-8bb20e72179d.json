@@ -1,0 +1,77 @@
+{
+  "mores:mores/craft_full_silver_armor": {
+    "criteria": {
+      "obtain_copper_ore": "2021-04-14 12:46:27 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_full_turquartz_armor": {
+    "criteria": {
+      "craft_full_tourmaline_armor": "2021-04-14 12:46:49 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_turquartz": {
+    "criteria": {
+      "obtain_steel_ingot": "2021-04-14 12:44:23 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_stone_mace": {
+    "criteria": {
+      "craft_stone_mace": "2021-04-14 12:45:36 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_all_maces": {
+    "criteria": {
+      "obtain_stone_mace": "2021-04-14 12:45:36 +0200"
+    },
+    "done": false
+  },
+  "mores:mores/obtain_cobalt_ore": {
+    "criteria": {
+      "obtain_cobalt_ore": "2021-04-14 12:45:15 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_amethyst_gear": {
+    "criteria": {
+      "craft_amethyst_sword": "2021-04-14 12:43:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-04-14 12:45:50 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_rooiekool": {
+    "criteria": {
+      "obtain_copper_ore": "2021-04-14 12:43:33 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_all": {
+    "criteria": {
+      "obtain_cobalt_ingot": "2021-04-14 12:43:40 +0200",
+      "obtain_turquartz_gem": "2021-04-14 12:44:23 +0200"
+    },
+    "done": false
+  },
+  "mores:mores/smelt_more": {
+    "criteria": {
+      "smelt_cobalt_ore": "2021-04-14 12:43:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2021-04-14 12:44:02 +0200",
+      "forest_hills": "2021-04-14 12:43:18 +0200",
+      "river": "2021-04-14 12:44:11 +0200"
+    },
+    "done": false
+  }
+}
