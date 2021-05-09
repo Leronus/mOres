@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:bronze_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:bronze_legs"
+    },
+    "G":
+    {
+      "item": "mores:bronze_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:bronze_horse_armor",
+    "count": 1
+  }
+}

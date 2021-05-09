@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$$$",
+    " # ",
+    " # "
+  ],
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "item": "mores:turquartz_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:turquartz_pickaxe",
+    "count": 1
+  }
+}

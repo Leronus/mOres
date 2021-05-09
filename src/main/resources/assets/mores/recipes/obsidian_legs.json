@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "# #",
+    "# #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:obsidian"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:obsidian_legs",
+    "count": 1
+  }
+}

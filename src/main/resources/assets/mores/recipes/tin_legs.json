@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "# #",
+    "# #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:tin_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:tin_legs",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "# #",
+    "# #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:onyx_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:onyx_legs",
+    "count": 1
+  }
+}

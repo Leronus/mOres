@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:turquartz_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:turquartz_legs"
+    },
+    "G":
+    {
+      "item": "mores:turquartz_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:turquartz_horse_armor",
+    "count": 1
+  }
+}

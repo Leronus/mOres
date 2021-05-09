@@ -1,0 +1,62 @@
+{
+  "display": {
+    "title": "More Metal",
+    "description": "You have smelted your very first mOres metal",
+    "icon": {
+      "item": "mores:copper_ingot"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_copper_ore",
+  "criteria": {
+    "smelt_silver_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:silver_ingot"
+          }
+        ]
+      }
+    },
+    "smelt_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:copper_ingot"
+          }
+        ]
+      }
+    },
+    "smelt_tin_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tin_ingot"
+          }
+        ]
+      }
+    },
+    "smelt_cobalt_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:cobalt_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["smelt_silver_ore", "smelt_copper_ore", "smelt_tin_ore", "smelt_cobalt_ore"]
+  ],
+  "rewards": {
+    "experience": 30
+  }
+}

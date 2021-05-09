@@ -1,4 +1,4 @@
-package mod.mores.main;
+package mod.mores;
 
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
@@ -27,6 +27,7 @@ public class Mores
 {
     // Directly reference a log4j logger.
     public static final Logger LOGGER = LogManager.getLogger();
+
     public static final String MOD_ID = "mores";
 
     public Mores() {
@@ -80,17 +81,6 @@ public class Mores
     public void onServerStarting(FMLServerStartingEvent event) {
         // do something when the server starts
         LOGGER.info("Server has started");
-    }
-
-    // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
-    // Event bus for receiving Registry Events)
-    @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
-    public static class RegistryEvents {
-        @SubscribeEvent
-        public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
-            // register a new block here
-            LOGGER.info("HELLO from Register Block");
-        }
     }
 }
 

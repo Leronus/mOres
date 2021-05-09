@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "The Villagers Love Me",
+    "description": "You have crafted full emerald armor",
+    "icon": {
+      "item": "mores:emerald_chest"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "craft_emerald_tool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:emerald_helmet"
+          },
+          {
+            "item": "mores:emerald_chest"
+          },
+          {
+            "item": "mores:emerald_legs"
+          },
+          {
+            "item": "mores:emerald_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 125
+  }
+}

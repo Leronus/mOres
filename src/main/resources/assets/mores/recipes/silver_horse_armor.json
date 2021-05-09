@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:silver_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:silver_legs"
+    },
+    "G":
+    {
+      "item": "mores:silver_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:silver_horse_armor",
+    "count": 1
+  }
+}

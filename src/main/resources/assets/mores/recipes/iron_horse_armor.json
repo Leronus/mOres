@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    "G":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "minecraft:iron_horse_armor",
+    "count": 1
+  }
+}

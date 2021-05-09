@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:sterling_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:sterling_legs"
+    },
+    "G":
+    {
+      "item": "mores:sterling_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:sterling_horse_armor",
+    "count": 1
+  }
+}

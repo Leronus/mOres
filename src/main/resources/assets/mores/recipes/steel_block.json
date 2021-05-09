@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:steel_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:steel_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": "√9 = 3",
+    "description": "You can now get drunk and craft a turquoise block",
+    "icon": {
+      "item": "mores:turquoise_block"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_turquoise",
+  "criteria": {
+    "obtain_turquoise_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:turquoise_gem",
+            "count": 9
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

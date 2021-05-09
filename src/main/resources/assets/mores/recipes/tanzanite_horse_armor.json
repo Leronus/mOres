@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:tanzanite_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:tanzanite_legs"
+    },
+    "G":
+    {
+      "item": "mores:tanzanite_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:tanzanite_horse_armor",
+    "count": 1
+  }
+}

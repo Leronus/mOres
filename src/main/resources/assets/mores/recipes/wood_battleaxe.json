@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$ $",
+    "$#$",
+    " # "
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:wood_battleaxe",
+    "count": 1
+  }
+}

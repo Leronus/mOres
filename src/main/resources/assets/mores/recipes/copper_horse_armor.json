@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:copper_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:copper_legs"
+    },
+    "G":
+    {
+      "item": "mores:copper_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:copper_horse_armor",
+    "count": 1
+  }
+}

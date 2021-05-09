@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:amethyst_helmet"
+    },
+    "W":
+    {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "L":
+    {
+      "item": "mores:amethyst_legs"
+    },
+    "G":
+    {
+      "item": "mores:amethyst_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:amethyst_horse_armor",
+    "count": 1
+  }
+}

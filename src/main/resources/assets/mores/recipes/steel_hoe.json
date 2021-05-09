@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$$",
+    " #",
+    " #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "item": "mores:steel_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:steel_hoe",
+    "count": 1
+  }
+}
