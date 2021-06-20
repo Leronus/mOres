@@ -1,0 +1,666 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:graphene_gem",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_gem",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_seeds",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:ruby_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:cobalt_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:tourmaline_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:topaz_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:turquartz_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:tanzanite_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:onyx_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "mores:obsidian_horse_armor",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:onyx_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:onyx_legs",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:onyx_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:onyx_chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_legs",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:sapphire_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:ruby_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:ruby_legs",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:ruby_chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:ruby_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_sword",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_legs",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:steel_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_sword",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_chest",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_legs",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_pickaxe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "mores:moissanite_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 20,
+                                "max": 39
+                            }
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}
