@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "mOres",
+    "description": "The heart and story of mOres, made by the one and only Its Infinite",
+    "icon": {
+      "item": "mores:sapphire_block"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": false,
+    "hidden": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    }
+  }
+}

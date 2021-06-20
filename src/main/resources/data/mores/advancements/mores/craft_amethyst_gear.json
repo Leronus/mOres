@@ -1,0 +1,62 @@
+{
+  "display": {
+    "title": "Mans Lean Yeah",
+    "description": "You have crafted an amethyst tool",
+    "icon": {
+      "item": "mores:amethyst_sword"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_amethyst",
+  "criteria": {
+    "craft_amethyst_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_sword"
+          }
+        ]
+      }
+    },
+    "craft_amethyst_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_pickaxe"
+          }
+        ]
+      }
+    },
+    "craft_amethyst_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_axe"
+          }
+        ]
+      }
+    },
+    "craft_amethyst_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_shovel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["craft_amethyst_sword", "craft_amethyst_pickaxe", "craft_amethyst_axe", "craft_amethyst_shovel"]
+  ],
+  "rewards": {
+    "experience": 40
+  }
+}

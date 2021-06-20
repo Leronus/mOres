@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "What Even Is This?",
+    "description": "You have made an alloy out of quartz with the rare turquoise",
+    "icon": {
+      "item": "mores:turquartz_gem"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/craft_alloy_furnace",
+  "criteria": {
+    "obtain_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:turquartz_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

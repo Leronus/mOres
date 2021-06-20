@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Massive Improvement",
+    "description": "You have mined your very first sapphire gem",
+    "icon": {
+      "item": "mores:sapphire_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_topaz",
+  "criteria": {
+    "obtain_sapphire_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 300
+  }
+}
