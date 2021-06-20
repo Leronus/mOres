@@ -63,10 +63,10 @@ public class ItemInit{
     public static final RegistryObject<ItemTools> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 8).tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<ItemTools> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 8).tab(ItemGroup.TAB_MISC)));
 
-    //public static final RegistryObject<ItemTools> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
-    //public static final RegistryObject<ItemTools> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
 
-    //public static final RegistryObject<ItemTools> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 10).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 10).tab(ItemGroup.TAB_MISC)));
 
 
 
@@ -120,4 +120,7 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(BlockInit.COBALT_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(BlockInit.COBALT_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
+    public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(BlockInit.BRONZE_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+    public static final RegistryObject<BlockItem> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(BlockInit.STEEL_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+    public static final RegistryObject<BlockItem> GRAPHENE_BLOCK = ITEMS.register("graphene_block", () -> new BlockItem(BlockInit.GRAPHENE_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 }
