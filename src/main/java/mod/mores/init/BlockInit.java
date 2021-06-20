@@ -68,6 +68,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> MOISSANITE_ORE = BLOCKS.register("moissanite_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).harvestTool(ToolType.PICKAXE).harvestLevel(5).strength(3.0F, 3.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> MOISSANITE_BLOCK = BLOCKS.register("moissanite_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).harvestTool(ToolType.PICKAXE).harvestLevel(5).strength(5.0F, 6.0F).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> MOISSANITE_NETHER_ORE = BLOCKS.register("moissanite_nether_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).harvestTool(ToolType.PICKAXE).harvestLevel(5).strength(3.0F, 3.0F).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> ONYX_ORE = BLOCKS.register("onyx_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_BLACK).harvestTool(ToolType.PICKAXE).harvestLevel(5).strength(3.0F, 3.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ONYX_BLOCK = BLOCKS.register("onyx_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_BLACK).harvestTool(ToolType.PICKAXE).harvestLevel(5).strength(5.0F, 6.0F).sound(SoundType.METAL)));

@@ -1,6 +1,7 @@
 package mod.mores.objects;
 
-import mod.mores.setup.Registration;
+import mod.mores.init.BlockInit;
+import mod.mores.init.ItemInit;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -30,12 +31,12 @@ public class ModBlocks {
     static void register() {}
 
     private static <T extends Block> RegistryObject<T> registerNoItem(String name, Supplier<T> block) {
-        return Registration.BLOCKS.register(name, block);
+        return BlockInit.BLOCKS.register(name, block);
     }
 
     private static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
         RegistryObject<T> ret = registerNoItem(name, block);
-        Registration.ITEMS.register(name, () -> new BlockItem(ret.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+        ItemInit.ITEMS.register(name, () -> new BlockItem(ret.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
         return ret;
     }
 }
