@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/root",
   "criteria": {
     "below_sea_level": {
       "trigger": "minecraft:location",

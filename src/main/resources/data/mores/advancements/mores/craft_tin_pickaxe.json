@@ -12,7 +12,7 @@
   },
   "parent": "mores:mores/obtain_tin_ore",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_tin_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

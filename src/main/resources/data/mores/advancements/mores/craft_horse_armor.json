@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/root",
   "criteria": {
     "craft_silver_horse_armor": {
       "trigger": "minecraft:inventory_changed",
