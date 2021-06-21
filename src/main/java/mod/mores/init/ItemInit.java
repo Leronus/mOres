@@ -40,9 +40,38 @@ public class ItemInit{
 
 
 
+    /**
+     * All swords
+     */
+//    public static final RegistryObject<ItemTools> TIN_SWORD = ITEMS.register("tin_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 2).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> COPPER_SWORD = ITEMS.register("copper_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 2).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 3).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 4).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 5).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 5).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> STEEL_SWORD = ITEMS.register("steel_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 5).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 6).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 6).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 7).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 7).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 8).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 8).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 9).tab(ItemGroup.TAB_MISC)));
+//    public static final RegistryObject<ItemTools> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 9).tab(ItemGroup.TAB_MISC)));
+//
+//    public static final RegistryObject<ItemTools> GRAPHENE_SWORD = ITEMS.register("graphene_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SWORD, 10).tab(ItemGroup.TAB_MISC)));
 
-    //Tool Registry
 
+    /**
+     * All pickaxes
+     */
     public static final RegistryObject<ItemTools> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 2).tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<ItemTools> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 2).tab(ItemGroup.TAB_MISC)));
 
@@ -68,6 +97,92 @@ public class ItemInit{
 
     public static final RegistryObject<ItemTools> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 10).tab(ItemGroup.TAB_MISC)));
 
+
+    /**
+     * All axes
+     */
+    public static final RegistryObject<ItemTools> TIN_AXE = ITEMS.register("tin_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 2).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COPPER_AXE = ITEMS.register("copper_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 2).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> SILVER_AXE = ITEMS.register("silver_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 3).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 4).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> STEEL_AXE = ITEMS.register("steel_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 5).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 6).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 6).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 7).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 7).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> RUBY_AXE = ITEMS.register("ruby_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 8).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 8).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> ONYX_AXE = ITEMS.register("onyx_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 9).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.AXE, 10).tab(ItemGroup.TAB_MISC)));
+
+
+    /**
+     * All shovels
+     */
+    public static final RegistryObject<ItemTools> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 2).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 2).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 3).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 4).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 5).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 6).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 6).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 7).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 7).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 8).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 8).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 9).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ItemTools(new Item.Properties().addToolType(ToolType.SHOVEL, 10).tab(ItemGroup.TAB_MISC)));
+
+
+    /**
+     * All hoes
+     */
+    public static final RegistryObject<ItemTools> TIN_HOE = ITEMS.register("tin_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 2).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COPPER_HOE = ITEMS.register("copper_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 2).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> SILVER_HOE = ITEMS.register("silver_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 3).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 4).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> STEEL_HOE = ITEMS.register("steel_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 5).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 6).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 6).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 7).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 7).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 8).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 8).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<ItemTools> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 9).tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<ItemTools> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.HOE, 10).tab(ItemGroup.TAB_MISC)));
 
 
 
