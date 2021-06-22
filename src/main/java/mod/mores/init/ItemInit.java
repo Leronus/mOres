@@ -44,6 +44,8 @@ public class ItemInit{
 
     /**
      * All swords
+     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
      */
     public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new SwordItem(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 //    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
