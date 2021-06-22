@@ -2,7 +2,6 @@ package mod.mores.data.client;
 
 import mod.mores.Mores;
 import mod.mores.init.BlockInit;
-import mod.mores.objects.ModBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
