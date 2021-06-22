@@ -3,10 +3,7 @@ package mod.mores.init;
 import mod.mores.Mores;
 import mod.mores.materials.ToolMaterial;
 import mod.mores.objects.ItemTools;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,11 +22,17 @@ public class ItemInit{
 
     //Item Registry
 
+
+
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
+
+
+    public static final RegistryObject<Item> AMETHYST_GEM = ITEMS.register("amethyst_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
     public static final RegistryObject<Item> TOPAZ_GEM = ITEMS.register("topaz_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> TOURMALINE_GEM = ITEMS.register("tourmaline_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
@@ -40,6 +43,7 @@ public class ItemInit{
     public static final RegistryObject<Item> MOISSANITE_GEM = ITEMS.register("moissanite_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
     public static final RegistryObject<Item> ONYX_GEM = ITEMS.register("onyx_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
+    public static final RegistryObject<Item> GRAPHENE_GEM = ITEMS.register("graphene_gem", () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MATERIALS)));
 
 
     /**
@@ -48,7 +52,7 @@ public class ItemInit{
      * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
      */
     public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new SwordItem(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
-//    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
     public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new SwordItem(ToolMaterial.TOOL_SILVER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
@@ -58,7 +62,7 @@ public class ItemInit{
     public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new SwordItem(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
-//    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new SwordItem(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new SwordItem(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new SwordItem(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
     public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new SwordItem(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
@@ -70,36 +74,36 @@ public class ItemInit{
     public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new SwordItem(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
     public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new SwordItem(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
-//    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_pickaxe", () -> new SwordItem(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new SwordItem(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
 
     /**
      * All pickaxes
      */
-    public static final RegistryObject<ItemTools> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 2).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 2).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 3).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_SILVER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 4).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_BRONZE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 5).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 5).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 5).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 6).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 6).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 7).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 7).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 8).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 8).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
-    public static final RegistryObject<ItemTools> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 9).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
+    public static final RegistryObject<PickaxeItem> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
-    public static final RegistryObject<ItemTools> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemTools(new Item.Properties().addToolType(ToolType.PICKAXE, 10).tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<PickaxeItem> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
 
 
     /**
