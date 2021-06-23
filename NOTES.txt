@@ -1,0 +1,23 @@
+** SCHEDULED **
+- Add armor & check models
+- Recode tools - shovel, hoe, axe
+- Check armor values and attack speed/dmg values
+- Start adding mores tools (battleaxes, daggers, maces)
+- Ore generation
+- Ore drops & furnace recipes for raw metals
+-- Textures for sterling silver, topaz, tourmaline
+
+
+** POTENTIALLY **
+- Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
+- Tin/Silver tools & armor may need another rework
+- Moissanite tools & armor potential rework
+- Cobalt check
+- Amethyst values rework connected to 1.17 update (later or now?)
+
+** LATER **
+- Horse armor
+- Alloy furnace
+- Check loot tables
+- Check advancements
+
