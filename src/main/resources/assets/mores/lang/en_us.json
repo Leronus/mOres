@@ -3,6 +3,11 @@
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
 
+  "item.mores.raw_copper" : "Raw Copper",
+  "item.mores.raw_tin" : "Raw Tin",
+  "item.mores.raw_silver" : "Raw Silver",
+  "item.mores.raw_cobalt" : "Raw Cobalt",
+
   "item.mores.wood_battleaxe" : "Wooden Battle Axe",
   "item.mores.wood_mace" : "Wooden Mace",
   "item.mores.wood_dagger" : "Wooden Dagger",

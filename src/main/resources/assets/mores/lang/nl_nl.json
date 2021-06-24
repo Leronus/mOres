@@ -3,6 +3,11 @@
   "container.alloy_furnace": "Legeringsoven",
 
 
+  "item.mores.raw_copper" : "Ruw Koper",
+  "item.mores.raw_tin" : "Ruw Tin",
+  "item.mores.raw_silver" : "Ruw Zilver",
+  "item.mores.raw_cobalt" : "Ruw Kobalt",
+
   "item.mores.wood_battleaxe": "Houten strijdbijl",
   "item.mores.wood_mace": "Houten strijdknots",
   "item.mores.wood_dagger": "Houten dolk",
