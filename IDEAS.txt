@@ -1,2 +1,5 @@
 - Daggers throwable?
 - Spears?
+- Edible apples with potion effects (bronze, silver, diamond)
+- Armored shields of some sort?
+
