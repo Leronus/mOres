@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "block/mores:onyx_ore" }
+    "": { "model": "mores:block/onyx_ore" }
   }
 }
