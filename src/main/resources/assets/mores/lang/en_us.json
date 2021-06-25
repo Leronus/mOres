@@ -37,6 +37,7 @@
   "item.mores.ruby_horse_armor" : "Ruby Horse Armor",
   "block.mores.ruby_block" : "Ruby Block",
   "block.mores.ruby_ore" : "Ruby Ore",
+  "block.mores.deepslate_ruby_ore" : "Deepslate Ruby Ore",
 
   "item.mores.ruby_sword" : "Ruby Sword",
   "item.mores.ruby_shovel" : "Ruby Shovel",
@@ -81,6 +82,7 @@
   "item.mores.amethyst_horse_armor" : "Amethyst Horse Armor",
   "block.mores.amethyst_block" : "Amethyst Block",
   "block.mores.amethyst_ore" : "Amethyst Ore",
+  "block.mores.deepslate_amethyst_ore" : "Deepslate Amethyst Ore",
 
   "item.mores.amethyst_sword" : "Amethyst Sword",
   "item.mores.amethyst_shovel" : "Amethyst Shovel",
@@ -102,6 +104,7 @@
   "item.mores.sapphire_horse_armor" : "Sapphire Horse Armor",
   "block.mores.sapphire_block" : "Sapphire Block",
   "block.mores.sapphire_ore" : "Sapphire Ore",
+  "block.mores.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
 
   "item.mores.sapphire_sword" : "Sapphire Sword",
   "item.mores.sapphire_shovel" : "Sapphire Shovel",
@@ -123,6 +126,7 @@
   "item.mores.copper_horse_armor" : "Copper Horse Armor",
   "block.mores.copper_block" : "Copper Block",
   "block.mores.copper_ore" : "Copper Ore",
+  "block.mores.deepslate_copper_ore" : "Deepslate Copper Ore",
 
   "item.mores.copper_sword" : "Copper Sword",
   "item.mores.copper_shovel" : "Copper Shovel",
@@ -203,6 +207,7 @@
   "item.mores.topaz_horse_armor" : "Topaz Horse Armor",
   "block.mores.topaz_block" : "Topaz Block",
   "block.mores.topaz_ore" : "Topaz Ore",
+  "block.mores.deepslate_topaz_ore" : "Deepslate Topaz Ore",
 
   "item.mores.topaz_sword" : "Topaz Sword",
   "item.mores.topaz_shovel" : "Topaz Shovel",
@@ -222,8 +227,10 @@
   "item.mores.turquoise_gem" : "Turquoise",
   "block.mores.turquoise_block" : "Turquoise Block",
   "block.mores.turquoise_ore" : "Turquoise Ore",
+  "block.mores.deepslate_turquoise_ore" : "Deepslate Turquoise Ore",
 
   "block.mores.moissanite_nether_ore" : "Moissanite Ore",
+  "block.mores.deepslate_moissanite_ore" : "Deepslate Moissanite Ore",
   "block.mores.moissanite_block" : "Moissanite Block",
   "item.mores.moissanite_gem" : "Moissanite",
   "item.mores.moissanite_horse_armor" : "Moissanite Horse Armor",
@@ -330,6 +337,7 @@
   "item.mores.tourmaline_horse_armor" : "Tourmaline Horse Armor",
   "block.mores.tourmaline_block" : "Tourmaline Block",
   "block.mores.tourmaline_ore" : "Tourmaline Ore",
+  "block.mores.deepslate_tourmaline_ore" : "Deepslate Tourmaline Ore",
 
   "item.mores.tourmaline_sword" : "Tourmaline Sword",
   "item.mores.tourmaline_shovel" : "Tourmaline Shovel",
@@ -351,6 +359,7 @@
   "item.mores.tanzanite_horse_armor" : "Tanzanite Horse Armor",
   "block.mores.tanzanite_block" : "Tanzanite Block",
   "block.mores.tanzanite_ore" : "Tanzanite Ore",
+  "block.mores.deepslate_tanzanite_ore" : "Deepslate Tanzanite Ore",
 
   "item.mores.tanzanite_sword" : "Tanzanite Sword",
   "item.mores.tanzanite_shovel" : "Tanzanite Shovel",
