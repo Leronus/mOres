@@ -1,5 +1,5 @@
 {
-  "tile.mores.alloy_furnace": "Legeringsoven",
+  "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
 
 
@@ -35,8 +35,9 @@
 
   "item.mores.ruby_gem": "Robijn",
   "item.mores.ruby_horse_armor": "Robijnen paardenharnas",
-  "tile.mores.ruby_block": "Robijnblok",
-  "tile.mores.ruby_ore": "Robijnerts",
+  "block.mores.ruby_block": "Robijnblok",
+  "block.mores.ruby_ore": "Robijnerts",
+  "block.mores.deepslate_ruby_ore" : "Wrevelsteenrobijnerts",
 
   "item.mores.ruby_sword": "Robijnen zwaard",
   "item.mores.ruby_shovel": "Robijnen schep",
@@ -56,8 +57,10 @@
 
   "item.mores.cobalt_ingot": "Kobaltstaaf",
   "item.mores.cobalt_horse_armor": "Kobalten paardenharnas",
-  "tile.mores.cobalt_block": "Kobaltblok",
-  "tile.mores.cobalt_ore": "Kobalterts",
+  "block.mores.cobalt_block": "Kobaltblok",
+  "block.mores.cobalt_ore": "Kobalterts",
+  "block.mores.deepslate_cobalt_ore" : "Wrevelsteenkobalterts",
+  "block.mores.raw_cobalt_block" : "Ruw kobaltblok",
 
   "item.mores.cobalt_sword": "Kobalten zwaard",
   "item.mores.cobalt_shovel": "Kobalten schep",
@@ -77,8 +80,9 @@
 
   "item.mores.amethyst_gem": "Amethist",
   "item.mores.amethyst_horse_armor": "Amethisten paardenharnas",
-  "tile.mores.amethyst_block": "Amethistblok",
-  "tile.mores.amethyst_ore": "Amethisterts",
+  "block.mores.amethyst_block": "Amethistblok",
+  "block.mores.amethyst_ore": "Amethisterts",
+  "block.mores.deepslate_amethyst_ore" : "Wrevelsteenamethisterts",
 
   "item.mores.amethyst_sword": "Amethisten zwaard",
   "item.mores.amethyst_shovel": "Amethisten schep",
@@ -98,8 +102,9 @@
 
   "item.mores.sapphire_gem": "Saffier",
   "item.mores.sapphire_horse_armor": "Saffieren paardenharnas",
-  "tile.mores.sapphire_block": "Saffierblok",
-  "tile.mores.sapphire_ore": "Saffiererts",
+  "block.mores.sapphire_block": "Saffierblok",
+  "block.mores.sapphire_ore": "Saffiererts",
+  "block.mores.deepslate_sapphire_ore" : "Wrevelsteensaffiererts",
 
   "item.mores.sapphire_sword": "Saffieren zwaard",
   "item.mores.sapphire_shovel": "Saffieren schep",
@@ -119,8 +124,9 @@
 
   "item.mores.copper_ingot": "Koperstaaf",
   "item.mores.copper_horse_armor": "Koperen paardenharnas",
-  "tile.mores.copper_block": "Koperblok",
-  "tile.mores.copper_ore": "Kopererts",
+  "block.mores.copper_block": "Koperblok",
+  "block.mores.copper_ore": "Kopererts",
+  "block.mores.deepslate_copper_ore" : "Wrevelsteenkopererts",
 
   "item.mores.copper_sword": "Koperen zwaard",
   "item.mores.copper_shovel": "Koperen schep",
@@ -176,8 +182,11 @@
 
   "item.mores.silver_ingot": "Zilverstaaf",
   "item.mores.silver_horse_armor": "Zilveren paardenharnas",
-  "tile.mores.silver_block": "Zilverblok",
-  "tile.mores.silver_ore": "Zilvererts",
+  "block.mores.silver_block": "Zilverblok",
+  "block.mores.silver_ore": "Zilvererts",
+  "block.mores.nether_silver_ore" : "Netherzilvererts",
+  "block.mores.deepslate_silver_ore" : "Wrevelsteenzilvererts",
+  "block.mores.raw_silver_block" : "Ruw zilverblok",
 
   "item.mores.silver_sword": "Zilveren zwaard",
   "item.mores.silver_shovel": "Zilveren schep",
@@ -196,8 +205,9 @@
 
   "item.mores.topaz_gem": "Topaas",
   "item.mores.topaz_horse_armor": "Topazen paardenharnas",
-  "tile.mores.topaz_block": "Topaasblok",
-  "tile.mores.topaz_ore": "Topaaserts",
+  "block.mores.topaz_block": "Topaasblok",
+  "block.mores.topaz_ore": "Topaaserts",
+  "block.mores.deepslate_topaz_ore" : "Wrevelsteentopaaserts",
 
   "item.mores.topaz_sword": "Topazen zwaard",
   "item.mores.topaz_shovel": "Topazen schep",
@@ -215,11 +225,14 @@
   "item.mores.topaz_boots": "Topazen laarzen",
 
   "item.mores.turquoise_gem": "Turkoois",
-  "tile.mores.turquoise_block": "Turkooisblok",
-  "tile.mores.turquoise_ore": "Turkooiserts",
+  "block.mores.turquoise_block": "Turkooisblok",
+  "block.mores.turquoise_ore": "Turkooiserts",
+  "block.mores.deepslate_turquoise_ore" : "Wrevelsteenturkooiserts",
 
-  "tile.mores.moissanite_nether_ore": "Moissanieterts",
-  "tile.mores.moissanite_block": "Moissanietblok",
+  "block.mores.moissanite_ore" : "Moissanieterts",
+  "block.mores.deepslate_moissanite_ore" : "Wrevelsteenmoissanieterts",
+  "block.mores.moissanite_nether_ore": "Nethermoissanieterts",
+  "block.mores.moissanite_block": "Moissanietblok",
   "item.mores.moissanite_gem": "Moissaniet",
   "item.mores.moissanite_horse_armor": "Moissanieten paardenharnas",
 
@@ -240,8 +253,10 @@
 
   "item.mores.tin_ingot": "Tinstaaf",
   "item.mores.tin_horse_armor": "Tinnen paardenharnas",
-  "tile.mores.tin_block": "Tinblok",
-  "tile.mores.tin_ore": "Tinerts",
+  "block.mores.tin_block": "Tinblok",
+  "block.mores.tin_ore": "Tinerts",
+  "block.mores.deepslate_tin_ore" : "Wrevelsteentinerts",
+  "block.mores.raw_tin_block" : "Ruw tinblok",
 
   "item.mores.tin_sword": "Tinnen zwaard",
   "item.mores.tin_shovel": "Tinnen schep",
@@ -261,7 +276,7 @@
 
   "item.mores.bronze_ingot": "Bronsstaaf",
   "item.mores.bronze_horse_armor": "Bronzen paardenharnas",
-  "tile.mores.bronze_block": "Bronsblok",
+  "block.mores.bronze_block": "Bronsblok",
 
   "item.mores.bronze_sword": "Bronzen zwaard",
   "item.mores.bronze_shovel": "Bronzen schep",
@@ -281,7 +296,7 @@
 
   "item.mores.steel_ingot": "Koolstofstaalstaaf",
   "item.mores.steel_horse_armor": "Koolstofstalen paardenharnas",
-  "tile.mores.steel_block": "Koolstofstaalblok",
+  "block.mores.steel_block": "Koolstofstaalblok",
 
   "item.mores.steel_sword": "Koolstofstalen zwaard",
   "item.mores.steel_shovel": "Koolstofstalen schep",
@@ -306,7 +321,7 @@
 
   "item.mores.sterling_ingot": "Sterling zilverstaaf",
   "item.mores.sterling_horse_armor": "Sterling zilveren paardenharnas",
-  "tile.mores.sterling_block": "Sterling zilverblok",
+  "block.mores.sterling_block": "Sterling zilverblok",
 
   "item.mores.sterling_sword": "Sterling zilveren zwaard",
   "item.mores.sterling_shovel": "Sterling zilveren schep",
@@ -321,8 +336,9 @@
 
   "item.mores.tourmaline_gem": "Toermalijn",
   "item.mores.tourmaline_horse_armor": "Toermalijnen paardenharnas",
-  "tile.mores.tourmaline_block": "Toermalijnblok",
-  "tile.mores.tourmaline_ore": "Toermalijnerts",
+  "block.mores.tourmaline_block": "Toermalijnblok",
+  "block.mores.tourmaline_ore": "Toermalijnerts",
+  "block.mores.deepslate_tourmaline_ore" : "Wrevelsteentoermalijnerts",
 
   "item.mores.tourmaline_sword": "Toermalijnen zwaard",
   "item.mores.tourmaline_shovel": "Toermalijnen schep",
@@ -342,8 +358,9 @@
 
   "item.mores.tanzanite_gem": "Tanzaniet",
   "item.mores.tanzanite_horse_armor": "Tanzanieten paardenharnas",
-  "tile.mores.tanzanite_block": "Tanzanietblok",
-  "tile.mores.tanzanite_ore": "Tanzanieterts",
+  "block.mores.tanzanite_block": "Tanzanietblok",
+  "block.mores.tanzanite_ore": "Tanzanieterts",
+  "block.mores.deepslate_tanzanite_ore" : "Wrevelsteentanzanieterts",
 
   "item.mores.tanzanite_sword": "Tanzanieten zwaard",
   "item.mores.tanzanite_shovel": "Tanzanieten schep",
@@ -363,8 +380,8 @@
 
   "item.mores.onyx_gem": "Onyx",
   "item.mores.onyx_horse_armor": "Onyxen paardenharnas",
-  "tile.mores.onyx_block": "Onyxblok",
-  "tile.mores.onyx_ore": "Onyxerts",
+  "block.mores.onyx_block": "Onyxblok",
+  "block.mores.onyx_ore": "Onyxerts",
 
   "item.mores.onyx_sword": "Onyxen zwaard",
   "item.mores.onyx_shovel": "Onyxen schep",
@@ -384,8 +401,8 @@
 
   "item.mores.graphene_gem": "Grafeen",
   "item.mores.graphene_horse_armor": "Grafenen paardenharnas",
-  "tile.mores.graphene_block": "Grafeenblok",
-  "tile.mores.graphene_ore": "Grafeenerts",
+  "block.mores.graphene_block": "Grafeenblok",
+  "block.mores.graphene_ore": "Grafeenerts",
 
   "item.mores.graphene_sword": "Grafenen zwaard",
   "item.mores.graphene_shovel": "Grafenen schep",
@@ -405,8 +422,8 @@
 
   "item.mores.turquartz_gem": "Turkwarts",
   "item.mores.turquartz_horse_armor": "Turkwartsen paardenharnas",
-  "tile.mores.turquartz_block": "Turkwartsblok",
-  "tile.mores.turquartz_ore": "Turkwartserts",
+  "block.mores.turquartz_block": "Turkwartsblok",
+  "block.mores.turquartz_ore": "Turkwartserts",
 
   "item.mores.turquartz_sword": "Turkwartsen zwaard",
   "item.mores.turquartz_shovel": "Turkwartsen schep",
