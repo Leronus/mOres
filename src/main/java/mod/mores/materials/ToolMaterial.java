@@ -12,7 +12,7 @@ public enum ToolMaterial implements IItemTier {
     TOOL_COPPER(2, 90, 5.0F, 1.5F, 9, () -> Ingredient.of(ItemInit.COPPER_INGOT.get())),
     TOOL_SILVER(3, 230, 5.5F, 1.8F, 24, () -> Ingredient.of(ItemInit.SILVER_INGOT.get())),
     TOOL_BRONZE(4, 270, 5.5F, 2.0F, 12, () -> Ingredient.of(ItemInit.BRONZE_INGOT.get())),
-//    TOOL_STERLING(4, 290, 6.0F, 2.2F, 14, () -> Ingredient.of(ItemInit.BRONZE_INGOT.get())),
+//    TOOL_STERLING(4, 290, 6.0F, 2.2F, 14, () -> Ingredient.of(ItemInit.STERLING_INGOT.get())),
     TOOL_COBALT(5, 350, 6.5F, 2.2F, 20, () -> Ingredient.of(ItemInit.COBALT_INGOT.get())),
     TOOL_STEEL(5, 400, 6.2F, 2.5F, 12, () -> Ingredient.of(ItemInit.STEEL_INGOT.get())),
     TOOL_OBSIDIAN(6, 1800, 6.5F, 2.5F, 6, () -> Ingredient.of(Items.OBSIDIAN)),
