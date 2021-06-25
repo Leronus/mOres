@@ -111,6 +111,40 @@ public class ItemInit{
 
 
     /**
+     * All battleaxes
+     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
+     */
+    //TODO Check attack values
+    public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new SwordItem(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new SwordItem(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> SILVER_MACE = ITEMS.register("silver_mace", () -> new SwordItem(ToolMaterial.TOOL_SILVER, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> BRONZE_MACE = ITEMS.register("bronze_mace", () -> new SwordItem(ToolMaterial.TOOL_BRONZE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new SwordItem(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new SwordItem(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new SwordItem(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new SwordItem(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new SwordItem(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new SwordItem(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new SwordItem(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new SwordItem(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new SwordItem(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new SwordItem(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+    public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new SwordItem(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+    public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new SwordItem(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(ItemGroup.TAB_MISC)));
+
+
+
+
+    /**
      * All pickaxes
      */
     public static final RegistryObject<PickaxeItem> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new PickaxeItem(ToolMaterial.TOOL_TIN, 1, -2.8F, new Item.Properties().tab(ItemGroup.TAB_TOOLS)));
