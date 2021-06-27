@@ -1,12 +1,9 @@
 ** SCHEDULED **
-- Add armor & check models
-- Recode tools - shovel, hoe, axe
+- Creative tabs
 - Check armor values and attack speed/dmg values
-- Start adding mores tools (battleaxes, daggers, maces)
 - Ore generation
 - Ore drops & furnace recipes for raw metals
-- Textures for sterling silver, topaz
-
+- Textures for sterling silver, tanzanite, turquoise
 
 ** POTENTIALLY **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
@@ -15,7 +12,6 @@
 - Silver ore 1.17 update
 
 ** LATER **
-- Horse armor
 - Alloy furnace
 - Check loot tables
 - Check advancements
