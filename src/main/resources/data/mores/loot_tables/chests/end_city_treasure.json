@@ -196,7 +196,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:onyx_legs",
+                    "name": "mores:onyx_leggings",
                     "weight": 3,
                     "functions": [
                         {
@@ -226,7 +226,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:onyx_chest",
+                    "name": "mores:onyx_chestplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -256,7 +256,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:sapphire_legs",
+                    "name": "mores:sapphire_leggings",
                     "weight": 3,
                     "functions": [
                         {
@@ -271,7 +271,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:sapphire_chest",
+                    "name": "mores:sapphire_chestplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -316,7 +316,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:ruby_legs",
+                    "name": "mores:ruby_leggings",
                     "weight": 3,
                     "functions": [
                         {
@@ -331,7 +331,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:ruby_chest",
+                    "name": "mores:ruby_chestplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -376,7 +376,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:diamond_chestplate",
+                    "name": "minecraft:diamond_chestplateplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -481,7 +481,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:steel_chest",
+                    "name": "mores:steel_chestplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -496,7 +496,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:steel_legs",
+                    "name": "mores:steel_leggings",
                     "weight": 3,
                     "functions": [
                         {
@@ -586,7 +586,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:moissanite_chest",
+                    "name": "mores:moissanite_chestplate",
                     "weight": 3,
                     "functions": [
                         {
@@ -601,7 +601,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:moissanite_legs",
+                    "name": "mores:moissanite_leggings",
                     "weight": 3,
                     "functions": [
                         {

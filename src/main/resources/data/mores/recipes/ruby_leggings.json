@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "# #",
+    "# #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:ruby_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:ruby_leggings",
+    "count": 1
+  }
+}
