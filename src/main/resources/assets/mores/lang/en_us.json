@@ -50,8 +50,8 @@
   "item.mores.ruby_spear" : "Ruby Spear",
 
   "item.mores.ruby_helmet" : "Ruby Helmet",
-  "item.mores.ruby_chest" : "Ruby Chestplate",
-  "item.mores.ruby_legs" : "Ruby Leggings",
+  "item.mores.ruby_chestplate" : "Ruby Chestplate",
+  "item.mores.ruby_leggings" : "Ruby Leggings",
   "item.mores.ruby_boots" : "Ruby Boots",
 
 
@@ -73,8 +73,8 @@
   "item.mores.cobalt_spear" : "Cobalt Spear",
 
   "item.mores.cobalt_helmet" : "Cobalt Helmet",
-  "item.mores.cobalt_chest" : "Cobalt Chestplate",
-  "item.mores.cobalt_legs" : "Cobalt Leggings",
+  "item.mores.cobalt_chestplate" : "Cobalt Chestplate",
+  "item.mores.cobalt_leggings" : "Cobalt Leggings",
   "item.mores.cobalt_boots" : "Cobalt Boots",
 
 
@@ -95,8 +95,8 @@
   "item.mores.amethyst_spear" : "Amethyst Spear",
 
   "item.mores.amethyst_helmet" : "Amethyst Helmet",
-  "item.mores.amethyst_chest" : "Amethyst Chestplate",
-  "item.mores.amethyst_legs" : "Amethyst Leggings",
+  "item.mores.amethyst_chestplate" : "Amethyst Chestplate",
+  "item.mores.amethyst_leggings" : "Amethyst Leggings",
   "item.mores.amethyst_boots" : "Amethyst Boots",
 
 
@@ -117,8 +117,8 @@
   "item.mores.sapphire_spear" : "Sapphire Spear",
 
   "item.mores.sapphire_helmet" : "Sapphire Helmet",
-  "item.mores.sapphire_chest" : "Sapphire Chestplate",
-  "item.mores.sapphire_legs" : "Sapphire Leggings",
+  "item.mores.sapphire_chestplate" : "Sapphire Chestplate",
+  "item.mores.sapphire_leggings" : "Sapphire Leggings",
   "item.mores.sapphire_boots" : "Sapphire Boots",
 
 
@@ -139,8 +139,8 @@
   "item.mores.copper_spear" : "Copper Spear",
 
   "item.mores.copper_helmet" : "Copper Helmet",
-  "item.mores.copper_chest" : "Copper Chestplate",
-  "item.mores.copper_legs" : "Copper Leggings",
+  "item.mores.copper_chestplate" : "Copper Chestplate",
+  "item.mores.copper_leggings" : "Copper Leggings",
   "item.mores.copper_boots" : "Copper Boots",
 
 
@@ -157,8 +157,8 @@
   "item.mores.emerald_spear" : "Emerald Spear",
 
   "item.mores.emerald_helmet" : "Emerald Helmet",
-  "item.mores.emerald_chest" : "Emerald Chestplate",
-  "item.mores.emerald_legs" : "Emerald Leggings",
+  "item.mores.emerald_chestplate" : "Emerald Chestplate",
+  "item.mores.emerald_leggings" : "Emerald Leggings",
   "item.mores.emerald_boots" : "Emerald Boots",
 
 
@@ -175,8 +175,8 @@
   "item.mores.obsidian_spear" : "Obsidian Spear",
 
   "item.mores.obsidian_helmet" : "Obsidian Helmet",
-  "item.mores.obsidian_chest" : "Obsidian Chestplate",
-  "item.mores.obsidian_legs" : "Obsidian Leggings",
+  "item.mores.obsidian_chestplate" : "Obsidian Chestplate",
+  "item.mores.obsidian_leggings" : "Obsidian Leggings",
   "item.mores.obsidian_boots" : "Obsidian Boots",
 
 
@@ -199,8 +199,8 @@
   "item.mores.silver_spear" : "Silver Spear",
 
   "item.mores.silver_helmet" : "Silver Helmet",
-  "item.mores.silver_chest" : "Silver Chestplate",
-  "item.mores.silver_legs" : "Silver Leggings",
+  "item.mores.silver_chestplate" : "Silver Chestplate",
+  "item.mores.silver_leggings" : "Silver Leggings",
   "item.mores.silver_boots" : "Silver Boots",
 
   "item.mores.topaz_gem" : "Topaz",
@@ -220,8 +220,8 @@
   "item.mores.topaz_spear" : "Topaz Spear",
 
   "item.mores.topaz_helmet" : "Topaz Helmet",
-  "item.mores.topaz_chest" : "Topaz Chestplate",
-  "item.mores.topaz_legs" : "Topaz Leggings",
+  "item.mores.topaz_chestplate" : "Topaz Chestplate",
+  "item.mores.topaz_leggings" : "Topaz Leggings",
   "item.mores.topaz_boots" : "Topaz Boots",
 
   "item.mores.turquoise_gem" : "Turquoise",
@@ -245,8 +245,8 @@
   "item.mores.moissanite_mace" : "Moissanite Mace",
 
   "item.mores.moissanite_helmet" : "Moissanite Helmet",
-  "item.mores.moissanite_chest" : "Moissanite Chestplate",
-  "item.mores.moissanite_legs" : "Moissanite Leggings",
+  "item.mores.moissanite_chestplate" : "Moissanite Chestplate",
+  "item.mores.moissanite_leggings" : "Moissanite Leggings",
   "item.mores.moissanite_boots" : "Moissanite Boots",
 
 
@@ -268,8 +268,8 @@
   "item.mores.tin_spear" : "Tin Spear",
 
   "item.mores.tin_helmet" : "Tin Helmet",
-  "item.mores.tin_chest" : "Tin Chestplate",
-  "item.mores.tin_legs" : "Tin Leggings",
+  "item.mores.tin_chestplate" : "Tin Chestplate",
+  "item.mores.tin_leggings" : "Tin Leggings",
   "item.mores.tin_boots" : "Tin Boots",
 
 
@@ -288,8 +288,8 @@
   "item.mores.bronze_spear" : "Bronze Spear",
 
   "item.mores.bronze_helmet" : "Bronze Helmet",
-  "item.mores.bronze_chest" : "Bronze Chestplate",
-  "item.mores.bronze_legs" : "Bronze Leggings",
+  "item.mores.bronze_chestplate" : "Bronze Chestplate",
+  "item.mores.bronze_leggings" : "Bronze Leggings",
   "item.mores.bronze_boots" : "Bronze Boots",
 
 
@@ -308,14 +308,14 @@
   "item.mores.steel_spear" : "Carbon Steel Spear",
 
   "item.mores.steel_helmet" : "Carbon Steel Helmet",
-  "item.mores.steel_chest" : "Carbon Steel Chestplate",
-  "item.mores.steel_legs" : "Carbon Steel Leggings",
+  "item.mores.steel_chestplate" : "Carbon Steel Chestplate",
+  "item.mores.steel_leggings" : "Carbon Steel Leggings",
   "item.mores.steel_boots" : "Carbon Steel Boots",
 
 
   "item.mores.sterling_helmet" : "Sterling Silver Helmet",
-  "item.mores.sterling_chest" : "Sterling Silver Chestplate",
-  "item.mores.sterling_legs" : "Sterling Silver Leggings",
+  "item.mores.sterling_chestplate" : "Sterling Silver Chestplate",
+  "item.mores.sterling_leggings" : "Sterling Silver Leggings",
   "item.mores.sterling_boots" : "Sterling Silver Boots",
 
   "item.mores.sterling_ingot" : "Sterling Silver Ingot",
@@ -350,8 +350,8 @@
   "item.mores.tourmaline_spear" : "Tourmaline Spear",
 
   "item.mores.tourmaline_helmet" : "Tourmaline Helmet",
-  "item.mores.tourmaline_chest" : "Tourmaline Chestplate",
-  "item.mores.tourmaline_legs" : "Tourmaline Leggings",
+  "item.mores.tourmaline_chestplate" : "Tourmaline Chestplate",
+  "item.mores.tourmaline_leggings" : "Tourmaline Leggings",
   "item.mores.tourmaline_boots" : "Tourmaline Boots",
 
 
@@ -372,8 +372,8 @@
   "item.mores.tanzanite_spear" : "Tanzanite Spear",
 
   "item.mores.tanzanite_helmet" : "Tanzanite Helmet",
-  "item.mores.tanzanite_chest" : "Tanzanite Chestplate",
-  "item.mores.tanzanite_legs" : "Tanzanite Leggings",
+  "item.mores.tanzanite_chestplate" : "Tanzanite Chestplate",
+  "item.mores.tanzanite_leggings" : "Tanzanite Leggings",
   "item.mores.tanzanite_boots" : "Tanzanite Boots",
 
 
@@ -393,8 +393,8 @@
   "item.mores.onyx_spear" : "Onyx Spear",
 
   "item.mores.onyx_helmet" : "Onyx Helmet",
-  "item.mores.onyx_chest" : "Onyx Chestplate",
-  "item.mores.onyx_legs" : "Onyx Leggings",
+  "item.mores.onyx_chestplate" : "Onyx Chestplate",
+  "item.mores.onyx_leggings" : "Onyx Leggings",
   "item.mores.onyx_boots" : "Onyx Boots",
 
   "item.mores.graphene_gem" : "Graphene",
@@ -413,8 +413,8 @@
   "item.mores.graphene_spear" : "Graphene Spear",
 
   "item.mores.graphene_helmet" : "Graphene Helmet",
-  "item.mores.graphene_chest" : "Graphene Chestplate",
-  "item.mores.graphene_legs" : "Graphene Leggings",
+  "item.mores.graphene_chestplate" : "Graphene Chestplate",
+  "item.mores.graphene_leggings" : "Graphene Leggings",
   "item.mores.graphene_boots" : "Graphene Boots",
 
   "item.mores.chain" : "Chain",
