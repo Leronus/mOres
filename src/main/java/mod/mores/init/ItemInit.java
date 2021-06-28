@@ -188,15 +188,18 @@ public class ItemInit{
     public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_SWORD = ITEMS.register("sterling_sword", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_SWORD = ITEMS.register("tanzanite_sword", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -225,15 +228,18 @@ public class ItemInit{
     public static final RegistryObject<Item> OBSIDIAN_BATTLEAXE = ITEMS.register("obsidian_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STEEL_BATTLEAXE = ITEMS.register("steel_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_BATTLEAXE = ITEMS.register("sterling_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> AMETHYST_BATTLEAXE = ITEMS.register("amethyst_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> EMERALD_BATTLEAXE = ITEMS.register("emerald_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> TOPAZ_BATTLEAXE = ITEMS.register("topaz_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> TOURMALINE_BATTLEAXE = ITEMS.register("tourmaline_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_BATTLEAXE = ITEMS.register("tanzanite_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> RUBY_BATTLEAXE = ITEMS.register("ruby_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> SAPPHIRE_BATTLEAXE = ITEMS.register("sapphire_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_BATTLEAXE = ITEMS.register("turquoise_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -263,15 +269,18 @@ public class ItemInit{
     public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_MACE = ITEMS.register("sterling_mace", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_MACE = ITEMS.register("turquoise_mace", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -301,15 +310,18 @@ public class ItemInit{
     public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_DAGGER = ITEMS.register("sterling_dagger", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> AMETHYST_DAGGER = ITEMS.register("amethyst_dagger", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> TOPAZ_DAGGER = ITEMS.register("topaz_dagger", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> TOURMALINE_DAGGER = ITEMS.register("tourmaline_dagger", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_DAGGER = ITEMS.register("tanzanite_dagger", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> SAPPHIRE_DAGGER = ITEMS.register("sapphire_dagger", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_DAGGER = ITEMS.register("turquoise_dagger", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> MOISSANITE_DAGGER = ITEMS.register("moissanite_dagger", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> ONYX_DAGGER = ITEMS.register("onyx_dagger", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -330,15 +342,18 @@ public class ItemInit{
     public static final RegistryObject<ItemPickaxe> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_OBSIDIAN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_COBALT, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_STEEL, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> STERLING_PICKAXE = ITEMS.register("sterling_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_STERLING, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemPickaxe> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_AMETHYST, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_EMERALD, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemPickaxe> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TOPAZ, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TOURMALINE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TANZANITE_PICKAXE = ITEMS.register("tanzanite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TANZANITE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemPickaxe> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_RUBY, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_SAPPHIRE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TURQUOISE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemPickaxe> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_MOISSANITE, 3, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_ONYX, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
@@ -360,15 +375,18 @@ public class ItemInit{
     public static final RegistryObject<ItemAxe> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new ItemAxe(ToolMaterial.TOOL_OBSIDIAN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new ItemAxe(ToolMaterial.TOOL_COBALT, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> STEEL_AXE = ITEMS.register("steel_axe", () -> new ItemAxe(ToolMaterial.TOOL_STEEL, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> STERLING_AXE = ITEMS.register("sterling_axe", () -> new ItemAxe(ToolMaterial.TOOL_STERLING, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemAxe> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new ItemAxe(ToolMaterial.TOOL_AMETHYST, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new ItemAxe(ToolMaterial.TOOL_EMERALD, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemAxe> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new ItemAxe(ToolMaterial.TOOL_TOPAZ, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new ItemAxe(ToolMaterial.TOOL_TOURMALINE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TANZANITE_AXE = ITEMS.register("tanzanite_axe", () -> new ItemAxe(ToolMaterial.TOOL_TANZANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemAxe> RUBY_AXE = ITEMS.register("ruby_axe", () -> new ItemAxe(ToolMaterial.TOOL_RUBY, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new ItemAxe(ToolMaterial.TOOL_SAPPHIRE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TURQUOISE_AXE = ITEMS.register("turquoise_axe", () -> new ItemAxe(ToolMaterial.TOOL_TURQUOISE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemAxe> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new ItemAxe(ToolMaterial.TOOL_MOISSANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> ONYX_AXE = ITEMS.register("onyx_axe", () -> new ItemAxe(ToolMaterial.TOOL_ONYX, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
@@ -388,15 +406,18 @@ public class ItemInit{
     public static final RegistryObject<ItemShovel> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ItemShovel(ToolMaterial.TOOL_OBSIDIAN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ItemShovel(ToolMaterial.TOOL_COBALT, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ItemShovel(ToolMaterial.TOOL_STEEL, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> STERLING_SHOVEL = ITEMS.register("sterling_shovel", () -> new ItemShovel(ToolMaterial.TOOL_STERLING, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemShovel> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ItemShovel(ToolMaterial.TOOL_AMETHYST, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ItemShovel(ToolMaterial.TOOL_EMERALD, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemShovel> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TOPAZ, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TOURMALINE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemShovel> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ItemShovel(ToolMaterial.TOOL_RUBY, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ItemShovel(ToolMaterial.TOOL_SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemShovel> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ItemShovel(ToolMaterial.TOOL_ONYX, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
@@ -416,15 +437,18 @@ public class ItemInit{
     public static final RegistryObject<ItemHoe> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new ItemHoe(ToolMaterial.TOOL_OBSIDIAN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new ItemHoe(ToolMaterial.TOOL_COBALT, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> STEEL_HOE = ITEMS.register("steel_hoe", () -> new ItemHoe(ToolMaterial.TOOL_STEEL, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> STERLING_HOE = ITEMS.register("sterling_hoe", () -> new ItemHoe(ToolMaterial.TOOL_STERLING, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemHoe> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new ItemHoe(ToolMaterial.TOOL_AMETHYST, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new ItemHoe(ToolMaterial.TOOL_EMERALD, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemHoe> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TOPAZ, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TOURMALINE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TANZANITE_HOE = ITEMS.register("tanzanite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TANZANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemHoe> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new ItemHoe(ToolMaterial.TOOL_RUBY, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new ItemHoe(ToolMaterial.TOOL_SAPPHIRE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TURQUOISE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
     public static final RegistryObject<ItemHoe> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_MOISSANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new ItemHoe(ToolMaterial.TOOL_ONYX, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
@@ -480,6 +504,10 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> TOURMALINE_BLOCK = ITEMS.register("tourmaline_block", () -> new BlockItem(BlockInit.TOURMALINE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_TOURMALINE_ORE = ITEMS.register("deepslate_tourmaline_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TOURMALINE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
+    public static final RegistryObject<BlockItem> TANZANITE_ORE = ITEMS.register("tanzanite_ore", () -> new BlockItem(BlockInit.TANZANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+    public static final RegistryObject<BlockItem> TANZANITE_BLOCK = ITEMS.register("tanzanite_block", () -> new BlockItem(BlockInit.TANZANITE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+    public static final RegistryObject<BlockItem> DEEPSLATE_TANZANITE_ORE = ITEMS.register("deepslate_tanzanite_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TANZANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+
     public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_RUBY_ORE = ITEMS.register("deepslate_ruby_ore", () -> new BlockItem(BlockInit.DEEPSLATE_RUBY_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
@@ -487,6 +515,10 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore", () -> new BlockItem(BlockInit.SAPPHIRE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> SAPPHIRE_BLOCK = ITEMS.register("sapphire_block", () -> new BlockItem(BlockInit.SAPPHIRE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_SAPPHIRE_ORE = ITEMS.register("deepslate_sapphire_ore", () -> new BlockItem(BlockInit.DEEPSLATE_SAPPHIRE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+
+    public static final RegistryObject<BlockItem> TURQUOISE_ORE = ITEMS.register("turquoise_ore", () -> new BlockItem(BlockInit.TURQUOISE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+    public static final RegistryObject<BlockItem> TURQUOISE_BLOCK = ITEMS.register("turquoise_block", () -> new BlockItem(BlockInit.TURQUOISE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+    public static final RegistryObject<BlockItem> DEEPSLATE_TURQUOISE_ORE = ITEMS.register("deepslate_turquoise_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TURQUOISE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
 //    public static final RegistryObject<BlockItem> MOISSANITE_ORE = ITEMS.register("moissanite_ore", () -> new BlockItem(BlockInit.MOISSANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> MOISSANITE_BLOCK = ITEMS.register("moissanite_block", () -> new BlockItem(BlockInit.MOISSANITE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
@@ -498,5 +530,6 @@ public class ItemInit{
 
     public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(BlockInit.BRONZE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(BlockInit.STEEL_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+    public static final RegistryObject<BlockItem> STERLING_BLOCK = ITEMS.register("sterling_block", () -> new BlockItem(BlockInit.STERLING_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> GRAPHENE_BLOCK = ITEMS.register("graphene_block", () -> new BlockItem(BlockInit.GRAPHENE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 }
