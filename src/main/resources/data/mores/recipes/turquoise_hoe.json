@@ -3,9 +3,9 @@
 
   "pattern":
   [
-    "$ $",
-    "$#$",
-    " # "
+    "$$",
+    " #",
+    " #"
   ],
 
 
@@ -17,13 +17,13 @@
     },
     "$":
     {
-      "item": "mores:turquartz_gem"
+      "item": "mores:turquoise_gem"
     }
   },
 
   "result":
   {
-    "item":  "mores:turquartz_battleaxe",
+    "item":  "mores:turquoise_hoe",
     "count": 1
   }
 }

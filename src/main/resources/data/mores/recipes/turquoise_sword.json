@@ -3,10 +3,10 @@
 
   "pattern":
   [
-    " $ ",
-    " # "
+    "$",
+    "$",
+    "#"
   ],
-
 
   "key":
   {
@@ -16,13 +16,13 @@
     },
     "$":
     {
-      "item": "mores:turquartz_gem"
+      "item": "mores:turquoise_gem"
     }
   },
 
   "result":
   {
-    "item":  "mores:turquartz_dagger",
+    "item":  "mores:turquoise_sword",
     "count": 1
   }
 }

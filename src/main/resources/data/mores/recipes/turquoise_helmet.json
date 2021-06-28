@@ -12,13 +12,13 @@
   {
     "#":
     {
-      "item": "mores:turquartz_gem"
+      "item": "mores:turquoise_gem"
     }
   },
 
   "result":
   {
-    "item":  "mores:turquartz_helmet",
+    "item":  "mores:turquoise_helmet",
     "count": 1
   }
 }

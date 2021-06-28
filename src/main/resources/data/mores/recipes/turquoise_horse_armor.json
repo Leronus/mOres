@@ -22,17 +22,17 @@
     },
     "L":
     {
-      "item": "mores:turquartz_legs"
+      "item": "mores:turquoise_leggings"
     },
     "G":
     {
-      "item": "mores:turquartz_gem"
+      "item": "mores:turquoise_gem"
     }
   },
 
   "result":
   {
-    "item":  "mores:turquartz_horse_armor",
+    "item":  "mores:turquoise_horse_armor",
     "count": 1
   }
 }
