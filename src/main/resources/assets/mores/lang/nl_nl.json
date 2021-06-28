@@ -127,6 +127,8 @@
   "block.mores.copper_block": "Koperblok",
   "block.mores.copper_ore": "Kopererts",
   "block.mores.deepslate_copper_ore" : "Wrevelsteenkopererts",
+  "block.mores.raw_copper_block" : "Ruw Koperblok",
+
 
   "item.mores.copper_sword": "Koperen zwaard",
   "item.mores.copper_shovel": "Koperen schep",

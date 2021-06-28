@@ -127,6 +127,7 @@
   "block.mores.copper_block" : "Copper Block",
   "block.mores.copper_ore" : "Copper Ore",
   "block.mores.deepslate_copper_ore" : "Deepslate Copper Ore",
+  "block.mores.raw_copper_block" : "Raw Block of Copper",
 
   "item.mores.copper_sword" : "Copper Sword",
   "item.mores.copper_shovel" : "Copper Shovel",
