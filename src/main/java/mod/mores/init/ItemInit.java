@@ -276,7 +276,7 @@ public class ItemInit{
 
     public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tanzanite_mace", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
