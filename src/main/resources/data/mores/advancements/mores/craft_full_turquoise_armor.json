@@ -3,7 +3,7 @@
     "title": "Poseidon",
     "description": "You have crafted full turquoise armor, giving you the ability to breathe underwater",
     "icon": {
-      "item": "mores:turquartz_chest"
+      "item": "mores:turquartz_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:turquoise_helmet"
           },
           {
-            "item": "mores:turquoise_chest"
+            "item": "mores:turquoise_chestplate"
           },
           {
-            "item": "mores:turquoise_legs"
+            "item": "mores:turquoise_leggings"
           },
           {
             "item": "mores:turquoise_boots"

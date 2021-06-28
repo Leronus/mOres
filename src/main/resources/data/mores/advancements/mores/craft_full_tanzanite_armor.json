@@ -3,7 +3,7 @@
     "title": "I Am Speed",
     "description": "You have crafted full tanzanite armor, with which you get the speed potion effect",
     "icon": {
-      "item": "mores:tanzanite_chest"
+      "item": "mores:tanzanite_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:tanzanite_helmet"
           },
           {
-            "item": "mores:tanzanite_chest"
+            "item": "mores:tanzanite_chestplate"
           },
           {
-            "item": "mores:tanzanite_legs"
+            "item": "mores:tanzanite_leggings"
           },
           {
             "item": "mores:tanzanite_boots"

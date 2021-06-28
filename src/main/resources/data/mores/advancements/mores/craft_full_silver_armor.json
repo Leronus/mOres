@@ -3,7 +3,7 @@
     "title": "Whiter Than Bart",
     "description": "You have crafted full silver armor",
     "icon": {
-      "item": "mores:silver_chest"
+      "item": "mores:silver_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:silver_helmet"
           },
           {
-            "item": "mores:silver_chest"
+            "item": "mores:silver_chestplate"
           },
           {
-            "item": "mores:silver_legs"
+            "item": "mores:silver_leggings"
           },
           {
             "item": "mores:silver_boots"

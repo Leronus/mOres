@@ -77,7 +77,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_chest"
+            "item": "mores:ruby_chestplate"
           }
         ]
       }
@@ -87,7 +87,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_legs"
+            "item": "mores:ruby_leggings"
           }
         ]
       }
@@ -105,7 +105,7 @@
   },
   "requirements": [
     ["craft_ruby_sword"], ["craft_ruby_pickaxe"], ["craft_ruby_axe"], ["craft_ruby_shovel"],
-      ["craft_ruby_hoe"], ["craft_ruby_helmet"], ["craft_ruby_chest"], ["craft_ruby_legs"],
+      ["craft_ruby_hoe"], ["craft_ruby_helmet"], ["craft_ruby_chestplate"], ["craft_ruby_leggings"],
       ["craft_ruby_boots"]
   ],
   "rewards": {

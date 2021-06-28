@@ -3,7 +3,7 @@
     "title": "The Ultimate SIMP",
     "description": "You impressed the ladies with your colorful armor",
     "icon": {
-      "item": "mores:tourmaline_legs"
+      "item": "mores:tourmaline_leggings"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:tourmaline_helmet"
           },
           {
-            "item": "mores:tourmaline_chest"
+            "item": "mores:tourmaline_chestplate"
           },
           {
-            "item": "mores:tourmaline_legs"
+            "item": "mores:tourmaline_leggings"
           },
           {
             "item": "mores:tourmaline_boots"

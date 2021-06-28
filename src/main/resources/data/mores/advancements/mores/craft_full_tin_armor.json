@@ -3,7 +3,7 @@
     "title": "Tin Can",
     "description": "You have crafted full tin armor, with which you gain the jump boost potion effect",
     "icon": {
-      "item": "mores:tin_chest"
+      "item": "mores:tin_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:tin_helmet"
           },
           {
-            "item": "mores:tin_chest"
+            "item": "mores:tin_chestplate"
           },
           {
-            "item": "mores:tin_legs"
+            "item": "mores:tin_leggings"
           },
           {
             "item": "mores:tin_boots"

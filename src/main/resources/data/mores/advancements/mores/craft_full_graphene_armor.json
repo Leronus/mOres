@@ -3,7 +3,7 @@
     "title": "Overpowered",
     "description": "You have crafted the strongest armor in the game",
     "icon": {
-      "item": "mores:graphene_chest"
+      "item": "mores:graphene_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:graphene_helmet"
           },
           {
-            "item": "mores:graphene_chest"
+            "item": "mores:graphene_chestplate"
           },
           {
-            "item": "mores:graphene_legs"
+            "item": "mores:graphene_leggings"
           },
           {
             "item": "mores:graphene_boots"

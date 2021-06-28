@@ -72,22 +72,22 @@
         ]
       }
     },
-    "craft_emerald_chest": {
+    "craft_emerald_chestplate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_chest"
+            "item": "mores:emerald_chestplate"
           }
         ]
       }
     },
-    "craft_emerald_legs": {
+    "craft_emerald_leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_legs"
+            "item": "mores:emerald_leggings"
           }
         ]
       }
@@ -104,7 +104,7 @@
     }
   },
   "requirements": [
-    ["craft_emerald_sword", "craft_emerald_pickaxe", "craft_emerald_axe", "craft_emerald_shovel", "craft_emerald_hoe", "craft_emerald_helmet", "craft_emerald_chest", "craft_emerald_legs", "craft_emerald_boots"]
+    ["craft_emerald_sword", "craft_emerald_pickaxe", "craft_emerald_axe", "craft_emerald_shovel", "craft_emerald_hoe", "craft_emerald_helmet", "craft_emerald_chestplate", "craft_emerald_leggings", "craft_emerald_boots"]
   ],
   "rewards": {
     "experience": 45

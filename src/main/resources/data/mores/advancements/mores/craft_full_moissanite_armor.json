@@ -3,7 +3,7 @@
     "title": "Shrek Lookin Ass",
     "description": "You have crafted full armor using moissanite",
     "icon": {
-      "item": "mores:moissanite_chest"
+      "item": "mores:moissanite_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:moissanite_helmet"
           },
           {
-            "item": "mores:moissanite_chest"
+            "item": "mores:moissanite_chestplate"
           },
           {
-            "item": "mores:moissanite_legs"
+            "item": "mores:moissanite_leggings"
           },
           {
             "item": "mores:moissanite_boots"

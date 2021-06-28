@@ -3,7 +3,7 @@
     "title": "Indestructible",
     "description": "You have crafted full armor out of obsidian",
     "icon": {
-      "item": "mores:obsidian_chest"
+      "item": "mores:obsidian_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:obsidian_helmet"
           },
           {
-            "item": "mores:obsidian_chest"
+            "item": "mores:obsidian_chestplate"
           },
           {
-            "item": "mores:obsidian_legs"
+            "item": "mores:obsidian_leggings"
           },
           {
             "item": "mores:obsidian_boots"

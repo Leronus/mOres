@@ -3,7 +3,7 @@
     "title": "The Villagers Love Me",
     "description": "You have crafted full emerald armor",
     "icon": {
-      "item": "mores:emerald_chest"
+      "item": "mores:emerald_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -20,10 +20,10 @@
             "item": "mores:emerald_helmet"
           },
           {
-            "item": "mores:emerald_chest"
+            "item": "mores:emerald_chestplate"
           },
           {
-            "item": "mores:emerald_legs"
+            "item": "mores:emerald_leggings"
           },
           {
             "item": "mores:emerald_boots"
