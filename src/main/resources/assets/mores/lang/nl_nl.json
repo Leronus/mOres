@@ -444,12 +444,13 @@
 
   "item.mores.rooiekool": "Rooiekool",
 
-  "itemGroup.moresitemstab" : "mOresVoorwerpen",
-  "itemGroup.moresblockstab" : "mOresBlokken",
-  "itemGroup.morestoolstab" : "mOresGereedschap",
-  "itemGroup.moresarmortab" : "mOresPantser",
-  "itemGroup.moresorestab" : "mOresErtsen",
-  "itemGroup.moreshorsearmortab" : "mOresPaardenharnas"
+  "itemGroup.mores_materials" : "mOresMaterialen",
+  "itemGroup.mores_tools" : "mOresGereedschap",
+  "itemGroup.mores_weapons" : "mOresWapens",
+  "itemGroup.mores_armor" : "mOresPantser",
+  "itemGroup.mores_ores" : "mOresErtsen",
+  "itemGroup.mores_blocks" : "mOresBlokken",
+  "itemGroup.mores_horse_armor" : "mOresPaardenharnas"
 }
 
 

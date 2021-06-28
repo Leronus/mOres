@@ -421,10 +421,11 @@
 
   "item.mores.rooiekool" : "Rooiekool",
 
-  "itemGroup.mores.moresitemstab" : "mOres Items",
-  "itemGroup.mores.moresblockstab" : "mOres Blocks",
-  "itemGroup.mores.morestoolstab" : "mOres Tools",
-  "itemGroup.mores.moresarmortab" : "mOres Armor",
-  "itemGroup.mores.moresorestab" : "more Ores",
-  "itemGroup.mores.moreshorsearmortab" : "mOres Horse Armor"
+  "itemGroup.mores_materials" : "mOres Materials",
+  "itemGroup.mores_tools" : "mOres Tools",
+  "itemGroup.mores_weapons" : "mOres Weapons",
+  "itemGroup.mores_armor" : "mOres Armor",
+  "itemGroup.mores_ores" : "more Ores",
+  "itemGroup.mores_blocks" : "mOres Blocks",
+  "itemGroup.mores_horse_armor" : "mOres Horse Armor"
 }
