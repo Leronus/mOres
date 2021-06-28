@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Poseidon",
-    "description": "You have crafted full turquartz armor, giving you the ability to breathe underwater",
+    "description": "You have crafted full turquoise armor, giving you the ability to breathe underwater",
     "icon": {
       "item": "mores:turquartz_chest"
     },
@@ -10,23 +10,23 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_turquartz",
+  "parent": "mores:mores/obtain_turquoise",
   "criteria": {
-    "craft_full_tourmaline_armor": {
+    "craft_full_turquoise_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:turquartz_helmet"
+            "item": "mores:turquoise_helmet"
           },
           {
-            "item": "mores:turquartz_chest"
+            "item": "mores:turquoise_chest"
           },
           {
-            "item": "mores:turquartz_legs"
+            "item": "mores:turquoise_legs"
           },
           {
-            "item": "mores:turquartz_boots"
+            "item": "mores:turquoise_boots"
           }
         ]
       }
