@@ -1,28 +1,25 @@
 package mod.mores.objects;
 
-import mod.mores.materials.ToolMaterial;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
+import net.minecraft.item.*;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ItemSword extends SwordItem {
+public class ItemHoe extends HoeItem {
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
 
-    public ItemSword(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
+    public ItemHoe(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
         this.harvestLevel = toolMaterial.getLevel();
         this.maxUses = toolMaterial.getUses();
         this.efficiency = toolMaterial.getSpeed();
     }
+
     @Override
     public void appendHoverText(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn){
         super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -33,4 +30,8 @@ public class ItemSword extends SwordItem {
         tooltip.add(ITextComponent.nullToEmpty("Efficiency: " + TextFormatting.RED + efficiency));
     }
 
+    @Override
+    public Item asItem() {
+        return this;
+    }
 }
