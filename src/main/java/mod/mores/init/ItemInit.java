@@ -97,7 +97,10 @@ public class ItemInit{
     public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_BRONZE, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_BRONZE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-
+    public static final RegistryObject<Item> STERLING_HELMET = ITEMS.register("sterling_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_STERLING, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_CHESTPLATE = ITEMS.register("sterling_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_STERLING, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_LEGGINGS = ITEMS.register("sterling_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_STERLING, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_BOOTS = ITEMS.register("sterling_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_STERLING, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
     public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_OBSIDIAN, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_OBSIDIAN, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
@@ -134,6 +137,11 @@ public class ItemInit{
     public static final RegistryObject<Item> TOURMALINE_LEGGINGS = ITEMS.register("tourmaline_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_TOURMALINE, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> TOURMALINE_BOOTS = ITEMS.register("tourmaline_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_TOURMALINE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
+    public static final RegistryObject<Item> TANZANITE_HELMET = ITEMS.register("tanzanite_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_TANZANITE, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_CHESTPLATE = ITEMS.register("tanzanite_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_TANZANITE, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_LEGGINGS = ITEMS.register("tanzanite_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_TANZANITE, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_BOOTS = ITEMS.register("tanzanite_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_TANZANITE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_RUBY, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_RUBY, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_RUBY, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
@@ -143,6 +151,11 @@ public class ItemInit{
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_SAPPHIRE, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_SAPPHIRE, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_SAPPHIRE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+
+    public static final RegistryObject<Item> TURQUOISE_HELMET = ITEMS.register("turquoise_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_TURQUOISE, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_CHESTPLATE = ITEMS.register("turquoise_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_TURQUOISE, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_LEGGINGS = ITEMS.register("turquoise_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_TURQUOISE, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_BOOTS = ITEMS.register("turquoise_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_TURQUOISE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
     public static final RegistryObject<Item> MOISSANITE_HELMET = ITEMS.register("moissanite_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_MOISSANITE, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> MOISSANITE_CHESTPLATE = ITEMS.register("moissanite_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_MOISSANITE, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
