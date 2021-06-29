@@ -28,13 +28,13 @@ public class OreGeneration {
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.SILVER_ORE.get().defaultBlockState(), 9, 31, 58, 26);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 9, 22, 49, 22);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 39, 20);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 9, 17, 41, 18);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 31, 16);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 6, 14, 31, 11);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 11);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 13, 27, 14);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 14);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 5);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
