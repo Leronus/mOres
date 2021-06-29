@@ -520,7 +520,7 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> TURQUOISE_BLOCK = ITEMS.register("turquoise_block", () -> new BlockItem(BlockInit.TURQUOISE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_TURQUOISE_ORE = ITEMS.register("deepslate_turquoise_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TURQUOISE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
-//    public static final RegistryObject<BlockItem> MOISSANITE_ORE = ITEMS.register("moissanite_ore", () -> new BlockItem(BlockInit.MOISSANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+    public static final RegistryObject<BlockItem> MOISSANITE_ORE = ITEMS.register("moissanite_ore", () -> new BlockItem(BlockInit.MOISSANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> MOISSANITE_BLOCK = ITEMS.register("moissanite_block", () -> new BlockItem(BlockInit.MOISSANITE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> MOISSANITE_NETHER_ORE = ITEMS.register("moissanite_nether_ore", () -> new BlockItem(BlockInit.MOISSANITE_NETHER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> DEEPSLATE_MOISSANITE_ORE = ITEMS.register("deepslate_moissanite_ore", () -> new BlockItem(BlockInit.DEEPSLATE_MOISSANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
