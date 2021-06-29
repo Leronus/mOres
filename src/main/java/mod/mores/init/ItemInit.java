@@ -52,7 +52,9 @@ public class ItemInit{
     public static final RegistryObject<Item> CHAIN = ITEMS.register("chain", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
 
     public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
-    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS)));
+    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS)));
 
 
     //All horse armor
