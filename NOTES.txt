@@ -1,8 +1,7 @@
 ** SCHEDULED **
 - Check armor values and attack speed/dmg values
-- Ore generation
-- Ore drops & furnace recipes for raw metals
-- Set harvest levels of vanilla tools
+- Set harvest levels of vanilla tools & blocks
+- Make silver & bronze apples edible
 
 ** POTENTIALLY **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
