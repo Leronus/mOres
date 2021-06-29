@@ -34,7 +34,7 @@ public class OreGeneration {
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 45, 75, 32);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.SILVER_ORE.get().defaultBlockState(), 9, 31, 58, 25);
+                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 58, 22);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 39, 20);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
