@@ -61,8 +61,6 @@ public class BlockInit {
 
     public static final RegistryObject<Block> TANZANITE_ORE = BLOCKS.register("tanzanite_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_PURPLE).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(3.0F, 3.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> TANZANITE_BLOCK = BLOCKS.register("tanzanite_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_PURPLE).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(5.0F, 6.0F).sound(SoundType.METAL)));
-    public static final RegistryObject<Block> DEEPSLATE_TANZANITE_ORE = BLOCKS.register("deepslate_tanzanite_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.LAPIS).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(4.5F, 3.0F).sound(SoundType.METAL)));
-
     public static final RegistryObject<Block> SAPPHIRE_ORE = BLOCKS.register("sapphire_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.LAPIS).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(3.0F, 3.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = BLOCKS.register("sapphire_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.LAPIS).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = BLOCKS.register("deepslate_sapphire_ore", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.LAPIS).harvestTool(ToolType.PICKAXE).harvestLevel(4).strength(4.5F, 3.0F).sound(SoundType.METAL)));

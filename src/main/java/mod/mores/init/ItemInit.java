@@ -506,8 +506,6 @@ public class ItemInit{
 
     public static final RegistryObject<BlockItem> TANZANITE_ORE = ITEMS.register("tanzanite_ore", () -> new BlockItem(BlockInit.TANZANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> TANZANITE_BLOCK = ITEMS.register("tanzanite_block", () -> new BlockItem(BlockInit.TANZANITE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_TANZANITE_ORE = ITEMS.register("deepslate_tanzanite_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TANZANITE_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
-
     public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(BlockInit.RUBY_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_RUBY_ORE = ITEMS.register("deepslate_ruby_ore", () -> new BlockItem(BlockInit.DEEPSLATE_RUBY_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
