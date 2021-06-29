@@ -14,19 +14,20 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 /**
- * Class to initialise all blocks from mores
+ * Class that initialises all blocks from mOres
  * @author Leronus
  */
 public class BlockInit {
     /**
-     * Register all mores blocks
+     * Registers all mOres blocks
      */
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Mores.MOD_ID);
 
-    //Block Registry
+
     /**
-     * .strength(destroyTime, blastResistance)
+     * Fills the registry with blocks
      */
+    //.strength(destroyTime, blastResistance)
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () -> new BlockOre(AbstractBlock.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));

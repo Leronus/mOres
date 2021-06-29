@@ -23,6 +23,10 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.stream.Collectors;
 
+/**
+ * Main class that loads mOres
+ * @author Leronus
+ */
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("mores")
 public class Mores
@@ -56,8 +60,8 @@ public class Mores
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("PreInit");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+//        LOGGER.info("PreInit");
+//        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

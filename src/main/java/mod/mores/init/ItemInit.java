@@ -13,16 +13,17 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 /**
- * Class to initialise all items from mores
+ * Class that initialise all items from mOres
  */
 public class ItemInit{
     /**
-     * Register all mores items
+     * Registers all mores items
      */
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MOD_ID);
 
-
-
+    /**
+     * Fills the registry with items
+     */
     //Item Registry
     public static final RegistryObject<Item> RAW_COPPER = ITEMS.register("raw_copper", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
@@ -51,10 +52,8 @@ public class ItemInit{
     public static final RegistryObject<Item> CHAIN = ITEMS.register("chain", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
 
 
-    /**
-     * All horse armor
-     * p_i50042_1_: Armor protection
-     */
+    //All horse armor
+    //Armor protection
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
     public static final RegistryObject<Item> TIN_HORSE_ARMOR = ITEMS.register("tin_horse_armor", () -> new HorseArmorItem(2, "copper", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
     public static final RegistryObject<Item> SILVER_HORSE_ARMOR = ITEMS.register("silver_horse_armor", () -> new HorseArmorItem(5, "silver", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
@@ -74,9 +73,7 @@ public class ItemInit{
     public static final RegistryObject<Item> GRAPHENE_HORSE_ARMOR = ITEMS.register("graphene_horse_armor", () -> new HorseArmorItem(16, "graphene", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
 
 
-    /**
-     * All armor
-     */
+    //All armor
     public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ArmorItem(ArmorMaterial.ARMOR_TIN, EquipmentSlotType.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> TIN_CHESTPLATE = ITEMS.register("tin_chestplate", () -> new ArmorItem(ArmorMaterial.ARMOR_TIN, EquipmentSlotType.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
     public static final RegistryObject<Item> TIN_LEGGINGS = ITEMS.register("tin_leggings", () -> new ArmorItem(ArmorMaterial.ARMOR_TIN, EquipmentSlotType.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
@@ -173,11 +170,9 @@ public class ItemInit{
     public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots", () -> new ArmorItem(ArmorMaterial.ARMOR_GRAPHENE, EquipmentSlotType.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
 
-    /**
-     * All swords
-     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
-     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-     */
+    //All swords
+    //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+    //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
     public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new ItemSword(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new ItemSword(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
@@ -206,11 +201,9 @@ public class ItemInit{
 
     public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    /**
-     * All battleaxes
-     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
-     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-     */
+    //All battleaxes
+    //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+    //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
     //TODO Check attack values
     public static final RegistryObject<Item> WOOD_BATTLEAXE = ITEMS.register("wood_battleaxe", () -> new ItemSword(ItemTier.WOOD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STONE_BATTLEAXE = ITEMS.register("stone_battleaxe", () -> new ItemSword(ItemTier.STONE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -247,11 +240,9 @@ public class ItemInit{
     public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
-    /**
-     * All maces
-     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
-     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-     */
+    //All maces
+    //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+    //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
     //TODO Check attack values
     public static final RegistryObject<Item> WOOD_MACE = ITEMS.register("wood_mace", () -> new ItemSword(ItemTier.WOOD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STONE_MACE = ITEMS.register("stone_mace", () -> new ItemSword(ItemTier.STONE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -288,11 +279,9 @@ public class ItemInit{
     public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
-    /**
-     * All daggers
-     * p_i48460_2_: Attack Damage (1 = 1 Attack Point)
-     * p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-     */
+    //All daggers
+    //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
+    //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
     //TODO Check attack values
     public static final RegistryObject<Item> WOOD_DAGGER = ITEMS.register("wood_dagger", () -> new ItemSword(ItemTier.WOOD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> STONE_DAGGER = ITEMS.register("stone_dagger", () -> new ItemSword(ItemTier.STONE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
@@ -329,9 +318,7 @@ public class ItemInit{
     public static final RegistryObject<Item> GRAPHENE_DAGGER = ITEMS.register("graphene_dagger", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
-    /**
-     * All pickaxes
-     */
+    // All pickaxes
     public static final RegistryObject<ItemPickaxe> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TIN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemPickaxe> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_COPPER, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
@@ -361,9 +348,7 @@ public class ItemInit{
     public static final RegistryObject<ItemPickaxe> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_GRAPHENE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
-    /**
-     * All axes
-     */
+    //All axes
     //TODO Checkout items for proper atk dmg and speed values
     public static final RegistryObject<ItemAxe> TIN_AXE = ITEMS.register("tin_axe", () -> new ItemAxe(ToolMaterial.TOOL_TIN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemAxe> COPPER_AXE = ITEMS.register("copper_axe", () -> new ItemAxe(ToolMaterial.TOOL_COPPER, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
@@ -394,9 +379,7 @@ public class ItemInit{
     public static final RegistryObject<ItemAxe> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new ItemAxe(ToolMaterial.TOOL_GRAPHENE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
-    /**
-     * All shovels
-     */
+    //All shovels
     public static final RegistryObject<ItemShovel> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemShovel> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
@@ -425,9 +408,7 @@ public class ItemInit{
     public static final RegistryObject<ItemShovel> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ItemShovel(ToolMaterial.TOOL_GRAPHENE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
-    /**
-     * All hoes
-     */
+    //All hoes
     public static final RegistryObject<ItemHoe> TIN_HOE = ITEMS.register("tin_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TIN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
     public static final RegistryObject<ItemHoe> COPPER_HOE = ITEMS.register("copper_hoe", () -> new ItemHoe(ToolMaterial.TOOL_COPPER, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
@@ -456,46 +437,32 @@ public class ItemInit{
     public static final RegistryObject<ItemHoe> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new ItemHoe(ToolMaterial.TOOL_GRAPHENE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
-
-    //Block Registry
-
-    /**
-     * Tin blocks
-     */
+    //Tin blocks
     public static final RegistryObject<BlockItem> TIN_ORE = ITEMS.register("tin_ore", () -> new BlockItem(BlockInit.TIN_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> RAW_TIN_BLOCK = ITEMS.register("raw_tin_block", () -> new BlockItem(BlockInit.RAW_TIN_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> TIN_BLOCK = ITEMS.register("tin_block", () -> new BlockItem(BlockInit.TIN_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_TIN_ORE = ITEMS.register("deepslate_tin_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TIN_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
-    /**
-     * Copper blocks
-     */
+    //Copper blocks
     public static final RegistryObject<BlockItem> COPPER_ORE = ITEMS.register("copper_ore", () -> new BlockItem(BlockInit.COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> COPPER_BLOCK = ITEMS.register("copper_block", () -> new BlockItem(BlockInit.COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> RAW_COPPER_BLOCK = ITEMS.register("raw_copper_block", () -> new BlockItem(BlockInit.RAW_COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_COPPER_ORE = ITEMS.register("deepslate_copper_ore", () -> new BlockItem(BlockInit.DEEPSLATE_COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
-    /**
-     * Silver blocks
-     */
+    //Silver blocks
     public static final RegistryObject<BlockItem> SILVER_ORE = ITEMS.register("silver_ore", () -> new BlockItem(BlockInit.SILVER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> RAW_SILVER_BLOCK = ITEMS.register("raw_silver_block", () -> new BlockItem(BlockInit.RAW_SILVER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> SILVER_BLOCK = ITEMS.register("silver_block", () -> new BlockItem(BlockInit.SILVER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_SILVER_ORE = ITEMS.register("deepslate_silver_ore", () -> new BlockItem(BlockInit.DEEPSLATE_SILVER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> NETHER_SILVER_ORE = ITEMS.register("nether_silver_ore", () -> new BlockItem(BlockInit.NETHER_SILVER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
-    /**
-     * Cobalt blocks
-     */
+    //Cobalt blocks
     public static final RegistryObject<BlockItem> COBALT_ORE = ITEMS.register("cobalt_ore", () -> new BlockItem(BlockInit.COBALT_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> COBALT_BLOCK = ITEMS.register("cobalt_block", () -> new BlockItem(BlockInit.COBALT_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> RAW_COBALT_BLOCK = ITEMS.register("raw_cobalt_block", () -> new BlockItem(BlockInit.RAW_COBALT_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_COBALT_ORE = ITEMS.register("deepslate_cobalt_ore", () -> new BlockItem(BlockInit.DEEPSLATE_COBALT_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
 
-
-    /**
-     * Other blocks
-     */
+    //Other blocks
     public static final RegistryObject<BlockItem> TOPAZ_ORE = ITEMS.register("topaz_ore", () -> new BlockItem(BlockInit.TOPAZ_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> TOPAZ_BLOCK = ITEMS.register("topaz_block", () -> new BlockItem(BlockInit.TOPAZ_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> DEEPSLATE_TOPAZ_ORE = ITEMS.register("deepslate_topaz_ore", () -> new BlockItem(BlockInit.DEEPSLATE_TOPAZ_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));

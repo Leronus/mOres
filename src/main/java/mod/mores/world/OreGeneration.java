@@ -14,10 +14,18 @@ import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
+/**
+ * This class handles the ore generation for all ores added by mOres
+ * @author Leronus
+ */
 public class OreGeneration {
     //Create new fillerBlockType
     public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
 
+    /**
+     * Generates all the ores in the three different world biomes
+     * @param event Type of world biome
+     */
     public static void generateOres(final BiomeLoadingEvent event) {
         //Overworld
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
@@ -58,6 +66,16 @@ public class OreGeneration {
         }
     }
 
+    /**
+     * Function used for the generation of the ores
+     * @param settings Type of generation
+     * @param fillerType Blocks surrounding the generated ore
+     * @param state The blockstate
+     * @param veinSize Maximum vein size
+     * @param minHeight Minimum ore generation height
+     * @param maxHeight Maximum ore generation height
+     * @param amount Number of times the generated ore could spawn
+     */
     private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state,
                                     int veinSize, int minHeight, int maxHeight, int amount) {
         settings.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,

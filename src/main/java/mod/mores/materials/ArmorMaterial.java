@@ -10,6 +10,10 @@ import net.minecraft.util.SoundEvents;
 
 import java.util.function.Supplier;
 
+/**
+ * Enum that initializes all the mOres armormaterials
+ * @author Leronus
+ */
 public enum ArmorMaterial implements IArmorMaterial {
     //TODO Adjust armorVal accordingly, since toughness changes
     ARMOR_TIN("tin", 5, new int[] {1, 4, 4, 1}, 13, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.of(ItemInit.TIN_INGOT.get())),
@@ -43,6 +47,17 @@ public enum ArmorMaterial implements IArmorMaterial {
     private final float knockbackResistance;
     private Ingredient repairIngredient;
 
+    /**
+     * Constructor that adds the armormaterial
+     * @param name Armor name
+     * @param durabilityMultiplier Armor durability multiplier
+     * @param armorVal Armor values per body part
+     * @param enchantability Armor enchantability
+     * @param equipSound Armor equipping sound
+     * @param toughness Armor toughness points
+     * @param knockbackResistance Armor knockback resistance
+     * @param repairIngredient Armor repair item
+     */
     ArmorMaterial(String name, int durabilityMultiplier, int[] armorVal, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
@@ -54,42 +69,75 @@ public enum ArmorMaterial implements IArmorMaterial {
         this.repairIngredient = repairIngredient.get();
     }
 
-
+    /**
+     * Gets the durability for a certain slot
+     * @param slot Armor slot
+     * @return Base durability times multiplier for that slot
+     */
     @Override
     public int getDurabilityForSlot(EquipmentSlotType slot) {
         return baseDurability[slot.getIndex()] * durabilityMultiplier;
     }
 
+    /**
+     * Gets the defense for a certain slot
+     * @param slot Armor slot
+     * @return Armor value for that slot
+     */
     @Override
     public int getDefenseForSlot(EquipmentSlotType slot) {
         return this.armorVal[slot.getIndex()];
     }
 
+    /**
+     * Gets the enchantability for a certain armor
+     * @return Enchantability value
+     */
     @Override
     public int getEnchantmentValue() {
         return this.enchantability;
     }
 
+    /**
+     * Gets the equip sound for a certain armor
+     * @return Equip sound
+     */
     @Override
     public SoundEvent getEquipSound() {
         return this.equipSound;
     }
 
+    /**
+     * Gets the repair item for a certain armor
+     * @return Repair item
+     */
     @Override
     public Ingredient getRepairIngredient() {
         return this.repairIngredient;
     }
 
+    /**
+     * Gets the name for a certain armor
+     * @return Name
+     */
     @Override
     public String getName() {
         return this.name;
     }
 
+    /**
+     * Gets the toughness value for a certain armor
+     * @return Toughness value
+     */
     @Override
     public float getToughness() {
         return this.toughness;
     }
 
+    /**
+     * Gets the knockback resistance for a certain armor
+     * @return Knockback resistance value
+     */
     @Override
     public float getKnockbackResistance() {
         return this.knockbackResistance;

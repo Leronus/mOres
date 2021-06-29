@@ -7,6 +7,10 @@ import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
+/**
+ * Enum that initializes all the mOres toolmaterials
+ * @author Leronus
+ */
 public enum ToolMaterial implements IItemTier {
     TOOL_TIN(0, 100, 4.8F, 1.5F, 13, () -> Ingredient.of(ItemInit.TIN_INGOT.get())),
     TOOL_COPPER(1, 90, 5.0F, 1.5F, 9, () -> Ingredient.of(ItemInit.COPPER_INGOT.get())),
@@ -28,7 +32,6 @@ public enum ToolMaterial implements IItemTier {
     TOOL_TURQUOISE(6, 2700, 8.0F, 4.2F, 22, () -> Ingredient.of(ItemInit.TURQUOISE_GEM.get())),
     TOOL_GRAPHENE(7, 5000, 10.5F, 5.0F, 16, () -> Ingredient.of(ItemInit.GRAPHENE_GEM.get()));
 
-
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
@@ -36,6 +39,15 @@ public enum ToolMaterial implements IItemTier {
     private final int enchantability;
     private final Ingredient repairMaterial;
 
+    /**
+     * Constructor that adds the toolmaterial
+     * @param harvestLevel Tools harvest level
+     * @param maxUses Tools durability
+     * @param efficiency Tools efficiency
+     * @param attackDamage Tools attack damage
+     * @param enchantability Tools enchantibility
+     * @param repairMaterial Tools repair material
+     */
     ToolMaterial(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial) {
         this.harvestLevel = harvestLevel;
         this.maxUses = maxUses;
