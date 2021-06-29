@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/turquartz_axe"
+    "layer0": "mores:items/turquoise_hoe"
   }
 }
