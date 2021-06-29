@@ -452,7 +452,8 @@
   "itemGroup.mores_armor" : "mOresPantser",
   "itemGroup.mores_ores" : "mOresErtsen",
   "itemGroup.mores_blocks" : "mOresBlokken",
-  "itemGroup.mores_horse_armor" : "mOresPaardenharnas"
+  "itemGroup.mores_horse_armor" : "mOresPaardenharnas",
+  "itemGroup.mores_foods" : "mOresEten"
 }
 
 

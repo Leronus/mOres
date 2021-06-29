@@ -448,5 +448,6 @@
   "itemGroup.mores_armor" : "mOres Armor",
   "itemGroup.mores_ores" : "more Ores",
   "itemGroup.mores_blocks" : "mOres Blocks",
-  "itemGroup.mores_horse_armor" : "mOres Horse Armor"
+  "itemGroup.mores_horse_armor" : "mOres Horse Armor",
+  "itemGroup.mores_foods" : "mOres Foods"
 }
