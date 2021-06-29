@@ -225,10 +225,26 @@
   "item.mores.topaz_leggings" : "Topaz Leggings",
   "item.mores.topaz_boots" : "Topaz Boots",
 
-  "item.mores.turquoise_gem" : "Turquoise",
+  "item.mores.turquoise_ingot" : "Turquoise Ingot",
+  "item.mores.turquoise_horse_armor" : "Turquoise Horse Armor",
   "block.mores.turquoise_block" : "Turquoise Block",
   "block.mores.turquoise_ore" : "Turquoise Ore",
   "block.mores.deepslate_turquoise_ore" : "Deepslate Turquoise Ore",
+
+  "item.mores.turquoise_sword" : "Turquoise Sword",
+  "item.mores.turquoise_shovel" : "Turquoise Shovel",
+  "item.mores.turquoise_pickaxe" : "Turquoise Pickaxe",
+  "item.mores.turquoise_axe" : "Turquoise Axe",
+  "item.mores.turquoise_hoe" : "Turquoise Hoe",
+  "item.mores.turquoise_battleaxe" : "Turquoise Battle Axe",
+  "item.mores.turquoise_mace" : "Turquoise Mace",
+  "item.mores.turquoise_dagger" : "Turquoise Dagger",
+  "item.mores.turquoise_spear" : "Turquoise Spear",
+
+  "item.mores.turquoise_helmet" : "Turquoise Helmet",
+  "item.mores.turquoise_chestplate" : "Turquoise Chestplate",
+  "item.mores.turquoise_leggings" : "Turquoise Leggings",
+  "item.mores.turquoise_boots" : "Turquoise Boots",
 
   "block.mores.moissanite_nether_ore" : "Moissanite Ore",
   "block.mores.deepslate_moissanite_ore" : "Deepslate Moissanite Ore",
