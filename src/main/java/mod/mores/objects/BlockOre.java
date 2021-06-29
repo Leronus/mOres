@@ -23,6 +23,7 @@ public class BlockOre extends OreBlock {
         super(properties);
     }
 
+    //TODO Add deepslate
     @Override
     protected int xpOnDrop(Random random) {
         if (this == BlockInit.AMETHYST_ORE.get()) {
@@ -35,8 +36,16 @@ public class BlockOre extends OreBlock {
             return MathHelper.nextInt(random, 3, 7);
         } else if (this == BlockInit.SAPPHIRE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
-        } else if (this == BlockInit.SAPPHIRE_ORE.get()) {
+        } else if (this == BlockInit.RUBY_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
+        } else if (this == BlockInit.MOISSANITE_NETHER_ORE.get()) {
+            return MathHelper.nextInt(random, 3, 9);
+        } else if (this == BlockInit.MOISSANITE_ORE.get()) {
+            return MathHelper.nextInt(random, 3, 9);
+        } else if (this == BlockInit.ONYX_ORE.get()) {
+            return MathHelper.nextInt(random, 4, 10);
+        } else if (this == BlockInit.TURQUOISE_ORE.get()) {
+            return MathHelper.nextInt(random, 3, 9);
         } else {
             return this == BlockInit.NETHER_SILVER_ORE.get() ? MathHelper.nextInt(random, 0, 1) : 0;
         }
