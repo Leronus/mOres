@@ -441,6 +441,9 @@
 
   "item.mores.chain": "Ketting",
   "item.mores.silver_nugget" : "Zilvernugget",
+  "item.mores.bronze_nugget" : "Bronsnugget",
+  "item.mores.silver_apple" : "Zilveren appel",
+  "item.mores.bronze_apple" : "Bronzen appel",
   "item.mores.rooiekool": "Rooiekool",
 
   "itemGroup.mores_materials" : "mOresMaterialen",

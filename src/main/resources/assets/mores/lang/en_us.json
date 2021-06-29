@@ -437,6 +437,9 @@
 
   "item.mores.chain" : "Chain",
   "item.mores.silver_nugget" : "Silver Nugget",
+  "item.mores.bronze_nugget" : "Bronze Nugget",
+  "item.mores.silver_apple" : "Silver Apple",
+  "item.mores.bronze_apple" : "Bronze Apple",
   "item.mores.rooiekool" : "Rooiekool",
 
   "itemGroup.mores_materials" : "mOres Materials",
