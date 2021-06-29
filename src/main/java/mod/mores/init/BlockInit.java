@@ -15,6 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * Class to initialise all blocks from mores
+ * @author Leronus
  */
 public class BlockInit {
     /**
