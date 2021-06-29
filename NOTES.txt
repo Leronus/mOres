@@ -1,15 +1,16 @@
 ** SCHEDULED **
-- Creative tabs
 - Check armor values and attack speed/dmg values
 - Ore generation
 - Ore drops & furnace recipes for raw metals
-- Textures for sterling silver, tanzanite, turquoise
+- Set harvest levels of vanilla tools
 
 ** POTENTIALLY **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
 - Tin/Silver tools & armor may need another rework
 - Amethyst values rework connected to 1.17 update (later or now?)
 - Silver ore 1.17 update
+- Retexture some knives/swords at the edge
+- Add rooiekool
 
 ** LATER **
 - Alloy furnace
