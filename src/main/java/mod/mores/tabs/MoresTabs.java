@@ -3,12 +3,20 @@ package mod.mores.tabs;
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
+/**
+ * Class that adds custom itemgroup tabs for the items and blocks added by mOres
+ * @author Leronus
+ */
 public class MoresTabs extends ItemGroup {
+    /**
+     * Declaring all the itemgroups
+     */
     public static final ItemGroup MORES_MATERIALS = (new MoresTabs(12, "mores_materials") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
@@ -58,13 +66,22 @@ public class MoresTabs extends ItemGroup {
         }
     }).setRecipeFolderName("mores_horse_armor");
 
+    /**
+     * Constructor that adds the itemgroups
+     * @param index Position of itemgroup in creative menu
+     * @param label Name of itemgroup
+     */
     public MoresTabs(int index, String label) {
         super(index, label);
     }
 
+    /**
+     * Default icon
+     * @return Item for icon
+     */
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemInit.COBALT_PICKAXE.get());
+        return new ItemStack(ItemInit.TOPAZ_BATTLEAXE.get());
     }
 }
 
