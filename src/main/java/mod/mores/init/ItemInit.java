@@ -51,6 +51,8 @@ public class ItemInit{
 
     public static final RegistryObject<Item> CHAIN = ITEMS.register("chain", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
 
+    public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
+
 
     //All horse armor
     //Armor protection

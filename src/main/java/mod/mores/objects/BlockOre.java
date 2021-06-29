@@ -77,4 +77,6 @@ public class BlockOre extends OreBlock {
     public int getHarvestLevel(BlockState state) {
         return super.getHarvestLevel(state);
     }
+
+
 }
