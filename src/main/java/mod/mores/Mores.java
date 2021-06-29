@@ -2,10 +2,12 @@ package mod.mores;
 
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
+import mod.mores.world.OreGeneration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -47,8 +49,8 @@ public class Mores
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
-
+        // Start the ore generation
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }
 
     private void setup(final FMLCommonSetupEvent event)
@@ -66,7 +68,7 @@ public class Mores
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("mores", "modloaded", () -> { LOGGER.info("Mod by Its Infinite loaded"); return "Mores loaded";});
+        InterModComms.sendTo("mores", "modloaded", () -> { LOGGER.info("Intermod queue event"); return "Mores ready to talk";});
     }
 
     private void processIMC(final InterModProcessEvent event)
