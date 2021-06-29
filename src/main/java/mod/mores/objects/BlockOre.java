@@ -2,13 +2,13 @@ package mod.mores.objects;
 
 import mod.mores.init.BlockInit;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.OreBlock;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.world.World;
@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.Random;
 
 public class BlockOre extends OreBlock {
+
     public BlockOre(Properties properties) {
         super(properties);
     }
@@ -69,6 +70,7 @@ public class BlockOre extends OreBlock {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable IBlockReader blockReader, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
         super.appendHoverText(stack, blockReader, tooltip, flagIn);
+        tooltip.add(ITextComponent.nullToEmpty("Harvest Level: " + TextFormatting.GOLD + getHarvestLevel(this.defaultBlockState())));
     }
 
     @Override
