@@ -3,7 +3,10 @@ package mod.mores.objects;
 import mod.mores.init.ItemInit;
 import mod.mores.materials.ToolMaterial;
 import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
@@ -52,5 +55,20 @@ public class ItemSword extends SwordItem {
         } else{
             return super.hurtEnemy(stack, target, attacker);
         }
+    }
+
+    /**
+     * Called when item is created
+     * @param stack Itemstack of the item being created
+     * @param world World that the player is in
+     * @param playerEntity Player that created the item
+     */
+    @Override
+    public void onCraftedBy(ItemStack stack, World world, PlayerEntity playerEntity) {
+        //Add enchantment to silver sword upon creation
+        if (stack.getItem() == ItemInit.SILVER_SWORD.get()) {
+            stack.enchant(Enchantments.SMITE, 4);
+        }
+        super.onCraftedBy(stack, world, playerEntity);
     }
 }
