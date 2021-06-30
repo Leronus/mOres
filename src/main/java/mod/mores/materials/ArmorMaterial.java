@@ -11,7 +11,7 @@ import net.minecraft.util.SoundEvents;
 import java.util.function.Supplier;
 
 /**
- * Enum that initializes all the mOres armormaterials
+ * Enum that initializes all the mOres armor materials
  * @author Leronus
  */
 public enum ArmorMaterial implements IArmorMaterial {
@@ -28,7 +28,7 @@ public enum ArmorMaterial implements IArmorMaterial {
     ARMOR_EMERALD("emerald", 24, new int[] {2, 5, 7, 3}, 18, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(Items.EMERALD)),
     ARMOR_TOPAZ("topaz", 26, new int[] {3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.TOPAZ_GEM.get())),
     ARMOR_TOURMALINE("tourmaline", 27, new int[] {2, 5, 7, 2}, 22, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.TOURMALINE_GEM.get())),
-        ARMOR_TANZANITE("tanzanite", 36, new int[] {2, 5, 6, 2}, 24, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.TANZANITE_GEM.get())),
+    ARMOR_TANZANITE("tanzanite", 36, new int[] {2, 5, 6, 2}, 24, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.TANZANITE_GEM.get())),
     ARMOR_RUBY("ruby", 38, new int[] {3, 6, 8, 3}, 12, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.RUBY_GEM.get())),
     ARMOR_SAPPHIRE("sapphire", 39, new int[] {3, 6, 8, 3}, 16, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.SAPPHIRE_GEM.get())),
     ARMOR_MOISSANITE("moissanite", 42, new int[] {2, 5, 7, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.MOISSANITE_GEM.get())),

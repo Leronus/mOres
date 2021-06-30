@@ -2,9 +2,15 @@ package mod.mores;
 
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
+import mod.mores.materials.ToolMaterial;
+import mod.mores.materials.changer.Config;
 import mod.mores.world.OreGeneration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.ItemTier;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -50,6 +56,7 @@ public class Mores
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        Config.changeVanillaHarvestLevel();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
