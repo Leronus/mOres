@@ -23,9 +23,8 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 
 public class ItemSword extends SwordItem {
-    public static final Logger LOGGER = LogManager.getLogger();
     private final int maxUses;
-    private boolean bonus;
+    private final String BONUS = "Wither Effect";
 
     public ItemSword(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
@@ -37,6 +36,9 @@ public class ItemSword extends SwordItem {
         //Making the tooltips
         //tooltip.add("Text: " + TextFormatting.COLOR + toolMaterial.get);
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
+        if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLUE + BONUS));
+        }
     }
 
     /**
@@ -49,7 +51,7 @@ public class ItemSword extends SwordItem {
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         //If the item is an onyx sword, apply wither effect on targetEntity
-        if(stack.getItem() == ItemInit.ONYX_SWORD.get()){
+        if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
             target.addEffect(new EffectInstance(Effects.WITHER, 100, 0, false, false));
             return true;
         } else{
