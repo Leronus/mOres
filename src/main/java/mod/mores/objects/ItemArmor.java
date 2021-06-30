@@ -85,7 +85,7 @@ public class ItemArmor extends ArmorItem {
                 && player.getItemBySlot(EquipmentSlotType.CHEST).getItem() == (ItemInit.TIN_CHESTPLATE.get())
                 && player.getItemBySlot(EquipmentSlotType.LEGS).getItem() == (ItemInit.TIN_LEGGINGS.get())
                 && player.getItemBySlot(EquipmentSlotType.FEET).getItem().getItem() == (ItemInit.TIN_BOOTS.get())) {
-            player.addEffect(new EffectInstance(Effects.JUMP, 10, 0, false, false));
+            player.addEffect(new EffectInstance(Effects.JUMP, 10, 1, false, false));
 
         //Amethyst: Slow Falling
         }else if (player.getItemBySlot(EquipmentSlotType.HEAD).getItem() == (ItemInit.AMETHYST_HELMET.get())
