@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:chest",
     "pools": [
         {
             "rolls": {
@@ -146,7 +147,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "mores:turquartz_horse_armor",
+                    "name": "mores:turquoise_horse_armor",
                     "weight": 1
                 },
                 {
