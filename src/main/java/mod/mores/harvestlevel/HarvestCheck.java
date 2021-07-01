@@ -9,9 +9,12 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod.EventBusSubscriber(modid = "mores", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class HarvestCheck {
+    public static final Logger LOGGER = LogManager.getLogger();
     @SubscribeEvent
     public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event) {
         Item mainhandItem = event.getPlayer().getMainHandItem().getItem();
@@ -29,7 +32,7 @@ public class HarvestCheck {
         } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock ==  Blocks.NETHERITE_BLOCK){
             String mainhandItemName = String.valueOf(mainhandItem);
             String[] tooltypeName = mainhandItemName.split("_");
-            ToolType toolType = ToolType.get(tooltypeName[0]);
+            ToolType toolType = ToolType.get(tooltypeName[1]);
             //Diamond & netherite block should be minable with harvest level 5 or higher
             if (event.getPlayer().getMainHandItem().getHarvestLevel(toolType, event.getPlayer(), event.getTargetBlock().getBlockState()) >= 5){
                 success = true;
