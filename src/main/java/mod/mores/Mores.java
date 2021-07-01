@@ -1,7 +1,7 @@
 package mod.mores;
 
 import mod.mores.harvestlevel.Config;
-import mod.mores.harvestlevel.HarvestLevel;
+import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
 import mod.mores.world.OreGeneration;
@@ -50,6 +50,8 @@ public class Mores
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+
+        MinecraftForge.EVENT_BUS.register(HarvestCheck.class);
 
         FMLJavaModLoadingContext.get().getModEventBus().<FMLCommonSetupEvent>addListener(EventPriority.LOWEST, e -> Config.read());
         FMLJavaModLoadingContext.get().getModEventBus().<FMLLoadCompleteEvent>addListener(EventPriority.LOWEST, e -> Config.work());
