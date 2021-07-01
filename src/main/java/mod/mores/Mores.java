@@ -56,6 +56,7 @@ public class Mores
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        Config.read();
         Config.changeVanillaHarvestLevel();
 
         // Register ourselves for server and other game events we are interested in

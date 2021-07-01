@@ -6,6 +6,7 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 import net.minecraftforge.common.ToolType;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
 public final class Properties {
     public static class Block {
@@ -37,5 +38,4 @@ public final class Properties {
         public Integer HARVEST_LEVEL = null;
         public Float EFFICIENCY = null;
     }
-
 }
