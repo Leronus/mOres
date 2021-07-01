@@ -12,13 +12,12 @@
   },
   "parent": "mores:mores/obtain_copper_ore",
   "criteria": {
-    "obtain_copper_ore": {
+    "obtain_silver_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_ore",
-            "data": 0
+            "item": "mores:silver_ore"
           }
         ]
       }

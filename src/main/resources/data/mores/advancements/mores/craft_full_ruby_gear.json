@@ -72,7 +72,7 @@
         ]
       }
     },
-    "craft_ruby_chest": {
+    "craft_ruby_chestplate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -82,7 +82,7 @@
         ]
       }
     },
-    "craft_ruby_legs": {
+    "craft_ruby_leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

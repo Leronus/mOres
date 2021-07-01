@@ -1,0 +1,12 @@
+v2.03
+- Fixed turquoise gem not showing up with proper name
+- Fixed topaz & tourmaline armor textures not showing when equipping armor
+- Added drops for all ores
+- Added furnace and crafting recipes for all the ores/blocks
+- Added emerald horse armor
+- Added obsidian armor
+- Added dummy alloy furnace (regular block, no function as of yet)
+- Updated mOres logo
+- Fixed craft ruby gear advancement
+- Fixed craft turquoise armor advancement
+- Fixed obtain silver ore advancement
