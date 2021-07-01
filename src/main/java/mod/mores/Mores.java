@@ -1,6 +1,5 @@
 package mod.mores;
 
-import mod.mores.harvestlevel.Config;
 import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
@@ -10,9 +9,7 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -46,15 +43,10 @@ public class Mores
         // Register the doClientStuff method for modloading
         bus.addListener(this::doClientStuff);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(HarvestCheck.class);
-
-        FMLJavaModLoadingContext.get().getModEventBus().<FMLCommonSetupEvent>addListener(EventPriority.LOWEST, e -> Config.read());
-        FMLJavaModLoadingContext.get().getModEventBus().<FMLLoadCompleteEvent>addListener(EventPriority.LOWEST, e -> Config.work());
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

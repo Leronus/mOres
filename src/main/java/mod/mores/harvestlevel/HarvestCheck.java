@@ -13,14 +13,17 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = "mores", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class HarvestCheck {
     @SubscribeEvent
-    public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event)
-    {
+    public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event) {
         boolean success = false;
-        if (event.getPlayer().getMainHandItem().getItem() == Items.DIAMOND_PICKAXE){
-            if (event.getTargetBlock().getHarvestLevel() <= 5){
+        if (event.getPlayer().getMainHandItem().getItem() == Items.DIAMOND_PICKAXE) {
+            if (event.getTargetBlock().getHarvestLevel() <= 5) {
                 success = true;
             }
+        } else if (event.getPlayer().getMainHandItem().getItem() == Items.NETHERITE_PICKAXE) {
+            if (event.getTargetBlock().getHarvestLevel() <= 7) {
+                success = true;
+            }
+            event.setCanHarvest(success);
         }
-        event.setCanHarvest(success);
     }
 }
