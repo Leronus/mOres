@@ -1,6 +1,7 @@
 package mod.mores;
 
 import mod.mores.harvestlevel.Config;
+import mod.mores.harvestlevel.HarvestLevel;
 import mod.mores.init.BlockInit;
 import mod.mores.init.ItemInit;
 import mod.mores.world.OreGeneration;

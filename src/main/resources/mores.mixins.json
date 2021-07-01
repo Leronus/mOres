@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mod.mores.harvestlevel.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mores.refmap.json",
+  "mixins": [
+    "MixinForgeHooks",
+    "MixinItem",
+    "MixinPickaxeItem",
+    "MixinTieredItem"
+  ],
+  "minVersion": "0.8"
+}
