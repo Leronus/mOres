@@ -7,6 +7,8 @@ import mod.mores.objects.*;
 import mod.mores.tabs.MoresTabs;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -54,8 +56,8 @@ public class ItemInit{
     public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_MATERIALS)));
 
-    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS)));
-    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS)));
+    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new EffectInstance(Effects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.DIG_SPEED, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.NIGHT_VISION, 200, 0), 1.0F).alwaysEat().build())));
 
 
     //All horse armor
