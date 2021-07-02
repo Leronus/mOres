@@ -1,6 +1,10 @@
-v2.03
+v2.10
 - Fixed turquoise gem not showing up with proper name
 - Fixed topaz & tourmaline armor textures not showing when equipping armor
+- Added potion effects for wearing full armor sets
+- Added wither effect to onyx weapons
+- Added smite enchantment to the silver sword upon crafting
+- Added tooltips for all mores ores & tools/weapons
 - Added drops for all ores
 - Added furnace and crafting recipes for all the ores/blocks
 - Added emerald horse armor
@@ -10,3 +14,6 @@ v2.03
 - Fixed craft ruby gear advancement
 - Fixed craft turquoise armor advancement
 - Fixed obtain silver ore advancement
+- Modified diamond_block & netherite_block harvestlevel
+- Modified diamond_pickaxe harvestlevel
+- Made the apples edible and added potion effects
