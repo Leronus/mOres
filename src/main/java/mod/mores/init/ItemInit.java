@@ -59,7 +59,6 @@ public class ItemInit{
     public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new EffectInstance(Effects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
     public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.DIG_SPEED, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.NIGHT_VISION, 200, 0), 1.0F).alwaysEat().build())));
 
-
     //All horse armor
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
     public static final RegistryObject<Item> TIN_HORSE_ARMOR = ITEMS.register("tin_horse_armor", () -> new HorseArmorItem(2, "copper", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
