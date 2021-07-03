@@ -13,12 +13,11 @@
   {
     "H":
     {
-      "item": "mores:turquartz_helmet"
+      "item": "mores:turquoise_helmet"
     },
     "W":
     {
-      "item": "minecraft:wool",
-      "data": 32767
+      "tag": "minecraft:wool"
     },
     "L":
     {
