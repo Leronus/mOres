@@ -19,15 +19,14 @@ public class HarvestCheck {
     public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event) {
         Item mainhandItem = event.getPlayer().getMainHandItem().getItem();
         Block targetBlock = event.getTargetBlock().getBlock();
-        boolean success = false;
 
         if (mainhandItem == Items.DIAMOND_PICKAXE) {
             if (event.getTargetBlock().getHarvestLevel() <= 5) {
-                success = true;
+                event.setCanHarvest(true);
             }
         } else if (mainhandItem == Items.NETHERITE_PICKAXE) {
             if (event.getTargetBlock().getHarvestLevel() <= 7) {
-                success = true;
+                event.setCanHarvest(true);
             }
         } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock ==  Blocks.NETHERITE_BLOCK){
             String mainhandItemName = String.valueOf(mainhandItem);
@@ -35,11 +34,10 @@ public class HarvestCheck {
             ToolType toolType = ToolType.get(tooltypeName[1]);
             //Diamond & netherite block should be minable with harvest level 5 or higher
             if (event.getPlayer().getMainHandItem().getHarvestLevel(toolType, event.getPlayer(), event.getTargetBlock().getBlockState()) >= 5){
-                success = true;
+                event.setCanHarvest(true);
             } else{
-                success = false;
+                event.setCanHarvest(false);
             }
         }
-        event.setCanHarvest(success);
     }
 }

@@ -1,18 +1,19 @@
 ** SCHEDULED **
 - Check armor values and attack speed/dmg values
-- Set harvest levels of vanilla tools & blocks
-- Make silver & bronze apples edible
+- Add rooiekool
+- Check advancements
+
+- Check iron ore drops (graphene pickaxe not minable)
 
 ** POTENTIALLY **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
 - Tin/Silver tools & armor may need another rework
 - Amethyst values rework connected to 1.17 update (later or now?)
 - Silver ore 1.17 update
-- Retexture some knives/swords at the edge
-- Add rooiekool
+- Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt(?))
+- Emerald tools/Obsidian tools ??
 
 ** LATER **
 - Alloy furnace
 - Check loot tables
-- Check advancements
 
