@@ -43,12 +43,12 @@ public abstract class AbstractAlloyFurnaceContainer<T extends BlockAlloyFurnace>
         // Add all the slots for the tileEntity's inventory and the playerInventory to this container
 
         // Tile inventory slot(s)
-        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.FUEL_SLOT, 79, 62));
-        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT1_SLOT, 33, 35));
-        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT2_SLOT, 126, 34));
-        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.CATALYST_SLOT, 79, 7));
+        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.FUEL_SLOT, 56, 53));
+        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT1_SLOT, 44, 17));
+        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT2_SLOT, 66, 17));
+        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.CATALYST_SLOT, 12, 53));
         this.addSlot(new FurnaceResultSlotItemHandler(playerInventory.player, tileEntity,
-                tileEntity.inventory, AbstractAlloyFurnaceTileEntity.OUTPUT_SLOT, 79, 34));
+                tileEntity.inventory, AbstractAlloyFurnaceTileEntity.OUTPUT_SLOT, 115, 36));
 
         final int playerInventoryStartX = 8;
         final int playerInventoryStartY = 84;

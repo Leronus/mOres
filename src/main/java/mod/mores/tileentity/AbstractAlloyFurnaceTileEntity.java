@@ -142,7 +142,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
         if (stack.isEmpty())
             return false;
         boolean is_cata = AlloyFurnaceRecipes.isCatalyst(stack);
-        //        Fusion.LOGGER.debug(Fusion.MODID + ": isCatalyst() returns " + is_cata);
         return is_cata;
     }
 
