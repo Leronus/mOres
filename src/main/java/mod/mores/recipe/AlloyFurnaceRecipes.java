@@ -1,4 +1,4 @@
-package mod.mores.tileentity;
+package mod.mores.recipe;
 
 import java.util.ArrayList;
 import java.util.HashSet;

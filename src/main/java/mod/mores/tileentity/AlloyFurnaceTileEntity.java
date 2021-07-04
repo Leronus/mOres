@@ -1,11 +1,14 @@
 package mod.mores.tileentity;
 
+import mod.mores.container.AlloyFurnaceContainer;
+import mod.mores.init.BlockInit;
 import mod.mores.init.TileEntityTypeInit;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 
 public class AlloyFurnaceTileEntity extends AbstractAlloyFurnaceTileEntity{
     public AlloyFurnaceTileEntity(TileEntityType<?> tileEntityTypeIn) {
@@ -14,12 +17,12 @@ public class AlloyFurnaceTileEntity extends AbstractAlloyFurnaceTileEntity{
 
     @Override
     public Container createMenu(int windowId, PlayerInventory inventory, PlayerEntity player) {
-        return null;
+        return new AlloyFurnaceContainer(windowId, inventory, this);
     }
 
     @Override
     public ITextComponent getDisplayName() {
-        return null;
+        return new TranslationTextComponent(BlockInit.ALLOY_FURNACE.get().getDescriptionId());
     }
 
     public AlloyFurnaceTileEntity() {

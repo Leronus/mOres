@@ -1,7 +1,7 @@
 package mod.mores.init;
 
-import mod.mores.tileentity.AlloyFurnaceRecipes;
-import mod.mores.tileentity.IAlloyFurnaceRecipe;
+import mod.mores.recipe.AlloyFurnaceRecipes;
+import mod.mores.recipe.IAlloyFurnaceRecipe;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.IRecipeType;

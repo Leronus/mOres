@@ -2,6 +2,7 @@ package mod.mores;
 
 import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.BlockInit;
+import mod.mores.init.ContainerInit;
 import mod.mores.init.ItemInit;
 import mod.mores.init.TileEntityTypeInit;
 import mod.mores.world.OreGeneration;
@@ -45,8 +46,9 @@ public class Mores
         bus.addListener(this::doClientStuff);
 
         BlockInit.BLOCKS.register(bus);
-        TileEntityTypeInit.TILE_ENTITY_TYPE.register(bus);
         ItemInit.ITEMS.register(bus);
+        ContainerInit.CONTAINER_TYPES.register(bus);
+        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
         MinecraftForge.EVENT_BUS.register(HarvestCheck.class);
 

@@ -13,6 +13,8 @@ import com.google.common.collect.Maps;
 
 import mod.mores.init.RecipeTypeInit;
 import mod.mores.objects.AbstractBlockAlloyFurnace;
+import mod.mores.recipe.AlloyFurnaceRecipes;
+import mod.mores.recipe.IAlloyFurnaceRecipe;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
 import net.minecraft.entity.item.ExperienceOrbEntity;
@@ -26,7 +28,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.play.server.SUpdateTileEntityPacket;
-import net.minecraft.tileentity.AbstractFurnaceTileEntity;
 import net.minecraft.tileentity.FurnaceTileEntity;
 import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.tileentity.TileEntity;

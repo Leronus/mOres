@@ -2,7 +2,6 @@ package mod.mores.container;
 
 import mod.mores.init.BlockInit;
 import mod.mores.init.ContainerInit;
-import mod.mores.init.TileEntityTypeInit;
 import mod.mores.objects.BlockAlloyFurnace;
 import mod.mores.tileentity.AbstractAlloyFurnaceTileEntity;
 import net.minecraft.entity.player.PlayerInventory;

@@ -1,4 +1,4 @@
-package mod.mores.tileentity;
+package mod.mores.recipe;
 
 import mod.mores.Mores;
 import mod.mores.init.BlockInit;
