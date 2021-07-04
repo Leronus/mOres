@@ -1,0 +1,25 @@
+{
+    "conditions": [
+        {
+            "modid": "mores",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "type": "mores:alloying",
+    "process_time": 300,
+    "ingredients": [
+        {
+            "item": "mores:copper_ingot"
+        },
+        {
+            "item": "mores:silver_ingot"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        }
+    ],
+    "result": {
+        "item": "mores:sterling_ingot",
+        "count": 1
+    }
+}

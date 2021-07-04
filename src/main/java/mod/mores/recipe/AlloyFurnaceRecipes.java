@@ -1,250 +1,103 @@
 package mod.mores.recipe;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
+import java.util.function.Consumer;
 
 import mod.mores.Mores;
-import mod.mores.init.RecipeTypeInit;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.IRecipe;
-import net.minecraft.item.crafting.IRecipeSerializer;
+import mod.mores.config.MoresConfig;
+import mod.mores.init.ItemInit;
+import net.minecraft.data.DataGenerator;
+import net.minecraft.data.IFinishedRecipe;
+import net.minecraft.data.RecipeProvider;
+import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.util.JSONUtils;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.world.World;
-import net.minecraftforge.common.crafting.CraftingHelper;
-import net.minecraftforge.fml.server.ServerLifecycleHooks;
-import net.minecraftforge.items.wrapper.RecipeWrapper;
-import net.minecraftforge.registries.ForgeRegistryEntry;
+import net.minecraft.tags.ItemTags;
+import net.minecraftforge.common.crafting.conditions.ICondition;
+import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-public class AlloyFurnaceRecipes implements IAlloyFurnaceRecipe
-{
-    private final ResourceLocation id;
-    private final ItemStack output;
-    private final NonNullList<Ingredient> inputs;
-    private final Ingredient catalyst;
-    private final int cook_time;
-    private final float experience;
+/**
+ * Alloy RecipeProvider
+ */
+public class AlloyFurnaceRecipes extends RecipeProvider
+        implements IConditionBuilder, IConditionBuilderMores {
+    private AlloyRecipeSetBuilder alloybuilder;
 
-    private final int INPUT1_SLOT = 0;
-    private final int INPUT2_SLOT = 1;
-    private final int CATALYST_SLOT = 2;
-
-    private static Set<Item> legal_inputs = new HashSet<Item>();
-    private static Set<Item> legal_catalysts = new HashSet<Item>();
-
-    public AlloyFurnaceRecipes(ResourceLocation id, ItemStack output,  int cook_time, float experience,
-                        Ingredient catalyst, Ingredient... inputs)
-    {
-        this.id = id;
-        this.output = output;
-        this.inputs = NonNullList.of(null, inputs);
-        this.catalyst = catalyst;
-        this.cook_time = cook_time;
-        this.experience = experience;
+    public AlloyFurnaceRecipes(DataGenerator generatorIn) {
+        super(generatorIn);
+        alloybuilder = new AlloyRecipeSetBuilder(Mores.MOD_ID);
     }
 
-    private static void initLegalisms()
-    {
-        Mores.LOGGER.info(Mores.MOD_ID + ": in AlloyFurnaceRecipe.InitLegalisms()");
-        Iterable<IRecipe<?>> recipes =
-                ServerLifecycleHooks.getCurrentServer().getRecipeManager().getRecipes();
-        for (IRecipe<?> recipe: recipes)
-        {
-            // we only want Fusion recipes.
-            if (recipe.getType() != IAlloyFurnaceRecipe.TYPE_ID) {
-                continue;
-            }
-
-            NonNullList<Ingredient> ingrs = recipe.getIngredients();
-            for (Ingredient ingr: ingrs)
-            {
-                for (ItemStack stack : ingr.getItems()) {
-                    legal_inputs.add(stack.getItem());
-                }
-            } // end-for
-            for (ItemStack stack : ((AlloyFurnaceRecipes) recipe).getCatalyst().getItems())
-            {
-                legal_catalysts.add(stack.getItem());
-            }
-        } // end-for
-    } // end initLegalisms
-
-    public static boolean isInput(ItemStack stack)
-    {
-        if (legal_inputs.isEmpty()) {
-            initLegalisms();
-        }
-        return legal_inputs.contains(stack.getItem());
-    }
-
-    public static boolean isCatalyst(ItemStack stack)
-    {
-        if (legal_catalysts.isEmpty()) {
-            initLegalisms();
-        }
-        return legal_catalysts.contains(stack.getItem());
+    @Override
+    protected void buildShapelessRecipes(Consumer<IFinishedRecipe> consumer) {
+        registerBronzeRecipes(consumer);
+        registerSteelRecipes(consumer);
+        registerSterlingSilverRecipes(consumer);
     }
 
     /**
-     * Used to check if a recipe matches current crafting inventory
+     * Steel alloying recipes and steel recycling recipes.
+     *
+     * @param consumer
      */
-    @Override
-    public boolean matches(RecipeWrapper inv, World worldIn)
-    {
-        List<Ingredient> ingredientsMissing = new ArrayList<>(inputs);
+    protected void registerSteelRecipes(Consumer<IFinishedRecipe> consumer) {
+        List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
+        Ingredient[] catalysts = new Ingredient[3];
 
-        // check inputs, could be in either slot...
-        for (int ii = INPUT1_SLOT; ii <= INPUT2_SLOT; ii++)
-        {
-            ItemStack input = inv.getItem(ii);
-            if (input.isEmpty()) {
-                break;
-            }
-            int stackIndex = -1;
-            for (int jj = 0; jj < ingredientsMissing.size(); jj++)
-            {
-                Ingredient ingr = ingredientsMissing.get(jj);
-                if (ingr.test(input)) {
-                    stackIndex = jj;
-                    break;
-                }
-            }
-            if (stackIndex != -1) {
-                ingredientsMissing.remove(stackIndex);
-            }
-            else {
-                return false;
-            }
-        } // end-for ii
+        primary_inputs.add(Ingredient.of(ItemTags.COALS));
+        primary_inputs.add(Ingredient.of(Items.IRON_INGOT));
+        catalysts[0] = Ingredient.of(ItemTags.COALS);
+        catalysts[1] = Ingredient.of(Items.GUNPOWDER);
+        catalysts[2] = Ingredient.of(Items.REDSTONE);
 
-        // check catalyst
-        ItemStack cata = inv.getItem(CATALYST_SLOT);
-        if (this.catalyst.test(cata)) {
-            return ingredientsMissing.isEmpty();
-        }
-        else {
-            return false;
-        }
-    } // end matches()
-
-    /**
-     * Returns an Item that is the result of this recipe
-     */
-    @Override
-    public ItemStack assemble(RecipeWrapper inv)
-    {
-        return getResultItem().copy();
+        alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.STEEL_INGOT.get(), 2.0F, 600,
+                flag("steel_making"));
     }
 
     /**
-     * Get the result of this recipe, usually for display purposes (e.g. recipe book). If your recipe has more than one
-     * possible result (e.g. it's dynamic and depends on its inputs), then return an empty stack.
+     * Bronze alloy recipes and bronze recycling recipes.
+     *
+     * @param consumer
      */
-    @Override
-    public ItemStack getResultItem()
-    {
-        return this.output;
+    protected void registerBronzeRecipes(Consumer<IFinishedRecipe> consumer) {
+        // bronze alloy recipes
+        List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
+        Ingredient[] catalysts = new Ingredient[3];
+
+        primary_inputs.add(Ingredient.of(ItemInit.COPPER_INGOT.get()));
+        primary_inputs.add(Ingredient.of(ItemInit.TIN_INGOT.get()));
+        catalysts[0] = Ingredient.of(Items.BONE_MEAL);
+        catalysts[1] = Ingredient.of(Items.GUNPOWDER);
+        catalysts[2] = Ingredient.of(Items.REDSTONE);
+
+        alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.BRONZE_INGOT.get(), 2.0F, 600,
+                flag("bronze_making"));
+    } // end registerBronzeRecipes
+
+    /**
+     * Bronze alloy recipes and bronze recycling recipes.
+     *
+     * @param consumer
+     */
+    protected void registerSterlingSilverRecipes(Consumer<IFinishedRecipe> consumer) {
+        // sterling silver alloy recipes
+        List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
+        Ingredient[] catalysts = new Ingredient[3];
+
+        primary_inputs.add(Ingredient.of(ItemInit.SILVER_INGOT.get()));
+        primary_inputs.add(Ingredient.of(ItemInit.COPPER_INGOT.get()));
+        catalysts[0] = Ingredient.of(Items.BONE_MEAL);
+        catalysts[1] = Ingredient.of(Items.GUNPOWDER);
+        catalysts[2] = Ingredient.of(Items.REDSTONE);
+
+        alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.STERLING_INGOT.get(), 2.0F, 600,
+                flag("sterling_silver_making"));
+    } // end registerBronzeRecipes
+
+    /**
+     * Builds an ICondition representing FlagCondition...
+     */
+    public ICondition flag(String name) {
+        return impl_flag(Mores.MOD_ID, MoresConfig.INSTANCE, name);
     }
-
-    @Override
-    public Ingredient getCatalyst()
-    {
-        return this.catalyst;
-    } // end class FusionRecipe
-
-
-    @Override
-    public NonNullList<Ingredient> getIngredients()
-    {
-        return inputs;
-    }
-
-    @Override
-    public ResourceLocation getId()
-    {
-        return this.id;
-    }
-
-    public int getCookTime()
-    {
-        return this.cook_time;
-    }
-
-    @Override
-    public float getExperience()
-    {
-        return this.experience;
-    }
-
-    @Override
-    public IRecipeSerializer<?> getSerializer()
-    {
-        return RecipeTypeInit.ALLOY_SERIALIZER;
-    }
-
-
-    public static class AlloyRecipeSerializer extends ForgeRegistryEntry<IRecipeSerializer<?>>
-            implements IRecipeSerializer<AlloyFurnaceRecipes>
-    {
-
-        @Override
-        public AlloyFurnaceRecipes fromJson(ResourceLocation recipeId, JsonObject json)
-        {
-            ItemStack output = CraftingHelper.getItemStack(JSONUtils.getAsJsonObject(json, "output"),
-                    true);
-            JsonArray ingrs = JSONUtils.getAsJsonArray(json, "inputs");
-            List<Ingredient> inputs = new ArrayList<>();
-            for (JsonElement e : ingrs) {
-                inputs.add(Ingredient.fromJson(e));
-            }
-            Ingredient catalyst = Ingredient.fromJson(
-                    JSONUtils.getAsJsonObject(json, "catalyst"));
-
-            int cook_time = JSONUtils.getAsInt(json, "cookingtime");
-            float experience = JSONUtils.getAsFloat(json, "experience");
-
-            return new AlloyFurnaceRecipes(recipeId, output, cook_time, experience, catalyst,
-                    inputs.toArray(new Ingredient[0]));
-        } // end read(json)
-
-        @Override
-        public AlloyFurnaceRecipes fromNetwork(ResourceLocation recipeId, PacketBuffer buf)
-        {
-            Ingredient[] inputs = new Ingredient[buf.readVarInt()];
-            for (int ii = 0; ii < inputs.length; ii++) {
-                inputs[ii] = Ingredient.fromNetwork(buf);
-            }
-            ItemStack output = buf.readItem();
-            Ingredient catalyst = Ingredient.fromNetwork(buf);
-            int cook_time = buf.readVarInt();
-            float exp = buf.readFloat();
-
-            return new AlloyFurnaceRecipes(recipeId, output, cook_time, exp, catalyst, inputs);
-        } // end read(packet)
-
-        @Override
-        public void toNetwork(PacketBuffer buf, AlloyFurnaceRecipes recipe)
-        {
-            buf.writeVarInt(recipe.getIngredients().size());
-            for (Ingredient input : recipe.getIngredients()) {
-                input.toNetwork(buf);
-            }
-            buf.writeItemStack(recipe.getResultItem(), true);
-            recipe.getCatalyst().toNetwork(buf);
-            buf.writeVarInt(recipe.getCookTime());
-            buf.writeFloat(recipe.getExperience());
-        } // end write(packet)
-
-    } // end class FusionRecipeSerializer
-
-} // end class FusionRecipe
+}

@@ -13,7 +13,7 @@ import com.google.common.collect.Maps;
 
 import mod.mores.init.RecipeTypeInit;
 import mod.mores.objects.AbstractBlockAlloyFurnace;
-import mod.mores.recipe.AlloyFurnaceRecipes;
+import mod.mores.recipe.AlloyFurnaceRecipe;
 import mod.mores.recipe.IAlloyFurnaceRecipe;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalBlock;
@@ -133,7 +133,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
     {
         if (stack.isEmpty())
             return false;
-        boolean is_input = AlloyFurnaceRecipes.isInput(stack);
+        boolean is_input = AlloyFurnaceRecipe.isInput(stack);
         //        Fusion.LOGGER.debug(Fusion.MODID + ": isInput() returns " + is_input);
         return is_input;
     }
@@ -142,7 +142,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
     {
         if (stack.isEmpty())
             return false;
-        boolean is_cata = AlloyFurnaceRecipes.isCatalyst(stack);
+        boolean is_cata = AlloyFurnaceRecipe.isCatalyst(stack);
         return is_cata;
     }
 
@@ -304,7 +304,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
     {
         Optional<IAlloyFurnaceRecipe> maybeRecipe = getRecipe(input1, input2, catalyst);
         if (maybeRecipe.isPresent()) {
-            return (short) ((AlloyFurnaceRecipes) maybeRecipe.get()).getCookTime();
+            return (short) ((AlloyFurnaceRecipe) maybeRecipe.get()).getCookTime();
         }
         else {
             return 200;
@@ -503,7 +503,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
         {
             player.level.getRecipeManager().byKey(entry.getKey()).ifPresent((p_213993_3_) -> {
                 list.add(p_213993_3_);
-                spawnExpOrbs(player, entry.getValue(), ((AlloyFurnaceRecipes) p_213993_3_).getExperience());
+                spawnExpOrbs(player, entry.getValue(), ((AlloyFurnaceRecipe) p_213993_3_).getExperience());
             });
         }
         player.awardRecipes(list);
