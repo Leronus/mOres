@@ -8,6 +8,7 @@ import net.minecraftforge.common.crafting.conditions.ICondition;
 
 /**
  * Condition builders. Inspired by Forge's IConditionBuilder.
+ * Borrowed from SimpleOres2 Fusion fork
  * @author Sinhika
  *
  */

@@ -24,6 +24,8 @@ import net.minecraftforge.registries.IForgeRegistry;
  * Stash functions to assemble standard recipe sets (tools, armors, storage) here.
  * Used by RecipeProviders.
  *
+ * Borrowed from SimpleOres2 Fusion fork
+ *
  * @author Sinhika
  *
  */
