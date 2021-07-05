@@ -1,10 +1,8 @@
 package mod.mores;
 
 import mod.mores.harvestlevel.HarvestCheck;
-import mod.mores.init.BlockInit;
-import mod.mores.init.ContainerInit;
-import mod.mores.init.ItemInit;
-import mod.mores.init.TileEntityTypeInit;
+import mod.mores.init.*;
+import mod.mores.recipe.IAlloyFurnaceRecipe;
 import mod.mores.world.OreGeneration;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -47,8 +45,10 @@ public class Mores
 
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
+
         ContainerInit.CONTAINER_TYPES.register(bus);
         TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
+
 
         MinecraftForge.EVENT_BUS.register(HarvestCheck.class);
 

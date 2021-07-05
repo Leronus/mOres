@@ -60,7 +60,7 @@ public class AlloyFurnaceRecipe implements IAlloyFurnaceRecipe
                 ServerLifecycleHooks.getCurrentServer().getRecipeManager().getRecipes();
         for (IRecipe<?> recipe: recipes)
         {
-            // we only want Fusion recipes.
+            // we only want Alloy recipes.
             if (recipe.getType() != IAlloyFurnaceRecipe.TYPE_ID) {
                 continue;
             }
@@ -245,6 +245,6 @@ public class AlloyFurnaceRecipe implements IAlloyFurnaceRecipe
             buf.writeFloat(recipe.getExperience());
         } // end write(packet)
 
-    } // end class FusionRecipeSerializer
+    } // end class AlloyFurnaceRecipeSerializer
 
-} // end class FusionRecipe
+} // end class AlloyFurnaceRecipe
