@@ -126,17 +126,16 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
         super(tileEntityTypeIn);
     }
 
-    /**
-     * @return If the stack is not empty and has an alloying recipe associated with it
-     */
-    protected boolean isInput(final ItemStack stack)
-    {
-        if (stack.isEmpty())
-            return false;
-        boolean is_input = AlloyFurnaceRecipe.isInput(stack);
-        //        Fusion.LOGGER.debug(Fusion.MODID + ": isInput() returns " + is_input);
-        return is_input;
-    }
+//    /**
+//     * @return If the stack is not empty and has an alloying recipe associated with it
+//     */
+//    protected boolean isInput(final ItemStack stack)
+//    {
+//        if (stack.isEmpty())
+//            return false;
+//        boolean is_input = AlloyFurnaceRecipe.isInput(stack);
+//        return is_input;
+//    }
 
     protected boolean isCatalyst(final ItemStack stack)
     {
@@ -218,7 +217,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
 
         final ItemStack result = getResult(input1, input2, catalyst).orElse(ItemStack.EMPTY);
 
-        if (!result.isEmpty() && isInput(input1) && isInput(input2) && isCatalyst(catalyst))
+        if (!result.isEmpty() && AlloyFurnaceRecipe.isInput(input1) && AlloyFurnaceRecipe.isInput(input2) && isCatalyst(catalyst))
         {
             final boolean canInsertResultIntoOutput = inventory.insertItem(OUTPUT_SLOT, result, true).isEmpty();
             if (canInsertResultIntoOutput)
