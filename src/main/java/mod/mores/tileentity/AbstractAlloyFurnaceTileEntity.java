@@ -137,13 +137,13 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
 //        return is_input;
 //    }
 
-    protected boolean isCatalyst(final ItemStack stack)
-    {
-        if (stack.isEmpty())
-            return false;
-        boolean is_cata = AlloyFurnaceRecipe.isCatalyst(stack);
-        return is_cata;
-    }
+//    protected boolean isCatalyst(final ItemStack stack)
+//    {
+//        if (stack.isEmpty())
+//            return false;
+//        boolean is_cata = AlloyFurnaceRecipe.isCatalyst(stack);
+//        return is_cata;
+//    }
 
     /**
      * @return If the stack's item is equal to the result of smelting our input
@@ -217,7 +217,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
 
         final ItemStack result = getResult(input1, input2, catalyst).orElse(ItemStack.EMPTY);
 
-        if (!result.isEmpty() && AlloyFurnaceRecipe.isInput(input1) && AlloyFurnaceRecipe.isInput(input2) && isCatalyst(catalyst))
+        if (!result.isEmpty() && AlloyFurnaceRecipe.isInput(input1) && AlloyFurnaceRecipe.isInput(input2) && AlloyFurnaceRecipe.isCatalyst(catalyst))
         {
             final boolean canInsertResultIntoOutput = inventory.insertItem(OUTPUT_SLOT, result, true).isEmpty();
             if (canInsertResultIntoOutput)
