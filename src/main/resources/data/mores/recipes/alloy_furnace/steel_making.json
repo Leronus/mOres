@@ -6,19 +6,20 @@
         }
     ],
     "type": "mores:alloying",
-    "process_time": 300,
-    "ingredients": [
+    "cookingtime": 300,
+    "experience": 2.0,
+    "inputs": [
+        {
+            "tag": "minecraft:coals"
+        },
         {
             "item": "minecraft:iron_ingot"
-        },
-        {
-            "item": "minecraft:coal"
-        },
-        {
-            "item": "minecraft:bone_meal"
         }
     ],
-    "result": {
+    "catalyst": {
+	"item": "minecraft:gunpowder"
+    },
+    "output": {
         "item": "mores:steel_ingot",
         "count": 1
     }

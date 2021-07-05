@@ -6,19 +6,20 @@
         }
     ],
     "type": "mores:alloying",
-    "process_time": 300,
-    "ingredients": [
+    "cookingtime": 300,
+    "experience": 2.0,
+    "inputs": [
         {
             "item": "mores:copper_ingot"
         },
         {
             "item": "mores:tin_ingot"
-        },
-        {
-            "item": "minecraft:bone_meal"
         }
     ],
-    "result": {
+    "catalyst": {
+	"item": "minecraft:gunpowder"
+    },
+    "output": {
         "item": "mores:bronze_ingot",
         "count": 1
     }
