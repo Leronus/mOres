@@ -17,7 +17,7 @@
         }
     ],
     "catalyst": {
-	"item": "minecraft:gunpowder"
+        "item": "minecraft:redstone"
     },
     "output": {
         "item": "mores:sterling_ingot",
