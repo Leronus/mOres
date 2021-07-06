@@ -46,7 +46,7 @@ public abstract class AbstractAlloyFurnaceContainer<T extends BlockAlloyFurnace>
         this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.FUEL_SLOT, 56, 53));
         this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT1_SLOT, 44, 17));
         this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.INPUT2_SLOT, 66, 17));
-        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.CATALYST_SLOT, 12, 53));
+        this.addSlot(new SlotItemHandler(tileEntity.inventory, AbstractAlloyFurnaceTileEntity.CATALYST_SLOT, 8, 53));
         this.addSlot(new FurnaceResultSlotItemHandler(playerInventory.player, tileEntity,
                 tileEntity.inventory, AbstractAlloyFurnaceTileEntity.OUTPUT_SLOT, 115, 36));
 
