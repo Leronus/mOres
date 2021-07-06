@@ -2,7 +2,6 @@ package mod.mores;
 
 import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.*;
-import mod.mores.recipe.IAlloyFurnaceRecipe;
 import mod.mores.world.OreGeneration;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -43,6 +42,7 @@ public class Mores
         // Register the doClientStuff method for modloading
         bus.addListener(this::doClientStuff);
 
+        EntityTypeInit.ENTITY_TYPES.register(bus);
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
 
