@@ -1,7 +1,7 @@
 package mod.mores.init;
 
-import entity.DuckEntity;
 import mod.mores.Mores;
+import mod.mores.entity.DuckEntity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.ResourceLocation;

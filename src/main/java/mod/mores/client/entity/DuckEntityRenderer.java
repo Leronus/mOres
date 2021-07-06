@@ -1,13 +1,13 @@
 package mod.mores.client.entity;
 
-import entity.DuckEntity;
 import mod.mores.Mores;
 import mod.mores.client.entity.model.DuckEntityModel;
+import mod.mores.entity.DuckEntity;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.util.ResourceLocation;
 
-public class DuckEntityRenderer extends MobRenderer<entity.DuckEntity, DuckEntityModel<entity.DuckEntity>> {
+public class DuckEntityRenderer extends MobRenderer<DuckEntity, DuckEntityModel<DuckEntity>> {
     public static final ResourceLocation TEXTURE = new ResourceLocation(Mores.MOD_ID, "textures/entity/duck/duck_entity_model.png");
 
     public DuckEntityRenderer(EntityRendererManager manager) {
@@ -15,7 +15,7 @@ public class DuckEntityRenderer extends MobRenderer<entity.DuckEntity, DuckEntit
     }
 
     @Override
-    public ResourceLocation getTextureLocation(entity.DuckEntity entity) {
+    public ResourceLocation getTextureLocation(DuckEntity entity) {
         return TEXTURE;
     }
 }

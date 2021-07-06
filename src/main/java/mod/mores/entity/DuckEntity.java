@@ -1,4 +1,4 @@
-package entity;
+package mod.mores.entity;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
@@ -53,7 +53,7 @@ public class DuckEntity extends AnimalEntity {
         return this.isBaby() ? p_213348_2_.height * 0.85F : p_213348_2_.height * 0.92F;
     }
 
-    public static AttributeModifierMap.MutableAttribute createAttributes() {
+    public static AttributeModifierMap.MutableAttribute setAttributes() {
         return MobEntity.createMobAttributes().add(Attributes.MAX_HEALTH, 4.0D).add(Attributes.MOVEMENT_SPEED, 0.25D);
     }
 

@@ -3,6 +3,8 @@ package mod.mores.client.entity.model;
 import com.google.common.collect.ImmutableList;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import mod.mores.entity.DuckEntity;
+import net.minecraft.client.renderer.entity.model.AgeableModel;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
@@ -11,7 +13,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class DuckEntityModel<T extends entity.DuckEntity> extends EntityModel<T> {
+public class DuckEntityModel<T extends DuckEntity> extends AgeableModel<T> {
   private final ModelRenderer head;
   private final ModelRenderer body;
   private final ModelRenderer leg0;
@@ -69,10 +71,5 @@ public class DuckEntityModel<T extends entity.DuckEntity> extends EntityModel<T>
     this.leg1.xRot = MathHelper.cos(p_225597_2_ * 0.6662F + (float)Math.PI) * 1.4F * p_225597_3_;
     this.wing0.zRot = p_225597_4_;
     this.wing1.zRot = -p_225597_4_;
-  }
-
-  @Override
-  public void renderToBuffer(MatrixStack p_225598_1_, IVertexBuilder p_225598_2_, int p_225598_3_, int p_225598_4_, float p_225598_5_, float p_225598_6_, float p_225598_7_, float p_225598_8_) {
-
   }
 }

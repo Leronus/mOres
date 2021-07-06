@@ -6,8 +6,6 @@ import mod.mores.gui.AlloyFurnaceScreen;
 import mod.mores.init.ContainerInit;
 
 import mod.mores.init.EntityTypeInit;
-import net.minecraft.client.renderer.entity.ChickenRenderer;
-import net.minecraft.entity.EntityType;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

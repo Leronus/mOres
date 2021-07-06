@@ -1,12 +1,15 @@
 package mod.mores;
 
+import mod.mores.entity.DuckEntity;
 import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.*;
 import mod.mores.world.OreGeneration;
+import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.*;
@@ -58,9 +61,10 @@ public class Mores
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
-        // some preinit code
+    @SuppressWarnings("deprecation")
+    private void setup(final FMLCommonSetupEvent event) {
+        // .build() used to be .create() not sure of that's good
+        DeferredWorkQueue.runLater(() -> GlobalEntityTypeAttributes.put(EntityTypeInit.DUCK.get(), DuckEntity.setAttributes().build()));
 //        LOGGER.info("PreInit");
 //        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
