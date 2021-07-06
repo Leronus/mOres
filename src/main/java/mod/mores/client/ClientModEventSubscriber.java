@@ -1,9 +1,14 @@
 package mod.mores.client;
 
 import mod.mores.Mores;
+import mod.mores.client.entity.DuckEntityRenderer;
 import mod.mores.gui.AlloyFurnaceScreen;
 import mod.mores.init.ContainerInit;
 
+import mod.mores.init.EntityTypeInit;
+import net.minecraft.client.renderer.entity.ChickenRenderer;
+import net.minecraft.entity.EntityType;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -40,6 +45,8 @@ public class ClientModEventSubscriber
             ScreenManager.register(ContainerInit.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
             LOGGER.debug("Registered ContainerType Screens");
         });
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityTypeInit.DUCK.get(), DuckEntityRenderer::new);
     }
 
 } // end class
