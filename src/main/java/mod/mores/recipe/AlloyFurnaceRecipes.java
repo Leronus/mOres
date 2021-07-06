@@ -42,13 +42,14 @@ public class AlloyFurnaceRecipes extends RecipeProvider
      */
     protected void registerSteelRecipes(Consumer<IFinishedRecipe> consumer) {
         List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
-        Ingredient[] catalysts = new Ingredient[3];
+        Ingredient[] catalysts = new Ingredient[4];
 
         primary_inputs.add(Ingredient.of(ItemTags.COALS));
         primary_inputs.add(Ingredient.of(Items.IRON_INGOT));
         catalysts[0] = Ingredient.of(ItemTags.COALS);
         catalysts[1] = Ingredient.of(Items.GUNPOWDER);
         catalysts[2] = Ingredient.of(Items.REDSTONE);
+        catalysts[3] = Ingredient.of(ItemInit.AMETHYST_GEM.get());
 
         alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.STEEL_INGOT.get(), 2.0F, 600,
                 flag("steel_making"));
@@ -62,13 +63,14 @@ public class AlloyFurnaceRecipes extends RecipeProvider
     protected void registerBronzeRecipes(Consumer<IFinishedRecipe> consumer) {
         // bronze alloy recipes
         List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
-        Ingredient[] catalysts = new Ingredient[3];
+        Ingredient[] catalysts = new Ingredient[4];
 
         primary_inputs.add(Ingredient.of(ItemInit.COPPER_INGOT.get()));
         primary_inputs.add(Ingredient.of(ItemInit.TIN_INGOT.get()));
         catalysts[0] = Ingredient.of(Items.BONE_MEAL);
         catalysts[1] = Ingredient.of(Items.GUNPOWDER);
         catalysts[2] = Ingredient.of(Items.REDSTONE);
+        catalysts[3] = Ingredient.of(ItemInit.AMETHYST_GEM.get());
 
         alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.BRONZE_INGOT.get(), 2.0F, 600,
                 flag("bronze_making"));
@@ -82,13 +84,14 @@ public class AlloyFurnaceRecipes extends RecipeProvider
     protected void registerSterlingSilverRecipes(Consumer<IFinishedRecipe> consumer) {
         // sterling silver alloy recipes
         List<Ingredient> primary_inputs = new ArrayList<Ingredient>(2);
-        Ingredient[] catalysts = new Ingredient[3];
+        Ingredient[] catalysts = new Ingredient[4];
 
         primary_inputs.add(Ingredient.of(ItemInit.SILVER_INGOT.get()));
         primary_inputs.add(Ingredient.of(ItemInit.COPPER_INGOT.get()));
         catalysts[0] = Ingredient.of(Items.BONE_MEAL);
         catalysts[1] = Ingredient.of(Items.GUNPOWDER);
         catalysts[2] = Ingredient.of(Items.REDSTONE);
+        catalysts[3] = Ingredient.of(ItemInit.AMETHYST_GEM.get());
 
         alloybuilder.buildBasicAlloyRecipes(consumer, primary_inputs, catalysts, ItemInit.STERLING_INGOT.get(), 2.0F, 600,
                 flag("sterling_silver_making"));
