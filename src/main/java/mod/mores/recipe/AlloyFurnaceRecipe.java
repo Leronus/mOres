@@ -79,21 +79,21 @@ public class AlloyFurnaceRecipe implements IAlloyFurnaceRecipe
 //        } // end-for
 //    } // end initLegalisms
 
-    public static boolean isInput(ItemStack stack)
-    {
-        if (legal_inputs.isEmpty()) {
-            return false;
-        }
-        return legal_inputs.contains(stack.getItem());
-    }
-
-    public static boolean isCatalyst(ItemStack stack)
-    {
-        if (legal_catalysts.isEmpty()) {
-            return false;
-        }
-        return legal_catalysts.contains(stack.getItem());
-    }
+//    public static boolean isInput(ItemStack stack)
+//    {
+//        if (legal_inputs.isEmpty()) {
+//            return false;
+//        }
+//        return legal_inputs.contains(stack.getItem());
+//    }
+//
+//    public static boolean isCatalyst(ItemStack stack)
+//    {
+//        if (legal_catalysts.isEmpty()) {
+//            return false;
+//        }
+//        return legal_catalysts.contains(stack.getItem());
+//    }
 
     /**
      * Used to check if a recipe matches current crafting inventory

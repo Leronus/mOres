@@ -151,8 +151,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
 
     protected boolean isOutput(final ItemStack stack)
     {
-        final Optional<ItemStack> result = getResult(inventory.getStackInSlot(INPUT1_SLOT),
-                inventory.getStackInSlot(INPUT2_SLOT), inventory.getStackInSlot(CATALYST_SLOT));
+        final Optional<ItemStack> result = getResult(inventory);
         return result.isPresent() && ItemStack.isSame(result.get(), stack);
     }
 
@@ -179,10 +178,10 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
     /**
      * @return The result of smelting the input stack
      */
-    private Optional<ItemStack> getResult(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
+    private Optional<ItemStack> getResult(final ItemStackHandler inventory)
     {
-        RecipeWrapper inv0 = new RecipeWrapper(new InvWrapper(new Inventory(input1, input2, catalyst)));
-        Optional<IAlloyFurnaceRecipe> recipe = getRecipe(input1, input2, catalyst);
+        RecipeWrapper inv0 = new RecipeWrapper(inventory);
+        Optional<IAlloyFurnaceRecipe> recipe = getRecipe(inventory.getStackInSlot(INPUT1_SLOT), inventory.getStackInSlot(INPUT2_SLOT), inventory.getStackInSlot(CATALYST_SLOT));
         ItemStack result = recipe.isPresent()
                 ? recipe.get().assemble(inv0)
                 : null;
@@ -215,9 +214,9 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
         final ItemStack input2 = inventory.getStackInSlot(INPUT2_SLOT).copy();
         final ItemStack catalyst = inventory.getStackInSlot(CATALYST_SLOT).copy();
 
-        final ItemStack result = getResult(input1, input2, catalyst).orElse(ItemStack.EMPTY);
+        final ItemStack result = getResult(inventory).orElse(ItemStack.EMPTY);
 
-        if (!result.isEmpty() && AlloyFurnaceRecipe.isInput(input1) && AlloyFurnaceRecipe.isInput(input2) && AlloyFurnaceRecipe.isCatalyst(catalyst))
+        if (!result.isEmpty())
         {
             final boolean canInsertResultIntoOutput = inventory.insertItem(OUTPUT_SLOT, result, true).isEmpty();
             if (canInsertResultIntoOutput)
@@ -293,6 +292,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
             lastBurning = hasFuel;
         } // end-if
     } // end tick()
+
 
     /**
      * Mimics the code in {AbstractFurnaceTileEntity#getTotalCookTime()}
