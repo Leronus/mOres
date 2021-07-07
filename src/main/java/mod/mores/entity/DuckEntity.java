@@ -1,12 +1,12 @@
 package mod.mores.entity;
 
+import mod.mores.init.EntityTypeInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -21,7 +21,6 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
-import org.jetbrains.annotations.Nullable;
 
 public class DuckEntity extends AnimalEntity {
     private static final Ingredient FOOD_ITEMS = Ingredient.of(Items.WHEAT_SEEDS, Items.MELON_SEEDS, Items.PUMPKIN_SEEDS, Items.BEETROOT_SEEDS);
@@ -102,8 +101,8 @@ public class DuckEntity extends AnimalEntity {
         this.playSound(SoundEvents.CHICKEN_STEP, 0.15F, 1.0F);
     }
 
-    public ChickenEntity getBreedOffspring(ServerWorld p_241840_1_, AgeableEntity p_241840_2_) {
-        return EntityType.CHICKEN.create(p_241840_1_);
+    public DuckEntity getBreedOffspring(ServerWorld p_241840_1_, AgeableEntity p_241840_2_) {
+        return EntityTypeInit.DUCK.get().create(p_241840_1_);
     }
 
     public boolean isFood(ItemStack p_70877_1_) {
