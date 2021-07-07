@@ -9,7 +9,7 @@ v2.10
 - Added furnace and crafting recipes for all the ores/blocks
 - Added emerald horse armor
 - Added obsidian armor
-- Added dummy alloy furnace (regular block, no function as of yet)
+- Added alloy furnace (working with GUI and recipes)
 - Updated mOres logo
 - Fixed craft ruby gear advancement
 - Fixed craft turquoise armor advancement
@@ -17,3 +17,4 @@ v2.10
 - Modified diamond_block & netherite_block harvestlevel
 - Modified diamond_pickaxe harvestlevel
 - Made the apples edible and added potion effects
+- Added Duck mob, which is breedable (not yet spawnable)
