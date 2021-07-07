@@ -32,11 +32,8 @@ credits="Thanks for this mod goes to my friends and subscribers of Its Infinite"
 # A text field displayed in the mod UI
 authors="Its Infinite"
 # The description text for the mod (multi line!)
-description='''
-This mod adds tons of new tools, weapons and materials.
-
-This improves combat, exploration, and mining in particular. It adds much more variety and is very entertaining to play with friends.
-'''
+description='''This mod adds tons of new tools, weapons and materials.
+This improves combat, exploration, and mining in particular. It adds much more variety and is very entertaining to play with friends.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mores]]
     # the modid of the dependency
