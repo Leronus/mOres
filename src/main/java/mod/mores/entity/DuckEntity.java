@@ -1,6 +1,7 @@
 package mod.mores.entity;
 
 import mod.mores.init.EntityTypeInit;
+import mod.mores.init.SoundTypeInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
@@ -86,15 +87,15 @@ public class DuckEntity extends AnimalEntity {
     }
 
     protected SoundEvent getAmbientSound() {
-        return SoundEvents.CHICKEN_AMBIENT;
+        return SoundTypeInit.LIVING_DUCK_SOUND.get();
     }
 
     protected SoundEvent getHurtSound(DamageSource p_184601_1_) {
-        return SoundEvents.CHICKEN_HURT;
+        return SoundTypeInit.HURT_DUCK_SOUND.get();
     }
 
     protected SoundEvent getDeathSound() {
-        return SoundEvents.CHICKEN_DEATH;
+        return SoundTypeInit.DYING_DUCK_SOUND.get();
     }
 
     protected void playStepSound(BlockPos p_180429_1_, BlockState p_180429_2_) {

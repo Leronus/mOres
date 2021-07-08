@@ -45,6 +45,7 @@ public class Mores
         // Register the doClientStuff method for modloading
         bus.addListener(this::doClientStuff);
 
+        SoundTypeInit.SOUND_TYPES.register(bus);
         EntityTypeInit.ENTITY_TYPES.register(bus);
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
