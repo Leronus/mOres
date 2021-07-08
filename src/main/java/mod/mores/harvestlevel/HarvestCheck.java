@@ -15,6 +15,7 @@ import org.apache.logging.log4j.Logger;
 @Mod.EventBusSubscriber(modid = "mores", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class HarvestCheck {
     public static final Logger LOGGER = LogManager.getLogger();
+
     @SubscribeEvent
     public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event) {
         Item mainhandItem = event.getPlayer().getMainHandItem().getItem();
@@ -28,14 +29,24 @@ public class HarvestCheck {
             if (event.getTargetBlock().getHarvestLevel() <= 7) {
                 event.setCanHarvest(true);
             }
-        } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock ==  Blocks.NETHERITE_BLOCK){
+        } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock == Blocks.NETHERITE_BLOCK) {
             String mainhandItemName = String.valueOf(mainhandItem);
             String[] tooltypeName = mainhandItemName.split("_");
             ToolType toolType = ToolType.get(tooltypeName[1]);
             //Diamond & netherite block should be minable with harvest level 5 or higher
-            if (event.getPlayer().getMainHandItem().getHarvestLevel(toolType, event.getPlayer(), event.getTargetBlock().getBlockState()) >= 5){
+            if (event.getPlayer().getMainHandItem().getHarvestLevel(toolType, event.getPlayer(), event.getTargetBlock().getBlockState()) >= 5) {
                 event.setCanHarvest(true);
-            } else{
+            } else {
+                event.setCanHarvest(false);
+            }
+        } else if (targetBlock == Blocks.OBSIDIAN) {
+            String mainhandItemName = String.valueOf(mainhandItem);
+            String[] tooltypeName = mainhandItemName.split("_");
+            ToolType toolType = ToolType.get(tooltypeName[1]);
+            //Obsidian should be minable with harvest level 3 or higher
+            if (event.getPlayer().getMainHandItem().getHarvestLevel(toolType, event.getPlayer(), event.getTargetBlock().getBlockState()) >= 3) {
+                event.setCanHarvest(true);
+            } else {
                 event.setCanHarvest(false);
             }
         }

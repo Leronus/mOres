@@ -442,6 +442,10 @@
   "item.mores.bronze_apple" : "Bronze Apple",
   "item.mores.rooiekool" : "Rooiekool",
 
+  "entity.mores.duck": "Duck",
+  "entity.mores.raw_duck": "Raw Duck",
+  "entity.mores.cooked_duck": "Cooked Duck",
+
   "itemGroup.mores_materials" : "mOres Materials",
   "itemGroup.mores_tools" : "mOres Tools",
   "itemGroup.mores_weapons" : "mOres Weapons",

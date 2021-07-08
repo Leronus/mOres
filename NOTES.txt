@@ -4,6 +4,10 @@
 - Check advancements
 - Add advancements
 - Improve Alloy Furnace GUI
+- Add cooked duck & raw duck, make duck drop raw duck & if raw duck killed with fire -> cooked duck / raw duck hunger effect?
+- Duck flapping wings fix
+- Duck spawn egg
+- Duck world spawning
 
 - Check iron ore drops (graphene pickaxe not minable) -- ??
 

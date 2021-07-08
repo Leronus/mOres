@@ -19,7 +19,7 @@ public enum ToolMaterial implements IItemTier {
     TOOL_STERLING(2, 290, 6.0F, 2.2F, 14, () -> Ingredient.of(ItemInit.STERLING_INGOT.get())),
     TOOL_COBALT(3, 350, 6.5F, 2.2F, 20, () -> Ingredient.of(ItemInit.COBALT_INGOT.get())),
     TOOL_STEEL(3, 600, 6.2F, 2.5F, 12, () -> Ingredient.of(ItemInit.STEEL_INGOT.get())),
-    TOOL_OBSIDIAN(3, 1800, 6.5F, 2.5F, 6, () -> Ingredient.of(Items.OBSIDIAN)),
+    TOOL_OBSIDIAN(4, 1800, 6.5F, 2.5F, 6, () -> Ingredient.of(Items.OBSIDIAN)),
     TOOL_AMETHYST(3, 700, 6.5F, 2.5F, 8, () -> Ingredient.of(ItemInit.AMETHYST_GEM.get())),
     TOOL_EMERALD(4, 900, 7.0F, 3.0F, 18, () -> Ingredient.of(Items.EMERALD)),
     TOOL_TOPAZ(4, 1300, 7.5F, 3.0F, 15, () -> Ingredient.of(ItemInit.TOPAZ_GEM.get())),
