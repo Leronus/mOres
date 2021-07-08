@@ -7,8 +7,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -27,6 +25,13 @@ public class PlayerEventsClient {
             itemTossEvent.getEntity().playSound(SoundTypeInit.DARUDE_SANDSTORM.get(), 0.6F, 1.0F);
             //Server
             world.playSound(null, player.blockPosition(), SoundTypeInit.DARUDE_SANDSTORM.get(), SoundCategory.MUSIC,0.6F, 1.0F);
+        }
+        else if (state.getBlock() == BlockInit.STERLING_BLOCK.get()){
+            Mores.LOGGER.info("Player tossed on turquoise block!");
+            //Client
+            itemTossEvent.getEntity().playSound(SoundTypeInit.RICK_ASTLEY.get(), 0.6F, 1.0F);
+            //Server
+            world.playSound(null, player.blockPosition(), SoundTypeInit.RICK_ASTLEY.get(), SoundCategory.MUSIC,0.6F, 1.0F);
         }
     }
 }

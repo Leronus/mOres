@@ -76,8 +76,8 @@ public class DuckEntity extends AnimalEntity {
         this.flap += this.flapping * 2.0F;
         if (!this.level.isClientSide && this.isAlive() && !this.isBaby() && !this.isChickenJockey() && --this.eggTime <= 0) {
             this.playSound(SoundEvents.CHICKEN_EGG, 1.0F, (this.random.nextFloat() - this.random.nextFloat()) * 0.2F + 1.0F);
-            this.spawnAtLocation(Items.EGG);
-            this.eggTime = this.random.nextInt(6000) + 6000;
+            this.spawnAtLocation(Items.GOLD_NUGGET);
+            this.eggTime = this.random.nextInt(8000) + 6000;
         }
 
     }
