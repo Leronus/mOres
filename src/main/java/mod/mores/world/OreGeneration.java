@@ -34,19 +34,19 @@ public class OreGeneration {
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 45, 75, 32);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 58, 22);
+                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 58, 16);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 39, 20);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 39, 17);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 31, 16);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 31, 15);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 11);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 10);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 14);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 12);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 5);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 4);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
-                    BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 7);
+                    BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 6);
             generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 5);
         }
