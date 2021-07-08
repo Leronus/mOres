@@ -46,11 +46,11 @@ public class ItemArmor extends ArmorItem {
                 && player.getItemBySlot(EquipmentSlotType.FEET).getItem().getItem() == (ItemInit.TANZANITE_BOOTS.get())) {
             player.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 10, 0, false, false));
 
-        //Topaz: Mining Boost
-        }else if (player.getItemBySlot(EquipmentSlotType.HEAD).getItem() == (ItemInit.TOPAZ_HELMET.get())
-                && player.getItemBySlot(EquipmentSlotType.CHEST).getItem() == (ItemInit.TOPAZ_CHESTPLATE.get())
-                && player.getItemBySlot(EquipmentSlotType.LEGS).getItem() == (ItemInit.TOPAZ_LEGGINGS.get())
-                && player.getItemBySlot(EquipmentSlotType.FEET).getItem().getItem() == (ItemInit.TOPAZ_BOOTS.get())) {
+        //Cobalt: Mining Boost
+        }else if (player.getItemBySlot(EquipmentSlotType.HEAD).getItem() == (ItemInit.COBALT_HELMET.get())
+                && player.getItemBySlot(EquipmentSlotType.CHEST).getItem() == (ItemInit.COBALT_CHESTPLATE.get())
+                && player.getItemBySlot(EquipmentSlotType.LEGS).getItem() == (ItemInit.COBALT_LEGGINGS.get())
+                && player.getItemBySlot(EquipmentSlotType.FEET).getItem().getItem() == (ItemInit.COBALT_BOOTS.get())) {
             player.addEffect(new EffectInstance(Effects.DIG_SPEED, 10, 0, false, false));
 
         //Tourmaline: Regeneration
