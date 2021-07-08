@@ -1,0 +1,52 @@
+{
+  "living_duck_sound": {
+    "category": "entity",
+    "subtitle" : "living_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/living_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "dying_duck_sound": {
+    "category": "entity",
+    "subtitle" : "dying_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/dying_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "hurt_duck_sound": {
+    "category": "entity",
+    "subtitle" : "hurt_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/hurt_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "rick_astley": {
+    "category": "music",
+    "subtitle" : "rick_astley.dub",
+    "sounds" : [
+      {
+        "name" : "mores:music/rick_astley",
+        "stream" : true
+      }
+    ]
+  },
+  "darude_sandstorm": {
+    "category": "music",
+    "subtitle" : "darude_sandstorm.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/darude_sandstorm",
+        "stream" : true
+      }
+    ]
+  }
+}
