@@ -17,4 +17,7 @@ v2.10
 - Modified diamond_block & netherite_block harvestlevel
 - Modified diamond_pickaxe harvestlevel
 - Made the apples edible and added potion effects
-- Added Duck mob, which is breedable (not yet spawnable)
+- Added Duck mob with custom sounds, the duck is breedable & poops gold (not yet spawnable)
+- Tweaked the ToolMaterial and ArmorMaterial values for more interesting gameplay
+- Balanced the ore generation, less generous in resources
+- Added some custom easter eggs with custom sounds (craft a block and toss an item on it)

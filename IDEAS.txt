@@ -1,5 +1,21 @@
+-- PENDING FOR REVIEW --
 - Daggers throwable?
 - Spears?
-- Edible apples with potion effects (bronze, silver, diamond)
 - Armored shields of some sort?
+
+
+-- APPROVED -- 
+
+
+
+-- DOING --
+
+
+
+-- IMPLEMENTED --
+- Edible apples with potion effects (bronze, silver, diamond)
+
+
+
+-- REJECTED -- 
 

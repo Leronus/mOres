@@ -1,9 +1,12 @@
 ** SCHEDULED **
-- Check armor values and attack speed/dmg values
+- Check attack speed values (and damage for battleaxe, mace, dagger)
 - Add rooiekool
 - Check advancements
+- Add advancements
+- Improve Alloy Furnace GUI
 
-- Check iron ore drops (graphene pickaxe not minable)
+- Check iron ore drops (graphene pickaxe not minable) -- ??
+
 
 ** POTENTIALLY **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
@@ -13,7 +16,7 @@
 - Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt(?))
 - Emerald tools/Obsidian tools ??
 
+
 ** LATER **
-- Alloy furnace
 - Check loot tables
 
