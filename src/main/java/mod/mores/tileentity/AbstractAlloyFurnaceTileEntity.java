@@ -126,25 +126,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends TileEntity implemen
         super(tileEntityTypeIn);
     }
 
-//    /**
-//     * @return If the stack is not empty and has an alloying recipe associated with it
-//     */
-//    protected boolean isInput(final ItemStack stack)
-//    {
-//        if (stack.isEmpty())
-//            return false;
-//        boolean is_input = AlloyFurnaceRecipe.isInput(stack);
-//        return is_input;
-//    }
-
-//    protected boolean isCatalyst(final ItemStack stack)
-//    {
-//        if (stack.isEmpty())
-//            return false;
-//        boolean is_cata = AlloyFurnaceRecipe.isCatalyst(stack);
-//        return is_cata;
-//    }
-
     /**
      * @return If the stack's item is equal to the result of smelting our input
      */

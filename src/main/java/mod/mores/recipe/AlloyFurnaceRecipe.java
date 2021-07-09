@@ -53,48 +53,6 @@ public class AlloyFurnaceRecipe implements IAlloyFurnaceRecipe
         this.experience = experience;
     }
 
-//    private static void initLegalisms()
-//    {
-//        Mores.LOGGER.info(Mores.MOD_ID + ": in AlloyFurnaceRecipe.InitLegalisms()");
-//        Iterable<IRecipe<?>> recipes =
-//                ServerLifecycleHooks.getCurrentServer().getRecipeManager().getRecipes();
-//        for (IRecipe<?> recipe: recipes)
-//        {
-//            // we only want Alloy recipes.
-//            if (recipe.getType() != IAlloyFurnaceRecipe.TYPE_ID) {
-//                continue;
-//            }
-//
-//            NonNullList<Ingredient> ingrs = recipe.getIngredients();
-//            for (Ingredient ingr: ingrs)
-//            {
-//                for (ItemStack stack : ingr.getItems()) {
-//                    legal_inputs.add(stack.getItem());
-//                }
-//            } // end-for
-//            for (ItemStack stack : ((AlloyFurnaceRecipe) recipe).getCatalyst().getItems())
-//            {
-//                legal_catalysts.add(stack.getItem());
-//            }
-//        } // end-for
-//    } // end initLegalisms
-
-//    public static boolean isInput(ItemStack stack)
-//    {
-//        if (legal_inputs.isEmpty()) {
-//            return false;
-//        }
-//        return legal_inputs.contains(stack.getItem());
-//    }
-//
-//    public static boolean isCatalyst(ItemStack stack)
-//    {
-//        if (legal_catalysts.isEmpty()) {
-//            return false;
-//        }
-//        return legal_catalysts.contains(stack.getItem());
-//    }
-
     /**
      * Used to check if a recipe matches current crafting inventory
      */
@@ -160,7 +118,7 @@ public class AlloyFurnaceRecipe implements IAlloyFurnaceRecipe
     public Ingredient getCatalyst()
     {
         return this.catalyst;
-    } // end class FusionRecipe
+    }
 
 
     @Override
