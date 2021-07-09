@@ -21,3 +21,5 @@ v2.10
 - Tweaked the ToolMaterial and ArmorMaterial values for more interesting gameplay
 - Balanced the ore generation, less generous in resources
 - Added some custom easter eggs with custom sounds (craft a block and toss an item on it)
+- Duck also drops raw duck which can be cooked
+

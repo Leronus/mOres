@@ -13,7 +13,7 @@ public abstract class AbstractAlloyFurnaceScreen<T extends AbstractAlloyFurnaceC
 {
 
     protected static ResourceLocation BACKGROUND_TEXTURE;
-    private int displayNameColor = 0x404040;
+    private int displayNameColor = 0xFFFFFF;
 
     public AbstractAlloyFurnaceScreen(T screenContainer, PlayerInventory inv, ResourceLocation texture,
                                       ITextComponent titleIn, int nameColor)
@@ -93,23 +93,23 @@ public abstract class AbstractAlloyFurnaceScreen<T extends AbstractAlloyFurnaceC
     @Override
     protected void renderLabels(MatrixStack matStack, int mouseX, int mouseY)
     {
-        int forbidden_area = 54;
-
         // Copied from AbstractFurnaceScreen#drawGuiContainerForegroundLayer
-        String s = this.title.getString();
-        String [] s2 = s.split("\\s+", 2);
-        int left_offset = this.imageWidth / 2 - forbidden_area/2 - this.font.width(s2[0]);
-        this.font.draw(matStack, s2[0], (float) left_offset, 6.0F, displayNameColor);
-        // In some languages, the title is one word, not two.
-        if (s2.length > 1)
-        {
-            int right_offset = this.imageWidth / 2 + forbidden_area/2;
-            this.font.draw(matStack, s2[1], (float) right_offset, 6.0F, displayNameColor);
-        }
-        //this.font.drawString(s, (float) (this.xSize / 2 - this.font.getStringWidth(s) / 2), 6.0F, 0x404040);
+        String alloy_furnace = this.title.getString();
+//        String [] alloy_split_furnace = alloy_furnace.split("\\s+", 2);;
 
+        //First piece of text - "alloy"
+//        this.font.draw(matStack, alloy_split_furnace[0], 6.0F, 6.0F, displayNameColor);
+
+        // In some languages, alloy furnace is one word, not two
+//        if (alloy_split_furnace.length > 1)
+//        {
+                //Second piece of text - "furnace"
+//              this.font.draw(matStack, alloy_split_furnace[1], 120.0F, 6.0F, displayNameColor);
+        this.font.draw(matStack, alloy_furnace, 100.0F, 6.0F, displayNameColor);
+//        }
+        //Inventory text
         this.font.draw(matStack, this.inventory.getDisplayName().getString(),
-                8.0F, (float) (this.imageHeight - 96 + 2), displayNameColor);
+                120.0F, (float) (this.imageHeight - 96 + 2), displayNameColor);
     } // end ()
 
     /**

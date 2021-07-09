@@ -7,7 +7,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 
 public class AlloyFurnaceScreen extends AbstractAlloyFurnaceScreen<AlloyFurnaceContainer> {
-    private final static int name_color =  0x404040;
+    private final static int name_color =  0xFFFFFF;
 
     public AlloyFurnaceScreen(final AlloyFurnaceContainer screenContainer, PlayerInventory inv,
                                ITextComponent titleIn)
