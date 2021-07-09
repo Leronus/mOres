@@ -58,7 +58,7 @@ public class ItemInit{
     public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new EffectInstance(Effects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
     public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.DIG_SPEED, 200, 0), 1.0F).effect(() -> new EffectInstance(Effects.NIGHT_VISION, 200, 0), 1.0F).alwaysEat().build())));
 
-    public static final RegistryObject<Item> RAW_DUCK = ITEMS.register("raw_duck", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.HUNGER, 600, 0), 0.3F).meat().build())));
+    public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(6).saturationMod(0.6F).meat().build())));
 
 
