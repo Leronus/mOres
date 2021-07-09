@@ -443,8 +443,8 @@
   "item.mores.rooiekool" : "Rooiekool",
 
   "entity.mores.duck": "Duck",
-  "entity.mores.raw_duck": "Raw Duck",
-  "entity.mores.cooked_duck": "Cooked Duck",
+  "item.mores.duck": "Raw Duck",
+  "item.mores.cooked_duck": "Cooked Duck",
 
   "itemGroup.mores_materials" : "mOres Materials",
   "itemGroup.mores_tools" : "mOres Tools",

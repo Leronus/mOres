@@ -447,8 +447,8 @@
   "item.mores.rooiekool": "Rooiekool",
 
   "entity.mores.duck": "Eend",
-  "entity.mores.raw_duck": "Rauwe eend",
-  "entity.mores.cooked_duck": "Gebraden eend",
+  "item.mores.duck": "Rauwe eend",
+  "item.mores.cooked_duck": "Gebraden eend",
 
   "itemGroup.mores_materials" : "mOresMaterialen",
   "itemGroup.mores_tools" : "mOresGereedschap",
