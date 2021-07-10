@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Mans Lean Yeah",
+    "title": "Lean",
     "description": "You have crafted an amethyst tool",
     "icon": {
-      "item": "mores:amethyst_sword"
+      "item": "mores:amethyst_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

@@ -106,6 +106,12 @@ public class ItemArmor extends ArmorItem {
                 && LEGGINGS == (ItemInit.AMETHYST_LEGGINGS.get())
                 && BOOTS == (ItemInit.AMETHYST_BOOTS.get())) {
             player.addEffect(new EffectInstance(Effects.SLOW_FALLING, 10, 0, false, false));
+        //Topaz: Mining Boost 2
+        }else if (HELMET == (ItemInit.TOPAZ_HELMET.get())
+                && CHESTPLATE == (ItemInit.TOPAZ_CHESTPLATE.get())
+                && LEGGINGS == (ItemInit.TOPAZ_LEGGINGS.get())
+                && BOOTS == (ItemInit.TOPAZ_BOOTS.get())) {
+            player.addEffect(new EffectInstance(Effects.DIG_SPEED, 10, 1, false, false));
         }
     }
     @Override
@@ -182,6 +188,7 @@ public class ItemArmor extends ArmorItem {
         }
         else if (armorMaterial == ArmorMaterial.ARMOR_TOPAZ){
             //Making the tooltips
+            tooltip.add(ITextComponent.nullToEmpty("Full Set Bonus: " + TextFormatting.GOLD + "Haste"));
             tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TOPAZ.getDurabilityForSlot(equipmentSlotType)));
         }
         else if (armorMaterial == ArmorMaterial.ARMOR_MOISSANITE){

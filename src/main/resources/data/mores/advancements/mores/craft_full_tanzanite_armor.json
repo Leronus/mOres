@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "I Am Speed",
-    "description": "You have crafted full tanzanite armor, with which you get the speed potion effect",
+    "description": "You have crafted full tanzanite armor, with which you gain the speed potion effect",
     "icon": {
       "item": "mores:tanzanite_chestplate"
     },

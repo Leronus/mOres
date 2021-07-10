@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Look at my horse, my horse is amazing!",
-    "description": "Give it a lick... Tastes just like raisins",
+    "title": "Look at my horse",
+    "description": "My horse is amazing! Craft your first horse armor",
     "icon": {
       "item": "mores:copper_horse_armor"
     },
@@ -223,9 +223,6 @@
       }
     }
   },
-  "requirements": [
-    ["craft_silver_horse_armor", "craft_copper_horse_armor", "craft_tin_horse_armor", "craft_cobalt_horse_armor", "craft_bronze_horse_armor", "craft_steel_horse_armor", "craft_amethyst_horse_armor", "craft_topaz_horse_armor", "craft_tourmaline_horse_armor", "craft_onyx_horse_armor", "craft_turquoise_horse_armor", "craft_graphene_horse_armor", "craft_iron_horse_armor", "craft_gold_horse_armor", "craft_diamond_horse_armor", "craft_ruby_horse_armor", "craft_sapphire_horse_armor", "craft_obsidian_horse_armor", "craft_emerald_horse_armor", "craft_sterling_horse_armor", "craft_moissanite_horse_armor"]
-  ],
   "rewards": {
     "experience": 100
   }
