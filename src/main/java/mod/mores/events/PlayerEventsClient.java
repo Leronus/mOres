@@ -31,5 +31,11 @@ public class PlayerEventsClient {
             //Server
             world.playSound(null, player.blockPosition(), SoundTypeInit.RICK_ASTLEY.get(), SoundCategory.MUSIC,0.05F, 1.0F);
         }
+        else if (state.getBlock() == BlockInit.BRONZE_BLOCK.get()){
+            //Client
+            itemTossEvent.getEntity().playSound(SoundTypeInit.CRAZY_FROG.get(), 0.6F, 1.0F);
+            //Server
+            world.playSound(null, player.blockPosition(), SoundTypeInit.CRAZY_FROG.get(), SoundCategory.MUSIC, 0.05F, 1.0F);
+        }
     }
 }

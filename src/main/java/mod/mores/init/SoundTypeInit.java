@@ -22,4 +22,6 @@ public class SoundTypeInit {
             "darude_sandstorm", () -> new SoundEvent(new ResourceLocation(Mores.MOD_ID, "darude_sandstorm")));
     public static final RegistryObject<SoundEvent> RICK_ASTLEY = SOUND_TYPES.register(
             "rick_astley", () -> new SoundEvent(new ResourceLocation(Mores.MOD_ID, "rick_astley")));
+    public static final RegistryObject<SoundEvent> CRAZY_FROG = SOUND_TYPES.register(
+            "crazy_frog", () -> new SoundEvent(new ResourceLocation(Mores.MOD_ID, "crazy_frog")));
 }

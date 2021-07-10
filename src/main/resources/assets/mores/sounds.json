@@ -48,5 +48,15 @@
         "stream" : true
       }
     ]
+  },
+  "crazy_frog": {
+    "category": "music",
+    "subtitle" : "crazy_frog.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/crazy_frog",
+        "stream" : true
+      }
+    ]
   }
 }
