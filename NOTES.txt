@@ -3,8 +3,6 @@
 - Add rooiekool
 - Check advancements (Look at my horse shorter, maybe 4x a line for different milestones or sum)
 - Add advancements (killing duck with fire, eating raw duck, breeding duck, I am that duck sound when unlocking advancement?)
-- Improve Alloy Furnace GUI
-- Duck flapping wings fix
 - Duck spawn egg
 - Duck world spawning
 
