@@ -14,7 +14,7 @@
 
 -- IMPLEMENTED --
 - Edible apples with potion effects (bronze, silver, diamond)
-
+- Duck entity (idea from before mOres v0.1 mc1.7)
 
 
 -- REJECTED -- 

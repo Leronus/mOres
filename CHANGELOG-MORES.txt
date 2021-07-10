@@ -22,4 +22,7 @@ v2.10
 - Balanced the ore generation, less generous in resources
 - Added some custom easter eggs with custom sounds (craft a block and toss an item on it)
 - Duck also drops raw duck which can be cooked
+- Updated Alloy Furnace GUI & textures (1.17)
+- Fixed ducks wings flapping continuously
+- Added tooltips to all armor 
 

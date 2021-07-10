@@ -1,23 +1,23 @@
-** SCHEDULED **
+** SCHEDULED FOR THIS RELEASE **
+-! Check vanilla &&& MORES ore drops (graphene pickaxe not minable) -- ?? !!
+
 - Check attack speed values (and damage for battleaxe, mace, dagger)
-- Add rooiekool
 - Check advancements (Look at my horse shorter, maybe 4x a line for different milestones or sum)
 - Add advancements (killing duck with fire, eating raw duck, breeding duck, I am that duck sound when unlocking advancement?)
 - Duck spawn egg
 - Duck world spawning
 
-- Check iron ore drops (graphene pickaxe not minable) -- ??
 
-
-** POTENTIALLY **
+** POTENTIALLY NEXT RELEASE **
 - Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
 - Tin/Silver tools & armor may need another rework
 - Amethyst values rework connected to 1.17 update (later or now?)
 - Silver ore 1.17 update
 - Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt(?))
 - Emerald tools/Obsidian tools ??
+- Add rooiekool (?)
 
 
-** LATER **
+** LATER RELEASES **
 - Check loot tables
 
