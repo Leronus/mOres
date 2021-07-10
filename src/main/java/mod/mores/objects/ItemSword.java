@@ -37,7 +37,7 @@ public class ItemSword extends SwordItem {
         //tooltip.add("Text: " + TextFormatting.COLOR + toolMaterial.get);
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
         if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
-            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLUE + BONUS));
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLACK + BONUS));
         }
     }
 
