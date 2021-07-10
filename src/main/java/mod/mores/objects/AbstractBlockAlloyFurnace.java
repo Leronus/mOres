@@ -1,5 +1,6 @@
 package mod.mores.objects;
 
+import mod.mores.Mores;
 import mod.mores.tileentity.AbstractAlloyFurnaceTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -146,7 +147,7 @@ public abstract class AbstractBlockAlloyFurnace extends HorizontalBlock{
     @Override
     public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand)
     {
-        if (stateIn.getValue(LIT))
+        Mores.LOGGER.info("animateTick");
         {
             double d0 = (double) pos.getX() + 0.5D;
             double d1 = (double) pos.getY();
@@ -165,7 +166,7 @@ public abstract class AbstractBlockAlloyFurnace extends HorizontalBlock{
             double d6 = rand.nextDouble() * 6.0D / 16.0D;
             double d7 = direction$axis == Direction.Axis.Z ? (double) direction.getStepZ() * 0.52D : d4;
             worldIn.addParticle(ParticleTypes.SMOKE, d0 + d5, d1 + d6, d2 + d7, 0.0D, 0.0D, 0.0D);
-            worldIn.addParticle(ParticleTypes.FLAME, d0 + d5, d1 + d6, d2 + d7, 0.0D, 0.0D, 0.0D);
+            worldIn.addParticle(ParticleTypes.SOUL_FIRE_FLAME, d0 + d5, d1 + d6, d2 + d7, 0.0D, 0.0D, 0.0D);
         }
     } // end animateTick()
 
