@@ -12,21 +12,11 @@
   },
   "parent": "mores:mores/kill_duck",
   "criteria": {
-    "burn_duck": {
-      "trigger": "minecraft:player_hurt_entity",
+    "eat_raw_duck": {
+      "trigger": "minecraft:consume_item",
       "conditions": {
-        "death_object" : {
-          "entity" : {
-            "type" : "mores:duck"
-          },
-          "damage": {
-            "type": {
-              "is_fire": true
-            },
-            "source_entity": {
-              "type": "minecraft:player"
-            }
-          }
+        "item": {
+          "item": "mores:cooked_duck"
         }
       }
     }

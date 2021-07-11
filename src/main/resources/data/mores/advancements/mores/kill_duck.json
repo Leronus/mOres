@@ -1,9 +1,9 @@
 {
   "display": {
     "title": "You're A Bloody Animal",
-    "description": "What's wrong with you bruv, why you do dis?",
+    "description": "Why did you kill that duck?",
     "icon": {
-      "item": "mores:duck"
+      "item": "mores:duck_spawn_egg"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
