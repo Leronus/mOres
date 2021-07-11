@@ -3,7 +3,7 @@
     "title": "Give it a lick",
     "description": "Tastes just like raisins",
     "icon": {
-      "item": "mores:copper_horse_armor"
+      "item": "mores:onyx_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -84,6 +84,7 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "experience": 1000,
+    "function" : "mores:mores/play_my_horse"
   }
 }

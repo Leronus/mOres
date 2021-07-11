@@ -3,7 +3,7 @@
     "title": "mOres",
     "description": "The heart and story of mOres, made by the one and only Its Infinite",
     "icon": {
-      "item": "mores:sapphire_block"
+      "item": "mores:alloy_furnace_lit"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

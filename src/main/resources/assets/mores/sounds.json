@@ -78,5 +78,15 @@
         "stream" : true
       }
     ]
+  },
+  "my_horse": {
+    "category": "music",
+    "subtitle" : "my_horse.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/my_horse",
+        "stream" : true
+      }
+    ]
   }
 }

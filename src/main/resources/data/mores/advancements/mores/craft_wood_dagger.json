@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:story/root",
+  "parent": "mores:mores/root",
   "criteria": {
     "obtain_graphene": {
       "trigger": "minecraft:inventory_changed",

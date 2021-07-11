@@ -10,6 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
+  "parent": "mores:mores/root",
   "criteria": {
     "tame_duck": {
       "trigger": "minecraft:player_killed_entity",
