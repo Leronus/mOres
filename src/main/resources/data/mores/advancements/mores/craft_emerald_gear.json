@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:adventure/trade",
+  "parent": "mores:mores/root",
   "criteria": {
     "craft_emerald_sword": {
       "trigger": "minecraft:inventory_changed",
