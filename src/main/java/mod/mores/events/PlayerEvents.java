@@ -12,7 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class PlayerEventsClient {
+public class PlayerEvents {
     @SubscribeEvent
     public static void onPlayerToss(ItemTossEvent itemTossEvent){
         PlayerEntity player = itemTossEvent.getPlayer();
