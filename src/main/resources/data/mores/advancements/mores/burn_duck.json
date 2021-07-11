@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": "Christmas Comin' Early",
+    "description": "Roasted duck seems like a good meal",
+    "icon": {
+      "item": "mores:cooked_duck"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/kill_duck",
+  "criteria": {
+    "burn_duck": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "death_object" : {
+          "entity" : {
+            "type" : "mores:duck"
+          },
+          "damage": {
+            "type": {
+              "is_fire": true
+            },
+            "source_entity": {
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}
