@@ -248,7 +248,7 @@ public class ItemInit{
     public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 5, -2.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
     //All maces
