@@ -10,10 +10,10 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = Mores.MOD_ID)
 public class EntityEvents {
     @SubscribeEvent
-    public static void onBiomeLoad(BiomeLoadingEvent biomeLoadingEvent){
+    public static void onBiomeLoad(final BiomeLoadingEvent biomeLoadingEvent){
         if (biomeLoadingEvent.getName() == null){
             return;
         }
