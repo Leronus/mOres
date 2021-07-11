@@ -30,7 +30,7 @@
     ]
   },
   "rick_astley": {
-    "category": "music",
+    "category": "players",
     "subtitle" : "rick_astley.dub",
     "sounds" : [
       {
@@ -40,7 +40,7 @@
     ]
   },
   "darude_sandstorm": {
-    "category": "music",
+    "category": "players",
     "subtitle" : "darude_sandstorm.sub",
     "sounds" : [
       {
@@ -50,7 +50,7 @@
     ]
   },
   "crazy_frog": {
-    "category": "music",
+    "category": "players",
     "subtitle" : "crazy_frog.sub",
     "sounds" : [
       {
@@ -70,7 +70,7 @@
     ]
   },
   "im_blue": {
-    "category": "music",
+    "category": "players",
     "subtitle" : "im_blue.sub",
     "sounds" : [
       {
@@ -80,7 +80,7 @@
     ]
   },
   "my_horse": {
-    "category": "music",
+    "category": "players",
     "subtitle" : "my_horse.sub",
     "sounds" : [
       {
