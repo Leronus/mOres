@@ -58,5 +58,15 @@
         "stream" : true
       }
     ]
+  },
+  "that_duck": {
+    "category": "ambient",
+    "subtitle" : "that_duck.sub",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/that_duck",
+        "stream" : true
+      }
+    ]
   }
 }
