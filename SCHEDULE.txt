@@ -1,9 +1,8 @@
 ** SCHEDULED FOR THIS RELEASE **
 - Check attack speed values (and damage for battleaxe, mace, dagger)
-- Check advancements (Look at my horse shorter, maybe 4x a line for different milestones or sum)
-- Add advancements (killing duck with fire, eating raw duck)
 - Duck spawn egg
 - Duck world spawning
+- Check advancements (ores tierlist maybe?)
 
 
 ** POTENTIALLY NEXT RELEASE **
