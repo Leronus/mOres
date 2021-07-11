@@ -29,8 +29,6 @@
   },
   "rewards": {
     "experience": 500,
-    "commands" : [
-      "/playsound mores:that_duck ambient @s"
-    ]
+    "function" : "mores:mores/play_that_duck"
   }
 }
