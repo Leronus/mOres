@@ -3,14 +3,14 @@
     "title": "Godverdomme Lekker Broodje",
     "description": "You have done it. You have collected all mOres materials. That must taste good.",
     "icon": {
-      "item": "mores:graphene_battleaxe"
+      "item": "mores:graphene_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/mores",
+  "parent": "mores:mores/root",
   "criteria": {
     "obtain_copper_ingot": {
       "trigger": "minecraft:inventory_changed",

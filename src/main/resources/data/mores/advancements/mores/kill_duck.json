@@ -1,0 +1,32 @@
+{
+  "display": {
+    "title": "You're A Bloody Animal",
+    "description": "What's wrong with you bruv, why you do dis?",
+    "icon": {
+      "item": "mores:duck"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tame_duck": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "mores:duck"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}
