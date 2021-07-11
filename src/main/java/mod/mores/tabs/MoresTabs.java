@@ -73,6 +73,13 @@ public class MoresTabs extends ItemGroup {
         }
     }).setRecipeFolderName("mores_foods");
 
+    public static final ItemGroup MORES_ENTITIES = (new MoresTabs(20, "mores_entities") {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(ItemInit.DUCK_SPAWN_EGG.get());
+        }
+    }).setRecipeFolderName("mores_entities");
+
     /**
      * Constructor that adds the itemgroups
      * @param index Position of itemgroup in creative menu

@@ -3,9 +3,12 @@ package mod.mores;
 import mod.mores.entity.DuckEntity;
 import mod.mores.harvestlevel.HarvestCheck;
 import mod.mores.init.*;
+import mod.mores.objects.ItemSpawnEgg;
 import mod.mores.world.OreGeneration;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -88,6 +91,11 @@ public class Mores
                 map(m->m.getMessageSupplier().get()).
                 collect(Collectors.toList()));
     }
+    @SubscribeEvent
+    public static void onRegisterEntities(final RegistryEvent.Register<EntityType<?>> event) {
+        ItemSpawnEgg.initSpawnEggs();
+    }
+
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {

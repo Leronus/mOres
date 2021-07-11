@@ -445,6 +445,7 @@
   "item.mores.silver_apple" : "Zilveren appel",
   "item.mores.bronze_apple" : "Bronzen appel",
   "item.mores.rooiekool": "Rooiekool",
+  "item.mores.duck_spawn_egg": "Spawnei Eend",
 
   "entity.mores.duck": "Eend",
   "item.mores.duck": "Rauwe eend",
@@ -457,7 +458,8 @@
   "itemGroup.mores_ores" : "mOresErtsen",
   "itemGroup.mores_blocks" : "mOresBlokken",
   "itemGroup.mores_horse_armor" : "mOresPaardenharnas",
-  "itemGroup.mores_foods" : "mOresEten"
+  "itemGroup.mores_foods" : "mOresEten",
+  "itemGroup.mores_entities" : "mOresEntiteiten"
 }
 
 

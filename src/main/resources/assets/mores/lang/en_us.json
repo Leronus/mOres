@@ -441,10 +441,11 @@
   "item.mores.silver_apple" : "Silver Apple",
   "item.mores.bronze_apple" : "Bronze Apple",
   "item.mores.rooiekool" : "Rooiekool",
-
-  "entity.mores.duck": "Duck",
   "item.mores.duck": "Raw Duck",
   "item.mores.cooked_duck": "Cooked Duck",
+  "item.mores.duck_spawn_egg": "Duck Spawn Egg",
+
+  "entity.mores.duck": "Duck",
 
   "itemGroup.mores_materials" : "mOres Materials",
   "itemGroup.mores_tools" : "mOres Tools",
@@ -453,5 +454,6 @@
   "itemGroup.mores_ores" : "more Ores",
   "itemGroup.mores_blocks" : "mOres Blocks",
   "itemGroup.mores_horse_armor" : "mOres Horse Armor",
-  "itemGroup.mores_foods" : "mOres Foods"
+  "itemGroup.mores_foods" : "mOres Foods",
+  "itemGroup.mores_entities" : "mOres Entities"
 }
