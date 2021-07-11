@@ -1,6 +1,4 @@
 ** SCHEDULED FOR THIS RELEASE **
-- Duck spawn egg
-- Duck world spawning
 - Check advancements (ores tierlist maybe?)
 
 

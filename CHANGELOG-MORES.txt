@@ -24,5 +24,7 @@ v2.10
 - Duck also drops raw duck which can be cooked
 - Updated Alloy Furnace GUI & textures (1.17)
 - Fixed ducks wings flapping continuously
-- Added tooltips to all armor 
+- Added tooltips to all armor
+- Added duck spawn egg
+- Added duck natural generation
 

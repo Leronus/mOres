@@ -147,7 +147,7 @@ public abstract class AbstractBlockAlloyFurnace extends HorizontalBlock{
     @Override
     public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand)
     {
-        Mores.LOGGER.info("animateTick");
+        if (stateIn.getValue(LIT))
         {
             double d0 = (double) pos.getX() + 0.5D;
             double d1 = (double) pos.getY();
