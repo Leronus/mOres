@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Even Worse Than Copper",
-    "description": "You have mined your very first tin ore",
+    "description": "You have mined your very first raw tin",
     "icon": {
       "item": "mores:tin_ore"
     },
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_ore"
+            "item": "mores:raw_tin"
           }
         ]
       }

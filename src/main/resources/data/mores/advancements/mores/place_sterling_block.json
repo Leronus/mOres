@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": "It's Time Grandpa Rick",
+    "description": "You know what you have to do Morty",
+    "icon": {
+      "item": "mores:sterling_block"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_sterling",
+  "criteria": {
+    "place_sterling_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "mores:sterling_block"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

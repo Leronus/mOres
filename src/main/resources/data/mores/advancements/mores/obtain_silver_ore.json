@@ -1,6 +1,6 @@
 {
   "display": {
-    "title": "Is This Diamond?",
+    "title": "Quicksilver",
     "description": "You have mined your very first silver ore",
     "icon": {
       "item": "mores:silver_ore"
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_ore"
+            "item": "mores:raw_silver"
           }
         ]
       }

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": "Sandstorm",
+    "description": "Don't be so rude",
+    "icon": {
+      "item": "mores:turquoise_block"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_turquoise_9",
+  "criteria": {
+    "place_turquoise_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "mores:turquoise_block"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

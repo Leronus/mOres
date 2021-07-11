@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Very Balt Of You",
-    "description": "You have mined your very first cobalt ore",
+    "description": "You have mined your very first raw cobalt",
     "icon": {
       "item": "mores:cobalt_ore"
     },
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_ore"
+            "item": "mores:raw_cobalt"
           }
         ]
       }

@@ -1,5 +1,4 @@
 ** SCHEDULED FOR THIS RELEASE **
-- Check attack speed values (and damage for battleaxe, mace, dagger)
 - Duck spawn egg
 - Duck world spawning
 - Check advancements (ores tierlist maybe?)
