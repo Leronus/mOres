@@ -68,5 +68,15 @@
         "stream" : true
       }
     ]
+  },
+  "im_blue": {
+    "category": "music",
+    "subtitle" : "im_blue.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/im_blue",
+        "stream" : true
+      }
+    ]
   }
 }
