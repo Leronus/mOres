@@ -1,4 +1,4 @@
-package mod.mores.harvestlevel;
+package mod.mores.events;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -12,23 +12,33 @@ import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Event that handles vanilla tool/block harvestlevel changes
+ * @author Leronus
+ */
 @Mod.EventBusSubscriber(modid = "mores", bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class HarvestCheck {
+public class HarvestEvent {
     public static final Logger LOGGER = LogManager.getLogger();
 
+    /**
+     * Called when a player harvests a block
+     * @author Leronus
+     */
     @SubscribeEvent
     public static void doPlayerHarvestCheck(PlayerEvent.HarvestCheck event) {
         Item mainhandItem = event.getPlayer().getMainHandItem().getItem();
         Block targetBlock = event.getTargetBlock().getBlock();
-
+        //Change vanilla diamond pickaxe harvestlevel
         if (mainhandItem == Items.DIAMOND_PICKAXE) {
             if (event.getTargetBlock().getHarvestLevel() <= 5) {
                 event.setCanHarvest(true);
             }
+        //Change vanilla netherite pickaxe harvestlevel
         } else if (mainhandItem == Items.NETHERITE_PICKAXE) {
             if (event.getTargetBlock().getHarvestLevel() <= 7) {
                 event.setCanHarvest(true);
             }
+        //Change vanilla netherite & diamond block harvestlevel
         } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock == Blocks.NETHERITE_BLOCK) {
             String mainhandItemName = String.valueOf(mainhandItem);
             String[] tooltypeName = mainhandItemName.split("_");
@@ -39,6 +49,7 @@ public class HarvestCheck {
             } else {
                 event.setCanHarvest(false);
             }
+        //Change vanilla obsidian harvestlevel
         } else if (targetBlock == Blocks.OBSIDIAN) {
             String mainhandItemName = String.valueOf(mainhandItem);
             String[] tooltypeName = mainhandItemName.split("_");

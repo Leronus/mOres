@@ -1,7 +1,7 @@
 package mod.mores;
 
 import mod.mores.entity.DuckEntity;
-import mod.mores.harvestlevel.HarvestCheck;
+import mod.mores.events.HarvestEvent;
 import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
 import mod.mores.world.OreGeneration;
@@ -57,7 +57,7 @@ public class Mores
         TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
 
-        MinecraftForge.EVENT_BUS.register(HarvestCheck.class);
+        MinecraftForge.EVENT_BUS.register(HarvestEvent.class);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

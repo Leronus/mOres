@@ -15,7 +15,6 @@ import java.util.function.Supplier;
  * @author Leronus
  */
 public enum ArmorMaterial implements IArmorMaterial {
-    //TODO Adjust armorVal accordingly, since toughness changes
     ARMOR_TIN("tin", 5, new int[] {1, 4, 4, 1}, 13, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.of(ItemInit.TIN_INGOT.get())),
     ARMOR_COPPER("copper", 6, new int[] {1, 4, 5, 1}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.of(ItemInit.COPPER_INGOT.get())),
     ARMOR_SILVER("silver", 13, new int[] {1, 4, 5, 1}, 24, SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> Ingredient.of(ItemInit.SILVER_INGOT.get())),
@@ -34,7 +33,7 @@ public enum ArmorMaterial implements IArmorMaterial {
     ARMOR_MOISSANITE("moissanite", 42, new int[] {3, 7, 8, 4}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.MOISSANITE_GEM.get())),
     ARMOR_ONYX("onyx", 50, new int[] {3, 7, 8, 4}, 18, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ItemInit.ONYX_GEM.get())),
     ARMOR_TURQUOISE("turquoise", 38, new int[] {2, 6, 7, 3}, 22, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.01F, () -> Ingredient.of(ItemInit.TURQUOISE_GEM.get())),
-    ARMOR_GRAPHENE("graphene", 60, new int[] {3, 7, 8, 4}, 16, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.1F, () -> Ingredient.of(ItemInit.GRAPHENE_GEM.get()));
+    ARMOR_GRAPHENE("graphene", 60, new int[] {3, 7, 8, 4}, 16, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.5F, 0.1F, () -> Ingredient.of(ItemInit.GRAPHENE_GEM.get()));
 
 
     private static final int[] baseDurability = { 13, 15, 16, 11 };

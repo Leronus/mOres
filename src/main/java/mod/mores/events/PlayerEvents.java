@@ -11,8 +11,16 @@ import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+/**
+ * Event that handles all sound easter eggs
+ * @author Leronus
+ */
 @Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class PlayerEvents {
+    /**
+     * Called when a player throws an item in the world
+     * @author Leronus
+     */
     @SubscribeEvent
     public static void onPlayerToss(ItemTossEvent itemTossEvent){
         PlayerEntity player = itemTossEvent.getPlayer();

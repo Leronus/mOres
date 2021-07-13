@@ -27,4 +27,7 @@ v2.1
 - Added tooltips to all armor
 - Added duck spawn egg
 - Added duck natural generation
+- Nerfed ducks
+- Changed sound volume for easter eggs
+- Reduced knockback resistance on armor
 
