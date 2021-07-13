@@ -1,4 +1,4 @@
-v2.10
+v2.1
 - Fixed turquoise gem not showing up with proper name
 - Fixed topaz & tourmaline armor textures not showing when equipping armor
 - Added potion effects for wearing full armor sets
