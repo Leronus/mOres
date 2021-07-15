@@ -40,7 +40,6 @@ public class AutoSmeltHandler implements IWeaponEffectHelper
      */
     public void afterBlockSmelt(World world, BlockPos pos, boolean was_effective)
     {
-        Mores.LOGGER.info("tried to after-smelt");
         if (was_effective && world.isClientSide())
         {
             Random random = world.random;
@@ -102,4 +101,4 @@ public class AutoSmeltHandler implements IWeaponEffectHelper
         return ActionResultType.PASS;
     } // end onItemUse()
 
-}  // end class FyriteHandler
+}  // end class AutoSmeltHandler

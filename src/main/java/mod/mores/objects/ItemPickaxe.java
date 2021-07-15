@@ -1,5 +1,6 @@
 package mod.mores.objects;
 
+import mod.mores.Mores;
 import mod.mores.helper.AutoSmeltHandler;
 import mod.mores.init.ItemInit;
 import net.minecraft.block.BlockState;
@@ -48,14 +49,11 @@ public class ItemPickaxe extends PickaxeItem {
     @Override
     public ActionResultType useOn(ItemUseContext context)
     {
+        ActionResultType result = super.useOn(context);
         if (this.equals(ItemInit.RUBY_PICKAXE.get())) {
-            ActionResultType result = super.useOn(context);
             AutoSmeltHandler.INSTANCE.onItemUse(context);
-            return result;
         }
-        else{
-            return ActionResultType.FAIL;
-        }
+        return result;
     }
 
     @Override
