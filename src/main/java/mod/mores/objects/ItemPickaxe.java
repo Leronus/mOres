@@ -3,6 +3,7 @@ package mod.mores.objects;
 import mod.mores.Mores;
 import mod.mores.helper.AutoSmeltHandler;
 import mod.mores.init.ItemInit;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
