@@ -1,29 +1,29 @@
 {
   "display": {
-    "title": "Quicksilver",
-    "description": "You have mined your very first raw silver",
+    "title": "McNugget",
+    "description": "You have mined your very first nether silver ore",
     "icon": {
-      "item": "mores:silver_ore"
+      "item": "mores:nether_silver_ore"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_copper_ore",
+  "parent": "mores:mores/obtain_silver_ore",
   "criteria": {
     "obtain_silver_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:raw_silver"
+            "item": "mores:silver_nugget"
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 20
+    "experience": 100
   }
 }
