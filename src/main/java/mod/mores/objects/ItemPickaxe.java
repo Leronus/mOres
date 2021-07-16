@@ -38,7 +38,7 @@ public class ItemPickaxe extends PickaxeItem {
         tooltip.add(ITextComponent.nullToEmpty("Efficiency: " + TextFormatting.RED + efficiency));
 
         if (stack.getItem() == ItemInit.RUBY_PICKAXE.get()){
-            tooltip.add(ITextComponent.nullToEmpty("\nBonus: " + TextFormatting.DARK_RED + bonus));
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.DARK_RED + bonus));
         }
     }
     @Override

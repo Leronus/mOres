@@ -1,14 +1,13 @@
 ** SCHEDULED FOR THIS RELEASE **
-- Check advancements (ores tierlist maybe?)
+- Add flame effect to ruby tools
 
 
 ** POTENTIALLY NEXT RELEASE **
-- Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore
-- Tin/Silver tools & armor may need another rework
-- Amethyst values rework connected to 1.17 update (later or now?)
-- Silver ore 1.17 update
-- Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt(?))
-- Emerald tools/Obsidian tools ??
+- Emerald ore changed, may need to potentially retexture Ruby & Sapphire ore (?)
+- Tin/Silver tools & armor may need another rework (?)
+- Silver ore 1.17 update 
+- Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt) (?)
+- Emerald tools/Obsidian tools (?)
 - Add rooiekool (?)
 
 
