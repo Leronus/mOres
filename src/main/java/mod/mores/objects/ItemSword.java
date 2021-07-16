@@ -18,7 +18,9 @@ import java.util.List;
 
 public class ItemSword extends SwordItem {
     private final int maxUses;
-    private final String bonus = "Wither Effect";
+    private final String bonusEffectWither = "Wither Effect";
+    private final String bonusEffectBurn = "Burn Effect";
+
 
     public ItemSword(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
@@ -31,7 +33,10 @@ public class ItemSword extends SwordItem {
         //tooltip.add("Text: " + TextFormatting.COLOR + toolMaterial.get);
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
         if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
-            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLACK + bonus));
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLACK + bonusEffectWither));
+        }
+        if (stack.getItem() == ItemInit.RUBY_SWORD.get() || stack.getItem() == ItemInit.RUBY_MACE.get() || stack.getItem() == ItemInit.RUBY_BATTLEAXE.get() || stack.getItem() == ItemInit.RUBY_DAGGER.get()){
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.RED + bonusEffectBurn));
         }
     }
 
@@ -45,12 +50,13 @@ public class ItemSword extends SwordItem {
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         //If the item is an onyx sword, apply wither effect on targetEntity
-        if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
+        if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()) {
             target.addEffect(new EffectInstance(Effects.WITHER, 100, 0, false, false));
-            return true;
-        } else{
-            return super.hurtEnemy(stack, target, attacker);
         }
+        else if (stack.getItem() == ItemInit.RUBY_SWORD.get() || stack.getItem() == ItemInit.RUBY_MACE.get() || stack.getItem() == ItemInit.RUBY_BATTLEAXE.get() || stack.getItem() == ItemInit.RUBY_DAGGER.get()) {
+            target.setSecondsOnFire(5);
+        }
+        return super.hurtEnemy(stack, target, attacker);
     }
 
     /**
