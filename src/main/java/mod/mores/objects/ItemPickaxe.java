@@ -1,9 +1,7 @@
 package mod.mores.objects;
 
-import mod.mores.Mores;
 import mod.mores.helper.AutoSmeltHandler;
 import mod.mores.init.ItemInit;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
@@ -12,7 +10,6 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -21,6 +18,8 @@ public class ItemPickaxe extends PickaxeItem {
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
+
+    private final String bonus = "Auto Smelting";
 
     public ItemPickaxe(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
@@ -37,6 +36,10 @@ public class ItemPickaxe extends PickaxeItem {
         tooltip.add(ITextComponent.nullToEmpty("Harvest Level: " + TextFormatting.GOLD + harvestLevel));
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
         tooltip.add(ITextComponent.nullToEmpty("Efficiency: " + TextFormatting.RED + efficiency));
+
+        if (stack.getItem() == ItemInit.RUBY_PICKAXE.get()){
+            tooltip.add(ITextComponent.nullToEmpty("\nBonus: " + TextFormatting.DARK_RED + bonus));
+        }
     }
     @Override
     public boolean mineBlock(ItemStack stack, World worldIn, BlockState state, BlockPos pos,

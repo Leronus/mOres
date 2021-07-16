@@ -1,30 +1,24 @@
 package mod.mores.objects;
 
 import mod.mores.init.ItemInit;
-import mod.mores.materials.ToolMaterial;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
-import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
 public class ItemSword extends SwordItem {
     private final int maxUses;
-    private final String BONUS = "Wither Effect";
+    private final String bonus = "Wither Effect";
 
     public ItemSword(IItemTier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
@@ -37,7 +31,7 @@ public class ItemSword extends SwordItem {
         //tooltip.add("Text: " + TextFormatting.COLOR + toolMaterial.get);
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
         if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
-            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLACK + BONUS));
+            tooltip.add(ITextComponent.nullToEmpty("\nBonus: " + TextFormatting.BLACK + bonus));
         }
     }
 
