@@ -1,4 +1,12 @@
-v2.1
+v2.1.2
+- Fixed full obsidian armor advancement showing up in wrong place in advancement tree
+- Deleted Sandstorm advancement, it was the same as the SQRT(9)=3 advancement
+
+
+v2.1.1
+- Fixed material of blocks, not registering item frames (Amethyst, Topaz, Tourmaline, Tanzanite, Onyx, Ruby, Sapphire, Turquoise, Moissanite, Graphene)
+
+v2.1.0
 - Fixed turquoise gem not showing up with proper name
 - Fixed topaz & tourmaline armor textures not showing when equipping armor
 - Added potion effects for wearing full armor sets
