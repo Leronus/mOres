@@ -1,6 +1,7 @@
 v2.1.2
 - Fixed full obsidian armor advancement showing up in wrong place in advancement tree
 - Deleted Sandstorm advancement, it was the same as the SQRT(9)=3 advancement
+- Renamed craft_all_battleaxes.json advancement to God of War
 
 
 v2.1.1
