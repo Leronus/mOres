@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/root",
+  "parent": "mores:mores/obtain_amethyst",
   "criteria": {
     "craft_full_obsidian_armor": {
       "trigger": "minecraft:inventory_changed",
