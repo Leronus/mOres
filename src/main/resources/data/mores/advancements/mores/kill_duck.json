@@ -15,19 +15,11 @@
     "tame_duck": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "child": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "mores:duck"
-            },
-            "entity": "this"
-          }
-        ]
+        "entity": "mores:duck"
       }
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 10
   }
 }
