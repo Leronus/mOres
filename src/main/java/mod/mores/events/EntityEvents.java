@@ -33,8 +33,8 @@ public class EntityEvents {
         boolean savanna = biomeLoadingEvent.getCategory().equals(Biome.Category.SAVANNA);
         boolean jungle = biomeLoadingEvent.getCategory().equals(Biome.Category.JUNGLE);
 
-        if (beach || river || swamp || savanna || jungle) {
-            spawns.addSpawn(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 9, 3, 6));
+        if (beach || river) {
+            spawns.addSpawn(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 8, 3, 6));
         }
     }
 }
