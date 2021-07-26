@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:graphene_helmet"
+    },
+    "W":
+    {
+      "tag": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:graphene_leggings"
+    },
+    "G":
+    {
+      "item": "mores:graphene_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:graphene_horse_armor",
+    "count": 1
+  }
+}

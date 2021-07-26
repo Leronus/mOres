@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": "Christmas Comin' Early",
+    "description": "Roasted duck seems like a good meal",
+    "icon": {
+      "item": "mores:cooked_duck"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/kill_duck",
+  "criteria": {
+    "eat_raw_duck": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "mores:cooked_duck"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

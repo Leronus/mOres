@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$$",
+    "$#",
+    " #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "item": "mores:cobalt_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:cobalt_axe",
+    "count": 1
+  }
+}

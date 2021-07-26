@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:tourmaline_helmet"
+    },
+    "W":
+    {
+      "tag": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:tourmaline_leggings"
+    },
+    "G":
+    {
+      "item": "mores:tourmaline_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:tourmaline_horse_armor",
+    "count": 1
+  }
+}

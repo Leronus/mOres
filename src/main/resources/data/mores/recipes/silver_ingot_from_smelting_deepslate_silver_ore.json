@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "silver_ingot",
+  "ingredient": {
+    "item": "mores:deepslate_silver_ore"
+  },
+  "result": "mores:silver_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

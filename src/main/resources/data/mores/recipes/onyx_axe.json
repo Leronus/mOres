@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$$",
+    "$#",
+    " #"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "item": "mores:onyx_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:onyx_axe",
+    "count": 1
+  }
+}
