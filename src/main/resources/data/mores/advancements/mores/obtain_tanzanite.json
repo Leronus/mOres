@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Nether More",
+    "description": "You have mined your very first tanzanite ore",
+    "icon": {
+      "item": "mores:tanzanite_gem"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_amethyst",
+  "criteria": {
+    "obtain_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tanzanite_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

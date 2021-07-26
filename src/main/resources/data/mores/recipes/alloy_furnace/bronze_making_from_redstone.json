@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "modid": "mores",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "type": "mores:alloying",
+    "cookingtime": 300,
+    "experience": 2.0,
+    "inputs": [
+        {
+            "item": "mores:copper_ingot"
+        },
+        {
+            "item": "mores:tin_ingot"
+        }
+    ],
+    "catalyst": {
+	"item": "minecraft:redstone"
+    },
+    "output": {
+        "item": "mores:bronze_ingot",
+        "count": 1
+    }
+}

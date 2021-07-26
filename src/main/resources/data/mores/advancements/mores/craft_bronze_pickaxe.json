@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Time To Dig Deeper",
+    "description": "You have crafted a bronze pickaxe",
+    "icon": {
+      "item": "mores:bronze_pickaxe"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_bronze",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:bronze_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

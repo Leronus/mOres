@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Jack The Ripper",
+    "description": "You have crafted a graphene dagger",
+    "icon": {
+      "item": "mores:graphene_dagger"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_graphene",
+  "criteria": {
+    "craft_graphene_dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:graphene_dagger"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

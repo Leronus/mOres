@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "$",
+    "$",
+    "#"
+  ],
+
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:stick"
+    },
+    "$":
+    {
+      "item": "mores:bronze_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:bronze_sword",
+    "count": 1
+  }
+}

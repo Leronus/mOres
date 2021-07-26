@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": "You're A Bloody Animal",
+    "description": "Why did you kill that duck?",
+    "icon": {
+      "item": "mores:duck_spawn_egg"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/root",
+  "criteria": {
+    "tame_duck": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": "mores:duck"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
