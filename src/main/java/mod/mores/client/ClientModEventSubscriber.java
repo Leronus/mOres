@@ -1,12 +1,8 @@
 package mod.mores.client;
 
-import com.mojang.blaze3d.platform.ScreenManager;
 import mod.mores.Mores;
 import mod.mores.client.entity.DuckEntityRenderer;
-import mod.mores.gui.AlloyFurnaceScreen;
-import mod.mores.init.ContainerInit;
 import mod.mores.init.EntityTypeInit;
-import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -37,11 +33,11 @@ public class ClientModEventSubscriber
     public static void onFMLClientSetupEvent(final FMLClientSetupEvent event)
     {
         // Register ContainerType Screens
-        // ScreenManager.registerFactory is not safe to call during parallel mod loading so we queue it to run later
-        event.enqueueWork(() -> {
-            MenuScreens.register(ContainerInit.ALLOY_FURNACE, AlloyFurnaceScreen::new);
-            LOGGER.debug("Registered ContainerType Screens");
-        });
+        //TODO MenuScreens
+//        event.enqueueWork(() -> {
+//            MenuScreens.register(MenuInit.ALLOY_FURNACE, AlloyFurnaceScreen::new);
+//            LOGGER.debug("Registered ContainerType Screens");
+//        });
 
         RenderingRegistry.registerEntityRenderingHandler(EntityTypeInit.DUCK.get(), DuckEntityRenderer::new);
     }

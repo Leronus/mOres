@@ -8,10 +8,10 @@
 //import net.minecraftforge.registries.ForgeRegistries;
 //
 //public final class MenuInit {
-//    public static final DeferredRegister<MenuType<?>> CONTAINER_TYPES =
-//            DeferredRegister.create(ForgeRegistries.CONTAINERS, Mores.MOD_ID);
+//    public static final DeferredRegister<MenuType<?>> MENU_TYPES =
+//            DeferredRegister.create(ForgeRegistries.MENUS, Mores.MOD_ID);
 //
 //    public static RegistryObject<MenuType<AlloyFurnaceMenu>> ALLOY_FURNACE =
-//            CONTAINER_TYPES.register("alloy_furnace",
+//            MENU_TYPES.register("alloy_furnace",
 //                    () -> IForgeContainerType.create(AlloyFurnaceMenu::new));
 //}

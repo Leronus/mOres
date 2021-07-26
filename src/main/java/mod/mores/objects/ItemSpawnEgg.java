@@ -7,7 +7,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.level.block.DispenserBlock;
@@ -36,11 +35,12 @@ public class ItemSpawnEgg extends SpawnEggItem {
         }
     };
 
-    public ItemSpawnEgg(final EntityType<DuckEntity> entity, int primaryColor, int secondaryColor, final Properties properties) {
+    public ItemSpawnEgg(final RegistryObject<? extends EntityType<?>> entity, int primaryColor, int secondaryColor, final Properties properties) {
         super(null, primaryColor, secondaryColor, properties);
         this.lazyEntity = Lazy.of(entity::get);
         EGGS_TO_ADD.add(this);
     }
+
     public static void initSpawnEggs() {
         final Map<EntityType<?>, SpawnEggItem> EGGS = ObfuscationReflectionHelper.getPrivateValue(SpawnEggItem.class,
                 null, "field_195987_b");

@@ -1,7 +1,7 @@
 package mod.mores.init;
 
 import mod.mores.Mores;
-import mod.mores.objects.BlockAlloyFurnace;
+//import mod.mores.objects.BlockAlloyFurnace;
 import mod.mores.objects.BlockOre;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -97,7 +97,7 @@ public class BlockInit {
     public static final RegistryObject<Block> GRAPHENE_BLOCK = BLOCKS.register("graphene_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_CYAN).harvestTool(ToolType.PICKAXE).harvestLevel(6).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
     //TODO Fix alloyFurnace
-    public static final RegistryObject<BlockAlloyFurnace> ALLOY_FURNACE = BLOCKS.register("alloy_furnace", () -> new BlockAlloyFurnace(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())));
+//    public static final RegistryObject<BlockAlloyFurnace> ALLOY_FURNACE = BLOCKS.register("alloy_furnace", () -> new BlockAlloyFurnace(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())));
 
     private static ToIntFunction<BlockState> lit_makes_light() {
         return (bar) -> bar.getValue(BlockStateProperties.LIT) ? 13 : 0;

@@ -51,8 +51,8 @@ public class Mores
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
 
-        ContainerInit.CONTAINER_TYPES.register(bus);
-        //TODO BlockEntityTypes
+//        MenuInit.MENU_TYPES.register(bus);
+        //TODO AlloyFurnaceTypes
 //        BLockEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
 

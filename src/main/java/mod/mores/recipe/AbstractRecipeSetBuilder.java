@@ -1,6 +1,6 @@
 package mod.mores.recipe;
 
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
 
 public class AbstractRecipeSetBuilder
 {
