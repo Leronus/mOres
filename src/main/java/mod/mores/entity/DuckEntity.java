@@ -30,6 +30,7 @@ public class DuckEntity extends Animal {
     public float oFlapSpeed;
     public float oFlap;
     public float flapping = 1.0F;
+    private float nextFlap = 1.0F;
     public int eggTime = this.random.nextInt(6000) + 6000;
     public boolean isChickenJockey;
 

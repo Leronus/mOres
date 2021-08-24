@@ -3,7 +3,9 @@ package mod.mores.client;
 import mod.mores.Mores;
 import mod.mores.client.entity.DuckEntityRenderer;
 import mod.mores.init.EntityTypeInit;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityViewRenderEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -20,6 +22,10 @@ import org.apache.logging.log4j.Logger;
 public class ClientModEventSubscriber
 {
     private static final Logger LOGGER = LogManager.getLogger(Mores.MOD_ID + " Client Mod Event Subscriber");
+
+    public static void init() {
+
+    }
 
     /**
      * We need to register our renderers on the client because rendering code does not exist on the server
@@ -41,5 +47,9 @@ public class ClientModEventSubscriber
 
         RenderingRegistry.registerEntityRenderingHandler(EntityTypeInit.DUCK.get(), DuckEntityRenderer::new);
     }
+//    @SubscribeEvent
+//    public static void registerEntityRenders(RenderingRegistry event) {
+//        event(EntityTypeInit.DUCK.get(), DuckEntityRenderer::new);
+//    }
 
 } // end class
