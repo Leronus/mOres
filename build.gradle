@@ -90,7 +90,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.0.7'
+    minecraft 'net.minecraftforge:forge:1.17.1-37.0.44'
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
