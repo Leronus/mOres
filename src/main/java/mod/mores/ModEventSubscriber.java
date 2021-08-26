@@ -1,11 +1,9 @@
 package mod.mores;
 
-import mod.mores.config.MoresConfig;
-//import mod.mores.helper.MoresLootModifiers;
 import mod.mores.helper.MoresLootModifiers;
-import mod.mores.init.RecipeTypeInit;
-import mod.mores.recipe.FlagCondition;
+import mod.mores.init.RecipeInit;
 import mod.mores.recipe.AlloyFurnaceRecipe;
+import mod.mores.recipe.FlagCondition;
 import mod.mores.world.OreGeneration;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
@@ -19,6 +17,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 import javax.annotation.Nonnull;
 
+//import mod.mores.helper.MoresLootModifiers;
+
 @Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventSubscriber {
     /**
@@ -28,10 +28,10 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterRecipeSerializers(RegistryEvent.Register<RecipeSerializer<?>> evt)
     {
-        CraftingHelper.register(new FlagCondition.Serializer(MoresConfig.INSTANCE,
+        CraftingHelper.register(new FlagCondition.Serializer(
                 new ResourceLocation(Mores.MOD_ID, "flag")));
-        Registry.register(Registry.RECIPE_TYPE, AlloyFurnaceRecipe.TYPE_ID, RecipeTypeInit.ALLOY_TYPE);
-        evt.getRegistry().register(RecipeTypeInit.ALLOY_SERIALIZER.setRegistryName(AlloyFurnaceRecipe.TYPE_ID));
+        Registry.register(Registry.RECIPE_TYPE, AlloyFurnaceRecipe.TYPE_ID, RecipeInit.ALLOY_TYPE);
+        evt.getRegistry().register(RecipeInit.ALLOY_SERIALIZER.setRegistryName(AlloyFurnaceRecipe.TYPE_ID));
     } // end onRegisterRecipeSerializers
 
     //TODO Fix Autosmeltmodifier

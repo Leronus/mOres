@@ -2,7 +2,7 @@ package mod.mores.events;
 
 import mod.mores.Mores;
 import mod.mores.init.BlockInit;
-import mod.mores.init.SoundTypeInit;
+import mod.mores.init.SoundInit;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
@@ -29,21 +29,21 @@ public class PlayerEvents {
 
         if (state.getBlock() == BlockInit.TURQUOISE_BLOCK.get()){
             //Client
-            itemTossEvent.getEntity().playSound(SoundTypeInit.DARUDE_SANDSTORM.get(), 0.1F, 1.0F);
+            itemTossEvent.getEntity().playSound(SoundInit.DARUDE_SANDSTORM.get(), 0.1F, 1.0F);
             //Server
-            level.playSound(null, player.blockPosition(), SoundTypeInit.DARUDE_SANDSTORM.get(), SoundSource.MUSIC,0.1F, 1.0F);
+            level.playSound(null, player.blockPosition(), SoundInit.DARUDE_SANDSTORM.get(), SoundSource.MUSIC,0.1F, 1.0F);
         }
         else if (state.getBlock() == BlockInit.STERLING_BLOCK.get()){
             //Client
-            itemTossEvent.getEntity().playSound(SoundTypeInit.RICK_ASTLEY.get(), 0.1F, 1.0F);
+            itemTossEvent.getEntity().playSound(SoundInit.RICK_ASTLEY.get(), 0.1F, 1.0F);
             //Server
-            level.playSound(null, player.blockPosition(), SoundTypeInit.RICK_ASTLEY.get(), SoundSource.MUSIC,0.1F, 1.0F);
+            level.playSound(null, player.blockPosition(), SoundInit.RICK_ASTLEY.get(), SoundSource.MUSIC,0.1F, 1.0F);
         }
         else if (state.getBlock() == BlockInit.BRONZE_BLOCK.get()){
             //Client
-            itemTossEvent.getEntity().playSound(SoundTypeInit.CRAZY_FROG.get(), 0.1F, 1.0F);
+            itemTossEvent.getEntity().playSound(SoundInit.CRAZY_FROG.get(), 0.1F, 1.0F);
             //Server
-            level.playSound(null, player.blockPosition(), SoundTypeInit.CRAZY_FROG.get(), SoundSource.MUSIC, 0.1F, 1.0F);
+            level.playSound(null, player.blockPosition(), SoundInit.CRAZY_FROG.get(), SoundSource.MUSIC, 0.1F, 1.0F);
         }
     }
 }

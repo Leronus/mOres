@@ -15,7 +15,7 @@ import net.minecraftforge.common.extensions.IForgeBlockState;
 
 import java.util.Random;
 
-public class AutoSmeltHandler implements IWeaponEffectHelper
+public class AutoSmeltHandler
 {
     public static AutoSmeltHandler INSTANCE = new AutoSmeltHandler();
 
@@ -24,8 +24,6 @@ public class AutoSmeltHandler implements IWeaponEffectHelper
     /**
      * set target on fire if it's not already on fire.
      */
-    //TODO Fix hitEntity
-    @Override
     public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker)
     {
         if (target.getRemainingFireTicks() <= 100) {

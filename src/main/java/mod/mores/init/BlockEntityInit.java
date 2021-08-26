@@ -7,7 +7,7 @@
 //import net.minecraftforge.registries.DeferredRegister;
 //import net.minecraftforge.registries.ForgeRegistries;
 //
-//public class BlockEntityTypeInit {
+//public class BlockEntityInit {
 //    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Mores.MOD_ID);
 //
 //    public static final RegistryObject<BlockEntityType<AlloyFurnaceBlockEntity>> ALLOY_FURNACE_BLOCK_ENTITY_TYPE = BLOCK_ENTITY_TYPES.register("alloy_furnace", () -> BlockEntityType.Builder.of(AlloyFurnaceBlockEntity::new, BlockInit.ALLOY_FURNACE.get()).build(null));

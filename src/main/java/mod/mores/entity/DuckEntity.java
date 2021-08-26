@@ -1,7 +1,7 @@
 package mod.mores.entity;
 
-import mod.mores.init.EntityTypeInit;
-import mod.mores.init.SoundTypeInit;
+import mod.mores.init.EntityInit;
+import mod.mores.init.SoundInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
@@ -19,9 +19,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.phys.Vec3;
+
+import java.util.Random;
 
 public class DuckEntity extends Animal {
     private static final Ingredient FOOD_ITEMS = Ingredient.of(Items.WHEAT_SEEDS, Items.MELON_SEEDS, Items.PUMPKIN_SEEDS, Items.BEETROOT_SEEDS);
@@ -89,7 +93,7 @@ public class DuckEntity extends Animal {
     }
 
     protected SoundEvent getAmbientSound() {
-        return SoundTypeInit.LIVING_DUCK_SOUND.get();
+        return SoundInit.LIVING_DUCK_SOUND.get();
     }
 
     @Override
@@ -110,11 +114,11 @@ public class DuckEntity extends Animal {
 
 
     protected SoundEvent getHurtSound(DamageSource p_184601_1_) {
-        return SoundTypeInit.HURT_DUCK_SOUND.get();
+        return SoundInit.HURT_DUCK_SOUND.get();
     }
 
     protected SoundEvent getDeathSound() {
-        return SoundTypeInit.DYING_DUCK_SOUND.get();
+        return SoundInit.DYING_DUCK_SOUND.get();
     }
 
     protected void playStepSound(BlockPos p_180429_1_, BlockState p_180429_2_) {
@@ -122,7 +126,7 @@ public class DuckEntity extends Animal {
     }
 
     public DuckEntity getBreedOffspring(ServerLevel p_241840_1_, AgeableMob p_241840_2_) {
-        return EntityTypeInit.DUCK.get().create(p_241840_1_);
+        return EntityInit.DUCK_ENTITY.get().create(p_241840_1_);
     }
 
     public boolean isFood(ItemStack p_70877_1_) {
@@ -163,6 +167,10 @@ public class DuckEntity extends Animal {
             ((LivingEntity)p_184232_1_).yBodyRot = this.yBodyRot;
         }
 
+    }
+
+    public static boolean canDuckSpawn(EntityType<? extends DuckEntity> animal, LevelAccessor levelAccessor, MobSpawnType spawnType, BlockPos pos, Random random) {
+        return levelAccessor.getBlockState(pos.below()).is(Blocks.GRASS_BLOCK) && levelAccessor.getRawBrightness(pos, 0) > 8 && levelAccessor.canSeeSky(pos);
     }
 
     public boolean isChickenJockey() {

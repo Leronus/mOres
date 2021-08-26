@@ -1,14 +1,12 @@
 package mod.mores.recipe;
 
 import com.google.gson.JsonObject;
-import mod.mores.config.MoresConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.crafting.conditions.ICondition;
 import net.minecraftforge.common.crafting.conditions.IConditionSerializer;
 
 public class FlagCondition implements ICondition
 {
-    private final MoresConfig config;
     private final ResourceLocation resource;
     private final String name;
 
@@ -22,9 +20,8 @@ public class FlagCondition implements ICondition
      * @param name - the flag name, e.g. "copper_tools"
      * @param resource - the flag id, e.g. "mores:flag"
      */
-    public FlagCondition(MoresConfig cfg, String name, ResourceLocation resource)
+    public FlagCondition(String name, ResourceLocation resource)
     {
-        this.config = cfg;
         this.name = name;
         this.resource = resource;
     }
@@ -43,17 +40,14 @@ public class FlagCondition implements ICondition
 
     public static class Serializer implements IConditionSerializer<FlagCondition>
     {
-        private final MoresConfig config;
         private final ResourceLocation resource;
 
         /**
          * constructor for the FlagCondition serializer.
-         * @param config - this module's config class.
          * @param resource - same id as FlagCondition, e.g. "mores:flag"
          */
-        public Serializer(MoresConfig config, ResourceLocation resource)
+        public Serializer(ResourceLocation resource)
         {
-            this.config = config;
             this.resource = resource;
         }
 
@@ -66,7 +60,7 @@ public class FlagCondition implements ICondition
         @Override
         public FlagCondition read(JsonObject json)
         {
-            return new FlagCondition(config, json.getAsJsonPrimitive("flag").getAsString(), resource);
+            return new FlagCondition(json.getAsJsonPrimitive("flag").getAsString(), resource);
         }
 
         @Override

@@ -1,6 +1,5 @@
 package mod.mores.recipe;
 
-import mod.mores.config.MoresConfig;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.crafting.conditions.ICondition;
 
@@ -18,8 +17,8 @@ public interface IConditionBuilderMores
      */
     public ICondition flag(String name);
 
-    default ICondition impl_flag(String modid, MoresConfig cfg, String name )
+    default ICondition impl_flag(String modid, String name )
     {
-        return new FlagCondition(cfg, name, new ResourceLocation(modid, "flag"));
+        return new FlagCondition(name, new ResourceLocation(modid, "flag"));
     }
 } // end interface

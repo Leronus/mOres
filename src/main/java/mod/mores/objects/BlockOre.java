@@ -67,16 +67,16 @@ public class BlockOre extends OreBlock {
         super.animateTick(state, world, pos, random);
     }
 
-    @Override
-    public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockReader, List<Component> tooltip, TooltipFlag flagIn) {
-        super.appendHoverText(stack, blockReader, tooltip, flagIn);
-        tooltip.add(Component.nullToEmpty("Harvest Level: " + ChatFormatting.GOLD + getHarvestLevel(this.defaultBlockState())));
-    }
+//    @Override
+//    public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockReader, List<Component> tooltip, TooltipFlag flagIn) {
+//        super.appendHoverText(stack, blockReader, tooltip, flagIn);
+//        tooltip.add(Component.nullToEmpty("Harvest Level: " + ChatFormatting.GOLD + getHarvestLevel(this.defaultBlockState())));
+//    }
 
-    @Override
-    public int getHarvestLevel(BlockState state) {
-        return super.getHarvestLevel(state);
-    }
+//    @Override
+//    public int getHarvestLevel(BlockState state) {
+//        return super.getHarvestLevel(state);
+//    }
 
 
 }

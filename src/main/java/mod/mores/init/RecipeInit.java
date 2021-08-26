@@ -6,7 +6,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 
-public class RecipeTypeInit
+public class RecipeInit
 {
     public static final RecipeType<AlloyFurnaceRecipe> ALLOY_TYPE = new RecipeType<>();
     public static final RecipeSerializer<AlloyRecipe> ALLOY_SERIALIZER =

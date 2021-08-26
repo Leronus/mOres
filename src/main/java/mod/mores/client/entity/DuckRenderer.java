@@ -1,20 +1,19 @@
 package mod.mores.client.entity;
 
 import mod.mores.Mores;
-import mod.mores.client.entity.model.DuckEntityModel;
-import mod.mores.client.entity.model.LayerModel;
+import mod.mores.client.ClientModEventSubscriber;
+import mod.mores.client.entity.model.DuckModel;
 import mod.mores.entity.DuckEntity;
-import net.minecraft.client.renderer.entity.EntityRenderDispatcher;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 
-public class DuckEntityRenderer extends MobRenderer<DuckEntity, DuckEntityModel<DuckEntity>> {
+public class DuckRenderer extends MobRenderer<DuckEntity, DuckModel<DuckEntity>> {
     public static final ResourceLocation TEXTURE = new ResourceLocation(Mores.MOD_ID, "textures/entity/duck/duck_entity_model.png");
 
-    public DuckEntityRenderer(EntityRendererProvider.Context manager) {
-        super(manager, new DuckEntityModel<DuckEntity>(manager.bakeLayer(LayerModel.DUCK)), 0.3F);
+    public DuckRenderer(EntityRendererProvider.Context manager) {
+        super(manager, new DuckModel<DuckEntity>(manager.bakeLayer(ClientModEventSubscriber.DUCK_LAYER)), 0.3F);
     }
 
     @Override

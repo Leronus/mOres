@@ -14,7 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class DuckEntityModel<T extends DuckEntity> extends AgeableListModel<T> {
+public class DuckModel<T extends DuckEntity> extends AgeableListModel<T> {
   private final ModelPart head;
   private final ModelPart body;
   private final ModelPart rightLeg;
@@ -23,7 +23,7 @@ public class DuckEntityModel<T extends DuckEntity> extends AgeableListModel<T> {
   private final ModelPart leftWing;
   private final ModelPart beak;
 
-  public DuckEntityModel(ModelPart part) {
+  public DuckModel(ModelPart part) {
     this.head = part.getChild("head");
     this.beak = part.getChild("beak");
     this.body = part.getChild("body");

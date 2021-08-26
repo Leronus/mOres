@@ -1,7 +1,7 @@
 package mod.mores.events;
 
 import mod.mores.Mores;
-import mod.mores.init.EntityTypeInit;
+import mod.mores.init.EntityInit;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.MobSpawnSettings;
@@ -34,7 +34,7 @@ public class EntityEvents {
         boolean jungle = biomeLoadingEvent.getCategory().equals(Biome.BiomeCategory.JUNGLE);
 
         if (beach || river) {
-            spawns.addSpawn(MobCategory.WATER_AMBIENT, new MobSpawnSettings.SpawnerData(EntityTypeInit.DUCK.get(), 8, 3, 6));
+            spawns.addSpawn(MobCategory.WATER_AMBIENT, new MobSpawnSettings.SpawnerData(EntityInit.DUCK_ENTITY.get(), 8, 3, 6));
         }
     }
 }

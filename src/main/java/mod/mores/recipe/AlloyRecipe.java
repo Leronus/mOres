@@ -6,7 +6,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
-import mod.mores.init.RecipeTypeInit;
+import mod.mores.init.RecipeInit;
 import net.minecraft.core.NonNullList;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -141,7 +141,7 @@ public class AlloyRecipe implements AlloyFurnaceRecipe
     @Override
     public RecipeSerializer<?> getSerializer()
     {
-        return RecipeTypeInit.ALLOY_SERIALIZER;
+        return RecipeInit.ALLOY_SERIALIZER;
     }
 
 
