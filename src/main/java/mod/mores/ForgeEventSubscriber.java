@@ -1,5 +1,6 @@
 package mod.mores;
 
+import mod.mores.world.DeepslateOreGeneration;
 import mod.mores.world.OreGeneration;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
@@ -21,11 +22,13 @@ public class ForgeEventSubscriber {
     {
         if (evt.getCategory() == Biome.Category.NETHER)
         {
-            OreGeneration.generateOres(evt);
+            //OreGeneration.generateOres(evt);
+            DeepslateOreGeneration.generateOres(evt);
         }
         else if (evt.getCategory() != Biome.Category.THEEND)
         {
-            OreGeneration.generateOres(evt);
+            //OreGeneration.generateOres(evt);
+            DeepslateOreGeneration.generateOres(evt);
         }
     } // end onBiomeLoading()
 }

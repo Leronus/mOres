@@ -1,8 +1,6 @@
 package mod.mores.world;
 
 import mod.mores.init.BlockInit;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
@@ -20,10 +18,9 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
  * This class handles the ore generation for all ores added by mOres
  * @author Leronus
  */
-public class OreGeneration {
+public class DeepslateOreGeneration {
     //Create new fillerBlockType
     public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
-
     public static final RuleTest NATURAL_STONE = OreFeatureConfig.FillerBlockType.NATURAL_STONE;
     public static final RuleTest NETHERRACK = OreFeatureConfig.FillerBlockType.NETHERRACK;
 
@@ -34,6 +31,9 @@ public class OreGeneration {
     public static void generateOres(final BiomeLoadingEvent event) {
         //Overworld
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
+            generateOre(event.getGeneration(), NATURAL_STONE,
+                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 20, 0, 12, 100);
+
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 34);
             generateOre(event.getGeneration(), NATURAL_STONE,
