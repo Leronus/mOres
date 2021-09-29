@@ -451,6 +451,9 @@
   "item.mores.duck": "Rauwe eend",
   "item.mores.cooked_duck": "Gebraden eend",
 
+  "block.mores.deepslate_block" : "Deepslate",
+  "block.mores.cobbled_deepslate" : "Kobbeldeepslate",
+
   "itemGroup.mores_materials" : "mOresMaterialen",
   "itemGroup.mores_tools" : "mOresGereedschap",
   "itemGroup.mores_weapons" : "mOresWapens",

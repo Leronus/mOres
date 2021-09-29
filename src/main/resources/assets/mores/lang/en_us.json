@@ -440,12 +440,16 @@
   "item.mores.bronze_nugget" : "Bronze Nugget",
   "item.mores.silver_apple" : "Silver Apple",
   "item.mores.bronze_apple" : "Bronze Apple",
+
   "item.mores.rooiekool" : "Rooiekool",
+
   "item.mores.duck": "Raw Duck",
   "item.mores.cooked_duck": "Cooked Duck",
   "item.mores.duck_spawn_egg": "Duck Spawn Egg",
-
   "entity.mores.duck": "Duck",
+
+  "block.mores.deepslate_block" : "Deepslate",
+  "block.mores.cobbled_deepslate" : "Cobbled Deepslate",
 
   "itemGroup.mores_materials" : "mOres Materials",
   "itemGroup.mores_tools" : "mOres Tools",
