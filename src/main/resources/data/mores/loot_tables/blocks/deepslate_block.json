@@ -27,7 +27,7 @@
               ]
             },
             {
-              "type": "minecraft:item",
+              "type": "minecraft:block",
               "name": "mores:cobbled_deepslate",
               "conditions": [
                 {
