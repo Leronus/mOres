@@ -516,6 +516,9 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> STERLING_BLOCK = ITEMS.register("sterling_block", () -> new BlockItem(BlockInit.STERLING_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> GRAPHENE_BLOCK = ITEMS.register("graphene_block", () -> new BlockItem(BlockInit.GRAPHENE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
+    public static final RegistryObject<BlockItem> DEEPSLATE_BLOCK = ITEMS.register("deepslate_block", () -> new BlockItem(BlockInit.DEEPSLATE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+    public static final RegistryObject<BlockItem> COBBLED_DEEPSLATE = ITEMS.register("cobbled_deepslate", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+
     //Regular block as of now, will become TileEntity later
     public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 

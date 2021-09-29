@@ -25,6 +25,7 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Mores.MOD_ID);
 
 
+
     /**
      * Fills the registry with blocks
      */

@@ -1,6 +1,7 @@
 package mod.mores.world;
 
 import mod.mores.init.BlockInit;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
@@ -13,6 +14,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.TopSolidRangeConfig;
 import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import org.apache.commons.codec.language.bm.Rule;
 
 /**
  * This class handles the ore generation for all ores added by mOres
@@ -23,6 +25,7 @@ public class DeepslateOreGeneration {
     public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
     public static final RuleTest NATURAL_STONE = OreFeatureConfig.FillerBlockType.NATURAL_STONE;
     public static final RuleTest NETHERRACK = OreFeatureConfig.FillerBlockType.NETHERRACK;
+//    public static final RuleTest DEEPSLATE = new BlockMatchRuleTest(Block.
 
     /**
      * Generates all the ores in the three different world biomes
