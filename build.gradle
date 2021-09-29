@@ -13,7 +13,7 @@ apply plugin: 'maven-publish'
 
 version = 'v2.1'
 group = 'mod.mores'
-archivesBaseName = 'mOres'
+archivesBaseName = 'mores'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
@@ -84,6 +84,9 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
 
     runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
+    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-411623:3238477") //Caves and Cliffs Big Project 300k DL
+//    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-411288:3430446") //Caves and Cliffs Smaller one, 180k DL
+    runtimeOnly fg.deobf("curse.maven:xray-226375:3226914") //XRay for testing ore gen
 }
 
 jar {

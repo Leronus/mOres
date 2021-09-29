@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_turquoise_9",
+  "parent": "mores:mores/obtain_turquoise",
   "criteria": {
     "place_turquoise_block": {
       "trigger": "minecraft:placed_block",
