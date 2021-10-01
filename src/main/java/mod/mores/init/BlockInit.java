@@ -7,11 +7,13 @@ import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.Objects;
 import java.util.function.ToIntFunction;
 
 /**
@@ -94,11 +96,10 @@ public class BlockInit {
 
     public static final RegistryObject<Block> GRAPHENE_BLOCK = BLOCKS.register("graphene_block", () -> new Block(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_CYAN).harvestTool(ToolType.PICKAXE).harvestLevel(6).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> DEEPSLATE_BLOCK = BLOCKS.register("deepslate_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DEEPSLATE_BLOCK = BLOCKS.register("deepslate_block", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops().lootFrom(BlockInit.COBBLED_DEEPSLATE)));
     public static final RegistryObject<Block> COBBLED_DEEPSLATE = BLOCKS.register("cobbled_deepslate", () -> new Block(AbstractBlock.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<BlockAlloyFurnace> ALLOY_FURNACE = BLOCKS.register("alloy_furnace", () -> new BlockAlloyFurnace(AbstractBlock.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).harvestTool(ToolType.PICKAXE).harvestLevel(0).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())));
-
 
     private static ToIntFunction<BlockState> lit_makes_light() {
         return (bar) -> bar.getValue(BlockStateProperties.LIT) ? 13 : 0;
