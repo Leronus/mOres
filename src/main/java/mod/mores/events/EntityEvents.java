@@ -34,7 +34,7 @@ public class EntityEvents {
         boolean jungle = biomeLoadingEvent.getCategory().equals(Biome.Category.JUNGLE);
 
         if (beach || river) {
-            spawns.addSpawn(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 8, 3, 6));
+            spawns.addSpawn(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 6, 3, 6));
         }
     }
 }
