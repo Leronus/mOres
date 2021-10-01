@@ -35,7 +35,7 @@ public class DeepslateOreGeneration {
     public static void generateDeepslate(final BiomeLoadingEvent event) {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 30, 0, 12, 100);
+                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 25, 0, 8, 100);
         }
     }
 
@@ -62,33 +62,33 @@ public class DeepslateOreGeneration {
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 11);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 4);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 6, 15, 4);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 6);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 5);
+                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 11, 5);
 
             //Deepslate
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_TIN_ORE.get().defaultBlockState(), 11, 54, 145, 34);
+                    BlockInit.DEEPSLATE_TIN_ORE.get().defaultBlockState(), 11, 6, 8, 2);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 32);
+                    BlockInit.DEEPSLATE_COPPER_ORE.get().defaultBlockState(), 10, 6, 8, 2);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_SILVER_ORE.get().defaultBlockState(), 7, 31, 65, 18);
+                    BlockInit.DEEPSLATE_SILVER_ORE.get().defaultBlockState(), 7, 5, 8, 2);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_COBALT_ORE.get().defaultBlockState(), 6, 22, 42, 17);
+                    BlockInit.DEEPSLATE_COBALT_ORE.get().defaultBlockState(), 6, 5, 8, 3);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_AMETHYST_ORE.get().defaultBlockState(), 7, 17, 34, 15);
+                    BlockInit.DEEPSLATE_AMETHYST_ORE.get().defaultBlockState(), 7, 5, 8, 3);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 9);
+                    BlockInit.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState(), 5, 4, 8, 3);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 11);
+                    BlockInit.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState(), 5, 4, 8, 3);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 4);
+                    BlockInit.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 8, 6);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 6);
+                    BlockInit.DEEPSLATE_RUBY_ORE.get().defaultBlockState(), 4, 3, 8, 4);
             generateOre(event.getGeneration(), DEEPSLATE,
-                    BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 5);
+                    BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 8, 5);
         }
         //Nether
         else if (event.getCategory().equals(Biome.Category.NETHER)){
