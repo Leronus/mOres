@@ -5,7 +5,6 @@ import mod.mores.events.HarvestEvent;
 import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
 import mod.mores.world.DeepslateOreGeneration;
-import mod.mores.world.OreGeneration;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
@@ -62,17 +61,17 @@ public class Mores
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        // Start the ore generation
-        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
+        // Start the deepslate generation
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, DeepslateOreGeneration::generateDeepslate);
+        //Start the ore generation
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
+
+        /* MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres); */
     }
 
     @SuppressWarnings("deprecation")
     private void setup(final FMLCommonSetupEvent event) {
-        // .build() used to be .create() not sure of that's good
         DeferredWorkQueue.runLater(() -> GlobalEntityTypeAttributes.put(EntityTypeInit.DUCK.get(), DuckEntity.setAttributes().build()));
-//        LOGGER.info("PreInit");
-//        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
@@ -82,13 +81,13 @@ public class Mores
 
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
-        // some example code to dispatch IMC to another mod
+        // dispatch IMC to another mod
         InterModComms.sendTo("mores", "modloaded", () -> { LOGGER.info("Intermod queue event"); return "Mores ready to talk";});
     }
 
     private void processIMC(final InterModProcessEvent event)
     {
-        // some example code to receive and process InterModComms from other mods
+        // receive and process InterModComms from other mods
         LOGGER.info("Got IMC {}", event.getIMCStream().
                 map(m->m.getMessageSupplier().get()).
                 collect(Collectors.toList()));
@@ -98,7 +97,6 @@ public class Mores
         ItemSpawnEgg.initSpawnEggs();
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
         // do something when the server starts
