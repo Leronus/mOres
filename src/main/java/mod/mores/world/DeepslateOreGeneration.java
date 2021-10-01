@@ -35,7 +35,7 @@ public class DeepslateOreGeneration {
     public static void generateDeepslate(final BiomeLoadingEvent event) {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 25, 0, 8, 100);
+                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 20, 0, 8, 100);
         }
     }
 
