@@ -15,7 +15,9 @@
     "eat_raw_duck": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": "mores:cooked_duck"
+        "item": {
+          "item": "mores:cooked_duck"
+        }
       }
     }
   },
