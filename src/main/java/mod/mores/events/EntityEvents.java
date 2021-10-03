@@ -9,32 +9,34 @@ import net.minecraftforge.common.world.MobSpawnInfoBuilder;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * Event that handles all natural entity spawning
  * @author Leronus
  */
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID)
+@Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class EntityEvents {
     /**
      * Called when a biome is loaded
      * @author Leronus
      */
     @SubscribeEvent
-    public static void onBiomeLoad(final BiomeLoadingEvent biomeLoadingEvent){
-        if (biomeLoadingEvent.getName() == null){
+    public static void onBiomeLoad(final BiomeLoadingEvent event){
+        if (event.getName() == null){
             return;
         }
-        MobSpawnInfoBuilder spawns = biomeLoadingEvent.getSpawns();
-        boolean beach = biomeLoadingEvent.getCategory().equals(Biome.Category.BEACH);
-        boolean river = biomeLoadingEvent.getCategory().equals(Biome.Category.RIVER);
-        boolean swamp = biomeLoadingEvent.getCategory().equals(Biome.Category.SWAMP);
-        boolean ocean = biomeLoadingEvent.getCategory().equals(Biome.Category.OCEAN);
-        boolean savanna = biomeLoadingEvent.getCategory().equals(Biome.Category.SAVANNA);
-        boolean jungle = biomeLoadingEvent.getCategory().equals(Biome.Category.JUNGLE);
 
-        if (beach || river) {
-            spawns.addSpawn(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 6, 3, 6));
+        MobSpawnInfoBuilder spawns = event.getSpawns();
+
+        boolean beach = event.getCategory().equals(Biome.Category.BEACH);
+        boolean river = event.getCategory().equals(Biome.Category.RIVER);
+
+        if (river) {
+            spawns.getSpawner(EntityClassification.WATER_AMBIENT).add(new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 4, 1, 3));
+        }
+        else if (beach) {
+            spawns.getSpawner(EntityClassification.WATER_AMBIENT).add(new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 7, 2, 4));
         }
     }
 }
