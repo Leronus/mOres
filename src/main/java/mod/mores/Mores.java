@@ -61,6 +61,8 @@ public class Mores
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        // Start the deepslate generation
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, DeepslateOreGeneration::generateDeepslate);
         //Start the ore generation
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
 

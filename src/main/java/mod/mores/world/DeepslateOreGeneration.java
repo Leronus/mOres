@@ -27,17 +27,17 @@ public class DeepslateOreGeneration {
     public static final RuleTest NATURAL_STONE = OreFeatureConfig.FillerBlockType.NATURAL_STONE;
     public static final RuleTest NETHERRACK = OreFeatureConfig.FillerBlockType.NETHERRACK;
     public static final RuleTest DEEPSLATE = new BlockMatchRuleTest(BlockInit.DEEPSLATE_BLOCK.get());
-//
-//    /**
-//     * Generates deepslate in the overworld
-//     * @param event Type of world biome
-//     */
-//    public static void generateDeepslate(final BiomeLoadingEvent event) {
-//        if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
-//            generateOre(event.getGeneration(), NATURAL_STONE,
-//                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 22, 0, 10, 100);
-//        }
-//    }
+
+    /**
+     * Generates deepslate in the overworld
+     * @param event Type of world biome
+     */
+    public static void generateDeepslate(final BiomeLoadingEvent event) {
+        if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
+            generateOre(event.getGeneration(), NATURAL_STONE,
+                    BlockInit.DEEPSLATE_BLOCK.get().defaultBlockState(), 22, 0, 30, 100);
+        }
+    }
 
     /**
      * Generates all the ores in the three different world biomes
