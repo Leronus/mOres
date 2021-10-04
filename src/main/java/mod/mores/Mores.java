@@ -64,7 +64,7 @@ public class Mores
 //        // Start the deepslate generation
 //        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, DeepslateOreGeneration::generateDeepslate);
         //Start the ore generation
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGHEST, DeepslateOreGeneration::generateOres);
 
         /* MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres); */
     }

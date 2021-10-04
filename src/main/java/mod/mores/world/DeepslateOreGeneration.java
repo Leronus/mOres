@@ -26,7 +26,7 @@ public class DeepslateOreGeneration {
     public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
     public static final RuleTest NATURAL_STONE = OreFeatureConfig.FillerBlockType.NATURAL_STONE;
     public static final RuleTest NETHERRACK = OreFeatureConfig.FillerBlockType.NETHERRACK;
-    public static final RuleTest DEEPSLATE = new BlockMatchRuleTest(BlockInit.DEEPSLATE_BLOCK.get());
+//    public static final RuleTest DEEPSLATE = new BlockMatchRuleTest(BlockInit.DEEPSLATE_BLOCK.get());
 
 //    /**
 //     * Generates deepslate in the overworld
@@ -40,7 +40,7 @@ public class DeepslateOreGeneration {
 //    }
 
     /**
-     * Generates all the ores in the three different world biomes
+     * Generates all the ores in the three different world biomes - Optimised for worldgen with the Caves and Cliffs 1.16 backport
      * @param event Type of world biome
      */
     public static void generateOres(final BiomeLoadingEvent event) {
@@ -48,25 +48,25 @@ public class DeepslateOreGeneration {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TIN_ORE.get().defaultBlockState(), 9, 54, 70, 34);
+                    BlockInit.TIN_ORE.get().defaultBlockState(), 9, 54, 120, 28);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COPPER_ORE.get().defaultBlockState(), 8, 47, 65, 32);
+                    BlockInit.COPPER_ORE.get().defaultBlockState(), 8, 47, 110, 26);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 52, 18);
+                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 36, 70, 18);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 30, 48, 17);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 32, 38, 16);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 30, 44, 15);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 6, 32, 36, 12);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 30, 38, 9);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 30, 33, 8);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 4, 30, 36, 10);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 4, 30, 33, 9);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 3, 30, 33, 2);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 3, 30, 31, 2);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.RUBY_ORE.get().defaultBlockState(), 3, 30, 33, 1);
+                    BlockInit.RUBY_ORE.get().defaultBlockState(), 3, 30, 31, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 2, 30, 31, 1);
+                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 30, 31, 1);
 
             //Deepslate
             generateOre(event.getGeneration(), NATURAL_STONE,
