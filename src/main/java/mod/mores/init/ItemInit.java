@@ -524,4 +524,6 @@ public class ItemInit{
     //Regular block as of now, will become TileEntity later
     public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
+
+    public static final RegistryObject<ShieldItem> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ShieldItem(new Item.Properties().durability(336).tab(ItemGroup.TAB_COMBAT)));
 }

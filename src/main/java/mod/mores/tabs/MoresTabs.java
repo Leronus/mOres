@@ -52,28 +52,35 @@ public class MoresTabs extends ItemGroup {
         }
     }).setRecipeFolderName("mores_weapons");
 
-    public static final ItemGroup MORES_ARMOR = (new MoresTabs(17, "mores_armor") {
+    public static final ItemGroup MORES_SHIELDS = (new MoresTabs(17, "mores_shields") {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(ItemInit.COPPER_SHIELD.get());
+        }
+    }).setRecipeFolderName("mores_shields");
+
+    public static final ItemGroup MORES_ARMOR = (new MoresTabs(18, "mores_armor") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ItemInit.MOISSANITE_CHESTPLATE.get());
         }
     }).setRecipeFolderName("mores_armor");
 
-    public static final ItemGroup MORES_HORSE_ARMOR = (new MoresTabs(18, "mores_horse_armor") {
+    public static final ItemGroup MORES_HORSE_ARMOR = (new MoresTabs(19, "mores_horse_armor") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ItemInit.AMETHYST_HORSE_ARMOR.get());
         }
     }).setRecipeFolderName("mores_horse_armor");
 
-    public static final ItemGroup MORES_FOODS = (new MoresTabs(19, "mores_foods") {
+    public static final ItemGroup MORES_FOODS = (new MoresTabs(20, "mores_foods") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ItemInit.SILVER_APPLE.get());
         }
     }).setRecipeFolderName("mores_foods");
 
-    public static final ItemGroup MORES_ENTITIES = (new MoresTabs(20, "mores_entities") {
+    public static final ItemGroup MORES_ENTITIES = (new MoresTabs(21, "mores_entities") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
             return new ItemStack(ItemInit.DUCK_SPAWN_EGG.get());
