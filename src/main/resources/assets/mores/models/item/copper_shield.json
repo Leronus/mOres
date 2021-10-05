@@ -1,7 +1,11 @@
 {
-  "parent": "item/handheld",
-  "textures":
-  {
-    "layer0": "mores:items/copper_shield"
-  }
+    "parent":"mores:item/wood_shield",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "mores:item/wood_shield_blocking"
+        }
+    ]
 }

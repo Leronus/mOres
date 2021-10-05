@@ -1,18 +1,15 @@
 package mod.mores.container;
 
-import mod.mores.helper.FunctionalIntReferenceHolder;
+import mod.mores.util.FunctionalIntReferenceHolder;
 import mod.mores.objects.BlockAlloyFurnace;
-import mod.mores.helper.FurnaceResultSlotItemHandler;
+import mod.mores.util.FurnaceResultSlotItemHandler;
 import mod.mores.tileentity.AbstractAlloyFurnaceTileEntity;
-import mod.mores.tileentity.AlloyFurnaceTileEntity;
-import net.minecraft.block.Block;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.IWorldPosCallable;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.items.SlotItemHandler;

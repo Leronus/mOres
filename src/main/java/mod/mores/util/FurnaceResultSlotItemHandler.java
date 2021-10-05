@@ -1,4 +1,4 @@
-package mod.mores.helper;
+package mod.mores.util;
 
 import mod.mores.tileentity.AbstractAlloyFurnaceTileEntity;
 import net.minecraft.entity.player.PlayerEntity;

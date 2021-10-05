@@ -1,4 +1,4 @@
-package mod.mores.helper;
+package mod.mores.util;
 
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.dispenser.IBlockSource;

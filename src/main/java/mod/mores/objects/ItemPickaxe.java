@@ -1,6 +1,6 @@
 package mod.mores.objects;
 
-import mod.mores.helper.AutoSmeltHandler;
+import mod.mores.util.AutoSmeltHandler;
 import mod.mores.init.ItemInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.util.ITooltipFlag;

@@ -1,6 +1,5 @@
-package mod.mores.helper;
+package mod.mores.util;
 
-import mod.mores.Mores;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;

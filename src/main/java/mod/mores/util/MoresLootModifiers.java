@@ -1,4 +1,4 @@
-package mod.mores.helper;
+package mod.mores.util;
 
 import com.google.gson.JsonObject;
 import net.minecraft.inventory.Inventory;

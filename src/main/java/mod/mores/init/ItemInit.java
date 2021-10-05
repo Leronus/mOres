@@ -1,14 +1,17 @@
 package mod.mores.init;
 
 import mod.mores.Mores;
+import mod.mores.config.Config;
 import mod.mores.materials.ArmorMaterial;
 import mod.mores.materials.ToolMaterial;
 import mod.mores.objects.*;
 import mod.mores.tabs.MoresTabs;
+import mod.mores.util.MoresTags;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -525,5 +528,5 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
 
-    public static final RegistryObject<ShieldItem> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ShieldItem(new Item.Properties().durability(336).tab(MoresTabs.MORES_SHIELDS)));
+    public static final RegistryObject<ItemShield> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ItemShield(() -> Config.copperShieldDamageReduction.get(), MoresTags.Items.COPPER, Config.copperDurability.get(), false));
 }

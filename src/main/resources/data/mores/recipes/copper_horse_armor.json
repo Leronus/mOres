@@ -25,7 +25,7 @@
     },
     "G":
     {
-      "item": "mores:copper_ingot"
+      "tag": "forge:ingots/copper"
     }
   },
 

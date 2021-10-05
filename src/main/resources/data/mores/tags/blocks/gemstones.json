@@ -1,0 +1,16 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:diamond_block",
+    "mores:amethyst_block",
+    "mores:tourmaline_block",
+    "mores:topaz_block",
+    "mores:sapphire_block",
+    "mores:ruby_block",
+    "mores:moissanite_block",
+    "mores:turquoise_block",
+    "mores:onyx_block",
+    "mores:tanzanite_block",
+    "minecraft:emerald_block"
+  ]
+}

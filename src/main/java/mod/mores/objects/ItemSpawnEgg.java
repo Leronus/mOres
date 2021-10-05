@@ -1,6 +1,6 @@
 package mod.mores.objects;
 
-import mod.mores.helper.ModifiedDispenseItemBehavior;
+import mod.mores.util.ModifiedDispenseItemBehavior;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.dispenser.IBlockSource;
 import net.minecraft.entity.EntityType;
