@@ -1,5 +1,6 @@
 package mod.mores;
 
+import mod.mores.config.Config;
 import mod.mores.entity.DuckEntity;
 import mod.mores.events.HarvestEvent;
 import mod.mores.init.*;
@@ -37,6 +38,7 @@ public class Mores
     public static final String MOD_ID = "mores";
 
     public Mores() {
+        new Config();
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the setup method for modloading

@@ -62,7 +62,7 @@ public class DeepslateOreGeneration {
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 4, 30, 33, 9);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 3, 30, 31, 2);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 3, 30, 31, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.RUBY_ORE.get().defaultBlockState(), 3, 30, 31, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,

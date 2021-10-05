@@ -1,7 +1,7 @@
 package mod.mores;
 
 import mod.mores.config.MoresConfig;
-import mod.mores.helper.MoresLootModifiers;
+import mod.mores.util.MoresLootModifiers;
 import mod.mores.init.RecipeTypeInit;
 import mod.mores.recipe.FlagCondition;
 import mod.mores.recipe.IAlloyFurnaceRecipe;

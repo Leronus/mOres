@@ -1,3 +1,9 @@
+v2.1.?
+- Copper textures fully updated
+- Added textures for copper & sapphire shields
+- Ore generation revamped especially for Caves and Cliffs backport (is now a requirement/dependency for this specific version of the mod)
+
+
 v2.1.4
 - Further duck spawn balancing
 - More advancements fixed (kill duck, burn duck, eat raw duck)

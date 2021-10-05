@@ -1,7 +1,7 @@
 package mod.mores.client;
 
 import mod.mores.Mores;
-import mod.mores.client.entity.DuckEntityRenderer;
+import mod.mores.client.entity.render.DuckEntityRenderer;
 import mod.mores.gui.AlloyFurnaceScreen;
 import mod.mores.init.ContainerInit;
 

@@ -1,4 +1,4 @@
-package mod.mores.client.entity;
+package mod.mores.client.entity.render;
 
 import mod.mores.Mores;
 import mod.mores.client.entity.model.DuckEntityModel;

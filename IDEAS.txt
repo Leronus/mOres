@@ -1,21 +1,24 @@
 -- PENDING FOR REVIEW --
-- Daggers throwable?
-- Spears?
-- Armored shields of some sort?
+- Daggers throwable
+- Spears
 
 
 -- APPROVED -- 
-
+- Custom paintings
 
 
 -- DOING --
-
+- Shields
 
 
 -- IMPLEMENTED --
 - Edible apples with potion effects (bronze, silver, diamond)
 - Duck entity (idea from before mOres v0.1 mc1.7)
+- Deepslate ore generation
+- Autosmelter for ruby
+- Potion effects for full armor sets
 
 
 -- REJECTED -- 
+- Bows
 
