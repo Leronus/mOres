@@ -7,7 +7,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-@OnlyIn(Dist.CLIENT)
+//@OnlyIn(Dist.CLIENT)
 public class ShieldTextures {
     public static final RenderMaterial LOCATION_COPPER_SHIELD_BASE_PATTERN = material("entity/copper_shield_base_pattern");
     public static final RenderMaterial LOCATION_COPPER_SHIELD_BASE_NOPATTERN = material("entity/copper_shield_base_nopattern");
