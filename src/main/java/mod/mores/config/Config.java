@@ -11,8 +11,11 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Config {
+    public static Config INSTANCE = new Config();
 
     private static CommentedFileConfig cfg;
     private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -21,13 +24,13 @@ public class Config {
     public static BooleanValue customShieldMaxReduction;
     public static ConfigValue<Integer> defaultDamageReduction;
     public static ConfigValue<Integer> copperShieldDamageReduction;
-//    public static ConfigValue<Integer> goldDamageReduction;
-//    public static ConfigValue<Integer> diamondDamageReduction;
-//    public static ConfigValue<Integer> netheriteDamageReduction;
+//    public static ConfigValue<Integer> silverDamageReduction;
+//    public static ConfigValue<Integer> tinDamageReduction;
+//    public static ConfigValue<Integer> cobaltDamageReduction;
     public static ConfigValue<Integer> copperDurability;
-//    public static ConfigValue<Integer> goldDurability;
-//    public static ConfigValue<Integer> diamondDurability;
-//    public static ConfigValue<Integer> netheriteDurability;
+//    public static ConfigValue<Integer> silverDurability;
+//    public static ConfigValue<Integer> tinDurability;
+//    public static ConfigValue<Integer> cobaltDurability;
     public static BooleanValue thornsOnShields;
 
     public Config() {
@@ -54,14 +57,14 @@ public class Config {
 //                "The portion of the incoming damage Gold Shields block in percent.");
 //        diamondDamageReduction = getInt("diamondDamageReduction", CATEGORY_SHIELD, 98,
 //                "The portion of the incoming damage Diamond Shields block in percent.");
-//        netheriteDamageReduction = getInt("netheriteDamageReduction", CATEGORY_SHIELD, 100,
-//                "The portion of the incoming damage Netherite Shields block in percent.");
+//        cobaltDamageReduction = getInt("cobaltDamageReduction", CATEGORY_SHIELD, 100,
+//                "The portion of the incoming damage Cobalt Shields block in percent.");
         copperDurability = getInt("copperDurability", CATEGORY_SHIELD, 920, "The durability of the Copper Shield.");
 //        goldDurability = getInt("goldDurability", CATEGORY_SHIELD, 130, "The durability of the Gold Shield.");
 //        diamondDurability = getInt("diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
-//        netheriteDurability = getInt("netheriteDurability", CATEGORY_SHIELD, 6300,
-//                "The durability of the Netherite Shield.");
+//        cobaltDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 6300,
+//                "The durability of the Cobalt Shield.");
         thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELD, true,
                 "Allows the Thorns enchantment to by applied to Shields");
     }
@@ -74,6 +77,38 @@ public class Config {
     private static ConfigValue<Integer> getInt(String name, String category, int defaultValue, String comment) {
         String path = category + "." + name;
         return builder.comment(comment, "Default: " + defaultValue).define(path, defaultValue);
+    }
+
+    // recipe flags
+    Map<String, Boolean> flags = new HashMap<>();
+
+    /**
+     * get the value of flag "n".
+     * @param n - name of flag
+     * @return boolean value.
+     */
+    public boolean getFlag (String n)
+    {
+        Boolean obj = flags.get(n);
+        return obj != null && obj;
+    }
+
+    /**
+     * clear the flag collection.
+     */
+    public void clear ()
+    {
+        flags.clear();
+    }
+
+    /**
+     * add a flag to the flag collection
+     * @param n - name of flag
+     * @param val - boolean value of flag
+     */
+    public void putFlag (String n,boolean val)
+    {
+        flags.put(n, val);
     }
 
 }

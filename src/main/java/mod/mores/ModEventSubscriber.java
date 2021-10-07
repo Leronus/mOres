@@ -1,6 +1,6 @@
 package mod.mores;
 
-import mod.mores.config.MoresConfig;
+import mod.mores.config.Config;
 import mod.mores.util.MoresLootModifiers;
 import mod.mores.init.RecipeTypeInit;
 import mod.mores.recipe.FlagCondition;
@@ -25,7 +25,7 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterRecipeSerializers(RegistryEvent.Register<IRecipeSerializer<?>> evt)
     {
-        CraftingHelper.register(new FlagCondition.Serializer(MoresConfig.INSTANCE,
+        CraftingHelper.register(new FlagCondition.Serializer(Config.INSTANCE,
                 new ResourceLocation(Mores.MOD_ID, "flag")));
         Registry.register(Registry.RECIPE_TYPE, IAlloyFurnaceRecipe.TYPE_ID, RecipeTypeInit.ALLOY_TYPE);
         evt.getRegistry().register(RecipeTypeInit.ALLOY_SERIALIZER.setRegistryName(IAlloyFurnaceRecipe.TYPE_ID));

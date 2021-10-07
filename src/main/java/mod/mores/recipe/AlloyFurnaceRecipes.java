@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 import mod.mores.Mores;
-import mod.mores.config.MoresConfig;
+import mod.mores.config.Config;
 import mod.mores.init.ItemInit;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.IFinishedRecipe;
@@ -25,7 +25,7 @@ public class AlloyFurnaceRecipes extends RecipeProvider
 
     public AlloyFurnaceRecipes(DataGenerator generatorIn) {
         super(generatorIn);
-        alloybuilder = new AlloyRecipeSetBuilder(Mores.MOD_ID);
+        alloybuilder = new AlloyRecipeSetBuilder();
     }
 
     @Override
@@ -101,6 +101,6 @@ public class AlloyFurnaceRecipes extends RecipeProvider
      * Builds an ICondition representing FlagCondition...
      */
     public ICondition flag(String name) {
-        return impl_flag(Mores.MOD_ID, MoresConfig.INSTANCE, name);
+        return impl_flag(Mores.MOD_ID, Config.INSTANCE, name);
     }
 }

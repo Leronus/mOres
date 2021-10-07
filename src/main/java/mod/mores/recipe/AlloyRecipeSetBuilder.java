@@ -1,5 +1,6 @@
 package mod.mores.recipe;
 
+import mod.mores.Mores;
 import net.minecraft.data.IFinishedRecipe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
@@ -11,12 +12,11 @@ import net.minecraftforge.common.crafting.conditions.ICondition;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class AlloyRecipeSetBuilder extends RecipeSetBuilder
+public class AlloyRecipeSetBuilder
 {
 
-    public AlloyRecipeSetBuilder(String modid)
-    {
-        super(modid);
+    public AlloyRecipeSetBuilder(){
+
     }
 
     public void buildBasicAlloyRecipes(Consumer<IFinishedRecipe> consumer, List<Ingredient> primaryInputs,
@@ -49,7 +49,7 @@ public class AlloyRecipeSetBuilder extends RecipeSetBuilder
         }
 
         ResourceLocation ingot_name = (ingot != null)
-                ? AbstractAlloyFurnaceRecipeProvider.id(modid, ingot.asItem().toString() + suffix)
+                ? AbstractAlloyFurnaceRecipeProvider.id(Mores.MOD_ID, ingot.asItem().toString() + suffix)
                 : null;
 
         if (condition == null)
@@ -92,7 +92,7 @@ public class AlloyRecipeSetBuilder extends RecipeSetBuilder
                                             Ingredient ingrs_doubleoutput, Ingredient input2, Ingredient catalyst, IItemProvider output_item, float experience,
                                             int cooktime, ICondition condition, String name)
     {
-        ResourceLocation recipe1 = AbstractAlloyFurnaceRecipeProvider.id(modid, name + '1');
+        ResourceLocation recipe1 = AbstractAlloyFurnaceRecipeProvider.id(Mores.MOD_ID, name + '1');
         if (ingredients != null)
         {
             ConditionalRecipe.builder()
@@ -104,7 +104,7 @@ public class AlloyRecipeSetBuilder extends RecipeSetBuilder
         }
         if (ingrs_doubleoutput != null)
         {
-            ResourceLocation recipe2 = AbstractAlloyFurnaceRecipeProvider.id(modid, name + '2');
+            ResourceLocation recipe2 = AbstractAlloyFurnaceRecipeProvider.id(Mores.MOD_ID, name + '2');
             ConditionalRecipe.builder()
                     .addCondition(condition)
                     .addRecipe(new AbstractAlloyFurnaceRecipeProvider.FinishedRecipe(recipe1,
@@ -112,6 +112,6 @@ public class AlloyRecipeSetBuilder extends RecipeSetBuilder
                             catalyst, ingrs_doubleoutput, input2))
                     .build(consumer, recipe2);
         }
-    } // end buildFusionRecyclingRecipes
+    } // end buildAlloyRecyclingRecipes
 
 } // end class
