@@ -1,8 +1,7 @@
 package mod.mores.objects;
 
-import mod.mores.Mores;
 import mod.mores.init.ItemInit;
-import mod.mores.materials.ArmorMaterial;
+import mod.mores.material.ArmorMaterial;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -16,9 +15,7 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class ItemArmor extends ArmorItem {
     private IArmorMaterial armorMaterial;

@@ -1,4 +1,4 @@
-package mod.mores.events;
+package mod.mores.event;
 
 import mod.mores.Mores;
 import mod.mores.init.BlockInit;
@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.Mod;
  * @author Leronus
  */
 @Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class PlayerEvents {
+public class PlayerEvent {
     /**
      * Called when a player throws an item in the world
      * @author Leronus

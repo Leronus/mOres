@@ -1,4 +1,4 @@
-package mod.mores.materials;
+package mod.mores.material;
 
 import mod.mores.init.ItemInit;
 import net.minecraft.item.IItemTier;

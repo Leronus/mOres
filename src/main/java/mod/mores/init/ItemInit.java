@@ -2,8 +2,8 @@ package mod.mores.init;
 
 import mod.mores.Mores;
 import mod.mores.config.Config;
-import mod.mores.materials.ArmorMaterial;
-import mod.mores.materials.ToolMaterial;
+import mod.mores.material.ArmorMaterial;
+import mod.mores.material.ToolMaterial;
 import mod.mores.objects.*;
 import mod.mores.tabs.MoresTabs;
 import mod.mores.util.MoresTags;
@@ -11,7 +11,6 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
