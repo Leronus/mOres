@@ -25,7 +25,7 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterRecipeSerializers(RegistryEvent.Register<IRecipeSerializer<?>> evt)
     {
-        CraftingHelper.register(new FlagCondition.Serializer(Config.INSTANCE,
+        CraftingHelper.register(new FlagCondition.Serializer(Config.cfg,
                 new ResourceLocation(Mores.MOD_ID, "flag")));
         Registry.register(Registry.RECIPE_TYPE, IAlloyFurnaceRecipe.TYPE_ID, RecipeTypeInit.ALLOY_TYPE);
         evt.getRegistry().register(RecipeTypeInit.ALLOY_SERIALIZER.setRegistryName(IAlloyFurnaceRecipe.TYPE_ID));

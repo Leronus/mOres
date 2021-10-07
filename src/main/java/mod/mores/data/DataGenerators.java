@@ -1,7 +1,7 @@
 package mod.mores.data;
 
 import mod.mores.Mores;
-import mod.mores.recipe.AlloyFurnaceRecipes;
+//import mod.mores.recipe.AlloyFurnaceRecipes;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -28,7 +28,7 @@ public class DataGenerators
         DataGenerator gen = event.getGenerator();
         if (event.includeServer())
         {
-            gen.addProvider(new AlloyFurnaceRecipes(gen));
+//            gen.addProvider(new AlloyFurnaceRecipes(gen));
         }
     }
 }

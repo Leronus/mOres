@@ -1,5 +1,6 @@
 package mod.mores.recipe;
 
+import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import com.google.gson.JsonObject;
 import mod.mores.config.Config;
 import net.minecraft.util.ResourceLocation;
@@ -8,7 +9,7 @@ import net.minecraftforge.common.crafting.conditions.IConditionSerializer;
 
 public class FlagCondition implements ICondition
 {
-    private final Config config;
+    private final CommentedFileConfig config;
     private final ResourceLocation resource;
     private final String name;
 
@@ -22,7 +23,7 @@ public class FlagCondition implements ICondition
      * @param name - the flag name, e.g. "copper_tools"
      * @param resource - the flag id, e.g. "mores:flag"
      */
-    public FlagCondition(Config cfg, String name, ResourceLocation resource)
+    public FlagCondition(CommentedFileConfig cfg, String name, ResourceLocation resource)
     {
         this.config = cfg;
         this.name = name;
@@ -43,7 +44,7 @@ public class FlagCondition implements ICondition
 
     public static class Serializer implements IConditionSerializer<FlagCondition>
     {
-        private final Config config;
+        private final CommentedFileConfig config;
         private final ResourceLocation resource;
 
         /**
@@ -51,7 +52,7 @@ public class FlagCondition implements ICondition
          * @param config - this module's config class.
          * @param resource - same id as FlagCondition, e.g. "mores:flag"
          */
-        public Serializer(Config config, ResourceLocation resource)
+        public Serializer(CommentedFileConfig config, ResourceLocation resource)
         {
             this.config = config;
             this.resource = resource;

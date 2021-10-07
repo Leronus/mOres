@@ -14,10 +14,8 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Config {
-    public static Config INSTANCE = new Config();
-
-    private static CommentedFileConfig cfg;
+public class Config implements IConfig {
+    public static CommentedFileConfig cfg;
     private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
     private static final String CATEGORY_SHIELD = "shield";
 
