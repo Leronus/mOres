@@ -22,8 +22,8 @@ public class ModelHandler {
     @SubscribeEvent
     public static void init(FMLClientSetupEvent event) {
         addShieldPropertyOverrides(new ResourceLocation(Mores.MOD_ID, "blocking"),
-                (stack, world, entity) -> entity != null && entity.hasItemInSlot(EquipmentSlotType.MAINHAND)
-                        && entity.getMainHandItem() == stack ? 1.0F : 0.0F,
+                (stack, world, entity) -> entity != null && entity.isUsingItem()
+                        && entity.getUseItem() == stack ? 1.0F : 0.0F,
                 ItemInit.COPPER_SHIELD.get());
 //                ,BetterShields.goldShield, BetterShields.diamondShield,
 //                BetterShields.netheriteShield)

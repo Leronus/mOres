@@ -1,3 +1,6 @@
+v2.2.0
+- Copper shield added (functions properly now)
+
 v2.1.5
 - Copper textures fully updated
 - Added textures for copper & sapphire shields
