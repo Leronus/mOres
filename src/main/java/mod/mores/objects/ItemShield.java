@@ -64,6 +64,7 @@ public class ItemShield extends ShieldItem {
     public boolean isShield(ItemStack stack, LivingEntity entity) {
         return true;
     }
+
     /**
      * Creates a {@link TranslationTextComponent} for the when blocking tooltip.
      *

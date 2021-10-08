@@ -56,14 +56,14 @@ public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
 //                    : ShieldTextures.LOCATION_NETHERITE_SHIELD_BASE_NOPATTERN;
         }
 
-        IVertexBuilder ivertexbuilder = rendermaterial.sprite().wrap(ItemRenderer.getFoilBuffer(buffer, this.shieldModel.renderType(rendermaterial.atlasLocation()), true, stack.hasFoil()));
+        IVertexBuilder ivertexbuilder = rendermaterial.sprite().wrap(ItemRenderer.getFoilBufferDirect(buffer, this.shieldModel.renderType(rendermaterial.atlasLocation()), true, stack.hasFoil()));
         this.shieldModel.handle().render(matrixStack, ivertexbuilder, combinedLight, combinedOverlay, 1.0F,
                 1.0F, 1.0F, 1.0F);
         if (flag) {
             List<Pair<BannerPattern, DyeColor>> list = BannerTileEntity.createPatterns(ShieldItem.getColor(stack),
                     BannerTileEntity.getItemPatterns(stack));
             BannerTileEntityRenderer.renderPatterns(matrixStack, buffer, combinedLight, combinedOverlay,
-                    this.shieldModel.handle(), rendermaterial, false, list, stack.hasFoil());
+                    this.shieldModel.plate(), rendermaterial, false, list, stack.hasFoil());
         } else {
             this.shieldModel.plate().render(matrixStack, ivertexbuilder, combinedLight, combinedOverlay, 1.0F,
                     1.0F, 1.0F, 1.0F);
