@@ -1,11 +1,14 @@
 {
-    "parent":"mores:item/wood_shield",
+    "parent": "item/shield",
+    "textures": {
+        "particle": "block/copper_block"
+    },
     "overrides": [
         {
             "predicate": {
-                "blocking": 1
+                "mores:blocking": 1
             },
-            "model": "mores:item/wood_shield_blocking"
+            "model": "mores:item/copper_shield_blocking"
         }
     ]
 }
