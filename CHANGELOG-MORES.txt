@@ -1,13 +1,16 @@
 v2.2.0
-- Copper shield added (functions properly now)
+- 
 
 v2.1.5
+- Copper shield added (functions properly now)
 - Copper textures fully updated
 - Added textures for copper & sapphire shields
-- Ore generation revamped especially for Caves and Cliffs backport (is now a requirement/dependency for this specific version of the mod)
 - Added copper shield (does not properly function yet)
 - Cleaned up source code
 - Added tags so materials from other mods can be used to craft mores items
+- Restored oregen to how it was without any other mods
+
+(- Ore generation revamped especially for Caves and Cliffs backport (which is now an optional extended version of this mod))
 
 
 v2.1.4

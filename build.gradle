@@ -86,8 +86,7 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.6'
 
     runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
-    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-411623:3281892") //Caves and Cliffs Big Project 300k DL
-    /* runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-411288:3430446") //Caves and Cliffs Smaller one, 180k DL */
+    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-417430:3441420") //Caves and Cliffs
     runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
     runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
     runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
