@@ -7,6 +7,7 @@ import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
 import mod.mores.recipe.ShieldRecipes;
 import mod.mores.world.DeepslateOreGeneration;
+import mod.mores.world.OreGeneration;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraft.item.crafting.IRecipeSerializer;
@@ -32,7 +33,6 @@ import java.util.stream.Collectors;
  * Main class that loads mOres
  * @author Leronus
  */
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod("mores")
 public class Mores
 {
@@ -42,7 +42,10 @@ public class Mores
     public static final String MODID = "mores";
 
     public Mores() {
+        //Create config
         new Config();
+
+        //Get the mod event bus
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the setup method for modloading
@@ -54,22 +57,23 @@ public class Mores
         // Register the doClientStuff method for modloading
         bus.addListener(this::doClientStuff);
 
+        //Registering mores resources
         SoundTypeInit.SOUND_TYPES.register(bus);
         EntityTypeInit.ENTITY_TYPES.register(bus);
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
-
         ContainerInit.CONTAINER_TYPES.register(bus);
         TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
-
+        //Registering the harvestLevels
         MinecraftForge.EVENT_BUS.register(HarvestEvent.class);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
         //Start the ore generation
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
-        /* MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres); */
+        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }
 
     @SuppressWarnings("deprecation")
