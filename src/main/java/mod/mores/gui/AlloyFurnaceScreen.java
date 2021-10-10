@@ -13,7 +13,7 @@ public class AlloyFurnaceScreen extends AbstractAlloyFurnaceScreen<AlloyFurnaceC
                                ITextComponent titleIn)
     {
         super(screenContainer, inv,
-                new ResourceLocation(Mores.MOD_ID, "textures/gui/container/alloy_furnace_gui.png"),
+                new ResourceLocation(Mores.MODID, "textures/gui/container/alloy_furnace_gui.png"),
                 titleIn, name_color);
     }
 }

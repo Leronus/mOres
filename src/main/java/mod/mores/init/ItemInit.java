@@ -22,7 +22,7 @@ public class ItemInit{
     /**
      * Registers all mores items
      */
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MODID);
 
     /**
      * Fills the registry with items

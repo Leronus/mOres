@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
  * Event that handles vanilla tool/block harvestlevel changes
  * @author Leronus
  */
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class HarvestEvent {
     public static final Logger LOGGER = LogManager.getLogger();
 

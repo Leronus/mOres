@@ -18,7 +18,7 @@ public class MoresTags {
 
 
         private static Tags.IOptionalNamedTag<Block> createTag(String name){
-            return BlockTags.createOptional(new ResourceLocation(Mores.MOD_ID, name));
+            return BlockTags.createOptional(new ResourceLocation(Mores.MODID, name));
         }
 
         private static Tags.IOptionalNamedTag<Block> createForgeTag(String name){
@@ -37,7 +37,7 @@ public class MoresTags {
 
 
         private static Tags.IOptionalNamedTag<Item> createTag(String name){
-            return ItemTags.createOptional(new ResourceLocation(Mores.MOD_ID, name));
+            return ItemTags.createOptional(new ResourceLocation(Mores.MODID, name));
         }
 
         private static Tags.IOptionalNamedTag<Item> createForgeTag(String name){

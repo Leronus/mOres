@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.Mod;
  * Event that handles all natural entity spawning
  * @author Leronus
  */
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID)
+@Mod.EventBusSubscriber(modid = Mores.MODID)
 public class EntityEvent {
     /**
      * Called when a biome is loaded
@@ -29,7 +29,7 @@ public class EntityEvent {
         MobSpawnInfoBuilder spawns = event.getSpawns();
 
         if (event.getCategory().equals(Biome.Category.BEACH) || event.getCategory().equals(Biome.Category.RIVER)) {
-            spawns.addSpawn(EntityClassification.WATER_CREATURE, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 6, 2, 4));
+            spawns.addSpawn(EntityClassification.WATER_CREATURE, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 2, 2, 4));
         }
     }
 }

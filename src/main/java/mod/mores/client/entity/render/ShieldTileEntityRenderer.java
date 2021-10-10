@@ -7,6 +7,7 @@ import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.datafixers.util.Pair;
 import mod.mores.client.entity.ShieldTextures;
 import mod.mores.init.ItemInit;
+import mod.mores.objects.ItemShield;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.entity.model.ShieldModel;
@@ -18,7 +19,6 @@ import net.minecraft.client.renderer.tileentity.ItemStackTileEntityRenderer;
 import net.minecraft.item.DyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ShieldItem;
 import net.minecraft.tileentity.BannerPattern;
 import net.minecraft.tileentity.BannerTileEntity;
 import net.minecraftforge.api.distmarker.Dist;
@@ -43,7 +43,7 @@ public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
 
         Item shield = stack.getItem();
         if (shield == ItemInit.COPPER_SHIELD.get()) {
-            rendermaterial = flag ? ShieldTextures.LOCATION_COPPER_SHIELD_BASE_PATTERN
+            rendermaterial = flag ? ShieldTextures.LOCATION_COPPER_SHIELD_BASE
                     : ShieldTextures.LOCATION_COPPER_SHIELD_BASE_NOPATTERN;
 //        } else if (shield == BetterShields.goldShield) {
 //            rendermaterial = flag ? ShieldTextures.LOCATION_GOLD_SHIELD_BASE
@@ -60,7 +60,7 @@ public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
         this.shieldModel.handle().render(matrixStack, ivertexbuilder, combinedLight, combinedOverlay, 1.0F,
                 1.0F, 1.0F, 1.0F);
         if (flag) {
-            List<Pair<BannerPattern, DyeColor>> list = BannerTileEntity.createPatterns(ShieldItem.getColor(stack),
+            List<Pair<BannerPattern, DyeColor>> list = BannerTileEntity.createPatterns(ItemShield.getColor(stack),
                     BannerTileEntity.getItemPatterns(stack));
             BannerTileEntityRenderer.renderPatterns(matrixStack, buffer, combinedLight, combinedOverlay,
                     this.shieldModel.plate(), rendermaterial, false, list, stack.hasFoil());

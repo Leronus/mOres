@@ -52,6 +52,7 @@ public class ItemShield extends ShieldItem {
         return damageReduction.get();
     }
 
+    @Override
     public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
         return repairMaterial.get().test(repair) || super.isValidRepairItem(toRepair, repair);
     }

@@ -33,7 +33,7 @@ public class Config implements IConfig {
 
     public Config() {
         cfg = CommentedFileConfig
-                .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MOD_ID + "-common.toml")).sync()
+                .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + "-common.toml")).sync()
                 .autosave().build();
         cfg.load();
         shieldConfig();

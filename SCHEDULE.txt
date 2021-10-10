@@ -4,6 +4,10 @@
 - Add some other shield attributes
 - Add shields to Dutch lang file
 - Make sure caves_and_cliffs_mod:amethyst (shard) can be used for mores:amethyst tools & armor (maybe craft the gem out of shards idk yet)
+- Make sure loot tables are updated
+- Update oregen
+- Custom paintings
+
 - Tin/Silver tools & armor may need another rework (?)
 - Silver ore 1.17 update (?? what does this mean even)
 - Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt) (?)

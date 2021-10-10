@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import javax.annotation.Nonnull;
 
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventSubscriber {
     /**
      * Recipe Serializer event handler.
@@ -26,7 +26,7 @@ public class ModEventSubscriber {
     public static void onRegisterRecipeSerializers(RegistryEvent.Register<IRecipeSerializer<?>> evt)
     {
         CraftingHelper.register(new FlagCondition.Serializer(Config.cfg,
-                new ResourceLocation(Mores.MOD_ID, "flag")));
+                new ResourceLocation(Mores.MODID, "flag")));
         Registry.register(Registry.RECIPE_TYPE, IAlloyFurnaceRecipe.TYPE_ID, RecipeTypeInit.ALLOY_TYPE);
         evt.getRegistry().register(RecipeTypeInit.ALLOY_SERIALIZER.setRegistryName(IAlloyFurnaceRecipe.TYPE_ID));
     } // end onRegisterRecipeSerializers
@@ -37,6 +37,6 @@ public class ModEventSubscriber {
     {
         event.getRegistry().register(
                 new MoresLootModifiers.AutoSmeltLootModifier.Serializer().setRegistryName(
-                        new ResourceLocation(Mores.MOD_ID, "auto_smelt_tool")) );
+                        new ResourceLocation(Mores.MODID, "auto_smelt_tool")) );
     } // end registerModifierSerializers
 }

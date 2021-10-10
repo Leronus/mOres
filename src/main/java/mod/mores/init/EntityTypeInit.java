@@ -11,9 +11,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class EntityTypeInit {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES,
-            Mores.MOD_ID);
+            Mores.MODID);
 
     public static final RegistryObject<EntityType<DuckEntity>> DUCK = ENTITY_TYPES.register("duck",
             () -> EntityType.Builder.of(DuckEntity::new, EntityClassification.CREATURE).sized(0.4F, 0.7F)
-                    .build(new ResourceLocation(Mores.MOD_ID, "duck").toString()));
+                    .build(new ResourceLocation(Mores.MODID, "duck").toString()));
 }

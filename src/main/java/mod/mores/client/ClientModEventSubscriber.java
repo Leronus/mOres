@@ -21,10 +21,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
  *
  * @author Sinhika
  */
-@EventBusSubscriber(modid= Mores.MOD_ID, bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
+@EventBusSubscriber(modid= Mores.MODID, bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
 public class ClientModEventSubscriber
 {
-    private static final Logger LOGGER = LogManager.getLogger(Mores.MOD_ID + " Client Mod Event Subscriber");
+    private static final Logger LOGGER = LogManager.getLogger(Mores.MODID + " Client Mod Event Subscriber");
 
     /**
      * We need to register our renderers on the client because rendering code does not exist on the server

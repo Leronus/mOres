@@ -5,9 +5,12 @@ import mod.mores.entity.DuckEntity;
 import mod.mores.event.HarvestEvent;
 import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
+import mod.mores.recipe.ShieldRecipes;
 import mod.mores.world.DeepslateOreGeneration;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
+import net.minecraft.item.crafting.IRecipeSerializer;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -19,6 +22,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -35,7 +39,7 @@ public class Mores
     // Directly reference a log4j logger.
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "mores";
+    public static final String MODID = "mores";
 
     public Mores() {
         new Config();
@@ -92,8 +96,14 @@ public class Mores
                 collect(Collectors.toList()));
     }
     @SubscribeEvent
-    public static void onRegisterEntities(final RegistryEvent.Register<EntityType<?>> event) {
+    public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event) {
         ItemSpawnEgg.initSpawnEggs();
+    }
+
+    @SubscribeEvent
+    public static void registerRecipes(RegistryEvent.Register<IRecipeSerializer<?>> e) {
+        final IForgeRegistry<IRecipeSerializer<?>> registry = e.getRegistry();
+        registry.register(ShieldRecipes.SERIALIZER.setRegistryName(new ResourceLocation(MODID, "shield_decoration")));
     }
 
     @SubscribeEvent

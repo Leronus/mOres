@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod;
  * Event that handles all sound easter eggs
  * @author Leronus
  */
-@Mod.EventBusSubscriber(modid = Mores.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class PlayerEvent {
     /**
      * Called when a player throws an item in the world

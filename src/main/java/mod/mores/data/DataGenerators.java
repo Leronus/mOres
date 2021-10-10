@@ -13,7 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
  *
  * @author Leronus
  */
-@EventBusSubscriber(modid = Mores.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = Mores.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators
 {
 

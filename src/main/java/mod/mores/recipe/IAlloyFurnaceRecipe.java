@@ -12,7 +12,7 @@ import net.minecraftforge.items.wrapper.RecipeWrapper;
 
 public interface IAlloyFurnaceRecipe extends IRecipe<RecipeWrapper>
 {
-    ResourceLocation TYPE_ID = new ResourceLocation(Mores.MOD_ID, "alloying");
+    ResourceLocation TYPE_ID = new ResourceLocation(Mores.MODID, "alloying");
 
     @Override
     default boolean canCraftInDimensions(int width, int height)
