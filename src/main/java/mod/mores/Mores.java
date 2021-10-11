@@ -105,7 +105,7 @@ public class Mores
     }
 
     @SubscribeEvent
-    public static void registerRecipes(RegistryEvent.Register<IRecipeSerializer<?>> e) {
+    public void registerRecipes(RegistryEvent.Register<IRecipeSerializer<?>> e) {
         final IForgeRegistry<IRecipeSerializer<?>> registry = e.getRegistry();
         registry.register(ShieldRecipes.SERIALIZER.setRegistryName(new ResourceLocation(MODID, "shield_decoration")));
     }

@@ -1,5 +1,6 @@
 package mod.mores.init;
 
+import mod.mores.data.ShieldsRecipeProvider;
 import mod.mores.recipe.AlloyFurnaceRecipe;
 import mod.mores.recipe.IAlloyFurnaceRecipe;
 import net.minecraft.item.crafting.IRecipe;
@@ -13,6 +14,7 @@ public class RecipeTypeInit
     public static final IRecipeSerializer<AlloyFurnaceRecipe> ALLOY_SERIALIZER =
             new AlloyFurnaceRecipe.AlloyRecipeSerializer();
 
+
     private static class RecipeType<T extends IRecipe<?>> implements IRecipeType<T>
     {
         @Override
@@ -21,4 +23,4 @@ public class RecipeTypeInit
             return Registry.RECIPE_TYPE.getKey(this).toString();
         }
     } // end class RecipeType
-} // end class ModRecipeTypes
+} // end class RecipeTypeInit

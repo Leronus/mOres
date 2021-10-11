@@ -41,7 +41,7 @@ public class ShieldsRecipeProvider extends RecipeProvider {
 
     private void specialRecipe(Consumer<IFinishedRecipe> consumer, SpecialRecipeSerializer<?> serializer) {
         CustomRecipeBuilder.special(serializer).save(consumer,
-                Mores.MODID + ":dynamic/" + serializer.getRegistryName().getPath());
+                Mores.MODID + ":" + serializer.getRegistryName().getPath());
     }
 
 //    private static void smithingReinforce(Consumer<IFinishedRecipe> recipeConsumer, Item itemToReinforce, Item output) {
