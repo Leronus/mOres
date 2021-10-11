@@ -28,7 +28,8 @@ public class DataGenerators
         DataGenerator gen = event.getGenerator();
         if (event.includeServer())
         {
-//            gen.addProvider(new AlloyFurnaceRecipes(gen));
+//          gen.addProvider(new AlloyFurnaceRecipes(gen));
+            gen.addProvider(new ShieldsRecipeProvider(gen));
         }
     }
 }
