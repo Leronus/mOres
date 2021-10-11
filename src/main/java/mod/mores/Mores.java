@@ -105,12 +105,6 @@ public class Mores
     }
 
     @SubscribeEvent
-    public void registerRecipes(RegistryEvent.Register<IRecipeSerializer<?>> e) {
-        final IForgeRegistry<IRecipeSerializer<?>> registry = e.getRegistry();
-        registry.register(ShieldRecipes.SERIALIZER.setRegistryName(new ResourceLocation(MODID, "shield_decoration")));
-    }
-
-    @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
         // do something when the server starts
         LOGGER.info("Server has started");

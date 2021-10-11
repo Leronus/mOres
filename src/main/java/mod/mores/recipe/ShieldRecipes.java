@@ -1,22 +1,17 @@
 package mod.mores.recipe;
 
+import mod.mores.init.RecipeTypeInit;
 import mod.mores.objects.ItemShield;
 import net.minecraft.inventory.CraftingInventory;
 import net.minecraft.item.BannerItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.SpecialRecipe;
-import net.minecraft.item.crafting.SpecialRecipeSerializer;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class ShieldRecipes extends SpecialRecipe {
-
-    public static final SpecialRecipeSerializer<ShieldRecipes> SERIALIZER = new SpecialRecipeSerializer<ShieldRecipes>(
-            ShieldRecipes::new);
-
     public ShieldRecipes(ResourceLocation idIn) {
         super(idIn);
     }
@@ -93,6 +88,6 @@ public class ShieldRecipes extends SpecialRecipe {
     }
 
     public IRecipeSerializer<?> getSerializer() {
-        return SERIALIZER;
+        return RecipeTypeInit.SHIELD_SERIALIZER;
     }
 }

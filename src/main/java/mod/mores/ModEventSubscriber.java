@@ -25,10 +25,15 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterRecipeSerializers(RegistryEvent.Register<IRecipeSerializer<?>> evt)
     {
+        //Custom Alloying Recipes
         CraftingHelper.register(new FlagCondition.Serializer(Config.cfg,
                 new ResourceLocation(Mores.MODID, "flag")));
         Registry.register(Registry.RECIPE_TYPE, IAlloyFurnaceRecipe.TYPE_ID, RecipeTypeInit.ALLOY_TYPE);
         evt.getRegistry().register(RecipeTypeInit.ALLOY_SERIALIZER.setRegistryName(IAlloyFurnaceRecipe.TYPE_ID));
+
+        //Shield Decoration Recipes
+        evt.getRegistry().register(RecipeTypeInit.SHIELD_SERIALIZER.setRegistryName(
+                new ResourceLocation(Mores.MODID, "shield_decoration")));
     } // end onRegisterRecipeSerializers
 
     @SubscribeEvent
