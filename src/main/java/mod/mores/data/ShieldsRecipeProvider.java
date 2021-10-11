@@ -2,6 +2,7 @@ package mod.mores.data;
 
 import mod.mores.Mores;
 import mod.mores.init.ItemInit;
+import mod.mores.init.RecipeTypeInit;
 import mod.mores.recipe.ShieldRecipes;
 import net.minecraft.data.*;
 import net.minecraft.item.Item;
@@ -36,7 +37,7 @@ public class ShieldsRecipeProvider extends RecipeProvider {
 //                .patternLine("" + MATERIAL_CHAR + SHIELD_CHAR + MATERIAL_CHAR).patternLine(" " + MATERIAL_CHAR + " ")
 //                .addCriterion("has_diamond", hasItem(Tags.Items.GEMS_DIAMOND)).build(consumer);
 //        smithingReinforce(consumer, Mores.diamondShield, Mores.netheriteShield);
-        specialRecipe(consumer, ShieldRecipes.SERIALIZER);
+        specialRecipe(consumer, RecipeTypeInit.SHIELD_SERIALIZER);
     }
 
     private void specialRecipe(Consumer<IFinishedRecipe> consumer, SpecialRecipeSerializer<?> serializer) {
