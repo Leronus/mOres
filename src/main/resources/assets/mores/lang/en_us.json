@@ -479,5 +479,22 @@
   "itemGroup.mores_blocks" : "mOres Blocks",
   "itemGroup.mores_horse_armor" : "mOres Horse Armor",
   "itemGroup.mores_foods" : "mOres Foods",
-  "itemGroup.mores_entities" : "mOres Entities"
+  "itemGroup.mores_entities" : "mOres Entities",
+
+  "mores.copper.shield.black": "Black Copper Shield",
+  "mores.copper.shield.red": "Red Copper Shield",
+  "mores.copper.shield.green": "Green Copper Shield",
+  "mores.copper.shield.brown": "Brown Copper Shield",
+  "mores.copper.shield.blue": "Blue Copper Shield",
+  "mores.copper.shield.purple": "Purple Copper Shield",
+  "mores.copper.shield.cyan": "Cyan Copper Shield",
+  "mores.copper.shield.light_gray": "Light Gray Copper Shield",
+  "mores.copper.shield.gray": "Gray Copper Shield",
+  "mores.copper.shield.pink": "Pink Copper Shield",
+  "mores.copper.shield.lime": "Lime Copper Shield",
+  "mores.copper.shield.yellow": "Yellow Copper Shield",
+  "mores.copper.shield.light_blue": "Light Blue Copper Shield",
+  "mores.copper.shield.magenta": "Magenta Copper Shield",
+  "mores.copper.shield.orange": "Orange Copper Shield",
+  "mores.copper.shield.white": "White Copper Shield"
 }
