@@ -1,6 +1,11 @@
 v2.2.0
 - 
 
+v2.1.7
+- Nerfed duck spawnrate for the last time (still too many spawning)
+- Custom shields are now able to have banners applied to them (for now, only copper shield)
+- Fixed duck advancements not working properly
+
 v2.1.6
 - Nerfed duck spawnrate again (the army of ducks was too strong)
 - Copper shield functions properly now

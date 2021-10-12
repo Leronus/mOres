@@ -91,7 +91,8 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
     runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
     runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
-    runtimeOnly fg.deobf("curse.maven:better_shields-360303:3352916") // Better shields
+    runtimeOnly fg.deobf("curse.maven:additional_banners-230137:3348557") // Additional Banners
+    runtimeOnly fg.deobf("curse.maven:bookshelf-228525:3474499") // Bookshelf, needed for AB
 }
 
 jar {
