@@ -21,14 +21,47 @@ public class Config {
 
     public static BooleanValue customShieldMaxReduction;
     public static ConfigValue<Integer> defaultDamageReduction;
-    public static ConfigValue<Integer> copperShieldDamageReduction;
-//    public static ConfigValue<Integer> silverDamageReduction;
-//    public static ConfigValue<Integer> tinDamageReduction;
-//    public static ConfigValue<Integer> cobaltDamageReduction;
+
+    public static ConfigValue<Integer> tinDamageReduction;
+    public static ConfigValue<Integer> copperDamageReduction;
+    public static ConfigValue<Integer> silverDamageReduction;
+    public static ConfigValue<Integer> bronzeDamageReduction;
+    public static ConfigValue<Integer> cobaltDamageReduction;
+    public static ConfigValue<Integer> obsidianDamageReduction;
+    public static ConfigValue<Integer> sterlingDamageReduction;
+    public static ConfigValue<Integer> steelDamageReduction;
+    public static ConfigValue<Integer> amethystDamageReduction;
+    public static ConfigValue<Integer> emeraldDamageReduction;
+    public static ConfigValue<Integer> topazDamageReduction;
+    public static ConfigValue<Integer> tourmalineDamageReduction;
+    public static ConfigValue<Integer> tanzaniteDamageReduction;
+    public static ConfigValue<Integer> rubyDamageReduction;
+    public static ConfigValue<Integer> sapphireDamageReduction;
+    public static ConfigValue<Integer> turquoiseDamageReduction;
+    public static ConfigValue<Integer> moissaniteDamageReduction;
+    public static ConfigValue<Integer> onyxDamageReduction;
+    public static ConfigValue<Integer> grapheneDamageReduction;
+
+    public static ConfigValue<Integer> tinDurability;
     public static ConfigValue<Integer> copperDurability;
-//    public static ConfigValue<Integer> silverDurability;
-//    public static ConfigValue<Integer> tinDurability;
-//    public static ConfigValue<Integer> cobaltDurability;
+    public static ConfigValue<Integer> silverDurability;
+    public static ConfigValue<Integer> bronzeDurability;
+    public static ConfigValue<Integer> cobaltDurability;
+    public static ConfigValue<Integer> obsidianDurability;
+    public static ConfigValue<Integer> sterlingDurability;
+    public static ConfigValue<Integer> steelDurability;
+    public static ConfigValue<Integer> amethystDurability;
+    public static ConfigValue<Integer> emeraldDurability;
+    public static ConfigValue<Integer> topazDurability;
+    public static ConfigValue<Integer> tourmalineDurability;
+    public static ConfigValue<Integer> tanzaniteDurability;
+    public static ConfigValue<Integer> rubyDurability;
+    public static ConfigValue<Integer> sapphireDurability;
+    public static ConfigValue<Integer> turquoiseDurability;
+    public static ConfigValue<Integer> moissaniteDurability;
+    public static ConfigValue<Integer> onyxDurability;
+    public static ConfigValue<Integer> grapheneDurability;
+
     public static BooleanValue thornsOnShields;
 
     public Config() {
@@ -44,24 +77,76 @@ public class Config {
 
     private void shieldConfig() {
         builder.comment("The shield configuration for this mod").push(CATEGORY_SHIELD).pop();
+
         customShieldMaxReduction = getBoolean("customShieldMaxReduction", CATEGORY_SHIELD, true,
                 "If set to true Shields added by other mods block 100% of the incoming damage, "
                         + "if set to false the will block the amount set in defaultDamageReduction.");
-        defaultDamageReduction = getInt("defaultDamageReduction", CATEGORY_SHIELD, 75,
+
+        defaultDamageReduction = getInt("defaultDamageReduction", CATEGORY_SHIELD, 60,
                 "The portion of the incoming damage Vanilla Shields block in percent.");
-        copperShieldDamageReduction = getInt("ironDamageReduction", CATEGORY_SHIELD, 90,
+
+        copperDamageReduction = getInt("copperDamageReduction", CATEGORY_SHIELD, 60,
                 "The portion of the incoming damage Copper Shields block in percent.");
-//        goldDamageReduction = getInt("goldDamageReduction", CATEGORY_SHIELD, 85,
-//                "The portion of the incoming damage Gold Shields block in percent.");
-//        diamondDamageReduction = getInt("diamondDamageReduction", CATEGORY_SHIELD, 98,
-//                "The portion of the incoming damage Diamond Shields block in percent.");
-//        cobaltDamageReduction = getInt("cobaltDamageReduction", CATEGORY_SHIELD, 100,
-//                "The portion of the incoming damage Cobalt Shields block in percent.");
-        copperDurability = getInt("copperDurability", CATEGORY_SHIELD, 920, "The durability of the Copper Shield.");
-//        goldDurability = getInt("goldDurability", CATEGORY_SHIELD, 130, "The durability of the Gold Shield.");
+        tinDamageReduction = getInt("tinDamageReduction", CATEGORY_SHIELD, 55,
+                "The portion of the incoming damage Tin Shields block in percent.");
+        silverDamageReduction = getInt("silverDamageReduction", CATEGORY_SHIELD, 65,
+                "The portion of the incoming damage Silver Shields block in percent.");
+        bronzeDamageReduction = getInt("bronzeDamageReduction", CATEGORY_SHIELD, 65,
+                "The portion of the incoming damage Bronze Shields block in percent.");
+        cobaltDamageReduction = getInt("cobaltDamageReduction", CATEGORY_SHIELD, 65,
+                "The portion of the incoming damage Cobalt Shields block in percent.");
+        obsidianDamageReduction = getInt("obsidianDamageReduction", CATEGORY_SHIELD, 85,
+                "The portion of the incoming damage Obsidian Shields block in percent.");
+        sterlingDamageReduction = getInt("sterlingDamageReduction", CATEGORY_SHIELD, 75,
+                "The portion of the incoming damage Sterling Silver Shields block in percent.");
+        steelDamageReduction = getInt("steelDamageReduction", CATEGORY_SHIELD, 80,
+                "The portion of the incoming damage Carbon Steel Shields block in percent.");
+        amethystDamageReduction = getInt("amethystDamageReduction", CATEGORY_SHIELD, 70,
+                "The portion of the incoming damage Amethyst Shields block in percent.");
+        emeraldDamageReduction = getInt("emeraldDamageReduction", CATEGORY_SHIELD, 80,
+                "The portion of the incoming damage Emerald Shields block in percent.");
+        topazDamageReduction = getInt("topazDamageReduction", CATEGORY_SHIELD, 80,
+                "The portion of the incoming damage Topaz Shields block in percent.");
+        tourmalineDamageReduction = getInt("tourmalineDamageReduction", CATEGORY_SHIELD, 80,
+                "The portion of the incoming damage Tourmaline Shields block in percent.");
+        tanzaniteDamageReduction = getInt("tanzaniteDamageReduction", CATEGORY_SHIELD, 85,
+                "The portion of the incoming damage Tanzanite Shields block in percent.");
+        rubyDamageReduction = getInt("rubyDamageReduction", CATEGORY_SHIELD, 90,
+                "The portion of the incoming damage Ruby Shields block in percent.");
+        sapphireDamageReduction = getInt("sapphireDamageReduction", CATEGORY_SHIELD, 93,
+                "The portion of the incoming damage Sapphire Shields block in percent.");
+        turquoiseDamageReduction = getInt("turquoiseDamageReduction", CATEGORY_SHIELD, 95,
+                "The portion of the incoming damage Sapphire Shields block in percent.");
+        moissaniteDamageReduction = getInt("moissaniteDamageReduction", CATEGORY_SHIELD, 95,
+                "The portion of the incoming damage Moissanite Shields block in percent.");
+        onyxDamageReduction = getInt("onyxDamageReduction", CATEGORY_SHIELD, 95,
+                "The portion of the incoming damage Onyx Shields block in percent.");
+        grapheneDamageReduction = getInt("grapheneDamageReduction", CATEGORY_SHIELD, 100,
+                "The portion of the incoming damage Graphene Shields block in percent.");
+
+        copperDurability = getInt("copperDurability", CATEGORY_SHIELD, 580, "The durability of the Copper Shield.");
+        tinDurability = getInt("tinDurability", CATEGORY_SHIELD, 80, "The durability of the Tin Shield.");
+        silverDurability = getInt("silverDurability", CATEGORY_SHIELD, 730, "The durability of the Silver Shield.");
+        bronzeDurability = getInt("bronzeDurability", CATEGORY_SHIELD, 840, "The durability of the Bronze Shield.");
+        cobaltDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 1300, "The durability of the Cobalt Shield.");
+        obsidianDurability = getInt("obsidianDurability", CATEGORY_SHIELD, 3000, "The durability of the Obsidian Shield.");
+        sterlingDurability = getInt("sterlingDurability", CATEGORY_SHIELD, 1800, "The durability of the Sterling Silver Shield.");
+        steelDurability = getInt("steelDurability", CATEGORY_SHIELD, 2000, "The durability of the Steel Shield.");
+        amethystDurability = getInt("amethystDurability", CATEGORY_SHIELD, 1250, "The durability of the Amethyst Shield.");
+        emeraldDurability = getInt("emeraldDurability", CATEGORY_SHIELD, 2500, "The durability of the Emerald Shield.");
+        topazDurability = getInt("topazDurability", CATEGORY_SHIELD, 2900, "The durability of the Topaz Shield.");
+        tourmalineDurability = getInt("tourmalineDurability", CATEGORY_SHIELD, 3500, "The durability of the Tourmaline Shield.");
+        tanzaniteDurability = getInt("tanzaniteDurability", CATEGORY_SHIELD, 5100, "The durability of the Tanzanite Shield.");
+        rubyDurability = getInt("rubyDurability", CATEGORY_SHIELD, 4200, "The durability of the Ruby Shield.");
+        sapphireDurability = getInt("sapphireDurability", CATEGORY_SHIELD, 4500, "The durability of the Sapphire Shield.");
+        turquoiseDurability = getInt("turquoiseDurability", CATEGORY_SHIELD, 3500, "The durability of the Turquoise Shield.");
+        moissaniteDurability = getInt("moissaniteDurability", CATEGORY_SHIELD, 5300, "The durability of the Moissanite Shield.");
+        onyxDurability = getInt("onyxDurability", CATEGORY_SHIELD, 6200, "The durability of the Onyx Shield.");
+        grapheneDurability = getInt("grapheneDurability", CATEGORY_SHIELD, 7500, "The durability of the Graphene Shield.");
+
 //        diamondDurability = getInt("diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
-//        cobaltDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 6300,
+//        netheriteDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 6300,
 //                "The durability of the Cobalt Shield.");
         thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELD, true,
                 "Allows the Thorns enchantment to by applied to Shields");

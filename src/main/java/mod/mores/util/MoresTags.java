@@ -32,7 +32,27 @@ public class MoresTags {
 
         //Forge Tags
         public static final Tags.IOptionalNamedTag<Item> COPPER = createForgeTag("ingots/copper");
+        public static final Tags.IOptionalNamedTag<Item> TIN = createForgeTag("ingots/tin");
+        public static final Tags.IOptionalNamedTag<Item> COBALT = createForgeTag("ingots/cobalt");
+        public static final Tags.IOptionalNamedTag<Item> BRONZE = createForgeTag("ingots/bronze");
+        public static final Tags.IOptionalNamedTag<Item> STEEL = createForgeTag("ingots/steel");
+        public static final Tags.IOptionalNamedTag<Item> SILVER = createForgeTag("ingots/silver");
+        public static final Tags.IOptionalNamedTag<Item> STERLING_SILVER = createForgeTag("ingots/sterling_silver");
+
         public static final Tags.IOptionalNamedTag<Item> AMETHYST = createForgeTag("gems/amethyst");
+        public static final Tags.IOptionalNamedTag<Item> TOPAZ = createForgeTag("gems/topaz");
+        public static final Tags.IOptionalNamedTag<Item> TANZANITE = createForgeTag("gems/tanzanite");
+        public static final Tags.IOptionalNamedTag<Item> TOURMALINE = createForgeTag("gems/tourmaline");
+
+        public static final Tags.IOptionalNamedTag<Item> RUBY = createForgeTag("gems/ruby");
+        public static final Tags.IOptionalNamedTag<Item> SAPPHIRE = createForgeTag("gems/sapphire");
+        public static final Tags.IOptionalNamedTag<Item> TURQUOISE = createForgeTag("gems/turquoise");
+        public static final Tags.IOptionalNamedTag<Item> ONYX = createForgeTag("gems/onyx");
+        public static final Tags.IOptionalNamedTag<Item> GRAPHENE = createForgeTag("gems/graphene");
+        public static final Tags.IOptionalNamedTag<Item> MOISSANITE = createForgeTag("gems/moissanite");
+
+
+
 
 
 
