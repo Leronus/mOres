@@ -96,7 +96,11 @@ public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
         } else if (shield == ItemInit.GRAPHENE_SHIELD.get()) {
             rendermaterial = flag ? ShieldTextures.LOCATION_GRAPHENE_SHIELD_BASE
                     : ShieldTextures.LOCATION_GRAPHENE_SHIELD_BASE_NOPATTERN;
+        }  else if (shield == ItemInit.TURQUOISE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_TURQUOISE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_TURQUOISE_SHIELD_BASE_NOPATTERN;
         }
+
 
 
         IVertexBuilder ivertexbuilder = rendermaterial.sprite().wrap(ItemRenderer.getFoilBufferDirect(buffer, this.shieldModel.renderType(rendermaterial.atlasLocation()), true, stack.hasFoil()));

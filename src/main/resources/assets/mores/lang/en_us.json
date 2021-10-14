@@ -1,7 +1,9 @@
 {
+  "mores.shield_damage_reduction" : "Shield Damage Reduction",
+  "mores.shield_blocking" : "Shield Blocking",
+
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
-
 
   "item.mores.raw_copper" : "Raw Copper",
   "item.mores.raw_tin" : "Raw Tin",

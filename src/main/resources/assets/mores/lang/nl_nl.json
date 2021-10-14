@@ -1,7 +1,9 @@
 {
+  "mores.shield_damage_reduction" : "Schild schadeverlaging",
+  "mores.shield_blocking" : "Schild aan het blokkeren",
+
   "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
-
 
   "item.mores.raw_copper" : "Ruw Koper",
   "item.mores.raw_tin" : "Ruw Tin",
