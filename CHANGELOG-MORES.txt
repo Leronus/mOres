@@ -1,5 +1,8 @@
 v2.2.0
-- 
+- Added custom shields for each materials (purely cosmetic as of now)
+- Fixed full sapphire armor's night vision potion effect giving epilepsy
+- Fixed some loot tables (spawning my items in chests)
+- Restored oregen (would not update properly)
 
 v2.1.7
 - Nerfed duck spawnrate for the last time (still too many spawning)
