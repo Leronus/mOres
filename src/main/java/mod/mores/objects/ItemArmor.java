@@ -41,14 +41,16 @@ public class ItemArmor extends ArmorItem {
             player.addEffect(new EffectInstance(Effects.DOLPHINS_GRACE, 10, 0, false, false));
 
         //Sapphire: Night Vision
-        }else if (HELMET == (ItemInit.SAPPHIRE_HELMET.get())
+        } if (HELMET == (ItemInit.SAPPHIRE_HELMET.get())
                 && CHESTPLATE == (ItemInit.SAPPHIRE_CHESTPLATE.get())
                 && LEGGINGS == (ItemInit.SAPPHIRE_LEGGINGS.get())
                 && BOOTS == (ItemInit.SAPPHIRE_BOOTS.get())) {
-            player.addEffect(new EffectInstance(Effects.NIGHT_VISION, 1000, 0, false, false));
+            player.addEffect(new EffectInstance(Effects.NIGHT_VISION, 250, 0, false, false));
+        } else {
+            player.removeEffect(Effects.NIGHT_VISION);
 
         //Ruby: Fire Resistance
-        }else if (HELMET == (ItemInit.RUBY_HELMET.get())
+        } if (HELMET == (ItemInit.RUBY_HELMET.get())
             && CHESTPLATE == (ItemInit.RUBY_CHESTPLATE.get())
             && LEGGINGS == (ItemInit.RUBY_LEGGINGS.get())
             && BOOTS == (ItemInit.RUBY_BOOTS.get())) {
