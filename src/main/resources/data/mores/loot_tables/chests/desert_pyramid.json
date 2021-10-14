@@ -123,7 +123,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:tourmaline_horse_armor"
+          "name": "mores:tourmaline_horse_armor"
         },
         {
           "type": "minecraft:item",
