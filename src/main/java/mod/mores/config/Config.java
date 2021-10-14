@@ -80,7 +80,7 @@ public class Config {
 
         customShieldMaxReduction = getBoolean("customShieldMaxReduction", CATEGORY_SHIELD, true,
                 "If set to true Shields added by other mods block 100% of the incoming damage, "
-                        + "if set to false the will block the amount set in defaultDamageReduction.");
+                        + "if set to false they will block the amount set in defaultDamageReduction.");
 
         defaultDamageReduction = getInt("defaultDamageReduction", CATEGORY_SHIELD, 60,
                 "The portion of the incoming damage Vanilla Shields block in percent.");

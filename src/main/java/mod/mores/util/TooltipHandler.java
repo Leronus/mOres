@@ -17,7 +17,6 @@ import java.util.List;
 
 @EventBusSubscriber(value = Dist.CLIENT, modid = Mores.MODID)
 public class TooltipHandler {
-
 //    @SubscribeEvent
 //    public static void onTooltip(ItemTooltipEvent e) {
 //        if (e.getItemStack().getItem() instanceof ItemShield) {
