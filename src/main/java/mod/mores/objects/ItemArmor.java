@@ -45,7 +45,7 @@ public class ItemArmor extends ArmorItem {
                 && CHESTPLATE == (ItemInit.SAPPHIRE_CHESTPLATE.get())
                 && LEGGINGS == (ItemInit.SAPPHIRE_LEGGINGS.get())
                 && BOOTS == (ItemInit.SAPPHIRE_BOOTS.get())) {
-            player.addEffect(new EffectInstance(Effects.NIGHT_VISION, 10, 0, false, false));
+            player.addEffect(new EffectInstance(Effects.NIGHT_VISION, 1000, 0, false, false));
 
         //Ruby: Fire Resistance
         }else if (HELMET == (ItemInit.RUBY_HELMET.get())

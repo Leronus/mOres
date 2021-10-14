@@ -1,12 +1,22 @@
+** OTHER TO DO ITEMS **
+- Tutorial video
+- Mod wiki
+- Mod walkthrough
+ 
+
 ** SCHEDULED FOR THIS RELEASE **
-- Add different types of shields
 - Edit shield base stats in config
 - Add some other shield attributes
-- Add shields to Dutch lang file
-- Make sure caves_and_cliffs_mod:amethyst (shard) can be used for mores:amethyst tools & armor (maybe craft the gem out of shards idk yet)
-- Make sure loot tables are updated
+- Add shields to lang files
+- Make sure loot tables are updated (for mods as well)
 - Update oregen
-- Custom paintings
+- Update sapphire armor night vision (buggy, because of 00:00 timer, keeps flickering)
+- Update vanilla armor, horse armor, ore and block textures (swords as well) - maybe via resource pack
+- Add commands to ranks
+- Edit configs and add to modpack
+- Check if valhelsia deleted gives more fps, check if thats what gives the temples and stuff
+- Recipes for shields
+
 
 - Tin/Silver tools & armor may need another rework (?)
 - Silver ore 1.17 update (?? what does this mean even)
@@ -15,7 +25,7 @@
 
 
 ** POTENTIALLY NEXT RELEASE **
-- Check loot tables
+- Config for the duck
 
 ** LATER RELEASES **
 - Bows (?)
