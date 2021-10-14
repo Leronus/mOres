@@ -5,9 +5,8 @@
  
 
 ** SCHEDULED FOR THIS RELEASE **
-- Edit shield base stats in config
-- Add some other shield attributes
-- Add shields to lang files
+- Add some other shield attributes (waiting for reply on forums
+
 - Make sure loot tables are updated (for mods as well)
 - Update oregen
 - Recipes for shields
