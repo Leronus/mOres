@@ -1,6 +1,6 @@
 var asmapi = Java.type('net.minecraftforge.coremod.api.ASMAPI');
-var attackEntityFrom = asmapi.mapMethod('func_70097_a');
-var canBlockDamageSource = asmapi.mapMethod('func_184583_d');
+var hurt = asmapi.mapMethod('func_70097_a');
+var isDamageSourceBlocked = asmapi.mapMethod('func_184583_d');
 
 function initializeCoreMod() {
     return {
@@ -25,13 +25,13 @@ function patchShieldLogic(classNode) {
     var methods = classNode.methods;
     var method = null;
     for(var i in methods) {
-        if(methods[i].name == attackEntityFrom) {
+        if(methods[i].name == hurt) {
             method = methods[i];
             break;
         }
     }
     // set f1 to whatever Hooks.getDamageReduction returns
-    target = findFirstMethodReference(method, Opcodes.INVOKEVIRTUAL, canBlockDamageSource);
+    target = findFirstMethodReference(method, Opcodes.INVOKEVIRTUAL, isDamageSourceBlocked);
     method.instructions.remove(target.getPrevious().getPrevious());
     method.instructions.remove(target.getPrevious());
     method.instructions.insertBefore(target, new VarInsnNode(Opcodes.ALOAD, 0));

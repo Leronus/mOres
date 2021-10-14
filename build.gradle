@@ -83,7 +83,7 @@ repositories {
 dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
 
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.6'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.8'
 
     runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
 //    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-417430:3441420") //Caves and Cliffs
