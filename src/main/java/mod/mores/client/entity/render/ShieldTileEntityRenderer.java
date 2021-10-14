@@ -45,16 +45,59 @@ public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
         if (shield == ItemInit.COPPER_SHIELD.get()) {
             rendermaterial = flag ? ShieldTextures.LOCATION_COPPER_SHIELD_BASE
                     : ShieldTextures.LOCATION_COPPER_SHIELD_BASE_NOPATTERN;
-//        } else if (shield == BetterShields.goldShield) {
-//            rendermaterial = flag ? ShieldTextures.LOCATION_GOLD_SHIELD_BASE
-//                    : ShieldTextures.LOCATION_GOLD_SHIELD_BASE_NOPATTERN;
-//        } else if (shield == BetterShields.diamondShield) {
-//            rendermaterial = flag ? ShieldTextures.LOCATION_DIAMOND_SHIELD_BASE
-//                    : ShieldTextures.LOCATION_DIAMOND_SHIELD_BASE_NOPATTERN;
-//        } else if (shield == BetterShields.netheriteShield) {
-//            rendermaterial = flag ? ShieldTextures.LOCATION_NETHERITE_SHIELD_BASE
-//                    : ShieldTextures.LOCATION_NETHERITE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.TIN_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_TIN_SHIELD_BASE
+                    : ShieldTextures.LOCATION_TIN_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.SILVER_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_SILVER_SHIELD_BASE
+                    : ShieldTextures.LOCATION_SILVER_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.COBALT_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_COBALT_SHIELD_BASE
+                    : ShieldTextures.LOCATION_COBALT_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.BRONZE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_BRONZE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_BRONZE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.STERLING_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_STERLING_SHIELD_BASE
+                    : ShieldTextures.LOCATION_STERLING_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.STEEL_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_STEEL_SHIELD_BASE
+                    : ShieldTextures.LOCATION_STEEL_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.AMETHYST_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE
+                    : ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.EMERALD_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_EMERALD_SHIELD_BASE
+                    : ShieldTextures.LOCATION_EMERALD_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.OBSIDIAN_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_OBSIDIAN_SHIELD_BASE
+                    : ShieldTextures.LOCATION_OBSIDIAN_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.TOPAZ_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_TOPAZ_SHIELD_BASE
+                    : ShieldTextures.LOCATION_TOPAZ_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.TOURMALINE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_TOURMALINE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_TOURMALINE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.TANZANITE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_TANZANITE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_TANZANITE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.RUBY_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_RUBY_SHIELD_BASE
+                    : ShieldTextures.LOCATION_RUBY_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.SAPPHIRE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_SAPPHIRE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_SAPPHIRE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.MOISSANITE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_MOISSANITE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_MOISSANITE_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.ONYX_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_ONYX_SHIELD_BASE
+                    : ShieldTextures.LOCATION_ONYX_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ItemInit.GRAPHENE_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_GRAPHENE_SHIELD_BASE
+                    : ShieldTextures.LOCATION_GRAPHENE_SHIELD_BASE_NOPATTERN;
         }
+
 
         IVertexBuilder ivertexbuilder = rendermaterial.sprite().wrap(ItemRenderer.getFoilBufferDirect(buffer, this.shieldModel.renderType(rendermaterial.atlasLocation()), true, stack.hasFoil()));
         this.shieldModel.handle().render(matrixStack, ivertexbuilder, combinedLight, combinedOverlay, 1.0F,
