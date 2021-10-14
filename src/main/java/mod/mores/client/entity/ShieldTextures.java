@@ -22,8 +22,8 @@ public class ShieldTextures {
     public static final RenderMaterial LOCATION_COBALT_SHIELD_BASE = material("entity/cobalt_shield_base");
     public static final RenderMaterial LOCATION_COBALT_SHIELD_BASE_NOPATTERN = material("entity/cobalt_shield_base_nopattern");
 
-    public static final RenderMaterial LOCATION_OBSIDIAN_SHIELD_BASE = material("entity/sterling_shield_base");
-    public static final RenderMaterial LOCATION_OBSIDIAN_SHIELD_BASE_NOPATTERN = material("entity/sterling_shield_base_nopattern");
+    public static final RenderMaterial LOCATION_OBSIDIAN_SHIELD_BASE = material("entity/obsidian_shield_base");
+    public static final RenderMaterial LOCATION_OBSIDIAN_SHIELD_BASE_NOPATTERN = material("entity/obsidian_shield_base_nopattern");
 
     public static final RenderMaterial LOCATION_STERLING_SHIELD_BASE = material("entity/sterling_shield_base");
     public static final RenderMaterial LOCATION_STERLING_SHIELD_BASE_NOPATTERN = material("entity/sterling_shield_base_nopattern");
