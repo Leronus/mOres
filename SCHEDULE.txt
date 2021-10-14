@@ -10,18 +10,16 @@
 - Add shields to lang files
 - Make sure loot tables are updated (for mods as well)
 - Update oregen
-- Update sapphire armor night vision (buggy, because of 00:00 timer, keeps flickering)
-- Update vanilla armor, horse armor, ore and block textures (swords as well) - maybe via resource pack
-- Add commands to ranks
-- Edit configs and add to modpack
-- Check if valhelsia deleted gives more fps, check if thats what gives the temples and stuff
 - Recipes for shields
-
+- Update graphene armor model (more light green-ish)
+- Check custom join message/ first server join msg 
+- Censor curse words?
 
 - Tin/Silver tools & armor may need another rework (?)
 - Silver ore 1.17 update (?? what does this mean even)
 - Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt) (?)
 - Add rooiekool (?)
+- Add another fuel?
 
 
 ** POTENTIALLY NEXT RELEASE **
