@@ -6,6 +6,9 @@ v2.2.1
 - Moissanite sword & dagger texture update
 - Cobalt dagger texture update
 - Tourmaline dagger texture update
+- Added loottables for my items so you can find them all over the world in chests
+- Modified onyx sword tooltip (more visible now)
+- Added rooiekool fuel (can also be eaten but I don't know if you should)
 
 
 v2.2.0

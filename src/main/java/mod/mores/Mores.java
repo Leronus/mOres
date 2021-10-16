@@ -6,6 +6,7 @@ import mod.mores.event.HarvestEvent;
 import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
 import mod.mores.recipe.ShieldRecipes;
+import mod.mores.util.FuelHandler;
 import mod.mores.world.DeepslateOreGeneration;
 import mod.mores.world.OreGeneration;
 import net.minecraft.entity.EntityType;
@@ -70,6 +71,9 @@ public class Mores
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //Register fuels
+        MinecraftForge.EVENT_BUS.register(FuelHandler.instance);
 
         //Start the ore generation
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);

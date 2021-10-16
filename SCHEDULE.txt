@@ -5,11 +5,9 @@
  
 
 ** SCHEDULED FOR THIS RELEASE **
-- Make sure loot tables are updated (for mods as well)
 - Update oregen
 - Add advancements for shields, and rooiekool (also add potion effect to it)
 
-- Add rooiekool (?)
 - Add another fuel?
 
 
