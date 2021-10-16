@@ -1,5 +1,10 @@
+v2.2.1
+- Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)
+- Added missing recipes (bronze apple, steel mace, sterling silver mace, raw tin/copper/cobalt/silver blocks)
+- Modified shield recipes (vanilla shield surrounded by 8 gems/ingots)
+
 v2.2.0
-- Added custom shields for each materials (purely cosmetic as of now)
+- Added custom shields for each materials
 - Fixed full sapphire armor's night vision potion effect giving epilepsy
 - Fixed some loot tables (spawning my items in chests)
 - Restored oregen (would not update properly)
