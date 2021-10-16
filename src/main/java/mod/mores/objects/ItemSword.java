@@ -33,7 +33,7 @@ public class ItemSword extends SwordItem {
         //tooltip.add("Text: " + TextFormatting.COLOR + toolMaterial.get);
         tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + maxUses));
         if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()){
-            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.BLACK + bonusEffectWither));
+            tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.DARK_GRAY + bonusEffectWither));
         }
         if (stack.getItem() == ItemInit.RUBY_SWORD.get() || stack.getItem() == ItemInit.RUBY_MACE.get() || stack.getItem() == ItemInit.RUBY_BATTLEAXE.get() || stack.getItem() == ItemInit.RUBY_DAGGER.get()){
             tooltip.add(ITextComponent.nullToEmpty("Bonus: " + TextFormatting.RED + bonusEffectBurn));
