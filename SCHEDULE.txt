@@ -5,24 +5,17 @@
  
 
 ** SCHEDULED FOR THIS RELEASE **
-- Add some other shield attributes (waiting for reply on forums
-
 - Make sure loot tables are updated (for mods as well)
 - Update oregen
-- Recipes for shields
-- Update graphene armor model (more light green-ish)
-- Check custom join message/ first server join msg 
-- Censor curse words?
+- Add advancements for shields, and rooiekool (also add potion effect to it)
 
-- Tin/Silver tools & armor may need another rework (?)
-- Silver ore 1.17 update (?? what does this mean even)
-- Retexture some knives/swords at the edge (tourmaline, moissanite, cobalt) (?)
 - Add rooiekool (?)
 - Add another fuel?
 
 
 ** POTENTIALLY NEXT RELEASE **
 - Config for the duck
+- Tin/Silver tools & armor may need another rework (?)
 
 ** LATER RELEASES **
 - Bows (?)
