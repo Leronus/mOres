@@ -97,7 +97,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "morest:sapphire_sword",
+          "name": "mores:sapphire_sword",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",

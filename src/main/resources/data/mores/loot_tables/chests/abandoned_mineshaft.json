@@ -53,7 +53,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:amethyst_gem",
+          "name": "mores:amethyst_gem",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -6,14 +6,12 @@
 
 ** SCHEDULED FOR THIS RELEASE **
 - Update oregen
-- Add advancements for shields, and rooiekool (also add potion effect to it)
-
-- Add another fuel?
 
 
 ** POTENTIALLY NEXT RELEASE **
 - Config for the duck
 - Tin/Silver tools & armor may need another rework (?)
+- Add another fuel?
 
 ** LATER RELEASES **
 - Bows (?)
