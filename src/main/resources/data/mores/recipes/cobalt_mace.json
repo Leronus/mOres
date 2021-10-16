@@ -17,13 +17,13 @@
     },
     "$":
     {
-      "item": "mores:sterling_ingot"
+      "item": "mores:cobalt_ingot"
     }
   },
 
   "result":
   {
-    "item":  "mores:sterling_mace",
+    "item":  "mores:cobalt_mace",
     "count": 1
   }
 }
