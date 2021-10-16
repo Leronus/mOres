@@ -1,0 +1,262 @@
+{
+  "display": {
+    "title": "You Shall Not Pass",
+    "description": "You have crafted all shields in the game. Absolute gandalf.",
+    "icon": {
+      "item": "mores:graphene_shield"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/craft_shield",
+  "criteria": {
+    "obtain_copper_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:copper_shield"
+          }
+        ]
+      }
+    },
+    "obtain_tin_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tin_shield"
+          }
+        ]
+      }
+    },
+    "obtain_bronze_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:bronze_shield"
+          }
+        ]
+      }
+    },
+    "obtain_silver_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:silver_shield"
+          }
+        ]
+      }
+    },
+    "obtain_cobalt_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:cobalt_shield"
+          }
+        ]
+      }
+    },
+    "obtain_steel_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_shield"
+          }
+        ]
+      }
+    },
+    "obtain_sterling_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sterling_shield"
+          }
+        ]
+      }
+    },
+    "obtain_amethyst_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_shield"
+          }
+        ]
+      }
+    },
+    "obtain_topaz_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:topaz_shield"
+          }
+        ]
+      }
+    },
+    "obtain_tourmaline_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tourmaline_shield"
+          }
+        ]
+      }
+    },
+    "obtain_ruby_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:ruby_shield"
+          }
+        ]
+      }
+    },
+    "obtain_sapphire_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_shield"
+          }
+        ]
+      }
+    },
+    "obtain_onyx_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:onyx_shield"
+          }
+        ]
+      }
+    },
+    "obtain_tanzanite_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tanzanite_shield"
+          }
+        ]
+      }
+    },
+    "obtain_moissanite_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:moissanite_shield"
+          }
+        ]
+      }
+    },
+    "obtain_turquoise_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:turquoise_shield"
+          }
+        ]
+      }
+    },
+    "obtain_graphene_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:graphene_shield"
+          }
+        ]
+      }
+    },
+    "obtain_wood_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:wood_shield"
+          }
+        ]
+      }
+    },
+    "obtain_stone_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:stone_shield"
+          }
+        ]
+      }
+    },
+    "obtain_iron_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:iron_shield"
+          }
+        ]
+      }
+    },
+    "obtain_gold_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:gold_shield"
+          }
+        ]
+      }
+    },
+    "obtain_diamond_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:diamond_shield"
+          }
+        ]
+      }
+    },
+    "obtain_emerald_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:emerald_shield"
+          }
+        ]
+      }
+    },
+    "obtain_obsidian_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:obsidian_shield"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["obtain_copper_shield"], ["obtain_tin_shield"], ["obtain_bronze_shield"], ["obtain_silver_shield"], ["obtain_steel_shield"], ["obtain_sterling_shield"], ["obtain_cobalt_shield"], ["obtain_amethyst_shield"], ["obtain_topaz_shield"], ["obtain_tourmaline_shield"], ["obtain_ruby_shield"], ["obtain_sapphire_shield"], ["obtain_onyx_shield"], ["obtain_tanzanite_shield"], ["obtain_turquoise_shield"], ["obtain_moissanite_shield"], ["obtain_graphene_shield"], ["obtain_wood_shield"], ["obtain_stone_shield"], ["obtain_iron_shield"], ["obtain_gold_shield"], ["obtain_diamond_shield"], ["obtain_emerald_shield"], ["obtain_obsidian_shield"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}
