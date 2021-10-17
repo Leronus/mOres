@@ -18,6 +18,9 @@ public class Config {
     public static CommentedFileConfig cfg;
     private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
     private static final String CATEGORY_SHIELD = "shield";
+    private static final String CATEGORY_ENTITY = "entity";
+
+    public static BooleanValue duckSpawning;
 
     public static BooleanValue customShieldMaxReduction;
     public static ConfigValue<Integer> defaultDamageReduction;
@@ -70,6 +73,7 @@ public class Config {
                 .autosave().build();
         cfg.load();
         shieldConfig();
+        entityConfig();
         ForgeConfigSpec spec = builder.build();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
         spec.setConfig(cfg);
@@ -143,13 +147,18 @@ public class Config {
         moissaniteDurability = getInt("moissaniteDurability", CATEGORY_SHIELD, 5300, "The durability of the Moissanite Shield.");
         onyxDurability = getInt("onyxDurability", CATEGORY_SHIELD, 6200, "The durability of the Onyx Shield.");
         grapheneDurability = getInt("grapheneDurability", CATEGORY_SHIELD, 7500, "The durability of the Graphene Shield.");
-
 //        diamondDurability = getInt("diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
 //        netheriteDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 6300,
 //                "The durability of the Cobalt Shield.");
         thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELD, true,
                 "Allows the Thorns enchantment to by applied to Shields");
+    }
+
+    private void entityConfig(){
+        builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
+
+        duckSpawning = getBoolean("duckSpawning", CATEGORY_ENTITY, true, "Should ducks spawn naturally");
     }
 
     private static BooleanValue getBoolean(String name, String category, boolean defaultValue, String comment) {
