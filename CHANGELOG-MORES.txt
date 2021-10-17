@@ -1,4 +1,4 @@
-v2.2.1
+v2.3.0
 - Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)
 - Added missing recipes (bronze apple, steel mace, sterling silver mace, raw tin/copper/cobalt/silver blocks)
 - Modified shield recipes (vanilla shield surrounded by 8 gems/ingots)
