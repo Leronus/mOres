@@ -48,25 +48,25 @@ public class DeepslateOreGeneration {
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
 
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TIN_ORE.get().defaultBlockState(), 9, 42, 120, 30);
+                    BlockInit.TIN_ORE.get().defaultBlockState(), 7, 42, 120, 25);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COPPER_ORE.get().defaultBlockState(), 8, 47, 110, 25);
+                    BlockInit.COPPER_ORE.get().defaultBlockState(), 7, 47, 110, 20);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 36, 65, 18);
+                    BlockInit.SILVER_ORE.get().defaultBlockState(), 6, 36, 65, 13);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 26, 48, 15);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 5, 26, 48, 10);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 5, 21, 31, 10);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 5, 21, 31, 8);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 17, 27, 6);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 4, 17, 27, 5);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 4, 12, 26, 5);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 3, 12, 26, 4);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 3, 4, 15, 2);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 2, 4, 15, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.RUBY_ORE.get().defaultBlockState(), 3, 6, 17, 3);
+                    BlockInit.RUBY_ORE.get().defaultBlockState(), 2, 6, 17, 2);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 1, 10, 2);
+                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 2, 1, 10, 2);
 
             //Deepslate
             generateOre(event.getGeneration(), NATURAL_STONE,
@@ -80,15 +80,15 @@ public class DeepslateOreGeneration {
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.DEEPSLATE_AMETHYST_ORE.get().defaultBlockState(), 3, 9, 20, 4);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState(), 4, 6, 18, 3);
+                    BlockInit.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState(), 4, 6, 18, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState(), 4, 6, 20, 3);
+                    BlockInit.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState(), 3, 6, 20, 2);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState(), 4, 2, 14, 3);
+                    BlockInit.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState(), 4, 2, 14, 2);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_RUBY_ORE.get().defaultBlockState(), 4, 2, 14, 4);
+                    BlockInit.DEEPSLATE_RUBY_ORE.get().defaultBlockState(), 4, 2, 14, 3);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 8, 3);
+                    BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 8, 2);
         }
         //Nether
         else if (event.getCategory().equals(Biome.Category.NETHER)){
