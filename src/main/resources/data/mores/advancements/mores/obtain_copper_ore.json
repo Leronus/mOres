@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_ore"
+            "item": "mores:raw_copper"
           }
         ]
       }

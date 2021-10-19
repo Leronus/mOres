@@ -11,7 +11,8 @@ v2.3.0
 - Added rooiekool fuel (can also be eaten but I don't know if you should)
 - Added advancements for the shields
 - Added recipes for rooiekool
-- Added missing loottables for the alloy furnace
+- Added missing loottable for the alloy furnace
+- Added config for the natural duck spawning
 
 
 v2.2.0
