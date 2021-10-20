@@ -1,3 +1,7 @@
+v2.3.1
+- Added missing recipes to alloy graphene using the alloy furnace
+- Added tooltips for custom shields (damage reduction)
+
 v2.3.0
 - Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)
 - Added missing recipes (bronze apple, steel mace, sterling silver mace, raw tin/copper/cobalt/silver blocks)

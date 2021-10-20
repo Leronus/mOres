@@ -1,5 +1,6 @@
 package mod.mores.objects;
 
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.Callable;
 import java.util.function.Supplier;
@@ -9,6 +10,7 @@ import mod.mores.client.entity.render.ShieldTileEntityRenderer;
 import mod.mores.tabs.MoresTabs;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.client.renderer.tileentity.ItemStackTileEntityRenderer;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.*;
 import net.minecraft.tags.ITag;
@@ -19,11 +21,14 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.TranslationTextComponent;
+import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import org.jetbrains.annotations.Nullable;
 
 public class ItemShield extends ShieldItem {
 
+    private final int durability;
     private Supplier<Integer> damageReduction;
     private LazyValue<Ingredient> repairMaterial;
 
@@ -35,6 +40,7 @@ public class ItemShield extends ShieldItem {
         super((fireProof ? new Properties().fireResistant() : new Properties()).setISTER(() -> getISTER()).durability(durability).tab(MoresTabs.MORES_SHIELDS));
         this.damageReduction = damageReduction;
         this.repairMaterial = new LazyValue<>(repairMaterial);
+        this.durability = durability;
         DispenserBlock.registerBehavior(this, ArmorItem.DISPENSE_ITEM_BEHAVIOR);
     }
 
@@ -74,9 +80,14 @@ public class ItemShield extends ShieldItem {
      * @return the new text component.
      */
     public static ITextComponent getDamageReductionTextComponent(int reduction) {
-        TranslationTextComponent damageReduction = (TranslationTextComponent) new TranslationTextComponent("mores.shield_damage_reduction", reduction).append(": ").withStyle(TextFormatting.DARK_GREEN);
-        TranslationTextComponent actualReduction = (TranslationTextComponent) new TranslationTextComponent("" + reduction).withStyle(TextFormatting.GOLD);
-        return damageReduction.append(actualReduction);
+        TranslationTextComponent damageReduction = (TranslationTextComponent) new TranslationTextComponent("mores.shield_damage_reduction", reduction).withStyle(TextFormatting.DARK_GREEN);
+        TranslationTextComponent actualReduction = (TranslationTextComponent) new TranslationTextComponent(reduction + "% ").withStyle(TextFormatting.GOLD);
+        return actualReduction.append(damageReduction);
     }
 
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+        tooltip.add(ITextComponent.nullToEmpty("Max Uses: " + TextFormatting.LIGHT_PURPLE + durability));
+        super.appendHoverText(stack, worldIn, tooltip, flagIn);
+    }
 }

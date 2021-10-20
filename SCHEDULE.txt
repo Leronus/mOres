@@ -5,13 +5,15 @@
  
 
 ** SCHEDULED FOR THIS RELEASE **
-- Update oregen
+- Add tooltip to shield for durability
+- Fix vanilla shield damage reduction rate
+- Add another fuel?
+- Add spears?
+- Add a few advancements / rework (for example get all shields)
 
 
 ** POTENTIALLY NEXT RELEASE **
-- Config for the duck
 - Tin/Silver tools & armor may need another rework (?)
-- Add another fuel?
 
 ** LATER RELEASES **
 - Bows (?)
