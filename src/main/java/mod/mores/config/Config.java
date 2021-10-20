@@ -91,7 +91,7 @@ public class Config {
 
         copperDamageReduction = getInt("copperDamageReduction", CATEGORY_SHIELD, 60,
                 "The portion of the incoming damage Copper Shields block in percent.");
-        tinDamageReduction = getInt("tinDamageReduction", CATEGORY_SHIELD, 55,
+        tinDamageReduction = getInt("tinDamageReduction", CATEGORY_SHIELD, 60,
                 "The portion of the incoming damage Tin Shields block in percent.");
         silverDamageReduction = getInt("silverDamageReduction", CATEGORY_SHIELD, 65,
                 "The portion of the incoming damage Silver Shields block in percent.");

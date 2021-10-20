@@ -67,15 +67,6 @@ public class ItemShield extends ShieldItem {
     }
 
     /**
-     * Creates a {@link TranslationTextComponent} for the when blocking tooltip.
-     *
-     * @return the new text component.
-     */
-    public static ITextComponent getBlockingTextComponent() {
-        return new TranslationTextComponent("mores.shield_blocking").withStyle(TextFormatting.GRAY);
-    }
-
-    /**
      * Creates a {@link TranslationTextComponent} for the damage reduction tooltip.
      *
      * @param reduction the damage reduction of the shield for which the text
@@ -83,8 +74,9 @@ public class ItemShield extends ShieldItem {
      * @return the new text component.
      */
     public static ITextComponent getDamageReductionTextComponent(int reduction) {
-        return new TranslationTextComponent("mores.shield_damage_reduction", reduction)
-                .withStyle(TextFormatting.DARK_GREEN);
+        TranslationTextComponent damageReduction = (TranslationTextComponent) new TranslationTextComponent("mores.shield_damage_reduction", reduction).append(": ").withStyle(TextFormatting.DARK_GREEN);
+        TranslationTextComponent actualReduction = (TranslationTextComponent) new TranslationTextComponent("" + reduction).withStyle(TextFormatting.GOLD);
+        return damageReduction.append(actualReduction);
     }
 
 }
