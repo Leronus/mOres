@@ -29,36 +29,6 @@
       }
     ]
   },
-  "rick_astley": {
-    "category": "players",
-    "subtitle" : "rick_astley.dub",
-    "sounds" : [
-      {
-        "name" : "mores:music/rick_astley",
-        "stream" : true
-      }
-    ]
-  },
-  "darude_sandstorm": {
-    "category": "players",
-    "subtitle" : "darude_sandstorm.sub",
-    "sounds" : [
-      {
-        "name" : "mores:music/darude_sandstorm",
-        "stream" : true
-      }
-    ]
-  },
-  "crazy_frog": {
-    "category": "players",
-    "subtitle" : "crazy_frog.sub",
-    "sounds" : [
-      {
-        "name" : "mores:music/crazy_frog",
-        "stream" : true
-      }
-    ]
-  },
   "that_duck": {
     "category": "ambient",
     "subtitle" : "that_duck.sub",

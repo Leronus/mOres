@@ -1,6 +1,9 @@
 v2.3.1
 - Added missing recipes to alloy graphene using the alloy furnace
-- Added tooltips for custom shields (damage reduction)
+- Added tooltips for custom shields (damage reduction & durability)
+- Buffed onyx sword a little
+- Buffed rubys fire effect
+- Nerfed silver sword smite (lvl 4 to 3)
 
 v2.3.0
 - Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)
