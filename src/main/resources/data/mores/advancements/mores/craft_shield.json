@@ -3,7 +3,7 @@
     "title": "Safely drippin'",
     "description": "You have your first mOres shield.",
     "icon": {
-      "item": "mores:graphene_shield"
+      "item": "mores:tourmaline_shield"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
