@@ -27,25 +27,23 @@ public class BlockOre extends OreBlock {
     //TODO Add deepslate
     @Override
     protected int xpOnDrop(Random random) {
-        if (this == BlockInit.AMETHYST_ORE.get()) {
+        if (this == BlockInit.AMETHYST_ORE.get() || this == BlockInit.DEEPSLATE_AMETHYST_ORE.get()) {
             return MathHelper.nextInt(random, 2, 5);
-        } else if (this == BlockInit.TOPAZ_ORE.get()) {
+        } else if (this == BlockInit.TOPAZ_ORE.get() || this == BlockInit.DEEPSLATE_TOPAZ_ORE.get()) {
             return MathHelper.nextInt(random, 3, 6);
-        } else if (this == BlockInit.TOURMALINE_ORE.get()) {
+        } else if (this == BlockInit.TOURMALINE_ORE.get() || this == BlockInit.DEEPSLATE_TOURMALINE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 7);
         } else if (this == BlockInit.TANZANITE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 7);
-        } else if (this == BlockInit.SAPPHIRE_ORE.get()) {
+        } else if (this == BlockInit.SAPPHIRE_ORE.get() || this == BlockInit.DEEPSLATE_SAPPHIRE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
-        } else if (this == BlockInit.RUBY_ORE.get()) {
+        } else if (this == BlockInit.RUBY_ORE.get() || this == BlockInit.DEEPSLATE_RUBY_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
-        } else if (this == BlockInit.MOISSANITE_NETHER_ORE.get()) {
-            return MathHelper.nextInt(random, 3, 9);
-        } else if (this == BlockInit.MOISSANITE_ORE.get()) {
+        } else if (this == BlockInit.MOISSANITE_NETHER_ORE.get() || this == BlockInit.DEEPSLATE_MOISSANITE_ORE.get() || this == BlockInit.MOISSANITE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 9);
         } else if (this == BlockInit.ONYX_ORE.get()) {
             return MathHelper.nextInt(random, 4, 10);
-        } else if (this == BlockInit.TURQUOISE_ORE.get()) {
+        } else if (this == BlockInit.TURQUOISE_ORE.get() || this == BlockInit.DEEPSLATE_TURQUOISE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 9);
         } else {
             return this == BlockInit.NETHER_SILVER_ORE.get() ? MathHelper.nextInt(random, 0, 1) : 0;
