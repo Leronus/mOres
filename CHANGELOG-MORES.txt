@@ -5,6 +5,10 @@ v2.3.1
 - Buffed rubys fire effect
 - Nerfed silver sword smite (lvl 4 to 3)
 - Changed graphene & turquoise textures
+- Fixed topaz harvestlevel (was lvl 2 should be 3)
+- Fixed deepslate ores not giving xp
+- Added autosmelt tooltips for ruby shovel & axe
+
 
 v2.3.0
 - Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)
