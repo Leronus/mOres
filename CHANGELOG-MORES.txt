@@ -4,7 +4,7 @@ v2.3.1
 - Buffed onyx sword a little
 - Buffed rubys fire effect
 - Nerfed silver sword smite (lvl 4 to 3)
-- Removed 3 sound easter eggs to reduce mod file size
+- Changed graphene & turquoise textures
 
 v2.3.0
 - Shields now have different damage reduction rates (can be modified in config, default vanilla = 60%)

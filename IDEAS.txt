@@ -4,11 +4,10 @@
 
 
 -- APPROVED -- 
-- Custom paintings
 
 
 -- DOING --
-- Shields
+
 
 
 -- IMPLEMENTED --
@@ -17,6 +16,8 @@
 - Deepslate ore generation
 - Autosmelter for ruby
 - Potion effects for full armor sets
+- Custom paintings
+- Shields
 
 
 -- REJECTED -- 
