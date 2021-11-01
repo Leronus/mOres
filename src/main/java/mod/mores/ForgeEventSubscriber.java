@@ -22,13 +22,13 @@ public class ForgeEventSubscriber {
     {
         if (evt.getCategory() == Biome.Category.NETHER)
         {
-            //OreGeneration.generateOres(evt);
-            DeepslateOreGeneration.generateOres(evt);
+            OreGeneration.generateOres(evt);
+            //DeepslateOreGeneration.generateOres(evt);
         }
         else if (evt.getCategory() != Biome.Category.THEEND)
         {
-            //OreGeneration.generateOres(evt);
-            DeepslateOreGeneration.generateOres(evt);
+            OreGeneration.generateOres(evt);
+            //DeepslateOreGeneration.generateOres(evt);
         }
     } // end onBiomeLoading()
 }

@@ -4,15 +4,18 @@
  
 
 ** SCHEDULED FOR THIS RELEASE **
+- Change battleaxe from sword to axe, rework attack dmg & speed accordingly
+- Add netherite battleaxe, sword, dagger 
+- Add advancement for those netherite tools
 - Add another fuel?
-- Add spears?
-- Add a few advancements / rework (for example get all shields)
 
 
 ** POTENTIALLY NEXT RELEASE **
-- Tin/Silver tools & armor may need another rework (?)
+- Add spears?
+- Add a few advancements / rework (for example get all shields)
 
 ** LATER RELEASES **
 - Bows (?)
+- Tin/Silver tools & armor may need another rework (?)
 
 
