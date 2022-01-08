@@ -4,14 +4,10 @@
  
 
 ** SCHEDULED FOR THIS RELEASE *
-- Add another fuel? One to overworld, one to nether (Anthracite, Lignite)
-- Add fyranite/adamantium
-- Add nether ore variants for ruby & sapphire
-- Rework amethyst/tourmaline/topaz a little, make sterling silver a little stronger maybe, make those gems rarer or at least test how common they are
-- Also test turquoise ore gen a little more
-- Add spinel to nether only
-- Nerf tanzanite oregen
+- Add another fuel? One to overworld, one to nether (Anthracite, Lignite, Coke aka Coking Coal)
+- Add fyranite/adamantium/spinel
 - Add more end variants? perhaps turquoise/diamond
+- Add recipe to create flint and steel with steel ingot
 
 
 
