@@ -9,6 +9,7 @@ v2.3.2
 - Added netherite battleaxe, dagger, mace
 - Added the new netherite tools to advancements
 - Turquoise ore updated
+- Added ruby & sapphire nether variants
 
 
 
