@@ -251,10 +251,20 @@
           }
         ]
       }
+    },
+    "obtain_netherite_battleaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:netherite_battleaxe"
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["obtain_copper_battleaxe"], ["obtain_tin_battleaxe"], ["obtain_bronze_battleaxe"], ["obtain_silver_battleaxe"], ["obtain_steel_battleaxe"], ["obtain_sterling_battleaxe"], ["obtain_cobalt_battleaxe"], ["obtain_amethyst_battleaxe"], ["obtain_topaz_battleaxe"], ["obtain_tourmaline_battleaxe"], ["obtain_ruby_battleaxe"], ["obtain_sapphire_battleaxe"], ["obtain_onyx_battleaxe"], ["obtain_tanzanite_battleaxe"], ["obtain_turquoise_battleaxe"], ["obtain_moissanite_battleaxe"], ["obtain_graphene_battleaxe"], ["obtain_wood_battleaxe"], ["obtain_stone_battleaxe"], ["obtain_iron_battleaxe"], ["obtain_gold_battleaxe"], ["obtain_diamond_battleaxe"], ["obtain_emerald_battleaxe"], ["obtain_obsidian_battleaxe"]
+    ["obtain_copper_battleaxe"], ["obtain_tin_battleaxe"], ["obtain_bronze_battleaxe"], ["obtain_silver_battleaxe"], ["obtain_steel_battleaxe"], ["obtain_sterling_battleaxe"], ["obtain_cobalt_battleaxe"], ["obtain_amethyst_battleaxe"], ["obtain_topaz_battleaxe"], ["obtain_tourmaline_battleaxe"], ["obtain_ruby_battleaxe"], ["obtain_sapphire_battleaxe"], ["obtain_onyx_battleaxe"], ["obtain_tanzanite_battleaxe"], ["obtain_turquoise_battleaxe"], ["obtain_moissanite_battleaxe"], ["obtain_graphene_battleaxe"], ["obtain_wood_battleaxe"], ["obtain_stone_battleaxe"], ["obtain_iron_battleaxe"], ["obtain_gold_battleaxe"], ["obtain_diamond_battleaxe"], ["obtain_emerald_battleaxe"], ["obtain_obsidian_battleaxe"], ["obtain_netherite_battleaxe"]
   ],
   "rewards": {
     "experience": 500

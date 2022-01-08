@@ -35,10 +35,16 @@
   "item.mores.diamond_dagger" : "Diamond Dagger",
   "item.mores.diamond_spear" : "Diamond Spear",
 
+  "item.mores.netherite_battleaxe" : "Netherite Battle Axe",
+  "item.mores.netherite_mace" : "Netherite Mace",
+  "item.mores.netherite_dagger" : "Netherite Dagger",
+  "item.mores.netherite_spear" : "Netherite Spear",
+
   "item.mores.ruby_gem" : "Ruby",
   "item.mores.ruby_horse_armor" : "Ruby Horse Armor",
   "block.mores.ruby_block" : "Ruby Block",
   "block.mores.ruby_ore" : "Ruby Ore",
+  "block.mores.nether_ruby_ore": "Nether Ruby Ore",
   "block.mores.deepslate_ruby_ore" : "Deepslate Ruby Ore",
 
   "item.mores.ruby_sword" : "Ruby Sword",
@@ -109,6 +115,7 @@
   "item.mores.sapphire_horse_armor" : "Sapphire Horse Armor",
   "block.mores.sapphire_block" : "Sapphire Block",
   "block.mores.sapphire_ore" : "Sapphire Ore",
+  "block.mores.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.mores.deepslate_sapphire_ore" : "Deepslate Sapphire Ore",
 
   "item.mores.sapphire_sword" : "Sapphire Sword",

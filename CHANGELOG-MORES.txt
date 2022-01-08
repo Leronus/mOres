@@ -6,6 +6,10 @@ v2.3.2
 - Removed the sweeping edge effect from the battleaxes
 - Battleaxe can now be used to mine wood
 - Updated ore generation (everything is more rare)
+- Added netherite battleaxe, dagger, mace
+- Added the new netherite tools to advancements
+- Turquoise ore updated
+
 
 
 v2.3.1

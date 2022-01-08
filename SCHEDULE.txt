@@ -3,11 +3,8 @@
 - Mod walkthrough
  
 
-** SCHEDULED FOR THIS RELEASE **
-- Change battleaxe from sword to axe, rework attack dmg & speed accordingly
-- Add netherite battleaxe, sword, dagger 
-- Add advancement for those netherite tools
-- Add another fuel? One to overworld, one to nether
+** SCHEDULED FOR THIS RELEASE *
+- Add another fuel? One to overworld, one to nether (Anthracite, Lignite)
 - Add fyranite/adamantium
 - Add nether ore variants for ruby & sapphire
 - Rework amethyst/tourmaline/topaz a little, make sterling silver a little stronger maybe, make those gems rarer or at least test how common they are
