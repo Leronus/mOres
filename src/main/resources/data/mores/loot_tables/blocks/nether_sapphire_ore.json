@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "mores:sapphire_ingot",
+              "name": "mores:sapphire_gem",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

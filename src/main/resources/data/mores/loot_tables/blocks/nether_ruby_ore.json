@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "mores:ruby_ingot",
+              "name": "mores:ruby_gem",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",
