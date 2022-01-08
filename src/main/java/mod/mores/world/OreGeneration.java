@@ -45,13 +45,13 @@ public class OreGeneration {
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 34, 12);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 8);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 6);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 9);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 7);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 4);
+                    BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 3, 12, 3);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 6);
+                    BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 4, 11, 4);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 4);
         }
