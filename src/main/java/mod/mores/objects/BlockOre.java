@@ -24,7 +24,6 @@ public class BlockOre extends OreBlock {
         super(properties);
     }
 
-    //TODO Add deepslate
     @Override
     protected int xpOnDrop(Random random) {
         if (this == BlockInit.AMETHYST_ORE.get() || this == BlockInit.DEEPSLATE_AMETHYST_ORE.get()) {
@@ -35,9 +34,9 @@ public class BlockOre extends OreBlock {
             return MathHelper.nextInt(random, 3, 7);
         } else if (this == BlockInit.TANZANITE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 7);
-        } else if (this == BlockInit.SAPPHIRE_ORE.get() || this == BlockInit.DEEPSLATE_SAPPHIRE_ORE.get()) {
+        } else if (this == BlockInit.SAPPHIRE_ORE.get() || this == BlockInit.DEEPSLATE_SAPPHIRE_ORE.get() || this == BlockInit.NETHER_SAPPHIRE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
-        } else if (this == BlockInit.RUBY_ORE.get() || this == BlockInit.DEEPSLATE_RUBY_ORE.get()) {
+        } else if (this == BlockInit.RUBY_ORE.get() || this == BlockInit.DEEPSLATE_RUBY_ORE.get() || this == BlockInit.NETHER_RUBY_ORE.get()) {
             return MathHelper.nextInt(random, 3, 8);
         } else if (this == BlockInit.MOISSANITE_NETHER_ORE.get() || this == BlockInit.DEEPSLATE_MOISSANITE_ORE.get() || this == BlockInit.MOISSANITE_ORE.get()) {
             return MathHelper.nextInt(random, 3, 9);
