@@ -9,7 +9,7 @@ v2.3.2
 - Added netherite battleaxe, dagger, mace
 - Added the new netherite tools to advancements
 - Turquoise ore updated
-- Added ruby & sapphire nether variants
+- Added ruby & sapphire nether variants (don't yet spawn in the nether)
 - Added a new recipe for flint and steel (using steel ingot)
 
 - Added textures for adamantium/spinel/fyranite (coming soon)

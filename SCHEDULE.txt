@@ -4,6 +4,7 @@
  
 
 ** SCHEDULED FOR THIS RELEASE *
+- Add ruby & sapphire nether variants to ore gen
 - Add another fuel? One to overworld, one to nether (Anthracite, Lignite, Coke aka Coking Coal)
 - Add fyranite/adamantium/spinel
 - Add more end variants? perhaps turquoise/diamond
