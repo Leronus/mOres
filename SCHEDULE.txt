@@ -7,7 +7,15 @@
 - Change battleaxe from sword to axe, rework attack dmg & speed accordingly
 - Add netherite battleaxe, sword, dagger 
 - Add advancement for those netherite tools
-- Add another fuel?
+- Add another fuel? One to overworld, one to nether
+- Add fyranite/adamantium
+- Add nether ore variants for ruby & sapphire
+- Rework amethyst/tourmaline/topaz a little, make sterling silver a little stronger maybe, make those gems rarer or at least test how common they are
+- Also test turquoise ore gen a little more
+- Add spinel to nether only
+- Nerf tanzanite oregen
+- Add more end variants? perhaps turquoise/diamond
+
 
 
 ** POTENTIALLY NEXT RELEASE **

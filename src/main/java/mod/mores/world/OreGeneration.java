@@ -35,39 +35,39 @@ public class OreGeneration {
         //Overworld
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 34);
+                    BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 28);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 32);
+                    BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 26);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 65, 18);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 42, 17);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 42, 14);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 34, 15);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 34, 12);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 9);
+                    BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 8);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 11);
+                    BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 9);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 4, 15, 4);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 6, 14, 6);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 5);
+                    BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 4);
         }
         //Nether
         else if (event.getCategory().equals(Biome.Category.NETHER)){
             generateOre(event.getGeneration(), NETHERRACK,
-                    BlockInit.NETHER_SILVER_ORE.get().defaultBlockState(), 10, 0, 100, 35);
+                    BlockInit.NETHER_SILVER_ORE.get().defaultBlockState(), 9, 0, 100, 29);
             generateOre(event.getGeneration(), NETHERRACK,
-                    BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState(), 4, 0, 50, 16);
+                    BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState(), 5, 0, 50, 16);
             generateOre(event.getGeneration(), NETHERRACK,
-                    BlockInit.TANZANITE_ORE.get().defaultBlockState(), 5, 15, 70, 25);
+                    BlockInit.TANZANITE_ORE.get().defaultBlockState(), 6, 15, 70, 14);
         }
         //End
         else if (event.getCategory().equals(Biome.Category.THEEND)){
             generateOre(event.getGeneration(), END_STONE,
-                    BlockInit.ONYX_ORE.get().defaultBlockState(), 5, 30, 100, 8);
+                    BlockInit.ONYX_ORE.get().defaultBlockState(), 5, 30, 100, 7);
         }
     }
 

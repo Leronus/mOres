@@ -31,7 +31,7 @@ public class DuckEntity extends AnimalEntity {
     public float oFlap;
     public float flapping = 1.0F;
     public int eggTime = this.random.nextInt(6000) + 6000;
-    public boolean isChickenJockey;
+    public boolean isDuckJockey;
 
     public DuckEntity(EntityType<? extends AnimalEntity> type, World world) {
         super(type, world);
@@ -74,7 +74,7 @@ public class DuckEntity extends AnimalEntity {
         }
 
         this.flap += this.flapping * 2.0F;
-        if (!this.level.isClientSide && this.isAlive() && !this.isBaby() && !this.isChickenJockey() && --this.eggTime <= 0) {
+        if (!this.level.isClientSide && this.isAlive() && !this.isBaby() && !this.isDuckJockey() && --this.eggTime <= 0) {
             this.playSound(SoundEvents.CHICKEN_EGG, 1.0F, (this.random.nextFloat() - this.random.nextFloat()) * 0.2F + 1.0F);
             this.spawnAtLocation(Items.GOLD_NUGGET);
             this.eggTime = this.random.nextInt(8000) + 6000;
@@ -128,12 +128,12 @@ public class DuckEntity extends AnimalEntity {
     }
 
     protected int getExperienceReward(PlayerEntity p_70693_1_) {
-        return this.isChickenJockey() ? 10 : super.getExperienceReward(p_70693_1_);
+        return this.isDuckJockey() ? 10 : super.getExperienceReward(p_70693_1_);
     }
 
     public void readAdditionalSaveData(CompoundNBT p_70037_1_) {
         super.readAdditionalSaveData(p_70037_1_);
-        this.isChickenJockey = p_70037_1_.getBoolean("IsChickenJockey");
+        this.isDuckJockey = p_70037_1_.getBoolean("IsDuckJockey");
         if (p_70037_1_.contains("EggLayTime")) {
             this.eggTime = p_70037_1_.getInt("EggLayTime");
         }
@@ -142,12 +142,12 @@ public class DuckEntity extends AnimalEntity {
 
     public void addAdditionalSaveData(CompoundNBT p_213281_1_) {
         super.addAdditionalSaveData(p_213281_1_);
-        p_213281_1_.putBoolean("IsChickenJockey", this.isChickenJockey);
+        p_213281_1_.putBoolean("IsDuckJockey", this.isDuckJockey);
         p_213281_1_.putInt("EggLayTime", this.eggTime);
     }
 
     public boolean removeWhenFarAway(double p_213397_1_) {
-        return this.isChickenJockey();
+        return this.isDuckJockey();
     }
 
     public void positionRider(Entity p_184232_1_) {
@@ -163,11 +163,11 @@ public class DuckEntity extends AnimalEntity {
 
     }
 
-    public boolean isChickenJockey() {
-        return this.isChickenJockey;
+    public boolean isDuckJockey() {
+        return this.isDuckJockey;
     }
 
-    public void setChickenJockey(boolean p_152117_1_) {
-        this.isChickenJockey = p_152117_1_;
+    public void setDuckJockey(boolean p_152117_1_) {
+        this.isDuckJockey = p_152117_1_;
     }
 }

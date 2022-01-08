@@ -31,7 +31,7 @@ public class EntityEvent {
             MobSpawnInfoBuilder spawns = event.getSpawns();
 
             if (event.getCategory().equals(Biome.Category.BEACH) || event.getCategory().equals(Biome.Category.RIVER)) {
-                spawns.addSpawn(EntityClassification.WATER_CREATURE, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 1, 2, 5));
+                spawns.addSpawn(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(EntityTypeInit.DUCK.get(), 6, 3, 5));
             }
         }
     }

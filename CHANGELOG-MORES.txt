@@ -2,6 +2,11 @@ v2.3.2
 - Fixed graphene block to 9 gems recipe
 - Updated alloy furnace recipe (alloy furnace surrounded by tin ingots)
 - Renamed onyx to carbonado
+- Fixed duck spawning finally (still needs to be tested to be 100% certain)
+- Removed the sweeping edge effect from the battleaxes
+- Battleaxe can now be used to mine wood
+- Updated ore generation (everything is more rare)
+
 
 v2.3.1
 - Added missing recipes to alloy graphene using the alloy furnace
