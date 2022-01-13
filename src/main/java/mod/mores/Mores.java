@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package mod.mores;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
