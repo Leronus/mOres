@@ -1,0 +1,202 @@
+{
+  "display": {
+    "title": "Godverdomme Lekker Broodje",
+    "description": "You have done it. You have collected all mOres materials. That must taste good.",
+    "icon": {
+      "item": "mores:graphene_gem"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/root",
+  "criteria": {
+    "obtain_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:copper_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_tin_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tin_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:bronze_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_silver_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:silver_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_cobalt_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:cobalt_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:steel_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_sterling_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sterling_ingot"
+          }
+        ]
+      }
+    },
+    "obtain_amethyst_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_gem"
+          }
+        ]
+      }
+    },
+    "obtain_topaz_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:topaz_gem"
+          }
+        ]
+      }
+    },
+    "obtain_tourmaline": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tourmaline_gem"
+          }
+        ]
+      }
+    },
+    "obtain_ruby_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:ruby_gem"
+          }
+        ]
+      }
+    },
+    "obtain_sapphire_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:sapphire_gem"
+          }
+        ]
+      }
+    },
+    "obtain_turquoise_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:turquoise_gem"
+          }
+        ]
+      }
+    },
+    "obtain_onyx_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:onyx_gem"
+          }
+        ]
+      }
+    },
+    "obtain_tanzanite_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tanzanite_gem"
+          }
+        ]
+      }
+    },
+    "obtain_moissanite_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:moissanite_gem"
+          }
+        ]
+      }
+    },
+    "obtain_turquoise_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:turquoise_gem"
+          }
+        ]
+      }
+    },
+    "obtain_graphene_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:graphene_gem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["obtain_copper_ingot"], ["obtain_tin_ingot"], ["obtain_bronze_ingot"], ["obtain_silver_ingot"], ["obtain_steel_ingot"], ["obtain_sterling_ingot"], ["obtain_cobalt_ingot"], ["obtain_amethyst_gem"], ["obtain_topaz_gem"], ["obtain_tourmaline"], ["obtain_ruby_gem"], ["obtain_sapphire_gem"], ["obtain_turquoise_gem"], ["obtain_onyx_gem"], ["obtain_tanzanite_gem"], ["obtain_turquoise_gem"], ["obtain_moissanite_gem"], ["obtain_graphene_gem"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

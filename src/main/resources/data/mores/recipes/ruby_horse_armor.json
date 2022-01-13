@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  H",
+    "GWG",
+    "L L"
+  ],
+
+
+  "key":
+  {
+    "H":
+    {
+      "item": "mores:ruby_helmet"
+    },
+    "W":
+    {
+      "tag": "minecraft:wool"
+    },
+    "L":
+    {
+      "item": "mores:ruby_leggings"
+    },
+    "G":
+    {
+      "item": "mores:ruby_gem"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:ruby_horse_armor",
+    "count": 1
+  }
+}

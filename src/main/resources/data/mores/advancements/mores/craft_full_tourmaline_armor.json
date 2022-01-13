@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "The Ultimate SIMP",
+    "description": "You impressed the ladies with your beautiful armor",
+    "icon": {
+      "item": "mores:tourmaline_leggings"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_tourmaline",
+  "criteria": {
+    "craft_full_tourmaline_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:tourmaline_helmet"
+          },
+          {
+            "item": "mores:tourmaline_chestplate"
+          },
+          {
+            "item": "mores:tourmaline_leggings"
+          },
+          {
+            "item": "mores:tourmaline_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

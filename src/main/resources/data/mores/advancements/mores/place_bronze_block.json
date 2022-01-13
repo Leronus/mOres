@@ -1,0 +1,25 @@
+{
+  "display": {
+    "title": "Crazy Frog",
+    "description": "What's going on???",
+    "icon": {
+      "item": "mores:bronze_block"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:mores/obtain_bronze",
+  "criteria": {
+    "place_bronze_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "mores:bronze_block"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

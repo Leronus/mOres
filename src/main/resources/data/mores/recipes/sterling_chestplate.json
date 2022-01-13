@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "# #",
+    "###",
+    "###"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:sterling_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:sterling_chestplate",
+    "count": 1
+  }
+}

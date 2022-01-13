@@ -1,0 +1,14 @@
+{
+    "parent": "item/shield",
+    "textures": {
+        "particle": "mores:blocks/sapphire_block"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "mores:blocking": 1
+            },
+            "model": "mores:item/sapphire_shield_blocking"
+        }
+    ]
+}

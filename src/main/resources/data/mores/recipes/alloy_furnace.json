@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "###",
+    "#S#",
+    "###"
+  ],
+
+
+  "key":
+  {
+    "#":
+    {
+      "item": "mores:tin_ingot"
+    },
+    "S":
+    {
+      "item": "minecraft:furnace"
+    }
+  },
+
+  "result":
+  {
+    "item":  "mores:alloy_furnace",
+    "count": 1
+  }
+}

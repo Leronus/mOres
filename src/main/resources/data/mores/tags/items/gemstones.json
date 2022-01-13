@@ -1,0 +1,16 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:diamond",
+    "mores:amethyst_gem",
+    "mores:tourmaline_gem",
+    "mores:topaz_gem",
+    "mores:sapphire_gem",
+    "mores:ruby_gem",
+    "mores:moissanite_gem",
+    "mores:turquoise_gem",
+    "mores:onyx_gem",
+    "mores:tanzanite_gem",
+    "minecraft:emerald"
+  ]
+}
