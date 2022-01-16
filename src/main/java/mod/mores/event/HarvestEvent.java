@@ -1,6 +1,7 @@
 package mod.mores.event;
 
 import mod.mores.Mores;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
@@ -38,8 +39,8 @@ public class HarvestEvent {
             if (event.getTargetBlock().getHarvestLevel() <= 7) {
                 event.setCanHarvest(true);
             }
-        //Change vanilla netherite & diamond block harvestlevel
-        } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock == Blocks.NETHERITE_BLOCK) {
+        //Change vanilla netherite & diamond block/ore harvestlevel
+        } else if (targetBlock == Blocks.DIAMOND_BLOCK || targetBlock == Blocks.NETHERITE_BLOCK || targetBlock == Blocks.DIAMOND_ORE) {
             String mainhandItemName = String.valueOf(mainhandItem);
             String[] tooltypeName = mainhandItemName.split("_");
             ToolType toolType = ToolType.get(tooltypeName[1]);
