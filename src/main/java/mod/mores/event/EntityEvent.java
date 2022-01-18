@@ -27,7 +27,7 @@ public class EntityEvent {
             return;
         }
 
-        if (Config.duckSpawning.get()) {
+        if (Config.spawnDuck.get()) {
             MobSpawnInfoBuilder spawns = event.getSpawns();
 
             if (event.getCategory().equals(Biome.Category.BEACH) || event.getCategory().equals(Biome.Category.RIVER)) {

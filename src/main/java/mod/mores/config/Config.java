@@ -19,8 +19,26 @@ public class Config {
     private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
     private static final String CATEGORY_SHIELD = "shield";
     private static final String CATEGORY_ENTITY = "entity";
+    private static final String CATEGORY_ORES = "ores";
 
-    public static BooleanValue duckSpawning;
+    public static BooleanValue spawnDuck;
+
+    public static BooleanValue spawnCopper;
+    public static BooleanValue spawnTin;
+    public static BooleanValue spawnCobalt;
+    public static BooleanValue spawnAmethyst;
+    public static BooleanValue spawnSilver;
+    public static BooleanValue spawnTourmaline;
+    public static BooleanValue spawnTopaz;
+    public static BooleanValue spawnTanzanite;
+    public static BooleanValue spawnMoissanite;
+    public static BooleanValue spawnOnyx;
+    public static BooleanValue spawnRuby;
+    public static BooleanValue spawnSapphire;
+    public static BooleanValue spawnNetherRuby;
+    public static BooleanValue spawnNetherSapphire;
+    public static BooleanValue spawnTurquoise;
+
 
     public static BooleanValue customShieldMaxReduction;
     public static ConfigValue<Integer> defaultDamageReduction;
@@ -72,11 +90,34 @@ public class Config {
                 .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + "-common.toml")).sync()
                 .autosave().build();
         cfg.load();
+        oreConfig();
         shieldConfig();
         entityConfig();
         ForgeConfigSpec spec = builder.build();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
         spec.setConfig(cfg);
+    }
+
+    private void oreConfig(){
+        builder.comment("The ore configuration for this mod").push(CATEGORY_ENTITY).pop();
+
+        spawnCopper = getBoolean("spawnCopper", CATEGORY_ORES, true, "Should copper spawn in the overworld");
+        spawnTin = getBoolean("spawnTin", CATEGORY_ORES, true, "Should tin spawn in the overworld");
+        spawnSilver = getBoolean("spawnSilver", CATEGORY_ORES, true, "Should silver spawn in the overworld");
+        spawnCobalt = getBoolean("spawnCobalt", CATEGORY_ORES, true, "Should cobalt spawn in the overworld");
+        spawnAmethyst = getBoolean("spawnAmethyst", CATEGORY_ORES, true, "Should amethyst spawn in the overworld");
+        spawnTourmaline = getBoolean("spawnTourmaline", CATEGORY_ORES, true, "Should tourmaline spawn in the overworld");
+        spawnTopaz = getBoolean("spawnTopaz", CATEGORY_ORES, true, "Should topaz spawn in the overworld");
+        spawnSapphire = getBoolean("spawnSapphire", CATEGORY_ORES, true, "Should sapphire spawn in the overworld");
+        spawnRuby = getBoolean("spawnRuby", CATEGORY_ORES, true, "Should ruby spawn in the overworld");
+        spawnTurquoise = getBoolean("spawnTurquoise", CATEGORY_ORES, true, "Should turquoise spawn in the overworld");
+
+        spawnNetherSapphire = getBoolean("spawnNetherSapphire", CATEGORY_ORES, true, "Should sapphire spawn in the nether");
+        spawnNetherRuby = getBoolean("spawnNetherRuby", CATEGORY_ORES, true, "Should ruby spawn in the nether");
+        spawnTanzanite = getBoolean("spawnTanzanite", CATEGORY_ORES, true, "Should tanzanite spawn in the nether");
+        spawnMoissanite = getBoolean("spawnMoissanite", CATEGORY_ORES, true, "Should moissanite spawn in the nether");
+
+        spawnOnyx = getBoolean("spawnCarbonado", CATEGORY_ORES, true, "Should carbonado spawn in the overworld");
     }
 
     private void shieldConfig() {
@@ -158,8 +199,9 @@ public class Config {
     private void entityConfig(){
         builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
 
-        duckSpawning = getBoolean("duckSpawning", CATEGORY_ENTITY, true, "Should ducks spawn naturally");
+        spawnDuck = getBoolean("spawnDuck", CATEGORY_ENTITY, true, "Should ducks spawn naturally");
     }
+
 
     private static BooleanValue getBoolean(String name, String category, boolean defaultValue, String comment) {
         String path = category + "." + name;
