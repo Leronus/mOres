@@ -35,15 +35,15 @@ public class OreGeneration {
         //Overworld
         if (!(event.getCategory().equals(Biome.Category.NETHER) || event.getCategory().equals(Biome.Category.THEEND))) {
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 28);
+                    BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 29);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 26);
+                    BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 27);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 65, 18);
+                    BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 65, 19);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 22, 42, 14);
+                    BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 18, 42, 14);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 7, 17, 34, 12);
+                    BlockInit.AMETHYST_ORE.get().defaultBlockState(), 5, 15, 31, 12);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 5);
             generateOre(event.getGeneration(), NATURAL_STONE,
@@ -51,7 +51,7 @@ public class OreGeneration {
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 3, 11, 2);
             generateOre(event.getGeneration(), NATURAL_STONE,
-                    BlockInit.RUBY_ORE.get().defaultBlockState(), 4, 4, 13, 1);
+                    BlockInit.RUBY_ORE.get().defaultBlockState(), 5, 4, 13, 1);
             generateOre(event.getGeneration(), NATURAL_STONE,
                     BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 4);
         }

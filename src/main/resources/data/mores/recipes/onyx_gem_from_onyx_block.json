@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "moissanite_gem",
+  "group": "onyx_gem",
   "ingredients": [
     {
-      "item": "mores:moissanite_block"
+      "item": "mores:onyx_block"
     }
   ],
   "result": {
-    "item": "mores:moissanite_gem",
+    "item": "mores:onyx_gem",
     "count": 9
   }
 }
