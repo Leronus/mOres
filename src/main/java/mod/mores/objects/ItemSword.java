@@ -51,10 +51,7 @@ public class ItemSword extends SwordItem {
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         //If the item is an onyx sword, apply wither effect on targetEntity
         if(stack.getItem() == ItemInit.ONYX_SWORD.get() || stack.getItem() == ItemInit.ONYX_MACE.get() || stack.getItem() == ItemInit.ONYX_DAGGER.get() || stack.getItem() == ItemInit.ONYX_BATTLEAXE.get()) {
-            target.addEffect(new EffectInstance(Effects.WITHER, 200, 1, false, false));
-        }
-        else if (stack.getItem() == ItemInit.RUBY_SWORD.get() || stack.getItem() == ItemInit.RUBY_MACE.get() || stack.getItem() == ItemInit.RUBY_BATTLEAXE.get() || stack.getItem() == ItemInit.RUBY_DAGGER.get()) {
-            target.setSecondsOnFire(6);
+            target.addEffect(new EffectInstance(Effects.WITHER, 250, 1, false, false));
         }
         return super.hurtEnemy(stack, target, attacker);
     }
@@ -68,9 +65,12 @@ public class ItemSword extends SwordItem {
     @Override
     public void onCraftedBy(ItemStack stack, World world, PlayerEntity playerEntity) {
         //Add enchantment to silver sword upon creation
-        if (stack.getItem() == ItemInit.SILVER_SWORD.get()) {
-            stack.enchant(Enchantments.SMITE, 3);
-        }
+        if (stack.getItem() == ItemInit.SILVER_SWORD.get() || stack.getItem() == ItemInit.SILVER_DAGGER.get()
+        || stack.getItem() == ItemInit.SILVER_MACE.get() ||  stack.getItem() == ItemInit.SILVER_BATTLEAXE.get()) {
+            stack.enchant(Enchantments.SMITE, 2);
+        } else if (stack.getItem() == ItemInit.RUBY_SWORD.get() || stack.getItem() == ItemInit.RUBY_DAGGER.get()
+                || stack.getItem() == ItemInit.RUBY_MACE.get() ||  stack.getItem() == ItemInit.RUBY_BATTLEAXE.get())
+            stack.enchant(Enchantments.FIRE_ASPECT, 1);
         super.onCraftedBy(stack, world, playerEntity);
     }
 }

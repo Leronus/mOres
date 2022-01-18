@@ -3,6 +3,10 @@ v2.3.3
 - Increased ore generation rarity
 - Fixed onyx block to gem recipe
 - Tweaked ore generation a little more
+- Added netherite horse armor
+- Modified ruby weapons, now fire aspect 1 is added automatically
+- Added smite 2 enchantment to all silver weapons
+- Buffed wither effect duration by 20%
 - Updated mores wiki
 
 
