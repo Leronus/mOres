@@ -88,6 +88,7 @@ public class ItemInit{
     public static final RegistryObject<Item> MOISSANITE_HORSE_ARMOR = ITEMS.register("moissanite_horse_armor", () -> new HorseArmorItem(13, "moissanite", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
     public static final RegistryObject<Item> ONYX_HORSE_ARMOR = ITEMS.register("onyx_horse_armor", () -> new HorseArmorItem(14, "onyx", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
     public static final RegistryObject<Item> GRAPHENE_HORSE_ARMOR = ITEMS.register("graphene_horse_armor", () -> new HorseArmorItem(16, "graphene", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
+    public static final RegistryObject<Item> NETHERITE_HORSE_ARMOR = ITEMS.register("netherite_horse_armor", () -> new HorseArmorItem(15, "netherite", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));
 
 
     //All armor
