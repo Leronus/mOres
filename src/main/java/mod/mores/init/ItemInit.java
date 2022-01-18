@@ -24,6 +24,10 @@ public class ItemInit{
      * Registers all mores items
      */
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MODID);
+    public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
+
+    public static final RegistryObject<ItemPickaxe> DIAMOND_PICKAXE = ITEMS.register("diamond_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_DIAMOND, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+
 
     /**
      * Fills the registry with items
