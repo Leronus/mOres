@@ -1,3 +1,8 @@
+v2.3.4
+- Changed two advancement names
+- Added ores to the config so you can disable them if you want to
+
+
 v2.3.3
 - Updated netherite mace/dagger/battleaxe textures
 - Increased ore generation rarity
