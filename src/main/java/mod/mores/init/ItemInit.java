@@ -267,7 +267,7 @@ public class ItemInit{
     public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace", () -> new ItemSword(ItemTier.IRON, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> GOLD_MACE = ITEMS.register("gold_mace", () -> new ItemSword(ItemTier.GOLD, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new ItemSword(ItemTier.DIAMOND, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new ItemSword(ItemTier.NETHERITE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new ItemSword(ItemTier.NETHERITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new ItemSword(ToolMaterial.TOOL_TIN, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new ItemSword(ToolMaterial.TOOL_COPPER, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
