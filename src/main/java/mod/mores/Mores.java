@@ -2,17 +2,12 @@ package mod.mores;
 
 import mod.mores.config.Config;
 import mod.mores.entity.DuckEntity;
-import mod.mores.event.HarvestEvent;
 import mod.mores.init.*;
 import mod.mores.objects.ItemSpawnEgg;
-import mod.mores.recipe.ShieldRecipes;
 import mod.mores.util.FuelHandler;
-import mod.mores.world.DeepslateOreGeneration;
 import mod.mores.world.OreGeneration;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
-import net.minecraft.item.crafting.IRecipeSerializer;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -24,7 +19,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -62,12 +56,11 @@ public class Mores
         SoundTypeInit.SOUND_TYPES.register(bus);
         EntityTypeInit.ENTITY_TYPES.register(bus);
         BlockInit.BLOCKS.register(bus);
+        BlockInit.VANILLA_BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
+        ItemInit.VANILLA_ITEMS.register(bus);
         ContainerInit.CONTAINER_TYPES.register(bus);
         TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
-
-        //Registering the harvestLevels
-        MinecraftForge.EVENT_BUS.register(HarvestEvent.class);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

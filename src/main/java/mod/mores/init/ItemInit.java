@@ -26,9 +26,6 @@ public class ItemInit{
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Mores.MODID);
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
 
-    public static final RegistryObject<ItemPickaxe> DIAMOND_PICKAXE = ITEMS.register("diamond_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_DIAMOND, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-
-
     /**
      * Fills the registry with items
      */
@@ -68,7 +65,7 @@ public class ItemInit{
     public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new EffectInstance(Effects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(6).saturationMod(0.6F).meat().build())));
 
-    public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(3).saturationMod(0.4F).effect(new EffectInstance(Effects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(new EffectInstance(Effects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(3).saturationMod(0.4F).effect(() -> new EffectInstance(Effects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(() -> new EffectInstance(Effects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
 
     public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ItemSpawnEgg(EntityTypeInit.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
 
@@ -523,6 +520,13 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(BlockInit.ONYX_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
     public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(BlockInit.ONYX_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
+    // Vanilla
+    public static final RegistryObject<BlockItem> DIAMOND_ORE = VANILLA_ITEMS.register("diamond_ore", () -> new BlockItem(BlockInit.DIAMOND_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> DIAMOND_BLOCK = VANILLA_ITEMS.register("diamond_block", () -> new BlockItem(BlockInit.DIAMOND_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> OBSIDIAN = VANILLA_ITEMS.register("obsidian", () -> new BlockItem(BlockInit.OBSIDIAN.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ANCIENT_DEBRIS = VANILLA_ITEMS.register("ancient_debris", () -> new BlockItem(BlockInit.ANCIENT_DEBRIS.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> NETHERITE_BLOCK = VANILLA_ITEMS.register("netherite_block", () -> new BlockItem(BlockInit.NETHERITE_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+
     public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(BlockInit.BRONZE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(BlockInit.STEEL_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> STERLING_BLOCK = ITEMS.register("sterling_block", () -> new BlockItem(BlockInit.STERLING_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
@@ -531,10 +535,22 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> DEEPSLATE_BLOCK = ITEMS.register("deepslate_block", () -> new BlockItem(BlockInit.DEEPSLATE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
     public static final RegistryObject<BlockItem> COBBLED_DEEPSLATE = ITEMS.register("cobbled_deepslate", () -> new BlockItem(BlockInit.COBBLED_DEEPSLATE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
-    //Regular block as of now, will become TileEntity later
+    //Alloy Furnace
     public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
+    //Vanilla tools
+    public static final RegistryObject<ItemPickaxe> DIAMOND_PICKAXE = VANILLA_ITEMS.register("diamond_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_DIAMOND, 1, -2.8F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemShovel> DIAMOND_SHOVEL = VANILLA_ITEMS.register("diamond_shovel", () -> new ItemShovel(ToolMaterial.TOOL_DIAMOND, 1.5F, -3.0F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemAxe> DIAMOND_AXE = VANILLA_ITEMS.register("diamond_axe", () -> new ItemAxe(ToolMaterial.TOOL_DIAMOND, 6.0F, -3.2F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemHoe> DIAMOND_HOE = VANILLA_ITEMS.register("diamond_hoe", () -> new ItemHoe(ToolMaterial.TOOL_DIAMOND, 0, -3.0F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
 
+    public static final RegistryObject<ItemPickaxe> NETHERITE_PICKAXE = VANILLA_ITEMS.register("netherite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_NETHERITE, 1, -2.8F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemShovel> NETHERITE_SHOVEL = VANILLA_ITEMS.register("netherite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_NETHERITE, 1.5F, -3.0F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemAxe> NETHERITE_AXE = VANILLA_ITEMS.register("netherite_axe", () -> new ItemAxe(ToolMaterial.TOOL_NETHERITE, 6.0F, -3.2F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+    public static final RegistryObject<ItemHoe> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_NETHERITE, 0, -3.0F, new Item.Properties().tab(ItemGroup.TAB_COMBAT)));
+
+
+    //Shields
     public static final RegistryObject<ItemShield> TIN_SHIELD = ITEMS.register("tin_shield", () -> new ItemShield(() -> Config.tinDamageReduction.get(), MoresTags.Items.TIN, Config.tinDurability.get(), false));
     public static final RegistryObject<ItemShield> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ItemShield(() -> Config.copperDamageReduction.get(), MoresTags.Items.COPPER, Config.copperDurability.get(), false));
     public static final RegistryObject<ItemShield> SILVER_SHIELD = ITEMS.register("silver_shield", () -> new ItemShield(() -> Config.silverDamageReduction.get(), MoresTags.Items.SILVER, Config.silverDurability.get(), false));

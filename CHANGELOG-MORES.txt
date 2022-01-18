@@ -1,6 +1,10 @@
 v2.3.4
 - Changed two advancement names
 - Added ores to the config so you can disable them if you want to
+- Fixed harvest levels of vanilla blocks (diamond ore/block, obsidian, ancient debris)
+- Added tooltips to the diamond & netherite tools
+- Added sapphire and ruby to the nether
+- Updated moissanite & tanzanite ore textures
 
 
 v2.3.3

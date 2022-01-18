@@ -80,23 +80,23 @@ public class OreGeneration {
         else if (event.getCategory().equals(Biome.Category.NETHER)){
             if (Config.spawnSilver.get()) {
                 generateOre(event.getGeneration(), NETHERRACK,
-                        BlockInit.NETHER_SILVER_ORE.get().defaultBlockState(), 8, 0, 100, 25);
+                        BlockInit.NETHER_SILVER_ORE.get().defaultBlockState(), 8, 0, 100, 22);
             }
             if (Config.spawnNetherRuby.get()) {
                 generateOre(event.getGeneration(), NETHERRACK,
-                        BlockInit.NETHER_RUBY_ORE.get().defaultBlockState(), 5, 60, 110, 4);
+                        BlockInit.NETHER_RUBY_ORE.get().defaultBlockState(), 5, 60, 110, 2);
             }
             if (Config.spawnNetherSapphire.get()) {
                 generateOre(event.getGeneration(), NETHERRACK,
-                        BlockInit.NETHER_SAPPHIRE_ORE.get().defaultBlockState(), 4, 50, 100, 5);
+                        BlockInit.NETHER_SAPPHIRE_ORE.get().defaultBlockState(), 4, 50, 100, 3);
             }
             if (Config.spawnMoissanite.get()) {
                 generateOre(event.getGeneration(), NETHERRACK,
-                        BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState(), 5, 0, 75, 7);
+                        BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState(), 4, 0, 75, 5);
             }
             if (Config.spawnTanzanite.get()) {
                 generateOre(event.getGeneration(), NETHERRACK,
-                        BlockInit.TANZANITE_ORE.get().defaultBlockState(), 6, 15, 70, 9);
+                        BlockInit.TANZANITE_ORE.get().defaultBlockState(), 6, 15, 70, 7);
             }
         }
         //End
