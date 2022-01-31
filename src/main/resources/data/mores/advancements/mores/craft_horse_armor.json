@@ -233,6 +233,17 @@
       }
     }
   },
+  "craft_netherite_horse_armor": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "mores:netherite_horse_armor"
+        }
+      ]
+    }
+  }
+},
   "requirements": [
     ["craft_tin_horse_armor",
       "craft_copper_horse_armor",
@@ -254,6 +265,7 @@
       "craft_graphene_horse_armor",
       "craft_turquoise_horse_armor",
       "craft_diamond_horse_armor",
+      "craft_netherite_horse_armor",
       "craft_iron_horse_armor", "craft_gold_horse_armor"]
   ],
   "rewards": {

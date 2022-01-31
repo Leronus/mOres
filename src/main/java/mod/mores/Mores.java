@@ -1,8 +1,16 @@
 package mod.mores;
 
+import mod.mores.config.Config;
+import mod.mores.init.*;
+import mod.mores.objects.ItemSpawnEgg;
+import mod.mores.util.FuelHandler;
+//import mod.mores.world.OreGeneration;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -23,16 +31,41 @@ public class Mores
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
+    public static final String MODID = "mores";
+
     public Mores() {
+        //Create config
+        new Config();
+
+        //Get the mod event bus
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        bus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
+        bus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
+        bus.addListener(this::processIMC);
+
+        //Registering mores resources
+        SoundTypeInit.SOUND_TYPES.register(bus);
+//        EntityTypeInit.ENTITY_TYPES.register(bus);
+        BlockInit.BLOCKS.register(bus);
+        BlockInit.VANILLA_BLOCKS.register(bus);
+        ItemInit.ITEMS.register(bus);
+        ItemInit.VANILLA_ITEMS.register(bus);
+//        ContainerInit.CONTAINER_TYPES.register(bus);
+//        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        //Register fuels
+        MinecraftForge.EVENT_BUS.register(FuelHandler.instance);
+
+        //Start the ore generation
+        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
+//        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }
 
     private void setup(final FMLCommonSetupEvent event)
@@ -58,6 +91,11 @@ public class Mores
     public void onServerStarting(ServerStartingEvent event) {
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+
+    @SubscribeEvent
+    public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event) {
+        ItemSpawnEgg.initSpawnEggs();
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD

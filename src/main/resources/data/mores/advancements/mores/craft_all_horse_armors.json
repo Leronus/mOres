@@ -233,6 +233,16 @@
       ]
     }
   },
+  "craft_netherite_horse_armor": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "mores:netherite_horse_armor"
+        }
+      ]
+    }
+  },
   "rewards": {
     "experience": 100,
     "function" : "mores:mores/play_my_horse"
