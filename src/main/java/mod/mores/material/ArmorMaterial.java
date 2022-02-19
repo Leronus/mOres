@@ -44,7 +44,7 @@ public enum ArmorMaterial implements IArmorMaterial {
     private final SoundEvent equipSound;
     private final float toughness;
     private final float knockbackResistance;
-    private Ingredient repairIngredient;
+    private final Ingredient repairIngredient;
 
     /**
      * Constructor that adds the armormaterial
