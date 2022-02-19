@@ -28,11 +28,11 @@ public enum ToolMaterial implements IItemTier {
     TOOL_TANZANITE(5, 2000, 8.0F, 3.0F, 21, () -> Ingredient.of(ItemInit.TANZANITE_GEM.get())),
     TOOL_RUBY(5, 1600, 9.0F, 3.5F, 16, () -> Ingredient.of(ItemInit.RUBY_GEM.get())),
     TOOL_SAPPHIRE(5, 1750, 8.0F, 4.0F, 10, () -> Ingredient.of(ItemInit.SAPPHIRE_GEM.get())),
-    TOOL_MOISSANITE(6, 2200, 9.0F, 4.5F, 12, () -> Ingredient.of(ItemInit.MOISSANITE_GEM.get())),
+    TOOL_MOISSANITE(6, 2200, 8.5F, 3.5F, 12, () -> Ingredient.of(ItemInit.MOISSANITE_GEM.get())),
     TOOL_NETHERITE(6, 2031, 9.0F, 4.0F, 15, () -> Ingredient.of(Items.NETHERITE_INGOT)),
-    TOOL_ONYX(6, 3000, 9.5F, 5.0F, 15, () -> Ingredient.of(ItemInit.ONYX_GEM.get())),
-    TOOL_TURQUOISE(6, 2700, 10.0F, 3.5F, 14, () -> Ingredient.of(ItemInit.TURQUOISE_GEM.get())),
-    TOOL_GRAPHENE(7, 5000, 14.0F, 6.0F, 16, () -> Ingredient.of(ItemInit.GRAPHENE_GEM.get()));
+    TOOL_ONYX(6, 3000, 10.0F, 5.0F, 15, () -> Ingredient.of(ItemInit.ONYX_GEM.get())),
+    TOOL_TURQUOISE(6, 2700, 9.0F, 3.5F, 14, () -> Ingredient.of(ItemInit.TURQUOISE_GEM.get())),
+    TOOL_GRAPHENE(7, 5000, 11.0F, 6.0F, 16, () -> Ingredient.of(ItemInit.GRAPHENE_GEM.get()));
 
     private final int harvestLevel;
     private final int maxUses;
