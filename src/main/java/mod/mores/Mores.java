@@ -1,9 +1,11 @@
 package mod.mores;
 
-import mod.mores.config.Config;
-import mod.mores.init.*;
-import mod.mores.objects.ItemSpawnEgg;
-import mod.mores.util.FuelHandler;
+import mod.mores.common.item.ItemSpawnEgg;
+import mod.mores.core.config.Config;
+import mod.mores.core.init.BlockInit;
+import mod.mores.core.init.ItemInit;
+import mod.mores.core.init.SoundTypeInit;
+import mod.mores.core.util.FuelHandler;
 //import mod.mores.world.OreGeneration;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;

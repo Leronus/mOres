@@ -1,6 +1,6 @@
-package mod.mores.material;
+package mod.mores.core;
 
-import mod.mores.init.ItemInit;
+import mod.mores.core.init.ItemInit;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;

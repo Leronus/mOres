@@ -1,4 +1,4 @@
-package mod.mores.init;
+package mod.mores.core.init;
 
 import mod.mores.Mores;
 import mod.mores.objects.BlockOre;

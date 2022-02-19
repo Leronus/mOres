@@ -1,4 +1,4 @@
-package mod.mores.util;
+package mod.mores.core.util;
 
 import mod.mores.Mores;
 import net.minecraft.resources.ResourceLocation;

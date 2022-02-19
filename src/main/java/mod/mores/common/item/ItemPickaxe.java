@@ -1,7 +1,7 @@
-package mod.mores.objects;
+package mod.mores.common.item;
 
-import mod.mores.util.AutoSmeltHandler;
-import mod.mores.init.ItemInit;
+import mod.mores.core.init.ItemInit;
+import mod.mores.core.util.AutoSmeltHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
@@ -36,15 +36,15 @@ public class ItemPickaxe extends PickaxeItem {
 //        }
 //    }
 
-    @Override
-    public boolean mineBlock(ItemStack stack, Level worldIn, BlockState state, BlockPos pos,
-                             LivingEntity entityLiving)
-    {
-        if (this.equals(ItemInit.RUBY_PICKAXE.get())) {
-            AutoSmeltHandler.INSTANCE.afterBlockSmelt(worldIn, pos, true);
-        }
-        return super.mineBlock(stack, worldIn, state, pos, entityLiving);
-    }
+//    @Override
+//    public boolean mineBlock(ItemStack stack, Level worldIn, BlockState state, BlockPos pos,
+//                             LivingEntity entityLiving)
+//    {
+//        if (this.equals(ItemInit.RUBY_PICKAXE.get())) {
+//            AutoSmeltHandler.INSTANCE.afterBlockSmelt(worldIn, pos, true);
+//        }
+//        return super.mineBlock(stack, worldIn, state, pos, entityLiving);
+//    }
 
 //    @Override
 //    public ActionResultType useOn(ItemUseContext context)

@@ -1,4 +1,4 @@
-package mod.mores.recipe;
+package mod.mores.core.recipe;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import com.google.gson.JsonObject;

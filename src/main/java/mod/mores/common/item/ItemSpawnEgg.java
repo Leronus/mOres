@@ -1,4 +1,4 @@
-package mod.mores.objects;
+package mod.mores.common.item;
 
 import net.minecraft.core.BlockSource;
 import net.minecraft.core.Direction;

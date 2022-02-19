@@ -1,4 +1,4 @@
-package mod.mores.data;
+package mod.mores.core.data;
 
 import mod.mores.Mores;
 //import mod.mores.recipe.AlloyFurnaceRecipes;

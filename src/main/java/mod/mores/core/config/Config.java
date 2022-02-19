@@ -1,4 +1,4 @@
-package mod.mores.config;
+package mod.mores.core.config;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 

@@ -1,4 +1,4 @@
-package mod.mores.util;
+package mod.mores.core.util;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
@@ -8,7 +8,7 @@ import net.minecraft.world.level.Level;
 
 import java.util.Random;
 
-public class AutoSmeltHandler implements IWeaponEffectHelper
+public class AutoSmeltHandler implements mod.mores.util.IWeaponEffectHelper
 {
     public static AutoSmeltHandler INSTANCE = new AutoSmeltHandler();
 

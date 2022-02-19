@@ -1,9 +1,6 @@
-package mod.mores.objects;
+package mod.mores.common.item;
 
-import mod.mores.init.ItemInit;
-import net.minecraft.ChatFormatting;
-import net.minecraft.client.renderer.EffectInstance;
-import net.minecraft.network.chat.TextComponent;
+import mod.mores.core.init.ItemInit;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;

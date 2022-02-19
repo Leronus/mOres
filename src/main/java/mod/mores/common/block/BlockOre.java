@@ -1,4 +1,4 @@
-package mod.mores.objects;
+package mod.mores.common.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
