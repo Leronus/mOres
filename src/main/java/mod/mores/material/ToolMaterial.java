@@ -26,7 +26,7 @@ public enum ToolMaterial implements IItemTier {
     TOOL_TOURMALINE(4, 1500, 7.5F, 3.0F, 13, () -> Ingredient.of(ItemInit.TOURMALINE_GEM.get())),
     TOOL_DIAMOND(5, 1561, 8.0F, 3.0F, 10, () -> Ingredient.of(Items.DIAMOND)),
     TOOL_TANZANITE(5, 2000, 8.0F, 3.0F, 21, () -> Ingredient.of(ItemInit.TANZANITE_GEM.get())),
-    TOOL_RUBY(5, 1600, 10.0F, 3.5F, 16, () -> Ingredient.of(ItemInit.RUBY_GEM.get())),
+    TOOL_RUBY(5, 1600, 9.0F, 3.5F, 16, () -> Ingredient.of(ItemInit.RUBY_GEM.get())),
     TOOL_SAPPHIRE(5, 1750, 8.0F, 4.0F, 10, () -> Ingredient.of(ItemInit.SAPPHIRE_GEM.get())),
     TOOL_MOISSANITE(6, 2200, 9.0F, 4.5F, 12, () -> Ingredient.of(ItemInit.MOISSANITE_GEM.get())),
     TOOL_NETHERITE(6, 2031, 9.0F, 4.0F, 15, () -> Ingredient.of(Items.NETHERITE_INGOT)),

@@ -2,6 +2,8 @@
 - Daggers throwable
 - Spears
 
+- Add Corinthian bronze (gold/silver + copper)
+
 
 -- APPROVED -- 
 
