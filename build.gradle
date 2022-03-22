@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.0'
+version = '3.0.0'
 group = 'mod.mores.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mores'
 
@@ -33,7 +33,7 @@ minecraft {
     //
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
-    mappings channel: 'official', version: '1.18.1'
+    mappings channel: 'official', version: '1.18.2'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -79,7 +79,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'mores', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 mores {
@@ -100,7 +100,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.1-39.0.64'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.0.19'
     //runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
     //runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
     //runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip

@@ -1,0 +1,10 @@
+v3.0.0
+- Added all ores
+- Added all tools & weapons 
+- Added all armor
+
+
+
+
+
+
