@@ -1,131 +1,93 @@
-//package mod.mores.world;
-//
-//import mod.mores.config.Config;
-//import mod.mores.init.BlockInit;
-//import net.minecraft.block.AbstractBlock;
-//import net.minecraft.block.Block;
-//import net.minecraft.block.BlockState;
-//import net.minecraft.block.Blocks;
-//import net.minecraft.world.biome.Biome;
-//import net.minecraft.world.gen.GenerationStage;
-//import net.minecraft.world.gen.feature.Feature;
-//import net.minecraft.world.gen.feature.OreFeatureConfig;
-//import net.minecraft.world.gen.feature.template.BlockMatchRuleTest;
-//import net.minecraft.world.gen.feature.template.RuleTest;
-//import net.minecraft.world.gen.placement.Placement;
-//import net.minecraft.world.gen.placement.TopSolidRangeConfig;
-//import net.minecraft.world.level.biome.Biome;
-//import net.minecraft.world.level.block.state.BlockState;
-//import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
-//import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
-//import net.minecraftforge.event.world.BiomeLoadingEvent;
-//
-///**
-// * This class handles the ore generation for all ores added by mOres
-// * @author Leronus
-// */
-//public class OreGeneration {
-//    //Create new fillerBlockType
-//    public static final RuleTest END_STONE = new BlockMatchRuleTest(Blocks.END_STONE);
-//
-//    public static final RuleTest NATURAL_STONE = OreFeatureConfig.FillerBlockType.NATURAL_STONE;
-//    public static final RuleTest NETHERRACK = OreFeatureConfig.FillerBlockType.NETHERRACK;
-//
-//    /**
-//     * Generates all the ores in the three different world biomes
-//     * @param event Type of world biome
-//     */
-//    public static void generateOres(final BiomeLoadingEvent event) {
-//        //Overworld
-//        if (!(event.getCategory().equals(Biome.BiomeCategory.NETHER) || event.getCategory().equals(Biome.BiomeCategory.THEEND))) {
-//            if (Config.spawnTin.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
-//                        BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 29);
-//            }
-//            if (Config.spawnCopper.get()){
-//                generateOre(event.getGeneration(), NATURAL_STONE,
+package mod.mores.core.world;
+
+import mod.mores.Mores;
+import mod.mores.core.init.BlockInit;
+import net.minecraft.core.Registry;
+import net.minecraft.data.BuiltinRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.GenerationStep.Decoration;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraftforge.common.world.BiomeGenerationSettingsBuilder;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Supplier;
+
+/**
+ * This class handles the ore generation for all ores added by mOres
+ * @author Leronus
+ */
+public class OreGeneration {
+    public static final List<ConfiguredFeature<?, ?>> OVERWORLD_ORES = new ArrayList<>();
+    public static final List<ConfiguredFeature<?, ?>> END_ORES = new ArrayList<>();
+    public static final List<ConfiguredFeature<?, ?>> NETHER_ORES = new ArrayList<>();
+
+    //Create new fillerBlockType
+    public static final RuleTest END_STONE = new BlockMatchTest(Blocks.END_STONE);
+
+    /**
+     * Generates all the ores in the three different world biomes
+     */
+    public static void registerOres() {
+        //Overworld
+//        generateOre(event.getGeneration(), NATURAL_STONE, BlockInit.TIN_ORE.get().defaultBlockState(), 11, 54, 145, 29);
+
+//        ConfiguredFeature<?, ?> tinOre = Feature.ORE
+//                .configured(new OreConfiguration(List.of(
+//                        OreConfiguration.target(OreConfiguration.Predicates.STONE_ORE_REPLACEABLES,
+//                                BlockInit.TIN_ORE.get().defaultBlockState()),
+//                        OreConfiguration.target(OreConfiguration.Predicates.DEEPSLATE_ORE_REPLACEABLES,
+//                                BlockInit.DEEPSLATE_TIN_ORE.get().defaultBlockState())),
+//                        11))
+//                .rangeUniform(VerticalAnchor.bottom(), VerticalAnchor.aboveBottom(20)).squared().count(100);
+//        OVERWORLD_ORES.add(register("tin_ore", tinOre));
+
 //                        BlockInit.COPPER_ORE.get().defaultBlockState(), 10, 47, 130, 27);
-//            }
-//            if (Config.spawnSilver.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.SILVER_ORE.get().defaultBlockState(), 7, 31, 65, 19);
-//            }
-//            if (Config.spawnCobalt.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.COBALT_ORE.get().defaultBlockState(), 6, 18, 42, 14);
-//            }
-//            if (Config.spawnAmethyst.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.AMETHYST_ORE.get().defaultBlockState(), 5, 15, 31, 12);
-//            }
-//            if (Config.spawnTopaz.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.TOPAZ_ORE.get().defaultBlockState(), 5, 10, 21, 5);
-//            }
-//            if (Config.spawnTourmaline.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
-//                        BlockInit.TOURMALINE_ORE.get().defaultBlockState(), 5, 11, 23, 6);
-//            }
-//            if (Config.spawnSapphire.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.SAPPHIRE_ORE.get().defaultBlockState(), 4, 3, 11, 2);
-//            }
-//            if (Config.spawnRuby.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.RUBY_ORE.get().defaultBlockState(), 5, 4, 13, 1);
-//            }
-//            if (Config.spawnTurquoise.get()) {
-//                generateOre(event.getGeneration(), NATURAL_STONE,
 //                        BlockInit.TURQUOISE_ORE.get().defaultBlockState(), 3, 0, 10, 4);
-//            }
-//        }
-//        //Nether
-//        else if (event.getCategory().equals(Biome.BiomeCategory.NETHER)){
-//            if (Config.spawnSilver.get()) {
-//                generateOre(event.getGeneration(), NETHERRACK,
 //                        BlockInit.NETHER_SILVER_ORE.get().defaultBlockState(), 8, 0, 100, 22);
-//            }
-//            if (Config.spawnNetherRuby.get()) {
-//                generateOre(event.getGeneration(), NETHERRACK,
 //                        BlockInit.NETHER_RUBY_ORE.get().defaultBlockState(), 5, 60, 110, 2);
-//            }
-//            if (Config.spawnNetherSapphire.get()) {
-//                generateOre(event.getGeneration(), NETHERRACK,
 //                        BlockInit.NETHER_SAPPHIRE_ORE.get().defaultBlockState(), 4, 50, 100, 3);
-//            }
-//            if (Config.spawnMoissanite.get()) {
-//                generateOre(event.getGeneration(), NETHERRACK,
 //                        BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState(), 4, 0, 75, 5);
-//            }
-//            if (Config.spawnTanzanite.get()) {
-//                generateOre(event.getGeneration(), NETHERRACK,
 //                        BlockInit.TANZANITE_ORE.get().defaultBlockState(), 6, 15, 70, 7);
-//            }
-//        }
-//        //End
-//        else if (event.getCategory().equals(Biome.BiomeCategory.THEEND)){
-//            if (Config.spawnOnyx.get()) {
-//                generateOre(event.getGeneration(), END_STONE,
 //                        BlockInit.ONYX_ORE.get().defaultBlockState(), 5, 30, 100, 7);
-//            }
-//        }
-//    }
+    }
+
+    private static <Config extends FeatureConfiguration> ConfiguredFeature<Config, ?> register(String name,
+                                                                                               ConfiguredFeature<Config, ?> configuredFeature) {
+        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new ResourceLocation(Mores.MODID, name),
+                configuredFeature);
+    }
+
+    @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+    public static class ForgeBusSubscriber {
+        @SubscribeEvent
+        public static void biomeLoading(BiomeLoadingEvent event) {
+//            List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration()
+//                    .getFeatures(Decoration.UNDERGROUND_ORES);
 //
-//    /**
-//     * Function used for the generation of the ores
-//     * @param settings Type of generation
-//     * @param fillerType Blocks surrounding the generated ore
-//     * @param state The blockstate
-//     * @param veinSize Maximum vein size
-//     * @param minHeight Minimum ore generation height
-//     * @param maxHeight Maximum ore generation height
-//     * @param amount Number of times the generated ore could spawn
-//     */
-//    private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state,
-//                                    int veinSize, int minHeight, int maxHeight, int amount) {
-//        settings.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
-//                Feature.ORE.configured(new OreFeatureConfig(fillerType, state, veinSize))
-//                        .decorated(Placement.RANGE.configured(new TopSolidRangeConfig(minHeight, 0, maxHeight)))
-//                        .squared().count(amount));
-//    }
-//}
+//            switch(event.getCategory()) {
+//                case NETHER -> OreGeneration.NETHER_ORES.forEach(ore -> features.add(() -> ore));
+//                case THEEND -> OreGeneration.END_ORES.forEach(ore -> features.add(() -> ore));
+//                default -> OreGeneration.OVERWORLD_ORES.forEach(ore -> features.add(() -> ore));
+//            }
+        }
+    }
+}

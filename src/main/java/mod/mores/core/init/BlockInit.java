@@ -1,7 +1,7 @@
 package mod.mores.core.init;
 
 import mod.mores.Mores;
-import mod.mores.objects.BlockOre;
+import mod.mores.common.block.BlockOre;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -38,10 +38,11 @@ public class BlockInit {
     public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = BLOCKS.register("deepslate_tin_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_LIGHT_GRAY).strength(4.5F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_ORANGE).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> RAW_COPPER_BLOCK = BLOCKS.register("raw_copper_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE = BLOCKS.register("deepslate_copper_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(4.5F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+    //In 1.18.1 copper ore & blocks are added by vanilla
+//    public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_ORANGE).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
+//    public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+//    public static final RegistryObject<Block> RAW_COPPER_BLOCK = BLOCKS.register("raw_copper_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+//    public static final RegistryObject<Block> DEEPSLATE_COPPER_ORE = BLOCKS.register("deepslate_copper_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(4.5F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS.register("silver_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.TERRACOTTA_WHITE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));

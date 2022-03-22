@@ -1,7 +1,7 @@
-package mod.mores.tabs;
+package mod.mores.core.tabs;
 
-import mod.mores.init.BlockInit;
-import mod.mores.init.ItemInit;
+import mod.mores.core.init.BlockInit;
+import mod.mores.core.init.ItemInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;

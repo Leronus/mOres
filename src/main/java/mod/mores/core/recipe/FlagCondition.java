@@ -2,7 +2,6 @@ package mod.mores.core.recipe;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import com.google.gson.JsonObject;
-import mod.mores.config.Config;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.crafting.conditions.ICondition;
 import net.minecraftforge.common.crafting.conditions.IConditionSerializer;

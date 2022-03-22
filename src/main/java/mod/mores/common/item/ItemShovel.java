@@ -16,7 +16,7 @@ public class ItemShovel extends ShovelItem {
         this.maxUses = toolMaterial.getUses();
         this.efficiency = toolMaterial.getSpeed();
     }
-
+//
 //    @Override
 //    public void appendHoverText(ItemStack stack, Level worldIn, List<TextComponent> tooltip, TooltipFlag flagIn){
 //        super.appendHoverText(stack, worldIn, tooltip, flagIn);
