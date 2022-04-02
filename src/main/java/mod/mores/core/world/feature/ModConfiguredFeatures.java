@@ -17,10 +17,15 @@ import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlac
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 
 import java.util.List;
 
 public class ModConfiguredFeatures {
+    public static final RuleTest END_STONE_REPLACEABLES = new BlockMatchTest(Blocks.END_STONE);
+
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TIN_ORES = List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TIN_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TIN_ORE.get().defaultBlockState()));
@@ -65,24 +70,25 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TURQUOISE_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState()));
 
-//    public static final List<OreConfiguration.TargetBlockState> END_ONYX_ORES = List.of(
-//            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.ONYX_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> END_ONYX_ORES = List.of(
+            OreConfiguration.target(END_STONE_REPLACEABLES, BlockInit.ONYX_ORE.get().defaultBlockState()));
 
         public static final List<OreConfiguration.TargetBlockState> NETHER_MOISSANITE_ORES = List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState()));
 
 
+
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TIN_ORE = FeatureUtils.register("tin_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 12)); /* pSize not below 2/3 */
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> COBALT_ORE = FeatureUtils.register("cobalt_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 10));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE = FeatureUtils.register("silver_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 11));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_SILVER_ORE = FeatureUtils.register("nether_silver_ore",
-            Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES, 9));
+            Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES, 13));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOPAZ_ORE = FeatureUtils.register("topaz_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES, 9));
@@ -100,16 +106,16 @@ public class ModConfiguredFeatures {
             Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES, 9));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TURQUOISE_ORE = FeatureUtils.register("turquoise_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 7));
 
-//    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ONYX_ORE = FeatureUtils.register("onyx_ore",
-//            Feature.ORE, new OreConfiguration(END_ONYX_ORES, 9));
-//
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ONYX_ORE = FeatureUtils.register("onyx_ore",
+            Feature.ORE, new OreConfiguration(END_ONYX_ORES, 6));
+
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE = FeatureUtils.register("moissanite_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 9));
-//
-//    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_MOISSANITE_ORE = FeatureUtils.register("nether_moissanite_ore",
-//            Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES, 9));
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 7));
+
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_MOISSANITE_ORE = FeatureUtils.register("nether_moissanite_ore",
+            Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES, 9));
 
 
 }
