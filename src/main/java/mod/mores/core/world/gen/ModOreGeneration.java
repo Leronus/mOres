@@ -21,9 +21,18 @@ public class ModOreGeneration {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
 
-        base.add(ModPlacedFeatures.TIN_ORE_PLACED);
-        base.add(ModPlacedFeatures.COBALT_ORE_PLACED);
-        base.add(ModPlacedFeatures.SILVER_ORE_PLACED);
+        base.add(ModPlacedFeatures.TIN_ORE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.TIN_ORE_MIDDLE_PLACED);
+        base.add(ModPlacedFeatures.TIN_ORE_SMALL_PLACED);
+
+        base.add(ModPlacedFeatures.COBALT_ORE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.COBALT_ORE_MIDDLE_PLACED);
+        base.add(ModPlacedFeatures.COBALT_ORE_SMALL_PLACED);
+
+        base.add(ModPlacedFeatures.SILVER_ORE_UPPER_PLACED);
+        base.add(ModPlacedFeatures.SILVER_ORE_MIDDLE_PLACED);
+        base.add(ModPlacedFeatures.SILVER_ORE_SMALL_PLACED);
+
         base.add(ModPlacedFeatures.NETHER_SILVER_ORE_PLACED);
         base.add(ModPlacedFeatures.TOPAZ_ORE_PLACED);
         base.add(ModPlacedFeatures.TOURMALINE_ORE_PLACED);
