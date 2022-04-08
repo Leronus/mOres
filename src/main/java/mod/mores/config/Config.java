@@ -1,4 +1,4 @@
-package mod.mores.core.config;
+package mod.mores.config;
 
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 
@@ -11,8 +11,6 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Config {
     public static CommentedFileConfig cfg;

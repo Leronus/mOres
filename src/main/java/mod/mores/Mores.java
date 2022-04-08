@@ -1,7 +1,7 @@
 package mod.mores;
 
 import mod.mores.common.item.ItemSpawnEgg;
-import mod.mores.core.config.Config;
+import mod.mores.config.Config;
 import mod.mores.core.init.BlockInit;
 import mod.mores.core.init.ItemInit;
 import mod.mores.core.init.SoundTypeInit;
@@ -11,7 +11,6 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
