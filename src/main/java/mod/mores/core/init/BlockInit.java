@@ -75,7 +75,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> OBSIDIAN = VANILLA_BLOCKS.register("obsidian", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(50.0F, 1200.0F)));
 
-    public static final RegistryObject<Block> TANZANITE_ORE = BLOCKS.register("tanzanite_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).strength(3.0F, 3.0F).sound(SoundType.NETHER_ORE).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> NETHER_TANZANITE_ORE = BLOCKS.register("nether_tanzanite_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).strength(3.0F, 3.0F).sound(SoundType.NETHER_ORE).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> TANZANITE_BLOCK = BLOCKS.register("tanzanite_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_PURPLE).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = BLOCKS.register("sapphire_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.LAPIS).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
@@ -97,7 +97,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> MOISSANITE_ORE = BLOCKS.register("moissanite_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GREEN).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops(), UniformInt.of(3, 8)));
     public static final RegistryObject<Block> MOISSANITE_BLOCK = BLOCKS.register("moissanite_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> MOISSANITE_NETHER_ORE = BLOCKS.register("moissanite_nether_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GREEN).strength(3.0F, 3.0F).sound(SoundType.NETHER_GOLD_ORE).requiresCorrectToolForDrops(), UniformInt.of(2, 8)));
+    public static final RegistryObject<Block> MOISSANITE_NETHER_ORE = BLOCKS.register("nether_moissanite_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GREEN).strength(3.0F, 3.0F).sound(SoundType.NETHER_GOLD_ORE).requiresCorrectToolForDrops(), UniformInt.of(2, 8)));
     public static final RegistryObject<Block> DEEPSLATE_MOISSANITE_ORE = BLOCKS.register("deepslate_moissanite_ore", () -> new BlockOre(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_LIGHT_GREEN).strength(4.5F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops(), UniformInt.of(2, 8)));
 
     public static final RegistryObject<Block> ANCIENT_DEBRIS = VANILLA_BLOCKS.register("ancient_debris", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_BLACK).requiresCorrectToolForDrops().strength(30.0F, 1200.0F).sound(SoundType.ANCIENT_DEBRIS)));

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mores:onyx_ore",
+    "mores:turquoise_ore",
+    "mores:moissanite_ore"
+  ]
+}

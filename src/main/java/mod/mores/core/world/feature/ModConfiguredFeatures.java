@@ -49,7 +49,7 @@ public class ModConfiguredFeatures {
     public static final List<OreConfiguration.TargetBlockState> NETHER_SILVER_ORES = List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.NETHER_SILVER_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> NETHER_TANZANITE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.TANZANITE_ORE.get().defaultBlockState())
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.NETHER_TANZANITE_ORE.get().defaultBlockState())
            /*,OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TANZANITE_ORE.get().defaultBlockState())*/);
     public static final List<OreConfiguration.TargetBlockState> NETHER_MOISSANITE_ORES = List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState()));
