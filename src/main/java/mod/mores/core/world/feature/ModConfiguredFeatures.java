@@ -92,33 +92,56 @@ public class ModConfiguredFeatures {
             Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 11));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE_SMALL = FeatureUtils.register("silver_ore_small",
             Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 4));
-
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_SILVER_ORE = FeatureUtils.register("nether_silver_ore",
             Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES, 14));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOPAZ_ORE = FeatureUtils.register("topaz_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES, 10));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOPAZ_ORE_SMALL = FeatureUtils.register("topaz_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOPAZ_ORE_LARGE = FeatureUtils.register("topaz_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOPAZ_ORE_BURIED = FeatureUtils.register("topaz_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES, 8, 1.0F));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOURMALINE_ORE = FeatureUtils.register("tourmaline_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES, 9));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOURMALINE_ORE_SMALL = FeatureUtils.register("tourmaline_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOURMALINE_ORE_LARGE = FeatureUtils.register("tourmaline_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOURMALINE_ORE_BURIED = FeatureUtils.register("tourmaline_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES, 8, 1.0F));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TANZANITE_ORE = FeatureUtils.register("tanzanite_ore",
             Feature.ORE, new OreConfiguration(NETHER_TANZANITE_ORES, 9));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SAPPHIRE_ORE = FeatureUtils.register("sapphire_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES, 9));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SAPPHIRE_ORE_SMALL = FeatureUtils.register("sapphire_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SAPPHIRE_ORE_LARGE = FeatureUtils.register("sapphire_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SAPPHIRE_ORE_BURIED = FeatureUtils.register("sapphire_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES, 8, 1.0F));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_ORE = FeatureUtils.register("ruby_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES, 9));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_ORE_SMALL = FeatureUtils.register("ruby_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_ORE_LARGE = FeatureUtils.register("ruby_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> RUBY_ORE_BURIED = FeatureUtils.register("ruby_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES, 8, 1.0F));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TURQUOISE_ORE = FeatureUtils.register("turquoise_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 7));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TURQUOISE_ORE_SMALL = FeatureUtils.register("turquoise_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TURQUOISE_ORE_LARGE = FeatureUtils.register("turquoise_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TURQUOISE_ORE_BURIED = FeatureUtils.register("turquoise_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES, 8, 1.0F));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ONYX_ORE = FeatureUtils.register("onyx_ore",
             Feature.ORE, new OreConfiguration(END_ONYX_ORES, 6));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE = FeatureUtils.register("moissanite_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 7));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_SMALL = FeatureUtils.register("moissanite_ore_small",
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 4, 0.5F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_LARGE = FeatureUtils.register("moissanite_ore_large",
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 12, 0.7F));
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_BURIED = FeatureUtils.register("moissanite_ore_buried",
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 8, 1.0F));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_MOISSANITE_ORE = FeatureUtils.register("nether_moissanite_ore",
             Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES, 9));
