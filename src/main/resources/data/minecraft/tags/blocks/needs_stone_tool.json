@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "mores:tin_ore"
+    "mores:tin_ore",
+    "mores:cobalt_ore",
+    "mores:silver_ore"
   ]
 }

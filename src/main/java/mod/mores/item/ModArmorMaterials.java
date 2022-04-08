@@ -1,4 +1,4 @@
-package mod.mores.core;
+package mod.mores.item;
 
 import java.util.function.Supplier;
 
@@ -7,7 +7,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
-public class BaseArmorMaterial implements ArmorMaterial {
+public class ModArmorMaterials implements ArmorMaterial {
     private static final int[] baseDurability = {13, 15, 16, 11};
     private final String name;
     private final int durabilityMultiplier;
@@ -30,7 +30,7 @@ public class BaseArmorMaterial implements ArmorMaterial {
      * @param knockbackResistance  Armor knockback resistance
      * @param repairIngredient     Armor repair item
      */
-    public BaseArmorMaterial(String name, int durabilityMultiplier, int[] armorVal, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    public ModArmorMaterials(String name, int durabilityMultiplier, int[] armorVal, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.armorVal = armorVal;

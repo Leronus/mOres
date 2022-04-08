@@ -3,6 +3,18 @@
   "values": [
     "mores:topaz_ore",
     "mores:tourmaline_ore",
-    "mores:"
+    "mores:ruby_ore",
+    "mores:sapphire_ore",
+    "mores:nether_tanzanite_ore",
+    "mores:nether_silver_ore",
+
+    "mores:silver_block",
+    "mores:bronze_block",
+    "mores:cobalt_block",
+    "mores:sterling_block",
+    "mores:steel_block",
+    "mores:amethyst_block",
+    "mores:raw_silver_block",
+    "mores:raw_cobalt_block"
   ]
 }

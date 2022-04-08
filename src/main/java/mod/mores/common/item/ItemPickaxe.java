@@ -1,12 +1,6 @@
 package mod.mores.common.item;
 
-import mod.mores.core.init.ItemInit;
-import mod.mores.core.util.AutoSmeltHandler;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.state.BlockState;
 
 public class ItemPickaxe extends PickaxeItem {
     private final int harvestLevel;
