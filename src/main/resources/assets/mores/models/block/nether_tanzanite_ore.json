@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:blocks/moissanite_nether_ore"
+    "all": "mores:blocks/nether_tanzanite_ore"
   }
 }
