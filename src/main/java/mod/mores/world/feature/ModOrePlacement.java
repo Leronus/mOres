@@ -1,4 +1,4 @@
-package mod.mores.core.world.feature;
+package mod.mores.world.feature;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

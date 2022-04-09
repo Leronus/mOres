@@ -1,4 +1,4 @@
-package mod.mores.core.util;
+package mod.mores.util;
 
 import mod.mores.core.init.ItemInit;
 import net.minecraft.world.item.Item;

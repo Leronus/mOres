@@ -1,7 +1,7 @@
 package mod.mores.core;
 
 import mod.mores.core.init.ItemInit;
-import mod.mores.core.util.ModTags;
+import mod.mores.util.ModTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;

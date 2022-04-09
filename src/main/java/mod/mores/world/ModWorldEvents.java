@@ -1,7 +1,7 @@
-package mod.mores.core.world;
+package mod.mores.world;
 
 import mod.mores.Mores;
-import mod.mores.core.world.gen.ModOreGeneration;
+import mod.mores.world.gen.ModOreGeneration;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;

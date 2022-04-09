@@ -1,8 +1,7 @@
 package mod.mores.core.init;
 
 import mod.mores.Mores;
-import mod.mores.common.item.*;
-import mod.mores.core.ToolMaterial;
+import mod.mores.core.ModTiers;
 import mod.mores.core.tabs.MoresTabs;
 import mod.mores.item.*;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -91,132 +90,132 @@ public class ItemInit{
 
 
     //All armor
-    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TIN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_CHESTPLATE = ITEMS.register("tin_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TIN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_LEGGINGS = ITEMS.register("tin_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TIN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TIN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_CHESTPLATE = ITEMS.register("tin_chestplate", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_LEGGINGS = ITEMS.register("tin_leggings", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COPPER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COPPER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SILVER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SILVER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SILVER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SILVER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_BRONZE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_CHESTPLATE = ITEMS.register("bronze_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_BRONZE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_BRONZE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_BRONZE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_CHESTPLATE = ITEMS.register("bronze_chestplate", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> STERLING_HELMET = ITEMS.register("sterling_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STERLING, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_CHESTPLATE = ITEMS.register("sterling_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STERLING, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_LEGGINGS = ITEMS.register("sterling_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STERLING, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_BOOTS = ITEMS.register("sterling_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STERLING, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_HELMET = ITEMS.register("sterling_helmet", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_CHESTPLATE = ITEMS.register("sterling_chestplate", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_LEGGINGS = ITEMS.register("sterling_leggings", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_BOOTS = ITEMS.register("sterling_boots", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_OBSIDIAN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_OBSIDIAN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_OBSIDIAN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_OBSIDIAN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> COBALT_HELMET = ITEMS.register("cobalt_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COBALT, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COBALT, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_LEGGINGS = ITEMS.register("cobalt_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COBALT, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_BOOTS = ITEMS.register("cobalt_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_COBALT, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_HELMET = ITEMS.register("cobalt_helmet", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_LEGGINGS = ITEMS.register("cobalt_leggings", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_BOOTS = ITEMS.register("cobalt_boots", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STEEL, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STEEL, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STEEL, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_STEEL, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_AMETHYST, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_AMETHYST, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_AMETHYST, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_AMETHYST, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_EMERALD, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_EMERALD, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_EMERALD, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_EMERALD, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOPAZ, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOPAZ, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOPAZ, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOPAZ, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TOURMALINE_HELMET = ITEMS.register("tourmaline_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOURMALINE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_CHESTPLATE = ITEMS.register("tourmaline_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOURMALINE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_LEGGINGS = ITEMS.register("tourmaline_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOURMALINE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_BOOTS = ITEMS.register("tourmaline_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TOURMALINE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_HELMET = ITEMS.register("tourmaline_helmet", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_CHESTPLATE = ITEMS.register("tourmaline_chestplate", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_LEGGINGS = ITEMS.register("tourmaline_leggings", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_BOOTS = ITEMS.register("tourmaline_boots", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TANZANITE_HELMET = ITEMS.register("tanzanite_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TANZANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_CHESTPLATE = ITEMS.register("tanzanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TANZANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_LEGGINGS = ITEMS.register("tanzanite_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TANZANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_BOOTS = ITEMS.register("tanzanite_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TANZANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_HELMET = ITEMS.register("tanzanite_helmet", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_CHESTPLATE = ITEMS.register("tanzanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_LEGGINGS = ITEMS.register("tanzanite_leggings", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_BOOTS = ITEMS.register("tanzanite_boots", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_RUBY, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_RUBY, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_RUBY, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_RUBY, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SAPPHIRE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SAPPHIRE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SAPPHIRE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_SAPPHIRE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TURQUOISE_HELMET = ITEMS.register("turquoise_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TURQUOISE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_CHESTPLATE = ITEMS.register("turquoise_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TURQUOISE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_LEGGINGS = ITEMS.register("turquoise_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TURQUOISE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_BOOTS = ITEMS.register("turquoise_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_TURQUOISE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_HELMET = ITEMS.register("turquoise_helmet", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_CHESTPLATE = ITEMS.register("turquoise_chestplate", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_LEGGINGS = ITEMS.register("turquoise_leggings", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_BOOTS = ITEMS.register("turquoise_boots", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> MOISSANITE_HELMET = ITEMS.register("moissanite_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_MOISSANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_CHESTPLATE = ITEMS.register("moissanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_MOISSANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_LEGGINGS = ITEMS.register("moissanite_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_MOISSANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_BOOTS = ITEMS.register("moissanite_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_MOISSANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_HELMET = ITEMS.register("moissanite_helmet", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_CHESTPLATE = ITEMS.register("moissanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_LEGGINGS = ITEMS.register("moissanite_leggings", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_BOOTS = ITEMS.register("moissanite_boots", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> ONYX_HELMET = ITEMS.register("onyx_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_ONYX, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_CHESTPLATE = ITEMS.register("onyx_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_ONYX, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_LEGGINGS = ITEMS.register("onyx_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_ONYX, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_BOOTS = ITEMS.register("onyx_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_ONYX, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_HELMET = ITEMS.register("onyx_helmet", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_CHESTPLATE = ITEMS.register("onyx_chestplate", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_LEGGINGS = ITEMS.register("onyx_leggings", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_BOOTS = ITEMS.register("onyx_boots", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> GRAPHENE_HELMET = ITEMS.register("graphene_helmet", () -> new ItemArmor(ArmorMaterialInit.ARMOR_GRAPHENE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_CHESTPLATE = ITEMS.register("graphene_chestplate", () -> new ItemArmor(ArmorMaterialInit.ARMOR_GRAPHENE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_LEGGINGS = ITEMS.register("graphene_leggings", () -> new ItemArmor(ArmorMaterialInit.ARMOR_GRAPHENE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots", () -> new ItemArmor(ArmorMaterialInit.ARMOR_GRAPHENE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_HELMET = ITEMS.register("graphene_helmet", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_CHESTPLATE = ITEMS.register("graphene_chestplate", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_LEGGINGS = ITEMS.register("graphene_leggings", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
 
     //All swords
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
     //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-    public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new ItemSword(ToolMaterial.TOOL_TIN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new ItemSword(ToolMaterial.TOOL_COPPER, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new ItemSword(ModTiers.TIN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new ItemSword(ModTiers.COPPER, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ItemSword(ToolMaterial.TOOL_SILVER, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ItemSword(ModTiers.SILVER, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new ItemSword(ToolMaterial.TOOL_BRONZE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new ItemSword(ModTiers.BRONZE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_SWORD = ITEMS.register("sterling_sword", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new ItemSword(ModTiers.OBSIDIAN, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new ItemSword(ModTiers.COBALT, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new ItemSword(ModTiers.STEEL, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_SWORD = ITEMS.register("sterling_sword", () -> new ItemSword(ModTiers.STERLING, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new ItemSword(ModTiers.AMETHYST, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new ItemSword(ModTiers.EMERALD, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_SWORD = ITEMS.register("tanzanite_sword", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new ItemSword(ModTiers.TOPAZ, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new ItemSword(ModTiers.TOURMALINE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_SWORD = ITEMS.register("tanzanite_sword", () -> new ItemSword(ModTiers.TANZANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new ItemSword(ModTiers.RUBY, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new ItemSword(ModTiers.SAPPHIRE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword", () -> new ItemSword(ModTiers.TURQUOISE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new ItemSword(ModTiers.MOISSANITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new ItemSword(ModTiers.ONYX, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new ItemSword(ModTiers.GRAPHENE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
     //All battleaxes
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
@@ -228,33 +227,33 @@ public class ItemInit{
     public static final RegistryObject<Item> DIAMOND_BATTLEAXE = ITEMS.register("diamond_battleaxe", () -> new ItemAxe(Tiers.DIAMOND, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> NETHERITE_BATTLEAXE = ITEMS.register("netherite_battleaxe", () -> new ItemAxe(Tiers.NETHERITE, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_BATTLEAXE = ITEMS.register("tin_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_TIN, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_BATTLEAXE = ITEMS.register("copper_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_COPPER, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_BATTLEAXE = ITEMS.register("tin_battleaxe", () -> new ItemAxe(ModTiers.TIN, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_BATTLEAXE = ITEMS.register("copper_battleaxe", () -> new ItemAxe(ModTiers.COPPER, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_BATTLEAXE = ITEMS.register("silver_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_SILVER, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_BATTLEAXE = ITEMS.register("silver_battleaxe", () -> new ItemAxe(ModTiers.SILVER, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_BATTLEAXE = ITEMS.register("bronze_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_BRONZE, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_BATTLEAXE = ITEMS.register("bronze_battleaxe", () -> new ItemAxe(ModTiers.BRONZE, 5, -2.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_BATTLEAXE = ITEMS.register("obsidian_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_OBSIDIAN, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_COBALT, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_BATTLEAXE = ITEMS.register("steel_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_STEEL, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_BATTLEAXE = ITEMS.register("sterling_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_STERLING, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_BATTLEAXE = ITEMS.register("obsidian_battleaxe", () -> new ItemAxe(ModTiers.OBSIDIAN, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_battleaxe", () -> new ItemAxe(ModTiers.COBALT, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_BATTLEAXE = ITEMS.register("steel_battleaxe", () -> new ItemAxe(ModTiers.STEEL, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_BATTLEAXE = ITEMS.register("sterling_battleaxe", () -> new ItemAxe(ModTiers.STERLING, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_BATTLEAXE = ITEMS.register("amethyst_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_AMETHYST, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_BATTLEAXE = ITEMS.register("emerald_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_EMERALD, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_BATTLEAXE = ITEMS.register("amethyst_battleaxe", () -> new ItemAxe(ModTiers.AMETHYST, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_BATTLEAXE = ITEMS.register("emerald_battleaxe", () -> new ItemAxe(ModTiers.EMERALD, 5, -2.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_BATTLEAXE = ITEMS.register("topaz_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_TOPAZ, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_BATTLEAXE = ITEMS.register("tourmaline_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_TOURMALINE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_BATTLEAXE = ITEMS.register("tanzanite_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_TANZANITE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_BATTLEAXE = ITEMS.register("topaz_battleaxe", () -> new ItemAxe(ModTiers.TOPAZ, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_BATTLEAXE = ITEMS.register("tourmaline_battleaxe", () -> new ItemAxe(ModTiers.TOURMALINE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_BATTLEAXE = ITEMS.register("tanzanite_battleaxe", () -> new ItemAxe(ModTiers.TANZANITE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_BATTLEAXE = ITEMS.register("ruby_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_RUBY, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_BATTLEAXE = ITEMS.register("sapphire_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_SAPPHIRE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_BATTLEAXE = ITEMS.register("turquoise_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_TURQUOISE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_BATTLEAXE = ITEMS.register("ruby_battleaxe", () -> new ItemAxe(ModTiers.RUBY, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_BATTLEAXE = ITEMS.register("sapphire_battleaxe", () -> new ItemAxe(ModTiers.SAPPHIRE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_BATTLEAXE = ITEMS.register("turquoise_battleaxe", () -> new ItemAxe(ModTiers.TURQUOISE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_MOISSANITE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_ONYX, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new ItemAxe(ModTiers.MOISSANITE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new ItemAxe(ModTiers.ONYX, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ItemAxe(ToolMaterial.TOOL_GRAPHENE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ItemAxe(ModTiers.GRAPHENE, 5, -2.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
     //All maces
@@ -268,33 +267,33 @@ public class ItemInit{
     public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new ItemSword(Tiers.DIAMOND, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new ItemSword(Tiers.NETHERITE, 3, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new ItemSword(ToolMaterial.TOOL_TIN, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new ItemSword(ToolMaterial.TOOL_COPPER, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new ItemSword(ModTiers.TIN, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new ItemSword(ModTiers.COPPER, 2, -2.0F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_MACE = ITEMS.register("silver_mace", () -> new ItemSword(ToolMaterial.TOOL_SILVER, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_MACE = ITEMS.register("silver_mace", () -> new ItemSword(ModTiers.SILVER, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_MACE = ITEMS.register("bronze_mace", () -> new ItemSword(ToolMaterial.TOOL_BRONZE, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_MACE = ITEMS.register("bronze_mace", () -> new ItemSword(ModTiers.BRONZE, 2, -2.1F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_MACE = ITEMS.register("sterling_mace", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new ItemSword(ModTiers.OBSIDIAN, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new ItemSword(ModTiers.COBALT, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new ItemSword(ModTiers.STEEL, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_MACE = ITEMS.register("sterling_mace", () -> new ItemSword(ModTiers.STERLING, 2, -2.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new ItemSword(ModTiers.AMETHYST, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new ItemSword(ModTiers.EMERALD, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tanzanite_mace", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new ItemSword(ModTiers.TOPAZ, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new ItemSword(ModTiers.TOURMALINE, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tanzanite_mace", () -> new ItemSword(ModTiers.TANZANITE, 2, -2.3F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_MACE = ITEMS.register("turquoise_mace", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new ItemSword(ModTiers.RUBY, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new ItemSword(ModTiers.SAPPHIRE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_MACE = ITEMS.register("turquoise_mace", () -> new ItemSword(ModTiers.TURQUOISE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 2, -2.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new ItemSword(ModTiers.MOISSANITE, 2, -2.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new ItemSword(ModTiers.ONYX, 2, -2.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 2, -2.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new ItemSword(ModTiers.GRAPHENE, 2, -2.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
     //All daggers
@@ -307,152 +306,152 @@ public class ItemInit{
     public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger", () -> new ItemSword(Tiers.DIAMOND, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
     public static final RegistryObject<Item> NETHERITE_DAGGER = ITEMS.register("netherite_dagger", () -> new ItemSword(Tiers.NETHERITE, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_DAGGER = ITEMS.register("tin_dagger", () -> new ItemSword(ToolMaterial.TOOL_TIN, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_DAGGER = ITEMS.register("copper_dagger", () -> new ItemSword(ToolMaterial.TOOL_COPPER, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_DAGGER = ITEMS.register("tin_dagger", () -> new ItemSword(ModTiers.TIN, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_DAGGER = ITEMS.register("copper_dagger", () -> new ItemSword(ModTiers.COPPER, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_DAGGER = ITEMS.register("silver_dagger", () -> new ItemSword(ToolMaterial.TOOL_SILVER, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_DAGGER = ITEMS.register("silver_dagger", () -> new ItemSword(ModTiers.SILVER, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_DAGGER = ITEMS.register("bronze_dagger", () -> new ItemSword(ToolMaterial.TOOL_BRONZE, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_DAGGER = ITEMS.register("bronze_dagger", () -> new ItemSword(ModTiers.BRONZE, 1, -1.2F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new ItemSword(ToolMaterial.TOOL_OBSIDIAN, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger", () -> new ItemSword(ToolMaterial.TOOL_COBALT, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", () -> new ItemSword(ToolMaterial.TOOL_STEEL, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_DAGGER = ITEMS.register("sterling_dagger", () -> new ItemSword(ToolMaterial.TOOL_STERLING, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new ItemSword(ModTiers.OBSIDIAN, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger", () -> new ItemSword(ModTiers.COBALT, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", () -> new ItemSword(ModTiers.STEEL, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_DAGGER = ITEMS.register("sterling_dagger", () -> new ItemSword(ModTiers.STERLING, 1, -1.4F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_DAGGER = ITEMS.register("amethyst_dagger", () -> new ItemSword(ToolMaterial.TOOL_AMETHYST, 1, -1.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger", () -> new ItemSword(ToolMaterial.TOOL_EMERALD, 1, -1.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_DAGGER = ITEMS.register("amethyst_dagger", () -> new ItemSword(ModTiers.AMETHYST, 1, -1.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger", () -> new ItemSword(ModTiers.EMERALD, 1, -1.5F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_DAGGER = ITEMS.register("topaz_dagger", () -> new ItemSword(ToolMaterial.TOOL_TOPAZ, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_DAGGER = ITEMS.register("tourmaline_dagger", () -> new ItemSword(ToolMaterial.TOOL_TOURMALINE, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_DAGGER = ITEMS.register("tanzanite_dagger", () -> new ItemSword(ToolMaterial.TOOL_TANZANITE, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_DAGGER = ITEMS.register("topaz_dagger", () -> new ItemSword(ModTiers.TOPAZ, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_DAGGER = ITEMS.register("tourmaline_dagger", () -> new ItemSword(ModTiers.TOURMALINE, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_DAGGER = ITEMS.register("tanzanite_dagger", () -> new ItemSword(ModTiers.TANZANITE, 1, -1.6F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger", () -> new ItemSword(ToolMaterial.TOOL_RUBY, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_DAGGER = ITEMS.register("sapphire_dagger", () -> new ItemSword(ToolMaterial.TOOL_SAPPHIRE, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_DAGGER = ITEMS.register("turquoise_dagger", () -> new ItemSword(ToolMaterial.TOOL_TURQUOISE, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger", () -> new ItemSword(ModTiers.RUBY, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_DAGGER = ITEMS.register("sapphire_dagger", () -> new ItemSword(ModTiers.SAPPHIRE, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_DAGGER = ITEMS.register("turquoise_dagger", () -> new ItemSword(ModTiers.TURQUOISE, 1, -1.7F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_DAGGER = ITEMS.register("moissanite_dagger", () -> new ItemSword(ToolMaterial.TOOL_MOISSANITE, 1, -1.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_DAGGER = ITEMS.register("onyx_dagger", () -> new ItemSword(ToolMaterial.TOOL_ONYX, 1, -1.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_DAGGER = ITEMS.register("moissanite_dagger", () -> new ItemSword(ModTiers.MOISSANITE, 1, -1.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_DAGGER = ITEMS.register("onyx_dagger", () -> new ItemSword(ModTiers.ONYX, 1, -1.8F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_DAGGER = ITEMS.register("graphene_dagger", () -> new ItemSword(ToolMaterial.TOOL_GRAPHENE, 1, -1.9F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_DAGGER = ITEMS.register("graphene_dagger", () -> new ItemSword(ModTiers.GRAPHENE, 1, -1.9F, new Item.Properties().tab(MoresTabs.MORES_WEAPONS)));
 
 
     // All pickaxes
-    public static final RegistryObject<ItemPickaxe> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TIN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_COPPER, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new ItemPickaxe(ModTiers.TIN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new ItemPickaxe(ModTiers.COPPER, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_SILVER, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new ItemPickaxe(ModTiers.SILVER, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_BRONZE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new ItemPickaxe(ModTiers.BRONZE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_OBSIDIAN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_COBALT, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_STEEL, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> STERLING_PICKAXE = ITEMS.register("sterling_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_STERLING, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new ItemPickaxe(ModTiers.OBSIDIAN, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new ItemPickaxe(ModTiers.COBALT, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new ItemPickaxe(ModTiers.STEEL, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> STERLING_PICKAXE = ITEMS.register("sterling_pickaxe", () -> new ItemPickaxe(ModTiers.STERLING, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_AMETHYST, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_EMERALD, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new ItemPickaxe(ModTiers.AMETHYST, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new ItemPickaxe(ModTiers.EMERALD, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TOPAZ, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TOURMALINE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> TANZANITE_PICKAXE = ITEMS.register("tanzanite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TANZANITE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new ItemPickaxe(ModTiers.TOPAZ, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new ItemPickaxe(ModTiers.TOURMALINE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TANZANITE_PICKAXE = ITEMS.register("tanzanite_pickaxe", () -> new ItemPickaxe(ModTiers.TANZANITE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_RUBY, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_SAPPHIRE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_TURQUOISE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new ItemPickaxe(ModTiers.RUBY, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new ItemPickaxe(ModTiers.SAPPHIRE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe", () -> new ItemPickaxe(ModTiers.TURQUOISE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_MOISSANITE, 3, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemPickaxe> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_ONYX, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new ItemPickaxe(ModTiers.MOISSANITE, 3, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new ItemPickaxe(ModTiers.ONYX, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemPickaxe> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_GRAPHENE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemPickaxe> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new ItemPickaxe(ModTiers.GRAPHENE, 1, -2.8F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
     //All axes
     //TODO Checkout items for proper atk dmg and speed values
-    public static final RegistryObject<ItemAxe> TIN_AXE = ITEMS.register("tin_axe", () -> new ItemAxe(ToolMaterial.TOOL_TIN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> COPPER_AXE = ITEMS.register("copper_axe", () -> new ItemAxe(ToolMaterial.TOOL_COPPER, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TIN_AXE = ITEMS.register("tin_axe", () -> new ItemAxe(ModTiers.TIN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> COPPER_AXE = ITEMS.register("copper_axe", () -> new ItemAxe(ModTiers.COPPER, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> SILVER_AXE = ITEMS.register("silver_axe", () -> new ItemAxe(ToolMaterial.TOOL_SILVER, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> SILVER_AXE = ITEMS.register("silver_axe", () -> new ItemAxe(ModTiers.SILVER, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new ItemAxe(ToolMaterial.TOOL_BRONZE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new ItemAxe(ModTiers.BRONZE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new ItemAxe(ToolMaterial.TOOL_OBSIDIAN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new ItemAxe(ToolMaterial.TOOL_COBALT, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> STEEL_AXE = ITEMS.register("steel_axe", () -> new ItemAxe(ToolMaterial.TOOL_STEEL, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> STERLING_AXE = ITEMS.register("sterling_axe", () -> new ItemAxe(ToolMaterial.TOOL_STERLING, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new ItemAxe(ModTiers.OBSIDIAN, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new ItemAxe(ModTiers.COBALT, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> STEEL_AXE = ITEMS.register("steel_axe", () -> new ItemAxe(ModTiers.STEEL, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> STERLING_AXE = ITEMS.register("sterling_axe", () -> new ItemAxe(ModTiers.STERLING, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new ItemAxe(ToolMaterial.TOOL_AMETHYST, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new ItemAxe(ToolMaterial.TOOL_EMERALD, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new ItemAxe(ModTiers.AMETHYST, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new ItemAxe(ModTiers.EMERALD, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new ItemAxe(ToolMaterial.TOOL_TOPAZ, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new ItemAxe(ToolMaterial.TOOL_TOURMALINE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> TANZANITE_AXE = ITEMS.register("tanzanite_axe", () -> new ItemAxe(ToolMaterial.TOOL_TANZANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new ItemAxe(ModTiers.TOPAZ, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new ItemAxe(ModTiers.TOURMALINE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TANZANITE_AXE = ITEMS.register("tanzanite_axe", () -> new ItemAxe(ModTiers.TANZANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> RUBY_AXE = ITEMS.register("ruby_axe", () -> new ItemAxe(ToolMaterial.TOOL_RUBY, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new ItemAxe(ToolMaterial.TOOL_SAPPHIRE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> TURQUOISE_AXE = ITEMS.register("turquoise_axe", () -> new ItemAxe(ToolMaterial.TOOL_TURQUOISE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> RUBY_AXE = ITEMS.register("ruby_axe", () -> new ItemAxe(ModTiers.RUBY, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new ItemAxe(ModTiers.SAPPHIRE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> TURQUOISE_AXE = ITEMS.register("turquoise_axe", () -> new ItemAxe(ModTiers.TURQUOISE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new ItemAxe(ToolMaterial.TOOL_MOISSANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemAxe> ONYX_AXE = ITEMS.register("onyx_axe", () -> new ItemAxe(ToolMaterial.TOOL_ONYX, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new ItemAxe(ModTiers.MOISSANITE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> ONYX_AXE = ITEMS.register("onyx_axe", () -> new ItemAxe(ModTiers.ONYX, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemAxe> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new ItemAxe(ToolMaterial.TOOL_GRAPHENE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemAxe> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new ItemAxe(ModTiers.GRAPHENE, 6.0F, -3.2F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
     //All shovels
-    public static final RegistryObject<ItemShovel> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ItemShovel(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ItemShovel(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ItemShovel(ToolMaterial.TOOL_SILVER, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ItemShovel(ToolMaterial.TOOL_BRONZE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ItemShovel(ModTiers.SILVER, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ItemShovel(ModTiers.BRONZE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ItemShovel(ToolMaterial.TOOL_OBSIDIAN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ItemShovel(ToolMaterial.TOOL_COBALT, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ItemShovel(ToolMaterial.TOOL_STEEL, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> STERLING_SHOVEL = ITEMS.register("sterling_shovel", () -> new ItemShovel(ToolMaterial.TOOL_STERLING, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ItemShovel(ModTiers.OBSIDIAN, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ItemShovel(ModTiers.COBALT, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ItemShovel(ModTiers.STEEL, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> STERLING_SHOVEL = ITEMS.register("sterling_shovel", () -> new ItemShovel(ModTiers.STERLING, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ItemShovel(ToolMaterial.TOOL_AMETHYST, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ItemShovel(ToolMaterial.TOOL_EMERALD, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ItemShovel(ModTiers.AMETHYST, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ItemShovel(ModTiers.EMERALD, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TOPAZ, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TOURMALINE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ItemShovel(ModTiers.TOPAZ, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ItemShovel(ModTiers.TOURMALINE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ItemShovel(ModTiers.TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ItemShovel(ToolMaterial.TOOL_RUBY, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ItemShovel(ToolMaterial.TOOL_SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ItemShovel(ToolMaterial.TOOL_TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ItemShovel(ModTiers.RUBY, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ItemShovel(ModTiers.SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ItemShovel(ModTiers.TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemShovel> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ItemShovel(ToolMaterial.TOOL_ONYX, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ItemShovel(ModTiers.MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ItemShovel(ModTiers.ONYX, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemShovel> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ItemShovel(ToolMaterial.TOOL_GRAPHENE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemShovel> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ItemShovel(ModTiers.GRAPHENE, 1.5F, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
     //All hoes
-    public static final RegistryObject<ItemHoe> TIN_HOE = ITEMS.register("tin_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TIN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> COPPER_HOE = ITEMS.register("copper_hoe", () -> new ItemHoe(ToolMaterial.TOOL_COPPER, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TIN_HOE = ITEMS.register("tin_hoe", () -> new ItemHoe(ModTiers.TIN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> COPPER_HOE = ITEMS.register("copper_hoe", () -> new ItemHoe(ModTiers.COPPER, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> SILVER_HOE = ITEMS.register("silver_hoe", () -> new ItemHoe(ToolMaterial.TOOL_SILVER, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new ItemHoe(ToolMaterial.TOOL_BRONZE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> SILVER_HOE = ITEMS.register("silver_hoe", () -> new ItemHoe(ModTiers.SILVER, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new ItemHoe(ModTiers.BRONZE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new ItemHoe(ToolMaterial.TOOL_OBSIDIAN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new ItemHoe(ToolMaterial.TOOL_COBALT, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> STEEL_HOE = ITEMS.register("steel_hoe", () -> new ItemHoe(ToolMaterial.TOOL_STEEL, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> STERLING_HOE = ITEMS.register("sterling_hoe", () -> new ItemHoe(ToolMaterial.TOOL_STERLING, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new ItemHoe(ModTiers.OBSIDIAN, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new ItemHoe(ModTiers.COBALT, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> STEEL_HOE = ITEMS.register("steel_hoe", () -> new ItemHoe(ModTiers.STEEL, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> STERLING_HOE = ITEMS.register("sterling_hoe", () -> new ItemHoe(ModTiers.STERLING, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new ItemHoe(ToolMaterial.TOOL_AMETHYST, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new ItemHoe(ToolMaterial.TOOL_EMERALD, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new ItemHoe(ModTiers.AMETHYST, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new ItemHoe(ModTiers.EMERALD, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TOPAZ, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TOURMALINE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> TANZANITE_HOE = ITEMS.register("tanzanite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TANZANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new ItemHoe(ModTiers.TOPAZ, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new ItemHoe(ModTiers.TOURMALINE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TANZANITE_HOE = ITEMS.register("tanzanite_hoe", () -> new ItemHoe(ModTiers.TANZANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new ItemHoe(ToolMaterial.TOOL_RUBY, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new ItemHoe(ToolMaterial.TOOL_SAPPHIRE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new ItemHoe(ToolMaterial.TOOL_TURQUOISE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new ItemHoe(ModTiers.RUBY, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new ItemHoe(ModTiers.SAPPHIRE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new ItemHoe(ModTiers.TURQUOISE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_MOISSANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
-    public static final RegistryObject<ItemHoe> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new ItemHoe(ToolMaterial.TOOL_ONYX, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new ItemHoe(ModTiers.MOISSANITE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new ItemHoe(ModTiers.ONYX, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ItemHoe> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new ItemHoe(ToolMaterial.TOOL_GRAPHENE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
+    public static final RegistryObject<ItemHoe> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new ItemHoe(ModTiers.GRAPHENE, 0, -3.0F, new Item.Properties().tab(MoresTabs.MORES_TOOLS)));
 
 
     //Tin blocks
@@ -538,15 +537,15 @@ public class ItemInit{
 //    public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
     //Vanilla tools
-    public static final RegistryObject<ItemPickaxe> DIAMOND_PICKAXE = VANILLA_ITEMS.register("diamond_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_DIAMOND, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemShovel> DIAMOND_SHOVEL = VANILLA_ITEMS.register("diamond_shovel", () -> new ItemShovel(ToolMaterial.TOOL_DIAMOND, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemAxe> DIAMOND_AXE = VANILLA_ITEMS.register("diamond_axe", () -> new ItemAxe(ToolMaterial.TOOL_DIAMOND, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemHoe> DIAMOND_HOE = VANILLA_ITEMS.register("diamond_hoe", () -> new ItemHoe(ToolMaterial.TOOL_DIAMOND, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemPickaxe> DIAMOND_PICKAXE = VANILLA_ITEMS.register("diamond_pickaxe", () -> new ItemPickaxe(ModTiers.DIAMOND, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemShovel> DIAMOND_SHOVEL = VANILLA_ITEMS.register("diamond_shovel", () -> new ItemShovel(ModTiers.DIAMOND, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemAxe> DIAMOND_AXE = VANILLA_ITEMS.register("diamond_axe", () -> new ItemAxe(ModTiers.DIAMOND, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemHoe> DIAMOND_HOE = VANILLA_ITEMS.register("diamond_hoe", () -> new ItemHoe(ModTiers.DIAMOND, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<ItemPickaxe> NETHERITE_PICKAXE = VANILLA_ITEMS.register("netherite_pickaxe", () -> new ItemPickaxe(ToolMaterial.TOOL_NETHERITE, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemShovel> NETHERITE_SHOVEL = VANILLA_ITEMS.register("netherite_shovel", () -> new ItemShovel(ToolMaterial.TOOL_NETHERITE, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemAxe> NETHERITE_AXE = VANILLA_ITEMS.register("netherite_axe", () -> new ItemAxe(ToolMaterial.TOOL_NETHERITE, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ItemHoe> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new ItemHoe(ToolMaterial.TOOL_NETHERITE, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemPickaxe> NETHERITE_PICKAXE = VANILLA_ITEMS.register("netherite_pickaxe", () -> new ItemPickaxe(ModTiers.NETHERITE, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemShovel> NETHERITE_SHOVEL = VANILLA_ITEMS.register("netherite_shovel", () -> new ItemShovel(ModTiers.NETHERITE, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemAxe> NETHERITE_AXE = VANILLA_ITEMS.register("netherite_axe", () -> new ItemAxe(ModTiers.NETHERITE, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+    public static final RegistryObject<ItemHoe> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new ItemHoe(ModTiers.NETHERITE, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
 
     //Shields

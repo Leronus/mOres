@@ -5,7 +5,7 @@ import mod.mores.config.Config;
 import mod.mores.core.init.BlockInit;
 import mod.mores.core.init.ItemInit;
 import mod.mores.sound.ModSounds;
-import mod.mores.core.util.FuelHandler;
+import mod.mores.util.FuelHandler;
 //import mod.mores.world.OreGeneration;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.block.Block;

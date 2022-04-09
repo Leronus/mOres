@@ -1,6 +1,6 @@
-package mod.mores.core.world.gen;
+package mod.mores.world.gen;
 
-import mod.mores.core.world.feature.ModPlacedFeatures;
+import mod.mores.world.feature.ModPlacedFeatures;
 import net.minecraft.core.Holder;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;

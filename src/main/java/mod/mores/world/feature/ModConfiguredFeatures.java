@@ -1,4 +1,4 @@
-package mod.mores.core.world.feature;
+package mod.mores.world.feature;
 
 import mod.mores.core.init.BlockInit;
 import net.minecraft.core.Holder;
