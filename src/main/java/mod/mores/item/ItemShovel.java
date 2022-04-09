@@ -1,21 +1,22 @@
-package mod.mores.common.item;
+package mod.mores.item;
 
 import net.minecraft.world.item.*;
 
-public class ItemPickaxe extends PickaxeItem {
+public class ItemShovel extends ShovelItem {
+    private final String bonus = "Auto Smelting";
+
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
 
-    private final String bonus = "Auto Smelting";
 
-    public ItemPickaxe(Tier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
+    public ItemShovel(Tier toolMaterial, float attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
         this.harvestLevel = toolMaterial.getLevel();
         this.maxUses = toolMaterial.getUses();
         this.efficiency = toolMaterial.getSpeed();
     }
-
+//
 //    @Override
 //    public void appendHoverText(ItemStack stack, Level worldIn, List<TextComponent> tooltip, TooltipFlag flagIn){
 //        super.appendHoverText(stack, worldIn, tooltip, flagIn);
@@ -25,29 +26,9 @@ public class ItemPickaxe extends PickaxeItem {
 //        tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + maxUses));
 //        tooltip.add(TextComponent.nullToEmpty("Efficiency: " + ChatFormatting.RED + efficiency));
 //
-//        if (stack.getItem() == ItemInit.RUBY_PICKAXE.get()){
+//        if (stack.getItem() == ItemInit.RUBY_SHOVEL.get()){
 //            tooltip.add(TextComponent.nullToEmpty("Bonus: " + ChatFormatting.DARK_RED + bonus));
 //        }
-//    }
-
-//    @Override
-//    public boolean mineBlock(ItemStack stack, Level worldIn, BlockState state, BlockPos pos,
-//                             LivingEntity entityLiving)
-//    {
-//        if (this.equals(ItemInit.RUBY_PICKAXE.get())) {
-//            AutoSmeltHandler.INSTANCE.afterBlockSmelt(worldIn, pos, true);
-//        }
-//        return super.mineBlock(stack, worldIn, state, pos, entityLiving);
-//    }
-
-//    @Override
-//    public ActionResultType useOn(ItemUseContext context)
-//    {
-//        ActionResultType result = super.useOn(context);
-//        if (this.equals(ItemInit.RUBY_PICKAXE.get())) {
-//            AutoSmeltHandler.INSTANCE.onItemUse(context);
-//        }
-//        return result;
 //    }
 
     @Override

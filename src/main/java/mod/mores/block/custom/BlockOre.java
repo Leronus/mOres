@@ -1,4 +1,4 @@
-package mod.mores.common.block.custom;
+package mod.mores.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;

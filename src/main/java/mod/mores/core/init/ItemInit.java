@@ -4,6 +4,7 @@ import mod.mores.Mores;
 import mod.mores.common.item.*;
 import mod.mores.core.ToolMaterial;
 import mod.mores.core.tabs.MoresTabs;
+import mod.mores.item.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;

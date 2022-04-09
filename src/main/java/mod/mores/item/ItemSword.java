@@ -1,4 +1,4 @@
-package mod.mores.common.item;
+package mod.mores.item;
 
 import mod.mores.core.init.ItemInit;
 import net.minecraft.world.effect.MobEffectInstance;

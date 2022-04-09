@@ -1,15 +1,18 @@
-package mod.mores.common.item;
+package mod.mores.item;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 
-public class ItemAxe extends AxeItem {
-    private final String bonus = "Auto Smelting";
+import java.util.List;
 
+public class ItemHoe extends HoeItem {
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
 
-    public ItemAxe(Tier toolMaterial, float attackDamage, float attackSpeed, Properties itemProperties) {
+    public ItemHoe(Tier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
         super(toolMaterial, attackDamage, attackSpeed, itemProperties);
         this.harvestLevel = toolMaterial.getLevel();
         this.maxUses = toolMaterial.getUses();
@@ -24,10 +27,6 @@ public class ItemAxe extends AxeItem {
 //        tooltip.add(TextComponent.nullToEmpty("Harvest Level: " + ChatFormatting.GOLD + harvestLevel));
 //        tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + maxUses));
 //        tooltip.add(TextComponent.nullToEmpty("Efficiency: " + ChatFormatting.RED + efficiency));
-//
-//        if (stack.getItem() == ItemInit.RUBY_AXE.get()){
-//            tooltip.add(TextComponent.nullToEmpty("Bonus: " + ChatFormatting.DARK_RED + bonus));
-//        }
 //    }
 
     @Override

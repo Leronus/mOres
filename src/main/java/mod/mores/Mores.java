@@ -1,6 +1,6 @@
 package mod.mores;
 
-import mod.mores.common.item.ItemSpawnEgg;
+import mod.mores.item.ItemSpawnEgg;
 import mod.mores.config.Config;
 import mod.mores.core.init.BlockInit;
 import mod.mores.core.init.ItemInit;
