@@ -1,7 +1,7 @@
 package mod.mores.core.init;
 
 import mod.mores.Mores;
-import mod.mores.common.block.BlockOre;
+import mod.mores.common.block.custom.BlockOre;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
