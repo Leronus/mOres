@@ -1,6 +1,5 @@
 package mod.mores.item;
 
-import mod.mores.item.ModItems;
 import mod.mores.util.ModTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.Items;

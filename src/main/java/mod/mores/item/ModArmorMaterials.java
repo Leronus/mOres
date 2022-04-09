@@ -1,7 +1,6 @@
 package mod.mores.item;
 
 import mod.mores.Mores;
-import mod.mores.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
