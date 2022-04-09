@@ -1,9 +1,9 @@
 package mod.mores;
 
-import mod.mores.item.ItemSpawnEgg;
+import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.config.Config;
-import mod.mores.core.init.BlockInit;
-import mod.mores.core.init.ItemInit;
+import mod.mores.block.ModBlocks;
+import mod.mores.item.ModItems;
 import mod.mores.sound.ModSounds;
 import mod.mores.util.FuelHandler;
 //import mod.mores.world.OreGeneration;
@@ -51,10 +51,10 @@ public class Mores
         //Registering mores resources
         ModSounds.register(bus);
 //      ModEntities.register(bus);
-        BlockInit.BLOCKS.register(bus);
-        BlockInit.VANILLA_BLOCKS.register(bus);
-        ItemInit.ITEMS.register(bus);
-        ItemInit.VANILLA_ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
+        ModBlocks.VANILLA_BLOCKS.register(bus);
+        ModItems.ITEMS.register(bus);
+        ModItems.VANILLA_ITEMS.register(bus);
 //        ContainerInit.CONTAINER_TYPES.register(bus);
 //        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
@@ -96,7 +96,7 @@ public class Mores
 
     @SubscribeEvent
     public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event) {
-        ItemSpawnEgg.initSpawnEggs();
+        ModSpawnEggItem.initSpawnEggs();
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD

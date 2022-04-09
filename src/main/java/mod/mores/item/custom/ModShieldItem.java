@@ -1,31 +1,15 @@
-//package mod.mores.objects;
-//
-//import java.util.List;
-//import java.util.function.Supplier;
-//
-//import mod.mores.tabs.MoresTabs;
-//import net.minecraft.ChatFormatting;
-//import net.minecraft.network.chat.TextComponent;
-//import net.minecraft.tags.Tag;
-//import net.minecraft.world.entity.LivingEntity;
-//import net.minecraft.world.item.*;
-//import net.minecraft.world.item.crafting.Ingredient;
-//import net.minecraft.world.level.Level;
-//import net.minecraft.world.level.block.DispenserBlock;
-//import net.minecraftforge.api.distmarker.Dist;
-//import net.minecraftforge.api.distmarker.OnlyIn;
-//import org.jetbrains.annotations.Nullable;
-//
-//public class ItemShield extends ShieldItem {
-//
+package mod.mores.item.custom;
+
+public class ModShieldItem {
+    //
 //    private final int durability;
 //    private Supplier<Integer> damageReduction;
 //
-//    public ItemShield(Supplier<Integer> damageReduction, Tag<Item> repairMaterial, int durability, boolean fireProof){
+//    public ModShieldItem(Supplier<Integer> damageReduction, Tag<Item> repairMaterial, int durability, boolean fireProof){
 //        this(damageReduction, ()-> Ingredient.of(repairMaterial), durability, fireProof);
 //    }
 //
-//    public ItemShield(Supplier<Integer> damageReduction, Supplier<Ingredient> repairMaterial, int durability, boolean fireProof) {
+//    public ModShieldItem(Supplier<Integer> damageReduction, Supplier<Ingredient> repairMaterial, int durability, boolean fireProof) {
 //        super((fireProof ? new Properties().fireResistant() : new Properties()).setISTER(() -> getISTER()).durability(durability).tab(MoresTabs.MORES_SHIELDS));
 //        this.damageReduction = damageReduction;
 //        this.durability = durability;
@@ -78,4 +62,4 @@
 //        tooltip.add(TextComponent("Max Uses: " + ChatFormatting.LIGHT_PURPLE + durability));
 //        super.appendHoverText(stack, worldIn, tooltip, flagIn);
 //    }
-//}
+}

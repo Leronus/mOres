@@ -1,7 +1,7 @@
-package mod.mores.core.tabs;
+package mod.mores.tabs;
 
-import mod.mores.core.init.BlockInit;
-import mod.mores.core.init.ItemInit;
+import mod.mores.block.ModBlocks;
+import mod.mores.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,35 +18,35 @@ public class MoresTabs extends CreativeModeTab {
     public static final CreativeModeTab MORES_MATERIALS = (new MoresTabs(12, "mores_materials") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.RUBY_GEM.get());
+            return new ItemStack(ModItems.RUBY_GEM.get());
         }
     }).setRecipeFolderName("mores_tools");
 
     public static final CreativeModeTab MORES_BLOCKS = (new MoresTabs(13, "mores_blocks") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(BlockInit.GRAPHENE_BLOCK.get());
+            return new ItemStack(ModBlocks.GRAPHENE_BLOCK.get());
         }
     }).setRecipeFolderName("mores_blocks");
 
     public static final CreativeModeTab MORES_ORES = (new MoresTabs(14, "mores_ores") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(BlockInit.DEEPSLATE_TOURMALINE_ORE.get());
+            return new ItemStack(ModBlocks.DEEPSLATE_TOURMALINE_ORE.get());
         }
     }).setRecipeFolderName("mores_ores");
 
     public static final CreativeModeTab MORES_TOOLS = (new MoresTabs(15, "mores_tools") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.COBALT_PICKAXE.get());
+            return new ItemStack(ModItems.COBALT_PICKAXE.get());
         }
     }).setRecipeFolderName("mores_tools");
 
     public static final CreativeModeTab MORES_WEAPONS = (new MoresTabs(16, "mores_weapons") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.SAPPHIRE_BATTLEAXE.get());
+            return new ItemStack(ModItems.SAPPHIRE_BATTLEAXE.get());
         }
     }).setRecipeFolderName("mores_weapons");
 
@@ -61,21 +61,21 @@ public class MoresTabs extends CreativeModeTab {
     public static final CreativeModeTab MORES_ARMOR = (new MoresTabs(18, "mores_armor") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.MOISSANITE_CHESTPLATE.get());
+            return new ItemStack(ModItems.MOISSANITE_CHESTPLATE.get());
         }
     }).setRecipeFolderName("mores_armor");
 
     public static final CreativeModeTab MORES_HORSE_ARMOR = (new MoresTabs(19, "mores_horse_armor") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.AMETHYST_HORSE_ARMOR.get());
+            return new ItemStack(ModItems.AMETHYST_HORSE_ARMOR.get());
         }
     }).setRecipeFolderName("mores_horse_armor");
 
     public static final CreativeModeTab MORES_FOODS = (new MoresTabs(20, "mores_foods") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.SILVER_APPLE.get());
+            return new ItemStack(ModItems.SILVER_APPLE.get());
         }
     }).setRecipeFolderName("mores_foods");
 
@@ -102,7 +102,7 @@ public class MoresTabs extends CreativeModeTab {
      */
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemInit.TOPAZ_BATTLEAXE.get());
+        return new ItemStack(ModItems.TOPAZ_BATTLEAXE.get());
     }
 }
 

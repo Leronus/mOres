@@ -1,4 +1,4 @@
-package mod.mores.core.init;
+package mod.mores.block;
 
 import mod.mores.Mores;
 import mod.mores.block.custom.BlockOre;
@@ -20,7 +20,7 @@ import java.util.function.ToIntFunction;
  * Class that initialises all blocks from mOres
  * @author Leronus
  */
-public class BlockInit {
+public class ModBlocks {
     /**
      * Registers all mOres blocks
      */
@@ -108,7 +108,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> GRAPHENE_BLOCK = BLOCKS.register("graphene_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_CYAN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> DEEPSLATE_BLOCK = BLOCKS.register("deepslate_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops().lootFrom(BlockInit.COBBLED_DEEPSLATE)));
+    public static final RegistryObject<Block> DEEPSLATE_BLOCK = BLOCKS.register("deepslate_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops().lootFrom(ModBlocks.COBBLED_DEEPSLATE)));
     public static final RegistryObject<Block> COBBLED_DEEPSLATE = BLOCKS.register("cobbled_deepslate", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()));
 
 //    public static final RegistryObject<BlockAlloyFurnace> ALLOY_FURNACE = BLOCKS.register("alloy_furnace", () -> new BlockAlloyFurnace(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())));

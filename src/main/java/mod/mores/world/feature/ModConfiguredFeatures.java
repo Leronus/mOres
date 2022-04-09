@@ -1,6 +1,6 @@
 package mod.mores.world.feature;
 
-import mod.mores.core.init.BlockInit;
+import mod.mores.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.OreFeatures;
@@ -19,43 +19,43 @@ public class ModConfiguredFeatures {
 
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TIN_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TIN_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TIN_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TIN_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TIN_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_COBALT_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.COBALT_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_COBALT_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.COBALT_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_COBALT_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_SILVER_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.SILVER_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_SILVER_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SILVER_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_SILVER_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TOPAZ_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TOPAZ_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TOPAZ_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TOPAZ_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TOURMALINE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TOURMALINE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TOURMALINE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TOURMALINE_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_SAPPHIRE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.SAPPHIRE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SAPPHIRE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_RUBY_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.RUBY_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RUBY_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_RUBY_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_MOISSANITE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.MOISSANITE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_MOISSANITE_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MOISSANITE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_MOISSANITE_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_TURQUOISE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, BlockInit.TURQUOISE_ORE.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TURQUOISE_ORE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState()));
 
     public static final List<OreConfiguration.TargetBlockState> NETHER_SILVER_ORES = List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.NETHER_SILVER_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_SILVER_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> NETHER_TANZANITE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.NETHER_TANZANITE_ORE.get().defaultBlockState())
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_TANZANITE_ORE.get().defaultBlockState())
            /*,OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TANZANITE_ORE.get().defaultBlockState())*/);
     public static final List<OreConfiguration.TargetBlockState> NETHER_MOISSANITE_ORES = List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, BlockInit.MOISSANITE_NETHER_ORE.get().defaultBlockState()));
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.MOISSANITE_NETHER_ORE.get().defaultBlockState()));
 
     public static final List<OreConfiguration.TargetBlockState> END_ONYX_ORES = List.of(
-            OreConfiguration.target(END_STONE_REPLACEABLES, BlockInit.ONYX_ORE.get().defaultBlockState()));
+            OreConfiguration.target(END_STONE_REPLACEABLES, ModBlocks.ONYX_ORE.get().defaultBlockState()));
 
     /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
 

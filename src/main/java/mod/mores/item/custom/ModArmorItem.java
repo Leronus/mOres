@@ -1,20 +1,17 @@
-package mod.mores.item;
+package mod.mores.item.custom;
 
-import mod.mores.core.init.ItemInit;
+import mod.mores.item.ModItems;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
-import java.util.List;
-
-public class ItemArmor extends ArmorItem {
+public class ModArmorItem extends ArmorItem {
     private ArmorMaterial armorMaterial;
     private EquipmentSlot equipmentSlotType;
-    public ItemArmor(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlotType, Properties properties) {
+    public ModArmorItem(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlotType, Properties properties) {
         super(armorMaterial, equipmentSlotType, properties);
         this.armorMaterial = armorMaterial;
         this.equipmentSlotType = equipmentSlotType;
@@ -27,83 +24,83 @@ public class ItemArmor extends ArmorItem {
         Item LEGGINGS = player.getItemBySlot(EquipmentSlot.LEGS).getItem();
         Item BOOTS = player.getItemBySlot(EquipmentSlot.FEET).getItem();
         //Turquoise: Water breathing & Dolphins Grace
-        if (HELMET == (ItemInit.TURQUOISE_HELMET.get())
-                && CHESTPLATE == (ItemInit.TURQUOISE_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.TURQUOISE_LEGGINGS.get())
-                && BOOTS == (ItemInit.TURQUOISE_BOOTS.get())) {
+        if (HELMET == (ModItems.TURQUOISE_HELMET.get())
+                && CHESTPLATE == (ModItems.TURQUOISE_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.TURQUOISE_LEGGINGS.get())
+                && BOOTS == (ModItems.TURQUOISE_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 10, 0, false, false));
             player.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 10, 0, false, false));
 
         //Sapphire: Night Vision
-        } if (HELMET == (ItemInit.SAPPHIRE_HELMET.get())
-                && CHESTPLATE == (ItemInit.SAPPHIRE_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.SAPPHIRE_LEGGINGS.get())
-                && BOOTS == (ItemInit.SAPPHIRE_BOOTS.get())) {
+        } if (HELMET == (ModItems.SAPPHIRE_HELMET.get())
+                && CHESTPLATE == (ModItems.SAPPHIRE_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.SAPPHIRE_LEGGINGS.get())
+                && BOOTS == (ModItems.SAPPHIRE_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 250, 0, false, false));
         } else {
             player.removeEffect(MobEffects.NIGHT_VISION);
 
         //Ruby: Fire Resistance
-        } if (HELMET == (ItemInit.RUBY_HELMET.get())
-            && CHESTPLATE == (ItemInit.RUBY_CHESTPLATE.get())
-            && LEGGINGS == (ItemInit.RUBY_LEGGINGS.get())
-            && BOOTS == (ItemInit.RUBY_BOOTS.get())) {
+        } if (HELMET == (ModItems.RUBY_HELMET.get())
+            && CHESTPLATE == (ModItems.RUBY_CHESTPLATE.get())
+            && LEGGINGS == (ModItems.RUBY_LEGGINGS.get())
+            && BOOTS == (ModItems.RUBY_BOOTS.get())) {
         player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 10, 0, false, false));
 
         //Tanzanite: Speed Boost
-        }else if (HELMET == (ItemInit.TANZANITE_HELMET.get())
-                && CHESTPLATE == (ItemInit.TANZANITE_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.TANZANITE_LEGGINGS.get())
-                && BOOTS == (ItemInit.TANZANITE_BOOTS.get())) {
+        }else if (HELMET == (ModItems.TANZANITE_HELMET.get())
+                && CHESTPLATE == (ModItems.TANZANITE_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.TANZANITE_LEGGINGS.get())
+                && BOOTS == (ModItems.TANZANITE_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10, 0, false, false));
 
         //Cobalt: Mining Boost
-        }else if (HELMET == (ItemInit.COBALT_HELMET.get())
-                && CHESTPLATE == (ItemInit.COBALT_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.COBALT_LEGGINGS.get())
-                && BOOTS == (ItemInit.COBALT_BOOTS.get())) {
+        }else if (HELMET == (ModItems.COBALT_HELMET.get())
+                && CHESTPLATE == (ModItems.COBALT_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.COBALT_LEGGINGS.get())
+                && BOOTS == (ModItems.COBALT_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 0, false, false));
 
         //Tourmaline: Regeneration
-        }else if (HELMET == (ItemInit.TOURMALINE_HELMET.get())
-                && CHESTPLATE == (ItemInit.TOURMALINE_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.TOURMALINE_LEGGINGS.get())
-                && BOOTS == (ItemInit.TOURMALINE_BOOTS.get())) {
+        }else if (HELMET == (ModItems.TOURMALINE_HELMET.get())
+                && CHESTPLATE == (ModItems.TOURMALINE_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.TOURMALINE_LEGGINGS.get())
+                && BOOTS == (ModItems.TOURMALINE_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 10, 0, false, false));
 
         //Emerald: Luck
-        }else if (HELMET == (ItemInit.EMERALD_HELMET.get())
-                && CHESTPLATE == (ItemInit.EMERALD_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.EMERALD_LEGGINGS.get())
-                && BOOTS == (ItemInit.EMERALD_BOOTS.get())) {
+        }else if (HELMET == (ModItems.EMERALD_HELMET.get())
+                && CHESTPLATE == (ModItems.EMERALD_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.EMERALD_LEGGINGS.get())
+                && BOOTS == (ModItems.EMERALD_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.LUCK, 10, 0, false, false));
 
         //Obsidian: Slowness + Strength
-        }else if (HELMET == (ItemInit.OBSIDIAN_HELMET.get())
-                && CHESTPLATE == (ItemInit.OBSIDIAN_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.OBSIDIAN_LEGGINGS.get())
-                && BOOTS == (ItemInit.OBSIDIAN_BOOTS.get())) {
+        }else if (HELMET == (ModItems.OBSIDIAN_HELMET.get())
+                && CHESTPLATE == (ModItems.OBSIDIAN_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.OBSIDIAN_LEGGINGS.get())
+                && BOOTS == (ModItems.OBSIDIAN_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 0, false, false));
             player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 0, false, false));
 
         //Tin: Jump Boost
-        }else if (HELMET == (ItemInit.TIN_HELMET.get())
-                && CHESTPLATE == (ItemInit.TIN_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.TIN_LEGGINGS.get())
-                && BOOTS == (ItemInit.TIN_BOOTS.get())) {
+        }else if (HELMET == (ModItems.TIN_HELMET.get())
+                && CHESTPLATE == (ModItems.TIN_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.TIN_LEGGINGS.get())
+                && BOOTS == (ModItems.TIN_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.JUMP, 10, 1, false, false));
 
         //Amethyst: Slow Falling
-        }else if (HELMET == (ItemInit.AMETHYST_HELMET.get())
-                && CHESTPLATE == (ItemInit.AMETHYST_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.AMETHYST_LEGGINGS.get())
-                && BOOTS == (ItemInit.AMETHYST_BOOTS.get())) {
+        }else if (HELMET == (ModItems.AMETHYST_HELMET.get())
+                && CHESTPLATE == (ModItems.AMETHYST_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.AMETHYST_LEGGINGS.get())
+                && BOOTS == (ModItems.AMETHYST_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 10, 0, false, false));
         //Topaz: Mining Boost 2
-        }else if (HELMET == (ItemInit.TOPAZ_HELMET.get())
-                && CHESTPLATE == (ItemInit.TOPAZ_CHESTPLATE.get())
-                && LEGGINGS == (ItemInit.TOPAZ_LEGGINGS.get())
-                && BOOTS == (ItemInit.TOPAZ_BOOTS.get())) {
+        }else if (HELMET == (ModItems.TOPAZ_HELMET.get())
+                && CHESTPLATE == (ModItems.TOPAZ_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.TOPAZ_LEGGINGS.get())
+                && BOOTS == (ModItems.TOPAZ_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 1, false, false));
         }
     }

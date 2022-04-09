@@ -1,4 +1,4 @@
-package mod.mores.item;
+package mod.mores.item.custom;
 
 import net.minecraft.core.BlockSource;
 import net.minecraft.core.Direction;
@@ -17,8 +17,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ItemSpawnEgg extends SpawnEggItem {
-    protected static final List<ItemSpawnEgg> EGGS_TO_ADD = new ArrayList<>();
+public class ModSpawnEggItem extends SpawnEggItem {
+    protected static final List<ModSpawnEggItem> EGGS_TO_ADD = new ArrayList<>();
     private final Lazy<? extends EntityType<?>> lazyEntity;
 
     public static DispenseItemBehavior behavior = new DispenseItemBehavior() {
@@ -34,7 +34,7 @@ public class ItemSpawnEgg extends SpawnEggItem {
         }
     };
 
-    public ItemSpawnEgg(final RegistryObject<? extends EntityType<?>> entity, int primaryColor, int secondaryColor, final Item.Properties properties) {
+    public ModSpawnEggItem(final RegistryObject<? extends EntityType<?>> entity, int primaryColor, int secondaryColor, final Item.Properties properties) {
         super(null, primaryColor, secondaryColor, properties);
         this.lazyEntity = Lazy.of(entity::get);
         EGGS_TO_ADD.add(this);
