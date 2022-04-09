@@ -4,7 +4,7 @@ import mod.mores.item.ItemSpawnEgg;
 import mod.mores.config.Config;
 import mod.mores.core.init.BlockInit;
 import mod.mores.core.init.ItemInit;
-import mod.mores.core.init.SoundTypeInit;
+import mod.mores.sound.ModSounds;
 import mod.mores.core.util.FuelHandler;
 //import mod.mores.world.OreGeneration;
 import net.minecraft.world.entity.EntityType;
@@ -49,8 +49,8 @@ public class Mores
         bus.addListener(this::processIMC);
 
         //Registering mores resources
-        SoundTypeInit.SOUND_TYPES.register(bus);
-//        EntityTypeInit.ENTITY_TYPES.register(bus);
+        ModSounds.register(bus);
+//      ModEntities.register(bus);
         BlockInit.BLOCKS.register(bus);
         BlockInit.VANILLA_BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
