@@ -90,100 +90,100 @@ public class ItemInit{
 
 
     //All armor
-    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_CHESTPLATE = ITEMS.register("tin_chestplate", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_LEGGINGS = ITEMS.register("tin_leggings", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ItemArmor(ArmorMaterialInit.TIN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ItemArmor(ModArmorMaterials.TIN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_CHESTPLATE = ITEMS.register("tin_chestplate", () -> new ItemArmor(ModArmorMaterials.TIN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_LEGGINGS = ITEMS.register("tin_leggings", () -> new ItemArmor(ModArmorMaterials.TIN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ItemArmor(ModArmorMaterials.TIN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ItemArmor(ArmorMaterialInit.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ItemArmor(ModArmorMaterials.COPPER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ItemArmor(ModArmorMaterials.COPPER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ItemArmor(ModArmorMaterials.COPPER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ItemArmor(ModArmorMaterials.COPPER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots", () -> new ItemArmor(ArmorMaterialInit.SILVER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ItemArmor(ModArmorMaterials.SILVER, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_CHESTPLATE = ITEMS.register("silver_chestplate", () -> new ItemArmor(ModArmorMaterials.SILVER, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_LEGGINGS = ITEMS.register("silver_leggings", () -> new ItemArmor(ModArmorMaterials.SILVER, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SILVER_BOOTS = ITEMS.register("silver_boots", () -> new ItemArmor(ModArmorMaterials.SILVER, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_CHESTPLATE = ITEMS.register("bronze_chestplate", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ItemArmor(ArmorMaterialInit.BRONZE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet", () -> new ItemArmor(ModArmorMaterials.BRONZE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_CHESTPLATE = ITEMS.register("bronze_chestplate", () -> new ItemArmor(ModArmorMaterials.BRONZE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_LEGGINGS = ITEMS.register("bronze_leggings", () -> new ItemArmor(ModArmorMaterials.BRONZE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ItemArmor(ModArmorMaterials.BRONZE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> STERLING_HELMET = ITEMS.register("sterling_helmet", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_CHESTPLATE = ITEMS.register("sterling_chestplate", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_LEGGINGS = ITEMS.register("sterling_leggings", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STERLING_BOOTS = ITEMS.register("sterling_boots", () -> new ItemArmor(ArmorMaterialInit.STERLING, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_HELMET = ITEMS.register("sterling_helmet", () -> new ItemArmor(ModArmorMaterials.STERLING, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_CHESTPLATE = ITEMS.register("sterling_chestplate", () -> new ItemArmor(ModArmorMaterials.STERLING, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_LEGGINGS = ITEMS.register("sterling_leggings", () -> new ItemArmor(ModArmorMaterials.STERLING, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STERLING_BOOTS = ITEMS.register("sterling_boots", () -> new ItemArmor(ModArmorMaterials.STERLING, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ItemArmor(ArmorMaterialInit.OBSIDIAN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet", () -> new ItemArmor(ModArmorMaterials.OBSIDIAN, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate", () -> new ItemArmor(ModArmorMaterials.OBSIDIAN, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings", () -> new ItemArmor(ModArmorMaterials.OBSIDIAN, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots", () -> new ItemArmor(ModArmorMaterials.OBSIDIAN, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> COBALT_HELMET = ITEMS.register("cobalt_helmet", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_LEGGINGS = ITEMS.register("cobalt_leggings", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> COBALT_BOOTS = ITEMS.register("cobalt_boots", () -> new ItemArmor(ArmorMaterialInit.COBALT, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_HELMET = ITEMS.register("cobalt_helmet", () -> new ItemArmor(ModArmorMaterials.COBALT, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_CHESTPLATE = ITEMS.register("cobalt_chestplate", () -> new ItemArmor(ModArmorMaterials.COBALT, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_LEGGINGS = ITEMS.register("cobalt_leggings", () -> new ItemArmor(ModArmorMaterials.COBALT, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> COBALT_BOOTS = ITEMS.register("cobalt_boots", () -> new ItemArmor(ModArmorMaterials.COBALT, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots", () -> new ItemArmor(ArmorMaterialInit.STEEL, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ItemArmor(ModArmorMaterials.STEEL, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_CHESTPLATE = ITEMS.register("steel_chestplate", () -> new ItemArmor(ModArmorMaterials.STEEL, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_LEGGINGS = ITEMS.register("steel_leggings", () -> new ItemArmor(ModArmorMaterials.STEEL, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots", () -> new ItemArmor(ModArmorMaterials.STEEL, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new ItemArmor(ArmorMaterialInit.AMETHYST, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new ItemArmor(ModArmorMaterials.AMETHYST, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new ItemArmor(ModArmorMaterials.AMETHYST, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new ItemArmor(ModArmorMaterials.AMETHYST, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new ItemArmor(ModArmorMaterials.AMETHYST, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new ItemArmor(ArmorMaterialInit.EMERALD, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new ItemArmor(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new ItemArmor(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new ItemArmor(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new ItemArmor(ModArmorMaterials.EMERALD, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots", () -> new ItemArmor(ArmorMaterialInit.TOPAZ, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet", () -> new ItemArmor(ModArmorMaterials.TOPAZ, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate", () -> new ItemArmor(ModArmorMaterials.TOPAZ, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings", () -> new ItemArmor(ModArmorMaterials.TOPAZ, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots", () -> new ItemArmor(ModArmorMaterials.TOPAZ, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TOURMALINE_HELMET = ITEMS.register("tourmaline_helmet", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_CHESTPLATE = ITEMS.register("tourmaline_chestplate", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_LEGGINGS = ITEMS.register("tourmaline_leggings", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TOURMALINE_BOOTS = ITEMS.register("tourmaline_boots", () -> new ItemArmor(ArmorMaterialInit.TOURMALINE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_HELMET = ITEMS.register("tourmaline_helmet", () -> new ItemArmor(ModArmorMaterials.TOURMALINE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_CHESTPLATE = ITEMS.register("tourmaline_chestplate", () -> new ItemArmor(ModArmorMaterials.TOURMALINE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_LEGGINGS = ITEMS.register("tourmaline_leggings", () -> new ItemArmor(ModArmorMaterials.TOURMALINE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TOURMALINE_BOOTS = ITEMS.register("tourmaline_boots", () -> new ItemArmor(ModArmorMaterials.TOURMALINE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TANZANITE_HELMET = ITEMS.register("tanzanite_helmet", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_CHESTPLATE = ITEMS.register("tanzanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_LEGGINGS = ITEMS.register("tanzanite_leggings", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TANZANITE_BOOTS = ITEMS.register("tanzanite_boots", () -> new ItemArmor(ArmorMaterialInit.TANZANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_HELMET = ITEMS.register("tanzanite_helmet", () -> new ItemArmor(ModArmorMaterials.TANZANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_CHESTPLATE = ITEMS.register("tanzanite_chestplate", () -> new ItemArmor(ModArmorMaterials.TANZANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_LEGGINGS = ITEMS.register("tanzanite_leggings", () -> new ItemArmor(ModArmorMaterials.TANZANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TANZANITE_BOOTS = ITEMS.register("tanzanite_boots", () -> new ItemArmor(ModArmorMaterials.TANZANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ItemArmor(ArmorMaterialInit.RUBY, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ItemArmor(ModArmorMaterials.RUBY, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ItemArmor(ModArmorMaterials.RUBY, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ItemArmor(ModArmorMaterials.RUBY, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ItemArmor(ModArmorMaterials.RUBY, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ItemArmor(ArmorMaterialInit.SAPPHIRE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet", () -> new ItemArmor(ModArmorMaterials.SAPPHIRE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate", () -> new ItemArmor(ModArmorMaterials.SAPPHIRE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings", () -> new ItemArmor(ModArmorMaterials.SAPPHIRE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots", () -> new ItemArmor(ModArmorMaterials.SAPPHIRE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> TURQUOISE_HELMET = ITEMS.register("turquoise_helmet", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_CHESTPLATE = ITEMS.register("turquoise_chestplate", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_LEGGINGS = ITEMS.register("turquoise_leggings", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> TURQUOISE_BOOTS = ITEMS.register("turquoise_boots", () -> new ItemArmor(ArmorMaterialInit.TURQUOISE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_HELMET = ITEMS.register("turquoise_helmet", () -> new ItemArmor(ModArmorMaterials.TURQUOISE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_CHESTPLATE = ITEMS.register("turquoise_chestplate", () -> new ItemArmor(ModArmorMaterials.TURQUOISE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_LEGGINGS = ITEMS.register("turquoise_leggings", () -> new ItemArmor(ModArmorMaterials.TURQUOISE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> TURQUOISE_BOOTS = ITEMS.register("turquoise_boots", () -> new ItemArmor(ModArmorMaterials.TURQUOISE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> MOISSANITE_HELMET = ITEMS.register("moissanite_helmet", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_CHESTPLATE = ITEMS.register("moissanite_chestplate", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_LEGGINGS = ITEMS.register("moissanite_leggings", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> MOISSANITE_BOOTS = ITEMS.register("moissanite_boots", () -> new ItemArmor(ArmorMaterialInit.MOISSANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_HELMET = ITEMS.register("moissanite_helmet", () -> new ItemArmor(ModArmorMaterials.MOISSANITE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_CHESTPLATE = ITEMS.register("moissanite_chestplate", () -> new ItemArmor(ModArmorMaterials.MOISSANITE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_LEGGINGS = ITEMS.register("moissanite_leggings", () -> new ItemArmor(ModArmorMaterials.MOISSANITE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> MOISSANITE_BOOTS = ITEMS.register("moissanite_boots", () -> new ItemArmor(ModArmorMaterials.MOISSANITE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> ONYX_HELMET = ITEMS.register("onyx_helmet", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_CHESTPLATE = ITEMS.register("onyx_chestplate", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_LEGGINGS = ITEMS.register("onyx_leggings", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> ONYX_BOOTS = ITEMS.register("onyx_boots", () -> new ItemArmor(ArmorMaterialInit.ONYX, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_HELMET = ITEMS.register("onyx_helmet", () -> new ItemArmor(ModArmorMaterials.ONYX, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_CHESTPLATE = ITEMS.register("onyx_chestplate", () -> new ItemArmor(ModArmorMaterials.ONYX, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_LEGGINGS = ITEMS.register("onyx_leggings", () -> new ItemArmor(ModArmorMaterials.ONYX, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> ONYX_BOOTS = ITEMS.register("onyx_boots", () -> new ItemArmor(ModArmorMaterials.ONYX, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
-    public static final RegistryObject<Item> GRAPHENE_HELMET = ITEMS.register("graphene_helmet", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_CHESTPLATE = ITEMS.register("graphene_chestplate", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_LEGGINGS = ITEMS.register("graphene_leggings", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
-    public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots", () -> new ItemArmor(ArmorMaterialInit.GRAPHENE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_HELMET = ITEMS.register("graphene_helmet", () -> new ItemArmor(ModArmorMaterials.GRAPHENE, EquipmentSlot.HEAD, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_CHESTPLATE = ITEMS.register("graphene_chestplate", () -> new ItemArmor(ModArmorMaterials.GRAPHENE, EquipmentSlot.CHEST, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_LEGGINGS = ITEMS.register("graphene_leggings", () -> new ItemArmor(ModArmorMaterials.GRAPHENE, EquipmentSlot.LEGS, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
+    public static final RegistryObject<Item> GRAPHENE_BOOTS = ITEMS.register("graphene_boots", () -> new ItemArmor(ModArmorMaterials.GRAPHENE, EquipmentSlot.FEET, (new Item.Properties()).tab(MoresTabs.MORES_ARMOR)));
 
 
     //All swords
