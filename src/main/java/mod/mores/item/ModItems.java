@@ -8,6 +8,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -452,99 +453,99 @@ public class ModItems {
 
     public static final RegistryObject<HoeItem> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new HoeItem(ModTiers.GRAPHENE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-
-    //Tin blocks
-    public static final RegistryObject<BlockItem> TIN_ORE = ITEMS.register("tin_ore", () -> new BlockItem(ModBlocks.TIN_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> RAW_TIN_BLOCK = ITEMS.register("raw_tin_block", () -> new BlockItem(ModBlocks.RAW_TIN_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> TIN_BLOCK = ITEMS.register("tin_block", () -> new BlockItem(ModBlocks.TIN_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_TIN_ORE = ITEMS.register("deepslate_tin_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TIN_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    //Copper blocks
-//    public static final RegistryObject<BlockItem> COPPER_ORE = ITEMS.register("copper_ore", () -> new BlockItem(BlockInit.COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
-//    public static final RegistryObject<BlockItem> COPPER_BLOCK = ITEMS.register("copper_block", () -> new BlockItem(BlockInit.COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
-//    public static final RegistryObject<BlockItem> RAW_COPPER_BLOCK = ITEMS.register("raw_copper_block", () -> new BlockItem(BlockInit.RAW_COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
-//    public static final RegistryObject<BlockItem> DEEPSLATE_COPPER_ORE = ITEMS.register("deepslate_copper_ore", () -> new BlockItem(BlockInit.DEEPSLATE_COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
-
-    //Silver blocks
-    public static final RegistryObject<BlockItem> SILVER_ORE = ITEMS.register("silver_ore", () -> new BlockItem(ModBlocks.SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> RAW_SILVER_BLOCK = ITEMS.register("raw_silver_block", () -> new BlockItem(ModBlocks.RAW_SILVER_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> SILVER_BLOCK = ITEMS.register("silver_block", () -> new BlockItem(ModBlocks.SILVER_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_SILVER_ORE = ITEMS.register("deepslate_silver_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> NETHER_SILVER_ORE = ITEMS.register("nether_silver_ore", () -> new BlockItem(ModBlocks.NETHER_SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    //Cobalt blocks
-    public static final RegistryObject<BlockItem> COBALT_ORE = ITEMS.register("cobalt_ore", () -> new BlockItem(ModBlocks.COBALT_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> COBALT_BLOCK = ITEMS.register("cobalt_block", () -> new BlockItem(ModBlocks.COBALT_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> RAW_COBALT_BLOCK = ITEMS.register("raw_cobalt_block", () -> new BlockItem(ModBlocks.RAW_COBALT_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_COBALT_ORE = ITEMS.register("deepslate_cobalt_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_COBALT_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    //Other blocks
-    public static final RegistryObject<BlockItem> AMETHYST_ORE = ITEMS.register("amethyst_ore", () -> new BlockItem(ModBlocks.AMETHYST_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_AMETHYST_ORE = ITEMS.register("deepslate_amethyst_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_AMETHYST_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> AMETHYST_BLOCK = ITEMS.register("amethyst_block", () -> new BlockItem(ModBlocks.AMETHYST_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-
-    public static final RegistryObject<BlockItem> TOPAZ_ORE = ITEMS.register("topaz_ore", () -> new BlockItem(ModBlocks.TOPAZ_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> TOPAZ_BLOCK = ITEMS.register("topaz_block", () -> new BlockItem(ModBlocks.TOPAZ_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_TOPAZ_ORE = ITEMS.register("deepslate_topaz_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TOPAZ_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> TOURMALINE_ORE = ITEMS.register("tourmaline_ore", () -> new BlockItem(ModBlocks.TOURMALINE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> TOURMALINE_BLOCK = ITEMS.register("tourmaline_block", () -> new BlockItem(ModBlocks.TOURMALINE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_TOURMALINE_ORE = ITEMS.register("deepslate_tourmaline_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TOURMALINE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> TANZANITE_ORE = ITEMS.register("tanzanite_ore", () -> new BlockItem(ModBlocks.NETHER_TANZANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> TANZANITE_BLOCK = ITEMS.register("tanzanite_block", () -> new BlockItem(ModBlocks.TANZANITE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-
-    public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(ModBlocks.RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(ModBlocks.RUBY_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_RUBY_ORE = ITEMS.register("deepslate_ruby_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> NETHER_RUBY_ORE = ITEMS.register("nether_ruby_ore", () -> new BlockItem(ModBlocks.NETHER_RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore", () -> new BlockItem(ModBlocks.SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> SAPPHIRE_BLOCK = ITEMS.register("sapphire_block", () -> new BlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_SAPPHIRE_ORE = ITEMS.register("deepslate_sapphire_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> NETHER_SAPPHIRE_ORE = ITEMS.register("nether_sapphire_ore", () -> new BlockItem(ModBlocks.NETHER_SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> TURQUOISE_ORE = ITEMS.register("turquoise_ore", () -> new BlockItem(ModBlocks.TURQUOISE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> TURQUOISE_BLOCK = ITEMS.register("turquoise_block", () -> new BlockItem(ModBlocks.TURQUOISE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_TURQUOISE_ORE = ITEMS.register("deepslate_turquoise_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TURQUOISE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> MOISSANITE_ORE = ITEMS.register("moissanite_ore", () -> new BlockItem(ModBlocks.MOISSANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> MOISSANITE_BLOCK = ITEMS.register("moissanite_block", () -> new BlockItem(ModBlocks.MOISSANITE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> MOISSANITE_NETHER_ORE = ITEMS.register("moissanite_nether_ore", () -> new BlockItem(ModBlocks.MOISSANITE_NETHER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> DEEPSLATE_MOISSANITE_ORE = ITEMS.register("deepslate_moissanite_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_MOISSANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-
-    public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(ModBlocks.ONYX_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
-    public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(ModBlocks.ONYX_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-
-    // Vanilla
-    public static final RegistryObject<BlockItem> DIAMOND_ORE = VANILLA_ITEMS.register("diamond_ore", () -> new BlockItem(ModBlocks.DIAMOND_ORE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<BlockItem> DIAMOND_BLOCK = VANILLA_ITEMS.register("diamond_block", () -> new BlockItem(ModBlocks.DIAMOND_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<BlockItem> OBSIDIAN = VANILLA_ITEMS.register("obsidian", () -> new BlockItem(ModBlocks.OBSIDIAN.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<BlockItem> ANCIENT_DEBRIS = VANILLA_ITEMS.register("ancient_debris", () -> new BlockItem(ModBlocks.ANCIENT_DEBRIS.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<BlockItem> NETHERITE_BLOCK = VANILLA_ITEMS.register("netherite_block", () -> new BlockItem(ModBlocks.NETHERITE_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-
-    public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(ModBlocks.BRONZE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(ModBlocks.STEEL_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> STERLING_BLOCK = ITEMS.register("sterling_block", () -> new BlockItem(ModBlocks.STERLING_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> GRAPHENE_BLOCK = ITEMS.register("graphene_block", () -> new BlockItem(ModBlocks.GRAPHENE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-
-    public static final RegistryObject<BlockItem> DEEPSLATE_BLOCK = ITEMS.register("deepslate_block", () -> new BlockItem(ModBlocks.DEEPSLATE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
-    public static final RegistryObject<BlockItem> COBBLED_DEEPSLATE = ITEMS.register("cobbled_deepslate", () -> new BlockItem(ModBlocks.COBBLED_DEEPSLATE.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//
+//    //Tin blocks
+//    public static final RegistryObject<BlockItem> TIN_ORE = ITEMS.register("tin_ore", () -> new BlockItem(ModBlocks.TIN_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> RAW_TIN_BLOCK = ITEMS.register("raw_tin_block", () -> new BlockItem(ModBlocks.RAW_TIN_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> TIN_BLOCK = ITEMS.register("tin_block", () -> new BlockItem(ModBlocks.TIN_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_TIN_ORE = ITEMS.register("deepslate_tin_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TIN_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    //Copper blocks
+////    public static final RegistryObject<BlockItem> COPPER_ORE = ITEMS.register("copper_ore", () -> new BlockItem(BlockInit.COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+////    public static final RegistryObject<BlockItem> COPPER_BLOCK = ITEMS.register("copper_block", () -> new BlockItem(BlockInit.COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+////    public static final RegistryObject<BlockItem> RAW_COPPER_BLOCK = ITEMS.register("raw_copper_block", () -> new BlockItem(BlockInit.RAW_COPPER_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
+////    public static final RegistryObject<BlockItem> DEEPSLATE_COPPER_ORE = ITEMS.register("deepslate_copper_ore", () -> new BlockItem(BlockInit.DEEPSLATE_COPPER_ORE.get(), new Item.Properties().tab(MoresTabs.MORES_ORES)));
+//
+//    //Silver blocks
+//    public static final RegistryObject<BlockItem> SILVER_ORE = ITEMS.register("silver_ore", () -> new BlockItem(ModBlocks.SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> RAW_SILVER_BLOCK = ITEMS.register("raw_silver_block", () -> new BlockItem(ModBlocks.RAW_SILVER_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> SILVER_BLOCK = ITEMS.register("silver_block", () -> new BlockItem(ModBlocks.SILVER_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_SILVER_ORE = ITEMS.register("deepslate_silver_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> NETHER_SILVER_ORE = ITEMS.register("nether_silver_ore", () -> new BlockItem(ModBlocks.NETHER_SILVER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    //Cobalt blocks
+//    public static final RegistryObject<BlockItem> COBALT_ORE = ITEMS.register("cobalt_ore", () -> new BlockItem(ModBlocks.COBALT_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> COBALT_BLOCK = ITEMS.register("cobalt_block", () -> new BlockItem(ModBlocks.COBALT_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> RAW_COBALT_BLOCK = ITEMS.register("raw_cobalt_block", () -> new BlockItem(ModBlocks.RAW_COBALT_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_COBALT_ORE = ITEMS.register("deepslate_cobalt_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_COBALT_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    //Other blocks
+//    public static final RegistryObject<BlockItem> AMETHYST_ORE = ITEMS.register("amethyst_ore", () -> new BlockItem(ModBlocks.AMETHYST_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_AMETHYST_ORE = ITEMS.register("deepslate_amethyst_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_AMETHYST_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> AMETHYST_BLOCK = ITEMS.register("amethyst_block", () -> new BlockItem(ModBlocks.AMETHYST_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//
+//    public static final RegistryObject<BlockItem> TOPAZ_ORE = ITEMS.register("topaz_ore", () -> new BlockItem(ModBlocks.TOPAZ_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> TOPAZ_BLOCK = ITEMS.register("topaz_block", () -> new BlockItem(ModBlocks.TOPAZ_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_TOPAZ_ORE = ITEMS.register("deepslate_topaz_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TOPAZ_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> TOURMALINE_ORE = ITEMS.register("tourmaline_ore", () -> new BlockItem(ModBlocks.TOURMALINE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> TOURMALINE_BLOCK = ITEMS.register("tourmaline_block", () -> new BlockItem(ModBlocks.TOURMALINE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_TOURMALINE_ORE = ITEMS.register("deepslate_tourmaline_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TOURMALINE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> TANZANITE_ORE = ITEMS.register("tanzanite_ore", () -> new BlockItem(ModBlocks.NETHER_TANZANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> TANZANITE_BLOCK = ITEMS.register("tanzanite_block", () -> new BlockItem(ModBlocks.TANZANITE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//
+//    public static final RegistryObject<BlockItem> RUBY_ORE = ITEMS.register("ruby_ore", () -> new BlockItem(ModBlocks.RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block", () -> new BlockItem(ModBlocks.RUBY_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_RUBY_ORE = ITEMS.register("deepslate_ruby_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> NETHER_RUBY_ORE = ITEMS.register("nether_ruby_ore", () -> new BlockItem(ModBlocks.NETHER_RUBY_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> SAPPHIRE_ORE = ITEMS.register("sapphire_ore", () -> new BlockItem(ModBlocks.SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> SAPPHIRE_BLOCK = ITEMS.register("sapphire_block", () -> new BlockItem(ModBlocks.SAPPHIRE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_SAPPHIRE_ORE = ITEMS.register("deepslate_sapphire_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> NETHER_SAPPHIRE_ORE = ITEMS.register("nether_sapphire_ore", () -> new BlockItem(ModBlocks.NETHER_SAPPHIRE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> TURQUOISE_ORE = ITEMS.register("turquoise_ore", () -> new BlockItem(ModBlocks.TURQUOISE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> TURQUOISE_BLOCK = ITEMS.register("turquoise_block", () -> new BlockItem(ModBlocks.TURQUOISE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_TURQUOISE_ORE = ITEMS.register("deepslate_turquoise_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_TURQUOISE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> MOISSANITE_ORE = ITEMS.register("moissanite_ore", () -> new BlockItem(ModBlocks.MOISSANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> MOISSANITE_BLOCK = ITEMS.register("moissanite_block", () -> new BlockItem(ModBlocks.MOISSANITE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> MOISSANITE_NETHER_ORE = ITEMS.register("moissanite_nether_ore", () -> new BlockItem(ModBlocks.MOISSANITE_NETHER_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> DEEPSLATE_MOISSANITE_ORE = ITEMS.register("deepslate_moissanite_ore", () -> new BlockItem(ModBlocks.DEEPSLATE_MOISSANITE_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//
+//    public static final RegistryObject<BlockItem> ONYX_ORE = ITEMS.register("onyx_ore", () -> new BlockItem(ModBlocks.ONYX_ORE.get(), new Item.Properties().tab(ModTabs.MORES_ORES)));
+//    public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(ModBlocks.ONYX_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//
+//    // Vanilla
+////    public static final RegistryObject<BlockItem> DIAMOND_ORE = VANILLA_ITEMS.register("diamond_ore", () -> new BlockItem(ModBlocks.DIAMOND_ORE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+////    public static final RegistryObject<BlockItem> DIAMOND_BLOCK = VANILLA_ITEMS.register("diamond_block", () -> new BlockItem(ModBlocks.DIAMOND_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+////    public static final RegistryObject<BlockItem> OBSIDIAN = VANILLA_ITEMS.register("obsidian", () -> new BlockItem(ModBlocks.OBSIDIAN.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+////    public static final RegistryObject<BlockItem> ANCIENT_DEBRIS = VANILLA_ITEMS.register("ancient_debris", () -> new BlockItem(ModBlocks.ANCIENT_DEBRIS.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+////    public static final RegistryObject<BlockItem> NETHERITE_BLOCK = VANILLA_ITEMS.register("netherite_block", () -> new BlockItem(ModBlocks.NETHERITE_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+//
+//    public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(ModBlocks.BRONZE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> STEEL_BLOCK = ITEMS.register("steel_block", () -> new BlockItem(ModBlocks.STEEL_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> STERLING_BLOCK = ITEMS.register("sterling_block", () -> new BlockItem(ModBlocks.STERLING_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> GRAPHENE_BLOCK = ITEMS.register("graphene_block", () -> new BlockItem(ModBlocks.GRAPHENE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//
+//    public static final RegistryObject<BlockItem> DEEPSLATE_BLOCK = ITEMS.register("deepslate_block", () -> new BlockItem(ModBlocks.DEEPSLATE_BLOCK.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
+//    public static final RegistryObject<BlockItem> COBBLED_DEEPSLATE = ITEMS.register("cobbled_deepslate", () -> new BlockItem(ModBlocks.COBBLED_DEEPSLATE.get(), new Item.Properties().tab(ModTabs.MORES_BLOCKS)));
 
     //Alloy Furnace
     //TODO Fix alloy furnace
 //    public static final RegistryObject<BlockItem> ALLOY_FURNACE = ITEMS.register("alloy_furnace", () -> new BlockItem(BlockInit.ALLOY_FURNACE.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
     //Vanilla tools
-    public static final RegistryObject<PickaxeItem> DIAMOND_PICKAXE = VANILLA_ITEMS.register("diamond_pickaxe", () -> new PickaxeItem(ModTiers.DIAMOND, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ShovelItem> DIAMOND_SHOVEL = VANILLA_ITEMS.register("diamond_shovel", () -> new ShovelItem(ModTiers.DIAMOND, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<AxeItem> DIAMOND_AXE = VANILLA_ITEMS.register("diamond_axe", () -> new AxeItem(ModTiers.DIAMOND, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<HoeItem> DIAMOND_HOE = VANILLA_ITEMS.register("diamond_hoe", () -> new HoeItem(ModTiers.DIAMOND, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<PickaxeItem> DIAMOND_PICKAXE = VANILLA_ITEMS.register("diamond_pickaxe", () -> new PickaxeItem(ModTiers.DIAMOND, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<ShovelItem> DIAMOND_SHOVEL = VANILLA_ITEMS.register("diamond_shovel", () -> new ShovelItem(ModTiers.DIAMOND, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<AxeItem> DIAMOND_AXE = VANILLA_ITEMS.register("diamond_axe", () -> new AxeItem(ModTiers.DIAMOND, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<HoeItem> DIAMOND_HOE = VANILLA_ITEMS.register("diamond_hoe", () -> new HoeItem(ModTiers.DIAMOND, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
-    public static final RegistryObject<PickaxeItem> NETHERITE_PICKAXE = VANILLA_ITEMS.register("netherite_pickaxe", () -> new PickaxeItem(ModTiers.NETHERITE, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<ShovelItem> NETHERITE_SHOVEL = VANILLA_ITEMS.register("netherite_shovel", () -> new ShovelItem(ModTiers.NETHERITE, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<AxeItem> NETHERITE_AXE = VANILLA_ITEMS.register("netherite_axe", () -> new AxeItem(ModTiers.NETHERITE, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
-    public static final RegistryObject<HoeItem> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new HoeItem(ModTiers.NETHERITE, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<PickaxeItem> NETHERITE_PICKAXE = VANILLA_ITEMS.register("netherite_pickaxe", () -> new PickaxeItem(ModTiers.NETHERITE, 1, -2.8F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<ShovelItem> NETHERITE_SHOVEL = VANILLA_ITEMS.register("netherite_shovel", () -> new ShovelItem(ModTiers.NETHERITE, 1.5F, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<AxeItem> NETHERITE_AXE = VANILLA_ITEMS.register("netherite_axe", () -> new AxeItem(ModTiers.NETHERITE, 6.0F, -3.2F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
+//    public static final RegistryObject<HoeItem> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new HoeItem(ModTiers.NETHERITE, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
 
     //Shields
@@ -569,4 +570,7 @@ public class ModItems {
 //    public static final RegistryObject<ItemShield> ONYX_SHIELD = ITEMS.register("onyx_shield", () -> new ItemShield(() -> Config.onyxDamageReduction.get(), MoresTags.Items.ONYX, Config.onyxDurability.get(), false));
 //    public static final RegistryObject<ItemShield> GRAPHENE_SHIELD = ITEMS.register("graphene_shield", () -> new ItemShield(() -> Config.grapheneDamageReduction.get(), MoresTags.Items.GRAPHENE, Config.grapheneDurability.get(), true));
 
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 }

@@ -51,10 +51,9 @@ public class Mores
         //Registering mores resources
         ModSounds.register(bus);
 //      ModEntities.register(bus);
-        ModBlocks.BLOCKS.register(bus);
-        ModBlocks.VANILLA_BLOCKS.register(bus);
+        ModBlocks.register(bus);
         ModItems.ITEMS.register(bus);
-        ModItems.VANILLA_ITEMS.register(bus);
+
 //        ContainerInit.CONTAINER_TYPES.register(bus);
 //        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
 
