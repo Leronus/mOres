@@ -80,7 +80,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.0.19'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.0.44'
     //runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
     //runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
     //runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
