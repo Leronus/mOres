@@ -60,7 +60,7 @@ public class ModConfiguredFeatures {
     /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TIN_ORE = FeatureUtils.register("tin_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 12)); /* pSize not below 2/3 */
+            Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 11)); /* pSize not below 2/3 */
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TIN_ORE_SMALL = FeatureUtils.register("tin_ore_small",
             Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 4)); /* pSize not below 2/3 */
 
@@ -70,7 +70,7 @@ public class ModConfiguredFeatures {
             Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 4));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE = FeatureUtils.register("silver_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 11));
+            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 10));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE_SMALL = FeatureUtils.register("silver_ore_small",
             Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 4));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_SILVER_ORE = FeatureUtils.register("nether_silver_ore",

@@ -1,0 +1,8 @@
+Iron upper  -  90VPC (80, 384) - 304 range
+Silver upper- 85VPC (85, 340) - 255 range
+
+Iron middle  - 10VPC (-24, 56) - 80 range
+Silver middle- 10VPC (-20, 65) - 85 range
+
+Iron small  - 10VPC (0, 72)
+Silver small- 10VPC (0, 90)
