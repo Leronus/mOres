@@ -47,24 +47,24 @@ public class ModPlacedFeatures {
     //Topaz Ore
     public static final Holder<PlacedFeature> TOPAZ_ORE_SMALL_PLACED = PlacementUtils.register("topaz_ore_small_placed",
             ModConfiguredFeatures.TOPAZ_ORE_SMALL, ModOrePlacement.commonOrePlacement(9,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(100))));
     public static final Holder<PlacedFeature> TOPAZ_ORE_LARGE_PLACED = PlacementUtils.register("topaz_ore_large_placed",
             ModConfiguredFeatures.TOPAZ_ORE_LARGE, ModOrePlacement.rareOrePlacement(11,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(100))));
     public static final Holder<PlacedFeature> TOPAZ_ORE_BURIED_PLACED = PlacementUtils.register("topaz_ore_buried_placed",
             ModConfiguredFeatures.TOPAZ_ORE_BURIED, ModOrePlacement.commonOrePlacement(6,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(100))));
 
     //Tourmaline Ore
     public static final Holder<PlacedFeature> TOURMALINE_ORE_SMALL_PLACED = PlacementUtils.register("tourmaline_ore_small_placed",
             ModConfiguredFeatures.TOURMALINE_ORE_SMALL, ModOrePlacement.commonOrePlacement(8,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(120))));
     public static final Holder<PlacedFeature> TOURMALINE_ORE_LARGE_PLACED = PlacementUtils.register("tourmaline_ore_large_placed",
             ModConfiguredFeatures.TOURMALINE_ORE_LARGE, ModOrePlacement.rareOrePlacement(10,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(120))));
     public static final Holder<PlacedFeature> TOURMALINE_ORE_BURIED_PLACED = PlacementUtils.register("tourmaline_ore_buried_placed",
             ModConfiguredFeatures.TOURMALINE_ORE_BURIED, ModOrePlacement.commonOrePlacement(5,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(120))));
 
     //Tanzanite
     public static final Holder<PlacedFeature> TANZANITE_ORE_PLACED = PlacementUtils.register("tanzanite_ore_placed",
@@ -73,44 +73,44 @@ public class ModPlacedFeatures {
 
     public static final Holder<PlacedFeature> SAPPHIRE_ORE_SMALL_PLACED = PlacementUtils.register("sapphire_ore_small_placed",
             ModConfiguredFeatures.SAPPHIRE_ORE_SMALL, ModOrePlacement.commonOrePlacement(7,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(0))));
     public static final Holder<PlacedFeature> SAPPHIRE_ORE_LARGE_PLACED = PlacementUtils.register("sapphire_ore_large_placed",
             ModConfiguredFeatures.SAPPHIRE_ORE_LARGE, ModOrePlacement.rareOrePlacement(9,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(0))));
     public static final Holder<PlacedFeature> SAPPHIRE_ORE_BURIED_PLACED = PlacementUtils.register("sapphire_ore_buried_placed",
             ModConfiguredFeatures.SAPPHIRE_ORE_BURIED, ModOrePlacement.commonOrePlacement(4,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(0))));
 
     public static final Holder<PlacedFeature> RUBY_ORE_SMALL_PLACED = PlacementUtils.register("ruby_ore_small_placed",
             ModConfiguredFeatures.RUBY_ORE_SMALL, ModOrePlacement.commonOrePlacement(7,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(10))));
     public static final Holder<PlacedFeature> RUBY_ORE_LARGE_PLACED = PlacementUtils.register("ruby_ore_large_placed",
             ModConfiguredFeatures.RUBY_ORE_LARGE, ModOrePlacement.rareOrePlacement(9,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(10))));
     public static final Holder<PlacedFeature> RUBY_ORE_BURIED_PLACED = PlacementUtils.register("ruby_ore_buried_placed",
             ModConfiguredFeatures.RUBY_ORE_BURIED, ModOrePlacement.commonOrePlacement(4,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(-20))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-100), VerticalAnchor.aboveBottom(10))));
 
 
     public static final Holder<PlacedFeature> TURQUOISE_ORE_SMALL_PLACED = PlacementUtils.register("turquoise_ore_small_placed",
             ModConfiguredFeatures.TURQUOISE_ORE_SMALL, ModOrePlacement.commonOrePlacement(7,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(0))));
     public static final Holder<PlacedFeature> TURQUOISE_ORE_LARGE_PLACED = PlacementUtils.register("turquoise_ore_large_placed",
             ModConfiguredFeatures.TURQUOISE_ORE_LARGE, ModOrePlacement.rareOrePlacement(9,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(0))));
     public static final Holder<PlacedFeature> TURQUOISE_ORE_BURIED_PLACED = PlacementUtils.register("turquoise_ore_buried_placed",
             ModConfiguredFeatures.TURQUOISE_ORE_BURIED, ModOrePlacement.commonOrePlacement(4,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(0))));
 
     public static final Holder<PlacedFeature> MOISSANITE_ORE_SMALL_PLACED = PlacementUtils.register("moissanite_ore_small_placed",
             ModConfiguredFeatures.MOISSANITE_ORE_SMALL, ModOrePlacement.commonOrePlacement(6,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(-10))));
     public static final Holder<PlacedFeature> MOISSANITE_ORE_LARGE_PLACED = PlacementUtils.register("moissanite_ore_large_placed",
             ModConfiguredFeatures.MOISSANITE_ORE_LARGE, ModOrePlacement.rareOrePlacement(4,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(-10))));
     public static final Holder<PlacedFeature> MOISSANITE_ORE_BURIED_PLACED = PlacementUtils.register("moissanite_ore_buried_placed",
             ModConfiguredFeatures.MOISSANITE_ORE_BURIED, ModOrePlacement.commonOrePlacement(3,
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-75), VerticalAnchor.aboveBottom(-45))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(-10))));
 
 
     public static final Holder<PlacedFeature> NETHER_MOISSANITE_ORE_PLACED = PlacementUtils.register("nether_moissanite_ore_placed",
