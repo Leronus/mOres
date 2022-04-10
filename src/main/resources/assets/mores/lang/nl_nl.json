@@ -237,7 +237,7 @@
 
   "block.mores.moissanite_ore" : "Moissanieterts",
   "block.mores.deepslate_moissanite_ore" : "Wrevelsteenmoissanieterts",
-  "block.mores.moissanite_nether_ore": "Nethermoissanieterts",
+  "block.mores.nether_moissanite_ore": "Nethermoissanieterts",
   "block.mores.moissanite_block": "Moissanietblok",
   "item.mores.moissanite_gem": "Moissaniet",
   "item.mores.moissanite_horse_armor": "Moissanieten paardenharnas",
@@ -365,7 +365,7 @@
   "item.mores.tanzanite_gem": "Tanzaniet",
   "item.mores.tanzanite_horse_armor": "Tanzanieten paardenharnas",
   "block.mores.tanzanite_block": "Tanzanietblok",
-  "block.mores.tanzanite_ore": "Tanzanieterts",
+  "block.mores.nether_tanzanite_ore": "Tanzanieterts",
   "block.mores.deepslate_tanzanite_ore" : "Wrevelsteentanzanieterts",
 
   "item.mores.tanzanite_sword": "Tanzanieten zwaard",

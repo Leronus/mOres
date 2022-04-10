@@ -265,7 +265,7 @@
   "item.mores.turquoise_leggings" : "Turquoise Leggings",
   "item.mores.turquoise_boots" : "Turquoise Boots",
 
-  "block.mores.moissanite_nether_ore" : "Moissanite Ore",
+  "block.mores.nether_moissanite_ore" : "Moissanite Ore",
   "block.mores.moissanite_ore" : "Moissanite Ore",
   "block.mores.deepslate_moissanite_ore" : "Deepslate Moissanite Ore",
   "block.mores.moissanite_block" : "Moissanite Block",
@@ -401,7 +401,7 @@
   "item.mores.tanzanite_gem" : "Tanzanite",
   "item.mores.tanzanite_horse_armor" : "Tanzanite Horse Armor",
   "block.mores.tanzanite_block" : "Tanzanite Block",
-  "block.mores.tanzanite_ore" : "Tanzanite Ore",
+  "block.mores.nether_tanzanite_ore" : "Tanzanite Ore",
   "block.mores.deepslate_tanzanite_ore" : "Deepslate Tanzanite Ore",
 
   "item.mores.tanzanite_sword" : "Tanzanite Sword",
