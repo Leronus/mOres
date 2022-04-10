@@ -90,7 +90,7 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TOURMALINE_ORE_BURIED = FeatureUtils.register("tourmaline_ore_buried",
             Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES, 8, 1.0F));
 
-    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> TANZANITE_ORE = FeatureUtils.register("tanzanite_ore",
+    public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_TANZANITE_ORE = FeatureUtils.register("nether_tanzanite_ore",
             Feature.ORE, new OreConfiguration(NETHER_TANZANITE_ORES, 9));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SAPPHIRE_ORE_SMALL = FeatureUtils.register("sapphire_ore_small",
@@ -118,12 +118,12 @@ public class ModConfiguredFeatures {
             Feature.ORE, new OreConfiguration(END_ONYX_ORES, 6));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_SMALL = FeatureUtils.register("moissanite_ore_small",
-            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 4, 0.5F));
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 3, 0.5F));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_LARGE = FeatureUtils.register("moissanite_ore_large",
-            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 12, 0.7F));
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 10, 0.7F));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> MOISSANITE_ORE_BURIED = FeatureUtils.register("moissanite_ore_buried",
-            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 8, 1.0F));
+            Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES, 6, 1.0F));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> NETHER_MOISSANITE_ORE = FeatureUtils.register("nether_moissanite_ore",
-            Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES, 9));
+            Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES, 3));
 }

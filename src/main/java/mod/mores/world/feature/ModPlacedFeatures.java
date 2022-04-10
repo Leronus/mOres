@@ -71,11 +71,6 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(110))));
 
 
-    //Tanzanite
-    public static final Holder<PlacedFeature> TANZANITE_ORE_PLACED = PlacementUtils.register("tanzanite_ore_placed",
-            ModConfiguredFeatures.TANZANITE_ORE, ModOrePlacement.commonOrePlacement(14, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256))));
-
     public static final Holder<PlacedFeature> SAPPHIRE_ORE_SMALL_PLACED = PlacementUtils.register("sapphire_ore_small_placed",
             ModConfiguredFeatures.SAPPHIRE_ORE_SMALL, ModOrePlacement.commonOrePlacement(6,
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-110), VerticalAnchor.aboveBottom(65))));
@@ -123,7 +118,12 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-120), VerticalAnchor.aboveBottom(40))));
 
     public static final Holder<PlacedFeature> NETHER_MOISSANITE_ORE_PLACED = PlacementUtils.register("nether_moissanite_ore_placed",
-            ModConfiguredFeatures.NETHER_MOISSANITE_ORE, ModOrePlacement.commonOrePlacement(9, // VeinsPerChunk
+            ModConfiguredFeatures.NETHER_MOISSANITE_ORE, ModOrePlacement.commonOrePlacement(7, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256))));
+
+    //Tanzanite
+    public static final Holder<PlacedFeature> NETHER_TANZANITE_ORE_PLACED = PlacementUtils.register("nether_tanzanite_ore_placed",
+            ModConfiguredFeatures.NETHER_TANZANITE_ORE, ModOrePlacement.commonOrePlacement(12, // VeinsPerChunk
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256))));
 
 

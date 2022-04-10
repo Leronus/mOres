@@ -47,7 +47,7 @@ public class ModOreGeneration {
             base.add(ModPlacedFeatures.TOURMALINE_ORE_BURIED_PLACED);
         }
         if (Config.spawnTanzanite.get()) {
-            base.add(ModPlacedFeatures.TANZANITE_ORE_PLACED);
+            base.add(ModPlacedFeatures.NETHER_TANZANITE_ORE_PLACED);
         }
         if (Config.spawnRuby.get()) {
             base.add(ModPlacedFeatures.RUBY_ORE_SMALL_PLACED);
