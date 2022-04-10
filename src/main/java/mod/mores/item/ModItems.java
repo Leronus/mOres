@@ -3,6 +3,7 @@ package mod.mores.item;
 import mod.mores.Mores;
 import mod.mores.block.ModBlocks;
 import mod.mores.item.custom.ModArmorItem;
+import mod.mores.item.custom.ModSwordItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -189,33 +190,33 @@ public class ModItems {
     //All swords
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
     //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-    public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new SwordItem(ModTiers.TIN, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(ModTiers.COPPER, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_SWORD = ITEMS.register("tin_sword", () -> new ModSwordItem(ModTiers.TIN, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new ModSwordItem(ModTiers.COPPER, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new SwordItem(ModTiers.SILVER, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_SWORD = ITEMS.register("silver_sword", () -> new ModSwordItem(ModTiers.SILVER, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new SwordItem(ModTiers.BRONZE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new ModSwordItem(ModTiers.BRONZE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new SwordItem(ModTiers.OBSIDIAN, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new SwordItem(ModTiers.COBALT, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(ModTiers.STEEL, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_SWORD = ITEMS.register("sterling_sword", () -> new SwordItem(ModTiers.STERLING, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", () -> new ModSwordItem(ModTiers.OBSIDIAN, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_SWORD = ITEMS.register("cobalt_sword", () -> new ModSwordItem(ModTiers.COBALT, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new ModSwordItem(ModTiers.STEEL, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_SWORD = ITEMS.register("sterling_sword", () -> new ModSwordItem(ModTiers.STERLING, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new SwordItem(ModTiers.AMETHYST, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new SwordItem(ModTiers.EMERALD, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new ModSwordItem(ModTiers.AMETHYST, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new ModSwordItem(ModTiers.EMERALD, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new SwordItem(ModTiers.TOPAZ, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new SwordItem(ModTiers.TOURMALINE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_SWORD = ITEMS.register("tanzanite_sword", () -> new SwordItem(ModTiers.TANZANITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword", () -> new ModSwordItem(ModTiers.TOPAZ, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_SWORD = ITEMS.register("tourmaline_sword", () -> new ModSwordItem(ModTiers.TOURMALINE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_SWORD = ITEMS.register("tanzanite_sword", () -> new ModSwordItem(ModTiers.TANZANITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new SwordItem(ModTiers.RUBY, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new SwordItem(ModTiers.SAPPHIRE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword", () -> new SwordItem(ModTiers.TURQUOISE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", () -> new ModSwordItem(ModTiers.RUBY, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword", () -> new ModSwordItem(ModTiers.SAPPHIRE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_SWORD = ITEMS.register("turquoise_sword", () -> new ModSwordItem(ModTiers.TURQUOISE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new SwordItem(ModTiers.MOISSANITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new SwordItem(ModTiers.ONYX, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_SWORD = ITEMS.register("moissanite_sword", () -> new ModSwordItem(ModTiers.MOISSANITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_SWORD = ITEMS.register("onyx_sword", () -> new ModSwordItem(ModTiers.ONYX, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new SwordItem(ModTiers.GRAPHENE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_SWORD = ITEMS.register("graphene_sword", () -> new ModSwordItem(ModTiers.GRAPHENE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
     //All battleaxes
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
@@ -260,79 +261,79 @@ public class ModItems {
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
     //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
     //TODO Check attack values
-    public static final RegistryObject<Item> WOOD_MACE = ITEMS.register("wood_mace", () -> new SwordItem(Tiers.WOOD, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STONE_MACE = ITEMS.register("stone_mace", () -> new SwordItem(Tiers.STONE, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace", () -> new SwordItem(Tiers.IRON, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> GOLD_MACE = ITEMS.register("gold_mace", () -> new SwordItem(Tiers.GOLD, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new SwordItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new SwordItem(Tiers.NETHERITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> WOOD_MACE = ITEMS.register("wood_mace", () -> new ModSwordItem(Tiers.WOOD, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STONE_MACE = ITEMS.register("stone_mace", () -> new ModSwordItem(Tiers.STONE, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> IRON_MACE = ITEMS.register("iron_mace", () -> new ModSwordItem(Tiers.IRON, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GOLD_MACE = ITEMS.register("gold_mace", () -> new ModSwordItem(Tiers.GOLD, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new ModSwordItem(Tiers.DIAMOND, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new ModSwordItem(Tiers.NETHERITE, 3, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new SwordItem(ModTiers.TIN, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new SwordItem(ModTiers.COPPER, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_MACE = ITEMS.register("tin_mace", () -> new ModSwordItem(ModTiers.TIN, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_MACE = ITEMS.register("copper_mace", () -> new ModSwordItem(ModTiers.COPPER, 2, -2.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_MACE = ITEMS.register("silver_mace", () -> new SwordItem(ModTiers.SILVER, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_MACE = ITEMS.register("silver_mace", () -> new ModSwordItem(ModTiers.SILVER, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_MACE = ITEMS.register("bronze_mace", () -> new SwordItem(ModTiers.BRONZE, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_MACE = ITEMS.register("bronze_mace", () -> new ModSwordItem(ModTiers.BRONZE, 2, -2.1F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new SwordItem(ModTiers.OBSIDIAN, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new SwordItem(ModTiers.COBALT, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new SwordItem(ModTiers.STEEL, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_MACE = ITEMS.register("sterling_mace", () -> new SwordItem(ModTiers.STERLING, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_MACE = ITEMS.register("obsidian_mace", () -> new ModSwordItem(ModTiers.OBSIDIAN, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_MACE = ITEMS.register("cobalt_mace", () -> new ModSwordItem(ModTiers.COBALT, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_MACE = ITEMS.register("steel_mace", () -> new ModSwordItem(ModTiers.STEEL, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_MACE = ITEMS.register("sterling_mace", () -> new ModSwordItem(ModTiers.STERLING, 2, -2.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new SwordItem(ModTiers.AMETHYST, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new SwordItem(ModTiers.EMERALD, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_MACE = ITEMS.register("amethyst_mace", () -> new ModSwordItem(ModTiers.AMETHYST, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_MACE = ITEMS.register("emerald_mace", () -> new ModSwordItem(ModTiers.EMERALD, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new SwordItem(ModTiers.TOPAZ, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new SwordItem(ModTiers.TOURMALINE, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tanzanite_mace", () -> new SwordItem(ModTiers.TANZANITE, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_MACE = ITEMS.register("topaz_mace", () -> new ModSwordItem(ModTiers.TOPAZ, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_MACE = ITEMS.register("tourmaline_mace", () -> new ModSwordItem(ModTiers.TOURMALINE, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_MACE = ITEMS.register("tanzanite_mace", () -> new ModSwordItem(ModTiers.TANZANITE, 2, -2.3F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new SwordItem(ModTiers.RUBY, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new SwordItem(ModTiers.SAPPHIRE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_MACE = ITEMS.register("turquoise_mace", () -> new SwordItem(ModTiers.TURQUOISE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_MACE = ITEMS.register("ruby_mace", () -> new ModSwordItem(ModTiers.RUBY, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_MACE = ITEMS.register("sapphire_mace", () -> new ModSwordItem(ModTiers.SAPPHIRE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_MACE = ITEMS.register("turquoise_mace", () -> new ModSwordItem(ModTiers.TURQUOISE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new SwordItem(ModTiers.MOISSANITE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new SwordItem(ModTiers.ONYX, 2, -2.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_MACE = ITEMS.register("moissanite_mace", () -> new ModSwordItem(ModTiers.MOISSANITE, 2, -2.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_MACE = ITEMS.register("onyx_mace", () -> new ModSwordItem(ModTiers.ONYX, 2, -2.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new SwordItem(ModTiers.GRAPHENE, 2, -2.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_MACE = ITEMS.register("graphene_mace", () -> new ModSwordItem(ModTiers.GRAPHENE, 2, -2.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
 
     //All daggers
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
     //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-    public static final RegistryObject<Item> WOOD_DAGGER = ITEMS.register("wood_dagger", () -> new SwordItem(Tiers.WOOD, 1, -1.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STONE_DAGGER = ITEMS.register("stone_dagger", () -> new SwordItem(Tiers.STONE, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger", () -> new SwordItem(Tiers.IRON, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> GOLD_DAGGER = ITEMS.register("gold_dagger", () -> new SwordItem(Tiers.GOLD, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger", () -> new SwordItem(Tiers.DIAMOND, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> NETHERITE_DAGGER = ITEMS.register("netherite_dagger", () -> new SwordItem(Tiers.NETHERITE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> WOOD_DAGGER = ITEMS.register("wood_dagger", () -> new ModSwordItem(Tiers.WOOD, 1, -1.0F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STONE_DAGGER = ITEMS.register("stone_dagger", () -> new ModSwordItem(Tiers.STONE, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger", () -> new ModSwordItem(Tiers.IRON, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GOLD_DAGGER = ITEMS.register("gold_dagger", () -> new ModSwordItem(Tiers.GOLD, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger", () -> new ModSwordItem(Tiers.DIAMOND, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> NETHERITE_DAGGER = ITEMS.register("netherite_dagger", () -> new ModSwordItem(Tiers.NETHERITE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_DAGGER = ITEMS.register("tin_dagger", () -> new SwordItem(ModTiers.TIN, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_DAGGER = ITEMS.register("copper_dagger", () -> new SwordItem(ModTiers.COPPER, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_DAGGER = ITEMS.register("tin_dagger", () -> new ModSwordItem(ModTiers.TIN, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_DAGGER = ITEMS.register("copper_dagger", () -> new ModSwordItem(ModTiers.COPPER, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_DAGGER = ITEMS.register("silver_dagger", () -> new SwordItem(ModTiers.SILVER, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_DAGGER = ITEMS.register("silver_dagger", () -> new ModSwordItem(ModTiers.SILVER, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_DAGGER = ITEMS.register("bronze_dagger", () -> new SwordItem(ModTiers.BRONZE, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_DAGGER = ITEMS.register("bronze_dagger", () -> new ModSwordItem(ModTiers.BRONZE, 1, -1.2F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new SwordItem(ModTiers.OBSIDIAN, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger", () -> new SwordItem(ModTiers.COBALT, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", () -> new SwordItem(ModTiers.STEEL, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_DAGGER = ITEMS.register("sterling_dagger", () -> new SwordItem(ModTiers.STERLING, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new ModSwordItem(ModTiers.OBSIDIAN, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_DAGGER = ITEMS.register("cobalt_dagger", () -> new ModSwordItem(ModTiers.COBALT, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_DAGGER = ITEMS.register("steel_dagger", () -> new ModSwordItem(ModTiers.STEEL, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_DAGGER = ITEMS.register("sterling_dagger", () -> new ModSwordItem(ModTiers.STERLING, 1, -1.4F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_DAGGER = ITEMS.register("amethyst_dagger", () -> new SwordItem(ModTiers.AMETHYST, 1, -1.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger", () -> new SwordItem(ModTiers.EMERALD, 1, -1.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_DAGGER = ITEMS.register("amethyst_dagger", () -> new ModSwordItem(ModTiers.AMETHYST, 1, -1.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_DAGGER = ITEMS.register("emerald_dagger", () -> new ModSwordItem(ModTiers.EMERALD, 1, -1.5F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_DAGGER = ITEMS.register("topaz_dagger", () -> new SwordItem(ModTiers.TOPAZ, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_DAGGER = ITEMS.register("tourmaline_dagger", () -> new SwordItem(ModTiers.TOURMALINE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_DAGGER = ITEMS.register("tanzanite_dagger", () -> new SwordItem(ModTiers.TANZANITE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_DAGGER = ITEMS.register("topaz_dagger", () -> new ModSwordItem(ModTiers.TOPAZ, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_DAGGER = ITEMS.register("tourmaline_dagger", () -> new ModSwordItem(ModTiers.TOURMALINE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_DAGGER = ITEMS.register("tanzanite_dagger", () -> new ModSwordItem(ModTiers.TANZANITE, 1, -1.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger", () -> new SwordItem(ModTiers.RUBY, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_DAGGER = ITEMS.register("sapphire_dagger", () -> new SwordItem(ModTiers.SAPPHIRE, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_DAGGER = ITEMS.register("turquoise_dagger", () -> new SwordItem(ModTiers.TURQUOISE, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_DAGGER = ITEMS.register("ruby_dagger", () -> new ModSwordItem(ModTiers.RUBY, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_DAGGER = ITEMS.register("sapphire_dagger", () -> new ModSwordItem(ModTiers.SAPPHIRE, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_DAGGER = ITEMS.register("turquoise_dagger", () -> new ModSwordItem(ModTiers.TURQUOISE, 1, -1.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_DAGGER = ITEMS.register("moissanite_dagger", () -> new SwordItem(ModTiers.MOISSANITE, 1, -1.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_DAGGER = ITEMS.register("onyx_dagger", () -> new SwordItem(ModTiers.ONYX, 1, -1.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_DAGGER = ITEMS.register("moissanite_dagger", () -> new ModSwordItem(ModTiers.MOISSANITE, 1, -1.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_DAGGER = ITEMS.register("onyx_dagger", () -> new ModSwordItem(ModTiers.ONYX, 1, -1.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_DAGGER = ITEMS.register("graphene_dagger", () -> new SwordItem(ModTiers.GRAPHENE, 1, -1.9F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_DAGGER = ITEMS.register("graphene_dagger", () -> new ModSwordItem(ModTiers.GRAPHENE, 1, -1.9F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
 
     // All pickaxes
