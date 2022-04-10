@@ -32,7 +32,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
-    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+//    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> COBALT_INGOT = ITEMS.register("cobalt_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
@@ -336,122 +336,122 @@ public class ModItems {
 
 
     // All pickaxes
-    public static final RegistryObject<PickaxeItem> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new PickaxeItem(ModTiers.TIN, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModTiers.COPPER, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TIN_PICKAXE = ITEMS.register("tin_pickaxe", () -> new PickaxeItem(ModTiers.TIN, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(ModTiers.COPPER, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ModTiers.SILVER, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SILVER_PICKAXE = ITEMS.register("silver_pickaxe", () -> new PickaxeItem(ModTiers.SILVER, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new PickaxeItem(ModTiers.BRONZE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new PickaxeItem(ModTiers.BRONZE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new PickaxeItem(ModTiers.OBSIDIAN, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new PickaxeItem(ModTiers.COBALT, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ModTiers.STEEL, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> STERLING_PICKAXE = ITEMS.register("sterling_pickaxe", () -> new PickaxeItem(ModTiers.STERLING, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", () -> new PickaxeItem(ModTiers.OBSIDIAN, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COBALT_PICKAXE = ITEMS.register("cobalt_pickaxe", () -> new PickaxeItem(ModTiers.COBALT, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(ModTiers.STEEL, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STERLING_PICKAXE = ITEMS.register("sterling_pickaxe", () -> new PickaxeItem(ModTiers.STERLING, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new PickaxeItem(ModTiers.AMETHYST, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new PickaxeItem(ModTiers.EMERALD, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new PickaxeItem(ModTiers.AMETHYST, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new PickaxeItem(ModTiers.EMERALD, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new PickaxeItem(ModTiers.TOPAZ, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new PickaxeItem(ModTiers.TOURMALINE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> TANZANITE_PICKAXE = ITEMS.register("tanzanite_pickaxe", () -> new PickaxeItem(ModTiers.TANZANITE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe", () -> new PickaxeItem(ModTiers.TOPAZ, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOURMALINE_PICKAXE = ITEMS.register("tourmaline_pickaxe", () -> new PickaxeItem(ModTiers.TOURMALINE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TANZANITE_PICKAXE = ITEMS.register("tanzanite_pickaxe", () -> new PickaxeItem(ModTiers.TANZANITE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new PickaxeItem(ModTiers.RUBY, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(ModTiers.SAPPHIRE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe", () -> new PickaxeItem(ModTiers.TURQUOISE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () -> new PickaxeItem(ModTiers.RUBY, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe", () -> new PickaxeItem(ModTiers.SAPPHIRE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TURQUOISE_PICKAXE = ITEMS.register("turquoise_pickaxe", () -> new PickaxeItem(ModTiers.TURQUOISE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new PickaxeItem(ModTiers.MOISSANITE, 3, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<PickaxeItem> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new PickaxeItem(ModTiers.ONYX, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> MOISSANITE_PICKAXE = ITEMS.register("moissanite_pickaxe", () -> new PickaxeItem(ModTiers.MOISSANITE, 3, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> ONYX_PICKAXE = ITEMS.register("onyx_pickaxe", () -> new PickaxeItem(ModTiers.ONYX, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<PickaxeItem> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new PickaxeItem(ModTiers.GRAPHENE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> GRAPHENE_PICKAXE = ITEMS.register("graphene_pickaxe", () -> new PickaxeItem(ModTiers.GRAPHENE, 1, -2.8F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
 
     //All axes
     //TODO Checkout items for proper atk dmg and speed values
-    public static final RegistryObject<AxeItem> TIN_AXE = ITEMS.register("tin_axe", () -> new AxeItem(ModTiers.TIN, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(ModTiers.COPPER, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TIN_AXE = ITEMS.register("tin_axe", () -> new AxeItem(ModTiers.TIN, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(ModTiers.COPPER, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> SILVER_AXE = ITEMS.register("silver_axe", () -> new AxeItem(ModTiers.SILVER, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SILVER_AXE = ITEMS.register("silver_axe", () -> new AxeItem(ModTiers.SILVER, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new AxeItem(ModTiers.BRONZE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new AxeItem(ModTiers.BRONZE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new AxeItem(ModTiers.OBSIDIAN, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new AxeItem(ModTiers.COBALT, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(ModTiers.STEEL, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> STERLING_AXE = ITEMS.register("sterling_axe", () -> new AxeItem(ModTiers.STERLING, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", () -> new AxeItem(ModTiers.OBSIDIAN, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COBALT_AXE = ITEMS.register("cobalt_axe", () -> new AxeItem(ModTiers.COBALT, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(ModTiers.STEEL, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STERLING_AXE = ITEMS.register("sterling_axe", () -> new AxeItem(ModTiers.STERLING, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new AxeItem(ModTiers.AMETHYST, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new AxeItem(ModTiers.EMERALD, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new AxeItem(ModTiers.AMETHYST, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new AxeItem(ModTiers.EMERALD, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new AxeItem(ModTiers.TOPAZ, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new AxeItem(ModTiers.TOURMALINE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> TANZANITE_AXE = ITEMS.register("tanzanite_axe", () -> new AxeItem(ModTiers.TANZANITE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOPAZ_AXE = ITEMS.register("topaz_axe", () -> new AxeItem(ModTiers.TOPAZ, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOURMALINE_AXE = ITEMS.register("tourmaline_axe", () -> new AxeItem(ModTiers.TOURMALINE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TANZANITE_AXE = ITEMS.register("tanzanite_axe", () -> new AxeItem(ModTiers.TANZANITE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ModTiers.RUBY, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new AxeItem(ModTiers.SAPPHIRE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> TURQUOISE_AXE = ITEMS.register("turquoise_axe", () -> new AxeItem(ModTiers.TURQUOISE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe", () -> new AxeItem(ModTiers.RUBY, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe", () -> new AxeItem(ModTiers.SAPPHIRE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TURQUOISE_AXE = ITEMS.register("turquoise_axe", () -> new AxeItem(ModTiers.TURQUOISE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new AxeItem(ModTiers.MOISSANITE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<AxeItem> ONYX_AXE = ITEMS.register("onyx_axe", () -> new AxeItem(ModTiers.ONYX, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> MOISSANITE_AXE = ITEMS.register("moissanite_axe", () -> new AxeItem(ModTiers.MOISSANITE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> ONYX_AXE = ITEMS.register("onyx_axe", () -> new AxeItem(ModTiers.ONYX, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<AxeItem> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new AxeItem(ModTiers.GRAPHENE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> GRAPHENE_AXE = ITEMS.register("graphene_axe", () -> new AxeItem(ModTiers.GRAPHENE, 6.0F, -3.2F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
 
     //All shovels
-    public static final RegistryObject<ShovelItem> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ShovelItem(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TIN_SHOVEL = ITEMS.register("tin_shovel", () -> new ShovelItem(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COPPER_SHOVEL = ITEMS.register("copper_shovel", () -> new ShovelItem(ModTiers.TIN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ShovelItem(ModTiers.SILVER, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ShovelItem(ModTiers.BRONZE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SILVER_SHOVEL = ITEMS.register("silver_shovel", () -> new ShovelItem(ModTiers.SILVER, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ShovelItem(ModTiers.BRONZE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ShovelItem(ModTiers.OBSIDIAN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ShovelItem(ModTiers.COBALT, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModTiers.STEEL, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> STERLING_SHOVEL = ITEMS.register("sterling_shovel", () -> new ShovelItem(ModTiers.STERLING, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", () -> new ShovelItem(ModTiers.OBSIDIAN, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COBALT_SHOVEL = ITEMS.register("cobalt_shovel", () -> new ShovelItem(ModTiers.COBALT, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(ModTiers.STEEL, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STERLING_SHOVEL = ITEMS.register("sterling_shovel", () -> new ShovelItem(ModTiers.STERLING, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ShovelItem(ModTiers.AMETHYST, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ShovelItem(ModTiers.EMERALD, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ShovelItem(ModTiers.AMETHYST, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ShovelItem(ModTiers.EMERALD, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ShovelItem(ModTiers.TOPAZ, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ShovelItem(ModTiers.TOURMALINE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ShovelItem(ModTiers.TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel", () -> new ShovelItem(ModTiers.TOPAZ, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOURMALINE_SHOVEL = ITEMS.register("tourmaline_shovel", () -> new ShovelItem(ModTiers.TOURMALINE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ShovelItem(ModTiers.TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(ModTiers.RUBY, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModTiers.SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ShovelItem(ModTiers.TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(ModTiers.RUBY, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SAPPHIItemRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModTiers.SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ShovelItem(ModTiers.TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ShovelItem(ModTiers.MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<ShovelItem> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ShovelItem(ModTiers.ONYX, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ShovelItem(ModTiers.MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> ONYX_SHOVEL = ITEMS.register("onyx_shovel", () -> new ShovelItem(ModTiers.ONYX, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<ShovelItem> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ShovelItem(ModTiers.GRAPHENE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> GRAPHENE_SHOVEL = ITEMS.register("graphene_shovel", () -> new ShovelItem(ModTiers.GRAPHENE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
 
     //All hoes
-    public static final RegistryObject<HoeItem> TIN_HOE = ITEMS.register("tin_hoe", () -> new HoeItem(ModTiers.TIN, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe", () -> new HoeItem(ModTiers.COPPER, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TIN_HOE = ITEMS.register("tin_hoe", () -> new HoeItem(ModTiers.TIN, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COPPER_HOE = ITEMS.register("copper_hoe", () -> new HoeItem(ModTiers.COPPER, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModTiers.SILVER, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new HoeItem(ModTiers.BRONZE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SILVER_HOE = ITEMS.register("silver_hoe", () -> new HoeItem(ModTiers.SILVER, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new HoeItem(ModTiers.BRONZE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new HoeItem(ModTiers.OBSIDIAN, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new HoeItem(ModTiers.COBALT, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModTiers.STEEL, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> STERLING_HOE = ITEMS.register("sterling_hoe", () -> new HoeItem(ModTiers.STERLING, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", () -> new HoeItem(ModTiers.OBSIDIAN, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> COBALT_HOE = ITEMS.register("cobalt_hoe", () -> new HoeItem(ModTiers.COBALT, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(ModTiers.STEEL, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> STERLING_HOE = ITEMS.register("sterling_hoe", () -> new HoeItem(ModTiers.STERLING, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new HoeItem(ModTiers.AMETHYST, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new HoeItem(ModTiers.EMERALD, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new HoeItem(ModTiers.AMETHYST, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new HoeItem(ModTiers.EMERALD, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new HoeItem(ModTiers.TOPAZ, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new HoeItem(ModTiers.TOURMALINE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> TANZANITE_HOE = ITEMS.register("tanzanite_hoe", () -> new HoeItem(ModTiers.TANZANITE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOPAZ_HOE = ITEMS.register("topaz_hoe", () -> new HoeItem(ModTiers.TOPAZ, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TOURMALINE_HOE = ITEMS.register("tourmaline_hoe", () -> new HoeItem(ModTiers.TOURMALINE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TANZANITE_HOE = ITEMS.register("tanzanite_hoe", () -> new HoeItem(ModTiers.TANZANITE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new HoeItem(ModTiers.RUBY, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new HoeItem(ModTiers.SAPPHIRE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new HoeItem(ModTiers.TURQUOISE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe", () -> new HoeItem(ModTiers.RUBY, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe", () -> new HoeItem(ModTiers.SAPPHIRE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new HoeItem(ModTiers.TURQUOISE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new HoeItem(ModTiers.MOISSANITE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<HoeItem> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new HoeItem(ModTiers.ONYX, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new HoeItem(ModTiers.MOISSANITE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> ONItemYX_HOE = ITEMS.register("onyx_hoe", () -> new HoeItem(ModTiers.ONYX, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
-    public static final RegistryObject<HoeItem> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new HoeItem(ModTiers.GRAPHENE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new HoeItem(ModTiers.GRAPHENE, 0, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
 //
 //    //Tin blocks

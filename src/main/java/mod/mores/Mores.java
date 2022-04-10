@@ -52,7 +52,7 @@ public class Mores
         ModSounds.register(bus);
 //      ModEntities.register(bus);
         ModBlocks.register(bus);
-        ModItems.ITEMS.register(bus);
+        ModItems.register(bus);
 
 //        ContainerInit.CONTAINER_TYPES.register(bus);
 //        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
