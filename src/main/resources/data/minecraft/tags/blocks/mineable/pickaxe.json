@@ -34,7 +34,7 @@
     "mores:moissanite_ore",
     "mores:turquoise_ore",
     "mores:onyx_ore",
-    "mores:tanzanite_ore",
+    "mores:nether_tanzanite_ore",
     "mores:nether_silver_ore",
     "mores:nether_tanzanite_ore",
     "mores:nether_moissanite_ore",
@@ -44,8 +44,6 @@
     "mores:deepslate_sapphire_ore",
     "mores:deepslate_ruby_ore",
     "mores:deepslate_moissanite_ore",
-    "mores:deepslate_turquoise_ore",
-    "mores:deepslate_onyx_ore",
-    "mores:deepslate_tanzanite_ore"
+    "mores:deepslate_turquoise_ore"
   ]
 }
