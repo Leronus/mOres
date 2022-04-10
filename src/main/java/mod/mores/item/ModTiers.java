@@ -12,7 +12,7 @@ import net.minecraftforge.common.ForgeTier;
  */
 public class ModTiers {
     public static final ForgeTier TIN = new ForgeTier(0, 100, 4.8F, 1.5F, 6, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(ModItems.TIN_INGOT.get()));
-    public static final ForgeTier COPPER = new ForgeTier(1, 90, 5.0F, 1.5F, 4, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.COPPER_INGOT.get()));
+    public static final ForgeTier COPPER = new ForgeTier(1, 90, 5.0F, 1.5F, 4, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(Items.COPPER_INGOT));
     public static final ForgeTier SILVER = new ForgeTier(2, 230, 5.5F, 2.0F, 16, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.SILVER_INGOT.get()));
     public static final ForgeTier BRONZE = new ForgeTier(2, 270, 5.5F, 2.0F, 7, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.BRONZE_INGOT.get()));
     public static final ForgeTier STERLING = new ForgeTier(2, 290, 6.0F, 2.2F, 14, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.STERLING_INGOT.get()));
