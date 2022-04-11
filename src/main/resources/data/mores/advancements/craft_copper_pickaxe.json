@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Toss A Coin To This Miner",
+    "description": "You have crafted a copper pickaxe",
+    "icon": {
+      "item": "mores:copper_pickaxe"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_tin_ore",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:copper_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

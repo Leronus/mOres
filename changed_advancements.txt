@@ -1,0 +1,3 @@
+Changed advancements ahead of reimplementing alloy furnace: 
+
+obtain_bronze.json -> "parent":"mores:mores/craft_alloy_furnace"

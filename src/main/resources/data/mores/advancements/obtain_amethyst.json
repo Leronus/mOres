@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Fightstar",
+    "description": "You have mined your very first amethyst",
+    "icon": {
+      "item": "mores:amethyst_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_cobalt_ore",
+  "criteria": {
+    "obtain_amethyst_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:amethyst_gem"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 45
+  }
+}

@@ -1,9 +1,20 @@
-v3.0.0
+release v3.0.0
 - Added all ores
 - Added all tools & weapons 
 - Added all armor
 
+Alpha v0.3.1
+- Fixed pickaxes not working
+- Added moissanite to the overworld
+- Fixed names not showing up correctly ingame
+- Readded weapon effects (Ruby, silver, carbonado)
+- Updated oregen to 1.18, still tweaking
+- Updated config to disable ores from spawning
+- Readded all the armor (not any armor effects yet)
+- Removed unused/vanilla items (copper, amethyst now vanilla)
+- Removed 1.16 tier system, now conforms to vanilla tiers
 
+ 
 
 
 

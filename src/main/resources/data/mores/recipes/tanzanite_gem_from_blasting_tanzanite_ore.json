@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "tanzanite_gem",
   "ingredient": {
-    "item": "mores:tanzanite_ore"
+    "item": "mores:nether_tanzanite_ore"
   },
   "result": "mores:tanzanite_gem",
   "experience": 1.0,

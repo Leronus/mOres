@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "The Bat Man",
+    "description": "You crafted a netherite mace",
+    "icon": {
+      "item": "mores:netherite_mace"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:craft_stone_mace",
+  "criteria": {
+    "craft_stone_mace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:netherite_mace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  }
+}

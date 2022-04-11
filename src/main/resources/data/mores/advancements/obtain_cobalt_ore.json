@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Very Balt Of You",
+    "description": "You have mined your very first raw cobalt",
+    "icon": {
+      "item": "mores:cobalt_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_tin_ore",
+  "criteria": {
+    "obtain_cobalt_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:raw_cobalt"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

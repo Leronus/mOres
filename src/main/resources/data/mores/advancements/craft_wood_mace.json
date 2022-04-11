@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "The Knuppel",
+    "description": "You have crafted a wooden mace to knock people out of the park",
+    "icon": {
+      "item": "mores:wood_mace"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:root",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:wood_mace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "group": "tanzanite_gem",
   "ingredient": {
-    "item": "mores:tanzanite_ore"
+    "item": "mores:nether_tanzanite_ore"
   },
   "result": "mores:tanzanite_gem",
   "experience": 0.9,

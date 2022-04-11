@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": "Eten Wat De Pot Schaft",
+    "description": "You have crafted some hollandse pot",
+    "icon": {
+      "item": "mores:rooiekool"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_amethyst",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:rooiekool"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": "The Dark Knight",
+    "description": "You have crafted full onyx armor",
+    "icon": {
+      "item": "mores:onyx_helmet"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_onyx",
+  "criteria": {
+    "obtain_onyx_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mores:onyx_helmet"
+          },
+          {
+            "item": "mores:onyx_chestplate"
+          },
+          {
+            "item": "mores:onyx_leggings"
+          },
+          {
+            "item": "mores:onyx_boots"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400
+  }
+}
