@@ -1,3 +1,7 @@
+v2.3.5
+- Fixed netherite horse armors name displaying wrongly
+- Fixed a tin smelting recipe
+
 v2.3.4
 - Changed two advancement names
 - Added ores to the config so you can disable them if you want to

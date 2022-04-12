@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = 'v2.3.4'
+version = 'v2.3.5'
 group = 'mod.mores'
 archivesBaseName = 'mores'
 
@@ -83,7 +83,7 @@ repositories {
 dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
 
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.23'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
 
     runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
 //    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-417430:3441420") //Caves and Cliffs
@@ -100,7 +100,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v2.3.4",
+                "Specification-Version": "v2.3.5",
                 "Implementation-Title": project.name,
                 "Implementation-Version": "${version}",
                 "Implementation-Vendor" :"ItsInfinite",
