@@ -15,9 +15,9 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> DYING_DUCK_SOUND = registerSoundEvent( "dying_duck_sound");
     public static final RegistryObject<SoundEvent> HURT_DUCK_SOUND = registerSoundEvent( "hurt_duck_sound");
 
-    public static final RegistryObject<SoundEvent> DARUDE_SANDSTORM = registerSoundEvent("darude_sandstorm");
-    public static final RegistryObject<SoundEvent> RICK_ASTLEY = registerSoundEvent("rick_astley");
-    public static final RegistryObject<SoundEvent> CRAZY_FROG = registerSoundEvent("crazy_frog");
+//    public static final RegistryObject<SoundEvent> DARUDE_SANDSTORM = registerSoundEvent("darude_sandstorm");
+//    public static final RegistryObject<SoundEvent> RICK_ASTLEY = registerSoundEvent("rick_astley");
+//    public static final RegistryObject<SoundEvent> CRAZY_FROG = registerSoundEvent("crazy_frog");
     public static final RegistryObject<SoundEvent> IM_BLUE = registerSoundEvent("im_blue");
     public static final RegistryObject<SoundEvent> MY_HORSE = registerSoundEvent("my_horse");
 

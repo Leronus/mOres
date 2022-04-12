@@ -5,6 +5,7 @@ Alpha v3.0.2
 - Added tooltips for all the armor items
 - Readded armor effects (jump boost, regen, strength & slowness etc)
 - Added tooltips for all horse armor items
+- Fixed armor not having textures when equipped
 
 Alpha v3.0.1
 - Readded all overworld ores
