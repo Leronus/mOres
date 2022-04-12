@@ -38,6 +38,7 @@ public class TooltipHandler {
 //        }
         if(e.getItemStack().getItem() instanceof SwordItem) {
             List<Component> tooltip = e.getToolTip();
+            tooltip.add(new TextComponent(""));
             if (e.getItemStack().getItem() instanceof SwordItem sword) {
                 if (sword == Items.NETHERITE_SWORD){
                     Tier netherite = Tiers.NETHERITE;
@@ -71,6 +72,7 @@ public class TooltipHandler {
         }
         if (e.getItemStack().getItem() instanceof ModArmorItem modArmorItem) {
             List<Component> tooltip = e.getToolTip();
+            tooltip.add(new TextComponent(""));
             if (modArmorItem.getMaterial() == ModArmorMaterials.TIN) {
                 //Making the tooltips
                 tooltip.add(new TextComponent("Full Set Bonus: " + ChatFormatting.DARK_GRAY + "Jump Boost"));
@@ -140,6 +142,11 @@ public class TooltipHandler {
                 //Making the tooltips
                 tooltip.add(new TextComponent("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ModArmorMaterials.GRAPHENE.getDurabilityForSlot(modArmorItem.getSlot())));
             }
+        }
+        if (e.getItemStack().getItem() instanceof HorseArmorItem horseArmorItem) {
+            List<Component> tooltip = e.getToolTip();
+            tooltip.add(new TextComponent(""));
+            tooltip.add(new TextComponent("Protection: " + ChatFormatting.GOLD + horseArmorItem.getProtection()));
         }
     }
 }
