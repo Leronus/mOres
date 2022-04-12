@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:chain"
+            "items": [
+              "mores:chain"
+              ]
           }
         ]
       }

@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tanzanite_helmet"
+            "items": [
+              "mores:tanzanite_helmet"
+              ]
           },
           {
-            "item": "mores:tanzanite_chestplate"
+            "items": [
+              "mores:tanzanite_chestplate"
+              ]
           },
           {
-            "item": "mores:tanzanite_leggings"
+            "items": [
+              "mores:tanzanite_leggings"
+            ]
           },
           {
-            "item": "mores:tanzanite_boots"
+            "items": [
+              "mores:tanzanite_boots"
+              ]
           }
         ]
       }
