@@ -1,9 +1,13 @@
-release v3.0.0
-- Added all ores
-- Added all tools & weapons 
-- Added all armor
+Release v3.0.0
+- 
 
-Alpha v0.3.1
+Alpha v3.0.2
+- Added tooltips for all the armor items
+- Readded armor effects (jump boost, regen, strength & slowness etc)
+
+Alpha v3.0.1
+- Readded all overworld ores
+- Readded all tools & weapons 
 - Fixed pickaxes not working
 - Added moissanite to the overworld
 - Fixed names not showing up correctly ingame

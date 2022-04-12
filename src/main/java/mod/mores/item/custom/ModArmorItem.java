@@ -1,6 +1,7 @@
 package mod.mores.item.custom;
 
 import mod.mores.item.ModItems;
+import mod.mores.util.TooltipHandler;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -9,12 +10,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
 public class ModArmorItem extends ArmorItem {
-    private ArmorMaterial armorMaterial;
-    private EquipmentSlot equipmentSlotType;
     public ModArmorItem(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlotType, Properties properties) {
         super(armorMaterial, equipmentSlotType, properties);
-        this.armorMaterial = armorMaterial;
-        this.equipmentSlotType = equipmentSlotType;
     }
 
     @Override
@@ -103,106 +100,5 @@ public class ModArmorItem extends ArmorItem {
                 && BOOTS == (ModItems.TOPAZ_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 1, false, false));
         }
-    }
-//    @Override
-//    public void appendHoverText(ItemStack stack, Level worldIn, List<TextComponent> tooltip, TooltipFlag flagIn){
-//        if (armorMaterial == ArmorMaterial.ARMOR_TIN){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.DARK_GRAY + "Jump Boost"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TIN.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_COBALT){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.GOLD + "Haste"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_COBALT.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_AMETHYST){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.GRAY + "Slow Falling"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_AMETHYST.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_OBSIDIAN){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.DARK_PURPLE + "Strength & Slowness"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_OBSIDIAN.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_EMERALD){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.GREEN + "Luck"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_EMERALD.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_TOURMALINE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.RED + "Regeneration"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TOURMALINE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_TANZANITE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.YELLOW + "Speed"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TANZANITE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_RUBY){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.DARK_RED + "Fire Resistance"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_RUBY.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_SAPPHIRE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.BLUE + "Night Vision"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_SAPPHIRE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_TURQUOISE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.AQUA + "Water Breathing & Dolphins"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TURQUOISE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_COPPER){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_COPPER.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_BRONZE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_BRONZE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_SILVER){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_SILVER.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_STERLING){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_STERLING.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_STEEL){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_STEEL.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_TOPAZ){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Full Set Bonus: " + ChatFormatting.GOLD + "Haste"));
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_TOPAZ.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_MOISSANITE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_MOISSANITE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_ONYX){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_ONYX.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//        else if (armorMaterial == ArmorMaterial.ARMOR_GRAPHENE){
-//            //Making the tooltips
-//            tooltip.add(TextComponent.nullToEmpty("Max Uses: " + ChatFormatting.LIGHT_PURPLE + ArmorMaterial.ARMOR_GRAPHENE.getDurabilityForSlot(equipmentSlotType)));
-//        }
-//    }
-
-
-    @Override
-    public EquipmentSlot getSlot() {
-        return super.getSlot();
-    }
-
-    @Override
-    public ArmorMaterial getMaterial() {
-        return super.getMaterial();
     }
 }
