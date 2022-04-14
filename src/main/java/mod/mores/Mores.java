@@ -1,5 +1,6 @@
 package mod.mores;
 
+import mod.mores.block.entity.ModBlockEntities;
 import mod.mores.config.Config;
 import mod.mores.entity.ModEntityTypes;
 import mod.mores.item.custom.ModSpawnEggItem;
@@ -50,7 +51,7 @@ public class Mores
         //paintings.register
         //fluids.register
 
-//        ModBlockEntities.register(bus);
+        ModBlockEntities.register(bus);
 //        ModMenuTypes.register(bus);
 
         //recipes.register

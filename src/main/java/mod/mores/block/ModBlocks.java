@@ -122,7 +122,7 @@ public class ModBlocks {
 //    public static final RegistryObject<Block> DEEPSLATE_BLOCK = registerBlock("deepslate_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops().lootFrom(ModBlocks.COBBLED_DEEPSLATE)), ModTabs.MORES_BLOCKS);
 //    public static final RegistryObject<Block> COBBLED_DEEPSLATE = registerBlock("cobbled_deepslate", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops()), ModTabs.MORES_BLOCKS);
 
-    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = BLOCKS.register("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())));
+    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(lit_makes_light())), ModTabs.MORES_BLOCKS);
 
     private static ToIntFunction<BlockState> lit_makes_light() {
         return (bar) -> bar.getValue(BlockStateProperties.LIT) ? 13 : 0;
