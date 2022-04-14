@@ -83,6 +83,8 @@ public class Config {
 
     public static BooleanValue thornsOnShields;
 
+    public static ForgeConfigSpec spec;
+
     public Config() {
         cfg = CommentedFileConfig
                 .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + "-common.toml")).sync()
@@ -92,6 +94,7 @@ public class Config {
         shieldConfig();
         entityConfig();
         ForgeConfigSpec spec = builder.build();
+        Config.spec = spec;
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
         spec.setConfig(cfg);
     }

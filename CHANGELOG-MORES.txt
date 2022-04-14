@@ -1,5 +1,6 @@
 Release v3.0.0
-- 
+- Fixed advancements
+
 
 Alpha v3.0.2
 - Added tooltips for all the armor items

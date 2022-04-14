@@ -1,7 +1,6 @@
 package mod.mores.util;
 
 import mod.mores.Mores;
-import mod.mores.config.Config;
 import mod.mores.item.ModArmorMaterials;
 import mod.mores.item.ModItems;
 import mod.mores.item.custom.ModArmorItem;

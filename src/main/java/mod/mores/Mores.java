@@ -1,7 +1,8 @@
 package mod.mores;
 
-import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.config.Config;
+import mod.mores.entity.ModEntityTypes;
+import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.block.ModBlocks;
 import mod.mores.item.ModItems;
 import mod.mores.sound.ModSounds;
@@ -14,7 +15,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
@@ -35,37 +38,38 @@ public class Mores
     public static final String MODID = "mores";
 
     public Mores() {
-        //Create config
-        new Config();
-
         //Get the mod event bus
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register the setup method for modloading
-        bus.addListener(this::setup);
-        // Register the enqueueIMC method for modloading
-        bus.addListener(this::enqueueIMC);
-        // Register the processIMC method for modloading
-        bus.addListener(this::processIMC);
-
         //Registering mores resources
-        ModSounds.register(bus);
-//      ModEntities.register(bus);
-        ModBlocks.register(bus);
         ModItems.register(bus);
+        ModBlocks.register(bus);
 
-//        ContainerInit.CONTAINER_TYPES.register(bus);
-//        TileEntityTypeInit.TILE_ENTITY_TYPES.register(bus);
+        //enchants.register
+        ModSounds.register(bus);
+        //paintings.register
+        //fluids.register
 
-        // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
+//        ModBlockEntities.register(bus);
+//        ModMenuTypes.register(bus);
+
+        //recipes.register
+        //effects.register
+
+        //potions.register
+        ModEntityTypes.register(bus);
+
+        //structures.register
+        //villagers.register
 
         //Register fuels
         MinecraftForge.EVENT_BUS.register(FuelHandler.instance);
 
-        //Start the ore generation
-        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DeepslateOreGeneration::generateOres);
-//        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
+        //Load config
+        new Config();
+
+        // Register ourselves for server and other game events we are interested in
+        MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event)
