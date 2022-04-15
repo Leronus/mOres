@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Eten Wat De Pot Schaft",
-    "description": "You have crafted some hollandse pot",
+    "description": "Craft some hollandse pot",
     "icon": {
       "item": "mores:rooiekool"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:rooiekool"
+            "items": [
+              "mores:rooiekool"
+            ]
           }
         ]
       }

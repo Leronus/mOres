@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "What Is This Kinky Stuff??",
-    "description": "You have crafted some chains",
+    "description": "Craft some chains...",
     "icon": {
       "item": "mores:chain"
     },
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:root",
+  "parent": "mores:acquire_hardware",
   "criteria": {
     "obtain_copper_ore": {
       "trigger": "minecraft:inventory_changed",

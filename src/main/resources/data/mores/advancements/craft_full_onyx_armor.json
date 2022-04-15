@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "The Dark Knight",
-    "description": "You have crafted full onyx armor",
+    "description": "Craft full onyx armor",
     "icon": {
       "item": "mores:onyx_helmet"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_helmet"
+            "items": [
+              "mores:onyx_helmet"
+            ]
           },
           {
-            "item": "mores:onyx_chestplate"
+            "items": [
+              "mores:onyx_chestplate"
+            ]
           },
           {
-            "item": "mores:onyx_leggings"
+            "items": [
+              "mores:onyx_leggings"
+            ]
           },
           {
-            "item": "mores:onyx_boots"
+            "items": [
+              "mores:onyx_boots"
+            ]
           }
         ]
       }

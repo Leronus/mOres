@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Might Come In Handy",
-    "description": "You have crafted a ruby pickaxe",
+    "description": "Craft a ruby pickaxe",
     "icon": {
       "item": "mores:ruby_pickaxe"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_pickaxe"
+            "items": [
+              "mores:ruby_pickaxe"
+            ]
           }
         ]
       }

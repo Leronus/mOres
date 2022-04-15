@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "The Bat Man",
-    "description": "You crafted a netherite mace",
+    "description": "Craft a netherite mace",
     "icon": {
       "item": "mores:netherite_mace"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:netherite_mace"
+            "items": [
+              "mores:netherite_mace"
+            ]
           }
         ]
       }

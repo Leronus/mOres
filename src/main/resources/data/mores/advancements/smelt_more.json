@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "More Metal",
-    "description": "You have smelted your very first mOres metal",
+    "description": "Smelt a mOres metal",
     "icon": {
       "item": "mores:tin_ingot"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_ingot"
+            "items": [
+              "mores:silver_ingot"
+            ]
           }
         ]
       }
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:copper_ingot"
+            "items": [
+              "minecraft:copper_ingot"
+            ]
           }
         ]
       }
@@ -37,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_ingot"
+            "items": [
+              "mores:tin_ingot"
+            ]
           }
         ]
       }
@@ -47,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_ingot"
+            "items": [
+              "mores:cobalt_ingot"
+            ]
           }
         ]
       }

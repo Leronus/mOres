@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Unbreakable",
-    "description": "You have crafted the four obsidian tools",
+    "title": "Unbreakable Four",
+    "description": "Craft four obsidian tools",
     "icon": {
       "item": "mores:obsidian_axe"
     },
@@ -10,23 +10,31 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:story/form_obsidian",
+  "parent": "mores:ice_bucket_challenge",
   "criteria": {
     "obtain_copper_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:obsidian_sword"
+            "items": [
+              "mores:obsidian_sword"
+            ]
           },
           {
-            "item": "mores:obsidian_pickaxe"
+            "items": [
+              "mores:obsidian_pickaxe"
+            ]
           },
           {
-            "item": "mores:obsidian_axe"
+            "items": [
+              "mores:obsidian_axe"
+            ]
           },
           {
-            "item": "mores:obsidian_shovel"
+            "items": [
+              "mores:obsidian_shovel"
+            ]
           }
         ]
       }

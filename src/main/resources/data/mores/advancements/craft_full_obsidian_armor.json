@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Indestructible",
-    "description": "You have crafted full armor out of obsidian",
+    "description": "Craft full obsidian armor",
     "icon": {
       "item": "mores:obsidian_chestplate"
     },
@@ -10,23 +10,31 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_amethyst",
+  "parent": "mores:craft_obsidian_tools",
   "criteria": {
     "craft_full_obsidian_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:obsidian_helmet"
+            "items": [
+              "mores:obsidian_helmet"
+            ]
           },
           {
-            "item": "mores:obsidian_chestplate"
+            "items": [
+              "mores:obsidian_chestplate"
+            ]
           },
           {
-            "item": "mores:obsidian_leggings"
+            "items": [
+              "mores:obsidian_leggings"
+            ]
           },
           {
-            "item": "mores:obsidian_boots"
+            "items": [
+              "mores:obsidian_boots"
+            ]
           }
         ]
       }

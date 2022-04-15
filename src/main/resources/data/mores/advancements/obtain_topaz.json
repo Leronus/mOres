@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "This Ain't No Emerald",
-    "description": "You have mined your very first topaz gem",
+    "description": "Obtain a topaz gem",
     "icon": {
       "item": "mores:topaz_ore"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_amethyst",
+  "parent": "mores:obtain_cobalt_ore",
   "criteria": {
     "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:topaz_gem"
+            "items": [
+              "mores:topaz_gem"
+            ]
           }
         ]
       }

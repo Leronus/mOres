@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Even Worse Than Copper",
-    "description": "You have mined your very first raw tin",
+    "description": "Obtain raw tin",
     "icon": {
       "item": "mores:tin_ore"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:raw_tin"
+            "items": [
+              "mores:raw_tin"
+            ]
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Might As Well Use Stone",
-    "description": "You have crafted a pickaxe slightly better than stone",
+    "description": "Craft a pickaxe slightly better than stone",
     "icon": {
       "item": "mores:tin_pickaxe"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_tin_ore",
+  "parent": "mores:smelt_more",
   "criteria": {
     "craft_tin_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_pickaxe"
+            "items": [
+              "mores:tin_pickaxe"
+            ]
           }
         ]
       }

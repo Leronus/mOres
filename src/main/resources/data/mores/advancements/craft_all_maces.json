@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Amacing",
-    "description": "You have crafted all maces in the game. Absolute warrior god.",
+    "description": "Craft all maces in the game. Whack 'em champ!.",
     "icon": {
       "item": "mores:emerald_mace"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:craft_stone_mace",
+  "parent": "mores:craft_netherite_mace",
   "criteria": {
     "obtain_copper_mace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_mace"
+            "items": [
+              "mores:copper_mace"
+            ]
           }
         ]
       }
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_mace"
+            "items": [
+              "mores:tin_mace"
+            ]
           }
         ]
       }
@@ -37,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:bronze_mace"
+            "items": [
+              "mores:bronze_mace"
+            ]
           }
         ]
       }
@@ -47,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_mace"
+            "items": [
+              "mores:silver_mace"
+            ]
           }
         ]
       }
@@ -57,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_mace"
+            "items": [
+              "mores:cobalt_mace"
+            ]
           }
         ]
       }
@@ -67,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_mace"
+            "items": [
+              "mores:steel_mace"
+            ]
           }
         ]
       }
@@ -77,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sterling_mace"
+            "items": [
+              "mores:sterling_mace"
+            ]
           }
         ]
       }
@@ -87,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:amethyst_mace"
+            "items": [
+              "mores:amethyst_mace"
+            ]
           }
         ]
       }
@@ -97,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:topaz_mace"
+            "items": [
+              "mores:topaz_mace"
+            ]
           }
         ]
       }
@@ -107,7 +125,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tourmaline_mace"
+            "items": [
+              "mores:tourmaline_mace"
+            ]
           }
         ]
       }
@@ -117,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_mace"
+            "items": [
+              "mores:ruby_mace"
+            ]
           }
         ]
       }
@@ -127,7 +149,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sapphire_mace"
+            "items": [
+              "mores:sapphire_mace"
+            ]
           }
         ]
       }
@@ -137,7 +161,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_mace"
+            "items": [
+              "mores:onyx_mace"
+            ]
           }
         ]
       }
@@ -147,7 +173,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tanzanite_mace"
+            "items": [
+              "mores:tanzanite_mace"
+            ]
           }
         ]
       }
@@ -157,7 +185,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:moissanite_mace"
+            "items": [
+              "mores:moissanite_mace"
+            ]
           }
         ]
       }
@@ -167,7 +197,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:turquoise_mace"
+            "items": [
+              "mores:turquoise_mace"
+            ]
           }
         ]
       }
@@ -177,7 +209,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:graphene_mace"
+            "items": [
+              "mores:graphene_mace"
+            ]
           }
         ]
       }
@@ -187,7 +221,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:wood_mace"
+            "items": [
+              "mores:wood_mace"
+            ]
           }
         ]
       }
@@ -197,7 +233,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:stone_mace"
+            "items": [
+              "mores:stone_mace"
+            ]
           }
         ]
       }
@@ -207,7 +245,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:iron_mace"
+            "items": [
+              "mores:iron_mace"
+            ]
           }
         ]
       }
@@ -217,7 +257,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:gold_mace"
+            "items": [
+              "mores:gold_mace"
+            ]
           }
         ]
       }
@@ -227,7 +269,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:diamond_mace"
+            "items": [
+              "mores:diamond_mace"
+            ]
           }
         ]
       }
@@ -237,7 +281,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_mace"
+            "items": [
+              "mores:emerald_mace"
+            ]
           }
         ]
       }
@@ -247,7 +293,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:obsidian_mace"
+            "items": [
+              "mores:obsidian_mace"
+            ]
           }
         ]
       }
@@ -257,7 +305,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:netherite_mace"
+            "items": [
+              "mores:netherite_mace"
+            ]
           }
         ]
       }

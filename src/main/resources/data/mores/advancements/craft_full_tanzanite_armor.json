@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "I Am Speed",
-    "description": "You have crafted full tanzanite armor, with which you gain the speed potion effect",
+    "title": "Purple Flash",
+    "description": "Craft full tanzanite armor",
     "icon": {
-      "item": "mores:tanzanite_chestplate"
+      "item": "mores:tanzanite_boots"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

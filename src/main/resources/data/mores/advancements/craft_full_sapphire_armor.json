@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "I'm Blue",
-    "description": "You have crafted full sapphire armor",
+    "description": "Craft full sapphire armor",
     "icon": {
       "item": "mores:sapphire_helmet"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sapphire_helmet"
+            "items": [
+              "mores:sapphire_helmet"
+            ]
           },
           {
-            "item": "mores:sapphire_chestplate"
+            "items": [
+              "mores:sapphire_chestplate"
+            ]
           },
           {
-            "item": "mores:sapphire_leggings"
+            "items": [
+              "mores:sapphire_leggings"
+            ]
           },
           {
-            "item": "mores:sapphire_boots"
+            "items": [
+              "mores:sapphire_boots"
+            ]
           }
         ]
       }

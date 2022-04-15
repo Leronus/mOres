@@ -1,31 +1,34 @@
 {
   "display": {
-    "title": "Toss A Coin To This Miner",
-    "description": "Craft a copper pickaxe",
     "icon": {
-      "item": "mores:copper_pickaxe"
+      "item": "minecraft:obsidian"
     },
+    "title": "Ice Bucket Challenge",
+    "description": "Obtain a block of obsidian",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
-    "announce_to_chat": true,
+    "announce_to_chat": false,
+    "show_toast": false,
     "hidden": false
   },
-  "parent": "mores:craft_tin_pickaxe",
+  "parent": "mores:obtain_topaz",
   "criteria": {
-    "obtain_copper_ore": {
+    "obsidian": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "mores:copper_pickaxe"
+              "minecraft:obsidian"
             ]
           }
         ]
       }
     }
   },
-  "rewards": {
-    "experience": 5
-  }
+  "requirements": [
+    [
+      "obsidian"
+    ]
+  ]
 }

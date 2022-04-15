@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Shanks Longer Than 20cm",
-    "description": "Are you from Lundon? You sure like fookin shanks don't ye",
+    "description": "You sure like fookin shanks don't ye",
     "icon": {
       "item": "mores:emerald_dagger"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:craft_wood_dagger",
+  "parent": "mores:craft_tourmaline_dagger",
   "criteria": {
     "obtain_copper_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_dagger"
+            "items": [
+              "mores:copper_dagger"
+            ]
           }
         ]
       }
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_dagger"
+            "items": [
+              "mores:tin_dagger"
+            ]
           }
         ]
       }
@@ -37,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:bronze_dagger"
+            "items": [
+              "mores:bronze_dagger"
+            ]
           }
         ]
       }
@@ -47,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_dagger"
+            "items": [
+              "mores:silver_dagger"
+            ]
           }
         ]
       }
@@ -57,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_dagger"
+            "items": [
+              "mores:cobalt_dagger"
+            ]
           }
         ]
       }
@@ -67,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_dagger"
+            "items": [
+              "mores:steel_dagger"
+            ]
           }
         ]
       }
@@ -77,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sterling_dagger"
+            "items": [
+              "mores:sterling_dagger"
+            ]
           }
         ]
       }
@@ -87,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:amethyst_dagger"
+            "items": [
+              "mores:amethyst_dagger"
+            ]
           }
         ]
       }
@@ -97,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:topaz_dagger"
+            "items": [
+              "mores:topaz_dagger"
+            ]
           }
         ]
       }
@@ -107,7 +125,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tourmaline_dagger"
+            "items": [
+              "mores:tourmaline_dagger"
+            ]
           }
         ]
       }
@@ -117,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_dagger"
+            "items": [
+              "mores:ruby_dagger"
+            ]
           }
         ]
       }
@@ -127,7 +149,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sapphire_dagger"
+            "items": [
+              "mores:sapphire_dagger"
+            ]
           }
         ]
       }
@@ -137,7 +161,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_dagger"
+            "items": [
+              "mores:onyx_dagger"
+            ]
           }
         ]
       }
@@ -147,7 +173,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tanzanite_dagger"
+            "items": [
+              "mores:tanzanite_dagger"
+            ]
           }
         ]
       }
@@ -157,7 +185,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:moissanite_dagger"
+            "items": [
+              "mores:moissanite_dagger"
+            ]
           }
         ]
       }
@@ -167,7 +197,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:turquoise_dagger"
+            "items": [
+              "mores:turquoise_dagger"
+            ]
           }
         ]
       }
@@ -177,7 +209,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:graphene_dagger"
+            "items": [
+              "mores:graphene_dagger"
+            ]
           }
         ]
       }
@@ -187,7 +221,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:wood_dagger"
+            "items": [
+              "mores:wood_dagger"
+            ]
           }
         ]
       }
@@ -197,7 +233,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:stone_dagger"
+            "items": [
+              "mores:stone_dagger"
+            ]
           }
         ]
       }
@@ -207,7 +245,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:iron_dagger"
+            "items": [
+              "mores:iron_dagger"
+            ]
           }
         ]
       }
@@ -217,7 +257,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:gold_dagger"
+            "items": [
+              "mores:gold_dagger"
+            ]
           }
         ]
       }
@@ -227,7 +269,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:diamond_dagger"
+            "items": [
+              "mores:diamond_dagger"
+            ]
           }
         ]
       }
@@ -237,7 +281,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_dagger"
+            "items": [
+              "mores:emerald_dagger"
+            ]
           }
         ]
       }
@@ -247,7 +293,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:obsidian_dagger"
+            "items": [
+              "mores:obsidian_dagger"
+            ]
           }
         ]
       }
@@ -257,7 +305,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:netherite_dagger"
+            "items": [
+              "mores:netherite_dagger"
+            ]
           }
         ]
       }

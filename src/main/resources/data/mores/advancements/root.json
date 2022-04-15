@@ -1,9 +1,9 @@
 {
   "display": {
     "title": "mOres",
-    "description": "The heart and story of mOres, made by the one and only Its Infinite",
+    "description": "made by Its Infinite",
     "icon": {
-      "item": "mores:raw_cobalt_block"
+      "item": "mores:alloy_furnace"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:crafting_table"
+            "items": [
+              "mores:raw_tin"
+            ]
           }
         ]
       }

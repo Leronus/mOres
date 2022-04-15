@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Fightstar",
-    "description": "You have mined your very first amethyst",
+    "title": "This Is Definitely Emerald",
+    "description": "Obtain an emerald",
     "icon": {
-      "item": "mores:amethyst_ore"
+      "item": "minecraft:emerald"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -12,18 +12,20 @@
   },
   "parent": "mores:obtain_cobalt_ore",
   "criteria": {
-    "obtain_amethyst_gem": {
+    "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:amethyst_gem"
+            "items": [
+              "minecraft:emerald"
+            ]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 45
+    "experience": 100
   }
 }

@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "This Is The End",
-    "description": "You have mined your very first onyx gem",
+    "description": "Obtain an onyx gem",
     "icon": {
       "item": "mores:onyx_ore"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_sapphire",
+  "parent": "mores:obtain_turquoise",
   "criteria": {
     "obtain_onyx_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_gem"
+            "items": [
+              "mores:onyx_gem"
+            ]
           }
         ]
       }

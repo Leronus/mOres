@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "God Of War",
-    "description": "You have crafted all battleaxes in the game. Absolute warrior god.",
+    "description": "Craft all battleaxes. Absolute warrior god.",
     "icon": {
       "item": "mores:emerald_battleaxe"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:copper_battleaxe"
+            "items": [
+              "mores:copper_battleaxe"
+            ]
           }
         ]
       }
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tin_battleaxe"
+            "items": [
+              "mores:tin_battleaxe"
+            ]
           }
         ]
       }
@@ -37,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:bronze_battleaxe"
+            "items": [
+              "mores:bronze_battleaxe"
+            ]
           }
         ]
       }
@@ -47,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_battleaxe"
+            "items": [
+              "mores:silver_battleaxe"
+            ]
           }
         ]
       }
@@ -57,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:cobalt_battleaxe"
+            "items": [
+              "mores:cobalt_battleaxe"
+            ]
           }
         ]
       }
@@ -67,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_battleaxe"
+            "items": [
+              "mores:steel_battleaxe"
+            ]
           }
         ]
       }
@@ -77,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sterling_battleaxe"
+            "items": [
+              "mores:sterling_battleaxe"
+            ]
           }
         ]
       }
@@ -87,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:amethyst_battleaxe"
+            "items": [
+              "mores:amethyst_battleaxe"
+            ]
           }
         ]
       }
@@ -97,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:topaz_battleaxe"
+            "items": [
+              "mores:topaz_battleaxe"
+            ]
           }
         ]
       }
@@ -107,7 +125,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tourmaline_battleaxe"
+            "items": [
+              "mores:tourmaline_battleaxe"
+            ]
           }
         ]
       }
@@ -117,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_battleaxe"
+            "items": [
+              "mores:ruby_battleaxe"
+            ]
           }
         ]
       }
@@ -127,7 +149,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:sapphire_battleaxe"
+            "items": [
+              "mores:sapphire_battleaxe"
+            ]
           }
         ]
       }
@@ -137,7 +161,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_battleaxe"
+            "items": [
+              "mores:onyx_battleaxe"
+            ]
           }
         ]
       }
@@ -147,7 +173,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tanzanite_battleaxe"
+            "items": [
+              "mores:tanzanite_battleaxe"
+            ]
           }
         ]
       }
@@ -157,7 +185,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:moissanite_battleaxe"
+            "items": [
+              "mores:moissanite_battleaxe"
+            ]
           }
         ]
       }
@@ -167,7 +197,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:turquoise_battleaxe"
+            "items": [
+              "mores:turquoise_battleaxe"
+            ]
           }
         ]
       }
@@ -177,7 +209,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:graphene_battleaxe"
+            "items": [
+              "mores:graphene_battleaxe"
+            ]
           }
         ]
       }
@@ -187,7 +221,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:wood_battleaxe"
+            "items": [
+              "mores:wood_battleaxe"
+            ]
           }
         ]
       }
@@ -197,7 +233,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:stone_battleaxe"
+            "items": [
+              "mores:stone_battleaxe"
+            ]
           }
         ]
       }
@@ -207,7 +245,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:iron_battleaxe"
+            "items": [
+              "mores:iron_battleaxe"
+            ]
           }
         ]
       }
@@ -217,7 +257,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:gold_battleaxe"
+            "items": [
+              "mores:gold_battleaxe"
+            ]
           }
         ]
       }
@@ -227,7 +269,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:diamond_battleaxe"
+            "items": [
+              "mores:diamond_battleaxe"
+            ]
           }
         ]
       }
@@ -237,7 +281,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_battleaxe"
+            "items": [
+              "mores:emerald_battleaxe"
+            ]
           }
         ]
       }
@@ -247,7 +293,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:obsidian_battleaxe"
+            "items": [
+              "mores:obsidian_battleaxe"
+            ]
           }
         ]
       }
@@ -257,7 +305,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:netherite_battleaxe"
+            "items": [
+              "mores:netherite_battleaxe"
+            ]
           }
         ]
       }

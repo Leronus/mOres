@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "The Knuppel",
-    "description": "You have crafted a wooden mace to knock people out of the park",
+    "description": "Craft a wooden mace",
     "icon": {
       "item": "mores:wood_mace"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:root",
+  "parent": "mores:craft_wood_battleaxe",
   "criteria": {
     "obtain_copper_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:wood_mace"
+            "items": [
+              "mores:wood_mace"
+            ]
           }
         ]
       }

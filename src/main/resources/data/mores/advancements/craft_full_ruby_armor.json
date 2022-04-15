@@ -1,32 +1,40 @@
 {
   "display": {
     "title": "Elmo",
-    "description": "You have crafted full ruby armor",
+    "description": "Craft full ruby armor",
     "icon": {
-      "item": "mores:ruby_boots"
+      "item": "mores:ruby_helmet"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_ruby",
+  "parent": "mores:craft_ruby_pickaxe",
   "criteria": {
     "obtain_ruby": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_helmet"
+            "items": [
+              "mores:ruby_helmet"
+            ]
           },
           {
-            "item": "mores:ruby_chestplate"
+            "items": [
+              "mores:ruby_chestplate"
+            ]
           },
           {
-            "item": "mores:ruby_leggings"
+            "items": [
+              "mores:ruby_leggings"
+            ]
           },
           {
-            "item": "mores:ruby_boots"
+            "items": [
+              "mores:ruby_boots"
+            ]
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Quicksilver",
-    "description": "You have mined your very first raw silver",
+    "description": "Obtain raw silver",
     "icon": {
       "item": "mores:silver_ore"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:raw_silver"
+            "items": [
+              "mores:raw_silver"
+            ]
           }
         ]
       }

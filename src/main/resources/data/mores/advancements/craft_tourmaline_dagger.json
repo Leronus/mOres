@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Heartbreaker",
-    "description": "You have crafted a tourmaline dagger",
+    "description": "Craft a tourmaline dagger",
     "icon": {
       "item": "mores:tourmaline_dagger"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_tourmaline",
+  "parent": "mores:craft_wood_dagger",
   "criteria": {
     "obtain_tourmaline": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:tourmaline_dagger"
+            "items": [
+              "mores:tourmaline_dagger"
+            ]
           }
         ]
       }

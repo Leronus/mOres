@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Neanderthaler",
-    "description": "You crafted a stone mace",
+    "description": "Craft a stone mace",
     "icon": {
       "item": "mores:stone_mace"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:stone_mace"
+            "items": [
+              "mores:stone_mace"
+            ]
           }
         ]
       }

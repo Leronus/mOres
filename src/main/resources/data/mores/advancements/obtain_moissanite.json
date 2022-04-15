@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Riches In The Netherlands",
-    "description": "You have mined your very first moissanite gem",
+    "title": "This Is My Swamp",
+    "description": "Obtain a moissanite gem",
     "icon": {
-      "item": "mores:nether_moissanite_ore"
+      "item": "mores:moissanite_ore"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:moissanite_gem"
+            "items": [
+              "mores:moissanite_gem"
+            ]
           }
         ]
       }

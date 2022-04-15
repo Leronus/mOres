@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Feeling Lucky",
-    "description": "You have crafted full emerald armor",
+    "description": "Craft full emerald armor",
     "icon": {
       "item": "mores:emerald_chestplate"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:emerald_helmet"
+            "items": [
+              "mores:emerald_helmet"
+            ]
           },
           {
-            "item": "mores:emerald_chestplate"
+            "items": [
+              "mores:emerald_chestplate"
+            ]
           },
           {
-            "item": "mores:emerald_leggings"
+            "items": [
+              "mores:emerald_leggings"
+            ]
           },
           {
-            "item": "mores:emerald_boots"
+            "items": [
+              "mores:emerald_boots"
+            ]
           }
         ]
       }

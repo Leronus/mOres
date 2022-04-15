@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Poseidon",
-    "description": "You have crafted full turquoise armor, giving you the ability to breathe underwater",
+    "description": "Craft full turquoise armor",
     "icon": {
       "item": "mores:turquoise_chestplate"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:turquoise_helmet"
+            "items": [
+              "mores:turquoise_helmet"
+            ]
           },
           {
-            "item": "mores:turquoise_chestplate"
+            "items": [
+              "mores:turquoise_chestplate"
+            ]
           },
           {
-            "item": "mores:turquoise_leggings"
+            "items": [
+              "mores:turquoise_leggings"
+            ]
           },
           {
-            "item": "mores:turquoise_boots"
+            "items": [
+              "mores:turquoise_boots"
+            ]
           }
         ]
       }

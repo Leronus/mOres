@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Whiter Than Bart",
-    "description": "You have crafted full silver armor",
+    "description": "Craft full silver armor",
     "icon": {
       "item": "mores:silver_chestplate"
     },
@@ -10,23 +10,31 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_silver_ore",
+  "parent": "mores:craft_silver_sword",
   "criteria": {
     "obtain_copper_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_helmet"
+            "items": [
+              "mores:silver_helmet"
+            ]
           },
           {
-            "item": "mores:silver_chestplate"
+            "items": [
+              "mores:silver_chestplate"
+            ]
           },
           {
-            "item": "mores:silver_leggings"
+            "items": [
+              "mores:silver_leggings"
+            ]
           },
           {
-            "item": "mores:silver_boots"
+            "items": [
+              "mores:silver_boots"
+            ]
           }
         ]
       }

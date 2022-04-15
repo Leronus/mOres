@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Shrek Lookin Ass",
-    "description": "You have crafted full armor using moissanite",
+    "description": "Craft full moissanite armor",
     "icon": {
       "item": "mores:moissanite_chestplate"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:moissanite_helmet"
+            "items": [
+              "mores:moissanite_helmet"
+            ]
           },
           {
-            "item": "mores:moissanite_chestplate"
+            "items": [
+              "mores:moissanite_chestplate"
+            ]
           },
           {
-            "item": "mores:moissanite_leggings"
+            "items": [
+              "mores:moissanite_leggings"
+            ]
           },
           {
-            "item": "mores:moissanite_boots"
+            "items": [
+              "mores:moissanite_boots"
+            ]
           }
         ]
       }

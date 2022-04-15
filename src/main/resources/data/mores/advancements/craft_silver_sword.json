@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Death To Werewolves!",
-    "description": "You have crafted your very first silver sword",
+    "description": "Craft a silver sword",
     "icon": {
       "item": "mores:silver_sword"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_sword"
+            "items": [
+              "mores:silver_sword"
+            ]
           }
         ]
       }

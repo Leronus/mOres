@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "The Ultimate SIMP",
-    "description": "You impressed the ladies with your beautiful armor",
+    "title": "The Ultimate Simp",
+    "description": "Impress the ladies with beautiful tourmaline armor",
     "icon": {
       "item": "mores:tourmaline_leggings"
     },
@@ -17,16 +17,24 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:tourmaline_helmet"
+            "items": [
+              "mores:tourmaline_helmet"
+            ]
           },
           {
-            "item": "mores:tourmaline_chestplate"
+            "items": [
+              "mores:tourmaline_chestplate"
+            ]
           },
           {
-            "item": "mores:tourmaline_leggings"
+            "items": [
+              "mores:tourmaline_leggings"
+            ]
           },
           {
-            "item": "mores:tourmaline_boots"
+            "items": [
+              "mores:tourmaline_boots"
+            ]
           }
         ]
       }

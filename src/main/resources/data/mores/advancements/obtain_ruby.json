@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Fiery Diamond",
-    "description": "You have mined your very first ruby gem",
+    "description": "Obtain a ruby gem",
     "icon": {
       "item": "mores:ruby_ore"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_gem"
+            "items": [
+              "mores:ruby_gem"
+            ]
           }
         ]
       }

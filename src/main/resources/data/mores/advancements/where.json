@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "WAT? WAAR ZIJN JULLIE?",
-    "description": "You wandered too far off just like Martijn...",
+    "description": "Wander too far off just like Martijn...",
     "icon": {
       "item": "minecraft:bedrock"
     },
@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:root",
+  "parent": "mores:ice_bucket_challenge",
   "criteria": {
     "below_sea_level": {
       "trigger": "minecraft:location",

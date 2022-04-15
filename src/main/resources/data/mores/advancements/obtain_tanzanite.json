@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Nether More",
-    "description": "You have mined your very first tanzanite ore",
+    "description": "Obtain a tanzanite gem",
     "icon": {
       "item": "mores:tanzanite_gem"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_ruby",
+  "parent": "mores:mine_nether_silver",
   "criteria": {
     "obtain_steel_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:tanzanite_gem"
+            "items": [
+              "mores:tanzanite_gem"
+            ]
           }
         ]
       }

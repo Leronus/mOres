@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Bitcoin",
-    "description": "You have mined your very first turquoise gem",
+    "description": "Obtain a turquoise gem",
     "icon": {
       "item": "mores:turquoise_ore"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_sapphire",
+  "parent": "mores:obtain_moissanite",
   "criteria": {
     "obtain_turquoise_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:turquoise_gem"
+            "items": [
+              "mores:turquoise_gem"
+            ]
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Prison Shank",
-    "description": "You have crafted a make shift dagger with some wood",
+    "description": "Craft a makeshift dagger",
     "icon": {
       "item": "mores:wood_dagger"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:wood_dagger"
+            "items": [
+              "mores:wood_dagger"
+            ]
           }
         ]
       }

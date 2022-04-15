@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "McNugget",
-    "description": "You have mined your very first nether silver ore",
+    "title": "Silver McNugget",
+    "description": "Obtain a silver nugget",
     "icon": {
       "item": "mores:nether_silver_ore"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_silver_ore",
+  "parent": "mores:ice_bucket_challenge",
   "criteria": {
     "obtain_silver_ore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:silver_nugget"
+            "items": [
+              "mores:silver_nugget"
+            ]
           }
         ]
       }

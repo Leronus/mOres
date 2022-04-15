@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Dagger of Doom",
-    "description": "You have crafted one scary dagger, forged from the eternal depths of the End",
+    "description": "Craft one scary dagger, forged in the eternal depths of the End",
     "icon": {
       "item": "mores:onyx_dagger"
     },
@@ -17,7 +17,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:onyx_dagger"
+            "items": [
+              "mores:onyx_dagger"
+            ]
           }
         ]
       }

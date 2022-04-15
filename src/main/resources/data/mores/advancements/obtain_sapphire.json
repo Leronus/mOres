@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Massive Improvement",
-    "description": "You have mined your very first sapphire gem",
+    "description": "Obtain a sapphire gem",
     "icon": {
       "item": "mores:sapphire_ore"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_topaz",
+  "parent": "mores:obtain_ruby",
   "criteria": {
     "obtain_sapphire_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:sapphire_gem"
+            "items": [
+              "mores:sapphire_gem"
+            ]
           }
         ]
       }

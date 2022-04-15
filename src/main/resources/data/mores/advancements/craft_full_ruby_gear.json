@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Firestorm",
-    "description": "You have crafted the fiery tools as well as some fire resistant armor",
+    "description": "Craft the fiery tools as well as some fire resistant armor",
     "icon": {
       "item": "mores:ruby_axe"
     },
@@ -10,14 +10,16 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_ruby",
+  "parent": "mores:craft_ruby_pickaxe",
   "criteria": {
     "craft_ruby_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_sword"
+            "items": [
+              "mores:ruby_sword"
+            ]
           }
         ]
       }
@@ -27,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_pickaxe"
+            "items": [
+              "mores:ruby_pickaxe"
+            ]
           }
         ]
       }
@@ -37,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_axe"
+            "items": [
+              "mores:ruby_axe"
+            ]
           }
         ]
       }
@@ -47,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_shovel"
+            "items": [
+              "mores:ruby_shovel"
+            ]
           }
         ]
       }
@@ -57,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_hoe"
+            "items": [
+              "mores:ruby_hoe"
+            ]
           }
         ]
       }
@@ -67,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_helmet"
+            "items": [
+              "mores:ruby_helmet"
+            ]
           }
         ]
       }
@@ -77,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_chestplate"
+            "items": [
+              "mores:ruby_chestplate"
+            ]
           }
         ]
       }
@@ -87,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_leggings"
+            "items": [
+              "mores:ruby_leggings"
+            ]
           }
         ]
       }
@@ -97,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:ruby_boots"
+            "items": [
+              "mores:ruby_boots"
+            ]
           }
         ]
       }
