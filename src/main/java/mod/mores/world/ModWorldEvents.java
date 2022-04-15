@@ -1,6 +1,7 @@
 package mod.mores.world;
 
 import mod.mores.Mores;
+import mod.mores.world.gen.ModEntityGeneration;
 import mod.mores.world.gen.ModOreGeneration;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,5 +12,6 @@ public class ModWorldEvents {
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
         ModOreGeneration.generateOres(event);
+        ModEntityGeneration.onEntitySpawn(event);
     }
 }

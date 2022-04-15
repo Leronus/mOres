@@ -1,5 +1,7 @@
 Release v3.0.0
-- Fixed advancements
+- Fixed advancements (changed titles, fixed bug where they all show up at once, improved structure)
+- Updated some emerald textures
+- Tweaked oregen (cobalt no longer exposed to air)
 
 
 Alpha v3.0.2
