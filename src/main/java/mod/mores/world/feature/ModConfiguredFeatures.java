@@ -65,9 +65,9 @@ public class ModConfiguredFeatures {
             Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES, 4)); /* pSize not below 2/3 */
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> COBALT_ORE = FeatureUtils.register("cobalt_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 11));
+            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 11, 1.0F));
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> COBALT_ORE_SMALL = FeatureUtils.register("cobalt_ore_small",
-            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 4));
+            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES, 4, 1.0F));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE = FeatureUtils.register("silver_ore",
             Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES, 10));

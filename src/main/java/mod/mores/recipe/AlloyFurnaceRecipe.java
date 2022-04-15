@@ -67,7 +67,7 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
     public static class Type implements RecipeType<AlloyFurnaceRecipe> {
         private Type() { }
         public static final Type INSTANCE = new Type();
-        public static final String ID = "cobalt_blasting";
+        public static final String ID = "alloy_smelting";
     }
 
     public static class Serializer implements RecipeSerializer<AlloyFurnaceRecipe> {
