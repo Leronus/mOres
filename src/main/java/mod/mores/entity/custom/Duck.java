@@ -34,8 +34,8 @@ public class Duck extends Animal {
     public int eggTime = this.random.nextInt(6000) + 6000;
     public boolean isDuckJockey;
 
-    public Duck(EntityType<? extends Duck> p_28236_, Level p_28237_) {
-        super(p_28236_, p_28237_);
+    public Duck(EntityType<? extends Duck> entityType, Level level) {
+        super(entityType, level);
         this.setPathfindingMalus(BlockPathTypes.WATER, 0.0F);
     }
 

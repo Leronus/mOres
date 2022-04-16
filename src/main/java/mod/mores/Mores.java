@@ -51,7 +51,7 @@ public class Mores
         //effects.register
 
         //potions.register
-        ModEntityTypes.register(bus);
+//        ModEntityTypes.register(bus);
 
         //structures.register
         //villagers.register

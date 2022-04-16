@@ -12,11 +12,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.animal.Chicken;
 
-public class DuckRenderer extends MobRenderer<Duck, ChickenModel<Duck>> {
+public class DuckRenderer extends MobRenderer<Duck, DuckModel<Duck>> {
     public static final ResourceLocation TEXTURE = new ResourceLocation(Mores.MODID, "textures/entity/duck/duck_entity_model.png");
 
     public DuckRenderer(EntityRendererProvider.Context manager) {
-        super(manager, new ChickenModel(manager.bakeLayer(ModelLayers.CHICKEN)), 0.3F);
+        super(manager, new DuckModel<>(manager.bakeLayer(new ModelLayerLocation(TEXTURE, "duck"))), 0.3F);
     }
 
     @Override
@@ -24,7 +24,7 @@ public class DuckRenderer extends MobRenderer<Duck, ChickenModel<Duck>> {
         return TEXTURE;
     }
 
-    protected float getBob(Chicken p_114000_, float p_114001_) {
+    protected float getBob(Duck p_114000_, float p_114001_) {
         float f = Mth.lerp(p_114001_, p_114000_.oFlap, p_114000_.flap);
         float f1 = Mth.lerp(p_114001_, p_114000_.oFlapSpeed, p_114000_.flapSpeed);
         return (Mth.sin(f) + 1.0F) * f1;
