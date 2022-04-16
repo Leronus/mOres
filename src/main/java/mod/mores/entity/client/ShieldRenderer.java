@@ -10,10 +10,10 @@
 //import net.minecraftforge.api.distmarker.OnlyIn;
 //
 //@OnlyIn(Dist.CLIENT)
-//public class ShieldTileEntityRenderer extends ItemStackTileEntityRenderer {
+//public class ShieldRenderer extends ItemStackTileEntityRenderer {
 //    private final ShieldModel shieldModel;
 //
-//    public ShieldTileEntityRenderer() {
+//    public ShieldRenderer() {
 //        shieldModel = new ShieldModel();
 //    }
 //
