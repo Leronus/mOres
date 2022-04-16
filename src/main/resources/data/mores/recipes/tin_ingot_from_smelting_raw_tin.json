@@ -5,6 +5,6 @@
     "item": "mores:raw_tin"
   },
   "result": "mores:tin_ingot",
-  "experience": 1.0,
+  "experience": 0.5,
   "cookingtime": 200
 }
