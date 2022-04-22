@@ -12,10 +12,10 @@ public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, Mores.MODID);
 
-//    public static final RegistryObject<BlockEntityType<AlloyFurnaceBlockEntity>> ALLOY_FURNACE =
-//            BLOCK_ENTITIES.register("alloy_furnace", () ->
-//                    BlockEntityType.Builder.of(AlloyFurnaceBlockEntity::new,
-//                            ModBlocks.ALLOY_FURNACE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<AlloyFurnaceBlockEntity>> ALLOY_FURNACE =
+            BLOCK_ENTITIES.register("alloy_furnace", () ->
+                    BlockEntityType.Builder.of(AlloyFurnaceBlockEntity::new,
+                            ModBlocks.ALLOY_FURNACE.get()).build(null));
 
 //    public static final RegistryObject<BlockEntityType<ModSignBlockEntity>> SIGN_BLOCK_ENTITIES =
 //            BLOCK_ENTITIES.register("sign_block_entity", () ->

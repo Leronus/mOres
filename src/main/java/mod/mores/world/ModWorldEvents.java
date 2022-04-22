@@ -12,6 +12,6 @@ public class ModWorldEvents {
     @SubscribeEvent
     public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
         ModOreGeneration.generateOres(event);
-        ModEntityGeneration.onEntitySpawn(event);
+//        ModEntityGeneration.onEntitySpawn(event);
     }
 }

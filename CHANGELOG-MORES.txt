@@ -1,3 +1,8 @@
+Release v3.0.1
+- Balanced xp drops for smelting and mining ores
+- Added container for the alloy furnace (still working to get it 100% working)
+
+
 Release v3.0.0
 - Fixed advancements (changed titles, fixed bug where they all show up at once, improved structure)
 - Updated some emerald textures
