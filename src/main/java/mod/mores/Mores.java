@@ -6,6 +6,7 @@ import mod.mores.entity.ModEntityTypes;
 import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.block.ModBlocks;
 import mod.mores.item.ModItems;
+import mod.mores.recipe.ModRecipes;
 import mod.mores.screen.AlloyFurnaceScreen;
 import mod.mores.screen.ModMenuTypes;
 import mod.mores.sound.ModSounds;
@@ -59,7 +60,7 @@ public class Mores
         ModBlockEntities.register(bus);
         ModMenuTypes.register(bus);
 
-        //recipes.register
+        ModRecipes.register(bus);
         //effects.register
 
         //potions.register
