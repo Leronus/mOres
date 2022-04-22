@@ -3,6 +3,7 @@ package mod.mores.block.entity;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import mod.mores.block.custom.AlloyFurnaceBlock;
 import mod.mores.item.ModItems;
@@ -18,6 +19,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleContainer;
+import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -37,6 +39,7 @@ import net.minecraftforge.items.wrapper.InvWrapper;
 import net.minecraftforge.items.wrapper.RecipeWrapper;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Random;
@@ -362,6 +365,46 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
                 : null;
         return Optional.ofNullable(result);
     }
+
+    public void grantExperience(Player player)
+    {
+        List<Recipe<?>> list = Lists.newArrayList();
+
+        for (Map.Entry<ResourceLocation, Integer> entry : this.recipe2xp_map.entrySet())
+        {
+            player.level.getRecipeManager().byKey(entry.getKey()).ifPresent((p_213993_3_) -> {
+                list.add(p_213993_3_);
+                spawnExpOrbs(player, entry.getValue(), ((AlloyFurnaceRecipe) p_213993_3_).getExperience());
+            });
+        }
+        player.awardRecipes(list);
+        this.recipe2xp_map.clear();
+    }
+
+    private static void spawnExpOrbs(Player player, int pCount, float experience)
+    {
+        if (experience == 0.0F) {
+            pCount = 0;
+        }
+        else if (experience < 1.0F)
+        {
+            int i = (int) Math.floor((float) pCount * experience);
+            if (i < Math.ceil((float) pCount * experience)
+                    && Math.random() < (double) ((float) pCount * experience - (float) i))
+            {
+                ++i;
+            }
+            pCount = i;
+        }
+
+        while (pCount > 0)
+        {
+            int j = ExperienceOrb.getExperienceValue(pCount);
+            pCount -= j;
+            player.level.addFreshEntity(new ExperienceOrb(player.level, player.getX(), player.getY() + 0.5D,
+                    player.getZ() + 0.5D, j));
+        }
+    } // end spawnExpOrbs()
 
     private static void craftItem(AlloyFurnaceBlockEntity entity) {
         entity.itemHandler.extractItem(0, 1, false);

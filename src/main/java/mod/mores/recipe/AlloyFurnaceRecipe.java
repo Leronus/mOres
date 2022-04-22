@@ -147,12 +147,12 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
     public static class Type implements RecipeType<AlloyFurnaceRecipe> {
         private Type() { }
         public static final Type INSTANCE = new Type();
-        public static final String ID = "alloy_smelting";
+        public static final String ID = "alloying";
     }
 
     public static class Serializer implements RecipeSerializer<AlloyFurnaceRecipe> {
         public static final Serializer INSTANCE = new Serializer();
-        public static final ResourceLocation ID = new ResourceLocation(Mores.MODID,"alloy_smelting");
+        public static final ResourceLocation ID = new ResourceLocation(Mores.MODID,"alloying");
 
         @Override
         public AlloyFurnaceRecipe fromJson(ResourceLocation id, JsonObject json) {

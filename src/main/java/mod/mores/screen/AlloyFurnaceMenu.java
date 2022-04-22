@@ -8,14 +8,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
-import org.jetbrains.annotations.Nullable;
 
 public class AlloyFurnaceMenu extends AbstractContainerMenu {
     private final AlloyFurnaceBlockEntity blockEntity;
@@ -38,7 +36,7 @@ public class AlloyFurnaceMenu extends AbstractContainerMenu {
             this.addSlot(new SlotItemHandler(handler, 1, 44, 17));
             this.addSlot(new SlotItemHandler(handler, 2, 66, 17));
             this.addSlot(new SlotItemHandler(handler, 3, 8, 53));
-            this.addSlot(new ModResultSlot(handler, 4, 115, 36));
+            this.addSlot(new ModResultSlot(handler, 4, 115, 36, inv.player, blockEntity));
         });
     }
 
