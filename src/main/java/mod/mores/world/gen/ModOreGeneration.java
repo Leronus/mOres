@@ -68,11 +68,17 @@ public class ModOreGeneration {
             base.add(ModPlacedFeatures.MOISSANITE_ORE_SMALL_PLACED);
             base.add(ModPlacedFeatures.MOISSANITE_ORE_LARGE_PLACED);
             base.add(ModPlacedFeatures.MOISSANITE_ORE_BURIED_PLACED);
+        }
+        if (Config.spawnNetherMoissanite.get()){
             base.add(ModPlacedFeatures.NETHER_MOISSANITE_ORE_PLACED);
         }
-//      base.add(ModPlacedFeatures.NETHER_RUBY_ORE_PLACED);
-//      base.add(ModPlacedFeatures.NETHER_SAPPHIRE_ORE_PLACED);
-        if (Config.spawnOnyx.get()) {
+        if (Config.spawnNetherSapphire.get()){
+            //base.add(ModPlacedFeatures.NETHER_SAPPHIRE_ORE_PLACED);
+        }
+        if (Config.spawnNetherRuby.get()){
+            //base.add(ModPlacedFeatures.NETHER_RUBY_ORE_PLACED);
+        }
+        if (Config.spawnEndOnyx.get()) {
             base.add(ModPlacedFeatures.ONYX_ORE_PLACED);
         }
     }

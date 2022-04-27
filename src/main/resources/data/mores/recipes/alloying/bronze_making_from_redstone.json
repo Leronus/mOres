@@ -10,7 +10,7 @@
     "experience": 2.0,
     "inputs": [
         {
-            "item": "mores:copper_ingot"
+            "item": "minecraft:copper_ingot"
         },
         {
             "item": "mores:tin_ingot"
