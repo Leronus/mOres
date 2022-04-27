@@ -23,6 +23,7 @@ import net.minecraft.world.entity.ExperienceOrb;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Recipe;
@@ -67,14 +68,10 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
 
     private final Map<ResourceLocation, Integer> recipe2xp_map = Maps.newHashMap();
 
-    // used for improved fusion furnaces
-    protected double fuelMultiplier = 1.0;
-    protected int YieldChance = 0;
-    protected int YieldAmount = 0;
-    protected Random generator = new Random();
-
     // configurable.
     private final double BURN_TIME_MODIFIER = 1.875F;
+
+//    protected final ContainerData data;
 
     private final ItemStackHandler itemHandler = new ItemStackHandler(5) {
         @Override
@@ -86,6 +83,30 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
 
     public AlloyFurnaceBlockEntity(BlockPos pWorldPosition, BlockState pBlockState) {
         super(ModBlockEntities.ALLOY_FURNACE.get(), pWorldPosition, pBlockState);
+//        this.data = new ContainerData() {
+//            public int get(int index) {
+//                switch (index) {
+//                    case 0: return AlloyFurnaceBlockEntity.this.smeltTimeLeft;
+//                    case 1: return AlloyFurnaceBlockEntity.this.maxSmeltTime;
+//                    case 2: return AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft;
+//                    case 3: return AlloyFurnaceBlockEntity.this.maxFuelBurnTime;
+//                    default: return 0;
+//                }
+//            }
+//
+//            public void set(int index, int value) {
+//                switch(index) {
+//                    case 0: AlloyFurnaceBlockEntity.this.smeltTimeLeft = value; break;
+//                    case 1: AlloyFurnaceBlockEntity.this.maxSmeltTime = value; break;
+//                    case 2: AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft = value; break;
+//                    case 3: AlloyFurnaceBlockEntity.this.maxFuelBurnTime = value; break;
+//                }
+//            }
+//
+//            public int getCount() {
+//                return 4;
+//            }
+//        };
     }
 
     @Override
