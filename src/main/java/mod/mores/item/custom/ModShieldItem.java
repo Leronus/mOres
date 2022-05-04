@@ -161,27 +161,14 @@ public class ModShieldItem extends ShieldItem {
         }
     }
 
-    /**
-     * Creates a {@link TranslatableComponent} for the when blocking tooltip.
-     *
-     * @return the new text component.
-     */
-    public static Component getBlockingTextComponent() {
-        return new TranslatableComponent("mores.shield_blocking").withStyle(ChatFormatting.GRAY);
-    }
-
-    /**
-     * Creates a {@link TranslatableComponent} for the damage reduction tooltip.
-     *
-     * @param reduction the damage reduction of the shield for which the text
-     *                  component will be used.
-     * @return the new text component.
-     */
-    public static Component getDamageReductionTextComponent(int reduction) {
-        Component damageReductionTextComponent = new TranslatableComponent("mores.shield_damage_reduction" + " ").withStyle(ChatFormatting.DARK_GREEN);
-        Component percentageTextComponent = new TranslatableComponent(reduction + "%").withStyle(ChatFormatting.GOLD);
-        return new TranslatableComponent(damageReductionTextComponent.getString(), percentageTextComponent.getString());
-    }
+//    /**
+//     * Creates a {@link TranslatableComponent} for the when blocking tooltip.
+//     *
+//     * @return the new text component.
+//     */
+//    public static Component getBlockingTextComponent() {
+//        return new TranslatableComponent("mores.shield_blocking").withStyle(ChatFormatting.GRAY);
+//    }
 
 //    @Override
 //    public void appendHoverText(ItemStack stack, @Nullable Level worldIn, List<TextComponent> tooltip, TooltipFlag flagIn) {

@@ -1,4 +1,14 @@
-Release v3.0.1
+Beta v3.0.4
+- Added all custom shields
+- Added damage reduction feature for the shields (can be configured in the config file)
+- Added tooltips to the shields (redesigned)
+- Added alloy furnace custom GUI 
+
+(only recipes not working yet -- coming soon)
+
+
+
+Beta v3.0.3
 - Balanced xp drops for smelting and mining ores
 - Added container for the alloy furnace (still working to get it 100% working)
 
