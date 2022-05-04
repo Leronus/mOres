@@ -1,12 +1,12 @@
 var asmapi = Java.type('net.minecraftforge.coremod.api.ASMAPI');
-var canApply = asmapi.mapMethod('func_92089_a');
+var canEnchant = asmapi.mapMethod('m_6081_');
 
 function initializeCoreMod() {
     return {
         'damage': {
             'target': {
                 'type': 'CLASS',
-                'name': 'net.minecraft.enchantment.ThornsEnchantment'
+                'name': 'net.minecraft.world.item.enchantment.ThornsEnchantment'
             },
             'transformer': function(classNode) {
                 return patchShieldLogic(classNode);
@@ -17,24 +17,25 @@ function initializeCoreMod() {
 
 function patchShieldLogic(classNode) {
     var Opcodes = Java.type('org.objectweb.asm.Opcodes');
-    var VarInsnNode = Java.type('org.objectweb.asm.tree.VarInsnNode');
     var MethodInsnNode = Java.type('org.objectweb.asm.tree.MethodInsnNode');
-    var owner = "mod/mores/util/Hooks";
+    var owner = "com/tome/bettershields/Hooks";
     var methods = classNode.methods;
     var method = null;
     for(var i in methods) {
-        if(methods[i].name == canApply) {
+        if(methods[i].name == canEnchant) {
             method = methods[i];
             break;
         }
     }
+
     target = findFirstInstruction(method, Opcodes.IRETURN).getPrevious().getPrevious();
     method.instructions.remove(target.getNext());
     while(target.getOpcode() != Opcodes.INVOKEVIRTUAL) {
         target = target.getPrevious();
         method.instructions.remove(target.getNext());
     }
-    method.instructions.insert(target, new MethodInsnNode(Opcodes.INVOKESTATIC, owner, 'canThornsApply', '(Lnet/minecraft/item/ItemStack;)Z', false));
+
+    method.instructions.insert(target, new MethodInsnNode(Opcodes.INVOKESTATIC, owner, 'canThornsApply', '(Lnet/minecraft/world/item/ItemStack;)Z', false));
     method.instructions.remove(target);
     return classNode;
 }

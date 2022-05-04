@@ -1,9 +1,11 @@
 package mod.mores.util;
 
 import mod.mores.Mores;
+import mod.mores.config.Config;
 import mod.mores.item.ModArmorMaterials;
 import mod.mores.item.ModItems;
 import mod.mores.item.custom.ModArmorItem;
+import mod.mores.item.custom.ModShieldItem;
 import mod.mores.item.custom.ModSwordItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -21,20 +23,24 @@ public class TooltipHandler {
 
     @SubscribeEvent
     public static void onTooltip(ItemTooltipEvent e) {
-//        if (e.getItemStack().getItem() instanceof ShieldItem) {
-//            Item shield = e.getItemStack().getItem();
-//            List<Component> tooltip = e.getToolTip();
-//            tooltip.add(new TextComponent(""));
-//            if (shield == Items.SHIELD) {
-//                tooltip.add(ItemShield.getDamageReductionTextComponent(Config.defaultDamageReduction.get()));
-//            } else if (shield instanceof ItemShield) {
-//                tooltip.add(ItemShield
-//                        .getDamageReductionTextComponent(((ItemShield) shield).getDamageReduction()));
-//            } else {
-//                tooltip.add(ItemShield.getDamageReductionTextComponent(
-//                        Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get()));
-//            }
-//        }
+        if (e.getItemStack().getItem() instanceof ShieldItem) {
+            Item shield = e.getItemStack().getItem();
+            List<Component> tooltip = e.getToolTip();
+            tooltip.add(new TextComponent(""));
+            tooltip.add(ModShieldItem.getBlockingTextComponent());
+
+            if (shield == Items.SHIELD) {
+                tooltip.add(ModShieldItem.getDamageReductionTextComponent(Config.defaultDamageReduction.get()));
+            } else if (shield instanceof ModShieldItem modShieldItem) {
+                tooltip.add(ModShieldItem
+                        .getDamageReductionTextComponent(((ModShieldItem) shield).getDamageReduction()));
+                tooltip.add(new TextComponent("Max Uses: " + ChatFormatting.LIGHT_PURPLE + modShieldItem.durability));
+            } else {
+                tooltip.add(ModShieldItem.getDamageReductionTextComponent(
+                        Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get()));
+            }
+        }
+
         if(e.getItemStack().getItem() instanceof SwordItem) {
             List<Component> tooltip = e.getToolTip();
             tooltip.add(new TextComponent(""));

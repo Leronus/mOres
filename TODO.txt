@@ -1,1 +1,7 @@
 Created ore variations : diorite, andesite, gravel?
+
+Check tags for repair material shields
+Check shields recipes for banners
+Check if shield damage reduction stuff is working
+Fix oregen config
+Fix alloy furnace recipe and check if working

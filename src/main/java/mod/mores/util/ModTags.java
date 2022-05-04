@@ -23,6 +23,14 @@ public class ModTags {
     }
 
     public static class Items {
+
+        public static final TagKey<Item> TIN_INGOTS = forgeTag("ingots/tin");
+        public static final TagKey<Item> SILVER_INGOTS = forgeTag("ingots/silver");
+        public static final TagKey<Item> BRONZE_INGOTS = forgeTag("ingots/bronze");
+        public static final TagKey<Item> COBALT_INGOTS = forgeTag("ingots/cobalt");
+        public static final TagKey<Item> STEEL_INGOTS = forgeTag("ingots/steel");
+        public static final TagKey<Item> STERLING_INGOTS = forgeTag("ingots/sterling_silver");
+
         public static final TagKey<Item> TOPAZ_GEMS = forgeTag("gems/topaz");
         public static final TagKey<Item> TOURMALINE_GEMS = forgeTag("gems/tourmaline");
         public static final TagKey<Item> RUBY_GEMS = forgeTag("gems/ruby");
@@ -30,7 +38,8 @@ public class ModTags {
         public static final TagKey<Item> TANZANITE_GEMS = forgeTag("gems/tanzanite");
         public static final TagKey<Item> MOISSANITE_GEMS = forgeTag("gems/moissanite");
         public static final TagKey<Item> TURQUOISE_GEMS = forgeTag("gems/turquoise");
-        public static final TagKey<Item> CARBONADO_GEMS = forgeTag("gems/carbonado");
+        public static final TagKey<Item> ONYX_GEMS = forgeTag("gems/onyx");
+        public static final TagKey<Item> GRAPHENE_GEMS = forgeTag("gems/graphene");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(Mores.MODID, name));

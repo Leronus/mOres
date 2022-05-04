@@ -2,13 +2,17 @@ package mod.mores.item;
 
 import mod.mores.Mores;
 import mod.mores.block.ModBlocks;
+import mod.mores.config.Config;
 import mod.mores.item.custom.ModArmorItem;
+import mod.mores.item.custom.ModShieldItem;
 import mod.mores.item.custom.ModSwordItem;
+import mod.mores.util.ModTags;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -549,27 +553,27 @@ public class ModItems {
 //    public static final RegistryObject<HoeItem> NETHERITE_HOE = VANILLA_ITEMS.register("netherite_hoe", () -> new HoeItem(ModTiers.NETHERITE, 0, -3.0F, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT)));
 
 
+    //TODO Check tags
     //Shields
-    //TODO Fix Shields
-//    public static final RegistryObject<ItemShield> TIN_SHIELD = ITEMS.register("tin_shield", () -> new ItemShield(() -> Config.tinDamageReduction.get(), MoresTags.Items.TIN, Config.tinDurability.get(), false));
-//    public static final RegistryObject<ItemShield> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ItemShield(() -> Config.copperDamageReduction.get(), MoresTags.Items.COPPER, Config.copperDurability.get(), false));
-//    public static final RegistryObject<ItemShield> SILVER_SHIELD = ITEMS.register("silver_shield", () -> new ItemShield(() -> Config.silverDamageReduction.get(), MoresTags.Items.SILVER, Config.silverDurability.get(), false));
-//    public static final RegistryObject<ItemShield> BRONZE_SHIELD = ITEMS.register("bronze_shield", () -> new ItemShield(() -> Config.bronzeDamageReduction.get(), MoresTags.Items.BRONZE, Config.bronzeDurability.get(), false));
-//    public static final RegistryObject<ItemShield> COBALT_SHIELD = ITEMS.register("cobalt_shield", () -> new ItemShield(() -> Config.cobaltDamageReduction.get(), MoresTags.Items.COBALT, Config.cobaltDurability.get(), false));
-//    public static final RegistryObject<ItemShield> OBSIDIAN_SHIELD = ITEMS.register("obsidian_shield", () -> new ItemShield(() -> Config.obsidianDamageReduction.get(), Tags.Items.OBSIDIAN, Config.obsidianDurability.get(), false));
-//    public static final RegistryObject<ItemShield> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ItemShield(() -> Config.sterlingDamageReduction.get(), MoresTags.Items.STERLING_SILVER, Config.sterlingDurability.get(), false));
-//    public static final RegistryObject<ItemShield> STEEL_SHIELD = ITEMS.register("steel_shield", () -> new ItemShield(() -> Config.steelDamageReduction.get(), MoresTags.Items.STEEL, Config.steelDurability.get(), false));
-//    public static final RegistryObject<ItemShield> AMETHYST_SHIELD = ITEMS.register("amethyst_shield", () -> new ItemShield(() -> Config.amethystDamageReduction.get(), MoresTags.Items.AMETHYST, Config.amethystDurability.get(), false));
-//    public static final RegistryObject<ItemShield> EMERALD_SHIELD = ITEMS.register("emerald_shield", () -> new ItemShield(() -> Config.emeraldDamageReduction.get(), Tags.Items.GEMS_EMERALD, Config.emeraldDurability.get(), false));
-//    public static final RegistryObject<ItemShield> TOPAZ_SHIELD = ITEMS.register("topaz_shield", () -> new ItemShield(() -> Config.topazDamageReduction.get(), MoresTags.Items.TOPAZ, Config.topazDurability.get(), false));
-//    public static final RegistryObject<ItemShield> TOURMALINE_SHIELD = ITEMS.register("tourmaline_shield", () -> new ItemShield(() -> Config.tourmalineDamageReduction.get(), MoresTags.Items.TOURMALINE, Config.tourmalineDurability.get(), false));
-//    public static final RegistryObject<ItemShield> TANZANITE_SHIELD = ITEMS.register("tanzanite_shield", () -> new ItemShield(() -> Config.tanzaniteDamageReduction.get(), MoresTags.Items.TANZANITE, Config.tanzaniteDurability.get(), false));
-//    public static final RegistryObject<ItemShield> RUBY_SHIELD = ITEMS.register("ruby_shield", () -> new ItemShield(() -> Config.rubyDamageReduction.get(), MoresTags.Items.RUBY, Config.rubyDurability.get(), true));
-//    public static final RegistryObject<ItemShield> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield", () -> new ItemShield(() -> Config.sapphireDamageReduction.get(), MoresTags.Items.SAPPHIRE, Config.sapphireDurability.get(), false));
-//    public static final RegistryObject<ItemShield> TURQUOISE_SHIELD = ITEMS.register("turquoise_shield", () -> new ItemShield(() -> Config.turquoiseDamageReduction.get(), MoresTags.Items.TURQUOISE, Config.turquoiseDurability.get(), false));
-//    public static final RegistryObject<ItemShield> MOISSANITE_SHIELD = ITEMS.register("moissanite_shield", () -> new ItemShield(() -> Config.moissaniteDamageReduction.get(), MoresTags.Items.MOISSANITE, Config.moissaniteDurability.get(), false));
-//    public static final RegistryObject<ItemShield> ONYX_SHIELD = ITEMS.register("onyx_shield", () -> new ItemShield(() -> Config.onyxDamageReduction.get(), MoresTags.Items.ONYX, Config.onyxDurability.get(), false));
-//    public static final RegistryObject<ItemShield> GRAPHENE_SHIELD = ITEMS.register("graphene_shield", () -> new ItemShield(() -> Config.grapheneDamageReduction.get(), MoresTags.Items.GRAPHENE, Config.grapheneDurability.get(), true));
+    public static final RegistryObject<ModShieldItem> TIN_SHIELD = ITEMS.register("tin_shield", () -> new ModShieldItem(Config.tinDamageReduction, "forge:ingots/tin", Config.tinDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ModShieldItem(Config.copperDamageReduction, "forge:ingots/copper", Config.copperDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> SILVER_SHIELD = ITEMS.register("silver_shield", () -> new ModShieldItem(Config.silverDamageReduction, "forge:ingots/silver", Config.silverDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> BRONZE_SHIELD = ITEMS.register("bronze_shield", () -> new ModShieldItem(Config.bronzeDamageReduction, "forge:ingots/bronze", Config.bronzeDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> COBALT_SHIELD = ITEMS.register("cobalt_shield", () -> new ModShieldItem(Config.cobaltDamageReduction, "forge:ingots/cobalt", Config.cobaltDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> OBSIDIAN_SHIELD = ITEMS.register("obsidian_shield", () -> new ModShieldItem(Config.obsidianDamageReduction, "minecraft:obsidian", Config.obsidianDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ModShieldItem(Config.sterlingDamageReduction, "forge:ingots/sterling_silver", Config.sterlingDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> STEEL_SHIELD = ITEMS.register("steel_shield", () -> new ModShieldItem(Config.steelDamageReduction, "forge:ingots/steel", Config.steelDurability.get(), false));
+//    public static final RegistryObject<ModShieldItem> AMETHYST_SHIELD = ITEMS.register("amethyst_shield", () -> new ModShieldItem(Config.amethystDamageReduction, ModTags.Items.AMETHYST, Config.amethystDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> EMERALD_SHIELD = ITEMS.register("emerald_shield", () -> new ModShieldItem(Config.emeraldDamageReduction, "forge:gems/emerald", Config.emeraldDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> TOPAZ_SHIELD = ITEMS.register("topaz_shield", () -> new ModShieldItem(Config.topazDamageReduction, "forge:gems/topaz", Config.topazDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> TOURMALINE_SHIELD = ITEMS.register("tourmaline_shield", () -> new ModShieldItem(Config.tourmalineDamageReduction, "forge:gems/tourmaline", Config.tourmalineDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> TANZANITE_SHIELD = ITEMS.register("tanzanite_shield", () -> new ModShieldItem(Config.tanzaniteDamageReduction, "forge:gems/tanzanite", Config.tanzaniteDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> RUBY_SHIELD = ITEMS.register("ruby_shield", () -> new ModShieldItem(Config.rubyDamageReduction, "forge:gems/ruby", Config.rubyDurability.get(), true));
+    public static final RegistryObject<ModShieldItem> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield", () -> new ModShieldItem(Config.sapphireDamageReduction, "forge:gems/sapphire", Config.sapphireDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> TURQUOISE_SHIELD = ITEMS.register("turquoise_shield", () -> new ModShieldItem(Config.turquoiseDamageReduction, "forge:gems/turquoise", Config.turquoiseDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> MOISSANITE_SHIELD = ITEMS.register("moissanite_shield", () -> new ModShieldItem(Config.moissaniteDamageReduction, "forge:gems/moissanite", Config.moissaniteDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> ONYX_SHIELD = ITEMS.register("onyx_shield", () -> new ModShieldItem(Config.onyxDamageReduction, "forge:gems/onyx", Config.onyxDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> GRAPHENE_SHIELD = ITEMS.register("graphene_shield", () -> new ModShieldItem(Config.grapheneDamageReduction, "forge:gems/graphene", Config.grapheneDurability.get(), true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
