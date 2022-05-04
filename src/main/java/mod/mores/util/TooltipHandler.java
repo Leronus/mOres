@@ -31,15 +31,14 @@ public class TooltipHandler {
 //            tooltip.add(ModShieldItem.getBlockingTextComponent());
 
             if (shield == Items.SHIELD) {
-                tooltip.add(new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY));
-                tooltip.add(new TextComponent("" + Config.defaultDamageReduction.get()).withStyle(ChatFormatting.GOLD));
+                tooltip.add(new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
+                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction + "%"));
             } else if (shield instanceof ModShieldItem modShieldItem) {
-                Component fullText = new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
-                        .append(" " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%");
-                tooltip.add(fullText);
+                tooltip.add(new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
+                        .append(": " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%"));
                 tooltip.add(new TextComponent(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + modShieldItem.durability));
             } else {
-                tooltip.add(new TextComponent("" + (Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get())));
+                tooltip.add(new TextComponent(": " + ChatFormatting.GOLD + (Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get()) + "%"));
             }
         }
 

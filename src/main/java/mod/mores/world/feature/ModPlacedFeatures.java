@@ -11,21 +11,21 @@ public class ModPlacedFeatures {
     public static int tinUpperTop = Config.overworldTinUpperTop.get();
     public static int silverUpperTop;
     public static int cobaltUpperTop;
-    public static int tinUpperBottom;
+    public static int tinUpperBottom = Config.overworldTinUpperBottom.get();
     public static int silverUpperBottom;
     public static int cobaltUpperBottom;
 
-    public static int tinMiddleTop;
+    public static int tinMiddleTop = Config.overworldTinMiddleTop.get();
     public static int silverMiddleTop;
     public static int cobaltMiddleTop;
-    public static int tinMiddleBottom;
+    public static int tinMiddleBottom = Config.overworldTinMiddleBottom.get();
     public static int silverMiddleBottom;
     public static int cobaltMiddleBottom;
 
-    public static int tinSmallTop;
+    public static int tinSmallTop = Config.overworldTinSmallTop.get();
     public static int silverSmallTop;
     public static int cobaltSmallTop;
-    public static int tinSmallBottom;
+    public static int tinSmallBottom = Config.overworldTinSmallBottom.get();
     public static int silverSmallBottom;
     public static int cobaltSmallBottom;
 
@@ -84,17 +84,17 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.TIN_ORE, ModOrePlacement.commonOrePlacement
                     (95, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(90), VerticalAnchor.aboveBottom(400))));
+                            (VerticalAnchor.aboveBottom(tinUpperBottom), VerticalAnchor.aboveBottom(tinUpperTop))));
     public static final Holder<PlacedFeature> TIN_ORE_MIDDLE_PLACED = PlacementUtils.register("tin_ore_middle_placed",
             ModConfiguredFeatures.TIN_ORE, ModOrePlacement.commonOrePlacement
                     (12, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(80))));
+                            (VerticalAnchor.aboveBottom(tinMiddleBottom), VerticalAnchor.aboveBottom(tinMiddleTop))));
     public static final Holder<PlacedFeature> TIN_ORE_SMALL_PLACED = PlacementUtils.register("tin_ore_small_placed",
             ModConfiguredFeatures.TIN_ORE_SMALL, ModOrePlacement.commonOrePlacement
                     (8, // VeinsPerChunk
                     HeightRangePlacement.uniform
-                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(100))));
+                            (VerticalAnchor.absolute(tinSmallBottom), VerticalAnchor.absolute(tinSmallTop))));
 
 
     //Silver Ore
