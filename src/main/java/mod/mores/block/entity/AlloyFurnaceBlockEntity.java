@@ -60,8 +60,8 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     private static final String FUEL_BURN_TIME_LEFT_TAG = "fuelBurnTimeLeft";
     private static final String MAX_FUEL_BURN_TIME_TAG = "maxFuelBurnTime";
 
-    public short smeltTimeLeft = -1;
-    public short maxSmeltTime = -1;
+    public int smeltTimeLeft = -1;
+    public int maxSmeltTime = -1;
     public int fuelBurnTimeLeft = -1;
     public int maxFuelBurnTime = -1;
     private boolean lastBurning = false;
@@ -71,7 +71,7 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     // configurable.
     private final double BURN_TIME_MODIFIER = 1.875F;
 
-//    protected final ContainerData data;
+    protected final ContainerData data;
 
     private final ItemStackHandler itemHandler = new ItemStackHandler(5) {
         @Override
@@ -83,30 +83,30 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
 
     public AlloyFurnaceBlockEntity(BlockPos pWorldPosition, BlockState pBlockState) {
         super(ModBlockEntities.ALLOY_FURNACE.get(), pWorldPosition, pBlockState);
-//        this.data = new ContainerData() {
-//            public int get(int index) {
-//                switch (index) {
-//                    case 0: return AlloyFurnaceBlockEntity.this.smeltTimeLeft;
-//                    case 1: return AlloyFurnaceBlockEntity.this.maxSmeltTime;
-//                    case 2: return AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft;
-//                    case 3: return AlloyFurnaceBlockEntity.this.maxFuelBurnTime;
-//                    default: return 0;
-//                }
-//            }
-//
-//            public void set(int index, int value) {
-//                switch(index) {
-//                    case 0: AlloyFurnaceBlockEntity.this.smeltTimeLeft = value; break;
-//                    case 1: AlloyFurnaceBlockEntity.this.maxSmeltTime = value; break;
-//                    case 2: AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft = value; break;
-//                    case 3: AlloyFurnaceBlockEntity.this.maxFuelBurnTime = value; break;
-//                }
-//            }
-//
-//            public int getCount() {
-//                return 4;
-//            }
-//        };
+        this.data = new ContainerData() {
+            public int get(int index) {
+                switch (index) {
+                    case 0: return AlloyFurnaceBlockEntity.this.smeltTimeLeft;
+                    case 1: return AlloyFurnaceBlockEntity.this.maxSmeltTime;
+                    case 2: return AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft;
+                    case 3: return AlloyFurnaceBlockEntity.this.maxFuelBurnTime;
+                    default: return 0;
+                }
+            }
+
+            public void set(int index, int value) {
+                switch(index) {
+                    case 0: AlloyFurnaceBlockEntity.this.smeltTimeLeft = value; break;
+                    case 1: AlloyFurnaceBlockEntity.this.maxSmeltTime = value; break;
+                    case 2: AlloyFurnaceBlockEntity.this.fuelBurnTimeLeft = value; break;
+                    case 3: AlloyFurnaceBlockEntity.this.maxFuelBurnTime = value; break;
+                }
+            }
+
+            public int getCount() {
+                return 4;
+            }
+        };
     }
 
     @Override
@@ -117,7 +117,7 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     @Nullable
     @Override
     public AbstractContainerMenu createMenu(int pContainerId, Inventory pInventory, Player pPlayer) {
-        return new AlloyFurnaceMenu(pContainerId, pInventory, this);
+        return new AlloyFurnaceMenu(pContainerId, pInventory, this, this.data);
     }
 
     @Nonnull
@@ -145,8 +145,8 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     @Override
     protected void saveAdditional(@NotNull CompoundTag tag) {
         tag.put(INVENTORY_TAG, itemHandler.serializeNBT());
-        tag.putShort(SMELT_TIME_LEFT_TAG, this.smeltTimeLeft);
-        tag.putShort(MAX_SMELT_TIME_TAG, this.maxSmeltTime);
+        tag.putInt(SMELT_TIME_LEFT_TAG, this.smeltTimeLeft);
+        tag.putInt(MAX_SMELT_TIME_TAG, this.maxSmeltTime);
         tag.putInt(FUEL_BURN_TIME_LEFT_TAG, this.fuelBurnTimeLeft);
         tag.putInt(MAX_FUEL_BURN_TIME_TAG, this.maxFuelBurnTime);
 
@@ -165,8 +165,8 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     @Override
     public void load(CompoundTag nbt) {
         super.load(nbt);
-        this.smeltTimeLeft = nbt.getShort(SMELT_TIME_LEFT_TAG);
-        this.maxSmeltTime = nbt.getShort(MAX_SMELT_TIME_TAG);
+        this.smeltTimeLeft = nbt.getInt(SMELT_TIME_LEFT_TAG);
+        this.maxSmeltTime = nbt.getInt(MAX_SMELT_TIME_TAG);
         this.fuelBurnTimeLeft = nbt.getInt(FUEL_BURN_TIME_LEFT_TAG);
         this.maxFuelBurnTime = nbt.getInt(MAX_FUEL_BURN_TIME_TAG);
 

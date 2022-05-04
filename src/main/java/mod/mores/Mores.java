@@ -52,22 +52,22 @@ public class Mores
         ModItems.register(bus);
         ModBlocks.register(bus);
 
-        //enchants.register
+//        ModEnchants.register(bus);
         ModSounds.register(bus);
-        //paintings.register
-        //fluids.register
+//        ModPaintings.register(bus);
+//        ModFluids.register(bus);
 
         ModBlockEntities.register(bus);
         ModMenuTypes.register(bus);
 
         ModRecipes.register(bus);
-        //effects.register
+//        ModEffects.register(bus);
 
-        //potions.register
+//        ModPotions.register(bus);
 //        ModEntityTypes.register(bus);
 
-        //structures.register
-        //villagers.register
+//        ModStructures.register(bus);
+//        ModVillagers.register(bus);
 
         bus.addListener(this::setup);
         bus.addListener(this::clientSetup);
@@ -110,6 +110,7 @@ public class Mores
 //                    ModItems.RUBY.get(), ModPotions.FREEZE_POTION.get()));
 //        });
     }
+
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {

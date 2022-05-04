@@ -4,11 +4,10 @@ import mod.mores.block.ModBlocks;
 import mod.mores.block.entity.AlloyFurnaceBlockEntity;
 import mod.mores.screen.slot.ModResultSlot;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.world.Containers;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.inventory.ContainerLevelAccess;
-import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -16,17 +15,19 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
 public class AlloyFurnaceMenu extends AbstractContainerMenu {
-    private final AlloyFurnaceBlockEntity blockEntity;
+    public final AlloyFurnaceBlockEntity blockEntity;
     private final Level level;
+    private final ContainerData data;
 
     protected AlloyFurnaceMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
-        this(pContainerId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()));
+        this(pContainerId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(4));
     }
-    public AlloyFurnaceMenu(int pContainerId, Inventory inv, BlockEntity entity) {
+    public AlloyFurnaceMenu(int pContainerId, Inventory inv, BlockEntity entity, ContainerData data) {
         super(ModMenuTypes.ALLOY_FURNACE_MENU.get(), pContainerId);
         checkContainerSize(inv, 5);
         blockEntity = ((AlloyFurnaceBlockEntity) entity);
         this.level = inv.player.level;
+        this.data = data;
 
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
@@ -38,7 +39,12 @@ public class AlloyFurnaceMenu extends AbstractContainerMenu {
             this.addSlot(new SlotItemHandler(handler, 3, 8, 53));
             this.addSlot(new ModResultSlot(handler, 4, 115, 36, inv.player, blockEntity));
         });
+
+        addDataSlots(data);
     }
+
+
+
 
     // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons
     // must assign a slot number to each of the slots used by the GUI.
