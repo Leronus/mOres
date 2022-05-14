@@ -19,6 +19,9 @@ public class Config {
     private static final String CATEGORY_ENTITY = "entity";
     private static final String CATEGORY_ORES = "ores";
 
+    private static final String SUB_CATEGORY_ORES_TIN = "silver";
+
+
     public static BooleanValue spawnDuck;
 
     public static BooleanValue spawnTin;
@@ -171,22 +174,23 @@ public class Config {
 
     private void oreConfig(){
         builder.comment("The ore configuration for this mod \n\n" +
-                "Ores that contain any kind of metal are generated in 3 separate veins;\n " +
-                "- frequent veins relatively high in the world, referred to as 'upper'\n" +
-                "- medium veins distributed fairly evenly across the middle layer of the world, referred to as 'middle'\n" +
-                "- smaller veins that are generated in a very wide radius, referred to as 'small'\n\n" +
+                "Ores that contain any kind of metal are generated in 3 separate veins;\n" +
+                "\tfrequent veins relatively high in the world, referred to as 'upper'\n" +
+                "\tmedium veins distributed fairly evenly across the middle layer of the world, referred to as 'middle'\n" +
+                "\tsmaller veins that are generated in a very wide radius, referred to as 'small'\n\n" +
                 "Ores that contain gemstones are also generated in 3 separate veins; Referred to as 'small', 'large' and 'buried'\n" +
                 "Ores that have been generated buried means they will not spawn in contact with air, meaning they are rare.\n" +
                 "The values for the vertical anchors correspond to the y value in your Minecraft world.\n" +
-                "These values may also be below the world border of y=-64.").push(CATEGORY_ENTITY).pop();
+                "These values may also be below the world border of y=-64.").push(CATEGORY_ORES).pop();
 
-        spawnTin = getBoolean("spawnTin", CATEGORY_ORES, true, "Should tin spawn in the overworld");
-        overworldTinUpperTop = getInt("overworldTinUpperTop", CATEGORY_ORES, 400, "Highest vertical anchor for tin ore generation in the upper layer");
-        overworldTinUpperBottom = getInt("overworldTinUpperBottom", CATEGORY_ORES, 90, "Lowest vertical anchor for tin ore generation in the upper layer");
-        overworldTinMiddleTop = getInt("overworldTinMiddleTop", CATEGORY_ORES, -10, "Highest vertical anchor for tin ore generation in the middle layer");
-        overworldTinMiddleBottom = getInt("overworldTinMiddleBottom", CATEGORY_ORES, 80, "Lowest vertical anchor for tin ore generation in the middle layer");
-        overworldTinSmallTop = getInt("overworldTinSmallTop", CATEGORY_ORES, 100, "Highest vertical anchor for tin ore generation in small veins");
-        overworldTinSmallBottom = getInt("overworldTinSmallBottom", CATEGORY_ORES, 0, "Lowest vertical anchor for tin ore generation in small veins");
+        builder.comment("\nTin ore configuration").push(SUB_CATEGORY_ORES_TIN).pop();
+        spawnTin = getBoolean("spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
+        overworldTinUpperTop = getInt("overworldTinUpperTop", SUB_CATEGORY_ORES_TIN, 400, "Highest vertical anchor for tin ore generation in the upper layer");
+        overworldTinUpperBottom = getInt("overworldTinUpperBottom", SUB_CATEGORY_ORES_TIN, 90, "Lowest vertical anchor for tin ore generation in the upper layer");
+        overworldTinMiddleTop = getInt("overworldTinMiddleTop", SUB_CATEGORY_ORES_TIN, -10, "Highest vertical anchor for tin ore generation in the middle layer");
+        overworldTinMiddleBottom = getInt("overworldTinMiddleBottom", SUB_CATEGORY_ORES_TIN, 80, "Lowest vertical anchor for tin ore generation in the middle layer");
+        overworldTinSmallTop = getInt("overworldTinSmallTop", SUB_CATEGORY_ORES_TIN, 100, "Highest vertical anchor for tin ore generation in small veins");
+        overworldTinSmallBottom = getInt("overworldTinSmallBottom", SUB_CATEGORY_ORES_TIN, 0, "Lowest vertical anchor for tin ore generation in small veins");
 
         spawnSilver = getBoolean("spawnSilver", CATEGORY_ORES, true, "Should silver spawn in the overworld");
         overworldSilverUpperTop = getInt("overworldSilverUpperTop", CATEGORY_ORES, 340, "Highest vertical anchor for silver ore generation in the upper layer");
