@@ -2,9 +2,8 @@ Beta v3.0.4
 - Added all custom shields
 - Added damage reduction feature for the shields (can be configured in the config file)
 - Added tooltips to the shields (redesigned)
-- Added alloy furnace custom GUI 
+- Added alloy furnace custom GUI (alloy recipes NOT working yet -- work in progress)
 
-(only recipes not working yet -- coming soon)
 
 
 

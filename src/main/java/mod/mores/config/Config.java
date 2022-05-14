@@ -19,7 +19,7 @@ public class Config {
     private static final String CATEGORY_ENTITY = "entity";
     private static final String CATEGORY_ORES = "ores";
 
-    private static final String SUB_CATEGORY_ORES_TIN = "silver";
+//    private static final String SUB_CATEGORY_ORES_TIN = "silver";
 
 
     public static BooleanValue spawnDuck;
@@ -84,75 +84,75 @@ public class Config {
     public static ConfigValue<Integer> onyxDurability;
     public static ConfigValue<Integer> grapheneDurability;
 
-    public static ConfigValue<Integer> overworldTinUpperTop;
-    public static ConfigValue<Integer> overworldSilverUpperTop;
-    public static ConfigValue<Integer> overworldCobaltUpperTop;
-    public static ConfigValue<Integer> overworldTinUpperBottom;
-    public static ConfigValue<Integer> overworldSilverUpperBottom;
-    public static ConfigValue<Integer> overworldCobaltUpperBottom;
-
-    public static ConfigValue<Integer> overworldTinMiddleTop;
-    public static ConfigValue<Integer> overworldSilverMiddleTop;
-    public static ConfigValue<Integer> overworldCobaltMiddleTop;
-    public static ConfigValue<Integer> overworldTinMiddleBottom;
-    public static ConfigValue<Integer> overworldSilverMiddleBottom;
-    public static ConfigValue<Integer> overworldCobaltMiddleBottom;
-
-    public static ConfigValue<Integer> overworldTinSmallTop;
-    public static ConfigValue<Integer> overworldSilverSmallTop;
-    public static ConfigValue<Integer> overworldCobaltSmallTop;
-    public static ConfigValue<Integer> overworldTinSmallBottom;
-    public static ConfigValue<Integer> overworldSilverSmallBottom;
-    public static ConfigValue<Integer> overworldCobaltSmallBottom;
-
-    public static ConfigValue<Integer> overworldTopazSmallTop;
-    public static ConfigValue<Integer> overworldTourmalineSmallTop;
-    public static ConfigValue<Integer> overworldRubySmallTop;
-    public static ConfigValue<Integer> overworldSapphireSmallTop;
-    public static ConfigValue<Integer> overworldTurquoiseSmallTop;
-    public static ConfigValue<Integer> overworldMoissaniteSmallTop;
-    public static ConfigValue<Integer> overworldTopazSmallBottom;
-    public static ConfigValue<Integer> overworldTourmalineSmallBottom;
-    public static ConfigValue<Integer> overworldRubySmallBottom;
-    public static ConfigValue<Integer> overworldSapphireSmallBottom;
-    public static ConfigValue<Integer> overworldTurquoiseSmallBottom;
-    public static ConfigValue<Integer> overworldMoissaniteSmallBottom;
-
-    public static ConfigValue<Integer> overworldTopazLargeTop;
-    public static ConfigValue<Integer> overworldTourmalineLargeTop;
-    public static ConfigValue<Integer> overworldRubyLargeTop;
-    public static ConfigValue<Integer> overworldSapphireLargeTop;
-    public static ConfigValue<Integer> overworldTurquoiseLargeTop;
-    public static ConfigValue<Integer> overworldMoissaniteLargeTop;
-    public static ConfigValue<Integer> overworldTopazLargeBottom;
-    public static ConfigValue<Integer> overworldTourmalineLargeBottom;
-    public static ConfigValue<Integer> overworldRubyLargeBottom;
-    public static ConfigValue<Integer> overworldSapphireLargeBottom;
-    public static ConfigValue<Integer> overworldTurquoiseLargeBottom;
-    public static ConfigValue<Integer> overworldMoissaniteLargeBottom;
-
-    public static ConfigValue<Integer> overworldTopazBuriedTop;
-    public static ConfigValue<Integer> overworldTourmalineBuriedTop;
-    public static ConfigValue<Integer> overworldRubyBuriedTop;
-    public static ConfigValue<Integer> overworldSapphireBuriedTop;
-    public static ConfigValue<Integer> overworldTurquoiseBuriedTop;
-    public static ConfigValue<Integer> overworldMoissaniteBuriedTop;
-    public static ConfigValue<Integer> overworldTopazBuriedBottom;
-    public static ConfigValue<Integer> overworldTourmalineBuriedBottom;
-    public static ConfigValue<Integer> overworldRubyBuriedBottom;
-    public static ConfigValue<Integer> overworldSapphireBuriedBottom;
-    public static ConfigValue<Integer> overworldTurquoiseBuriedBottom;
-    public static ConfigValue<Integer> overworldMoissaniteBuriedBottom;
-
-    public static ConfigValue<Integer> endOnyxTop;
-    public static ConfigValue<Integer> endOnyxBottom;
-
-    public static ConfigValue<Integer> netherSilverTop;
-    public static ConfigValue<Integer> netherTanzaniteTop;
-    public static ConfigValue<Integer> netherMoissaniteTop;
-    public static ConfigValue<Integer> netherSilverBottom;
-    public static ConfigValue<Integer> netherTanzaniteBottom;
-    public static ConfigValue<Integer> netherMoissaniteBottom;
+//    public static ConfigValue<Integer> overworldTinUpperTop;
+//    public static ConfigValue<Integer> overworldSilverUpperTop;
+//    public static ConfigValue<Integer> overworldCobaltUpperTop;
+//    public static ConfigValue<Integer> overworldTinUpperBottom;
+//    public static ConfigValue<Integer> overworldSilverUpperBottom;
+//    public static ConfigValue<Integer> overworldCobaltUpperBottom;
+//
+//    public static ConfigValue<Integer> overworldTinMiddleTop;
+//    public static ConfigValue<Integer> overworldSilverMiddleTop;
+//    public static ConfigValue<Integer> overworldCobaltMiddleTop;
+//    public static ConfigValue<Integer> overworldTinMiddleBottom;
+//    public static ConfigValue<Integer> overworldSilverMiddleBottom;
+//    public static ConfigValue<Integer> overworldCobaltMiddleBottom;
+//
+//    public static ConfigValue<Integer> overworldTinSmallTop;
+//    public static ConfigValue<Integer> overworldSilverSmallTop;
+//    public static ConfigValue<Integer> overworldCobaltSmallTop;
+//    public static ConfigValue<Integer> overworldTinSmallBottom;
+//    public static ConfigValue<Integer> overworldSilverSmallBottom;
+//    public static ConfigValue<Integer> overworldCobaltSmallBottom;
+//
+//    public static ConfigValue<Integer> overworldTopazSmallTop;
+//    public static ConfigValue<Integer> overworldTourmalineSmallTop;
+//    public static ConfigValue<Integer> overworldRubySmallTop;
+//    public static ConfigValue<Integer> overworldSapphireSmallTop;
+//    public static ConfigValue<Integer> overworldTurquoiseSmallTop;
+//    public static ConfigValue<Integer> overworldMoissaniteSmallTop;
+//    public static ConfigValue<Integer> overworldTopazSmallBottom;
+//    public static ConfigValue<Integer> overworldTourmalineSmallBottom;
+//    public static ConfigValue<Integer> overworldRubySmallBottom;
+//    public static ConfigValue<Integer> overworldSapphireSmallBottom;
+//    public static ConfigValue<Integer> overworldTurquoiseSmallBottom;
+//    public static ConfigValue<Integer> overworldMoissaniteSmallBottom;
+//
+//    public static ConfigValue<Integer> overworldTopazLargeTop;
+//    public static ConfigValue<Integer> overworldTourmalineLargeTop;
+//    public static ConfigValue<Integer> overworldRubyLargeTop;
+//    public static ConfigValue<Integer> overworldSapphireLargeTop;
+//    public static ConfigValue<Integer> overworldTurquoiseLargeTop;
+//    public static ConfigValue<Integer> overworldMoissaniteLargeTop;
+//    public static ConfigValue<Integer> overworldTopazLargeBottom;
+//    public static ConfigValue<Integer> overworldTourmalineLargeBottom;
+//    public static ConfigValue<Integer> overworldRubyLargeBottom;
+//    public static ConfigValue<Integer> overworldSapphireLargeBottom;
+//    public static ConfigValue<Integer> overworldTurquoiseLargeBottom;
+//    public static ConfigValue<Integer> overworldMoissaniteLargeBottom;
+//
+//    public static ConfigValue<Integer> overworldTopazBuriedTop;
+//    public static ConfigValue<Integer> overworldTourmalineBuriedTop;
+//    public static ConfigValue<Integer> overworldRubyBuriedTop;
+//    public static ConfigValue<Integer> overworldSapphireBuriedTop;
+//    public static ConfigValue<Integer> overworldTurquoiseBuriedTop;
+//    public static ConfigValue<Integer> overworldMoissaniteBuriedTop;
+//    public static ConfigValue<Integer> overworldTopazBuriedBottom;
+//    public static ConfigValue<Integer> overworldTourmalineBuriedBottom;
+//    public static ConfigValue<Integer> overworldRubyBuriedBottom;
+//    public static ConfigValue<Integer> overworldSapphireBuriedBottom;
+//    public static ConfigValue<Integer> overworldTurquoiseBuriedBottom;
+//    public static ConfigValue<Integer> overworldMoissaniteBuriedBottom;
+//
+//    public static ConfigValue<Integer> endOnyxTop;
+//    public static ConfigValue<Integer> endOnyxBottom;
+//
+//    public static ConfigValue<Integer> netherSilverTop;
+//    public static ConfigValue<Integer> netherTanzaniteTop;
+//    public static ConfigValue<Integer> netherMoissaniteTop;
+//    public static ConfigValue<Integer> netherSilverBottom;
+//    public static ConfigValue<Integer> netherTanzaniteBottom;
+//    public static ConfigValue<Integer> netherMoissaniteBottom;
 
     public static BooleanValue thornsOnShields;
 
@@ -183,94 +183,93 @@ public class Config {
                 "The values for the vertical anchors correspond to the y value in your Minecraft world.\n" +
                 "These values may also be below the world border of y=-64.").push(CATEGORY_ORES).pop();
 
-        builder.comment("\nTin ore configuration").push(SUB_CATEGORY_ORES_TIN).pop();
-        spawnTin = getBoolean("spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
-        overworldTinUpperTop = getInt("overworldTinUpperTop", SUB_CATEGORY_ORES_TIN, 400, "Highest vertical anchor for tin ore generation in the upper layer");
-        overworldTinUpperBottom = getInt("overworldTinUpperBottom", SUB_CATEGORY_ORES_TIN, 90, "Lowest vertical anchor for tin ore generation in the upper layer");
-        overworldTinMiddleTop = getInt("overworldTinMiddleTop", SUB_CATEGORY_ORES_TIN, -10, "Highest vertical anchor for tin ore generation in the middle layer");
-        overworldTinMiddleBottom = getInt("overworldTinMiddleBottom", SUB_CATEGORY_ORES_TIN, 80, "Lowest vertical anchor for tin ore generation in the middle layer");
-        overworldTinSmallTop = getInt("overworldTinSmallTop", SUB_CATEGORY_ORES_TIN, 100, "Highest vertical anchor for tin ore generation in small veins");
-        overworldTinSmallBottom = getInt("overworldTinSmallBottom", SUB_CATEGORY_ORES_TIN, 0, "Lowest vertical anchor for tin ore generation in small veins");
+        spawnTin = getBoolean("spawnTin", CATEGORY_ORES, true, "Should tin spawn in the overworld");
+//        overworldTinUpperTop = getInt("overworldTinUpperTop", SUB_CATEGORY_ORES_TIN, 400, "Highest vertical anchor for tin ore generation in the upper layer");
+//        overworldTinUpperBottom = getInt("overworldTinUpperBottom", SUB_CATEGORY_ORES_TIN, 90, "Lowest vertical anchor for tin ore generation in the upper layer");
+//        overworldTinMiddleTop = getInt("overworldTinMiddleTop", SUB_CATEGORY_ORES_TIN, -10, "Highest vertical anchor for tin ore generation in the middle layer");
+//        overworldTinMiddleBottom = getInt("overworldTinMiddleBottom", SUB_CATEGORY_ORES_TIN, 80, "Lowest vertical anchor for tin ore generation in the middle layer");
+//        overworldTinSmallTop = getInt("overworldTinSmallTop", SUB_CATEGORY_ORES_TIN, 100, "Highest vertical anchor for tin ore generation in small veins");
+//        overworldTinSmallBottom = getInt("overworldTinSmallBottom", SUB_CATEGORY_ORES_TIN, 0, "Lowest vertical anchor for tin ore generation in small veins");
 
         spawnSilver = getBoolean("spawnSilver", CATEGORY_ORES, true, "Should silver spawn in the overworld");
-        overworldSilverUpperTop = getInt("overworldSilverUpperTop", CATEGORY_ORES, 340, "Highest vertical anchor for silver ore generation in the upper layer");
-        overworldSilverUpperBottom = getInt("overworldSilverUpperBottom", CATEGORY_ORES, 60, "Lowest vertical anchor for silver ore generation in the upper layer");
-        overworldSilverMiddleTop = getInt("overworldSilverMiddleTop", CATEGORY_ORES, 65, "Highest vertical anchor for silver ore generation in the middle layer");
-        overworldSilverMiddleBottom = getInt("overworldSilverMiddleBottom", CATEGORY_ORES, -30, "Lowest vertical anchor for silver ore generation in the middle layer");
-        overworldSilverSmallTop = getInt("overworldSilverSmallTop", CATEGORY_ORES, 80, "Highest vertical anchor for silver ore generation in small veins");
-        overworldSilverSmallBottom = getInt("overworldSilverSmallBottom", CATEGORY_ORES, 0, "Lowest vertical anchor for silver ore generation in small veins");
+//        overworldSilverUpperTop = getInt("overworldSilverUpperTop", CATEGORY_ORES, 340, "Highest vertical anchor for silver ore generation in the upper layer");
+//        overworldSilverUpperBottom = getInt("overworldSilverUpperBottom", CATEGORY_ORES, 60, "Lowest vertical anchor for silver ore generation in the upper layer");
+//        overworldSilverMiddleTop = getInt("overworldSilverMiddleTop", CATEGORY_ORES, 65, "Highest vertical anchor for silver ore generation in the middle layer");
+//        overworldSilverMiddleBottom = getInt("overworldSilverMiddleBottom", CATEGORY_ORES, -30, "Lowest vertical anchor for silver ore generation in the middle layer");
+//        overworldSilverSmallTop = getInt("overworldSilverSmallTop", CATEGORY_ORES, 80, "Highest vertical anchor for silver ore generation in small veins");
+//        overworldSilverSmallBottom = getInt("overworldSilverSmallBottom", CATEGORY_ORES, 0, "Lowest vertical anchor for silver ore generation in small veins");
 
         spawnCobalt = getBoolean("spawnCobalt", CATEGORY_ORES, true, "Should cobalt spawn in the overworld");
-        overworldCobaltUpperTop = getInt("overworldCobaltUpperTop", CATEGORY_ORES, 320, "Highest vertical anchor for cobalt ore generation in the upper layer");
-        overworldCobaltUpperBottom = getInt("overworldCobaltUpperBottom", CATEGORY_ORES, 85, "Lowest vertical anchor for cobalt ore generation in the upper layer");
-        overworldCobaltMiddleTop = getInt("overworldCobaltMiddleTop", CATEGORY_ORES, 80, "Highest vertical anchor for cobalt ore generation in the middle layer");
-        overworldCobaltMiddleBottom = getInt("overworldCobaltMiddleBottom", CATEGORY_ORES, -30, "Lowest vertical anchor for cobalt ore generation in the middle layer");
-        overworldCobaltSmallTop = getInt("overworldCobaltSmallTop", CATEGORY_ORES, 60, "Highest vertical anchor for cobalt ore generation in small veins");
-        overworldCobaltSmallBottom = getInt("overworldCobaltSmallBottom", CATEGORY_ORES, -40, "Lowest vertical anchor for cobalt ore generation in small veins");
+//        overworldCobaltUpperTop = getInt("overworldCobaltUpperTop", CATEGORY_ORES, 320, "Highest vertical anchor for cobalt ore generation in the upper layer");
+//        overworldCobaltUpperBottom = getInt("overworldCobaltUpperBottom", CATEGORY_ORES, 85, "Lowest vertical anchor for cobalt ore generation in the upper layer");
+//        overworldCobaltMiddleTop = getInt("overworldCobaltMiddleTop", CATEGORY_ORES, 80, "Highest vertical anchor for cobalt ore generation in the middle layer");
+//        overworldCobaltMiddleBottom = getInt("overworldCobaltMiddleBottom", CATEGORY_ORES, -30, "Lowest vertical anchor for cobalt ore generation in the middle layer");
+//        overworldCobaltSmallTop = getInt("overworldCobaltSmallTop", CATEGORY_ORES, 60, "Highest vertical anchor for cobalt ore generation in small veins");
+//        overworldCobaltSmallBottom = getInt("overworldCobaltSmallBottom", CATEGORY_ORES, -40, "Lowest vertical anchor for cobalt ore generation in small veins");
 
         spawnTourmaline = getBoolean("spawnTourmaline", CATEGORY_ORES, true, "Should tourmaline spawn in the overworld");
-        overworldTourmalineSmallTop = getInt("overworldTourmalineSmallTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in the upper layer");
-        overworldTourmalineSmallBottom = getInt("overworldTourmalineSmallBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in the upper layer");
-        overworldTourmalineLargeTop = getInt("overworldTourmalineLargeTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in small veins");
-        overworldTourmalineLargeBottom = getInt("overworldTourmalineLargeBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in small veins");
-        overworldTourmalineBuriedTop = getInt("overworldTourmalineBuriedTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in the middle layer");
-        overworldTourmalineBuriedBottom = getInt("overworldTourmalineBuriedBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in the middle layer");
+//        overworldTourmalineSmallTop = getInt("overworldTourmalineSmallTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in the upper layer");
+//        overworldTourmalineSmallBottom = getInt("overworldTourmalineSmallBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in the upper layer");
+//        overworldTourmalineLargeTop = getInt("overworldTourmalineLargeTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in small veins");
+//        overworldTourmalineLargeBottom = getInt("overworldTourmalineLargeBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in small veins");
+//        overworldTourmalineBuriedTop = getInt("overworldTourmalineBuriedTop", CATEGORY_ORES, 95, "Highest vertical anchor for tourmaline ore generation in the middle layer");
+//        overworldTourmalineBuriedBottom = getInt("overworldTourmalineBuriedBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for tourmaline ore generation in the middle layer");
 
         spawnTopaz = getBoolean("spawnTopaz", CATEGORY_ORES, true, "Should topaz spawn in the overworld");
-        overworldTopazSmallTop = getInt("overworldTopazSmallTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in the upper layer");
-        overworldTopazSmallBottom = getInt("overworldTopazSmallBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in the upper layer");
-        overworldTopazLargeTop = getInt("overworldTopazLargeTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in small veins");
-        overworldTopazLargeBottom = getInt("overworldTopazLargeBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in small veins");
-        overworldTopazBuriedTop = getInt("overworldTopazBuriedTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in the middle layer");
-        overworldTopazBuriedBottom = getInt("overworldTopazBuriedBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in the middle layer");
+//        overworldTopazSmallTop = getInt("overworldTopazSmallTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in the upper layer");
+//        overworldTopazSmallBottom = getInt("overworldTopazSmallBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in the upper layer");
+//        overworldTopazLargeTop = getInt("overworldTopazLargeTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in small veins");
+//        overworldTopazLargeBottom = getInt("overworldTopazLargeBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in small veins");
+//        overworldTopazBuriedTop = getInt("overworldTopazBuriedTop", CATEGORY_ORES, 110, "Highest vertical anchor for topaz ore generation in the middle layer");
+//        overworldTopazBuriedBottom = getInt("overworldTopazBuriedBottom", CATEGORY_ORES, -80, "Lowest vertical anchor for topaz ore generation in the middle layer");
 
         spawnSapphire = getBoolean("spawnSapphire", CATEGORY_ORES, true, "Should sapphire spawn in the overworld");
-        overworldSapphireSmallTop = getInt("overworldSapphireSmallTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in the upper layer");
-        overworldSapphireSmallBottom = getInt("overworldSapphireSmallBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in the upper layer");
-        overworldSapphireLargeTop = getInt("overworldSapphireLargeTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in small veins");
-        overworldSapphireLargeBottom = getInt("overworldSapphireLargeBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in small veins");
-        overworldSapphireBuriedTop = getInt("overworldSapphireBuriedTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in the middle layer");
-        overworldSapphireBuriedBottom = getInt("overworldSapphireBuriedBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in the middle layer");
+//        overworldSapphireSmallTop = getInt("overworldSapphireSmallTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in the upper layer");
+//        overworldSapphireSmallBottom = getInt("overworldSapphireSmallBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in the upper layer");
+//        overworldSapphireLargeTop = getInt("overworldSapphireLargeTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in small veins");
+//        overworldSapphireLargeBottom = getInt("overworldSapphireLargeBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in small veins");
+//        overworldSapphireBuriedTop = getInt("overworldSapphireBuriedTop", CATEGORY_ORES, 65, "Highest vertical anchor for sapphire ore generation in the middle layer");
+//        overworldSapphireBuriedBottom = getInt("overworldSapphireBuriedBottom", CATEGORY_ORES, -110, "Lowest vertical anchor for sapphire ore generation in the middle layer");
 
         spawnRuby = getBoolean("spawnRuby", CATEGORY_ORES, true, "Should ruby spawn in the overworld");
-        overworldRubySmallTop = getInt("overworldRubySmallTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in the upper layer");
-        overworldRubySmallBottom = getInt("overworldRubySmallBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in the upper layer");
-        overworldRubyLargeTop = getInt("overworldRubyLargeTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in small veins");
-        overworldRubyLargeBottom = getInt("overworldRubyLargeBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in small veins");
-        overworldRubyBuriedTop = getInt("overworldRubyBuriedTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in the middle layer");
-        overworldRubyBuriedBottom = getInt("overworldRubyBuriedBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in the middle layer");
+//        overworldRubySmallTop = getInt("overworldRubySmallTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in the upper layer");
+//        overworldRubySmallBottom = getInt("overworldRubySmallBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in the upper layer");
+//        overworldRubyLargeTop = getInt("overworldRubyLargeTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in small veins");
+//        overworldRubyLargeBottom = getInt("overworldRubyLargeBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in small veins");
+//        overworldRubyBuriedTop = getInt("overworldRubyBuriedTop", CATEGORY_ORES, 70, "Highest vertical anchor for ruby ore generation in the middle layer");
+//        overworldRubyBuriedBottom = getInt("overworldRubyBuriedBottom", CATEGORY_ORES, -100, "Lowest vertical anchor for ruby ore generation in the middle layer");
 
         spawnTurquoise = getBoolean("spawnTurquoise", CATEGORY_ORES, true, "Should turquoise spawn in the overworld");
-        overworldTurquoiseSmallTop = getInt("overworldTurquoiseSmallTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in the upper layer");
-        overworldTurquoiseSmallBottom = getInt("overworldTurquoiseSmallBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in the upper layer");
-        overworldTurquoiseLargeTop = getInt("overworldTurquoiseLargeTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in small veins");
-        overworldTurquoiseLargeBottom = getInt("overworldTurquoiseLargeBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in small veins");
-        overworldTurquoiseBuriedTop = getInt("overworldTurquoiseBuriedTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in the middle layer");
-        overworldTurquoiseBuriedBottom = getInt("overworldTurquoiseBuriedBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in the middle layer");
+//        overworldTurquoiseSmallTop = getInt("overworldTurquoiseSmallTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in the upper layer");
+//        overworldTurquoiseSmallBottom = getInt("overworldTurquoiseSmallBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in the upper layer");
+//        overworldTurquoiseLargeTop = getInt("overworldTurquoiseLargeTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in small veins");
+//        overworldTurquoiseLargeBottom = getInt("overworldTurquoiseLargeBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in small veins");
+//        overworldTurquoiseBuriedTop = getInt("overworldTurquoiseBuriedTop", CATEGORY_ORES, 10, "Highest vertical anchor for turquoise ore generation in the middle layer");
+//        overworldTurquoiseBuriedBottom = getInt("overworldTurquoiseBuriedBottom", CATEGORY_ORES, -60, "Lowest vertical anchor for turquoise ore generation in the middle layer");
 
         spawnMoissanite = getBoolean("spawnMoissanite", CATEGORY_ORES, true, "Should moissanite spawn in the overworld");
-        overworldMoissaniteSmallTop = getInt("overworldMoissaniteSmallTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in the upper layer");
-        overworldMoissaniteSmallBottom = getInt("overworldMoissaniteSmallBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in the upper layer");
-        overworldMoissaniteLargeTop = getInt("overworldMoissaniteLargeTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in small veins");
-        overworldMoissaniteLargeBottom = getInt("overworldMoissaniteLargeBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in small veins");
-        overworldMoissaniteBuriedTop = getInt("overworldMoissaniteBuriedTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in the middle layer");
-        overworldMoissaniteBuriedBottom = getInt("overworldMoissaniteBuriedBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in the middle layer");
+//        overworldMoissaniteSmallTop = getInt("overworldMoissaniteSmallTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in the upper layer");
+//        overworldMoissaniteSmallBottom = getInt("overworldMoissaniteSmallBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in the upper layer");
+//        overworldMoissaniteLargeTop = getInt("overworldMoissaniteLargeTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in small veins");
+//        overworldMoissaniteLargeBottom = getInt("overworldMoissaniteLargeBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in small veins");
+//        overworldMoissaniteBuriedTop = getInt("overworldMoissaniteBuriedTop", CATEGORY_ORES, 40, "Highest vertical anchor for turquoise ore generation in the middle layer");
+//        overworldMoissaniteBuriedBottom = getInt("overworldMoissaniteBuriedBottom", CATEGORY_ORES, -120, "Lowest vertical anchor for turquoise ore generation in the middle layer");
 
         spawnNetherMoissanite = getBoolean("spawnNetherMoissanite", CATEGORY_ORES, true, "Should moissanite spawn in the nether");
-        netherMoissaniteTop = getInt("netherMoissaniteTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether moissanite ore generation");
-        netherMoissaniteBottom = getInt("netherMoissaniteBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether moissanite ore generation");
+//        netherMoissaniteTop = getInt("netherMoissaniteTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether moissanite ore generation");
+//        netherMoissaniteBottom = getInt("netherMoissaniteBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether moissanite ore generation");
 
         spawnTanzanite = getBoolean("spawnTanzanite", CATEGORY_ORES, true, "Should tanzanite spawn in the nether");
-        netherTanzaniteTop = getInt("netherTanzaniteTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether tanzanite ore generation");
-        netherTanzaniteBottom = getInt("netherTanzaniteBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether tanzanite ore generation");
+//        netherTanzaniteTop = getInt("netherTanzaniteTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether tanzanite ore generation");
+//        netherTanzaniteBottom = getInt("netherTanzaniteBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether tanzanite ore generation");
 
         spawnNetherSilver = getBoolean("spawnNetherSilver", CATEGORY_ORES, true, "Should silver spawn in the nether");
-        netherSilverTop = getInt("netherSilverTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether silver ore generation");
-        netherSilverBottom = getInt("netherSilverBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether silver ore generation");
+//        netherSilverTop = getInt("netherSilverTop", CATEGORY_ORES, 256, "Highest vertical anchor for nether silver ore generation");
+//        netherSilverBottom = getInt("netherSilverBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for nether silver ore generation");
 
         spawnEndOnyx = getBoolean("spawnEndOnyx", CATEGORY_ORES, true, "Should onyx spawn in the end");
-        endOnyxTop = getInt("endOnyxTop", CATEGORY_ORES, 256, "Highest vertical anchor for onyx ore generation");
-        endOnyxBottom = getInt("endOnyxBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for onyx ore generation");
+//        endOnyxTop = getInt("endOnyxTop", CATEGORY_ORES, 256, "Highest vertical anchor for onyx ore generation");
+//        endOnyxBottom = getInt("endOnyxBottom", CATEGORY_ORES, -64, "Lowest vertical anchor for onyx ore generation");
 
         spawnNetherSapphire = getBoolean("spawnNetherSapphire", CATEGORY_ORES, false, "Should sapphire spawn in the nether (coming soon)");
         spawnNetherRuby = getBoolean("spawnNetherRuby", CATEGORY_ORES, false, "Should ruby spawn in the nether (coming soon)");
@@ -346,8 +345,8 @@ public class Config {
         grapheneDurability = getInt("grapheneDurability", CATEGORY_SHIELD, 7500, "The durability of the Graphene Shield.");
 //        diamondDurability = getInt("diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
-//        netheriteDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 6300,
-//                "The durability of the Cobalt Shield.");
+//        netheriteDurability = getInt("netheriteDurability", CATEGORY_SHIELD, 6300,
+//                "The durability of the Netherite Shield.");
         thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELD, true,
                 "Allows the Thorns enchantment to by applied to Shields");
     }

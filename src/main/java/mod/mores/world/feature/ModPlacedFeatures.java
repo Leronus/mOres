@@ -8,75 +8,75 @@ import net.minecraft.world.level.levelgen.placement.*;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public class ModPlacedFeatures {
-    public static int tinUpperTop = Config.overworldTinUpperTop.get();
-    public static int silverUpperTop;
-    public static int cobaltUpperTop;
-    public static int tinUpperBottom = Config.overworldTinUpperBottom.get();
-    public static int silverUpperBottom;
-    public static int cobaltUpperBottom;
-
-    public static int tinMiddleTop = Config.overworldTinMiddleTop.get();
-    public static int silverMiddleTop;
-    public static int cobaltMiddleTop;
-    public static int tinMiddleBottom = Config.overworldTinMiddleBottom.get();
-    public static int silverMiddleBottom;
-    public static int cobaltMiddleBottom;
-
-    public static int tinSmallTop = Config.overworldTinSmallTop.get();
-    public static int silverSmallTop;
-    public static int cobaltSmallTop;
-    public static int tinSmallBottom = Config.overworldTinSmallBottom.get();
-    public static int silverSmallBottom;
-    public static int cobaltSmallBottom;
-
-    public static int topazSmallTop;
-    public static int tourmalineSmallTop;
-    public static int rubySmallTop;
-    public static int sapphireSmallTop;
-    public static int turquoiseSmallTop;
-    public static int moissaniteSmallTop;
-    public static int topazSmallBottom;
-    public static int tourmalineSmallBottom;
-    public static int rubySmallBottom;
-    public static int sapphireSmallBottom;
-    public static int turquoiseSmallBottom;
-    public static int moissaniteSmallBottom;
-
-    public static int topazLargeTop;
-    public static int tourmalineLargeTop;
-    public static int rubyLargeTop;
-    public static int sapphireLargeTop;
-    public static int turquoiseLargeTop;
-    public static int moissaniteLargeTop;
-    public static int topazLargeBottom;
-    public static int tourmalineLargeBottom;
-    public static int rubyLargeBottom;
-    public static int sapphireLargeBottom;
-    public static int turquoiseLargeBottom;
-    public static int moissaniteLargeBottom;
-
-    public static int topazBuriedTop;
-    public static int tourmalineBuriedTop;
-    public static int rubyBuriedTop;
-    public static int sapphireBuriedTop;
-    public static int turquoiseBuriedTop;
-    public static int moissaniteBuriedTop;
-    public static int topazBuriedBottom;
-    public static int tourmalineBuriedBottom;
-    public static int rubyBuriedBottom;
-    public static int sapphireBuriedBottom;
-    public static int turquoiseBuriedBottom;
-    public static int moissaniteBuriedBottom;
-
-    public static int endOnyxTop;
-    public static int endOnyxBottom;
-
-    public static int netherSilverTop;
-    public static int netherTanzaniteTop;
-    public static int netherMoissaniteTop;
-    public static int netherSilverBottom;
-    public static int netherTanzaniteBottom;
-    public static int netherMoissaniteBottom;
+//    public static int tinUpperTop = Config.overworldTinUpperTop.get();
+//    public static int silverUpperTop;
+//    public static int cobaltUpperTop;
+//    public static int tinUpperBottom = Config.overworldTinUpperBottom.get();
+//    public static int silverUpperBottom;
+//    public static int cobaltUpperBottom;
+//
+//    public static int tinMiddleTop = Config.overworldTinMiddleTop.get();
+//    public static int silverMiddleTop;
+//    public static int cobaltMiddleTop;
+//    public static int tinMiddleBottom = Config.overworldTinMiddleBottom.get();
+//    public static int silverMiddleBottom;
+//    public static int cobaltMiddleBottom;
+//
+//    public static int tinSmallTop = Config.overworldTinSmallTop.get();
+//    public static int silverSmallTop;
+//    public static int cobaltSmallTop;
+//    public static int tinSmallBottom = Config.overworldTinSmallBottom.get();
+//    public static int silverSmallBottom;
+//    public static int cobaltSmallBottom;
+//
+//    public static int topazSmallTop;
+//    public static int tourmalineSmallTop;
+//    public static int rubySmallTop;
+//    public static int sapphireSmallTop;
+//    public static int turquoiseSmallTop;
+//    public static int moissaniteSmallTop;
+//    public static int topazSmallBottom;
+//    public static int tourmalineSmallBottom;
+//    public static int rubySmallBottom;
+//    public static int sapphireSmallBottom;
+//    public static int turquoiseSmallBottom;
+//    public static int moissaniteSmallBottom;
+//
+//    public static int topazLargeTop;
+//    public static int tourmalineLargeTop;
+//    public static int rubyLargeTop;
+//    public static int sapphireLargeTop;
+//    public static int turquoiseLargeTop;
+//    public static int moissaniteLargeTop;
+//    public static int topazLargeBottom;
+//    public static int tourmalineLargeBottom;
+//    public static int rubyLargeBottom;
+//    public static int sapphireLargeBottom;
+//    public static int turquoiseLargeBottom;
+//    public static int moissaniteLargeBottom;
+//
+//    public static int topazBuriedTop;
+//    public static int tourmalineBuriedTop;
+//    public static int rubyBuriedTop;
+//    public static int sapphireBuriedTop;
+//    public static int turquoiseBuriedTop;
+//    public static int moissaniteBuriedTop;
+//    public static int topazBuriedBottom;
+//    public static int tourmalineBuriedBottom;
+//    public static int rubyBuriedBottom;
+//    public static int sapphireBuriedBottom;
+//    public static int turquoiseBuriedBottom;
+//    public static int moissaniteBuriedBottom;
+//
+//    public static int endOnyxTop;
+//    public static int endOnyxBottom;
+//
+//    public static int netherSilverTop;
+//    public static int netherTanzaniteTop;
+//    public static int netherMoissaniteTop;
+//    public static int netherSilverBottom;
+//    public static int netherTanzaniteBottom;
+//    public static int netherMoissaniteBottom;
 
 
     //Tin Ore
@@ -84,17 +84,17 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.TIN_ORE, ModOrePlacement.commonOrePlacement
                     (95, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(tinUpperBottom), VerticalAnchor.aboveBottom(tinUpperTop))));
+                            (VerticalAnchor.aboveBottom(90), VerticalAnchor.aboveBottom(400))));
     public static final Holder<PlacedFeature> TIN_ORE_MIDDLE_PLACED = PlacementUtils.register("tin_ore_middle_placed",
             ModConfiguredFeatures.TIN_ORE, ModOrePlacement.commonOrePlacement
                     (12, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(tinMiddleBottom), VerticalAnchor.aboveBottom(tinMiddleTop))));
+                            (VerticalAnchor.aboveBottom(-10), VerticalAnchor.aboveBottom(80))));
     public static final Holder<PlacedFeature> TIN_ORE_SMALL_PLACED = PlacementUtils.register("tin_ore_small_placed",
             ModConfiguredFeatures.TIN_ORE_SMALL, ModOrePlacement.commonOrePlacement
                     (8, // VeinsPerChunk
                     HeightRangePlacement.uniform
-                            (VerticalAnchor.absolute(tinSmallBottom), VerticalAnchor.absolute(tinSmallTop))));
+                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(100))));
 
 
     //Silver Ore
