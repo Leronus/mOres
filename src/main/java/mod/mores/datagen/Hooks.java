@@ -1,4 +1,4 @@
-package mod.mores.util;
+package mod.mores.datagen;
 
 import mod.mores.config.Config;
 import net.minecraft.world.item.ArmorItem;

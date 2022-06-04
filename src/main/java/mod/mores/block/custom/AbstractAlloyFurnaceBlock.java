@@ -89,41 +89,18 @@ public abstract class AbstractAlloyFurnaceBlock extends BaseEntityBlock {
         return true;
     }
 
-    /**
-     * @deprecated call via {@link
-     * net.minecraft.world.level.block.state.BlockBehavior.BlockStateBase#getAnalogOutputSignal} whenever possible.
-     * Implementing/overriding is fine.
-     */
     public int getAnalogOutputSignal(BlockState pBlockState, Level pLevel, BlockPos pPos) {
         return AbstractContainerMenu.getRedstoneSignalFromBlockEntity(pLevel.getBlockEntity(pPos));
     }
 
-    /**
-     * The type of render function called. MODEL for mixed tesr and static model, MODELBLOCK_ANIMATED for TESR-only,
-     * LIQUID for vanilla liquids, INVISIBLE to skip all rendering
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehavior.BlockStateBase#getRenderShape}
-     * whenever possible. Implementing/overriding is fine.
-     */
     public RenderShape getRenderShape(BlockState pState) {
         return RenderShape.MODEL;
     }
 
-    /**
-     * Returns the blockstate with the given rotation from the passed blockstate. If inapplicable, returns the passed
-     * blockstate.
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehavior.BlockStateBase#rotate} whenever
-     * possible. Implementing/overriding is fine.
-     */
     public BlockState rotate(BlockState pState, Rotation pRotation) {
         return pState.setValue(FACING, pRotation.rotate(pState.getValue(FACING)));
     }
 
-    /**
-     * Returns the blockstate with the given mirror of the passed blockstate. If inapplicable, returns the passed
-     * blockstate.
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehavior.BlockStateBase#mirror} whenever
-     * possible. Implementing/overriding is fine.
-     */
     public BlockState mirror(BlockState pState, Mirror pMirror) {
         return pState.rotate(pMirror.getRotation(pState.getValue(FACING)));
     }
