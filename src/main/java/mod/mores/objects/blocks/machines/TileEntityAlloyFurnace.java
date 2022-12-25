@@ -2,7 +2,6 @@ package mod.mores.objects.blocks.machines;
 
 import mod.mores.init.BlockInit;
 import mod.mores.modid.Mores;
-import mod.mores.util.Reference;
 import mod.mores.util.handlers.PacketRequestUpdateAlloyFurnace;
 import mod.mores.util.handlers.PacketUpdatedAlloyFurnace;
 import net.minecraft.block.Block;
@@ -13,12 +12,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemHoe;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
-import net.minecraft.item.ItemTool;
+import net.minecraft.item.*;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
@@ -44,11 +38,11 @@ import net.minecraftforge.items.ItemStackHandler;
 import java.util.ArrayList;
 
 public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IInventory {
-    private NonNullList<ItemStack> inventory = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
+    private NonNullList<ItemStack> inventory = NonNullList.withSize(4, ItemStack.EMPTY);
     public long lastChangeTime;
 
     private String customName;
-    private ItemStack smelting = ItemStack.EMPTY;
+    private final ItemStack smelting = ItemStack.EMPTY;
 
     public static final int INPUT_LEFT = 0;
     public static final int INPUT_RIGHT = 1;
@@ -273,7 +267,7 @@ public class TileEntityAlloyFurnace extends TileEntity implements ITickable, IIn
                 {
                     ++this.cookTime;
 
-                    //the 20 here is the total cook time i want. The cook lasts 20 ticks then the item is cooked
+                    //the 20 here is the total cook time I want. The cook lasts 20 ticks then the item is cooked
 
                     if(this.cookTime == 400)
                     {

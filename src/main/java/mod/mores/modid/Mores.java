@@ -9,6 +9,7 @@ import mod.mores.util.handlers.RegistryHandler;
 import mod.mores.world.gen.WorldGenOres;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -61,6 +62,9 @@ public class Mores
         Blocks.DIAMOND_ORE.setHarvestLevel("pickaxe", 7);
         Blocks.EMERALD_ORE.setHarvestLevel("pickaxe", 5);
         Blocks.OBSIDIAN.setHarvestLevel("pickaxe", 5);
+
+        Items.DIAMOND_PICKAXE.setHarvestLevel("pickaxe", 8);
+        Items.IRON_PICKAXE.setHarvestLevel("pickaxe", 4);
     }
 
     @EventHandler
