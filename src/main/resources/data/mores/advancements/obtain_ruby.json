@@ -1,0 +1,31 @@
+{
+  "display": {
+    "title": "Fiery Diamond",
+    "description": "Obtain a ruby gem",
+    "icon": {
+      "item": "mores:ruby_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_tourmaline",
+  "criteria": {
+    "obtain_ruby_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:ruby_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 275
+  }
+}

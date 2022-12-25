@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "topaz_gem",
+  "ingredient": {
+    "item": "mores:topaz_ore"
+  },
+  "result": "mores:topaz_gem",
+  "experience": 0.9,
+  "cookingtime": 100
+}

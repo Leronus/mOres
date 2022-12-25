@@ -1,0 +1,29 @@
+  
+{
+	"conditions": [
+		{
+			"condition": "minecraft:alternative",
+			"terms": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"item": "mores:ruby_pickaxe"
+					}
+				},
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"item": "mores:ruby_axe"
+					}
+				},
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"item": "mores:ruby_shovel"
+					}
+				}
+			]		
+		}		
+	],
+	"function": "mores:auto_smelt_tool"
+}

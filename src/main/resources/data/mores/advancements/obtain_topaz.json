@@ -1,0 +1,31 @@
+{
+  "display": {
+    "title": "This Ain't No Emerald",
+    "description": "Obtain a topaz gem",
+    "icon": {
+      "item": "mores:topaz_ore"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:obtain_cobalt_ore",
+  "criteria": {
+    "obtain_topaz_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:topaz_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 125
+  }
+}

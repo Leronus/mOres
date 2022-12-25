@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": "WAT? WAAR ZIJN JULLIE?",
+    "description": "Wander too far off just like Martijn...",
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:ice_bucket_challenge",
+  "criteria": {
+    "below_sea_level": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "y": {
+            "min": -64.0,
+            "max": -60.0
+          }
+        }
+      }
+    }
+  },
+    "rewards": {
+    "experience": 500
+  }
+}

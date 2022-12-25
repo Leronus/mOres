@@ -1,0 +1,62 @@
+{
+  "living_duck_sound": {
+    "category": "entity",
+    "subtitle" : "living_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/living_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "dying_duck_sound": {
+    "category": "entity",
+    "subtitle" : "dying_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/dying_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "hurt_duck_sound": {
+    "category": "entity",
+    "subtitle" : "hurt_duck_sound.sub",
+    "sounds" : [
+      {
+        "name" : "mores:entity/hurt_duck_sound",
+        "stream" : true
+      }
+    ]
+  },
+  "that_duck": {
+    "category": "ambient",
+    "subtitle" : "that_duck.sub",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/that_duck",
+        "stream" : true
+      }
+    ]
+  },
+  "im_blue": {
+    "category": "players",
+    "subtitle" : "im_blue.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/im_blue",
+        "stream" : true
+      }
+    ]
+  },
+  "my_horse": {
+    "category": "players",
+    "subtitle" : "my_horse.sub",
+    "sounds" : [
+      {
+        "name" : "mores:music/my_horse",
+        "stream" : true
+      }
+    ]
+  }
+}

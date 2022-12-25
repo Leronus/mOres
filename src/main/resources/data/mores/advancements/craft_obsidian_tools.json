@@ -1,0 +1,46 @@
+{
+  "display": {
+    "title": "Unbreakable Four",
+    "description": "Craft four obsidian tools",
+    "icon": {
+      "item": "mores:obsidian_axe"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mores:ice_bucket_challenge",
+  "criteria": {
+    "obtain_copper_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:obsidian_sword"
+            ]
+          },
+          {
+            "items": [
+              "mores:obsidian_pickaxe"
+            ]
+          },
+          {
+            "items": [
+              "mores:obsidian_axe"
+            ]
+          },
+          {
+            "items": [
+              "mores:obsidian_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}
