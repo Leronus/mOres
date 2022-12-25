@@ -1,0 +1,191 @@
+
+#The shield configuration for this mod
+[shield]
+	#The durability of the Topaz Shield.
+	#Default: 2900
+	topazDurability = 2900
+	#The durability of the Graphene Shield.
+	#Default: 7500
+	grapheneDurability = 7500
+	#The durability of the Tin Shield.
+	#Default: 80
+	tinDurability = 80
+	#The durability of the Ruby Shield.
+	#Default: 4200
+	rubyDurability = 4200
+	#The portion of the incoming damage Topaz Shields block in percent.
+	#Default: 80
+	topazDamageReduction = 80
+	#The portion of the incoming damage Onyx Shields block in percent.
+	#Default: 95
+	onyxDamageReduction = 95
+	#The durability of the Onyx Shield.
+	#Default: 6200
+	onyxDurability = 6200
+	#The durability of the Obsidian Shield.
+	#Default: 3000
+	obsidianDurability = 3000
+	#The durability of the Sterling Silver Shield.
+	#Default: 1800
+	sterlingDurability = 1800
+	#The portion of the incoming damage Sapphire Shields block in percent.
+	#Default: 95
+	turquoiseDamageReduction = 95
+	#The durability of the Sapphire Shield.
+	#Default: 4500
+	sapphireDurability = 4500
+	#The portion of the incoming damage Obsidian Shields block in percent.
+	#Default: 85
+	obsidianDamageReduction = 85
+	#The portion of the incoming damage Amethyst Shields block in percent.
+	#Default: 70
+	amethystDamageReduction = 70
+	#The portion of the incoming damage Bronze Shields block in percent.
+	#Default: 65
+	bronzeDamageReduction = 65
+	#The portion of the incoming damage Carbon Steel Shields block in percent.
+	#Default: 80
+	steelDamageReduction = 80
+	#The durability of the Copper Shield.
+	#Default: 580
+	copperDurability = 580
+	#The portion of the incoming damage Tanzanite Shields block in percent.
+	#Default: 85
+	tanzaniteDamageReduction = 85
+	#If set to true Shields added by other mods block 100% of the incoming damage, if set to false they will block the amount set in defaultDamageReduction.
+	#Default: true
+	customShieldMaxReduction = true
+	#The durability of the Silver Shield.
+	#Default: 730
+	silverDurability = 730
+	#The portion of the incoming damage Tourmaline Shields block in percent.
+	#Default: 80
+	tourmalineDamageReduction = 80
+	#The durability of the Bronze Shield.
+	#Default: 840
+	bronzeDurability = 840
+	#The portion of the incoming damage Ruby Shields block in percent.
+	#Default: 90
+	rubyDamageReduction = 90
+	#The durability of the Steel Shield.
+	#Default: 2000
+	steelDurability = 2000
+	#Allows the Thorns enchantment to by applied to Shields
+	#Default: true
+	thornsOnShields = true
+	#The portion of the incoming damage Graphene Shields block in percent.
+	#Default: 100
+	grapheneDamageReduction = 100
+	#The durability of the Turquoise Shield.
+	#Default: 3500
+	turquoiseDurability = 3500
+	#The portion of the incoming damage Silver Shields block in percent.
+	#Default: 65
+	silverDamageReduction = 65
+	#The durability of the Tourmaline Shield.
+	#Default: 3500
+	tourmalineDurability = 3500
+	#The portion of the incoming damage Cobalt Shields block in percent.
+	#Default: 65
+	cobaltDamageReduction = 65
+	#The durability of the Emerald Shield.
+	#Default: 2500
+	emeraldDurability = 2500
+	#The portion of the incoming damage Emerald Shields block in percent.
+	#Default: 80
+	emeraldDamageReduction = 80
+	#The portion of the incoming damage Moissanite Shields block in percent.
+	#Default: 95
+	moissaniteDamageReduction = 95
+	#The portion of the incoming damage Sapphire Shields block in percent.
+	#Default: 93
+	sapphireDamageReduction = 93
+	#The durability of the Moissanite Shield.
+	#Default: 5300
+	moissaniteDurability = 5300
+	#The portion of the incoming damage Tin Shields block in percent.
+	#Default: 60
+	tinDamageReduction = 60
+	#The durability of the Cobalt Shield.
+	#Default: 1300
+	cobaltDurability = 1300
+	#The portion of the incoming damage Sterling Silver Shields block in percent.
+	#Default: 75
+	sterlingDamageReduction = 75
+	#The portion of the incoming damage Vanilla Shields block in percent.
+	#Default: 60
+	defaultDamageReduction = 60
+	#The durability of the Tanzanite Shield.
+	#Default: 5100
+	tanzaniteDurability = 5100
+	#The portion of the incoming damage Copper Shields block in percent.
+	#Default: 60
+	copperDamageReduction = 60
+	#The durability of the Amethyst Shield.
+	#Default: 1250
+	amethystDurability = 1250
+
+#The ore configuration for this mod 
+#
+#Ores that contain any kind of metal are generated in 3 separate veins;
+#	frequent veins relatively high in the world, referred to as 'upper'
+#	medium veins distributed fairly evenly across the middle layer of the world, referred to as 'middle'
+#	smaller veins that are generated in a very wide radius, referred to as 'small'
+#
+#Ores that contain gemstones are also generated in 3 separate veins; Referred to as 'small', 'large' and 'buried'
+#Ores that have been generated buried means they will not spawn in contact with air, meaning they are rare.
+#The values for the vertical anchors correspond to the y value in your Minecraft world.
+#These values may also be below the world border of y=-64.
+[ores]
+	#Should sapphire spawn in the overworld
+	#Default: true
+	spawnSapphire = true
+	#Should ruby spawn in the nether (coming soon)
+	#Default: false
+	spawnNetherRuby = false
+	#Should moissanite spawn in the nether
+	#Default: true
+	spawnNetherMoissanite = true
+	#Should silver spawn in the overworld
+	#Default: true
+	spawnSilver = true
+	#Should cobalt spawn in the overworld
+	#Default: true
+	spawnCobalt = true
+	#Should moissanite spawn in the overworld
+	#Default: true
+	spawnMoissanite = true
+	#Should tourmaline spawn in the overworld
+	#Default: true
+	spawnTourmaline = true
+	#Should silver spawn in the nether
+	#Default: true
+	spawnNetherSilver = true
+	#Should sapphire spawn in the nether (coming soon)
+	#Default: false
+	spawnNetherSapphire = false
+	#Should onyx spawn in the end
+	#Default: true
+	spawnEndOnyx = true
+	#Should ruby spawn in the overworld
+	#Default: true
+	spawnRuby = true
+	#Should tanzanite spawn in the nether
+	#Default: true
+	spawnTanzanite = true
+	#Should turquoise spawn in the overworld
+	#Default: true
+	spawnTurquoise = true
+	#Should tin spawn in the overworld
+	#Default: true
+	spawnTin = true
+	#Should topaz spawn in the overworld
+	#Default: true
+	spawnTopaz = true
+
+#The entity configuration for this mod
+[entity]
+	#Should ducks spawn naturally
+	#Default: true
+	spawnDuck = true
+
