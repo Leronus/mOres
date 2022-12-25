@@ -11,7 +11,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = 'v2.3.5'
+version = 'v2.3.6'
 group = 'mod.mores'
 archivesBaseName = 'mores'
 
@@ -78,19 +78,20 @@ repositories {
     maven {
         url "https://www.cursemaven.com"
     }
+    mavenCentral()
 }
 
 dependencies {
-    implementation 'org.jetbrains:annotations:20.1.0'
+    implementation 'org.jetbrains:annotations:23.1.0'
 
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
-    runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
+//    runtimeOnly fg.deobf("curse.maven:attributefix-280510:3232225") //AttributeFix
 //    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs-417430:3441420") //Caves and Cliffs
 //    runtimeOnly fg.deobf("curse.maven:caves_and_cliffs_api-441706:3413535") //Caves and Cliffs API
-    runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
-    runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
-    runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
+//    runtimeOnly fg.deobf("curse.maven:xray-256256:3205011") //XRay for testing ore gen
+//    runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
+//    runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
 //    runtimeOnly fg.deobf("curse.maven:additional_banners-230137:3348557") // Additional Banners
 //    runtimeOnly fg.deobf("curse.maven:bookshelf-228525:3474499") // Bookshelf, needed for AB
 }
