@@ -1,13 +1,11 @@
 package mod.mores.block.entity;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import mod.mores.block.custom.AlloyFurnaceBlock;
 import mod.mores.item.ModItems;
-import mod.mores.recipe.AlloyFurnaceRecipe;
+import mod.mores.recipe.AlloyRecipe;
+import mod.mores.recipe.IAlloyRecipe;
 import mod.mores.recipe.ModRecipes;
 import mod.mores.screen.AlloyFurnaceMenu;
 import net.minecraft.core.BlockPos;
@@ -16,6 +14,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.Container;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleContainer;
@@ -28,7 +27,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.entity.*;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.ForgeHooks;
 import net.minecraftforge.common.capabilities.Capability;
@@ -40,25 +39,32 @@ import net.minecraftforge.items.wrapper.InvWrapper;
 import net.minecraftforge.items.wrapper.RecipeWrapper;
 import org.jetbrains.annotations.NotNull;
 
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Random;
 
 public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
 {
 
-    public static final int INPUT1_SLOT = 0;
-    public static final int INPUT2_SLOT = 1;
-    public static final int CATALYST_SLOT = 2;
-    public static final int OUTPUT_SLOT = 3;
-    public static final int FUEL_SLOT = 4;
+    public static final int INPUT1_SLOT = 1;
+    public static final int INPUT2_SLOT = 2;
+    public static final int CATALYST_SLOT = 3;
+    public static final int OUTPUT_SLOT = 4;
+    public static final int FUEL_SLOT = 0;
 
     private static final String INVENTORY_TAG = "inventory";
     private static final String SMELT_TIME_LEFT_TAG = "smeltTimeLeft";
     private static final String MAX_SMELT_TIME_TAG = "maxSmeltTime";
     private static final String FUEL_BURN_TIME_LEFT_TAG = "fuelBurnTimeLeft";
     private static final String MAX_FUEL_BURN_TIME_TAG = "maxFuelBurnTime";
+
+    // implement recipe-caching like all the cool kids.
+    protected IAlloyRecipe cachedRecipe;
+    protected ItemStack failedMatch1 = ItemStack.EMPTY;
+    protected ItemStack failedMatch2 = ItemStack.EMPTY;
+    protected ItemStack failedMatchC = ItemStack.EMPTY;
 
     public int smeltTimeLeft = -1;
     public int maxSmeltTime = -1;
@@ -227,7 +233,7 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
         final ItemStack input2 = pBlockEntity.itemHandler.getStackInSlot(INPUT2_SLOT).copy();
         final ItemStack catalyst = pBlockEntity.itemHandler.getStackInSlot(CATALYST_SLOT).copy();
 
-        final ItemStack result = pBlockEntity.getResult(pBlockEntity.itemHandler).orElse(ItemStack.EMPTY);
+        final ItemStack result = pBlockEntity.getResult(input1, input2, catalyst).orElse(ItemStack.EMPTY);
 
         if (!result.isEmpty())
         {
@@ -312,9 +318,9 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
      */
     private short getAlloyTime(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
     {
-        Optional<AlloyFurnaceRecipe> maybeRecipe = getRecipe(input1, input2, catalyst);
+        Optional<IAlloyRecipe> maybeRecipe = getRecipe(input1, input2, catalyst);
         if (maybeRecipe.isPresent()) {
-            return (short) ((AlloyFurnaceRecipe) maybeRecipe.get()).getCookTime();
+            return (short) ((AlloyRecipe) maybeRecipe.get()).getCookTime();
         }
         else {
             return 200;
@@ -368,23 +374,56 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
     /**
      * @return The smelting recipe for the input stack
      */
-    private Optional<AlloyFurnaceRecipe> getRecipe(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
+    private Optional<IAlloyRecipe> getRecipe(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
     {
-        SimpleContainer inv0 = new SimpleContainer(input1, input2, catalyst);
-        return level.getRecipeManager().getRecipeFor(AlloyFurnaceRecipe.Type.INSTANCE, inv0, level);
+        if (input1.isEmpty() || input2.isEmpty() || catalyst.isEmpty()
+                || (input1 == failedMatch1 && input2 == failedMatch2 && catalyst == failedMatchC))
+        {
+            return Optional.empty();
+        }
+        // Due to vanilla's code we need to pass an IInventory into
+        // RecipeManager#getRecipe, so we make one here.
+        return getRecipe(new SimpleContainer(input1, input2, catalyst));
     }
+    /**
+     * @return The alloying recipe for the inventory
+     */
+    private Optional<IAlloyRecipe> getRecipe(final Container inv)
+    {
+        RecipeWrapper inv0 = new RecipeWrapper(new InvWrapper(inv));
+        if (cachedRecipe != null && cachedRecipe.matches(inv0, level))
+        {
+            return Optional.of(cachedRecipe);
+        }
+        else
+        {
+            IAlloyRecipe rec
+                    = level.getRecipeManager().getRecipeFor(ModRecipes.ALLOY_TYPE.get(), inv0, level).orElse(null);
+            if (rec == null)
+            {
+                failedMatch1 = inv.getItem(INPUT1_SLOT);
+                failedMatch2 = inv.getItem(INPUT2_SLOT);
+                failedMatchC = inv.getItem(CATALYST_SLOT);
+            }
+            else {
+                failedMatch1 = ItemStack.EMPTY;
+                failedMatch2 = ItemStack.EMPTY;
+                failedMatchC = ItemStack.EMPTY;
+            }
+            cachedRecipe = rec;
+            return Optional.ofNullable(rec);
+        } // end-else
+    } // end getRecipe(IInventory)
 
     /**
      * @return The result of smelting the input stack
      */
-    private Optional<ItemStack> getResult(final ItemStackHandler inventory)
+    private Optional<ItemStack> getResult(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
     {
-        SimpleContainer inv0 = new SimpleContainer(inventory.getSlots());
-        Optional<AlloyFurnaceRecipe> recipe = getRecipe(inventory.getStackInSlot(INPUT1_SLOT), inventory.getStackInSlot(INPUT2_SLOT), inventory.getStackInSlot(CATALYST_SLOT));
-        ItemStack result = recipe.isPresent()
-                ? recipe.get().assemble(inv0)
-                : null;
-        return Optional.ofNullable(result);
+        RecipeWrapper inv0 = new RecipeWrapper(new InvWrapper(new SimpleContainer(input1, input2, catalyst)));
+        Optional<ItemStack> maybe_result = getRecipe(input1, input2, catalyst).map(recipe -> recipe.assemble(inv0));
+
+        return Optional.of(maybe_result.orElse(ItemStack.EMPTY));
     }
 
     public void grantExperience(Player player)
@@ -395,7 +434,7 @@ public class AlloyFurnaceBlockEntity extends BlockEntity implements MenuProvider
         {
             player.level.getRecipeManager().byKey(entry.getKey()).ifPresent((p_213993_3_) -> {
                 list.add(p_213993_3_);
-                spawnExpOrbs(player, entry.getValue(), ((AlloyFurnaceRecipe) p_213993_3_).getExperience());
+                spawnExpOrbs(player, entry.getValue(), ((AlloyRecipe) p_213993_3_).getExperience());
             });
         }
         player.awardRecipes(list);

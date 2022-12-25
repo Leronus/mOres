@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
 public class Mores
 {
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public static final String MODID = "mores";
 
@@ -60,7 +60,8 @@ public class Mores
         ModBlockEntities.register(bus);
         ModMenuTypes.register(bus);
 
-        ModRecipes.register(bus);
+        ModRecipes.RECIPE_TYPES.register(bus);
+        ModRecipes.RECIPE_SERIALIZERS.register(bus);
 //        ModEffects.register(bus);
 
 //        ModPotions.register(bus);

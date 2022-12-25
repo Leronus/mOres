@@ -1,27 +1,33 @@
 package mod.mores.recipe;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+
 import mod.mores.Mores;
+import mod.mores.recipe.IAlloyRecipe;
 import net.minecraft.core.NonNullList;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
-import net.minecraft.world.SimpleContainer;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.crafting.CraftingHelper;
+import net.minecraftforge.items.wrapper.RecipeWrapper;
+import net.minecraftforge.registries.ForgeRegistryEntry;
+import net.minecraftforge.server.ServerLifecycleHooks;
 
-import javax.annotation.Nullable;
-import java.util.ArrayList;
-import java.util.List;
-
-public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
+public class AlloyRecipe implements IAlloyRecipe
+{
     private final ResourceLocation id;
     private final ItemStack output;
     private final NonNullList<Ingredient> inputs;
@@ -33,8 +39,11 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
     private final int INPUT2_SLOT = 1;
     private final int CATALYST_SLOT = 2;
 
-    public AlloyFurnaceRecipe(ResourceLocation id, ItemStack output, int cook_time, float experience,
-                              Ingredient catalyst, Ingredient... inputs)
+    private static Set<Item> legal_inputs = new HashSet<Item>();
+    private static Set<Item> legal_catalysts = new HashSet<Item>();
+
+    public AlloyRecipe(ResourceLocation id, ItemStack output,  int cook_time, float experience,
+                        Ingredient catalyst, Ingredient... inputs)
     {
         this.id = id;
         this.output = output;
@@ -44,11 +53,53 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
         this.experience = experience;
     }
 
+    private static void initLegalisms()
+    {
+        Mores.LOGGER.info(Mores.MODID + ": in AlloyRecipe.InitLegalisms()");
+        Iterable<Recipe<?>> recipes =
+                ServerLifecycleHooks.getCurrentServer().getRecipeManager().getRecipes();
+        for (Recipe<?> recipe: recipes)
+        {
+            // we only want Alloy recipes.
+            if (recipe.getType() != ModRecipes.ALLOY_TYPE.get()) {
+                continue;
+            }
+
+            NonNullList<Ingredient> ingrs = recipe.getIngredients();
+            for (Ingredient ingr: ingrs)
+            {
+                for (ItemStack stack : ingr.getItems()) {
+                    legal_inputs.add(stack.getItem());
+                }
+            } // end-for
+            for (ItemStack stack : ((AlloyRecipe) recipe).getCatalyst().getItems())
+            {
+                legal_catalysts.add(stack.getItem());
+            }
+        } // end-for
+    } // end initLegalisms
+
+    public static boolean isInput(ItemStack stack)
+    {
+        if (legal_inputs.isEmpty()) {
+            initLegalisms();
+        }
+        return legal_inputs.contains(stack.getItem());
+    }
+
+    public static boolean isCatalyst(ItemStack stack)
+    {
+        if (legal_catalysts.isEmpty()) {
+            initLegalisms();
+        }
+        return legal_catalysts.contains(stack.getItem());
+    }
+
     /**
      * Used to check if a recipe matches current crafting inventory
      */
     @Override
-    public boolean matches(SimpleContainer inv, Level worldIn)
+    public boolean matches(RecipeWrapper inv, Level worldIn)
     {
         List<Ingredient> ingredientsMissing = new ArrayList<>(inputs);
 
@@ -87,6 +138,15 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
     } // end matches()
 
     /**
+     * Returns an Item that is the result of this recipe
+     */
+    @Override
+    public ItemStack assemble(RecipeWrapper inv)
+    {
+        return getResultItem().copy();
+    }
+
+    /**
      * Get the result of this recipe, usually for display purposes (e.g. recipe book). If your recipe has more than one
      * possible result (e.g. it's dynamic and depends on its inputs), then return an empty stack.
      */
@@ -97,19 +157,10 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
     }
 
     @Override
-    public ItemStack assemble(SimpleContainer pContainer) {
-        return output;
-    }
-
-    @Override
-    public boolean canCraftInDimensions(int pWidth, int pHeight) {
-        return true;
-    }
-
     public Ingredient getCatalyst()
     {
         return this.catalyst;
-    }
+    } // end class AlloyRecipe
 
 
     @Override
@@ -129,33 +180,26 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
         return this.cook_time;
     }
 
+    @Override
     public float getExperience()
     {
         return this.experience;
     }
 
     @Override
-    public RecipeSerializer<?> getSerializer() {
-        return Serializer.INSTANCE;
+    public RecipeSerializer<?> getSerializer()
+    {
+        return ModRecipes.ALLOY_SERIALIZER.get();
     }
 
-    @Override
-    public RecipeType<?> getType() {
-        return Type.INSTANCE;
-    }
 
-    public static class Type implements RecipeType<AlloyFurnaceRecipe> {
-        private Type() { }
-        public static final Type INSTANCE = new Type();
-        public static final String ID = "alloying";
-    }
-
-    public static class Serializer implements RecipeSerializer<AlloyFurnaceRecipe> {
-        public static final Serializer INSTANCE = new Serializer();
-        public static final ResourceLocation ID = new ResourceLocation(Mores.MODID,"alloying");
+    public static class AlloyRecipeSerializer extends ForgeRegistryEntry<RecipeSerializer<?>>
+            implements RecipeSerializer<AlloyRecipe>
+    {
 
         @Override
-        public AlloyFurnaceRecipe fromJson(ResourceLocation id, JsonObject json) {
+        public AlloyRecipe fromJson(ResourceLocation recipeId, JsonObject json)
+        {
             ItemStack output = CraftingHelper.getItemStack(GsonHelper.getAsJsonObject(json, "output"),
                     true);
             JsonArray ingrs = GsonHelper.getAsJsonArray(json, "inputs");
@@ -169,12 +213,13 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
             int cook_time = GsonHelper.getAsInt(json, "cookingtime");
             float experience = GsonHelper.getAsFloat(json, "experience");
 
-            return new AlloyFurnaceRecipe(id, output, cook_time, experience, catalyst,
+            return new AlloyRecipe(recipeId, output, cook_time, experience, catalyst,
                     inputs.toArray(new Ingredient[0]));
-        }
+        } // end read(json)
 
         @Override
-        public AlloyFurnaceRecipe fromNetwork(ResourceLocation id, FriendlyByteBuf buf) {
+        public AlloyRecipe fromNetwork(ResourceLocation recipeId, FriendlyByteBuf buf)
+        {
             Ingredient[] inputs = new Ingredient[buf.readVarInt()];
             for (int ii = 0; ii < inputs.length; ii++) {
                 inputs[ii] = Ingredient.fromNetwork(buf);
@@ -184,11 +229,12 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
             int cook_time = buf.readVarInt();
             float exp = buf.readFloat();
 
-            return new AlloyFurnaceRecipe(id, output, cook_time, exp, catalyst, inputs);
-        }
+            return new AlloyRecipe(recipeId, output, cook_time, exp, catalyst, inputs);
+        } // end read(packet)
 
         @Override
-        public void toNetwork(FriendlyByteBuf buf, AlloyFurnaceRecipe recipe) {
+        public void toNetwork(FriendlyByteBuf buf, AlloyRecipe recipe)
+        {
             buf.writeVarInt(recipe.getIngredients().size());
             for (Ingredient input : recipe.getIngredients()) {
                 input.toNetwork(buf);
@@ -197,27 +243,8 @@ public class AlloyFurnaceRecipe implements Recipe<SimpleContainer> {
             recipe.getCatalyst().toNetwork(buf);
             buf.writeVarInt(recipe.getCookTime());
             buf.writeFloat(recipe.getExperience());
-        }
+        } // end write(packet)
 
-        @Override
-        public RecipeSerializer<?> setRegistryName(ResourceLocation name) {
-            return INSTANCE;
-        }
+    } // end class AlloyRecipeSerializer
 
-        @Nullable
-        @Override
-        public ResourceLocation getRegistryName() {
-            return ID;
-        }
-
-        @Override
-        public Class<RecipeSerializer<?>> getRegistryType() {
-            return Serializer.castClass(RecipeSerializer.class);
-        }
-
-        @SuppressWarnings("unchecked") // Need this wrapper, because generics
-        private static <G> Class<G> castClass(Class<?> cls) {
-            return (Class<G>)cls;
-        }
-    }
-}
+} // end class AlloyRecipe
