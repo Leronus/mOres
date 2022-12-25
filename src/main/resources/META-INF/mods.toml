@@ -6,12 +6,17 @@ issueTrackerURL="https://github.com/Leronus/mOres/issues"
 modId="mores"
 version="${file.jarVersion}"
 displayName="mOres"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/better-shields"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mores-by-its-infinite"
 logoFile="mores_logo.png"
 credits="Hypnosheep - Wiki"
-authors="Its Infinite"
-description='''This mod adds tons of new tools, weapons and materials. This improves combat, exploration, and mining in particular. It adds much more variety and is very entertaining to play with friends.'''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+authors="Leronus"
+description='''
+This mod adds tons of new tools, weapons and materials.
+
+This improves combat, exploration, and mining in particular.
+
+It adds much more variety and is very entertaining to play with friends.
+'''
 [[dependencies.mores]]
     modId="forge"
     mandatory=true
