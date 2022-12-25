@@ -1,21 +1,30 @@
-package mod.mores.screen.slot;
+package mod.mores.api.helpers;
 
-import mod.mores.block.entity.AlloyFurnaceBlockEntity;
+import mod.mores.block.custom.AlloyFurnaceBlockEntity;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
-public class ModResultSlot extends SlotItemHandler {
+/**
+ * Based on vanilla FurnaceResultSlot class, but for SlotItemHandlers.
+ *
+ */
+public class FurnaceResultSlotItemHandler extends SlotItemHandler
+{
     private final Player player;
     private int removeCount;
-    private final BlockEntity tile;
+    private final BlockEntity blockEntity;
 
-    public ModResultSlot(IItemHandler itemHandler, int index, int x, int y, Player player, BlockEntity tile) {
-        super(itemHandler, index, x, y);
+    public FurnaceResultSlotItemHandler(Player player, IItemHandler itemHandler, BlockEntity be,
+                                        int index, int xPosition, int yPosition)
+    {
+        super(itemHandler, index, xPosition, yPosition);
         this.player = player;
-        this.tile = tile;
+        this.blockEntity = be;
     }
 
     /**
@@ -48,12 +57,12 @@ public class ModResultSlot extends SlotItemHandler {
     protected void checkTakeAchievements(ItemStack stack)
     {
         stack.onCraftedBy(this.player.level, this.player, this.removeCount);
-        if (!this.player.level.isClientSide && this.tile instanceof AlloyFurnaceBlockEntity)
+        if (this.player instanceof ServerPlayer && this.blockEntity instanceof AlloyFurnaceBlockEntity)
         {
-            ((AlloyFurnaceBlockEntity)this.tile).grantExperience(this.player);
+            ((AlloyFurnaceBlockEntity)this.blockEntity).grantExperience(this.player);
         }
         this.removeCount = 0;
-        net.minecraftforge.event.ForgeEventFactory.firePlayerSmeltedEvent(this.player, stack);
+        ForgeEventFactory.firePlayerSmeltedEvent(this.player, stack);
     } // end onCrafting
 
     @Override
@@ -62,4 +71,5 @@ public class ModResultSlot extends SlotItemHandler {
         this.checkTakeAchievements(stack);
         super.onTake(thePlayer, stack);
     }
-}
+
+} // end class

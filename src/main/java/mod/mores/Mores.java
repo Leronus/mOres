@@ -2,13 +2,12 @@ package mod.mores;
 
 import mod.mores.block.entity.ModBlockEntities;
 import mod.mores.config.Config;
-import mod.mores.entity.ModEntityTypes;
 import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.block.ModBlocks;
 import mod.mores.item.ModItems;
 import mod.mores.recipe.ModRecipes;
-import mod.mores.screen.AlloyFurnaceScreen;
-import mod.mores.screen.ModMenuTypes;
+import mod.mores.block.custom.screen.AlloyFurnaceScreen;
+import mod.mores.block.custom.screen.ModMenuTypes;
 import mod.mores.sound.ModSounds;
 import mod.mores.util.FuelHandler;
 import mod.mores.util.ModItemProperties;
@@ -16,12 +15,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.item.alchemy.Potions;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -32,8 +26,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("mores")
@@ -58,7 +50,7 @@ public class Mores
 //        ModFluids.register(bus);
 
         ModBlockEntities.register(bus);
-        ModMenuTypes.register(bus);
+        ModMenuTypes.CONTAINER_TYPES.register(bus);
 
         ModRecipes.RECIPE_TYPES.register(bus);
         ModRecipes.RECIPE_SERIALIZERS.register(bus);
@@ -99,7 +91,7 @@ public class Mores
 
         ModItemProperties.addCustomItemProperties();
 
-        MenuScreens.register(ModMenuTypes.ALLOY_FURNACE_MENU.get(), AlloyFurnaceScreen::new);
+        MenuScreens.register(ModMenuTypes.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
