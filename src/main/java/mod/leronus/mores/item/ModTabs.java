@@ -50,12 +50,12 @@ public class ModTabs extends CreativeModeTab {
     }).setRecipeFolderName("mores_weapons");
 
 //    //TODO Fix shields
-//    public static final CreativeModeTab MORES_SHIELDS = (new ModTabs(17, "mores_shields") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.COPPER_SHIELD.get());
-//        }
-//    }).setRecipeFolderName("mores_shields");
+    public static final CreativeModeTab MORES_SHIELDS = (new ModTabs(17, "mores_shields") {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.COPPER_SHIELD.get());
+        }
+    }).setRecipeFolderName("mores_shields");
 
     public static final CreativeModeTab MORES_ARMOR = (new ModTabs(18, "mores_armor") {
         @OnlyIn(Dist.CLIENT)

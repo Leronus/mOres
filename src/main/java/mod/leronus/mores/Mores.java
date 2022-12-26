@@ -2,7 +2,12 @@ package mod.leronus.mores;
 
 import com.mojang.logging.LogUtils;
 import mod.leronus.mores.block.ModBlocks;
+import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModItems;
+import mod.leronus.mores.item.client.ShieldTileEntityRenderer;
+import mod.leronus.mores.item.custom.ModShieldItem;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,6 +29,8 @@ public class Mores {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        //Load config
+        new Config();
 
         modEventBus.addListener(this::commonSetup);
 
@@ -41,7 +48,7 @@ public class Mores {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            //
+//            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ALLOY_FURNACE.get(), RenderType.translucent());
         }
     }
 }
