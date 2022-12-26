@@ -14,7 +14,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.0.6'
+version = '3.0.7'
 group = 'mod.mores.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mores'
 
@@ -91,7 +91,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v3.0.6",
+                "Specification-Version": "v3.0.7",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",

@@ -54,11 +54,11 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
 {
     protected static final Logger LOGGER = LogManager.getLogger();
 
-    public static final int INPUT1_SLOT = 0;
-    public static final int INPUT2_SLOT = 1;
-    public static final int CATALYST_SLOT = 2;
+    public static final int INPUT1_SLOT = 1;
+    public static final int INPUT2_SLOT = 2;
+    public static final int CATALYST_SLOT = 4;
     public static final int OUTPUT_SLOT = 3;
-    public static final int FUEL_SLOT = 4;
+    public static final int FUEL_SLOT = 0;
 
     public static final int DATA_FUEL_TIME_LEFT = 0;
     public static final int DATA_FUEL_TIME_MAX = 1;
@@ -85,7 +85,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
 
     private final Map<ResourceLocation, Integer> recipe2xp_map = Maps.newHashMap();
 
-    // used for improved fusion furnaces
+    // used for improved alloy furnaces
     protected boolean hasFuelMultiplier = false;
     protected double fuelMultiplier = 1.0;
     protected int YieldChance = 0;
@@ -349,7 +349,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
         if (stack.isEmpty())
             return false;
         boolean is_input = AlloyRecipe.isInput(stack);
-        //        Fusion.LOGGER.debug(Fusion.MODID + ": isInput() returns " + is_input);
         return is_input;
     }
 
@@ -358,7 +357,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
         if (stack.isEmpty())
             return false;
         boolean is_cata = AlloyRecipe.isCatalyst(stack);
-        //        Fusion.LOGGER.debug(Fusion.MODID + ": isCatalyst() returns " + is_cata);
         return is_cata;
     }
 
@@ -394,7 +392,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
             return Optional.empty();
         }
         // Due to vanilla's code we need to pass an IInventory into
-        // RecipeManager#getRecipe so we make one here.
+        // RecipeManager#getRecipe, so we make one here.
         return getRecipe(new SimpleContainer(input1, input2, catalyst));
     }
 
@@ -467,7 +465,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
             // improved fuel efficiency processing here.
             returnval = (int) Math.ceil(((double) ForgeHooks.getBurnTime(fuelstack, null)) * fuelMultiplier  * BURN_TIME_MODIFIER);
         }
-        // LOGGER.debug("[" + getDisplayName().getString() + "]VeryAbstractFurnaceTileEntity.getBurnDuration: returns " + returnval + " for " + fuelstack.toString());
         return returnval;
     } // end getBurnDuration
 
@@ -609,8 +606,6 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
                     ++tile.smeltTimeProgress;
                     if (tile.smeltTimeProgress >= tile.maxSmeltTime)
                     {
-//                        LOGGER.debug("tick: smeltTimeProgress=" + tile.smeltTimeProgress + ", maxSmeltTime=" + tile.maxSmeltTime);
-//                        LOGGER.debug("tick: fuelBurnTimeLeft=" + tile.fuelBurnTimeLeft + ", maxFuelBurnTime=" + tile.maxFuelBurnTime);
                         tile.smelt(result);
                         tile.smeltTimeProgress = 0;
                         if (!tile.inventory.getStackInSlot(INPUT1_SLOT).isEmpty()
@@ -626,7 +621,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
                             tile.maxSmeltTime = 0;
                         }
                         flag1 = true;
-                    } // end-if progess == maxTime
+                    } // end-if progress == maxTime
                 } // end-if burning and canBurn
                 else {
                     tile.smeltTimeProgress = 0;
@@ -681,7 +676,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
 
         // blockstate?
         if (this.hasLevel()) {
-            this.level.setBlockAndUpdate(getBlockPos(), this.getBlockState().setValue(AbstractAlloyFurnaceBlock.LIT, Boolean.valueOf(this.isBurning())));
+            this.level.setBlockAndUpdate(getBlockPos(), this.getBlockState().setValue(AbstractAlloyFurnaceBlock.LIT, this.isBurning()));
         }
 
     } // end load()
@@ -720,7 +715,7 @@ public abstract class AbstractAlloyFurnaceTileEntity extends BlockEntity
     /**
      * Called when you receive a TileEntityData packet for the location this
      * TileEntity is currently in. On the client, the NetworkManager will always
-     * be the remote server. On the server, it will be whomever is responsible for
+     * be the remote server. On the server, it will be whoever is responsible for
      * sending the packet.
      *
      * @param net The NetworkManager the packet originated from
