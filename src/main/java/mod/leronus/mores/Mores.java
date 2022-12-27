@@ -7,6 +7,8 @@ import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.recipe.ModRecipes;
+import mod.leronus.mores.world.feature.ModConfiguredFeatures;
+import mod.leronus.mores.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -24,6 +26,9 @@ public class Mores {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
         ModBlockEntities.TILE_ENTITY_TYPES.register(modEventBus);
         ModRecipes.RECIPE_TYPES.register(modEventBus);
         ModRecipes.RECIPE_SERIALIZERS.register(modEventBus);
