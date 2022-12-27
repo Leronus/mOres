@@ -38,12 +38,14 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
                     (85, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(60), VerticalAnchor.aboveBottom(340)))));
+                            (VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(20)))));
+
     public static final RegistryObject<PlacedFeature> SILVER_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("silver_ore_middle_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
                     (10, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(-30), VerticalAnchor.aboveBottom(65)))));
+                            (VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(20)))));
+
     public static final RegistryObject<PlacedFeature> SILVER_ORE_SMALL_PLACED = PLACED_FEATURES.register("silver_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (7, // VeinsPerChunk
@@ -54,7 +56,7 @@ public class ModPlacedFeatures {
         ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_SILVER_ORE.getHolder().get(), commonOrePlacement
                 (24, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256)))));
+                            (VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(20)))));
 
 
     //Cobalt Ore

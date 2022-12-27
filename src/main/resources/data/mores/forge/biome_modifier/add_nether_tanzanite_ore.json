@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": "#minecraft:is_nether",
   "features": "mores:nether_tanzanite_ore_placed",
   "step": "underground_ores"
 }
