@@ -1,6 +1,8 @@
 package mod.leronus.mores.block;
 
 import mod.leronus.mores.Mores;
+import mod.leronus.mores.api.helpers.LightUtils;
+import mod.leronus.mores.block.custom.AlloyFurnaceBlock;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.item.ModTabs;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -113,7 +115,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GRAPHENE_BLOCK = registerBlock("graphene_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_CYAN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()), ModTabs.MORES_BLOCKS);
 
-//    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))), ModTabs.MORES_BLOCKS);
+    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))), ModTabs.MORES_BLOCKS);
 
     private static ToIntFunction<BlockState> lit_makes_light() {
         return (bar) -> bar.getValue(BlockStateProperties.LIT) ? 13 : 0;

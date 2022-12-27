@@ -1,19 +1,15 @@
 package mod.leronus.mores;
 
 import com.mojang.logging.LogUtils;
+import mod.leronus.mores.block.ModBlockEntities;
 import mod.leronus.mores.block.ModBlocks;
+import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModItems;
-import mod.leronus.mores.item.client.ShieldTileEntityRenderer;
-import mod.leronus.mores.item.custom.ModShieldItem;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
+import mod.leronus.mores.recipe.ModRecipes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
@@ -28,27 +24,14 @@ public class Mores {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.TILE_ENTITY_TYPES.register(modEventBus);
+        ModRecipes.RECIPE_TYPES.register(modEventBus);
+        ModRecipes.RECIPE_SERIALIZERS.register(modEventBus);
+        ModContainers.CONTAINER_TYPES.register(modEventBus);
 
         //Load config
         new Config();
 
-        modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(() -> {
-            //
-        });
-    }
-
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-//            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ALLOY_FURNACE.get(), RenderType.translucent());
-        }
     }
 }
