@@ -12,19 +12,24 @@
   },
   "parent": "mores:ice_bucket_challenge",
   "criteria": {
-    "below_sea_level": {
+    "requirement": {
       "trigger": "minecraft:location",
       "conditions": {
-        "position": {
-          "y": {
-            "min": -64.0,
-            "max": -60.0
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 4,
+            "predicate": {
+              "position": {
+                "y": -63
+              }
+            }
           }
-        }
+        ]
       }
     }
   },
-    "rewards": {
+  "rewards": {
     "experience": 500
   }
 }
