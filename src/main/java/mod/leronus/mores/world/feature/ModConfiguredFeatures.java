@@ -1,6 +1,5 @@
 package mod.leronus.mores.world.feature;
 
-import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModBlocks;
@@ -17,6 +16,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
+import java.util.function.Supplier;
 
 public class ModConfiguredFeatures {
     public static final RuleTest END_STONE_REPLACEABLES = new BlockMatchTest(Blocks.END_STONE);
@@ -56,7 +56,7 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_SILVER_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TANZANITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_TANZANITE_ORE.get().defaultBlockState())
-           /*,OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TANZANITE_ORE.get().defaultBlockState())*/));
+            /*,OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TANZANITE_ORE.get().defaultBlockState())*/));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_MOISSANITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.MOISSANITE_NETHER_ORE.get().defaultBlockState())));
 
@@ -66,38 +66,38 @@ public class ModConfiguredFeatures {
     /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> TIN_ORE = CONFIGURED_FEATURES.register("tin_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(), 11))); /* pSize not below 2/3 */
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(), 10))); /* pSize not below 2/3 */
     public static final RegistryObject<ConfiguredFeature<?, ?>> TIN_ORE_SMALL = CONFIGURED_FEATURES.register("tin_ore_small",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(), 4))); /* pSize not below 2/3 */
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> COBALT_ORE = CONFIGURED_FEATURES.register("cobalt_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES.get(), 11, 1.0F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES.get(), 8, 0.8F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> COBALT_ORE_SMALL = CONFIGURED_FEATURES.register("cobalt_ore_small",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES.get(), 4, 1.0F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORES.get(), 4, 0.5F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> SILVER_ORE = CONFIGURED_FEATURES.register("silver_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES.get(), 10)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES.get(), 8)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> SILVER_ORE_SMALL = CONFIGURED_FEATURES.register("silver_ore_small",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORES.get(), 4)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_SILVER_ORE = CONFIGURED_FEATURES.register("nether_silver_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES.get(), 14)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES.get(), 9)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOPAZ_ORE_SMALL = CONFIGURED_FEATURES.register("topaz_ore_small",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 4, 0.5F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 4, 0.2F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOPAZ_ORE_LARGE = CONFIGURED_FEATURES.register("topaz_ore_large",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 12, 0.7F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 12, 0.6F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOPAZ_ORE_BURIED = CONFIGURED_FEATURES.register("topaz_ore_buried",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 8, 1.0F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(), 8, 0.8F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOURMALINE_ORE_SMALL = CONFIGURED_FEATURES.register("tourmaline_ore_small",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 4, 0.5F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 4, 0.1F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOURMALINE_ORE_LARGE = CONFIGURED_FEATURES.register("tourmaline_ore_large",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 12, 0.7F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 12, 0.8F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> TOURMALINE_ORE_BURIED = CONFIGURED_FEATURES.register("tourmaline_ore_buried",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 8, 1.0F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(), 8, 0.6F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_TANZANITE_ORE = CONFIGURED_FEATURES.register("nether_tanzanite_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_TANZANITE_ORES.get(), 9)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_TANZANITE_ORES.get(), 9, 0.5F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> SAPPHIRE_ORE_SMALL = CONFIGURED_FEATURES.register("sapphire_ore_small",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(), 4, 0.5F)));
@@ -124,14 +124,14 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(END_ONYX_ORES.get(), 6)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> MOISSANITE_ORE_SMALL = CONFIGURED_FEATURES.register("moissanite_ore_small",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(), 3, 0.5F)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(), 4, 0.5F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> MOISSANITE_ORE_LARGE = CONFIGURED_FEATURES.register("moissanite_ore_large",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(), 10, 0.7F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> MOISSANITE_ORE_BURIED = CONFIGURED_FEATURES.register("moissanite_ore_buried",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(), 6, 1.0F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_MOISSANITE_ORE = CONFIGURED_FEATURES.register("nether_moissanite_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES.get(), 3)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES.get(), 4)));
 
     public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);

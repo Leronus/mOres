@@ -18,43 +18,43 @@ public class ModPlacedFeatures {
     //Tin Ore
     public static final RegistryObject<PlacedFeature> TIN_ORE_UPPER_PLACED = PLACED_FEATURES.register("tin_ore_upper_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE.getHolder().get(), commonOrePlacement
-                    (30, // VeinsPerChunk
+                    (17, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(65), VerticalAnchor.aboveBottom(180)))));
+                            (VerticalAnchor.aboveBottom(85), VerticalAnchor.aboveBottom(210)))));
     public static final RegistryObject<PlacedFeature> TIN_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("tin_ore_middle_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE.getHolder().get(), commonOrePlacement
-                    (11, // VeinsPerChunk
+                    (8, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(25), VerticalAnchor.aboveBottom(60)))));
+                            (VerticalAnchor.aboveBottom(40), VerticalAnchor.aboveBottom(85)))));
     public static final RegistryObject<PlacedFeature> TIN_ORE_SMALL_PLACED = PLACED_FEATURES.register("tin_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE_SMALL.getHolder().get(), commonOrePlacement
-                    (6, // VeinsPerChunk
+                    (4, // VeinsPerChunk
                     HeightRangePlacement.uniform
-                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(20)))));
+                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(-40)))));
 
 
     //Silver Ore
     public static final RegistryObject<PlacedFeature> SILVER_ORE_UPPER_PLACED = PLACED_FEATURES.register("silver_ore_upper_placed",
-            ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), rareOrePlacement
-                    (13, // VeinsPerChunk
+            ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
+                    (14, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(90), VerticalAnchor.aboveBottom(165)))));
+                            (VerticalAnchor.aboveBottom(90), VerticalAnchor.aboveBottom(190)))));
 
     public static final RegistryObject<PlacedFeature> SILVER_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("silver_ore_middle_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
-                    (9, // VeinsPerChunk
+                    (10, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(60), VerticalAnchor.aboveBottom(100)))));
+                            (VerticalAnchor.aboveBottom(60), VerticalAnchor.aboveBottom(90)))));
 
     public static final RegistryObject<PlacedFeature> SILVER_ORE_SMALL_PLACED = PLACED_FEATURES.register("silver_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (6, // VeinsPerChunk
                     HeightRangePlacement.uniform
-                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(60)))));
+                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(0)))));
 
 /*nether*/public static final RegistryObject<PlacedFeature> NETHER_SILVER_ORE_PLACED = PLACED_FEATURES.register("nether_silver_ore_placed",
         ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_SILVER_ORE.getHolder().get(), commonOrePlacement
-                (24, // VeinsPerChunk
+                (18, // VeinsPerChunk
                     HeightRangePlacement.triangle
                             (VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256)))));
 
@@ -62,19 +62,19 @@ public class ModPlacedFeatures {
     //Cobalt Ore
     public static final RegistryObject<PlacedFeature> COBALT_ORE_UPPER_PLACED = PLACED_FEATURES.register("cobalt_ore_upper_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE.getHolder().get(), commonOrePlacement
-                    (12, // VeinsPerChunk
+                    (4, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(85), VerticalAnchor.aboveBottom(140)))));
+                            (VerticalAnchor.aboveBottom(100), VerticalAnchor.aboveBottom(120)))));
     public static final RegistryObject<PlacedFeature> COBALT_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("cobalt_ore_middle_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE.getHolder().get(), commonOrePlacement
-                    (18, // VeinsPerChunk
+                    (14, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(20), VerticalAnchor.aboveBottom(80)))));
+                            (VerticalAnchor.aboveBottom(60), VerticalAnchor.aboveBottom(100)))));
     public static final RegistryObject<PlacedFeature> COBALT_ORE_SMALL_PLACED = PLACED_FEATURES.register("cobalt_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE_SMALL.getHolder().get(), commonOrePlacement
-                    (8, // VeinsPerChunk
+                    (5, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(60)))));
+                            (VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(50)))));
 
 
     //Topaz Ore
