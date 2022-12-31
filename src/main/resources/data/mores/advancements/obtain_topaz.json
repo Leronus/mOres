@@ -3,7 +3,7 @@
     "title": "This Ain't No Emerald",
     "description": "Obtain a topaz gem",
     "icon": {
-      "item": "mores:topaz_ore"
+      "item": "mores:topaz_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

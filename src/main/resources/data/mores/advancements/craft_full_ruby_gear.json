@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Firestorm",
-    "description": "Craft the fiery tools as well as some fire resistant armor",
+    "description": "Craft all ruby tools as well as full ruby fire resistant armor",
     "icon": {
       "item": "mores:ruby_axe"
     },

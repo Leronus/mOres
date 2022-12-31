@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Godverdomme Lekker Broodje!",
-    "description": "You have done it. Collect all mOres materials!",
+    "title": "Taneleer Tivan",
+    "description": "Collect all mOres materials! Dat smaakt als een godverdomme lekker broodje.",
     "icon": {
-      "item": "mores:graphene_gem"
+      "item": "mores:deepslate_turqoise_ore"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

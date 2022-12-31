@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Give it a lick",
-    "description": "Tastes just like raisins",
+    "description": "Tastes just like raisins - Craft all horse armor",
     "icon": {
       "item": "mores:netherite_horse_armor"
     },
@@ -290,7 +290,7 @@
     }
   },
   "rewards": {
-    "experience": 100,
+    "experience": 1000,
     "function" : "mores:mores/play_my_horse"
   }
 }

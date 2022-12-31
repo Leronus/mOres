@@ -125,6 +125,6 @@
     ["craft_topaz_sword"], ["craft_topaz_pickaxe"], ["craft_topaz_axe"], ["craft_topaz_shovel"], ["craft_topaz_hoe"], ["craft_topaz_helmet"], ["craft_topaz_chestplate"], ["craft_topaz_leggings"], ["craft_topaz_boots"]
   ],
   "rewards": {
-    "experience": 275
+    "experience": 125
   }
 }

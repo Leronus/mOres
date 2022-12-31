@@ -15,9 +15,12 @@
     "eat_silver_apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": {
-          "item": "mores:silver_apple"
-        }
+        "items":
+        [
+          {
+          "items": ["mores:silver_apple"]
+          }
+        ]
       }
     }
   },

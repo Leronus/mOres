@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "minecraft:nether/root",
+  "parent": "mores:obtain_tanzanite",
   "criteria": {
     "obtain_tanzanite_armor": {
       "trigger": "minecraft:inventory_changed",

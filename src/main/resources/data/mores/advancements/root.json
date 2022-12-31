@@ -1,9 +1,9 @@
 {
   "display": {
     "title": "mOres",
-    "description": "made by Its Infinite",
+    "description": "made by Leronus",
     "icon": {
-      "item": "mores:alloy_furnace"
+      "item": "mores:raw_tin_block"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "mores:raw_tin"
+              "minecraft:crafting_table"
             ]
           }
         ]
