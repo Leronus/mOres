@@ -1,29 +1,29 @@
 {
   "display": {
-    "title": "Kratos",
-    "description": "You have crafted the strongest weapon in the game, the graphene battleaxe",
+    "title": "Less Shine, More Power",
+    "description": "Alloy a stronger version of silver using copper",
     "icon": {
-      "item": "mores:graphene_battleaxe"
+      "item": "mores:sterling_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_graphene",
+  "parent": "mores:craft_alloy_furnace",
   "criteria": {
-    "obtain_graphene": {
+    "obtain_sterling_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:graphene_battleaxe"
+            "items": ["mores:sterling_ingot"]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 35
   }
 }

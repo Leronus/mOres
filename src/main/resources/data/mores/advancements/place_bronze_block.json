@@ -1,9 +1,9 @@
 {
   "display": {
-    "title": "Oooruk",
-    "description": "Ate a bronze apple and became a hasty miner",
+    "title": "Crazy Frog",
+    "description": "What's going on???",
     "icon": {
-      "item": "mores:bronze_apple"
+      "item": "mores:bronze_block"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -12,16 +12,14 @@
   },
   "parent": "mores:obtain_bronze",
   "criteria": {
-    "eat_bronze_apple": {
-      "trigger": "minecraft:consume_item",
+    "place_bronze_block": {
+      "trigger": "minecraft:placed_block",
       "conditions": {
-        "item": {
-          "item": "mores:bronze_apple"
-        }
+        "block": "mores:bronze_block"
       }
     }
   },
   "rewards": {
-    "experience": 200
+    "experience": 100
   }
 }

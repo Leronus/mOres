@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_sterling",
+  "parent": "mores:obtain_sterling",
   "criteria": {
     "place_sterling_block": {
       "trigger": "minecraft:placed_block",

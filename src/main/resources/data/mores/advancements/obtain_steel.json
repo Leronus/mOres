@@ -1,29 +1,29 @@
 {
   "display": {
-    "title": "Time To Dig Deeper",
-    "description": "You have crafted a bronze pickaxe",
+    "title": "Hephaestos",
+    "description": "You have alloyed coal and iron into steel",
     "icon": {
-      "item": "mores:bronze_pickaxe"
+      "item": "mores:steel_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_bronze",
+  "parent": "mores:craft_alloy_furnace",
   "criteria": {
-    "obtain_copper_ore": {
+    "obtain_steel_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:bronze_pickaxe"
+            "items": ["mores:steel_ingot"]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 25
+    "experience": 30
   }
 }

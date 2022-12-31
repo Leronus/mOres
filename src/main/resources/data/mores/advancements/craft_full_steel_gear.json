@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Man of Steel",
-    "description": "You have crafted all tools and armor made of carbon steel",
+    "description": "You have crafted all tools and armor made from carbon steel",
     "icon": {
       "item": "mores:steel_boots"
     },
@@ -10,14 +10,14 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_steel",
+  "parent": "mores:obtain_steel",
   "criteria": {
     "cfs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_sword"
+            "items": ["mores:steel_sword"]
           }
         ]
       }
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_pickaxe"
+            "items": ["mores:steel_pickaxe"]
           }
         ]
       }
@@ -37,7 +37,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_axe"
+            "items": ["mores:steel_axe"]
           }
         ]
       }
@@ -47,7 +47,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_shovel"
+            "items": ["mores:steel_shovel"]
           }
         ]
       }
@@ -57,7 +57,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_hoe"
+            "items": ["mores:steel_hoe"]
           }
         ]
       }
@@ -67,7 +67,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_helmet"
+            "items": ["mores:steel_helmet"]
           }
         ]
       }
@@ -77,7 +77,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_chestplate"
+            "items": ["mores:steel_chestplate"]
           }
         ]
       }
@@ -87,7 +87,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_leggings"
+            "items": ["mores:steel_leggings"]
           }
         ]
       }
@@ -97,7 +97,7 @@
       "conditions": {
         "items": [
           {
-            "item": "mores:steel_boots"
+            "items": ["mores:steel_boots"]
           }
         ]
       }

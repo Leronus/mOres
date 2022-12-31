@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "The Bronze Age",
-    "description": "You have made your first alloy out of tin and copper",
+    "description": "Craft first alloy out of tin and copper",
     "icon": {
       "item": "mores:bronze_ingot"
     },
@@ -10,14 +10,14 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/craft_alloy_furnace",
+  "parent": "mores:craft_alloy_furnace",
   "criteria": {
     "obtain_steel_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:bronze_ingot"
+            "items": ["mores:bronze_ingot"]
           }
         ]
       }

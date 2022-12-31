@@ -1,29 +1,29 @@
 {
   "display": {
-    "title": "Less Shine, More Power",
-    "description": "You have alloyed a stronger version of silver with copper",
+    "title": "The Chemist",
+    "description": "Alloy onyx and diamond, the ultimate material...",
     "icon": {
-      "item": "mores:sterling_ingot"
+      "item": "mores:graphene_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/craft_alloy_furnace",
+  "parent": "mores:craft_alloy_furnace",
   "criteria": {
-    "obtain_sterling_ingot": {
+    "obtain_graphene_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:sterling_ingot"
+            "items": ["mores:graphene_gem"]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 35
+    "experience": 300
   }
 }

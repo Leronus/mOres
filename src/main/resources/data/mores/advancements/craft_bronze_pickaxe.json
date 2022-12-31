@@ -1,29 +1,31 @@
 {
   "display": {
-    "title": "Alloying Time",
-    "description": "You have crafted your very first Alloy Furnace",
+    "title": "Time To Dig Deeper",
+    "description": "Craft a bronze pickaxe",
     "icon": {
-      "item": "mores:alloy_furnace"
+      "item": "mores:bronze_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/obtain_tin_ore",
+  "parent": "mores:obtain_bronze",
   "criteria": {
-    "obtain_alloy_furnace": {
+    "obtain_bronze_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "mores:alloy_furnace"
+            "items": [
+              "mores:bronze_pickaxe"
+            ]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 50
   }
 }
