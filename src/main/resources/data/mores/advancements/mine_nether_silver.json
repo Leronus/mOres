@@ -3,7 +3,7 @@
     "title": "Silver McNugget",
     "description": "Obtain a silver nugget",
     "icon": {
-      "item": "mores:nether_silver_ore"
+      "item": "mores:silver_nugget"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
