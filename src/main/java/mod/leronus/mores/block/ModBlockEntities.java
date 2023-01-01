@@ -3,6 +3,7 @@ package mod.leronus.mores.block;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.custom.AlloyFurnaceBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -18,4 +19,8 @@ public final class ModBlockEntities
             TILE_ENTITY_TYPES.register("alloy_furnace",
                     () -> BlockEntityType.Builder.of(AlloyFurnaceBlockEntity::new,
                             ModBlocks.ALLOY_FURNACE.get()).build(null));
+
+    public static void register(IEventBus eventBus) {
+        TILE_ENTITY_TYPES.register(eventBus);
+    }
 } // end class

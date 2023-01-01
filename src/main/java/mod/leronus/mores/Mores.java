@@ -12,6 +12,7 @@ import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import mod.leronus.mores.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
@@ -30,11 +31,9 @@ public class Mores {
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
         ModLootModifiers.register(modEventBus);
-
-        ModBlockEntities.TILE_ENTITY_TYPES.register(modEventBus);
-        ModRecipes.RECIPE_TYPES.register(modEventBus);
-        ModRecipes.RECIPE_SERIALIZERS.register(modEventBus);
-        ModContainers.CONTAINER_TYPES.register(modEventBus);
+        ModRecipes.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModContainers.register(modEventBus);
 
         //Load config
         new Config();
