@@ -18,7 +18,7 @@ function initializeCoreMod() {
 function patchShieldLogic(classNode) {
     var Opcodes = Java.type('org.objectweb.asm.Opcodes');
     var MethodInsnNode = Java.type('org.objectweb.asm.tree.MethodInsnNode');
-    var owner = "mod/mores/datagen/Hooks";
+    var owner = "mod/leronus/mores/Hooks";
     var methods = classNode.methods;
     var method = null;
     for(var i in methods) {
