@@ -1,15 +1,8 @@
 package mod.leronus.mores.api.recipe;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-
-import mod.leronus.mores.Mores;
 import mod.leronus.mores.api.client.ClientOnlyWrapper;
 import mod.leronus.mores.recipe.ModRecipes;
 import net.minecraft.core.NonNullList;
@@ -26,6 +19,11 @@ import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.items.wrapper.RecipeWrapper;
 import net.minecraftforge.server.ServerLifecycleHooks;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class AlloyRecipe implements IAlloyRecipe
 {

@@ -1,0 +1,3 @@
+    public static final DeferredRegister<Block> VANILLA_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "minecraft");
+
+Used to replace vanilla blocks

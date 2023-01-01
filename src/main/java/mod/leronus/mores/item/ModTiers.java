@@ -7,7 +7,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 
 /**
- * Enum that initializes all the mOres toolmaterials
+ * Enum that initializes all the mOres tool materials
  * @author Leronus
  */
 public class ModTiers {

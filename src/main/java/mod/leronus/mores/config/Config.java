@@ -18,8 +18,6 @@ public class Config {
     private static final String CATEGORY_ENTITY = "entity";
     private static final String CATEGORY_ORES = "ores";
 
-//    private static final String SUB_CATEGORY_ORES_TIN = "silver";
-
 
     public static BooleanValue spawnDuck;
 

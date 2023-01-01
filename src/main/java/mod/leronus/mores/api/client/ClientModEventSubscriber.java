@@ -4,22 +4,15 @@ import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.block.custom.AlloyFurnaceContainer;
 import mod.leronus.mores.block.custom.screen.AlloyFurnaceScreen;
-import mod.leronus.mores.item.ModItems;
-import net.minecraft.world.inventory.MenuType;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-/**
- * Subscribe to events from the MOD EventBus that should be handled on the PHYSICAL CLIENT side in this class
- *
- * @author Sinhika
- */
 @EventBusSubscriber(modid= Mores.MODID, bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
 public class ClientModEventSubscriber
 {

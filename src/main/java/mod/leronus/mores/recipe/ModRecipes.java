@@ -15,8 +15,6 @@ public class ModRecipes
     public static final DeferredRegister<RecipeType<?>> RECIPE_TYPES =
             DeferredRegister.create(Registry.RECIPE_TYPE_REGISTRY.location(), Mores.MODID);
 
-//    public static final RecipeType<IAlloyRecipe> ALLOY_TYPE = RecipeType.register(IAlloyRecipe.TYPE_ID.toString());
-//    Registry.register(Registry.RECIPE_TYPE, IAlloyRecipe.TYPE_ID, ModRecipes.ALLOY_TYPE);
 
     public static final RegistryObject<RecipeType<IAlloyRecipe>> ALLOY_TYPE =
             RECIPE_TYPES.register(IAlloyRecipe.TYPE_ID.getPath(), ()-> new RecipeType<IAlloyRecipe>() {}) ;
@@ -25,10 +23,8 @@ public class ModRecipes
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS =
             DeferredRegister.create(ForgeRegistries.Keys.RECIPE_SERIALIZERS, Mores.MODID);
 
-    //evt.getRegistry().register(ModRecipes.ALLOY_SERIALIZER.setRegistryName(IAlloyRecipe.TYPE_ID));
-
     public static final RegistryObject<RecipeSerializer<AlloyRecipe>> ALLOY_SERIALIZER =
-            RECIPE_SERIALIZERS.register(IAlloyRecipe.TYPE_ID.getPath(), () -> new AlloyRecipe.AlloyRecipeSerializer());
+            RECIPE_SERIALIZERS.register(IAlloyRecipe.TYPE_ID.getPath(), AlloyRecipe.AlloyRecipeSerializer::new);
 
 
 } // end class ModRecipes

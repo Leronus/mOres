@@ -6,12 +6,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.items.IItemHandlerModifiable;
 
-/**
- * Intended for anonymous subclasses. Encode side restrictions in overridden methods.
- *
- * @author Sinhika
- *
- */
 public class SidedWrapper implements IItemHandlerModifiable
 {
     protected final IItemHandlerModifiable inventory;
