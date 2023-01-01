@@ -1,9 +1,9 @@
 package mod.leronus.mores.item;
 
 import mod.leronus.mores.Mores;
-import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.custom.ModArmorItem;
+import mod.leronus.mores.item.custom.ModBattleAxeItem;
 import mod.leronus.mores.item.custom.ModShieldItem;
 import mod.leronus.mores.item.custom.ModSwordItem;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -61,7 +61,7 @@ public class ModItems {
     public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).meat().build())));
 
-//    public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(3).saturationMod(0.4F).effect(() -> new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
 //    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ItemSpawnEgg(EntityTypeInit.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
 
@@ -219,40 +219,40 @@ public class ModItems {
     //All battleaxes
     //p_i48460_2_: Attack Damage (1 = 1 Attack Point)
     //p_i48460_3_: Attack Speed (1.0F = ... Attack Speed)
-    public static final RegistryObject<Item> WOOD_BATTLEAXE = ITEMS.register("wood_battleaxe", () -> new AxeItem(Tiers.WOOD, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STONE_BATTLEAXE = ITEMS.register("stone_battleaxe", () -> new AxeItem(Tiers.STONE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> IRON_BATTLEAXE = ITEMS.register("iron_battleaxe", () -> new AxeItem(Tiers.IRON, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> GOLD_BATTLEAXE = ITEMS.register("gold_battleaxe", () -> new AxeItem(Tiers.GOLD, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> DIAMOND_BATTLEAXE = ITEMS.register("diamond_battleaxe", () -> new AxeItem(Tiers.DIAMOND, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> NETHERITE_BATTLEAXE = ITEMS.register("netherite_battleaxe", () -> new AxeItem(Tiers.NETHERITE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> WOOD_BATTLEAXE = ITEMS.register("wood_battleaxe", () -> new ModBattleAxeItem(Tiers.WOOD, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STONE_BATTLEAXE = ITEMS.register("stone_battleaxe", () -> new ModBattleAxeItem(Tiers.STONE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> IRON_BATTLEAXE = ITEMS.register("iron_battleaxe", () -> new ModBattleAxeItem(Tiers.IRON, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GOLD_BATTLEAXE = ITEMS.register("gold_battleaxe", () -> new ModBattleAxeItem(Tiers.GOLD, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> DIAMOND_BATTLEAXE = ITEMS.register("diamond_battleaxe", () -> new ModBattleAxeItem(Tiers.DIAMOND, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> NETHERITE_BATTLEAXE = ITEMS.register("netherite_battleaxe", () -> new ModBattleAxeItem(Tiers.NETHERITE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TIN_BATTLEAXE = ITEMS.register("tin_battleaxe", () -> new AxeItem(ModTiers.TIN, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COPPER_BATTLEAXE = ITEMS.register("copper_battleaxe", () -> new AxeItem(ModTiers.COPPER, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TIN_BATTLEAXE = ITEMS.register("tin_battleaxe", () -> new ModBattleAxeItem(ModTiers.TIN, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COPPER_BATTLEAXE = ITEMS.register("copper_battleaxe", () -> new ModBattleAxeItem(ModTiers.COPPER, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> SILVER_BATTLEAXE = ITEMS.register("silver_battleaxe", () -> new AxeItem(ModTiers.SILVER, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SILVER_BATTLEAXE = ITEMS.register("silver_battleaxe", () -> new ModBattleAxeItem(ModTiers.SILVER, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> BRONZE_BATTLEAXE = ITEMS.register("bronze_battleaxe", () -> new AxeItem(ModTiers.BRONZE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> BRONZE_BATTLEAXE = ITEMS.register("bronze_battleaxe", () -> new ModBattleAxeItem(ModTiers.BRONZE, 5, -2.8F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> OBSIDIAN_BATTLEAXE = ITEMS.register("obsidian_battleaxe", () -> new AxeItem(ModTiers.OBSIDIAN, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_battleaxe", () -> new AxeItem(ModTiers.COBALT, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STEEL_BATTLEAXE = ITEMS.register("steel_battleaxe", () -> new AxeItem(ModTiers.STEEL, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> STERLING_BATTLEAXE = ITEMS.register("sterling_battleaxe", () -> new AxeItem(ModTiers.STERLING, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> OBSIDIAN_BATTLEAXE = ITEMS.register("obsidian_battleaxe", () -> new ModBattleAxeItem(ModTiers.OBSIDIAN, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> COBALT_BATTLEAXE = ITEMS.register("cobalt_battleaxe", () -> new ModBattleAxeItem(ModTiers.COBALT, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STEEL_BATTLEAXE = ITEMS.register("steel_battleaxe", () -> new ModBattleAxeItem(ModTiers.STEEL, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> STERLING_BATTLEAXE = ITEMS.register("sterling_battleaxe", () -> new ModBattleAxeItem(ModTiers.STERLING, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> AMETHYST_BATTLEAXE = ITEMS.register("amethyst_battleaxe", () -> new AxeItem(ModTiers.AMETHYST, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> EMERALD_BATTLEAXE = ITEMS.register("emerald_battleaxe", () -> new AxeItem(ModTiers.EMERALD, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> AMETHYST_BATTLEAXE = ITEMS.register("amethyst_battleaxe", () -> new ModBattleAxeItem(ModTiers.AMETHYST, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> EMERALD_BATTLEAXE = ITEMS.register("emerald_battleaxe", () -> new ModBattleAxeItem(ModTiers.EMERALD, 5, -2.7F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> TOPAZ_BATTLEAXE = ITEMS.register("topaz_battleaxe", () -> new AxeItem(ModTiers.TOPAZ, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TOURMALINE_BATTLEAXE = ITEMS.register("tourmaline_battleaxe", () -> new AxeItem(ModTiers.TOURMALINE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TANZANITE_BATTLEAXE = ITEMS.register("tanzanite_battleaxe", () -> new AxeItem(ModTiers.TANZANITE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOPAZ_BATTLEAXE = ITEMS.register("topaz_battleaxe", () -> new ModBattleAxeItem(ModTiers.TOPAZ, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TOURMALINE_BATTLEAXE = ITEMS.register("tourmaline_battleaxe", () -> new ModBattleAxeItem(ModTiers.TOURMALINE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TANZANITE_BATTLEAXE = ITEMS.register("tanzanite_battleaxe", () -> new ModBattleAxeItem(ModTiers.TANZANITE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> RUBY_BATTLEAXE = ITEMS.register("ruby_battleaxe", () -> new AxeItem(ModTiers.RUBY, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> SAPPHIRE_BATTLEAXE = ITEMS.register("sapphire_battleaxe", () -> new AxeItem(ModTiers.SAPPHIRE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> TURQUOISE_BATTLEAXE = ITEMS.register("turquoise_battleaxe", () -> new AxeItem(ModTiers.TURQUOISE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> RUBY_BATTLEAXE = ITEMS.register("ruby_battleaxe", () -> new ModBattleAxeItem(ModTiers.RUBY, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> SAPPHIRE_BATTLEAXE = ITEMS.register("sapphire_battleaxe", () -> new ModBattleAxeItem(ModTiers.SAPPHIRE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> TURQUOISE_BATTLEAXE = ITEMS.register("turquoise_battleaxe", () -> new ModBattleAxeItem(ModTiers.TURQUOISE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new AxeItem(ModTiers.MOISSANITE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
-    public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new AxeItem(ModTiers.ONYX, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> MOISSANITE_BATTLEAXE = ITEMS.register("moissanite_battleaxe", () -> new ModBattleAxeItem(ModTiers.MOISSANITE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> ONYX_BATTLEAXE = ITEMS.register("onyx_battleaxe", () -> new ModBattleAxeItem(ModTiers.ONYX, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
-    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new AxeItem(ModTiers.GRAPHENE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
+    public static final RegistryObject<Item> GRAPHENE_BATTLEAXE = ITEMS.register("graphene_battleaxe", () -> new ModBattleAxeItem(ModTiers.GRAPHENE, 5, -2.6F, new Item.Properties().tab(ModTabs.MORES_WEAPONS)));
 
 
     //All maces

@@ -1,14 +1,13 @@
+- Retexturing sapphire / ruby?
+- Add anthracite ore (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
+- Autosmelt fix
+
+---------------------------------------------------------
+
 OREGEN:
-- Change silver pSize (chunks too big)
-- Change tin pSize (chunks can be too big)
-- Cobalt buff (?), pSize could also be lowered
-- Cobalt height?
-- Tourmaline / topaz height? (+20 -> -10)
+- Nether rarity for tanzanite
+- Fix tanzanite blockmatchruletest
 
-- Ruby / Sapphire rarity / height
-- Turquoise / Moissanite rarity
-
-- Nether rarity
 
 ---------------------------------------------------------
 
@@ -19,22 +18,21 @@ ENTITY:
 
 ---------------------------------------------------------
 
-- TOOLTIPS
-
-- AUTOSMELTER (ruby pickaxe)
-
-- FIX AMETHYST
-
 - CONFIG
 
 - ARMOR / TIER rebalancing
 
-- FUEL HANDLER for Rooiekool
-
-- ADD OLD ADVANCEMENTS (1.16 to 1.19) & fix WAAR ZIJN JULLIE? advancement
+- fix WAAR ZIJN JULLIE? advancement
 
 
 --------------------------------------------------------
 
 - ADD OTHER IDEAS (crop)
+
+- Ruby / Sapphire rarity / height
+- Turquoise / Moissanite rarity
+
+- FUEL HANDLER for Rooiekool
+
+- ADD OLD ADVANCEMENTS (1.16 to 1.19)
 

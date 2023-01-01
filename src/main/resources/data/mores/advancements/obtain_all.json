@@ -84,18 +84,6 @@
         ]
       }
     },
-    "obtain_amethyst_gem": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "mores:amethyst_gem"
-            ]
-          }
-        ]
-      }
-    },
     "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -206,7 +194,7 @@
     }
   },
   "requirements": [
-    ["obtain_tin_ingot"], ["obtain_bronze_ingot"], ["obtain_silver_ingot"], ["obtain_steel_ingot"], ["obtain_sterling_ingot"], ["obtain_cobalt_ingot"], ["obtain_amethyst_gem"], ["obtain_topaz_gem"], ["obtain_tourmaline"], ["obtain_ruby_gem"], ["obtain_sapphire_gem"], ["obtain_turquoise_gem"], ["obtain_onyx_gem"], ["obtain_tanzanite_gem"], ["obtain_turquoise_gem"], ["obtain_moissanite_gem"], ["obtain_graphene_gem"]
+    ["obtain_tin_ingot"], ["obtain_bronze_ingot"], ["obtain_silver_ingot"], ["obtain_steel_ingot"], ["obtain_sterling_ingot"], ["obtain_cobalt_ingot"], ["obtain_topaz_gem"], ["obtain_tourmaline"], ["obtain_ruby_gem"], ["obtain_sapphire_gem"], ["obtain_turquoise_gem"], ["obtain_onyx_gem"], ["obtain_tanzanite_gem"], ["obtain_turquoise_gem"], ["obtain_moissanite_gem"], ["obtain_graphene_gem"]
   ],
   "rewards": {
     "experience": 500

@@ -149,7 +149,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "mores:rooiekool",
+          "name": "mores:anthracite",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,6 +1,8 @@
 {
-	"conditions":
-	[
+	"conditions": [
+		{
+			"condition": "minecraft:alternative",
+			"terms": [
 				{
 					"condition": "minecraft:match_tool",
 					"predicate": {
@@ -19,6 +21,8 @@
 						"item": "mores:ruby_shovel"
 					}
 				}
+			]
+		}
 	],
-	"type": "mores:auto_smelt_tool"
+	"function": "mores:auto_smelt_tool"
 }

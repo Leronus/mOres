@@ -52,7 +52,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "mores:amethyst_gem",
+          "name": "mores:tourmaline_gem",
           "functions": [
             {
               "function": "minecraft:set_count",

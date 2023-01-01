@@ -5,6 +5,7 @@ import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModArmorMaterials;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.item.custom.ModArmorItem;
+import mod.leronus.mores.item.custom.ModBattleAxeItem;
 import mod.leronus.mores.item.custom.ModShieldItem;
 import mod.leronus.mores.item.custom.ModSwordItem;
 import net.minecraft.ChatFormatting;
@@ -30,7 +31,7 @@ public class TooltipHandler {
 
             if (shield == Items.SHIELD) {
                 tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
-                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction + "%"));
+                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction.get() + "%"));
             } else if (shield instanceof ModShieldItem modShieldItem) {
                 tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
                         .append(": " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%"));
@@ -63,8 +64,8 @@ public class TooltipHandler {
                     Tiers wood = Tiers.WOOD;
                     tooltip.add(Component.translatable(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + wood.getUses()));
                 }
-                if (e.getItemStack().getItem() instanceof ModSwordItem modded_sword){
-                    tooltip.add(Component.translatable(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + modded_sword.getMaxUses()));
+                if (e.getItemStack().getItem() instanceof ModSwordItem moddedSword){
+                    tooltip.add(Component.translatable(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + moddedSword.getMaxUses()));
                     if (e.getItemStack().getItem() == ModItems.ONYX_SWORD.get() || e.getItemStack().getItem() == ModItems.ONYX_MACE.get() || e.getItemStack().getItem() == ModItems.ONYX_DAGGER.get() || e.getItemStack().getItem() == ModItems.ONYX_BATTLEAXE.get()) {
                         tooltip.add(Component.translatable(ChatFormatting.GRAY + "Bonus: " + ChatFormatting.DARK_GRAY + "Wither Effect"));
                     }
@@ -148,11 +149,15 @@ public class TooltipHandler {
             }
         }
         if (e.getItemStack().getItem() instanceof TieredItem tieredItem) {
-            if (!(e.getItemStack().getItem() instanceof SwordItem)) {
-                List<Component> tooltip = e.getToolTip();
-                tooltip.add(Component.literal(""));
+            List<Component> tooltip = e.getToolTip();
+            tooltip.add(Component.literal(""));
+
+            if (e.getItemStack().getItem() instanceof ModBattleAxeItem moddedBattleAxe) {
+                tooltip.add(Component.translatable(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + moddedBattleAxe.getTier().getUses()));
+            }
+            if (!(e.getItemStack().getItem() instanceof SwordItem) && !(e.getItemStack().getItem() instanceof ModBattleAxeItem)) {
                 tooltip.add(Component.translatable(ChatFormatting.GRAY + "Harvest Level: " + ChatFormatting.GOLD + tieredItem.getTier().getLevel()));
-                tooltip.add(Component.translatable(ChatFormatting.GRAY + "Max Uses: " + ChatFormatting.LIGHT_PURPLE + tieredItem.getTier().getUses()));
+                tooltip.add(Component.translatable(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + tieredItem.getTier().getUses()));
                 tooltip.add(Component.translatable(ChatFormatting.GRAY + "Efficiency: " + ChatFormatting.RED + tieredItem.getTier().getSpeed()));
             }
         }

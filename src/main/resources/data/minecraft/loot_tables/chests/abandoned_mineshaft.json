@@ -53,7 +53,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "mores:amethyst_gem",
+          "name": "mores:topaz_gem",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -123,7 +123,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "mores:rooiekool",
+          "name": "mores:anthracite",
           "functions": [
             {
               "function": "minecraft:set_count",
