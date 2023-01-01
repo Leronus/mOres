@@ -6,6 +6,7 @@ import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModItems;
+import mod.leronus.mores.loot.ModLootModifiers;
 import mod.leronus.mores.recipe.ModRecipes;
 import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import mod.leronus.mores.world.feature.ModPlacedFeatures;
@@ -28,6 +29,7 @@ public class Mores {
         ModBlocks.register(modEventBus);
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         ModBlockEntities.TILE_ENTITY_TYPES.register(modEventBus);
         ModRecipes.RECIPE_TYPES.register(modEventBus);

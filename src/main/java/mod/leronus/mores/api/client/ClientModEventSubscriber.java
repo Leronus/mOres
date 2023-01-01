@@ -1,5 +1,6 @@
-package mod.leronus.mores;
+package mod.leronus.mores.api.client;
 
+import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.block.custom.AlloyFurnaceContainer;
 import mod.leronus.mores.block.custom.screen.AlloyFurnaceScreen;
@@ -19,7 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
  *
  * @author Sinhika
  */
-@EventBusSubscriber(modid=Mores.MODID, bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
+@EventBusSubscriber(modid= Mores.MODID, bus=EventBusSubscriber.Bus.MOD, value=Dist.CLIENT)
 public class ClientModEventSubscriber
 {
     private static final Logger LOGGER = LogManager.getLogger(Mores.MODID + " Client Mod Event Subscriber");
@@ -36,7 +37,7 @@ public class ClientModEventSubscriber
     public static void onFMLClientSetupEvent(final FMLClientSetupEvent event)
     {
         // Register ContainerType Screens
-        // ScreenManager.registerFactory is not safe to call during parallel mod loading so we queue it to run later
+        // ScreenManager.registerFactory is not safe to call during parallel mod loading, so we queue it to run later
         event.enqueueWork(() -> {
             MenuScreens.register((MenuType<AlloyFurnaceContainer>) ModContainers.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
             LOGGER.debug("Registered ContainerType Screens");
