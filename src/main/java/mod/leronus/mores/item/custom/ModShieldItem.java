@@ -3,7 +3,9 @@ package mod.leronus.mores.item.custom;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.item.ModTabs;
 import mod.leronus.mores.item.client.ShieldTileEntityRenderer;
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.LazyLoadedValue;
@@ -20,6 +22,7 @@ import net.minecraftforge.event.entity.living.ShieldBlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 
+import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.function.Consumer;
@@ -114,7 +117,7 @@ public class ModShieldItem extends ShieldItem {
 
     @SubscribeEvent
     public static void onShieldBlock(ShieldBlockEvent e) {
-        if (Config.customShieldMaxReduction.get()) {
+        if (Config.enableDamageReduction.get()) {
             float damage = e.getOriginalBlockedDamage();
             LivingEntity victim = e.getEntity();
             DamageSource source = e.getDamageSource();
@@ -149,18 +152,9 @@ public class ModShieldItem extends ShieldItem {
         }
     }
 
-//    /**
-//     * Creates a {@link TranslatableComponent} for the 'when blocking' tooltip.
-//     *
-//     * @return the new text component.
-//     */
-//    public static Component getBlockingTextComponent() {
-//        return new TranslatableComponent("mores.shield_blocking").withStyle(ChatFormatting.GRAY);
-//    }
-
-//    @Override
-//    public void appendHoverText(ItemStack stack, @Nullable Level worldIn, List<TextComponent> tooltip, TooltipFlag flagIn) {
-//        tooltip.add(TextComponent("Max Uses: " + ChatFormatting.LIGHT_PURPLE + durability));
-//        super.appendHoverText(stack, worldIn, tooltip, flagIn);
-//    }
+    public static Component getDamageReductionTextComponent(int reduction) {
+        Component damageReduction = Component.translatable("mores.shield_damage_reduction", reduction).withStyle(ChatFormatting.DARK_GREEN);
+        Component actualReduction = Component.translatable(reduction + "% ").withStyle(ChatFormatting.GOLD);
+        return Component.translatable(damageReduction.getString(), actualReduction.getString());
+    }
 }

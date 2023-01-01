@@ -152,6 +152,8 @@ public class Config {
 //    public static ConfigValue<Integer> netherMoissaniteBottom;
 
     public static BooleanValue thornsOnShields;
+    public static BooleanValue enableDamageReduction;
+
 
     public static ForgeConfigSpec spec;
 
@@ -346,6 +348,8 @@ public class Config {
 //                "The durability of the Netherite Shield.");
         thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELD, true,
                 "Allows the Thorns enchantment to by applied to Shields");
+        enableDamageReduction = getBoolean("enableDamageReduction", CATEGORY_SHIELD, true,
+                "Enables modified damage reduction values for shields.");
     }
 
     private void entityConfig(){
