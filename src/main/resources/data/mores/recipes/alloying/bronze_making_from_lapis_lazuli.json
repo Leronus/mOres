@@ -17,7 +17,7 @@
         }
     ],
     "catalyst": {
-	"item": "minecraft:amethyst_shard"
+	"item": "minecraft:lapis_lazuli"
     },
     "output": {
         "item": "mores:bronze_ingot",

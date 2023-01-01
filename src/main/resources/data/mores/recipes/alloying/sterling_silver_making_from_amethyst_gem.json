@@ -17,7 +17,7 @@
         }
     ],
     "catalyst": {
-        "item": "mores:amethyst_gem"
+        "item": "minecraft:amethyst_shard"
     },
     "output": {
         "item": "mores:sterling_ingot",

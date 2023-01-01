@@ -10,17 +10,17 @@
     "experience": 2.0,
     "inputs": [
         {
-            "item": "minecraft:copper_ingot"
+            "tag": "minecraft:coals"
         },
         {
-            "item": "mores:tin_ingot"
+            "item": "minecraft:iron_ingot"
         }
     ],
     "catalyst": {
-	"item": "minecraft:amethyst_shard"
+	"item": "minecraft:lapis_lazuli"
     },
     "output": {
-        "item": "mores:bronze_ingot",
+        "item": "mores:steel_ingot",
         "count": 1
     }
 }

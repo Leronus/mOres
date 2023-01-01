@@ -19,7 +19,7 @@ public class ModTiers {
     public static final ForgeTier COBALT = new ForgeTier(2, 350, 6.5F, 2.2F, 12, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.COBALT_INGOT.get()));
     public static final ForgeTier STEEL = new ForgeTier(3, 600, 6.2F, 2.5F, 18, BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ModItems.STEEL_INGOT.get()));
     public static final ForgeTier OBSIDIAN = new ForgeTier(3, 1800, 6.5F, 2.5F, 6,  BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items.OBSIDIAN));
-    public static final ForgeTier AMETHYST = new ForgeTier(2, 700, 6.5F, 2.5F, 8,  BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.AMETHYST_GEM.get()));
+    public static final ForgeTier AMETHYST = new ForgeTier(2, 700, 6.5F, 2.5F, 8,  BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(Items.AMETHYST_SHARD));
     public static final ForgeTier EMERALD = new ForgeTier(3, 900, 7.0F, 3.0F, 17,  BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.EMERALD));
     public static final ForgeTier TOPAZ = new ForgeTier(2, 1300, 7.5F, 3.0F, 14,  BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.TOPAZ_GEM.get()));
     public static final ForgeTier TOURMALINE = new ForgeTier(2, 1500, 7.5F, 3.0F, 13, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.TOURMALINE_GEM.get()));
