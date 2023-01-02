@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:blocks/cobbled_deepslate"
+    "all": "mores:block/cobbled_deepslate"
   }
 }

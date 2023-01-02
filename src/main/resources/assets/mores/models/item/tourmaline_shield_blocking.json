@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/tourmaline_block"
+        "particle": "mores:block/tourmaline_block"
     }
 }

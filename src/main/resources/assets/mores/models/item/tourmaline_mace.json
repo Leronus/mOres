@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/tourmaline_mace"
+    "layer0": "mores:item/tourmaline_mace"
   }
 }

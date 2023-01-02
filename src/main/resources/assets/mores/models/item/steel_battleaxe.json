@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/steel_battleaxe"
+    "layer0": "mores:item/steel_battleaxe"
   }
 }

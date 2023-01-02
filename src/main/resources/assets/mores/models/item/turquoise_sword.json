@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/turquoise_sword"
+    "layer0": "mores:item/turquoise_sword"
   }
 }

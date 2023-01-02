@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/tin_sword"
+    "layer0": "mores:item/tin_sword"
   }
 }

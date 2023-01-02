@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:blocks/sapphire_ore"
+    "all": "mores:block/sapphire_ore"
   }
 }

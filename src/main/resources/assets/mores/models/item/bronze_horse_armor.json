@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/bronze_horse_armor"
+    "layer0": "mores:item/bronze_horse_armor"
   }
 }

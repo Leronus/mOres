@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/tanzanite_pickaxe"
+    "layer0": "mores:item/tanzanite_pickaxe"
   }
 }

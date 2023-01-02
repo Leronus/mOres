@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/topaz_block"
+        "particle": "mores:block/topaz_block"
     }
 }

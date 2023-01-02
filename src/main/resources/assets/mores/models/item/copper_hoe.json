@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/copper_hoe"
+    "layer0": "mores:item/copper_hoe"
   }
 }

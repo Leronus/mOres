@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/ruby_horse_armor"
+    "layer0": "mores:item/ruby_horse_armor"
   }
 }

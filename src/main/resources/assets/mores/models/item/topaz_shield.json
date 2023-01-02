@@ -1,7 +1,7 @@
 {
     "parent": "item/shield",
     "textures": {
-        "particle": "mores:blocks/topaz_block"
+        "particle": "mores:block/topaz_block"
     },
     "overrides": [
         {

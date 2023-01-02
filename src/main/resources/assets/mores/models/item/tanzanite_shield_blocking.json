@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/tanzanite_block"
+        "particle": "mores:block/tanzanite_block"
     }
 }

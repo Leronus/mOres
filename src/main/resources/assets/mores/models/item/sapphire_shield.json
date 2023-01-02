@@ -1,7 +1,7 @@
 {
     "parent": "item/shield",
     "textures": {
-        "particle": "mores:blocks/sapphire_block"
+        "particle": "mores:block/sapphire_block"
     },
     "overrides": [
         {

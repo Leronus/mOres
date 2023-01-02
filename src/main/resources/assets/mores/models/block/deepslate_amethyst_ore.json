@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:blocks/deepslate_amethyst_ore"
+    "all": "mores:block/deepslate_amethyst_ore"
   }
 }

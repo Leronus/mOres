@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mores:blocks/raw_silver_block"
+    "all": "mores:block/raw_silver_block"
   }
 }

@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/graphene_gem"
+    "layer0": "mores:item/graphene_gem"
   }
 }

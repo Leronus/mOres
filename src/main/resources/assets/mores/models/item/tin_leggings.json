@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/tin_leggings"
+    "layer0": "mores:item/tin_leggings"
   }
 }

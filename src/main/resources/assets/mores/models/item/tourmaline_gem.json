@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/tourmaline_gem"
+    "layer0": "mores:item/tourmaline_gem"
   }
 }

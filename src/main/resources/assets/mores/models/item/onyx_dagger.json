@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/onyx_dagger"
+    "layer0": "mores:item/onyx_dagger"
   }
 }

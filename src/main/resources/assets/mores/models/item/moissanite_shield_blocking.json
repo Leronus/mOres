@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/moissanite_block"
+        "particle": "mores:block/moissanite_block"
     }
 }

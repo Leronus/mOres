@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/obsidian_mace"
+    "layer0": "mores:item/obsidian_mace"
   }
 }

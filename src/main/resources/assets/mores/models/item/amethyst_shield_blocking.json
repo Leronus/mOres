@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/amethyst_block"
+        "particle": "mores:block/amethyst_block"
     }
 }

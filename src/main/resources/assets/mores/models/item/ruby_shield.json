@@ -1,7 +1,7 @@
 {
     "parent": "item/shield",
     "textures": {
-        "particle": "mores:blocks/ruby_block"
+        "particle": "mores:block/ruby_block"
     },
     "overrides": [
         {

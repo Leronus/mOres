@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "mores:blocks/graphene_block"
+        "particle": "mores:block/graphene_block"
     }
 }

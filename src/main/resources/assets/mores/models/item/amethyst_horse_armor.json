@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:items/amethyst_horse_armor"
+    "layer0": "mores:item/amethyst_horse_armor"
   }
 }

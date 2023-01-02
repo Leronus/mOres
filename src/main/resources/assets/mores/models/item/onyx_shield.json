@@ -1,7 +1,7 @@
 {
     "parent": "item/shield",
     "textures": {
-        "particle": "mores:blocks/onyx_block"
+        "particle": "mores:block/onyx_block"
     },
     "overrides": [
         {

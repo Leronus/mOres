@@ -2,6 +2,6 @@
   "parent": "item/handheld",
   "textures":
   {
-    "layer0": "mores:items/moissanite_shovel"
+    "layer0": "mores:item/moissanite_shovel"
   }
 }

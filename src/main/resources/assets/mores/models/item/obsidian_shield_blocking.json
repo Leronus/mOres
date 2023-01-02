@@ -1,6 +1,6 @@
 {
     "parent": "item/shield_blocking",
     "textures": {
-        "particle": "minecraft:blocks/obsidian"
+        "particle": "minecraft:block/obsidian"
     }
 }

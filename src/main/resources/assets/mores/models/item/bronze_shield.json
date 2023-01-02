@@ -1,7 +1,7 @@
 {
     "parent": "item/shield",
     "textures": {
-        "particle": "mores:blocks/bronze_block"
+        "particle": "mores:block/bronze_block"
     },
     "overrides": [
         {

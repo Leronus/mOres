@@ -1,8 +1,8 @@
 {
   "parent": "block/orientable",
   "textures": {
-    "top": "mores:blocks/alloy_furnace_top",
-    "front": "mores:blocks/alloy_furnace_front",
-    "side": "mores:blocks/alloy_furnace_side"
+    "top": "mores:block/alloy_furnace_top",
+    "front": "mores:block/alloy_furnace_front",
+    "side": "mores:block/alloy_furnace_side"
   }
 }
