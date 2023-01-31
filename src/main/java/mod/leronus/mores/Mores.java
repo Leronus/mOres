@@ -5,9 +5,11 @@ import mod.leronus.mores.block.ModBlockEntities;
 import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.config.Config;
+import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.loot.ModLootModifiers;
 import mod.leronus.mores.recipe.ModRecipes;
+import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import mod.leronus.mores.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +36,8 @@ public class Mores {
         ModRecipes.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModContainers.register(modEventBus);
+        ModSounds.register(modEventBus);
+        ModEntityTypes.register(modEventBus);
 
         //Load config
         new Config();

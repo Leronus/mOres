@@ -4,7 +4,10 @@ import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModContainers;
 import mod.leronus.mores.block.custom.AlloyFurnaceContainer;
 import mod.leronus.mores.block.custom.screen.AlloyFurnaceScreen;
+import mod.leronus.mores.entity.ModEntityTypes;
+import mod.leronus.mores.entity.client.DuckRenderer;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -35,7 +38,7 @@ public class ClientModEventSubscriber
             MenuScreens.register((MenuType<AlloyFurnaceContainer>) ModContainers.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
             LOGGER.debug("Registered ContainerType Screens");
         });
-
+        EntityRenderers.register(ModEntityTypes.DUCK.get(), DuckRenderer::new);
     } // end onFMLClientSetupEvent
 
 

@@ -12,8 +12,6 @@ import org.apache.logging.log4j.Logger;
 @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class ForgeEventSubscriber
 {
-    @SuppressWarnings("unused")
-    private static final Logger LOGGER = LogManager.getLogger(Mores.MODID + " Forge Event Subscriber");
 //    private static final MoresInjectionLookup lootLookupMap = new MoresInjectionLookup();
 
     @SubscribeEvent
