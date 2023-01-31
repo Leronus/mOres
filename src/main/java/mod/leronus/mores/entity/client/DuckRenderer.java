@@ -8,7 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 
 public class DuckRenderer extends MobRenderer<DuckEntity, DuckModel<DuckEntity>> {
-    private static final ResourceLocation DUCK_LOCATION = new ResourceLocation("textures/entity/chicken.png");
+    private static final ResourceLocation DUCK_LOCATION = new ResourceLocation("textures/entity/duck/duck_entity_model.png");
 
     public DuckRenderer(EntityRendererProvider.Context context) {
         super(context, new DuckModel<DuckEntity>(context.bakeLayer(ModelLayers.CHICKEN)), 0.3F);

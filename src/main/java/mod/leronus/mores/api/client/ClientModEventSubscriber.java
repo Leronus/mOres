@@ -38,6 +38,7 @@ public class ClientModEventSubscriber
             MenuScreens.register((MenuType<AlloyFurnaceContainer>) ModContainers.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
             LOGGER.debug("Registered ContainerType Screens");
         });
+        //Register the duck entity client side
         EntityRenderers.register(ModEntityTypes.DUCK.get(), DuckRenderer::new);
     } // end onFMLClientSetupEvent
 

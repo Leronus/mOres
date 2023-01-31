@@ -1,6 +1,5 @@
 - Retexturing sapphire / ruby?
 - Add anthracite ore (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
-- Autosmelt fix
 
 ---------------------------------------------------------
 
@@ -13,7 +12,7 @@ OREGEN:
 
 ENTITY:
 
-- Duck
+- Duck generation
 - Spawn Egg
 
 ---------------------------------------------------------
