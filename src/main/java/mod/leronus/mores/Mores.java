@@ -8,6 +8,7 @@ import mod.leronus.mores.config.Config;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.loot.ModLootModifiers;
+import mod.leronus.mores.painting.ModPaintings;
 import mod.leronus.mores.recipe.ModRecipes;
 import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.world.feature.ModConfiguredFeatures;
@@ -26,6 +27,9 @@ public class Mores {
 
     // Very Important Comment
     public Mores() {
+        //Load config
+        new Config();
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
@@ -38,10 +42,10 @@ public class Mores {
         ModContainers.register(modEventBus);
         ModSounds.register(modEventBus);
         ModEntityTypes.register(modEventBus);
+        ModPaintings.register(modEventBus);
 
-        //Load config
-        new Config();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
+    
 }

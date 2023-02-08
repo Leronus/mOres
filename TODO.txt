@@ -1,12 +1,16 @@
+ITEMS / BLOCKS:
+
 - Retexturing sapphire / ruby?
-- Add anthracite ore (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
+- Retexture tanzanite to match ore format or maybe other colour
+- Add anthracite ore [nether - quartz / old tanzanite type texture] (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
 
 ---------------------------------------------------------
 
 OREGEN:
-- Nether rarity for tanzanite
-- Fix tanzanite blockmatchruletest
-
+- Nether rarity for tanzanite & nether silver (nerf moissanite?)
+- Add new nether ores (ruby, sapphire, ...) / alloy variants?
+- Overworld Ruby / Sapphire rarity / height
+- Overworld Turquoise / Moissanite rarity
 
 ---------------------------------------------------------
 
@@ -17,21 +21,14 @@ ENTITY:
 
 ---------------------------------------------------------
 
-- CONFIG
-
-- ARMOR / TIER rebalancing
-
-- fix WAAR ZIJN JULLIE? advancement
-
+- ARMOR / TIER rebalancing(?)
 
 --------------------------------------------------------
 
 - ADD OTHER IDEAS (crop)
 
-- Ruby / Sapphire rarity / height
-- Turquoise / Moissanite rarity
 
-- FUEL HANDLER for Rooiekool
+- FUEL HANDLER for Anthracite
 
-- ADD OLD ADVANCEMENTS (1.16 to 1.19)
+- CHECK ADVANCEMENT TREE
 

@@ -93,6 +93,8 @@ public class ModBlocks {
 
     public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))), ModTabs.MORES_BLOCKS);
 
+//    public static final RegistryObject<Block> ANTHRACITE_ORE = registerBlock("anthracite_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK)))
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

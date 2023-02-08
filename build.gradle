@@ -91,7 +91,7 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
-    runtimeOnly fg.deobf("curse.maven:xray-256256:3874945") //X-Ray
+//    runtimeOnly fg.deobf("curse.maven:xray-256256:3874945") //X-Ray
 }
 
 jar {
