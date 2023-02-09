@@ -2,6 +2,7 @@ package mod.leronus.mores.item;
 
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.config.Config;
+import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.custom.ModArmorItem;
 import mod.leronus.mores.item.custom.ModBattleAxeItem;
 import mod.leronus.mores.item.custom.ModShieldItem;
@@ -11,6 +12,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -63,7 +65,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
-//    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ItemSpawnEgg(EntityTypeInit.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
+    public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(ModTabs.MORES_ENTITIES)));
 
     //All horse armor
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1).tab(ModTabs.MORES_HORSE_ARMOR)));

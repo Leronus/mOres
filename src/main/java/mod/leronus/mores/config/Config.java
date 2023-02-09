@@ -156,9 +156,13 @@ public class Config {
 
     public static ConfigValue<Integer> netherSilverTop;
     public static ConfigValue<Integer> netherTanzaniteTop;
+    public static ConfigValue<Integer> netherRubyTop;
+    public static ConfigValue<Integer> netherSapphireTop;
     public static ConfigValue<Integer> netherMoissaniteTop;
     public static ConfigValue<Integer> netherSilverBottom;
     public static ConfigValue<Integer> netherTanzaniteBottom;
+    public static ConfigValue<Integer> netherRubyBottom;
+    public static ConfigValue<Integer> netherSapphireBottom;
     public static ConfigValue<Integer> netherMoissaniteBottom;
 
     public static BooleanValue thornsOnShields;
@@ -288,8 +292,13 @@ public class Config {
         endOnyxBottom = getInt("endOnyxBottom", SUB_CATEGORY_ORES_ONYX, -64, "Minimum height from the bottom for nether silver ore");
         endOnyxTop = getInt("endOnyxTop", SUB_CATEGORY_ORES_ONYX, 256, "Maximum height from the bottom for nether silver ore");
 
-        spawnNetherSapphire = getBoolean("spawnNetherSapphire", CATEGORY_ORES, false, "Should sapphire spawn in the nether (coming soon)");
-        spawnNetherRuby = getBoolean("spawnNetherRuby", CATEGORY_ORES, false, "Should ruby spawn in the nether (coming soon)");
+        spawnNetherSapphire = getBoolean("spawnNetherSapphire", CATEGORY_ORES, true, "Should sapphire spawn in the nether (coming soon)");
+        netherSapphireBottom = getInt("netherSapphireBottom", SUB_CATEGORY_ORES_SAPPHIRE, -64, "Minimum height from the bottom for nether sapphire ore");
+        netherSapphireTop = getInt("netherSapphireTop", SUB_CATEGORY_ORES_SAPPHIRE, 256, "Maximum height from the bottom for nether sapphire ore");
+
+        spawnNetherRuby = getBoolean("spawnNetherRuby", CATEGORY_ORES, true, "Should ruby spawn in the nether (coming soon)");
+        netherRubyBottom = getInt("netherRubyBottom", SUB_CATEGORY_ORES_RUBY, -64, "Minimum height from the bottom for nether ruby ore");
+        netherRubyTop = getInt("netherRubyTop", SUB_CATEGORY_ORES_RUBY, 256, "Maximum height from the bottom for nether ruby ore");
     }
 
     private void shieldConfig() {

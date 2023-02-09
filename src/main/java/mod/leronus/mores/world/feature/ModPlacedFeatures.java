@@ -130,6 +130,12 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.triangle
                             (VerticalAnchor.aboveBottom(Config.overworldSapphireBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSapphireBuriedTop.get())))));
 
+    public static final RegistryObject<PlacedFeature> NETHER_SAPPHIRE_ORE_PLACED = PLACED_FEATURES.register("nether_sapphire_ore_placed",
+            ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_SAPPHIRE_ORE.getHolder().get(), commonOrePlacement
+                    (4, // VeinsPerChunk
+                            HeightRangePlacement.triangle
+                                    (VerticalAnchor.aboveBottom(Config.netherSapphireBottom.get()), VerticalAnchor.aboveBottom(Config.netherSapphireTop.get())))));
+
 
     //Ruby
     public static final RegistryObject<PlacedFeature> RUBY_ORE_SMALL_PLACED = PLACED_FEATURES.register("ruby_ore_small_placed",
@@ -147,6 +153,12 @@ public class ModPlacedFeatures {
                     (5,
                     HeightRangePlacement.triangle
                             (VerticalAnchor.aboveBottom(Config.overworldRubyBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubyBuriedTop.get())))));
+
+    public static final RegistryObject<PlacedFeature> NETHER_RUBY_ORE_PLACED = PLACED_FEATURES.register("nether_ruby_ore_placed",
+            ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_RUBY_ORE.getHolder().get(), commonOrePlacement
+                    (5, // VeinsPerChunk
+                            HeightRangePlacement.triangle
+                                    (VerticalAnchor.aboveBottom(Config.netherRubyBottom.get()), VerticalAnchor.aboveBottom(Config.netherRubyTop.get())))));
 
 
     //Turquoise

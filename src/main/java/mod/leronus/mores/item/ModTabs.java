@@ -49,7 +49,6 @@ public class ModTabs extends CreativeModeTab {
         }
     }).setRecipeFolderName("mores_weapons");
 
-//    //TODO Fix shields
     public static final CreativeModeTab MORES_SHIELDS = (new ModTabs(17, "mores_shields") {
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
@@ -78,13 +77,12 @@ public class ModTabs extends CreativeModeTab {
         }
     }).setRecipeFolderName("mores_foods");
 
-    //TODO Fix entities
-//    public static final CreativeModeTab MORES_ENTITIES = (new MoresTabs(21, "mores_entities") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ItemInit.DUCK_SPAWN_EGG.get());
-//        }
-//    }).setRecipeFolderName("mores_entities");
+    public static final CreativeModeTab MORES_ENTITIES = (new ModTabs(21, "mores_entities") {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.DUCK_SPAWN_EGG.get());
+        }
+    }).setRecipeFolderName("mores_entities");
 
     /**
      * Constructor that adds the itemgroups

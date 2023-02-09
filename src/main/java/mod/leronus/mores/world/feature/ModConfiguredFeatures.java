@@ -57,8 +57,15 @@ public class ModConfiguredFeatures {
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TANZANITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_TANZANITE_ORE.get().defaultBlockState())
             /*,OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, BlockInit.DEEPSLATE_TANZANITE_ORE.get().defaultBlockState())*/));
+
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_RUBY_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_RUBY_ORE.get().defaultBlockState())));
+
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_SAPPHIRE_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_SAPPHIRE_ORE.get().defaultBlockState())));
+
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_MOISSANITE_ORES = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.MOISSANITE_NETHER_ORE.get().defaultBlockState())));
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_MOISSANITE_ORE.get().defaultBlockState())));
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> END_ONYX_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(END_STONE_REPLACEABLES, ModBlocks.ONYX_ORE.get().defaultBlockState())));
@@ -106,12 +113,18 @@ public class ModConfiguredFeatures {
     public static final RegistryObject<ConfiguredFeature<?, ?>> SAPPHIRE_ORE_BURIED = CONFIGURED_FEATURES.register("sapphire_ore_buried",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(), 8, 1.0F)));
 
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_SAPPHIRE_ORE = CONFIGURED_FEATURES.register("nether_sapphire_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_SAPPHIRE_ORES.get(), 4)));
+
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE_SMALL = CONFIGURED_FEATURES.register("ruby_ore_small",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(), 4, 0.5F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE_LARGE = CONFIGURED_FEATURES.register("ruby_ore_large",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(), 12, 0.7F)));
     public static final RegistryObject<ConfiguredFeature<?, ?>> RUBY_ORE_BURIED = CONFIGURED_FEATURES.register("ruby_ore_buried",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(), 8, 1.0F)));
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_RUBY_ORE = CONFIGURED_FEATURES.register("nether_ruby_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_RUBY_ORES.get(), 5)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> TURQUOISE_ORE_SMALL = CONFIGURED_FEATURES.register("turquoise_ore_small",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES.get(), 4, 0.5F)));
