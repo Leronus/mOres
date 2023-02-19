@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/root",
+  "parent": "mores:root",
   "criteria": {
     "tame_duck": {
       "trigger": "minecraft:bred_animals",

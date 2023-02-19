@@ -1,27 +1,27 @@
 {
   "display": {
-    "title": "Desperation Time",
-    "description": "You absolute savage, eating a raw duck... What would Donald say bro",
+    "title": "Christmas Comin' Early",
+    "description": "Roasted duck seems like a good meal",
     "icon": {
-      "item": "mores:duck"
+      "item": "mores:cooked_duck"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:mores/kill_duck",
+  "parent": "mores:kill_duck",
   "criteria": {
     "eat_raw_duck": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "mores:duck"
+          "item": "mores:cooked_duck"
         }
       }
     }
   },
   "rewards": {
-    "experience": 20
+    "experience": 200
   }
 }
