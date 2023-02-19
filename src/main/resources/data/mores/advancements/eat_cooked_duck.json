@@ -12,11 +12,13 @@
   },
   "parent": "mores:kill_duck",
   "criteria": {
-    "eat_raw_duck": {
+    "eat_cooked_duck": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "mores:cooked_duck"
+          "items": [
+              "mores:cooked_duck"
+          ]
         }
       }
     }
