@@ -2,6 +2,11 @@ v4.3.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.2.1 (1.19.2)
+- Added Duck advancements
+- Fixed Duck not dropping loot when killed
+- Fixed nether sapphire and nether ruby ore not able to be mined
+
 v4.2.0 (1.19.2)
 - Added Duck entity and its natural generation
 - Added config for the ore generation (minimum & maximum heights for each generation method) [ * May add veins/chunk in the future * ]
