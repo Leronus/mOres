@@ -2,6 +2,14 @@
   "mores.shield_damage_reduction" : "Shield Damage Reduction",
   "mores.shield_blocking" : "Shield Blocking",
 
+  "sound.mores.living_duck_sound" : "Duck quacks",
+  "sound.mores.hurt_duck_sound" : "Duck hurts",
+  "sound.mores.dying_duck_sound" : "Duck dies",
+
+  "sound.mores.that_duck" : "I am that Duck advancement speech",
+  "sound.mores.im_blue" : "I'm blue advancement music",
+  "sound.mores.my_horse" : "Look at my horse advancement music",
+
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
 

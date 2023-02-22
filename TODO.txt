@@ -14,14 +14,13 @@ OREGEN:
 
 ---------------------------------------------------------
 
-ENTITY:
-
-- Duck generation
-- Spawn Egg
-
----------------------------------------------------------
-
 - ARMOR / TIER rebalancing(?)
+
+--------------------------------------------------------
+
+- RUBY TOOLTIP FOR AUTOSMELT
+- REMOVE FIRE ASPECT ENCHANT
+- MAKE BATTLEAXE A CUSTOM SWORD CLASS WITHOUT SWEEPING EDGE
 
 --------------------------------------------------------
 

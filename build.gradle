@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '4.2.1'
+version = '4.2.2'
 group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mores'
 
@@ -99,7 +99,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.2.1",
+                "Specification-Version": "v4.2.2",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",

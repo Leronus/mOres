@@ -1,7 +1,7 @@
 {
   "living_duck_sound": {
     "category": "entity",
-    "subtitle" : "living_duck_sound.sub",
+    "subtitle" : "sound.mores.living_duck_sound",
     "sounds" : [
       {
         "name" : "mores:entity/living_duck_sound",
@@ -11,7 +11,7 @@
   },
   "dying_duck_sound": {
     "category": "entity",
-    "subtitle" : "dying_duck_sound.sub",
+    "subtitle" : "sound.mores.dying_duck_sound",
     "sounds" : [
       {
         "name" : "mores:entity/dying_duck_sound",
@@ -21,7 +21,7 @@
   },
   "hurt_duck_sound": {
     "category": "entity",
-    "subtitle" : "hurt_duck_sound.sub",
+    "subtitle" : "sound.mores.hurt_duck_sound",
     "sounds" : [
       {
         "name" : "mores:entity/hurt_duck_sound",
@@ -31,7 +31,7 @@
   },
   "that_duck": {
     "category": "ambient",
-    "subtitle" : "that_duck.sub",
+    "subtitle" : "sound.mores.that_duck",
     "sounds" : [
       {
         "name" : "mores:ambient/that_duck",
@@ -41,7 +41,7 @@
   },
   "im_blue": {
     "category": "players",
-    "subtitle" : "im_blue.sub",
+    "subtitle" : "sound.mores.im_blue",
     "sounds" : [
       {
         "name" : "mores:music/im_blue",
@@ -51,7 +51,7 @@
   },
   "my_horse": {
     "category": "players",
-    "subtitle" : "my_horse.sub",
+    "subtitle" : "sound.mores.my_horse",
     "sounds" : [
       {
         "name" : "mores:music/my_horse",

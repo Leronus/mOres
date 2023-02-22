@@ -91,7 +91,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GRAPHENE_BLOCK = registerBlock("graphene_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_CYAN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()), ModTabs.MORES_BLOCKS);
 
-    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))), ModTabs.MORES_BLOCKS);
+    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GRAY).strength(4.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))), ModTabs.MORES_BLOCKS);
 
 //    public static final RegistryObject<Block> ANTHRACITE_ORE = registerBlock("anthracite_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK)))
 
