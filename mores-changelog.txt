@@ -7,6 +7,8 @@ v4.2.2 (1.19.2)
 - Fixed duck quacking subtitles showing the file name
 - Rebalanced the attack speed for battleaxes, maces and daggers (minor nerf)
 - Removed axe feature from battleaxe, now purely a weapon (sword enchantments now apply, but no sweeping edge)
+- Updated bronze textures
+- Updated silver textures
 
 v4.2.1 (1.19.2)
 - Added Duck advancements
