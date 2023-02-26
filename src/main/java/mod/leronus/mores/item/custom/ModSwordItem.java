@@ -48,9 +48,7 @@ public class ModSwordItem extends SwordItem {
         if (stack.getItem() == ModItems.SILVER_SWORD.get() || stack.getItem() == ModItems.SILVER_DAGGER.get()
                 || stack.getItem() == ModItems.SILVER_MACE.get() ||  stack.getItem() == ModItems.SILVER_BATTLEAXE.get()) {
             stack.enchant(Enchantments.SMITE, 2);
-        } else if (stack.getItem() == ModItems.RUBY_SWORD.get() || stack.getItem() == ModItems.RUBY_DAGGER.get()
-                || stack.getItem() == ModItems.RUBY_MACE.get() ||  stack.getItem() == ModItems.RUBY_BATTLEAXE.get())
-            stack.enchant(Enchantments.FIRE_ASPECT, 1);
+        }
         super.onCraftedBy(stack, world, playerEntity);
     }
 

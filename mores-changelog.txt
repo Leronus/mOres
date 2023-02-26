@@ -2,6 +2,40 @@ v4.3.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.2.3 (1.19.2)
+- Fixed tooltips adding extra lines unnecessarily
+
+- Rebalanced the armour:
+-- tin slight durability buff
+-- silver slight durability nerf
+-- bronze durability nerf, armor point buff
+-- sterling silver toughness nerf
+-- cobalt durability / enchantibility nerf
+-- obsidian armour point buff
+-- emerald buff
+-- topaz nerf
+-- tourmaline enchantibility & toughness nerf, armour point buff
+-- tanzanite armour point buff
+-- onyx durability nerf
+-- graphene durability buff
+-- turquoise knockback & armour point buff
+
+- Rebalanced the tools:
+-- sterling durability buff
+-- steel efficiency buff
+-- emerald efficiency buff
+-- ruby efficiency nerf
+-- sapphire efficiency buff
+-- moissanite durability nerf
+-- turquoise efficiency nerf, dmg buff
+-- graphene efficiency nerf
+
+- Rebalanced oregen:
+-- Tin buff
+-- Silver nerf
+-- Topaz nerf
+-- Tanzanite minor nerf
+
 v4.2.2 (1.19.2)
 - Fixed alloy furnace not being able to be mined once placed
 - Fixed duck quacking subtitles showing the file name
@@ -9,6 +43,7 @@ v4.2.2 (1.19.2)
 - Removed axe feature from battleaxe, now purely a weapon (sword enchantments now apply, but no sweeping edge)
 - Updated bronze textures
 - Updated silver textures
+- Updated copper textures
 
 v4.2.1 (1.19.2)
 - Added Duck advancements

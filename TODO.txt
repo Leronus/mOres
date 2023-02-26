@@ -1,13 +1,15 @@
 ITEMS / BLOCKS:
 
 - Retexturing sapphire / ruby?
-- Retexture bronze block / bronze horse armor saddle colour
 - Retexture tanzanite to match ore format or maybe other colour
 - Evaluate diamantium (test, other colour?)
 - Retexture tin somehow
-- Retexture sterling silver(?)
+- Retexture sterling silver
 - Topaz / Tourmaline / Turquoise retexture?
+
+- Lignite? then
 - Add anthracite ore [nether - quartz / old tanzanite type texture] (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
+- Graphite ore fuel -> only usable in alloy furnace(?)
 
 ---------------------------------------------------------
 
@@ -15,17 +17,10 @@ OREGEN:
 - Nether rarity for tanzanite & nether silver (nerf moissanite/ruby/sapphire?)
 - Add new nether ores (...) / alloy variants?
 
-- Overworld Ruby / Sapphire rarity / height buff?
 - Nether ruby / sapphire height rarity nerf
 - Overworld Turquoise / Moissanite rarity
 
----------------------------------------------------------
 
-- ARMOR / TIER rebalancing(?)
-
---------------------------------------------------------
-
-- RUBY TOOLTIP FOR AUTOSMELT
 - REMOVE FIRE ASPECT ENCHANT
 
 --------------------------------------------------------
@@ -36,4 +31,11 @@ OREGEN:
 - FUEL HANDLER for Anthracite
 
 - CHECK ADVANCEMENT TREE
+-- fix waar zijn jullie & change bronze block advancement
+
+- Add cobalt nugget
+
+- Change chain?
+
+
 
