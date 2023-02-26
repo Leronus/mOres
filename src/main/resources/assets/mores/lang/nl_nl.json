@@ -30,6 +30,8 @@
   "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
 
+  "item.mores.anthracite" : "Anthraciet",
+
   "item.mores.raw_copper" : "Ruw Koper",
   "item.mores.raw_tin" : "Ruw Tin",
   "item.mores.raw_silver" : "Ruw Zilver",

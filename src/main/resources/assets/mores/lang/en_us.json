@@ -31,6 +31,8 @@
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
+  "item.mores.anthracite" : "Anthracite",
+
   "item.mores.raw_copper" : "Raw Copper",
   "item.mores.raw_tin" : "Raw Tin",
   "item.mores.raw_silver" : "Raw Silver",
