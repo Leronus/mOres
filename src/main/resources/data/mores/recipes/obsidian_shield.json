@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WSW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "mores:obsidian_shield"
+  }
+}
