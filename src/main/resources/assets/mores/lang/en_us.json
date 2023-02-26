@@ -32,6 +32,7 @@
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
   "item.mores.anthracite" : "Anthracite",
+  "block.mores.anthracite_ore" : "Anthracite ore",
 
   "item.mores.raw_copper" : "Raw Copper",
   "item.mores.raw_tin" : "Raw Tin",

@@ -3,7 +3,8 @@ v4.3.0 (1.19.3)
 
 
 v4.2.3 (1.19.2)
-- Fixed tooltips adding extra lines unnecessarily
+- Added anthracite texture and fixed its ingame name
+- Fixed tooltips adding extra lines unnecessarily (added Dutch translation as well)
 
 - Rebalanced the armour:
 -- tin slight durability buff
