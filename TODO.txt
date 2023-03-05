@@ -14,6 +14,8 @@ ITEMS / BLOCKS:
 - Add anthracite ore [nether - quartz / old tanzanite type texture] (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
 - Graphite ore fuel -> only usable in alloy furnace(?)
 
+- Fix copper & amethyst shield recipe (mores copper ingot & amethyst gem -> shard)
+
 
 
 - yeÊEaaaeuhuh sound effect when you die to fall dmg

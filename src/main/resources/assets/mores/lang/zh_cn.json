@@ -31,6 +31,10 @@
   "block.mores.alloy_furnace" : "合金炉",
   "container.mores.alloy_furnace" : "合金炉",
 
+  "item.mores.anthracite" : "Anthracite",
+  "block.mores.anthracite_ore" : "Anthracite Ore",
+  "block.mores.nether_anthracite_ore" : "Nether Anthracite Ore",
+
   "item.mores.raw_copper" : "粗铜",
   "item.mores.raw_tin" : "粗锡",
   "item.mores.raw_silver" : "粗银",
@@ -205,6 +209,7 @@
 
   "item.mores.obsidian_horse_armor" : "黑曜石马铠",
 
+  "item.mores.obsidian_ingot" : "Obsidian Ingot",
   "item.mores.obsidian_sword" : "黑曜石剑",
   "item.mores.obsidian_shovel" : "黑曜石锹",
   "item.mores.obsidian_pickaxe" : "黑曜石镐",

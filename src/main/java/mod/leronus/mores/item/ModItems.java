@@ -39,6 +39,8 @@ public class ModItems {
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> STERLING_INGOT = ITEMS.register("sterling_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> OBSIDIAN_INGOT = ITEMS.register("obsidian_ingot", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+
     public static final RegistryObject<Item> TOPAZ_GEM = ITEMS.register("topaz_gem", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> TOURMALINE_GEM = ITEMS.register("tourmaline_gem", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> TANZANITE_GEM = ITEMS.register("tanzanite_gem", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));

@@ -52,6 +52,9 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TURQUOISE_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TURQUOISE_ORE.get().defaultBlockState())));
 
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_ANTHRACITE_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.ANTHRACITE_ORE.get().defaultBlockState())));
+
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_SILVER_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_SILVER_ORE.get().defaultBlockState())));
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_TANZANITE_ORES = Suppliers.memoize(() -> List.of(
@@ -66,6 +69,9 @@ public class ModConfiguredFeatures {
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_MOISSANITE_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_MOISSANITE_ORE.get().defaultBlockState())));
+
+    public static final Supplier<List<OreConfiguration.TargetBlockState>> NETHER_ANTHRACITE_ORES = Suppliers.memoize(() -> List.of(
+            OreConfiguration.target(OreFeatures.NETHER_ORE_REPLACEABLES, ModBlocks.NETHER_ANTHRACITE_ORE.get().defaultBlockState())));
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> END_ONYX_ORES = Suppliers.memoize(() -> List.of(
             OreConfiguration.target(END_STONE_REPLACEABLES, ModBlocks.ONYX_ORE.get().defaultBlockState())));
@@ -145,6 +151,12 @@ public class ModConfiguredFeatures {
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_MOISSANITE_ORE = CONFIGURED_FEATURES.register("nether_moissanite_ore",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES.get(), 4)));
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> ANTHRACITE_ORE = CONFIGURED_FEATURES.register("anthracite_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ANTHRACITE_ORES.get(), 4)));
+
+    public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_ANTHRACITE_ORE = CONFIGURED_FEATURES.register("nether_anthracite_ore",
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_ANTHRACITE_ORES.get(), 4)));
 
     public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);

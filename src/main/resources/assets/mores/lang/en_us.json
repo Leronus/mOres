@@ -32,7 +32,8 @@
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
   "item.mores.anthracite" : "Anthracite",
-  "block.mores.anthracite_ore" : "Anthracite ore",
+  "block.mores.anthracite_ore" : "Anthracite Ore",
+  "block.mores.nether_anthracite_ore" : "Nether Anthracite Ore",
 
   "item.mores.raw_copper" : "Raw Copper",
   "item.mores.raw_tin" : "Raw Tin",
@@ -208,6 +209,7 @@
 
   "item.mores.obsidian_horse_armor" : "Obsidian Horse Armor",
 
+  "item.mores.obsidian_ingot" : "Obsidian Ingot",
   "item.mores.obsidian_sword" : "Obsidian Sword",
   "item.mores.obsidian_shovel" : "Obsidian Shovel",
   "item.mores.obsidian_pickaxe" : "Obsidian Pickaxe",

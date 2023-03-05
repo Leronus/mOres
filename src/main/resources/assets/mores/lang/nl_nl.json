@@ -31,6 +31,8 @@
   "container.alloy_furnace": "Legeringsoven",
 
   "item.mores.anthracite" : "Anthraciet",
+  "block.mores.anthracite_ore" : "Anthracieterts",
+  "block.mores.nether_anthracite_ore" : "Netheranthracieterts",
 
   "item.mores.raw_copper" : "Ruw Koper",
   "item.mores.raw_tin" : "Ruw Tin",
@@ -202,6 +204,7 @@
 
   "item.mores.obsidian_horse_armor": "Obsidianen paardenharnas",
 
+  "item.mores.obsidian_ingot" : "Obsidiaanstaaf",
   "item.mores.obsidian_sword": "Obsidianen zwaard",
   "item.mores.obsidian_shovel": "Obsidianen schep",
   "item.mores.obsidian_pickaxe": "Obsidianen houweel",
