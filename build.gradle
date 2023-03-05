@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '4.2.3'
+version = '4.2.4'
 group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mores'
 
@@ -84,9 +84,7 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven {
-        url "https://www.cursemaven.com"
-    }
+    maven { url 'https://api.modrinth.com/maven' }
 }
 
 dependencies {
@@ -99,7 +97,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.2.3",
+                "Specification-Version": "v4.2.4",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",

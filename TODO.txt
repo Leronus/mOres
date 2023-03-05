@@ -4,13 +4,22 @@ ITEMS / BLOCKS:
 - Retexture tanzanite to match ore format or maybe other colour
 - Evaluate diamantium (test, other colour?)
 - Retexture tin somehow
-- Retexture sterling silver
+- Retexture sterling silver (?)
 - Topaz / Tourmaline / Turquoise retexture?
+
+- Add recipe for obsidian ingot (blast furnace only?), change obsidian recipes
+- Change obsidian stats > diamond
 
 - Lignite? then
 - Add anthracite ore [nether - quartz / old tanzanite type texture] (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
 - Graphite ore fuel -> only usable in alloy furnace(?)
 
+
+
+- yeÊEaaaeuhuh sound effect when you die to fall dmg
+- aaaauuuuuughhhhh when sleeping
+- bruh moment when dying to lava
+- roblox oof wanneer je slaat
 ---------------------------------------------------------
 
 OREGEN:
@@ -26,9 +35,6 @@ OREGEN:
 --------------------------------------------------------
 
 - ADD OTHER IDEAS (crop)
-
-
-- FUEL HANDLER for Anthracite
 
 - CHECK ADVANCEMENT TREE
 -- fix waar zijn jullie & change bronze block advancement

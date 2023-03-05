@@ -3,10 +3,7 @@ package mod.leronus.mores.item;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.entity.ModEntityTypes;
-import mod.leronus.mores.item.custom.ModArmorItem;
-import mod.leronus.mores.item.custom.ModBattleAxeItem;
-import mod.leronus.mores.item.custom.ModShieldItem;
-import mod.leronus.mores.item.custom.ModSwordItem;
+import mod.leronus.mores.item.custom.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -63,7 +60,7 @@ public class ModItems {
     public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).meat().build())));
 
-    public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new ModFuelItem(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
     public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(ModTabs.MORES_ENTITIES)));
 

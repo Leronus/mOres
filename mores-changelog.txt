@@ -2,6 +2,13 @@ v4.3.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.2.4 (1.19.2)
+- Updated all obsidian textures (added obsidian ingot)
+- Updated graphene sword texture
+- Added fuel functionality for anthracite (has 2.5x burnTime of coal)
+- Added missing recipes for mOres shields
+- Simplified Chinese translation added by sssssLug
+
 v4.2.3 (1.19.2)
 - Updated raw tin, cobalt and silver texture
 - Added anthracite texture and fixed its ingame name
