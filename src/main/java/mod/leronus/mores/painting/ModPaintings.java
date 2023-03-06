@@ -15,8 +15,6 @@ public class ModPaintings {
     public static final DeferredRegister<PaintingVariant> LERONUS_PAINTING_VARIANTS =
             DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, Mores.MODID);
 
-    public static final boolean enabledMoresPaintings = Config.enableCustomPaintingsMores.get();
-
     //Mores paintings
     public static final RegistryObject<PaintingVariant> ALIENBONG = MORES_PAINTING_VARIANTS.register("alienbong",
             () -> new PaintingVariant(64, 64));
@@ -83,9 +81,7 @@ public class ModPaintings {
 
 
     public static void register(IEventBus eventBus) {
-        if (enabledMoresPaintings) {
-            MORES_PAINTING_VARIANTS.register(eventBus);
-//            LERONUS_PAINTING_VARIANTS.register(eventBus);
-        }
+        MORES_PAINTING_VARIANTS.register(eventBus);
+//      LERONUS_PAINTING_VARIANTS.register(eventBus);
     }
 }

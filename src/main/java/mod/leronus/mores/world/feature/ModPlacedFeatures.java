@@ -1,7 +1,7 @@
 package mod.leronus.mores.world.feature;
 
 import mod.leronus.mores.Mores;
-import mod.leronus.mores.config.Config;
+import mod.leronus.mores.config.MoresConfig;
 import net.minecraft.core.Registry;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.placement.*;
@@ -15,68 +15,68 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static void registerFeatures(){
-        if (Config.spawnTin.get()){
+        if (MoresConfig.spawnTin){
             //Tin Ore
             final RegistryObject<PlacedFeature> TIN_ORE_UPPER_PLACED = PLACED_FEATURES.register("tin_ore_upper_placed",
                     ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE.getHolder().get(), commonOrePlacement
                             (17, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldTinUpperBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTinUpperTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTinUpperBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTinUpperTop)))));
             final RegistryObject<PlacedFeature> TIN_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("tin_ore_middle_placed",
                     ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE.getHolder().get(), commonOrePlacement
                             (10, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldTinMiddleBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTinMiddleTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTinMiddleBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTinMiddleTop)))));
             final RegistryObject<PlacedFeature> TIN_ORE_SMALL_PLACED = PLACED_FEATURES.register("tin_ore_small_placed",
                     ()-> new PlacedFeature(ModConfiguredFeatures.TIN_ORE_SMALL.getHolder().get(), commonOrePlacement
                             (4, // VeinsPerChunk
                                     HeightRangePlacement.uniform
-                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(Config.overworldTinSmallTop.get())))));
+                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(MoresConfig.overworldTinSmallTop)))));
         }
-        if (Config.spawnSilver.get()) {
+        if (MoresConfig.spawnSilver) {
             //Silver Ore
             final RegistryObject<PlacedFeature> SILVER_ORE_UPPER_PLACED = PLACED_FEATURES.register("silver_ore_upper_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
                             (14, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldSilverUpperBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSilverUpperTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldSilverUpperBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldSilverUpperTop)))));
 
             final RegistryObject<PlacedFeature> SILVER_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("silver_ore_middle_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE.getHolder().get(), commonOrePlacement
                             (10, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldSilverMiddleBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSilverMiddleTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldSilverMiddleBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldSilverMiddleTop)))));
 
             final RegistryObject<PlacedFeature> SILVER_ORE_SMALL_PLACED = PLACED_FEATURES.register("silver_ore_small_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.SILVER_ORE_SMALL.getHolder().get(), commonOrePlacement
                             (4, // VeinsPerChunk
                                     HeightRangePlacement.uniform
-                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(Config.overworldSilverSmallTop.get())))));
+                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(MoresConfig.overworldSilverSmallTop)))));
         }
-        if (Config.spawnNetherSilver.get()) {
+        if (MoresConfig.spawnNetherSilver) {
             /*nether*/final RegistryObject<PlacedFeature> NETHER_SILVER_ORE_PLACED = PLACED_FEATURES.register("nether_silver_ore_placed",
                     ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_SILVER_ORE.getHolder().get(), commonOrePlacement
                             (18, // VeinsPerChunk
                                     HeightRangePlacement.triangle
                                             (VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(256)))));
         }
-        if (Config.spawnCobalt.get()) {
+        if (MoresConfig.spawnCobalt) {
             //Cobalt Ore
             final RegistryObject<PlacedFeature> COBALT_ORE_UPPER_PLACED = PLACED_FEATURES.register("cobalt_ore_upper_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE.getHolder().get(), commonOrePlacement
                             (4, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldCobaltUpperBottom.get()), VerticalAnchor.aboveBottom(Config.overworldCobaltUpperTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldCobaltUpperBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldCobaltUpperTop)))));
             final RegistryObject<PlacedFeature> COBALT_ORE_MIDDLE_PLACED = PLACED_FEATURES.register("cobalt_ore_middle_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE.getHolder().get(), commonOrePlacement
                             (14, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.aboveBottom(Config.overworldCobaltMiddleBottom.get()), VerticalAnchor.aboveBottom(Config.overworldCobaltMiddleTop.get())))));
+                                            (VerticalAnchor.aboveBottom(MoresConfig.overworldCobaltMiddleBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldCobaltMiddleTop)))));
             final RegistryObject<PlacedFeature> COBALT_ORE_SMALL_PLACED = PLACED_FEATURES.register("cobalt_ore_small_placed",
                     () -> new PlacedFeature(ModConfiguredFeatures.COBALT_ORE_SMALL.getHolder().get(), commonOrePlacement
                             (5, // VeinsPerChunk
                                     HeightRangePlacement.triangle
-                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(Config.overworldCobaltSmallTop.get())))));
+                                            (VerticalAnchor.bottom(), VerticalAnchor.absolute(MoresConfig.overworldCobaltSmallTop)))));
 
         }
     }
@@ -88,13 +88,13 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.ANTHRACITE_ORE_UPPER.getHolder().get(), commonOrePlacement
                     (21, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.anthraciteUpperBottom.get()), VerticalAnchor.top()))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.anthraciteUpperBottom), VerticalAnchor.top()))));
 
     public static final RegistryObject<PlacedFeature> ANTHRACITE_ORE_LOWER_PLACED = PLACED_FEATURES.register("anthracite_ore_lower_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.ANTHRACITE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (15, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.anthraciteLowerBottom.get()), VerticalAnchor.aboveBottom(Config.anthraciteLowerTop.get())))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.anthraciteLowerBottom), VerticalAnchor.aboveBottom(MoresConfig.anthraciteLowerTop)))));
 
 
 
@@ -105,17 +105,17 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.TOPAZ_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (7,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTopazSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTopazSmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTopazSmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTopazSmallTop)))));
     public static final RegistryObject<PlacedFeature> TOPAZ_ORE_LARGE_PLACED = PLACED_FEATURES.register("topaz_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOPAZ_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (10,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTopazLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTopazLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTopazLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTopazLargeTop)))));
     public static final RegistryObject<PlacedFeature> TOPAZ_ORE_BURIED_PLACED = PLACED_FEATURES.register("topaz_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOPAZ_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (6,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTopazBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTopazBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTopazBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTopazBuriedTop)))));
 
 
     //Tourmaline Ore
@@ -123,40 +123,40 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.TOURMALINE_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (8,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTourmalineSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTourmalineSmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineSmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineSmallTop)))));
     public static final RegistryObject<PlacedFeature> TOURMALINE_ORE_LARGE_PLACED = PLACED_FEATURES.register("tourmaline_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOURMALINE_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (10,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTourmalineLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTourmalineLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineLargeTop)))));
     public static final RegistryObject<PlacedFeature> TOURMALINE_ORE_BURIED_PLACED = PLACED_FEATURES.register("tourmaline_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOURMALINE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (5,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTourmalineBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTourmalineBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTourmalineBuriedTop)))));
 
 
     public static final RegistryObject<PlacedFeature> SAPPHIRE_ORE_SMALL_PLACED = PLACED_FEATURES.register("sapphire_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SAPPHIRE_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (6,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldSapphireSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSapphireSmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireSmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireSmallTop)))));
     public static final RegistryObject<PlacedFeature> SAPPHIRE_ORE_LARGE_PLACED = PLACED_FEATURES.register("sapphire_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SAPPHIRE_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (7,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldSapphireLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSapphireLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireLargeTop)))));
     public static final RegistryObject<PlacedFeature> SAPPHIRE_ORE_BURIED_PLACED = PLACED_FEATURES.register("sapphire_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.SAPPHIRE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (5,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldSapphireBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldSapphireBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldSapphireBuriedTop)))));
 
     public static final RegistryObject<PlacedFeature> NETHER_SAPPHIRE_ORE_PLACED = PLACED_FEATURES.register("nether_sapphire_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_SAPPHIRE_ORE.getHolder().get(), commonOrePlacement
                     (4, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.netherSapphireBottom.get()), VerticalAnchor.aboveBottom(Config.netherSapphireTop.get())))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.netherSapphireBottom), VerticalAnchor.aboveBottom(MoresConfig.netherSapphireTop)))));
 
 
     //Ruby
@@ -164,23 +164,23 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (6,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldRubySmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubySmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldRubySmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldRubySmallTop)))));
     public static final RegistryObject<PlacedFeature> RUBY_ORE_LARGE_PLACED = PLACED_FEATURES.register("ruby_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (7,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldRubyLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubyLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldRubyLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldRubyLargeTop)))));
     public static final RegistryObject<PlacedFeature> RUBY_ORE_BURIED_PLACED = PLACED_FEATURES.register("ruby_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (5,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldRubyBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubyBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldRubyBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldRubyBuriedTop)))));
 
     public static final RegistryObject<PlacedFeature> NETHER_RUBY_ORE_PLACED = PLACED_FEATURES.register("nether_ruby_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_RUBY_ORE.getHolder().get(), commonOrePlacement
                     (5, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.netherRubyBottom.get()), VerticalAnchor.aboveBottom(Config.netherRubyTop.get())))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.netherRubyBottom), VerticalAnchor.aboveBottom(MoresConfig.netherRubyTop)))));
 
 
     //Turquoise
@@ -188,17 +188,17 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (8,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTurquoiseSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseSmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseSmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseSmallTop)))));
     public static final RegistryObject<PlacedFeature> TURQUOISE_ORE_LARGE_PLACED = PLACED_FEATURES.register("turquoise_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (10,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTurquoiseLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseLargeTop)))));
     public static final RegistryObject<PlacedFeature> TURQUOISE_ORE_BURIED_PLACED = PLACED_FEATURES.register("turquoise_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (5,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldTurquoiseBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldTurquoiseBuriedTop)))));
 
 
     //Moissanite
@@ -206,43 +206,43 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.MOISSANITE_ORE_SMALL.getHolder().get(), commonOrePlacement
                     (6,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldMoissaniteSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldMoissaniteSmallTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteSmallBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteSmallTop)))));
     public static final RegistryObject<PlacedFeature> MOISSANITE_ORE_LARGE_PLACED = PLACED_FEATURES.register("moissanite_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.MOISSANITE_ORE_LARGE.getHolder().get(), rareOrePlacement
                     (4,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldMoissaniteLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldMoissaniteLargeTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteLargeBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteLargeTop)))));
     public static final RegistryObject<PlacedFeature> MOISSANITE_ORE_BURIED_PLACED = PLACED_FEATURES.register("moissanite_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.MOISSANITE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (3,
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.overworldMoissaniteBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldMoissaniteBuriedTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteBuriedBottom), VerticalAnchor.aboveBottom(MoresConfig.overworldMoissaniteBuriedTop)))));
 
     public static final RegistryObject<PlacedFeature> NETHER_MOISSANITE_ORE_PLACED = PLACED_FEATURES.register("nether_moissanite_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_MOISSANITE_ORE.getHolder().get(), commonOrePlacement
                     (7, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.netherMoissaniteBottom.get()), VerticalAnchor.aboveBottom(Config.netherMoissaniteTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.netherMoissaniteBottom), VerticalAnchor.aboveBottom(MoresConfig.netherMoissaniteTop)))));
 
     //Tanzanite
     public static final RegistryObject<PlacedFeature> NETHER_TANZANITE_ORE_PLACED = PLACED_FEATURES.register("nether_tanzanite_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_TANZANITE_ORE.getHolder().get(), commonOrePlacement
                     (11, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.netherTanzaniteBottom.get()), VerticalAnchor.aboveBottom(Config.netherTanzaniteTop.get())))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.netherTanzaniteBottom), VerticalAnchor.aboveBottom(MoresConfig.netherTanzaniteTop)))));
 
     public static final RegistryObject<PlacedFeature> NETHER_ANTHRACITE_ORE_PLACED = PLACED_FEATURES.register("nether_anthracite_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_ANTHRACITE_ORE.getHolder().get(), commonOrePlacement
                     (25, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.netherAnthraciteBottom.get()), VerticalAnchor.aboveBottom(Config.netherAnthraciteTop.get())))));
+                                    (VerticalAnchor.aboveBottom(MoresConfig.netherAnthraciteBottom), VerticalAnchor.aboveBottom(MoresConfig.netherAnthraciteTop)))));
 
     //Carbonado
     public static final RegistryObject<PlacedFeature> ONYX_ORE_PLACED = PLACED_FEATURES.register("onyx_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.ONYX_ORE.getHolder().get(), commonOrePlacement
                     (9, // VeinsPerChunk
                     HeightRangePlacement.triangle
-                            (VerticalAnchor.aboveBottom(Config.endOnyxBottom.get()), VerticalAnchor.aboveBottom(Config.endOnyxTop.get())))));
+                            (VerticalAnchor.aboveBottom(MoresConfig.endOnyxBottom), VerticalAnchor.aboveBottom(MoresConfig.endOnyxTop)))));
 
     public static List<PlacementModifier> orePlacement(PlacementModifier orePlacement, PlacementModifier heightRange) {
         return List.of(orePlacement, InSquarePlacement.spread(), heightRange, BiomeFilter.biome());
