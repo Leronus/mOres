@@ -22,149 +22,148 @@ public class Config {
     private static final String SUB_CATEGORY_ORES_ANTHRACITE = "anthracite";
     private static final String CATEGORY_PAINTINGS = "paintings";
 
-    public static ForgeConfigSpec.BooleanValue enableCustomPaintingsMores;
-    public static ForgeConfigSpec.BooleanValue spawnDuck;
+    public final ForgeConfigSpec.BooleanValue spawnDuck;
 
-    public static ForgeConfigSpec.BooleanValue spawnTin;
-    public static ForgeConfigSpec.BooleanValue spawnCobalt;
-    public static ForgeConfigSpec.BooleanValue spawnSilver;
-    public static ForgeConfigSpec.BooleanValue spawnTourmaline;
-    public static ForgeConfigSpec.BooleanValue spawnTopaz;
-    public static ForgeConfigSpec.BooleanValue spawnMoissanite;
-    public static ForgeConfigSpec.BooleanValue spawnRuby;
-    public static ForgeConfigSpec.BooleanValue spawnSapphire;
-    public static ForgeConfigSpec.BooleanValue spawnTurquoise;
-    public static ForgeConfigSpec.BooleanValue spawnAnthracite;
+    public final ForgeConfigSpec.BooleanValue spawnTin;
+    public final ForgeConfigSpec.BooleanValue spawnCobalt;
+    public final ForgeConfigSpec.BooleanValue spawnSilver;
+    public final ForgeConfigSpec.BooleanValue spawnTourmaline;
+    public final ForgeConfigSpec.BooleanValue spawnTopaz;
+    public final ForgeConfigSpec.BooleanValue spawnMoissanite;
+    public final ForgeConfigSpec.BooleanValue spawnRuby;
+    public final ForgeConfigSpec.BooleanValue spawnSapphire;
+    public final ForgeConfigSpec.BooleanValue spawnTurquoise;
+    public final ForgeConfigSpec.BooleanValue spawnAnthracite;
 
-    public static ForgeConfigSpec.BooleanValue spawnTanzanite;
-    public static ForgeConfigSpec.BooleanValue spawnNetherMoissanite;
-    public static ForgeConfigSpec.BooleanValue spawnNetherRuby;
-    public static ForgeConfigSpec.BooleanValue spawnNetherSapphire;
-    public static ForgeConfigSpec.BooleanValue spawnNetherSilver;
-    public static ForgeConfigSpec.BooleanValue spawnNetherAnthracite;
-    public static ForgeConfigSpec.BooleanValue spawnEndOnyx;
+    public final ForgeConfigSpec.BooleanValue spawnTanzanite;
+    public final ForgeConfigSpec.BooleanValue spawnNetherMoissanite;
+    public final ForgeConfigSpec.BooleanValue spawnNetherRuby;
+    public final ForgeConfigSpec.BooleanValue spawnNetherSapphire;
+    public final ForgeConfigSpec.BooleanValue spawnNetherSilver;
+    public final ForgeConfigSpec.BooleanValue spawnNetherAnthracite;
+    public final ForgeConfigSpec.BooleanValue spawnEndOnyx;
 
-    public static ForgeConfigSpec.BooleanValue customShieldMaxReduction;
-    public static ForgeConfigSpec.IntValue defaultDamageReduction;
+    public final ForgeConfigSpec.BooleanValue customShieldMaxReduction;
+    public final ForgeConfigSpec.IntValue defaultDamageReduction;
 
-    public static ForgeConfigSpec.IntValue tinDamageReduction;
-    public static ForgeConfigSpec.IntValue copperDamageReduction;
-    public static ForgeConfigSpec.IntValue silverDamageReduction;
-    public static ForgeConfigSpec.IntValue bronzeDamageReduction;
-    public static ForgeConfigSpec.IntValue cobaltDamageReduction;
-    public static ForgeConfigSpec.IntValue obsidianDamageReduction;
-    public static ForgeConfigSpec.IntValue sterlingDamageReduction;
-    public static ForgeConfigSpec.IntValue steelDamageReduction;
-    public static ForgeConfigSpec.IntValue amethystDamageReduction;
-    public static ForgeConfigSpec.IntValue emeraldDamageReduction;
-    public static ForgeConfigSpec.IntValue topazDamageReduction;
-    public static ForgeConfigSpec.IntValue tourmalineDamageReduction;
-    public static ForgeConfigSpec.IntValue tanzaniteDamageReduction;
-    public static ForgeConfigSpec.IntValue rubyDamageReduction;
-    public static ForgeConfigSpec.IntValue sapphireDamageReduction;
-    public static ForgeConfigSpec.IntValue turquoiseDamageReduction;
-    public static ForgeConfigSpec.IntValue moissaniteDamageReduction;
-    public static ForgeConfigSpec.IntValue onyxDamageReduction;
-    public static ForgeConfigSpec.IntValue grapheneDamageReduction;
+    public final ForgeConfigSpec.IntValue tinDamageReduction;
+    public final ForgeConfigSpec.IntValue copperDamageReduction;
+    public final ForgeConfigSpec.IntValue silverDamageReduction;
+    public final ForgeConfigSpec.IntValue bronzeDamageReduction;
+    public final ForgeConfigSpec.IntValue cobaltDamageReduction;
+    public final ForgeConfigSpec.IntValue obsidianDamageReduction;
+    public final ForgeConfigSpec.IntValue sterlingDamageReduction;
+    public final ForgeConfigSpec.IntValue steelDamageReduction;
+    public final ForgeConfigSpec.IntValue amethystDamageReduction;
+    public final ForgeConfigSpec.IntValue emeraldDamageReduction;
+    public final ForgeConfigSpec.IntValue topazDamageReduction;
+    public final ForgeConfigSpec.IntValue tourmalineDamageReduction;
+    public final ForgeConfigSpec.IntValue tanzaniteDamageReduction;
+    public final ForgeConfigSpec.IntValue rubyDamageReduction;
+    public final ForgeConfigSpec.IntValue sapphireDamageReduction;
+    public final ForgeConfigSpec.IntValue turquoiseDamageReduction;
+    public final ForgeConfigSpec.IntValue moissaniteDamageReduction;
+    public final ForgeConfigSpec.IntValue onyxDamageReduction;
+    public final ForgeConfigSpec.IntValue grapheneDamageReduction;
 
-    public static ForgeConfigSpec.IntValue tinDurability;
-    public static ForgeConfigSpec.IntValue copperDurability;
-    public static ForgeConfigSpec.IntValue silverDurability;
-    public static ForgeConfigSpec.IntValue bronzeDurability;
-    public static ForgeConfigSpec.IntValue cobaltDurability;
-    public static ForgeConfigSpec.IntValue obsidianDurability;
-    public static ForgeConfigSpec.IntValue sterlingDurability;
-    public static ForgeConfigSpec.IntValue steelDurability;
-    public static ForgeConfigSpec.IntValue amethystDurability;
-    public static ForgeConfigSpec.IntValue emeraldDurability;
-    public static ForgeConfigSpec.IntValue topazDurability;
-    public static ForgeConfigSpec.IntValue tourmalineDurability;
-    public static ForgeConfigSpec.IntValue tanzaniteDurability;
-    public static ForgeConfigSpec.IntValue rubyDurability;
-    public static ForgeConfigSpec.IntValue sapphireDurability;
-    public static ForgeConfigSpec.IntValue turquoiseDurability;
-    public static ForgeConfigSpec.IntValue moissaniteDurability;
-    public static ForgeConfigSpec.IntValue onyxDurability;
-    public static ForgeConfigSpec.IntValue grapheneDurability;
+    public final ForgeConfigSpec.IntValue tinDurability;
+    public final ForgeConfigSpec.IntValue copperDurability;
+    public final ForgeConfigSpec.IntValue silverDurability;
+    public final ForgeConfigSpec.IntValue bronzeDurability;
+    public final ForgeConfigSpec.IntValue cobaltDurability;
+    public final ForgeConfigSpec.IntValue obsidianDurability;
+    public final ForgeConfigSpec.IntValue sterlingDurability;
+    public final ForgeConfigSpec.IntValue steelDurability;
+    public final ForgeConfigSpec.IntValue amethystDurability;
+    public final ForgeConfigSpec.IntValue emeraldDurability;
+    public final ForgeConfigSpec.IntValue topazDurability;
+    public final ForgeConfigSpec.IntValue tourmalineDurability;
+    public final ForgeConfigSpec.IntValue tanzaniteDurability;
+    public final ForgeConfigSpec.IntValue rubyDurability;
+    public final ForgeConfigSpec.IntValue sapphireDurability;
+    public final ForgeConfigSpec.IntValue turquoiseDurability;
+    public final ForgeConfigSpec.IntValue moissaniteDurability;
+    public final ForgeConfigSpec.IntValue onyxDurability;
+    public final ForgeConfigSpec.IntValue grapheneDurability;
 
-    public static ForgeConfigSpec.IntValue overworldTinUpperTop;
-    public static ForgeConfigSpec.IntValue overworldSilverUpperTop;
-    public static ForgeConfigSpec.IntValue overworldCobaltUpperTop;
-    public static ForgeConfigSpec.IntValue overworldTinUpperBottom;
-    public static ForgeConfigSpec.IntValue overworldSilverUpperBottom;
-    public static ForgeConfigSpec.IntValue overworldCobaltUpperBottom;
+    public final ForgeConfigSpec.IntValue overworldTinUpperTop;
+    public final ForgeConfigSpec.IntValue overworldSilverUpperTop;
+    public final ForgeConfigSpec.IntValue overworldCobaltUpperTop;
+    public final ForgeConfigSpec.IntValue overworldTinUpperBottom;
+    public final ForgeConfigSpec.IntValue overworldSilverUpperBottom;
+    public final ForgeConfigSpec.IntValue overworldCobaltUpperBottom;
 
-    public static ForgeConfigSpec.IntValue overworldTinMiddleTop;
-    public static ForgeConfigSpec.IntValue overworldSilverMiddleTop;
-    public static ForgeConfigSpec.IntValue overworldCobaltMiddleTop;
-    public static ForgeConfigSpec.IntValue overworldTinMiddleBottom;
-    public static ForgeConfigSpec.IntValue overworldSilverMiddleBottom;
-    public static ForgeConfigSpec.IntValue overworldCobaltMiddleBottom;
-    public static ForgeConfigSpec.IntValue overworldTinSmallTop;
-    public static ForgeConfigSpec.IntValue overworldSilverSmallTop;
-    public static ForgeConfigSpec.IntValue overworldCobaltSmallTop;
+    public final ForgeConfigSpec.IntValue overworldTinMiddleTop;
+    public final ForgeConfigSpec.IntValue overworldSilverMiddleTop;
+    public final ForgeConfigSpec.IntValue overworldCobaltMiddleTop;
+    public final ForgeConfigSpec.IntValue overworldTinMiddleBottom;
+    public final ForgeConfigSpec.IntValue overworldSilverMiddleBottom;
+    public final ForgeConfigSpec.IntValue overworldCobaltMiddleBottom;
+    public final ForgeConfigSpec.IntValue overworldTinSmallTop;
+    public final ForgeConfigSpec.IntValue overworldSilverSmallTop;
+    public final ForgeConfigSpec.IntValue overworldCobaltSmallTop;
 
-    public static ForgeConfigSpec.IntValue overworldTopazSmallTop;
-    public static ForgeConfigSpec.IntValue overworldTourmalineSmallTop;
-    public static ForgeConfigSpec.IntValue overworldRubySmallTop;
-    public static ForgeConfigSpec.IntValue overworldSapphireSmallTop;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseSmallTop;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteSmallTop;
-    public static ForgeConfigSpec.IntValue overworldTopazSmallBottom;
-    public static ForgeConfigSpec.IntValue overworldTourmalineSmallBottom;
-    public static ForgeConfigSpec.IntValue overworldRubySmallBottom;
-    public static ForgeConfigSpec.IntValue overworldSapphireSmallBottom;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseSmallBottom;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteSmallBottom;
+    public final ForgeConfigSpec.IntValue overworldTopazSmallTop;
+    public final ForgeConfigSpec.IntValue overworldTourmalineSmallTop;
+    public final ForgeConfigSpec.IntValue overworldRubySmallTop;
+    public final ForgeConfigSpec.IntValue overworldSapphireSmallTop;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseSmallTop;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteSmallTop;
+    public final ForgeConfigSpec.IntValue overworldTopazSmallBottom;
+    public final ForgeConfigSpec.IntValue overworldTourmalineSmallBottom;
+    public final ForgeConfigSpec.IntValue overworldRubySmallBottom;
+    public final ForgeConfigSpec.IntValue overworldSapphireSmallBottom;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseSmallBottom;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteSmallBottom;
 
-    public static ForgeConfigSpec.IntValue overworldTopazLargeTop;
-    public static ForgeConfigSpec.IntValue overworldTourmalineLargeTop;
-    public static ForgeConfigSpec.IntValue overworldRubyLargeTop;
-    public static ForgeConfigSpec.IntValue overworldSapphireLargeTop;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseLargeTop;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteLargeTop;
-    public static ForgeConfigSpec.IntValue overworldTopazLargeBottom;
-    public static ForgeConfigSpec.IntValue overworldTourmalineLargeBottom;
-    public static ForgeConfigSpec.IntValue overworldRubyLargeBottom;
-    public static ForgeConfigSpec.IntValue overworldSapphireLargeBottom;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseLargeBottom;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldTopazLargeTop;
+    public final ForgeConfigSpec.IntValue overworldTourmalineLargeTop;
+    public final ForgeConfigSpec.IntValue overworldRubyLargeTop;
+    public final ForgeConfigSpec.IntValue overworldSapphireLargeTop;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseLargeTop;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteLargeTop;
+    public final ForgeConfigSpec.IntValue overworldTopazLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldTourmalineLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldRubyLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldSapphireLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseLargeBottom;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteLargeBottom;
 
-    public static ForgeConfigSpec.IntValue overworldTopazBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldTourmalineBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldRubyBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldSapphireBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteBuriedTop;
-    public static ForgeConfigSpec.IntValue overworldTopazBuriedBottom;
-    public static ForgeConfigSpec.IntValue overworldTourmalineBuriedBottom;
-    public static ForgeConfigSpec.IntValue overworldRubyBuriedBottom;
-    public static ForgeConfigSpec.IntValue overworldSapphireBuriedBottom;
-    public static ForgeConfigSpec.IntValue overworldTurquoiseBuriedBottom;
-    public static ForgeConfigSpec.IntValue overworldMoissaniteBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldTopazBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldTourmalineBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldRubyBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldSapphireBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteBuriedTop;
+    public final ForgeConfigSpec.IntValue overworldTopazBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldTourmalineBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldRubyBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldSapphireBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldTurquoiseBuriedBottom;
+    public final ForgeConfigSpec.IntValue overworldMoissaniteBuriedBottom;
 
-    public static ForgeConfigSpec.IntValue anthraciteLowerBottom;
-    public static ForgeConfigSpec.IntValue anthraciteUpperBottom;
-    public static ForgeConfigSpec.IntValue anthraciteLowerTop;
+    public final ForgeConfigSpec.IntValue anthraciteLowerBottom;
+    public final ForgeConfigSpec.IntValue anthraciteUpperBottom;
+    public final ForgeConfigSpec.IntValue anthraciteLowerTop;
 
-    public static ForgeConfigSpec.IntValue endOnyxTop;
-    public static ForgeConfigSpec.IntValue endOnyxBottom;
+    public final ForgeConfigSpec.IntValue endOnyxTop;
+    public final ForgeConfigSpec.IntValue endOnyxBottom;
 
-    public static ForgeConfigSpec.IntValue netherSilverTop;
-    public static ForgeConfigSpec.IntValue netherTanzaniteTop;
-    public static ForgeConfigSpec.IntValue netherRubyTop;
-    public static ForgeConfigSpec.IntValue netherSapphireTop;
-    public static ForgeConfigSpec.IntValue netherMoissaniteTop;
-    public static ForgeConfigSpec.IntValue netherAnthraciteTop;
-    public static ForgeConfigSpec.IntValue netherSilverBottom;
-    public static ForgeConfigSpec.IntValue netherTanzaniteBottom;
-    public static ForgeConfigSpec.IntValue netherRubyBottom;
-    public static ForgeConfigSpec.IntValue netherSapphireBottom;
-    public static ForgeConfigSpec.IntValue netherMoissaniteBottom;
-    public static ForgeConfigSpec.IntValue netherAnthraciteBottom;
+    public final ForgeConfigSpec.IntValue netherSilverTop;
+    public final ForgeConfigSpec.IntValue netherTanzaniteTop;
+    public final ForgeConfigSpec.IntValue netherRubyTop;
+    public final ForgeConfigSpec.IntValue netherSapphireTop;
+    public final ForgeConfigSpec.IntValue netherMoissaniteTop;
+    public final ForgeConfigSpec.IntValue netherAnthraciteTop;
+    public final ForgeConfigSpec.IntValue netherSilverBottom;
+    public final ForgeConfigSpec.IntValue netherTanzaniteBottom;
+    public final ForgeConfigSpec.IntValue netherRubyBottom;
+    public final ForgeConfigSpec.IntValue netherSapphireBottom;
+    public final ForgeConfigSpec.IntValue netherMoissaniteBottom;
+    public final ForgeConfigSpec.IntValue netherAnthraciteBottom;
 
-    public static ForgeConfigSpec.BooleanValue thornsOnShields;
-    public static ForgeConfigSpec.BooleanValue enableDamageReduction;
+    public final ForgeConfigSpec.BooleanValue thornsOnShields;
+    public final ForgeConfigSpec.BooleanValue enableDamageReduction;
 
 
     Config(final ForgeConfigSpec.Builder builder){
@@ -370,14 +369,6 @@ public class Config {
         builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
         spawnDuck = getBoolean(builder,"spawnDuck", CATEGORY_ENTITY, true, "Whether ducks should generate naturally in your Minecraft world.");
     }
-
-    private static void shieldConfig(ForgeConfigSpec.Builder builder) {
-
-    }
-
-    private static void entityConfig(ForgeConfigSpec.Builder builder){
-    }
-
 
     private static ForgeConfigSpec.BooleanValue getBoolean(ForgeConfigSpec.Builder builder, String name, String category, boolean defaultValue, String comment) {
         String path = category + "." + name;

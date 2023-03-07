@@ -1,6 +1,6 @@
 package mod.leronus.mores.item.custom;
 
-import mod.leronus.mores.config.Config;
+import mod.leronus.mores.config.MoresConfig;
 import mod.leronus.mores.item.ModTabs;
 import mod.leronus.mores.item.client.ShieldTileEntityRenderer;
 import net.minecraft.ChatFormatting;
@@ -17,12 +17,10 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.DispenserBlock;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
-import net.minecraftforge.common.ForgeConfigSpec.ConfigValue;
 import net.minecraftforge.event.entity.living.ShieldBlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.util.ObfuscationReflectionHelper;
 
-import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.function.Consumer;
@@ -30,19 +28,19 @@ import java.util.function.Supplier;
 
 public class ModShieldItem extends ShieldItem {
 
-    private Supplier<Integer> damageReduction;
+    private int damageReduction;
     @SuppressWarnings("deprecation")
     private LazyLoadedValue<Ingredient> repairMaterial;
     public int durability;
 
-    public ModShieldItem(ConfigValue<Integer> damageReduction, String repairTag, int durability,
+    public ModShieldItem(int damageReduction, String repairTag, int durability,
                          boolean fireProof){
-        this(damageReduction::get, () -> getTagIngredient(repairTag), durability, fireProof);
+        this(damageReduction, () -> getTagIngredient(repairTag), durability, fireProof);
         this.durability = durability;
     }
 
     @SuppressWarnings("deprecation")
-    public ModShieldItem(Supplier<Integer> damageReduction,
+    public ModShieldItem(int damageReduction,
                             Supplier<Ingredient> repairMaterial, int durability, boolean fireProof) {
         super((fireProof ? new Properties().fireResistant() : new Properties()).tab(ModTabs.MORES_SHIELDS)
                 .durability(durability));
@@ -106,7 +104,7 @@ public class ModShieldItem extends ShieldItem {
      * @return The percentage of the damage received this shield blocks.
      */
     public int getDamageReduction() {
-        return damageReduction.get();
+        return damageReduction;
     }
 
     @Override
@@ -117,7 +115,7 @@ public class ModShieldItem extends ShieldItem {
 
     @SubscribeEvent
     public static void onShieldBlock(ShieldBlockEvent e) {
-        if (Config.enableDamageReduction.get()) {
+        if (MoresConfig.enableDamageReduction) {
             float damage = e.getOriginalBlockedDamage();
             LivingEntity victim = e.getEntity();
             DamageSource source = e.getDamageSource();
@@ -134,9 +132,9 @@ public class ModShieldItem extends ShieldItem {
                 Item shield = victim.getUseItem().getItem();
                 if (shield instanceof ModShieldItem) {
                     reduction = ((ModShieldItem) shield).getDamageReduction() / 100f;
-                } else if (shield == Items.SHIELD || (!Config.customShieldMaxReduction.get()
+                } else if (shield == Items.SHIELD || (!MoresConfig.customShieldMaxReduction
                         && victim.getUseItem().getUseAnimation() == UseAnim.BLOCK)) {
-                    reduction = Config.defaultDamageReduction.get() / 100f;
+                    reduction = MoresConfig.defaultDamageReduction / 100f;
                 }
 
                 if (reduction < 1f) {

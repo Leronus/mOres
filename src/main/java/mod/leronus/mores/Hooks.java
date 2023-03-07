@@ -1,6 +1,7 @@
 package mod.leronus.mores;
 
 import mod.leronus.mores.config.Config;
+import mod.leronus.mores.config.MoresConfig;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShieldItem;
@@ -8,7 +9,7 @@ import net.minecraft.world.item.ShieldItem;
 public class Hooks {
 
     public static boolean canThornsApply(ItemStack stack) {
-        if (Config.thornsOnShields.get()) {
+        if (MoresConfig.thornsOnShields) {
             return stack.getItem() instanceof ArmorItem || stack.getItem() instanceof ShieldItem;
         } else {
             return stack.getItem() instanceof ArmorItem;
