@@ -88,13 +88,13 @@ public class ModPlacedFeatures {
             ()-> new PlacedFeature(ModConfiguredFeatures.ANTHRACITE_ORE_UPPER.getHolder().get(), commonOrePlacement
                     (21, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.anthraciteUpperBottom.get()), VerticalAnchor.top()))));
+                                    (VerticalAnchor.aboveBottom(Config.overworldAnthraciteUpperBottom.get()), VerticalAnchor.top()))));
 
     public static final RegistryObject<PlacedFeature> ANTHRACITE_ORE_LOWER_PLACED = PLACED_FEATURES.register("anthracite_ore_lower_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.ANTHRACITE_ORE_BURIED.getHolder().get(), commonOrePlacement
                     (15, // VeinsPerChunk
                             HeightRangePlacement.triangle
-                                    (VerticalAnchor.aboveBottom(Config.anthraciteLowerBottom.get()), VerticalAnchor.aboveBottom(Config.anthraciteLowerTop.get())))));
+                                    (VerticalAnchor.aboveBottom(Config.overworldAnthraciteLowerBottom.get()), VerticalAnchor.aboveBottom(Config.overworldAnthraciteLowerTop.get())))));
 
 
 
