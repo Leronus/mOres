@@ -113,42 +113,42 @@ public class ModShieldItem extends ShieldItem {
         return repairMaterial.get().test(repair);
     }
 
-    @SubscribeEvent
-    public static void onShieldBlock(ShieldBlockEvent e) {
-        if (Config.enableDamageReduction.get()) {
-            float damage = e.getOriginalBlockedDamage();
-            LivingEntity victim = e.getEntity();
-            DamageSource source = e.getDamageSource();
-
-            if (source.isProjectile()) {
-                return;
-            }
-
-            float f1 = 0.0f;
-            if (damage > 0.0F && victim.isDamageSourceBlocked(source)) {
-                f1 = damage;
-                float reduction = 1f;
-
-                Item shield = victim.getUseItem().getItem();
-                if (shield instanceof ModShieldItem) {
-                    reduction = ((ModShieldItem) shield).getDamageReduction() / 100f;
-                } else if (shield == Items.SHIELD || (!Config.customShieldMaxReduction.get()
-                        && victim.getUseItem().getUseAnimation() == UseAnim.BLOCK)) {
-                    reduction = Config.defaultDamageReduction.get() / 100f;
-                }
-
-                if (reduction < 1f) {
-                    f1 = damage * reduction;
-                }
-
-                int level = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.THORNS, victim.getUseItem());
-                if (level > 0 && reduction == 1f && source.getEntity() != null) {
-                    Enchantments.THORNS.doPostHurt(victim, source.getEntity(), level);
-                }
-            }
-            e.setBlockedDamage(f1);
-        }
-    }
+//    @SubscribeEvent
+//    public static void onShieldBlock(ShieldBlockEvent e) {
+//        if (Config.enableDamageReduction.get()) {
+//            float damage = e.getOriginalBlockedDamage();
+//            LivingEntity victim = e.getEntity();
+//            DamageSource source = e.getDamageSource();
+//
+//            if (source.isProjectile()) {
+//                return;
+//            }
+//
+//            float f1 = 0.0f;
+//            if (damage > 0.0F && victim.isDamageSourceBlocked(source)) {
+//                f1 = damage;
+//                float reduction = 1f;
+//
+//                Item shield = victim.getUseItem().getItem();
+//                if (shield instanceof ModShieldItem) {
+//                    reduction = ((ModShieldItem) shield).getDamageReduction() / 100f;
+//                } else if (shield == Items.SHIELD || (!Config.customShieldMaxReduction.get()
+//                        && victim.getUseItem().getUseAnimation() == UseAnim.BLOCK)) {
+//                    reduction = Config.defaultDamageReduction.get() / 100f;
+//                }
+//
+//                if (reduction < 1f) {
+//                    f1 = damage * reduction;
+//                }
+//
+//                int level = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.THORNS, victim.getUseItem());
+//                if (level > 0 && reduction == 1f && source.getEntity() != null) {
+//                    Enchantments.THORNS.doPostHurt(victim, source.getEntity(), level);
+//                }
+//            }
+//            e.setBlockedDamage(f1);
+//        }
+//    }
 
     public static Component getDamageReductionTextComponent(int reduction) {
         Component damageReduction = Component.translatable("mores.shield_damage_reduction", reduction).withStyle(ChatFormatting.DARK_GREEN);

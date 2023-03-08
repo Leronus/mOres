@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "WoW",
     "WWW",
-    "WSW",
-    "WWW"
+    " W "
   ],
   "key": {
     "W": {
-      "item": "mores:ruby_gem"
+      "tag": "minecraft:planks"
     },
-    "S": {
-      "item": "minecraft:shield"
+    "o": {
+      "item": "mores:ruby_gem"
     }
   },
   "result": {

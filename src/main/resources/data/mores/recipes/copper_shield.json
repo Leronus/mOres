@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "WoW",
     "WWW",
-    "WSW",
-    "WWW"
+    " W "
   ],
   "key": {
     "W": {
-      "item": "minecraft:copper_ingot"
+      "tag": "minecraft:planks"
     },
-    "S": {
-      "item": "minecraft:shield"
+    "o": {
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
