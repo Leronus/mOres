@@ -35,18 +35,16 @@ public class ModShieldItem extends ShieldItem {
     private LazyLoadedValue<Ingredient> repairMaterial;
     public int durability;
 
-    public ModShieldItem(ConfigValue<Integer> damageReduction, String repairTag, int durability,
+    public ModShieldItem(String repairTag, int durability,
                          boolean fireProof){
-        this(damageReduction::get, () -> getTagIngredient(repairTag), durability, fireProof);
+        this(() -> getTagIngredient(repairTag), durability, fireProof);
         this.durability = durability;
     }
 
     @SuppressWarnings("deprecation")
-    public ModShieldItem(Supplier<Integer> damageReduction,
-                            Supplier<Ingredient> repairMaterial, int durability, boolean fireProof) {
+    public ModShieldItem(Supplier<Ingredient> repairMaterial, int durability, boolean fireProof) {
         super((fireProof ? new Properties().fireResistant() : new Properties()).tab(ModTabs.MORES_SHIELDS)
                 .durability(durability));
-        this.damageReduction = damageReduction;
         this.repairMaterial = new LazyLoadedValue<>(repairMaterial);
         DispenserBlock.registerBehavior(this, ArmorItem.DISPENSE_ITEM_BEHAVIOR);
     }
