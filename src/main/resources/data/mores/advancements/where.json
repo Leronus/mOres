@@ -1,35 +1,31 @@
 {
   "display": {
-    "title": "WAT? WAAR ZIJN JULLIE?",
-    "description": "Wander too far off just like Martijn...",
     "icon": {
       "item": "minecraft:bedrock"
     },
+    "title": "WAT? WAAR ZIJN JULLIE?",
+    "description": "You wandered too far off just like Martijn...",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:ice_bucket_challenge",
+  "parent": "mores:mores/root",
   "criteria": {
-    "requirement": {
+    "bedrock": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": 4,
-            "predicate": {
-              "position": {
-                "y": -63
-              }
+        "player": {
+          "location": {
+            "position": {
+              "y": -63
             }
           }
-        ]
+        }
       }
     }
   },
   "rewards": {
-    "experience": 200
+    "experience": 300
   }
 }

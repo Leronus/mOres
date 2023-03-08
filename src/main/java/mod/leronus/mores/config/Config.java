@@ -393,7 +393,7 @@ public class Config {
 //        netheriteDurability = getInt("netheriteDurability", CATEGORY_SHIELD, 6300,
 //                "The durability of the Netherite Shield.");
 //        thornsOnShields = getBoolean("thornsOnShields", CATEGORY_SHIELDS, true,
-//                "Allows the Thorns enchantment to by applied to Shields");
+//                "Allows the Thorns enchantment to be applied to Shields");
 //        enableDamageReduction = getBoolean("enableDamageReduction", CATEGORY_SHIELDS, true,
 //                "Enables modified damage reduction values for shields.");
     }
