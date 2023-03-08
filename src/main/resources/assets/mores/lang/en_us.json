@@ -34,6 +34,7 @@
   "item.mores.anthracite" : "Anthracite",
   "block.mores.anthracite_ore" : "Anthracite Ore",
   "block.mores.nether_anthracite_ore" : "Nether Anthracite Ore",
+  "block.mores.deepslate_anthracite_ore" : "Deepslate Anthracite Ore",
 
   "item.mores.raw_copper" : "Raw Copper",
   "item.mores.raw_tin" : "Raw Tin",
