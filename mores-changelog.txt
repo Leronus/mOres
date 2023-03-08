@@ -3,6 +3,7 @@ v4.3.0 (1.19.3)
 
 
 v4.2.4 (1.19.2)
+- Changed all shield recipes to match the recipe for the original shield
 - Fixed 'where are you' advancement
 - Removed unused/broken entries from the config (shield damageReduction not working sadly, disabling/enabling the spawning of ores sadly isn't either)
 - Config structure updated (ores on top, divided in sub categories)

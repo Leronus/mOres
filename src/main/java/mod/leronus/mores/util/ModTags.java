@@ -30,6 +30,7 @@ public class ModTags {
         public static final TagKey<Item> COBALT_INGOTS = forgeTag("ingots/cobalt");
         public static final TagKey<Item> STEEL_INGOTS = forgeTag("ingots/steel");
         public static final TagKey<Item> STERLING_INGOTS = forgeTag("ingots/sterling_silver");
+        public static final TagKey<Item> OBSIDIAN_INGOTS = forgeTag("ingots/obsidian");
 
         public static final TagKey<Item> TOPAZ_GEMS = forgeTag("gems/topaz");
         public static final TagKey<Item> TOURMALINE_GEMS = forgeTag("gems/tourmaline");
