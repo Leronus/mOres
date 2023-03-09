@@ -58,5 +58,55 @@
         "stream" : true
       }
     ]
+  },
+  "bruh": {
+    "category": "ambient",
+    "subtitle" : "sound.mores.bruh",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/bruh",
+        "stream" : true
+      }
+    ]
+  },
+  "oof": {
+    "category": "ambient",
+    "subtitle" : "sound.mores.oof",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/oof",
+        "stream" : true
+      }
+    ]
+  },
+  "aauugh": {
+    "category": "ambient",
+    "subtitle" : "sound.mores.aauugh",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/aauugh",
+        "stream" : true
+      }
+    ]
+  },
+  "yeah": {
+    "category": "ambient",
+    "subtitle" : "sound.mores.yeah",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/yeah",
+        "stream" : true
+      }
+    ]
+  },
+  "sweet_caroline_bootleg": {
+    "category": "music",
+    "subtitle" : "sound.mores.sweet_caroline_bootleg",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/sweet_caroline_bootleg",
+        "stream" : true
+      }
+    ]
   }
 }

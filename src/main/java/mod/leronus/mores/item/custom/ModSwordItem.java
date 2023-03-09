@@ -47,7 +47,7 @@ public class ModSwordItem extends SwordItem {
         //Add enchantment to silver sword upon creation
         if (stack.getItem() == ModItems.SILVER_SWORD.get() || stack.getItem() == ModItems.SILVER_DAGGER.get()
                 || stack.getItem() == ModItems.SILVER_MACE.get() ||  stack.getItem() == ModItems.SILVER_BATTLEAXE.get()) {
-            stack.enchant(Enchantments.SMITE, 2);
+            stack.enchant(Enchantments.SMITE, 1);
         }
         super.onCraftedBy(stack, world, playerEntity);
     }

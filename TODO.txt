@@ -1,27 +1,15 @@
 ITEMS / BLOCKS:
 
-- Retexturing sapphire / ruby?
 - Retexture tanzanite to match ore format or maybe other colour
 - Evaluate diamantium (test, other colour?)
 - Retexture tin somehow
-- Retexture sterling silver (?)
-- Topaz / Tourmaline / Turquoise retexture?
+- Topaz / Tourmaline retexture?
 
-- Add recipe for obsidian ingot (blast furnace only?), change obsidian recipes
 - Change obsidian stats > diamond
 
 - Lignite? then
-- Add anthracite ore [nether - quartz / old tanzanite type texture] (model, texture, blockstate, oregen, recipe (drop / craft), add fuel)
+- Add anthracite ore (recipe (drop / craft))
 - Graphite ore fuel -> only usable in alloy furnace(?)
-
-- Fix copper & amethyst shield recipe (mores copper ingot & amethyst gem -> shard)
-
-
-
-- yeÊEaaaeuhuh sound effect when you die to fall dmg
-- aaaauuuuuughhhhh when sleeping
-- bruh moment when dying to lava
-- roblox oof wanneer je slaat
 ---------------------------------------------------------
 
 OREGEN:
@@ -31,17 +19,12 @@ OREGEN:
 - Nether ruby / sapphire height rarity nerf
 - Overworld Turquoise / Moissanite rarity
 
-
-- REMOVE FIRE ASPECT ENCHANT
-
 --------------------------------------------------------
 
 - ADD OTHER IDEAS (crop)
 
 - CHECK ADVANCEMENT TREE
--- fix waar zijn jullie & change bronze block advancement
-
-- Add cobalt nugget
+-- change bronze block advancement
 
 - Change chain?
 

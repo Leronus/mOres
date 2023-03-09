@@ -26,6 +26,10 @@
   "sound.mores.that_duck" : "I am that Duck advancement speech",
   "sound.mores.im_blue" : "I'm blue advancement muziek",
   "sound.mores.my_horse" : "Look at my horse advancement muziek",
+  "sound.mores.aauugh" : "Speler slaapt",
+  "sound.mores.bruh" : "Bruh moment",
+  "sound.mores.yeah" : "EēYéæh",
+  "sound.mores.oof" : "Speler oeft",
 
   "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
@@ -482,6 +486,7 @@
   "item.mores.chain": "Ketting",
   "item.mores.silver_nugget" : "Zilvernugget",
   "item.mores.bronze_nugget" : "Bronsnugget",
+  "item.mores.cobalt_nugget" : "Kobaltnugget",
   "item.mores.silver_apple" : "Zilveren appel",
   "item.mores.bronze_apple" : "Bronzen appel",
   "item.mores.rooiekool": "Rooiekool",

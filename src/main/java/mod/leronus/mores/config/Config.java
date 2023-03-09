@@ -30,7 +30,7 @@ public class Config {
     private static final String CATEGORY_SHIELDS = "shields";
     private static final String CATEGORY_ENTITY = "entities";
     private static final String CATEGORY_PAINTINGS = "paintings";
-
+    private static final String CATEGORY_SOUNDS = "sounds";
 
     public static BooleanValue enableCustomPaintingsMores;
     public static BooleanValue spawnDuck;
@@ -155,8 +155,7 @@ public class Config {
     public static ConfigValue<Integer> overworldMoissaniteBuriedBottom;
 
     public static ConfigValue<Integer> overworldAnthraciteLowerBottom;
-    public static ConfigValue<Integer> overworldAnthraciteLowerTop
-            ;
+    public static ConfigValue<Integer> overworldAnthraciteLowerTop;
     public static ConfigValue<Integer> endOnyxTop;
     public static ConfigValue<Integer> endOnyxBottom;
 
@@ -176,6 +175,9 @@ public class Config {
     public static BooleanValue thornsOnShields;
     public static BooleanValue enableDamageReduction;
 
+    public static BooleanValue enableCustomDeathSounds;
+    public static BooleanValue enableCustomPlayerSleepingSound;
+    public static BooleanValue enableCustomPlayerHurtSound;
 
     public static ForgeConfigSpec spec;
 
@@ -188,6 +190,7 @@ public class Config {
         shieldConfig();
         entityConfig();
         paintingConfig();
+        soundConfig();
         ForgeConfigSpec spec = builder.build();
         Config.spec = spec;
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
@@ -408,6 +411,14 @@ public class Config {
         builder.comment("The painting configuration for this mod").push(CATEGORY_PAINTINGS).pop();
 
         enableCustomPaintingsMores = getBoolean("enableMoresPaintings", CATEGORY_PAINTINGS, true, "Whether to enable custom paintings designed for mOres. Includes images of Toronto and some memes.");
+    }
+
+    private void soundConfig(){
+        builder.comment("The sound configuration for this mod").push(CATEGORY_SOUNDS).pop();
+
+        enableCustomDeathSounds = getBoolean("enableCustomDeathSounds", CATEGORY_SOUNDS, true, "Whether to enable custom death sounds. Includes bruh & uyêeh sounds.");
+        enableCustomPlayerSleepingSound = getBoolean("enableCustomPlayerSleepingSound", CATEGORY_SOUNDS, true, "Whether to enable custom player sleeping sound. Aauugh.");
+        enableCustomPlayerHurtSound = getBoolean("enableCustomPlayerHurtSound", CATEGORY_SOUNDS, true, "Whether to enable custom player hurting another player sound. Oof.");
     }
 
 

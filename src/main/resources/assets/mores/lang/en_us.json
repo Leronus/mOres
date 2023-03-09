@@ -27,6 +27,10 @@
   "sound.mores.that_duck" : "I am that Duck advancement speech",
   "sound.mores.im_blue" : "I'm blue advancement music",
   "sound.mores.my_horse" : "Look at my horse advancement music",
+  "sound.mores.aauugh" : "Player sleeps",
+  "sound.mores.bruh" : "Bruh moment",
+  "sound.mores.yeah" : "EēYéæh",
+  "sound.mores.oof" : "Player oofs",
 
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
@@ -494,13 +498,12 @@
   "item.mores.graphene_leggings" : "Graphene Leggings",
   "item.mores.graphene_boots" : "Graphene Boots",
 
-  "item.mores.chain" : "Chain",
+  "item.mores.chain" : "Metal Wire",
   "item.mores.silver_nugget" : "Silver Nugget",
   "item.mores.bronze_nugget" : "Bronze Nugget",
+  "item.mores.cobalt_nugget" : "Cobalt Nugget",
   "item.mores.silver_apple" : "Silver Apple",
   "item.mores.bronze_apple" : "Bronze Apple",
-
-  "item.mores.rooiekool" : "Rooiekool",
 
   "item.mores.duck": "Raw Duck",
   "item.mores.cooked_duck": "Cooked Duck",

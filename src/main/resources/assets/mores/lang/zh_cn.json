@@ -23,6 +23,10 @@
   "sound.mores.living_duck_sound" : "鸭：嘎嘎",
   "sound.mores.hurt_duck_sound" : "鸭：受伤",
   "sound.mores.dying_duck_sound" : "鸭：死亡",
+  "sound.mores.aauugh" : "Player sleeps",
+  "sound.mores.bruh" : "Bruh moment",
+  "sound.mores.yeah" : "EēYéæh",
+  "sound.mores.oof" : "Player oofs",
 
   "sound.mores.that_duck" : "I am that Duck advancement speech",
   "sound.mores.im_blue" : "I'm blue advancement music",
@@ -497,6 +501,7 @@
   "item.mores.chain" : "铁链",
   "item.mores.silver_nugget" : "银粒",
   "item.mores.bronze_nugget" : "青铜粒",
+  "item.mores.cobalt_nugget" : "Cobalt Nugget",
   "item.mores.silver_apple" : "银苹果",
   "item.mores.bronze_apple" : "青铜苹果",
 
