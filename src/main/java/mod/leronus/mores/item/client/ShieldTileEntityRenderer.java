@@ -76,9 +76,9 @@ public class ShieldTileEntityRenderer extends BlockEntityWithoutLevelRenderer {
         } else if (shield == ModItems.STEEL_SHIELD.get()) {
             rendermaterial = flag ? ShieldTextures.LOCATION_STEEL_SHIELD_BASE
                     : ShieldTextures.LOCATION_STEEL_SHIELD_BASE_NOPATTERN;
-//        } else if (shield == ModItems.AMETHYST_SHIELD.get()) {
-//            rendermaterial = flag ? ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE
-//                    : ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE_NOPATTERN;
+        } else if (shield == ModItems.AMETHYST_SHIELD.get()) {
+            rendermaterial = flag ? ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE
+                    : ShieldTextures.LOCATION_AMETHYST_SHIELD_BASE_NOPATTERN;
         } else if (shield == ModItems.EMERALD_SHIELD.get()) {
             rendermaterial = flag ? ShieldTextures.LOCATION_EMERALD_SHIELD_BASE
                     : ShieldTextures.LOCATION_EMERALD_SHIELD_BASE_NOPATTERN;

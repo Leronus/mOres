@@ -18,6 +18,9 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> HURT_DUCK_SOUND = SOUND_TYPES.register(
             "hurt_duck_sound", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "hurt_duck_sound")));
 
+    public static final RegistryObject<SoundEvent> SWEET_CAROLINE_BOOTLEG = SOUND_TYPES.register(
+            "sweet_caroline_bootleg", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "sweet_caroline_bootleg")));
+
     public static void register(IEventBus eventBus) {
         SOUND_TYPES.register(eventBus);
     }

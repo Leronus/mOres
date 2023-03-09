@@ -23,7 +23,7 @@ import org.slf4j.Logger;
 @Mod(Mores.MODID)
 public class Mores {
     public static final String MODID = "mores";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     // Very Important Comment
     public Mores() {
