@@ -74,11 +74,11 @@ public class ModArmorItem extends ArmorItem {
                 && BOOTS == (ModItems.EMERALD_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.LUCK, 10, 0, false, false));
 
-        //Sterling Silver: Strength
-        }else if (HELMET == (ModItems.STERLING_HELMET.get())
-                && CHESTPLATE == (ModItems.STERLING_CHESTPLATE.get())
-                && LEGGINGS == (ModItems.STERLING_LEGGINGS.get())
-                && BOOTS == (ModItems.STERLING_BOOTS.get())) {
+        //Steel: Strength
+        }else if (HELMET == (ModItems.STEEL_HELMET.get())
+                && CHESTPLATE == (ModItems.STEEL_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.STEEL_LEGGINGS.get())
+                && BOOTS == (ModItems.STEEL_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 0, false, false));
 
         //Tin: Jump Boost
