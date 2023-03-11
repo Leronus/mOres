@@ -5,6 +5,7 @@ v4.3.0 (1.19.3)
 v4.2.5 (1.19.2)
 - Added sweet caroline music disc
 - Updated all tourmaline textures
+- Updated topaz dagger/battleaxe/mace
 - Rebalanced the tools:
 -- Buffed bronze efficiency
 -- Nerfed emerald attack damage by 0.3
@@ -15,7 +16,15 @@ v4.2.5 (1.19.2)
 -- Onyx & Turquoise durability nerf
 -- Obsidian big buff all around
 -- Moissanite dmg/efficiency nerf, enchantability + durability buff
-
+- Rebalanced the armor:
+-- Added strength effect to full sterling silver
+-- Added health boost to full moissanite armor
+-- Removed strength & slowness effect from full obsidian
+-- Nerfed onyx toughness, buffed durability
+-- Nerfed moissanite durability & armor points (due to added effect)
+-- Nerfed tanzanite durability, but buffed enchantability
+-- Buffed ruby armor points
+-- Buffed obsidian armor points
 
 
 
