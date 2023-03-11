@@ -111,12 +111,12 @@ public class ModPlacedFeatures {
     //Tourmaline Ore
     public static final RegistryObject<PlacedFeature> TOURMALINE_ORE_SMALL_PLACED = PLACED_FEATURES.register("tourmaline_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOURMALINE_ORE_SMALL.getHolder().get(), commonOrePlacement
-                    (8,
+                    (9,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldTourmalineSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTourmalineSmallTop.get())))));
     public static final RegistryObject<PlacedFeature> TOURMALINE_ORE_LARGE_PLACED = PLACED_FEATURES.register("tourmaline_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TOURMALINE_ORE_LARGE.getHolder().get(), rareOrePlacement
-                    (10,
+                    (8,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldTourmalineLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTourmalineLargeTop.get())))));
     public static final RegistryObject<PlacedFeature> TOURMALINE_ORE_BURIED_PLACED = PLACED_FEATURES.register("tourmaline_ore_buried_placed",
@@ -152,23 +152,23 @@ public class ModPlacedFeatures {
     //Ruby
     public static final RegistryObject<PlacedFeature> RUBY_ORE_SMALL_PLACED = PLACED_FEATURES.register("ruby_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_SMALL.getHolder().get(), commonOrePlacement
-                    (6,
+                    (5,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldRubySmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubySmallTop.get())))));
     public static final RegistryObject<PlacedFeature> RUBY_ORE_LARGE_PLACED = PLACED_FEATURES.register("ruby_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_LARGE.getHolder().get(), rareOrePlacement
-                    (7,
+                    (6,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldRubyLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubyLargeTop.get())))));
     public static final RegistryObject<PlacedFeature> RUBY_ORE_BURIED_PLACED = PLACED_FEATURES.register("ruby_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.RUBY_ORE_BURIED.getHolder().get(), commonOrePlacement
-                    (5,
+                    (4,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldRubyBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldRubyBuriedTop.get())))));
 
     public static final RegistryObject<PlacedFeature> NETHER_RUBY_ORE_PLACED = PLACED_FEATURES.register("nether_ruby_ore_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.NETHER_RUBY_ORE.getHolder().get(), commonOrePlacement
-                    (5, // VeinsPerChunk
+                    (4, // VeinsPerChunk
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.netherRubyBottom.get()), VerticalAnchor.aboveBottom(Config.netherRubyTop.get())))));
 

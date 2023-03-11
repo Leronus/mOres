@@ -1,15 +1,16 @@
 ITEMS / BLOCKS:
 
-- Retexture tanzanite to match ore format or maybe other colour
 - Evaluate diamantium (test, other colour?)
-- Retexture tin somehow
 - Topaz / Tourmaline retexture?
+- Carbon Steel battleaxe retexture
+- Maybe brighten up emerald mace, battleaxe too?
 
-- Change obsidian stats > diamond
+- Change obsidian stats (& effect?) > diamond
 
-- Lignite? then
-- Add anthracite ore (recipe (drop / craft))
+- Lignite?
 - Graphite ore fuel -> only usable in alloy furnace(?)
+
+- Change silver and bronze apple (buff duration / change effects?)
 ---------------------------------------------------------
 
 OREGEN:
@@ -21,12 +22,21 @@ OREGEN:
 
 --------------------------------------------------------
 
-- ADD OTHER IDEAS (crop)
+- ADD OTHER IDEAS(?) (crop)
 
 - CHECK ADVANCEMENT TREE
 -- change bronze block advancement
 
-- Change chain?
+--------------------------------------------------------
+
+Server:
+Configs, mods, paintings
+
+
+Future:
+
+Make advancements translatable in en_us.lang
+
 
 
 
