@@ -74,12 +74,11 @@ public class ModArmorItem extends ArmorItem {
                 && BOOTS == (ModItems.EMERALD_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.LUCK, 10, 0, false, false));
 
-        //Obsidian: Slowness + Strength
-        }else if (HELMET == (ModItems.OBSIDIAN_HELMET.get())
-                && CHESTPLATE == (ModItems.OBSIDIAN_CHESTPLATE.get())
-                && LEGGINGS == (ModItems.OBSIDIAN_LEGGINGS.get())
-                && BOOTS == (ModItems.OBSIDIAN_BOOTS.get())) {
-            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 0, false, false));
+        //Sterling Silver: Strength
+        }else if (HELMET == (ModItems.STERLING_HELMET.get())
+                && CHESTPLATE == (ModItems.STERLING_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.STERLING_LEGGINGS.get())
+                && BOOTS == (ModItems.STERLING_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 10, 0, false, false));
 
         //Tin: Jump Boost
@@ -101,6 +100,13 @@ public class ModArmorItem extends ArmorItem {
                 && LEGGINGS == (ModItems.TOPAZ_LEGGINGS.get())
                 && BOOTS == (ModItems.TOPAZ_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 1, false, false));
+        }
+        //Moissanite: Health Boost
+        else if (HELMET == (ModItems.MOISSANITE_HELMET.get())
+                && CHESTPLATE == (ModItems.MOISSANITE_CHESTPLATE.get())
+                && LEGGINGS == (ModItems.MOISSANITE_LEGGINGS.get())
+                && BOOTS == (ModItems.MOISSANITE_BOOTS.get())) {
+            player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 10, 0, false, false));
         }
     }
 }

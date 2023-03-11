@@ -3,8 +3,23 @@ v4.3.0 (1.19.3)
 
 
 v4.2.5 (1.19.2)
-- Added music disc
-- 
+- Added sweet caroline music disc
+- Updated all tourmaline textures
+- Rebalanced the tools:
+-- Buffed bronze efficiency
+-- Nerfed emerald attack damage by 0.3
+-- Buffed amethyst attack damage by 0.2
+-- Nerfed topaz and tourmaline efficiency by 0.5, nerfed atk dmg by 0.3
+-- Tanzanite efficiency buff, enchantibility/durability nerf
+-- Ruby minor enchantability nerf
+-- Onyx & Turquoise durability nerf
+-- Obsidian big buff all around
+-- Moissanite dmg/efficiency nerf, enchantability + durability buff
+
+
+
+
+
 
 v4.2.4 (1.19.2)
 - Added obsidian ingot (used in smithing table)
