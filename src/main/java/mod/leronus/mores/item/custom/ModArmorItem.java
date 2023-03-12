@@ -101,12 +101,12 @@ public class ModArmorItem extends ArmorItem {
                 && BOOTS == (ModItems.TOPAZ_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 10, 1, false, false));
         }
-        //Moissanite: Health Boost
+        //Moissanite: Health Boost (Absorption)
         else if (HELMET == (ModItems.MOISSANITE_HELMET.get())
                 && CHESTPLATE == (ModItems.MOISSANITE_CHESTPLATE.get())
                 && LEGGINGS == (ModItems.MOISSANITE_LEGGINGS.get())
                 && BOOTS == (ModItems.MOISSANITE_BOOTS.get())) {
-            player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 10, 0, false, false));
+            player.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 10, 0, false, false));
         }
     }
 }

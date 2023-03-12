@@ -87,7 +87,7 @@ public class TooltipHandler {
             if (modArmorItem.getMaterial() == ModArmorMaterials.TIN) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
-                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.jump_boost").withStyle(ChatFormatting.DARK_GRAY)));
+                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.jump_boost").withStyle(ChatFormatting.YELLOW)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.TIN.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.COBALT) {
                 //Making the tooltips
@@ -97,7 +97,7 @@ public class TooltipHandler {
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.AMETHYST) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
-                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.slow_falling").withStyle(ChatFormatting.WHITE)));
+                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.slow_falling").withStyle(ChatFormatting.YELLOW)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.AMETHYST.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.OBSIDIAN) {
                 //Making the tooltips
@@ -162,7 +162,7 @@ public class TooltipHandler {
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.MOISSANITE) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
-                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.absorption").withStyle(ChatFormatting.DARK_GRAY)));
+                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.conduit").withStyle(ChatFormatting.AQUA)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.MOISSANITE.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.ONYX) {
                 //Making the tooltips
