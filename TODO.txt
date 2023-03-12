@@ -20,6 +20,8 @@ OREGEN:
 
 - CHECK ADVANCEMENT TREE
 -- change bronze block advancement
+-- add cobalt apple advancement
+
 
 --------------------------------------------------------
 

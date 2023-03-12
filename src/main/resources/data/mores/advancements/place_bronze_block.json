@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Crazy Frog",
-    "description": "What's going on???",
+    "title": "Third Place",
+    "description": "Place a bronze block",
     "icon": {
       "item": "mores:bronze_block"
     },
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 50
   }
 }
