@@ -104,7 +104,7 @@
     "subtitle" : "sound.mores.sweet_caroline_bootleg",
     "sounds" : [
       {
-        "name" : "mores:ambient/sweet_caroline_bootleg",
+        "name" : "mores:music/sweet_caroline_bootleg",
         "stream" : true
       }
     ]

@@ -1,10 +1,20 @@
 ITEMS / BLOCKS:
 
 - Evaluate diamantium (test, other colour?)
+- Evaluate fyranite
 - Maybe brighten up emerald mace, battleaxe too?
 
-- Lignite?
-- Graphite ore fuel?
+- Implement spinel
+
+- Lignite/ Graphite ore fuel?
+
+- Add chocolate item, recipes for it as well
+- Weed crop?
+
+---------------------------------------------------------
+
+- ADD CUSTOM ARMOR SOUNDS (that way I can add my own subtitles, could even just copy netherites sound
+
 ---------------------------------------------------------
 
 OREGEN:
@@ -14,16 +24,19 @@ OREGEN:
 - Nether ruby / sapphire height rarity nerf
 - Overworld Turquoise / Moissanite rarity
 
---------------------------------------------------------
-
-- ADD OTHER IDEAS(?) (crop)
-
-- CHECK ADVANCEMENT TREE
--- change bronze block advancement
--- add cobalt apple advancement
-
 
 --------------------------------------------------------
+
+- ADVANCEMENTS
+-- Add full sterling silver armor advancement?
+
+--------------------------------------------------------
+
+- LOOTTABLES
+
+--------------------------------------------------------
+
+
 
 Server:
 Configs, mods, paintings

@@ -4,6 +4,7 @@ import mod.leronus.mores.Mores;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.custom.*;
+import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.util.ModTags;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -29,7 +30,7 @@ public class ModItems {
     /**
      * Fills the registry with items
      */
-    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1), 4160));
 
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));

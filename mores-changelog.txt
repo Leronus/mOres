@@ -6,6 +6,8 @@ v4.2.5 (1.19.2)
 - Added sweet caroline music disc
 - Added cobalt apple
 - Added recipes for cobalt nuggets
+- Added advancement for eating cobalt apple
+- Updated some advancement titles (changed sterling to silver block)
 - Updated all tourmaline textures
 - Updated topaz & steel dagger/battleaxe/mace textures
 - Updated steel horse armor texture

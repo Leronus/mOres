@@ -33,6 +33,9 @@
   "sound.mores.yeah" : "EēYéæh",
   "sound.mores.oof" : "Player oofs",
 
+  "item.mores.sweet_caroline_music_disc" : "Sweet Caroline Music Disc",
+  "item.mores.sweet_caroline_music_disc.desc" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
