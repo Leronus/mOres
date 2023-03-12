@@ -30,7 +30,7 @@ public class ModItems {
     /**
      * Fills the registry with items
      */
-    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1), 4160));
+    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 4160));
 
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
