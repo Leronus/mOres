@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "cobalt_ingot",
+  "group": "copper_ingot",
   "pattern": [
     "###",
     "###",
@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "mores:cobalt_nugget"
+      "item": "mores:copper_nugget"
     }
   },
   "result": {
-    "item": "mores:cobalt_ingot"
+    "item": "minecraft:copper_ingot"
   }
 }
