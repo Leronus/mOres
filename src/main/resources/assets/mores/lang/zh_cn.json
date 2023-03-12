@@ -9,7 +9,8 @@
   "mores.jump_boost": "跳跃提升",
   "mores.haste": "急迫",
   "mores.slow_falling": "缓降",
-  "mores.strength_and_slowness": "力量 & 缓慢",
+  "mores.strength": "力量",
+  "mores.absorption": "Absorption",
   "mores.luck": "幸运",
   "mores.regeneration": "生命恢复",
   "mores.speed": "速度",
@@ -504,8 +505,7 @@
   "item.mores.cobalt_nugget" : "Cobalt Nugget",
   "item.mores.silver_apple" : "银苹果",
   "item.mores.bronze_apple" : "青铜苹果",
-
-  "item.mores.rooiekool" : "Rooiekool",
+  "item.mores.cobalt_apple" : "Cobalt Apple",
 
   "item.mores.duck": "生鸭肉",
   "item.mores.cooked_duck": "熟鸭肉",

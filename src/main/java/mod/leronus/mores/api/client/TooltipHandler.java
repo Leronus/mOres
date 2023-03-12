@@ -102,7 +102,6 @@ public class TooltipHandler {
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.OBSIDIAN) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
-                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.strength_and_slowness").withStyle(ChatFormatting.DARK_PURPLE)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.OBSIDIAN.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.EMERALD) {
                 //Making the tooltips
@@ -153,6 +152,7 @@ public class TooltipHandler {
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.STEEL) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
+                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.strength").withStyle(ChatFormatting.DARK_PURPLE)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.STEEL.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.TOPAZ) {
                 //Making the tooltips
@@ -162,6 +162,7 @@ public class TooltipHandler {
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.MOISSANITE) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
+                tooltip.add(Component.translatable("mores.full_set_bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.absorption").withStyle(ChatFormatting.DARK_GRAY)));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.MOISSANITE.getDurabilityForSlot(modArmorItem.getSlot()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             } else if (modArmorItem.getMaterial() == ModArmorMaterials.ONYX) {
                 //Making the tooltips

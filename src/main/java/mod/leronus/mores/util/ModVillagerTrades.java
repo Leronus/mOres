@@ -28,7 +28,7 @@ public class ModVillagerTrades
                 new ItemStack(ModItems.BRONZE_BOOTS.get()), 12, 1, 0.2F));
 
         // apprentice trades
-        trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.BRONZE_INGOT.get(), 4),
+        trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.COBALT_INGOT.get(), 4),
                 new ItemStack(Items.EMERALD), 12, 10, 0.05F));
         trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.STEEL_INGOT.get(), 4),
                 new ItemStack(Items.EMERALD), 12, 10, 0.05F));
@@ -60,7 +60,9 @@ public class ModVillagerTrades
     public static void ToolsmithTrades(VillagerTradesEvent evt)
     {
         Int2ObjectMap<List<ItemListing>> trades = evt.getTrades();
-        // novice - nothing added.
+        // novice
+        trades.get(1).add(new BasicItemListing(new ItemStack(ModItems.TIN_INGOT.get(), 4),
+                new ItemStack(Items.EMERALD), 12, 10, 0.05F));
 
         // apprentice
         trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.BRONZE_INGOT.get(), 4),
@@ -87,17 +89,27 @@ public class ModVillagerTrades
                 new ItemStack(ModItems.STEEL_PICKAXE.get()), 12, 10, 0.2F));
 
         // expert trades
-        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.STEEL_AXE.get(),
+        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.COBALT_AXE.get(),
                 2, 3, 20, 0.2F));
-        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.STEEL_SHOVEL.get(),
+        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.COBALT_SHOVEL.get(),
                 3, 3, 20, 0.2F));
-        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.STEEL_PICKAXE.get(),
+        trades.get(3).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.COBALT_PICKAXE.get(),
                 3, 3, 20, 0.2F));
+
+        // journeyman trades
+        trades.get(4).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TOURMALINE_AXE.get(),
+                4, 3, 20, 0.2F));
+        trades.get(4).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TOPAZ_SHOVEL.get(),
+                6, 3, 20, 0.2F));
+        trades.get(4).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TOURMALINE_PICKAXE.get(),
+                6, 3, 20, 0.2F));
 
 
         // master trades
-        trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TURQUOISE_PICKAXE.get(),
-                13, 3, 30, 0.2F));
+        trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.RUBY_PICKAXE.get(),
+                23, 3, 30, 0.2F));
+        trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.SAPPHIRE_PICKAXE.get(),
+                19, 3, 30, 0.2F));
     } // end ArmorerTrades()
 
     public static void WeaponsmithTrades(VillagerTradesEvent evt)
@@ -105,28 +117,31 @@ public class ModVillagerTrades
         Int2ObjectMap<List<ItemListing>> trades = evt.getTrades();
         // novice
         trades.get(1).add(new BasicItemListing( new ItemStack(Items.EMERALD, 3),
-                new ItemStack(ModItems.STEEL_AXE.get()), 12, 1, 0.2F));
-        trades.get(1).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.STEEL_SWORD.get(),
+                new ItemStack(ModItems.STERLING_AXE.get()), 12, 1, 0.2F));
+        trades.get(1).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.STERLING_SWORD.get(),
                 2, 3, 1, 0.05F));
 
         // apprentice
-        trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.BRONZE_INGOT.get(), 4),
-                new ItemStack(Items.EMERALD), 12, 10, 0.05F));
         trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.STEEL_INGOT.get(), 4),
+                new ItemStack(Items.EMERALD), 12, 10, 0.05F));
+        trades.get(2).add(new BasicItemListing(new ItemStack(ModItems.STERLING_INGOT.get(), 4),
                 new ItemStack(Items.EMERALD), 12, 10, 0.05F));
 
         // journeyman
-        trades.get(3).add(new BasicItemListing(new ItemStack(ModItems.TURQUOISE_GEM.get()),
+        trades.get(3).add(new BasicItemListing(new ItemStack(ModItems.TOPAZ_SWORD.get()),
                 new ItemStack(Items.EMERALD), 12, 20, 0.05F));
 
         // expert trades
-        trades.get(4).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TURQUOISE_AXE.get(),
-                12, 3, 15, 0.2F));
+        trades.get(4).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.SAPPHIRE_BATTLEAXE.get(),
+                14, 3, 15, 0.2F));
 
         // master trades
         trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TURQUOISE_SWORD.get(),
-                8, 3, 30, 0.2F));
-
+                19, 3, 30, 0.2F));
+        trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.TANZANITE_MACE.get(),
+                13, 3, 15, 0.2F));
+        trades.get(5).add(new VillagerTrades.EnchantedItemForEmeralds(ModItems.MOISSANITE_MACE.get(),
+                14, 3, 15, 0.2F));
     } // end ArmorerTrades()
 
 } // end class

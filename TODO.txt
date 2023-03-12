@@ -1,16 +1,10 @@
 ITEMS / BLOCKS:
 
 - Evaluate diamantium (test, other colour?)
-- Topaz / Tourmaline retexture?
-- Carbon Steel battleaxe retexture
 - Maybe brighten up emerald mace, battleaxe too?
 
-- Change obsidian stats (& effect?) > diamond
-
 - Lignite?
-- Graphite ore fuel -> only usable in alloy furnace(?)
-
-- Change silver and bronze apple (buff duration / change effects?)
+- Graphite ore fuel?
 ---------------------------------------------------------
 
 OREGEN:
