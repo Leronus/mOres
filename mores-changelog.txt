@@ -2,6 +2,10 @@ v4.3.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.2.6 (1.19.2)
+-
+
+
 v4.2.5 (1.19.2)
 - Added copper, sterling silver, carbon steel & tin nuggets
 - Added smelting/blasting recipes for copper +sterling+steel+tin nuggets and ingots from nuggets as well
@@ -18,7 +22,7 @@ v4.2.5 (1.19.2)
 - Updated topaz & steel dagger/battleaxe/mace textures
 - Updated steel horse armor texture
 - Fixed craft all emerald gear advancement (would pop for only one item crafted)
-- Changed tree structure of advancements (using BetterAdvancements big shoutout!)
+- Changed tree structure of advancements
 
 - Rebalanced the tools:
 -- Buffed bronze efficiency

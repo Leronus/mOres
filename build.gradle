@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '4.2.5'
+version = '4.2.6'
 group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mores'
 
@@ -90,7 +90,9 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
     runtimeOnly fg.deobf("curse.maven:better_advancements-272515:4276529")
-//    runtimeOnly fg.deobf("curse.maven:xray-256256:3874945") //X-Ray
+//    runtimeOnly fg.deobf("curse.maven:immersive_engineering-231951:4415892")
+    runtimeOnly fg.deobf("curse.maven:jei-238222:4434397")
+//    runtimeOnly fg.deobf("curse.maven:xray-256256:3905392") //X-Ray
 }
 
 jar {
@@ -98,7 +100,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.2.5",
+                "Specification-Version": "v4.2.6",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",
