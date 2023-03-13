@@ -1,25 +1,25 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:obsidian"
+      "item": "mores:obsidian_ingot"
     },
-    "title": "Ice Bucket Challenge",
-    "description": "Obtain a block of obsidian",
+    "title": "Leveling Up",
+    "description": "Obtain an obsidian ingot",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
-    "announce_to_chat": false,
-    "show_toast": false,
+    "announce_to_chat": true,
+    "show_toast": true,
     "hidden": false
   },
   "parent": "mores:obtain_topaz",
   "criteria": {
-    "obsidian": {
+    "obsidian_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:obsidian"
+              "mores:obsidian_ingot"
             ]
           }
         ]
@@ -28,7 +28,7 @@
   },
   "requirements": [
     [
-      "obsidian"
+      "obsidian_ingot"
     ]
   ]
 }

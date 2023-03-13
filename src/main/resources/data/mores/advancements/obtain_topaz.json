@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_cobalt_ore",
+  "parent": "mores:acquire_hardware",
   "criteria": {
     "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",

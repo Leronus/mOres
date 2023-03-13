@@ -11,11 +11,15 @@ v4.2.5 (1.19.2)
 - Added cobalt apple
 - Added recipes for cobalt nuggets
 - Added advancement for eating cobalt apple
+- Updated raw cobalt & cobalt apple textures
 - Updated rarity for bronze & silver apples
 - Updated some advancement titles (changed sterling to silver block)
 - Updated all tourmaline textures
 - Updated topaz & steel dagger/battleaxe/mace textures
 - Updated steel horse armor texture
+- Fixed craft all emerald gear advancement (would pop for only one item crafted)
+- Changed tree structure of advancements (using BetterAdvancements big shoutout!)
+
 - Rebalanced the tools:
 -- Buffed bronze efficiency
 -- Nerfed emerald attack damage by 0.3
@@ -26,6 +30,7 @@ v4.2.5 (1.19.2)
 -- Onyx & Turquoise durability nerf
 -- Obsidian big buff all around
 -- Moissanite dmg/efficiency nerf, enchantability + durability buff
+
 - Rebalanced the armor:
 -- Added strength effect to full sterling silver
 -- Added conduit power to full moissanite armor

@@ -3,14 +3,14 @@
     "title": "You Shall Not Pass",
     "description": "Craft your first mOres shield.",
     "icon": {
-      "item": "mores:tourmaline_shield"
+      "item": "mores:bronze_shield"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:root",
+  "parent": "mores:craft_wood_dagger",
   "criteria": {
     "obtain_copper_shield": {
       "trigger": "minecraft:inventory_changed",

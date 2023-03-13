@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:root",
+  "parent": "mores:ice_bucket_challenge",
   "criteria": {
     "bedrock": {
       "trigger": "minecraft:location",

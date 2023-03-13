@@ -3,7 +3,7 @@
     "title": "The Great Wall",
     "description": "Craft all mOres shields",
     "icon": {
-      "item": "mores:sapphire_shield"
+      "item": "mores:ruby_shield"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

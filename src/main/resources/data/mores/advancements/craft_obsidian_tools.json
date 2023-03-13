@@ -1,7 +1,7 @@
 {
   "display": {
     "title": "Unbreakable Four",
-    "description": "Craft four obsidian tools",
+    "description": "Craft all obsidian tools",
     "icon": {
       "item": "mores:obsidian_axe"
     },
@@ -10,27 +10,36 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:ice_bucket_challenge",
+  "parent": "mores:obtain_obsidian_ingot",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_obsidian_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "mores:obsidian_sword"
-            ]
-          },
-          {
-            "items": [
               "mores:obsidian_pickaxe"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_obsidian_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:obsidian_axe"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_obsidian_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:obsidian_shovel"
@@ -38,9 +47,24 @@
           }
         ]
       }
+    },
+    "craft_obsidian_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:obsidian_hoe"
+            ]
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    ["craft_obsidian_pickaxe"], ["craft_obsidian_axe"], ["craft_obsidian_shovel"], ["craft_obsidian_hoe"]
+  ],
   "rewards": {
-    "experience": 75
+    "experience": 45
   }
 }
