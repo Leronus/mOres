@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_tin_ore",
+  "parent": "mores:smelt_more",
   "criteria": {
     "obtain_alloy_furnace": {
       "trigger": "minecraft:inventory_changed",

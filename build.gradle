@@ -84,11 +84,12 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    maven { url 'https://api.modrinth.com/maven' }
+    maven { url "https://www.cursemaven.com" }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    runtimeOnly fg.deobf("curse.maven:better_advancements-272515:4276529")
 //    runtimeOnly fg.deobf("curse.maven:xray-256256:3874945") //X-Ray
 }
 
