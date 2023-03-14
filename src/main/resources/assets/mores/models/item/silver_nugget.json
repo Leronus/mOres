@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:item/silver_nugget"
+    "layer0": "mores:items/silver_nugget"
   }
 }

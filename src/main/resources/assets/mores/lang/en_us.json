@@ -465,10 +465,16 @@
   "item.mores.graphene_boots" : "Graphene Boots",
 
   "item.mores.chain" : "Chain",
+  "item.mores.tin_nugget" : "Tin Nugget",
+  "item.mores.copper_nugget" : "Copper Nugget",
   "item.mores.silver_nugget" : "Silver Nugget",
+  "item.mores.cobalt_nugget" : "Cobalt Nugget",
   "item.mores.bronze_nugget" : "Bronze Nugget",
+  "item.mores.steel_nugget" : "Carbon Steel Nugget",
+  "item.mores.sterling_nugget" : "Sterling Silver Nugget",
   "item.mores.silver_apple" : "Silver Apple",
   "item.mores.bronze_apple" : "Bronze Apple",
+  "item.mores.cobalt_apple" : "Cobalt Apple",
 
   "item.mores.rooiekool" : "Rooiekool",
 

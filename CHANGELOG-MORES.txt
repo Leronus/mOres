@@ -1,22 +1,31 @@
+Release v3.1.0
+- Added tags for nuggets to make them compatible with other mods
+- Updated nugget textures
+- Added missing nugget items (sterling silver, carbon steel, copper and tin)
+- Added missing recipes for smelting metals from tools and armor to nuggets and crafting nuggets back to ingots
+
+
+
+Release v3.0.7
+- Alloy Furnace fully functioning (fixed issue with slots)
+
+Beta v3.0.5
+- Fixed JEI compatibility
+
 Beta v3.0.4
 - Added all custom shields
 - Added damage reduction feature for the shields (can be configured in the config file)
 - Added tooltips to the shields (redesigned)
 - Added alloy furnace custom GUI (alloy recipes NOT working yet -- work in progress)
 
-
-
-
 Beta v3.0.3
 - Balanced xp drops for smelting and mining ores
 - Added container for the alloy furnace (still working to get it 100% working)
-
 
 Release v3.0.0
 - Fixed advancements (changed titles, fixed bug where they all show up at once, improved structure)
 - Updated some emerald textures
 - Tweaked oregen (cobalt no longer exposed to air)
-
 
 Alpha v3.0.2
 - Added tooltips for all the armor items
