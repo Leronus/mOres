@@ -1,9 +1,16 @@
-v4.3.0 (1.19.3)
+v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.3.0 (1.19.2)
+- Fixed a couple of advancements missing because of the obsidian advancement name change
+- Added obsidian shield recipe
+- Buffed haste effect (to haste 2) for cobalt apple
+- Added JEI integration for the alloys from  the alloy furnace
+
+
 v4.2.6 (1.19.2)
--
+- Fixed forge tags for the newly added metal nuggets, making them compatible again with other mods such as Immersive Engineering
 
 
 v4.2.5 (1.19.2)

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.crafting.CraftingHelper;
@@ -174,6 +175,7 @@ public class AlloyRecipe implements IAlloyRecipe
         return inputs;
     }
 
+
     @Override
     public ResourceLocation getId()
     {
@@ -197,10 +199,21 @@ public class AlloyRecipe implements IAlloyRecipe
         return ModRecipes.ALLOY_SERIALIZER.get();
     }
 
+    @Override
+    public RecipeType<?> getType() {
+        return Type.INSTANCE;
+    }
+
+    public static class Type implements RecipeType<AlloyRecipe> {
+        private Type() { }
+        public static final Type INSTANCE = new Type();
+        public static final String ID = "alloying";
+    }
 
     public static class AlloyRecipeSerializer implements RecipeSerializer<AlloyRecipe>
     {
 
+        public static final AlloyRecipeSerializer INSTANCE = new AlloyRecipeSerializer();
         @Override
         public AlloyRecipe fromJson(ResourceLocation recipeId, JsonObject json)
         {
