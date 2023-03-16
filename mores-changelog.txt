@@ -3,6 +3,8 @@ v4.4.0 (1.19.3)
 
 
 v4.3.0 (1.19.2)
+- Shortened sweet caroline music disc (and lowered volume)
+- Added √9 sound
 - Added velvet, carrot pie and chocolate food items
 - Added advancement for eating chocolate
 - Added recipe to craft metal wire back to iron ingots

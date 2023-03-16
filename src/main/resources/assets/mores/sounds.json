@@ -108,5 +108,15 @@
         "stream" : true
       }
     ]
+  },
+  "wortel9": {
+    "category": "ambient",
+    "subtitle" : "sound.mores.wortel9",
+    "sounds" : [
+      {
+        "name" : "mores:ambient/wortel9",
+        "stream" : true
+      }
+    ]
   }
 }

@@ -1,45 +1,16 @@
 ITEMS / BLOCKS:
 
-- Evaluate diamantium (test, other colour?)
-- Evaluate fyranite
-- Maybe brighten up emerald mace, battleaxe too?
-
-- Implement spinel
-
-- Lignite/ Graphite ore fuel?
-
-- Add chocolate item, recipes for it as well
-- Weed crop?
-
-- Add dark horse advancement for onyx horse armor
-
----------------------------------------------------------
-
-- ADD CUSTOM ARMOR SOUNDS (that way I can add my own subtitles, could even just copy netherites sound
-
-- Add moistcritikal sounds
-
----------------------------------------------------------
-
-OREGEN:
-- Nether rarity for tanzanite & nether silver (nerf moissanite/ruby/sapphire?)
-- Add new nether ores (...) / alloy variants?
-
-- Nether ruby / sapphire height rarity nerf
-- Overworld Turquoise / Moissanite rarity
-
-
---------------------------------------------------------
-
-- ADVANCEMENTS
--- Add full sterling silver armor advancement?
-
---------------------------------------------------------
-
 - LOOTTABLES
-
---------------------------------------------------------
-
+- Maybe brighten up emerald mace, battleaxe too?
+- Nether anthracite oregen
+- Nether ruby / sapphire height rarity nerf?
+- Overworld Turquoise / Moissanite rarity
+- Add dark horse advancement for onyx horse armor
+- Add jozef grote tak sound for knuppel advancement
+- Add full sterling silver armor advancement?
+- Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
+- Implement spinel(?)
+- Evaluate fyranite
 
 
 Server:
@@ -47,7 +18,6 @@ Configs, mods, paintings
 
 
 Future:
-
 Make advancements translatable in en_us.lang
 
 
