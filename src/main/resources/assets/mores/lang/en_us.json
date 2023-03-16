@@ -519,8 +519,9 @@
   "item.mores.duck_spawn_egg": "Duck Spawn Egg",
   "entity.mores.duck": "Duck",
 
-  "block.mores.deepslate_block" : "Deepslate",
-  "block.mores.cobbled_deepslate" : "Cobbled Deepslate",
+  "item.mores.velvet": "Velvet",
+  "item.mores.carrot_pie": "Carrot Pie",
+  "item.mores.chocolate": "Chocolate",
 
   "itemGroup.mores_materials" : "mOres Materials",
   "itemGroup.mores_tools" : "mOres Tools",

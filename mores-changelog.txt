@@ -3,10 +3,12 @@ v4.4.0 (1.19.3)
 
 
 v4.3.0 (1.19.2)
-- Fixed a couple of advancements missing because of the obsidian advancement name change
+- Added velvet, carrot pie and chocolate food items
+- Added recipe to craft metal wire back to iron ingots
 - Added obsidian shield recipe
-- Buffed haste effect (to haste 2) for cobalt apple
 - Added JEI integration for the alloys from  the alloy furnace
+- Fixed a couple of advancements missing because of the obsidian advancement name change
+- Buffed haste effect (to haste 2) for cobalt apple
 
 
 v4.2.6 (1.19.2)

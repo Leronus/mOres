@@ -32,6 +32,10 @@ public class ModItems {
      */
     public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 4160));
 
+    public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).meat().build())));
+    public static final RegistryObject<Item> CARROT_PIE = ITEMS.register("carrot_pie", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
+    public static final RegistryObject<Item> VELVET = ITEMS.register("velvet", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
+
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
@@ -65,8 +69,8 @@ public class ModItems {
     public static final RegistryObject<Item> STERLING_NUGGET = ITEMS.register("sterling_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
     public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 200, 0), 1.0F).alwaysEat().build())));
-    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 0.8F).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
-    public static final RegistryObject<Item> COBALT_APPLE = ITEMS.register("cobalt_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.RARE).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 400, 1), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 0.8F).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> COBALT_APPLE = ITEMS.register("cobalt_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.RARE).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 400, 1), 1.0F).alwaysEat().build())));
 
     public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).meat().build())));

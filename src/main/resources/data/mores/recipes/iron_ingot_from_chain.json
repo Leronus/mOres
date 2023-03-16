@@ -3,7 +3,6 @@
 
   "pattern":
   [
-    "#",
     "#"
   ],
 
@@ -12,13 +11,13 @@
   {
     "#":
     {
-      "item": "minecraft:iron_ingot"
+      "item": "mores:chain"
     }
   },
 
   "result":
   {
-    "item":  "mores:chain",
-    "count": 1
+    "item":  "minecraft:iron_ingot",
+    "count": 2
   }
 }

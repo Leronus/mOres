@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:ice_bucket_challenge",
+  "parent": "mores:obtain_obsidian_ingot",
   "criteria": {
     "obtain_silver_ore": {
       "trigger": "minecraft:inventory_changed",

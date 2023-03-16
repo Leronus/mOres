@@ -11,6 +11,8 @@ ITEMS / BLOCKS:
 - Add chocolate item, recipes for it as well
 - Weed crop?
 
+- Add dark horse advancement for onyx horse armor
+
 ---------------------------------------------------------
 
 - ADD CUSTOM ARMOR SOUNDS (that way I can add my own subtitles, could even just copy netherites sound

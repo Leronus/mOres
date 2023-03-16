@@ -504,8 +504,9 @@
   "item.mores.duck": "Rauwe eend",
   "item.mores.cooked_duck": "Gebraden eend",
 
-  "block.mores.deepslate_block" : "Deepslate",
-  "block.mores.cobbled_deepslate" : "Kobbeldeepslate",
+  "item.mores.velvet": "Red velvet taart",
+  "item.mores.carrot_pie": "Worteltaart",
+  "item.mores.chocolate": "Chocolade",
 
   "itemGroup.mores_materials" : "mOresMaterialen",
   "itemGroup.mores_tools" : "mOresGereedschap",
