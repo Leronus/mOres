@@ -1,16 +1,14 @@
 ITEMS / BLOCKS:
 
 - LOOTTABLES
-- Maybe brighten up emerald mace, battleaxe too?
-- Nether anthracite oregen
 - Nether ruby / sapphire height rarity nerf?
 - Overworld Turquoise / Moissanite rarity
+- Disable overworld anthracite?
 - Add dark horse advancement for onyx horse armor
 - Add jozef grote tak sound for knuppel advancement
-- Add full sterling silver armor advancement?
-- Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
-- Implement spinel(?)
-- Evaluate fyranite
+- Add wat waarom
+
+- Set wortel 9 to @a
 
 
 Server:
@@ -18,7 +16,12 @@ Configs, mods, paintings
 
 
 Future:
+Implement spinel(?)
 Make advancements translatable in en_us.lang
+Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
+Evaluate fyranite
+
+
 
 
 

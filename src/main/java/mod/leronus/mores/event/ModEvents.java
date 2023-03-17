@@ -1,6 +1,7 @@
 package mod.leronus.mores.event;
 
 import mod.leronus.mores.Mores;
+import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.config.Config;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.custom.DuckEntity;
@@ -14,9 +15,12 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
@@ -116,6 +120,7 @@ public final class ModEvents
         }
     } // end LivingDeathEvent()
 
+
     /**
      * Fires when the player sleeps
      * When player goes to bed, play aauugh sound
@@ -131,6 +136,15 @@ public final class ModEvents
             }
         }
     } // end PlayerSleepInBedEvent()
+
+    @SubscribeEvent
+    public static void ItemTossEvent(ItemTossEvent tossEvent){
+        ServerPlayer player = (ServerPlayer) tossEvent.getPlayer();
+        BlockState state = tossEvent.getPlayer().getBlockStateOn();
+        if (state.getBlock() == ModBlocks.TURQUOISE_BLOCK.get()){
+            player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WORTEL9.get(), SoundSource.AMBIENT, 0.8f, 1.0f);
+        }
+    }
 
     //LivingHurtEvent
 

@@ -3,7 +3,9 @@ v4.4.0 (1.19.3)
 
 
 v4.3.0 (1.19.2)
-- Shortened sweet caroline music disc (and lowered volume)
+- Removed hooks class causing issues with other mods
+- Added xp for nether silver ore and increased xp for nether anthracite
+- Added item drop event (when standing on turquoise block) to activate wortel 9 easter egg sound
 - Added √9 sound
 - Added velvet, carrot pie and chocolate food items
 - Added advancement for eating chocolate
@@ -12,6 +14,8 @@ v4.3.0 (1.19.2)
 - Added JEI integration for the alloys from  the alloy furnace
 - Fixed a couple of advancements missing because of the obsidian advancement name change
 - Buffed haste effect (to haste 2) for cobalt apple
+- Shortened sweet caroline music disc (and lowered volume)
+- Adjusted volume for look at my horse music
 
 
 v4.2.6 (1.19.2)

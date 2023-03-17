@@ -1,1 +1,1 @@
-playsound mores:wortel9 ambient @s
+playsound mores:wortel9 ambient @a
