@@ -223,16 +223,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:golden_apple",
-          "functions": [
-            {
-              "function": "minecraft:set_data"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 15
+          "name": "minecraft:golden_apple"
         }
       ]
     },

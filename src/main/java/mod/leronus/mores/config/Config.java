@@ -272,12 +272,12 @@ public class Config {
         overworldRubyBuriedTop = getInt("overworldRubyBuriedLayerMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, "Maximum height from the bottom for the buried layer of ruby ores");
 
 //        spawnTurquoise = getBoolean("spawnTurquoise", SUB_CATEGORY_ORES_TURQUOISE, true, "Should turquoise spawn in the overworld");
-        overworldTurquoiseSmallBottom = getInt("overworldTurquoiseSmallLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -60, "Minimum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseSmallTop = getInt("overworldTurquoiseSmallLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 10, "Maximum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseLargeBottom = getInt("overworldTurquoiseLargeLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -60, "Minimum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseLargeTop = getInt("overworldTurquoiseLargeLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 10, "Maximum height from the bottom for the middle layer of turquoise ores");
-        overworldTurquoiseBuriedBottom = getInt("overworldTurquoiseBuriedLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -60, "Minimum height from the bottom for the buried layer of turquoise ores");
-        overworldTurquoiseBuriedTop = getInt("overworldTurquoiseBuriedLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 10, "Maximum height from the bottom for the buried layer of turquoise ores");
+        overworldTurquoiseSmallBottom = getInt("overworldTurquoiseSmallLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -100, "Minimum height from the bottom for the upper layer of turquoise ores");
+        overworldTurquoiseSmallTop = getInt("overworldTurquoiseSmallLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 25, "Maximum height from the bottom for the upper layer of turquoise ores");
+        overworldTurquoiseLargeBottom = getInt("overworldTurquoiseLargeLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -100, "Minimum height from the bottom for the upper layer of turquoise ores");
+        overworldTurquoiseLargeTop = getInt("overworldTurquoiseLargeLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 18, "Maximum height from the bottom for the middle layer of turquoise ores");
+        overworldTurquoiseBuriedBottom = getInt("overworldTurquoiseBuriedLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -100, "Minimum height from the bottom for the buried layer of turquoise ores");
+        overworldTurquoiseBuriedTop = getInt("overworldTurquoiseBuriedLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20, "Maximum height from the bottom for the buried layer of turquoise ores");
 
 //        spawnMoissanite = getBoolean("spawnMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the overworld");
         overworldMoissaniteSmallBottom = getInt("overworldMoissaniteSmallLayerMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -120, "Minimum height from the bottom for the upper layer of moissanite ores");

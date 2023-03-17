@@ -107,11 +107,11 @@ dependencies {
     // at runtime, use the full JEI jar for Forge
     runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 
-    runtimeOnly fg.deobf("curse.maven:apple_skin-317642:4430475")
+    runtimeOnly fg.deobf("curse.maven:classic_bars-317642:4430475")
     runtimeOnly fg.deobf("curse.maven:better_advancements-272515:4276529")
 //    runtimeOnly fg.deobf("curse.maven:immersive_engineering-231951:4415892")
     runtimeOnly fg.deobf("curse.maven:jei-238222:4434397")
-//    runtimeOnly fg.deobf("curse.maven:xray-256256:3905392") //X-Ray
+    runtimeOnly fg.deobf("curse.maven:xray-256256:3905392") //X-Ray
 }
 
 jar {

@@ -176,17 +176,17 @@ public class ModPlacedFeatures {
     //Turquoise
     public static final RegistryObject<PlacedFeature> TURQUOISE_ORE_SMALL_PLACED = PLACED_FEATURES.register("turquoise_ore_small_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_SMALL.getHolder().get(), commonOrePlacement
-                    (8,
+                    (16,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldTurquoiseSmallBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseSmallTop.get())))));
     public static final RegistryObject<PlacedFeature> TURQUOISE_ORE_LARGE_PLACED = PLACED_FEATURES.register("turquoise_ore_large_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_LARGE.getHolder().get(), rareOrePlacement
-                    (10,
+                    (20,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldTurquoiseLargeBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseLargeTop.get())))));
     public static final RegistryObject<PlacedFeature> TURQUOISE_ORE_BURIED_PLACED = PLACED_FEATURES.register("turquoise_ore_buried_placed",
             ()-> new PlacedFeature(ModConfiguredFeatures.TURQUOISE_ORE_BURIED.getHolder().get(), commonOrePlacement
-                    (5,
+                    (10,
                             HeightRangePlacement.triangle
                                     (VerticalAnchor.aboveBottom(Config.overworldTurquoiseBuriedBottom.get()), VerticalAnchor.aboveBottom(Config.overworldTurquoiseBuriedTop.get())))));
 
