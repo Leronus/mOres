@@ -3,10 +3,43 @@
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 8
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
       },
       "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "mores:bronze_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mores:sterling_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -15,12 +48,33 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 4
-              }
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
             }
           ]
         },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mores:bronze_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mores:cobalt_apple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 8
+      },
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
           "weight": 10,
@@ -29,9 +83,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -43,9 +99,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -61,9 +119,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         }
@@ -71,6 +131,7 @@
     },
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -88,11 +149,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate"
+          "name": "mores:tin_chestplate"
         },
         {
           "type": "minecraft:item",
-          "name": "mores:steel_helmet"
+          "name": "minecraft:golden_helmet"
         },
         {
           "type": "minecraft:item",
@@ -114,6 +175,12 @@
               "decoration": "red_x",
               "zoom": 1,
               "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.buried_treasure"
+              }
             }
           ]
         }

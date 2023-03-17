@@ -4,15 +4,12 @@ ITEMS / BLOCKS:
 - Nether ruby / sapphire height rarity nerf?
 - Overworld Turquoise / Moissanite rarity
 - Disable overworld anthracite?
-- Add dark horse advancement for onyx horse armor
-- Add jozef grote tak sound for knuppel advancement
-- Add wat waarom
 
-- Set wortel 9 to @a
+- Check if mcnugget for nether silver holds up with silver nuggets in loot tables
 
 
 Server:
-Configs, mods, paintings
+Configs, paintings
 
 
 Future:

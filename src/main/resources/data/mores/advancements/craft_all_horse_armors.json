@@ -3,14 +3,14 @@
     "title": "Give it a lick",
     "description": "Tastes just like raisins - Craft all horse armor",
     "icon": {
-      "item": "mores:netherite_horse_armor"
+      "item": "mores:graphene_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:craft_horse_armor",
+  "parent": "mores:craft_onyx_horse_armor",
   "criteria": {
     "craft_silver_horse_armor": {
       "trigger": "minecraft:inventory_changed",

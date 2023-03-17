@@ -3,21 +3,25 @@
   "pools": [
     {
       "rolls": {
-        "min": 3,
+        "type": "minecraft:uniform",
+        "min": 4,
         "max": 6
       },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 80,
+          "weight": 50,
           "name": "mores:steel_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
-                "max": 4
-              }
+                "max": 3
+              },
+              "add": false
             }
           ]
         },
@@ -29,9 +33,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -43,9 +49,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -57,9 +65,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -75,21 +85,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "mores:turquoise_gem"
+          "weight": 3,
+          "name": "mores:sapphire_gem"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "mores:onyx_gem"
+          "weight": 3,
+          "name": "mores:ruby_gem"
         }
       ]
     },
     {
       "rolls": {
-        "min": 2,
+        "type": "minecraft:uniform",
+        "min": 3,
         "max": 5
       },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -99,9 +111,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 10
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -113,9 +127,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 10
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -127,23 +143,42 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "mores:silver_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 11
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
-          "name": "mores:silver_nugget",
+          "weight": 10,
+          "name": "mores:cobalt_nugget",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 11
-              }
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 7
+              },
+              "add": false
             }
           ]
         }

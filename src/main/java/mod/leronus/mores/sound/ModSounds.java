@@ -28,9 +28,13 @@ public class ModSounds {
             "oof", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "oof")));
     public static final RegistryObject<SoundEvent> WORTEL9 = SOUND_TYPES.register(
             "wortel9", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "wortel9")));
+    public static final RegistryObject<SoundEvent> WATWAAROM = SOUND_TYPES.register(
+            "watwaarom", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "watwaarom")));
 
     public static final RegistryObject<SoundEvent> SWEET_CAROLINE_BOOTLEG = SOUND_TYPES.register(
             "sweet_caroline_bootleg", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "sweet_caroline_bootleg")));
+    public static final RegistryObject<SoundEvent> CIPHER = SOUND_TYPES.register(
+            "cipher", () -> new SoundEvent(new ResourceLocation(Mores.MODID, "cipher")));
 
     public static void register(IEventBus eventBus) {
         SOUND_TYPES.register(eventBus);

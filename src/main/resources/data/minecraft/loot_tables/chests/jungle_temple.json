@@ -3,49 +3,57 @@
   "pools": [
     {
       "rolls": {
+        "type": "minecraft:uniform",
         "min": 2,
         "max": 6
       },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "mores:ruby_gem",
+          "name": "minecraft:diamond",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "mores:steel_ingot",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "mores:cobalt_ingot",
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 7
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -57,9 +65,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -71,9 +81,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -85,9 +97,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 6
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -99,9 +113,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 7
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -112,15 +128,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mores:steel_horse_armor"
+          "name": "mores:cobalt_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "name": "mores:obsidian_horse_armor"
+          "name": "mores:amethyst_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "name": "mores:emerald_horse_armor"
+          "name": "mores:tanzanite_horse_armor"
         },
         {
           "type": "minecraft:item",

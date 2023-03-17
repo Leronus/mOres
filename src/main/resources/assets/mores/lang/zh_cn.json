@@ -29,6 +29,9 @@
   "sound.mores.yeah" : "EēYéæh",
   "sound.mores.oof" : "Player oofs",
   "sound.mores.wortel9" : "√9",
+  "sound.mores.watwaarom" : "WHAT? WHY?",
+  "sound.mores.sweet_caroline" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+  "sound.mores.cipher" : "LEMMiNO - Cipher (BGM)",
 
   "sound.mores.that_duck" : "I am that Duck advancement speech",
   "sound.mores.im_blue" : "I'm blue advancement music",
@@ -39,6 +42,8 @@
 
   "item.mores.sweet_caroline_music_disc" : "Music Disc",
   "item.mores.sweet_caroline_music_disc.desc" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+  "item.mores.cipher_music_disc" : "Music Disc",
+  "item.mores.cipher_music_disc.desc" : "LEMMiNO - Cipher (BGM)",
 
   "item.mores.anthracite" : "Anthracite",
   "block.mores.anthracite_ore" : "Anthracite Ore",

@@ -2,21 +2,63 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 1,
+      "bonus_rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:sapphire_gem"
+          "weight": 15,
+          "name": "mores:silver_apple"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "mores:onyx_gem"
+          "weight": 10,
+          "name": "mores:cobalt_apple"
         },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mores:obsidian_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_mace"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_battleaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mores:onyx_dagger"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
           "weight": 5,
@@ -25,49 +67,55 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
+              },
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "mores:onyx_gem",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 2
-              }
+                "max": 5
+              },
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "mores:topaz_gem",
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
-              }
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "mores:onyx_sword"
+          "weight": 5,
+          "name": "minecraft:golden_sword"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "mores:tourmaline_chestplate"
+          "name": "minecraft:golden_chestplate"
         },
         {
           "type": "minecraft:item",
@@ -82,9 +130,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 7
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -96,17 +146,17 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "mores:emerald_horse_armor"
+          "name": "minecraft:golden_horse_armor"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "mores:tourmaline_horse_armor"
+          "name": "mores:steel_horse_armor"
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "mores:graphene_horse_armor"
+          "weight": 3,
+          "name": "mores:moissanite_horse_armor"
         },
         {
           "type": "minecraft:item",
@@ -116,9 +166,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
-              }
+              },
+              "add": false
             }
           ]
         }

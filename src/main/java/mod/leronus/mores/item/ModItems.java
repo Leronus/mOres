@@ -30,7 +30,9 @@ public class ModItems {
     /**
      * Fills the registry with items
      */
-    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 4160));
+    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 4040));
+    public static final RegistryObject<Item> CIPHER_DISC = ITEMS.register("cipher_music_disc", () -> new RecordItem(5, ModSounds.CIPHER, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 3820));
+
 
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).meat().build())));
     public static final RegistryObject<Item> CARROT_PIE = ITEMS.register("carrot_pie", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));

@@ -3,6 +3,7 @@
   "pools": [
     {
       "rolls": 3,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,7 +12,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 1,
+              "add": false
             }
           ]
         },
@@ -22,7 +24,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 1,
+              "add": false
             }
           ]
         },
@@ -33,7 +36,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 1,
+              "add": false
             }
           ]
         },
@@ -44,21 +48,24 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 2,
+              "add": false
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:onyx_sword",
+          "weight": 6,
+          "name": "minecraft:diamond_sword",
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -67,15 +74,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "name": "mores:graphene_chestplate",
+          "weight": 6,
+          "name": "minecraft:diamond_chestplate",
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -84,15 +93,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:onyx_helmet",
+          "weight": 6,
+          "name": "mores:turquoise_helmet",
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -101,15 +112,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:onyx_leggings",
+          "weight": 6,
+          "name": "mores:obsidian_leggings",
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -118,15 +131,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:onyx_boots",
+          "weight": 6,
+          "name": "mores:obsidian_boots",
           "functions": [
             {
               "function": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly"
@@ -135,23 +150,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "mores:onyx_sword"
+          "weight": 6,
+          "name": "mores:tanzanite_sword"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:diamond_chestplate"
+          "name": "mores:sapphire_chestplate"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:diamond_helmet"
+          "name": "mores:ruby_helmet"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:diamond_boots"
+          "name": "mores:moissanite_boots"
         },
         {
           "type": "minecraft:item",
@@ -161,14 +176,16 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:diamond",
+          "name": "mores:onyx_gem",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
-              }
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
             }
           ]
         },
@@ -179,7 +196,8 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 1,
+              "add": false
             }
           ]
         }
@@ -187,9 +205,11 @@
     },
     {
       "rolls": {
-        "min": 3,
-        "max": 4
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 5
       },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -198,9 +218,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 12,
                 "max": 25
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -211,9 +233,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -224,9 +248,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -237,9 +263,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 9
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -250,9 +278,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 9
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -263,9 +293,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -276,9 +308,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 8,
                 "max": 23
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -289,9 +323,11 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 5,
                 "max": 15
-              }
+              },
+              "add": false
             }
           ]
         },
@@ -302,11 +338,25 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 8
-              }
+              },
+              "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mores:cobalt_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mores:silver_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mores:emerald_horse_armor"
         }
       ]
     }

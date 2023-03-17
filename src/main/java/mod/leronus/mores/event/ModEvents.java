@@ -93,6 +93,10 @@ public final class ModEvents
                     Player player = (Player) event.getEntity();
                     // Play the 'yeahhh' sound for the player at their position
                     player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.YEAH.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
+                } else if (event.getSource().getDirectEntity() instanceof ServerPlayer){
+                    // Get the player entity
+                    Player player = (Player) event.getEntity();
+                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WATWAAROM.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
                 }
             }
         }

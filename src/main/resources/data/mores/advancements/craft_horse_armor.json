@@ -3,7 +3,7 @@
     "title": "Look at my horse",
     "description": "My horse is amazing! - Craft horse armor",
     "icon": {
-      "item": "mores:cobalt_horse_armor"
+      "item": "mores:tin_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -51,7 +51,7 @@
     ["craft_horse_armor"]
   ],
   "rewards": {
-    "experience": 1000,
+    "experience": 100,
     "function" : "mores:mores/play_my_horse"
   }
 }

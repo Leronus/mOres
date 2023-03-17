@@ -32,12 +32,17 @@
   "sound.mores.yeah" : "EēYéæh",
   "sound.mores.oof" : "Speler oeft",
   "sound.mores.wortel9" : "√9",
+  "sound.mores.watwaarom" : "WAT? WAAROM?",
+  "sound.mores.sweet_caroline" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+  "sound.mores.cipher" : "LEMMiNO - Cipher (BGM)",
 
   "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
 
   "item.mores.sweet_caroline_music_disc" : "Muziekplaat",
   "item.mores.sweet_caroline_music_disc.desc" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+  "item.mores.cipher_music_disc" : "Muziekplaat",
+  "item.mores.cipher_music_disc.desc" : "LEMMiNO - Cipher (BGM)",
 
   "item.mores.anthracite" : "Anthraciet",
   "block.mores.anthracite_ore" : "Anthracieterts",
