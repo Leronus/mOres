@@ -3,6 +3,18 @@
   "pools": [
     {
       "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mores:sweet_caroline_music_disc"
+        }
+      ]
+    },
+    {
+      "rolls": {
         "type": "minecraft:uniform",
         "min": 0,
         "max": 2
