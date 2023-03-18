@@ -142,11 +142,12 @@ public final class ModEvents
     } // end PlayerSleepInBedEvent()
 
     @SubscribeEvent
-    public static void ItemTossEvent(ItemTossEvent tossEvent){
-        ServerPlayer player = (ServerPlayer) tossEvent.getPlayer();
-        BlockState state = tossEvent.getPlayer().getBlockStateOn();
-        if (state.getBlock() == ModBlocks.TURQUOISE_BLOCK.get()){
-            player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WORTEL9.get(), SoundSource.AMBIENT, 0.8f, 1.0f);
+    public static void ItemTossEvent(final ItemTossEvent tossEvent){
+        if (tossEvent.getPlayer() instanceof ServerPlayer player) {
+            BlockState state = tossEvent.getPlayer().getBlockStateOn();
+            if (state.getBlock() == ModBlocks.TURQUOISE_BLOCK.get()) {
+                player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WORTEL9.get(), SoundSource.AMBIENT, 0.8f, 1.0f);
+            }
         }
     }
 
