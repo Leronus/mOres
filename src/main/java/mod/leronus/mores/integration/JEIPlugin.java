@@ -8,6 +8,7 @@ import mezz.jei.api.registration.IRecipeRegistration;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.api.recipe.AlloyRecipe;
 import mod.leronus.mores.api.recipe.IAlloyRecipe;
+import mod.leronus.mores.recipe.ModRecipes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.RecipeManager;
@@ -35,7 +36,7 @@ public class JEIPlugin implements IModPlugin {
     public void registerRecipes(IRecipeRegistration registration) {
         RecipeManager rm = Objects.requireNonNull(Minecraft.getInstance().level).getRecipeManager();
 
-        List<AlloyRecipe> recipesAlloying = rm.getAllRecipesFor(AlloyRecipe.Type.INSTANCE);
+        List<AlloyRecipe> recipesAlloying = rm.getAllRecipesFor(ModRecipes.ALLOY_TYPE.get());
         registration.addRecipes(ALLOY_TYPE, recipesAlloying);
     }
 }

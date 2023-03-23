@@ -17,8 +17,8 @@ public class ModRecipes
             DeferredRegister.create(Registry.RECIPE_TYPE_REGISTRY.location(), Mores.MODID);
 
 
-    public static final RegistryObject<RecipeType<IAlloyRecipe>> ALLOY_TYPE =
-            RECIPE_TYPES.register(IAlloyRecipe.TYPE_ID.getPath(), ()-> new RecipeType<>() {}) ;
+    public static final RegistryObject<RecipeType<AlloyRecipe>> ALLOY_TYPE =
+            RECIPE_TYPES.register(AlloyRecipe.TYPE_ID.getPath(), ()-> new RecipeType<>() {}) ;
 
 
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS =

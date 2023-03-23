@@ -58,7 +58,7 @@ public class AlloyRecipe implements IAlloyRecipe
     {
 //        Mores.LOGGER.info(Mores.MODID + ": in AlloyRecipe.InitLegalisms()");
 
-        List<IAlloyRecipe> recipes;
+        List<AlloyRecipe> recipes;
 
         // check for client-side vs server-side
         if (FMLEnvironment.dist == Dist.CLIENT)
@@ -78,7 +78,7 @@ public class AlloyRecipe implements IAlloyRecipe
                     legal_inputs.add(stack.getItem());
                 }
             } // end-for
-            for (ItemStack stack : ((AlloyRecipe) recipe).getCatalyst().getItems())
+            for (ItemStack stack : (recipe).getCatalyst().getItems())
             {
                 legal_catalysts.add(stack.getItem());
             }
@@ -201,19 +201,11 @@ public class AlloyRecipe implements IAlloyRecipe
 
     @Override
     public RecipeType<?> getType() {
-        return Type.INSTANCE;
-    }
-
-    public static class Type implements RecipeType<AlloyRecipe> {
-        private Type() { }
-        public static final Type INSTANCE = new Type();
-        public static final String ID = "alloying";
+        return ModRecipes.ALLOY_TYPE.get();
     }
 
     public static class AlloyRecipeSerializer implements RecipeSerializer<AlloyRecipe>
     {
-
-        public static final AlloyRecipeSerializer INSTANCE = new AlloyRecipeSerializer();
         @Override
         public AlloyRecipe fromJson(ResourceLocation recipeId, JsonObject json)
         {
