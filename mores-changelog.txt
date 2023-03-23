@@ -1,6 +1,10 @@
 v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
+v4.3.1 (1.19.2)
+- Fixed JEI integration not working properly causing a bug with the alloy furnace
+- Changed netherite mace/dagger/battleaxe recipes to be used by smithing table like the other netherite tools
+
 
 v4.3.0 (1.19.2)
 - Removed hooks class causing issues with other mods
