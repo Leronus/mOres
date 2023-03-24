@@ -35,7 +35,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SAPPHIRE("sapphire", 39, new int[] {3, 6, 8, 3}, 16, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ModItems.SAPPHIRE_GEM.get())),
     MOISSANITE("moissanite", 36, new int[] {3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ModItems.MOISSANITE_GEM.get())),
     TANZANITE("tanzanite", 38, new int[] {3, 7, 8, 4}, 18, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.0F, () -> Ingredient.of(ModItems.TANZANITE_GEM.get())),
-    OBSIDIAN("obsidian", 44, new int[] {3, 7, 8, 4}, 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.5F, () -> Ingredient.of(Items.OBSIDIAN)),
+    OBSIDIAN("obsidian", 44, new int[] {3, 7, 8, 4}, 12, SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.5F, () -> Ingredient.of(ModItems.OBSIDIAN_INGOT.get())),
     TURQUOISE("turquoise", 38, new int[] {3, 6, 8, 3}, 14, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.of(ModItems.TURQUOISE_GEM.get())),
     ONYX("onyx", 51, new int[] {3, 7, 8, 4}, 18, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.0F, () -> Ingredient.of(ModItems.ONYX_GEM.get())),
 //    NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.of(Items.NETHERITE_INGOT)),
