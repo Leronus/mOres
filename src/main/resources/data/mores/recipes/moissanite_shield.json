@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:moissanite_gem"
+      "tag": "forge:gems/moissanite"
     }
   },
   "result": {

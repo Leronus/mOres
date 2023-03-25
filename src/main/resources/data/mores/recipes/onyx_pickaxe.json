@@ -16,7 +16,7 @@
     },
     "$":
     {
-      "item": "mores:onyx_gem"
+      "tag": "forge:gems/onyx"
     }
   },
 

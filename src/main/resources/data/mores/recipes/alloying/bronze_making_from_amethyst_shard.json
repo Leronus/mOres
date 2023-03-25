@@ -13,14 +13,14 @@
             "item": "minecraft:copper_ingot"
         },
         {
-            "item": "mores:tin_ingot"
+            "tag": "forge:ingots/tin"
         }
     ],
     "catalyst": {
 	"item": "minecraft:amethyst_shard"
     },
     "output": {
-        "item": "mores:bronze_ingot",
+        "tag": "forge:ingots/bronze",
         "count": 1
     }
 }

@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:onyx_gem"
+      "tag": "forge:gems/onyx"
     }
   },
   "result": {

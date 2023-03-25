@@ -10,17 +10,17 @@
     "experience": 2.0,
     "inputs": [
         {
-            "item": "mores:onyx_gem"
+            "tag": "forge:gems/onyx"
         },
         {
-            "item": "mores:turquoise_gem"
+            "tag": "forge:gems/turquoise"
         }
     ],
     "catalyst": {
         "item": "minecraft:amethyst_shard"
     },
     "output": {
-        "item": "mores:graphene_gem",
+        "tag": "forge:gems/graphene",
         "count": 1
     }
 }

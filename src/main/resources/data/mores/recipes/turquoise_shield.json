@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:turquoise_gem"
+      "tag": "forge:gems/turquoise"
     }
   },
   "result": {

@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:sterling_ingot"
+      "tag": "forge:ingots/sterling"
     }
   },
   "result": {

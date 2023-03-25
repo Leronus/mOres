@@ -25,7 +25,7 @@
     },
     "G":
     {
-      "item": "mores:moissanite_gem"
+      "tag": "forge:gems/moissanite"
     }
   },
 

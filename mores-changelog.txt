@@ -1,10 +1,16 @@
 v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
+
+
+v4.3.2 (1.19.2)
+- Added xp for deepslate anthracite ore
+- Added tags to recipes so that other mods with conflicting gems/ingots (such as silver or even ruby) can be used to craft mOres tools as well
+
 v4.3.1 (1.19.2)
 - Fixed JEI integration not working properly causing a bug with the alloy furnace
 - Changed netherite mace/dagger/battleaxe recipes to be used by smithing table like the other netherite tools
-
+- Changed repair ingredient for obsidian tools/armor from obsidian block to ingot
 
 v4.3.0 (1.19.2)
 - Removed hooks class causing issues with other mods

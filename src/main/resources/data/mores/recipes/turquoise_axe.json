@@ -17,7 +17,7 @@
     },
     "$":
     {
-      "item": "mores:turquoise_gem"
+      "tag": "forge:gems/turquoise"
     }
   },
 

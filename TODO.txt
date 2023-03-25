@@ -1,22 +1,15 @@
-ITEMS / BLOCKS:
-
-- LOOTTABLES
 - Nether ruby / sapphire height rarity nerf?
 - Overworld Turquoise / Moissanite rarity
-- Disable overworld anthracite?
-
-- Check if mcnugget for nether silver holds up with silver nuggets in loot tables
-
-
-Server:
-Configs, paintings
+- Tune overworld anthracite?
 
 
 Future:
-Implement spinel(?)
-Make advancements translatable in en_us.lang
-Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
-Evaluate fyranite
+- Rework config like SimpleOres?
+- Change recipes with item ingot &  gem to forge tags (check bronze battleaxe)
+- Implement spinel(?)
+- Make advancements translatable in en_us.lang
+- Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
+- Evaluate fyranite
 
 
 

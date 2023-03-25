@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "mores:cobalt_ingot"
+      "tag": "forge:ingots/cobalt"
     }
   ],
   "result": {

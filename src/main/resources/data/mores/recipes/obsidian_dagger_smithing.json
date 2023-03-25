@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "addition": {
-    "item": "mores:obsidian_ingot"
+    "tag": "forge:ingots/obsidian"
   },
   "base": {
     "item": "mores:diamond_dagger"

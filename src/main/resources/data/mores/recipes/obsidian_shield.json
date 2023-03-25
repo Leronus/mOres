@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:obsidian_ingot"
+      "tag": "forge:ingots/obsidian"
     }
   },
   "result": {

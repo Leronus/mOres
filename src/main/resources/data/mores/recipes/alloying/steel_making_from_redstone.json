@@ -20,7 +20,7 @@
 	"item": "minecraft:redstone"
     },
     "output": {
-        "item": "mores:steel_ingot",
+        "tag": "forge:ingots/steel",
         "count": 1
     }
 }

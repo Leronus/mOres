@@ -10,7 +10,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "mores:topaz_gem"
+      "tag": "forge:gems/topaz"
     }
   },
   "result": {

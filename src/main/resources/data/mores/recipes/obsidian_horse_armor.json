@@ -25,7 +25,7 @@
     },
     "G":
     {
-      "item": "mores:obsidian_ingot"
+      "tag": "forge:ingots/obsidian"
     }
   },
 
