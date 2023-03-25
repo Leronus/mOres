@@ -489,7 +489,7 @@ public class ModItems {
     public static final RegistryObject<ModShieldItem> BRONZE_SHIELD = ITEMS.register("bronze_shield", () -> new ModShieldItem( "forge:ingots/bronze", Config.bronzeDurability.get(), false));
     public static final RegistryObject<ModShieldItem> COBALT_SHIELD = ITEMS.register("cobalt_shield", () -> new ModShieldItem( "forge:ingots/cobalt", Config.cobaltDurability.get(), false));
     public static final RegistryObject<ModShieldItem> OBSIDIAN_SHIELD = ITEMS.register("obsidian_shield", () -> new ModShieldItem( "forge:ingots/obsidian", Config.obsidianDurability.get(), false));
-    public static final RegistryObject<ModShieldItem> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ModShieldItem("forge:ingots/sterling_silver", Config.sterlingDurability.get(), false));
+    public static final RegistryObject<ModShieldItem> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ModShieldItem("forge:ingots/sterling_silver_silver", Config.sterlingDurability.get(), false));
     public static final RegistryObject<ModShieldItem> STEEL_SHIELD = ITEMS.register("steel_shield", () -> new ModShieldItem( "forge:ingots/steel", Config.steelDurability.get(), false));
     public static final RegistryObject<ModShieldItem> AMETHYST_SHIELD = ITEMS.register("amethyst_shield", () -> new ModShieldItem("minecraft:amethyst", Config.amethystDurability.get(), false));
     public static final RegistryObject<ModShieldItem> EMERALD_SHIELD = ITEMS.register("emerald_shield", () -> new ModShieldItem( "forge:gems/emerald", Config.emeraldDurability.get(), false));

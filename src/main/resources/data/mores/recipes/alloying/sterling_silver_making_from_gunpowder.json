@@ -20,7 +20,7 @@
         "item": "minecraft:gunpowder"
     },
     "output": {
-        "tag": "forge:ingots/sterling",
+        "tag": "forge:ingots/sterling_silver",
         "count": 1
     }
 }
