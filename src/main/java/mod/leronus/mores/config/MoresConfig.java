@@ -28,8 +28,12 @@ public class MoresConfig {
     public static boolean spawnNetherAnthracite = true;
     public static boolean spawnEndOnyx = true;
 
-    public static boolean customShieldMaxReduction = true;
-    public static int defaultDamageReduction = 60;
+//    public static boolean customShieldMaxReduction = true;
+//    public static int defaultDamageReduction = 60;
+
+    public static boolean enableCustomDeathSounds = true;
+    public static boolean enableCustomPlayerSleepingSound = false;
+    public static boolean enableCustomPlayerHurtSound = false;
 
     public static int tinDamageReduction = 60;
     public static int copperDamageReduction = 60;
@@ -173,27 +177,27 @@ public class MoresConfig {
             spawnNetherSilver = ConfigHolder.COMMON.spawnNetherSilver.get();
             spawnNetherAnthracite = ConfigHolder.COMMON.spawnNetherAnthracite.get();
             spawnEndOnyx = ConfigHolder.COMMON.spawnEndOnyx.get();
-            customShieldMaxReduction = ConfigHolder.COMMON.customShieldMaxReduction.get();
-            defaultDamageReduction = ConfigHolder.COMMON.defaultDamageReduction.get();
-            tinDamageReduction = ConfigHolder.COMMON.tinDamageReduction.get();
-            copperDamageReduction = ConfigHolder.COMMON.copperDamageReduction.get();
-            silverDamageReduction = ConfigHolder.COMMON.silverDamageReduction.get();
-            bronzeDamageReduction = ConfigHolder.COMMON.bronzeDamageReduction.get();
-            cobaltDamageReduction = ConfigHolder.COMMON.cobaltDamageReduction.get();
-            sterlingDamageReduction = ConfigHolder.COMMON.sterlingDamageReduction.get();
-            steelDamageReduction = ConfigHolder.COMMON.steelDamageReduction.get();
-            amethystDamageReduction = ConfigHolder.COMMON.amethystDamageReduction.get();
-            emeraldDamageReduction = ConfigHolder.COMMON.emeraldDamageReduction.get();
-            topazDamageReduction = ConfigHolder.COMMON.topazDamageReduction.get();
-            tourmalineDamageReduction = ConfigHolder.COMMON.tourmalineDamageReduction.get();
-            tanzaniteDamageReduction = ConfigHolder.COMMON.tanzaniteDamageReduction.get();
-            rubyDamageReduction = ConfigHolder.COMMON.rubyDamageReduction.get();
-            sapphireDamageReduction = ConfigHolder.COMMON.sapphireDamageReduction.get();
-            moissaniteDamageReduction = ConfigHolder.COMMON.moissaniteDamageReduction.get();
-            obsidianDamageReduction = ConfigHolder.COMMON.obsidianDamageReduction.get();
-            turquoiseDamageReduction = ConfigHolder.COMMON.turquoiseDamageReduction.get();
-            onyxDamageReduction = ConfigHolder.COMMON.onyxDamageReduction.get();
-            grapheneDamageReduction = ConfigHolder.COMMON.grapheneDamageReduction.get();
+//            customShieldMaxReduction = ConfigHolder.COMMON.customShieldMaxReduction.get();
+//            defaultDamageReduction = ConfigHolder.COMMON.defaultDamageReduction.get();
+//            tinDamageReduction = ConfigHolder.COMMON.tinDamageReduction.get();
+//            copperDamageReduction = ConfigHolder.COMMON.copperDamageReduction.get();
+//            silverDamageReduction = ConfigHolder.COMMON.silverDamageReduction.get();
+//            bronzeDamageReduction = ConfigHolder.COMMON.bronzeDamageReduction.get();
+//            cobaltDamageReduction = ConfigHolder.COMMON.cobaltDamageReduction.get();
+//            sterlingDamageReduction = ConfigHolder.COMMON.sterlingDamageReduction.get();
+//            steelDamageReduction = ConfigHolder.COMMON.steelDamageReduction.get();
+//            amethystDamageReduction = ConfigHolder.COMMON.amethystDamageReduction.get();
+//            emeraldDamageReduction = ConfigHolder.COMMON.emeraldDamageReduction.get();
+//            topazDamageReduction = ConfigHolder.COMMON.topazDamageReduction.get();
+//            tourmalineDamageReduction = ConfigHolder.COMMON.tourmalineDamageReduction.get();
+//            tanzaniteDamageReduction = ConfigHolder.COMMON.tanzaniteDamageReduction.get();
+//            rubyDamageReduction = ConfigHolder.COMMON.rubyDamageReduction.get();
+//            sapphireDamageReduction = ConfigHolder.COMMON.sapphireDamageReduction.get();
+//            moissaniteDamageReduction = ConfigHolder.COMMON.moissaniteDamageReduction.get();
+//            obsidianDamageReduction = ConfigHolder.COMMON.obsidianDamageReduction.get();
+//            turquoiseDamageReduction = ConfigHolder.COMMON.turquoiseDamageReduction.get();
+//            onyxDamageReduction = ConfigHolder.COMMON.onyxDamageReduction.get();
+//            grapheneDamageReduction = ConfigHolder.COMMON.grapheneDamageReduction.get();
             tinDurability = ConfigHolder.COMMON.tinDurability.get();
             copperDurability = ConfigHolder.COMMON.copperDurability.get();
             silverDurability = ConfigHolder.COMMON.silverDurability.get();
@@ -281,8 +285,11 @@ public class MoresConfig {
             netherMoissaniteBottom = ConfigHolder.COMMON.netherMoissaniteBottom.get();
             netherAnthraciteTop = ConfigHolder.COMMON.netherAnthraciteTop.get();
             netherAnthraciteBottom = ConfigHolder.COMMON.netherAnthraciteBottom.get();
-            thornsOnShields = ConfigHolder.COMMON.thornsOnShields.get();
-            enableDamageReduction = ConfigHolder.COMMON.enableDamageReduction.get();
+//            thornsOnShields = ConfigHolder.COMMON.thornsOnShields.get();
+//            enableDamageReduction = ConfigHolder.COMMON.enableDamageReduction.get();
+            enableCustomDeathSounds = ConfigHolder.COMMON.enableCustomDeathSounds.get();
+            enableCustomPlayerSleepingSound = ConfigHolder.COMMON.enableCustomPlayerSleepingSound.get();
+            enableCustomPlayerHurtSound = ConfigHolder.COMMON.enableCustomPlayerHurtSound.get();
         } catch (Exception e) {
             Mores.LOGGER.warn("An exception was caused trying to load the config for mOres.");
             e.printStackTrace();

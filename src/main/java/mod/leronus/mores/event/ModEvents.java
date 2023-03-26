@@ -3,6 +3,7 @@ package mod.leronus.mores.event;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.config.Config;
+import mod.leronus.mores.config.MoresConfig;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.custom.DuckEntity;
 import mod.leronus.mores.sound.ModSounds;
@@ -81,7 +82,7 @@ public final class ModEvents
     @SubscribeEvent
     public static void LivingDeathEvent(final LivingDeathEvent event)
     {
-        if (Config.enableCustomDeathSounds.get()) {
+        if (MoresConfig.enableCustomDeathSounds) {
             if (event.getEntity() instanceof ServerPlayer) {
                 if (event.getSource() == DamageSource.LAVA) {
                     // Get the player entity
@@ -111,7 +112,7 @@ public final class ModEvents
     @SubscribeEvent
     public static void LivingHurtEvent(final LivingHurtEvent event)
     {
-        if (Config.enableCustomPlayerHurtSound.get()) {
+        if (MoresConfig.enableCustomPlayerHurtSound) {
             if (event.getEntity() instanceof ServerPlayer) {
                 //Get the entity that deals the damage
                 if (event.getSource().getEntity() instanceof ServerPlayer) {
@@ -133,7 +134,7 @@ public final class ModEvents
      */
     @SubscribeEvent
     public static void PlayerSleepInBedEvent(final PlayerSleepInBedEvent event) {
-        if (Config.enableCustomPlayerSleepingSound.get()) {
+        if (MoresConfig.enableCustomPlayerSleepingSound) {
             if (event.getEntity() instanceof ServerPlayer player) {
                 // Play the 'aauugh' sound for the player at their position
                 player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.AAUUGH.get(), SoundSource.AMBIENT, 0.2f, 1.0f);

@@ -6,9 +6,10 @@ public class Config {
     private static final String CATEGORY_SHIELDS = "shields";
     private static final String CATEGORY_ENTITY = "entities";
     private static final String CATEGORY_ORES = "ores";
+    private static final String CATEGORY_PAINTINGS = "paintings";
+    private static final String CATEGORY_SOUNDS = "sounds";
 
     private static final String SUB_CATEGORY_ORES_TIN = "tin";
-
     private static final String SUB_CATEGORY_ORES_SILVER = "silver";
     private static final String SUB_CATEGORY_ORES_COBALT = "cobalt";
     private static final String SUB_CATEGORY_ORES_TOPAZ = "topaz";
@@ -20,7 +21,6 @@ public class Config {
     private static final String SUB_CATEGORY_ORES_TURQUOISE = "turquoise";
     private static final String SUB_CATEGORY_ORES_ONYX = "onyx";
     private static final String SUB_CATEGORY_ORES_ANTHRACITE = "anthracite";
-    private static final String CATEGORY_PAINTINGS = "paintings";
 
     public final ForgeConfigSpec.BooleanValue spawnDuck;
 
@@ -43,28 +43,28 @@ public class Config {
     public final ForgeConfigSpec.BooleanValue spawnNetherAnthracite;
     public final ForgeConfigSpec.BooleanValue spawnEndOnyx;
 
-    public final ForgeConfigSpec.BooleanValue customShieldMaxReduction;
-    public final ForgeConfigSpec.IntValue defaultDamageReduction;
-
-    public final ForgeConfigSpec.IntValue tinDamageReduction;
-    public final ForgeConfigSpec.IntValue copperDamageReduction;
-    public final ForgeConfigSpec.IntValue silverDamageReduction;
-    public final ForgeConfigSpec.IntValue bronzeDamageReduction;
-    public final ForgeConfigSpec.IntValue cobaltDamageReduction;
-    public final ForgeConfigSpec.IntValue obsidianDamageReduction;
-    public final ForgeConfigSpec.IntValue sterlingDamageReduction;
-    public final ForgeConfigSpec.IntValue steelDamageReduction;
-    public final ForgeConfigSpec.IntValue amethystDamageReduction;
-    public final ForgeConfigSpec.IntValue emeraldDamageReduction;
-    public final ForgeConfigSpec.IntValue topazDamageReduction;
-    public final ForgeConfigSpec.IntValue tourmalineDamageReduction;
-    public final ForgeConfigSpec.IntValue tanzaniteDamageReduction;
-    public final ForgeConfigSpec.IntValue rubyDamageReduction;
-    public final ForgeConfigSpec.IntValue sapphireDamageReduction;
-    public final ForgeConfigSpec.IntValue turquoiseDamageReduction;
-    public final ForgeConfigSpec.IntValue moissaniteDamageReduction;
-    public final ForgeConfigSpec.IntValue onyxDamageReduction;
-    public final ForgeConfigSpec.IntValue grapheneDamageReduction;
+//    public final ForgeConfigSpec.BooleanValue customShieldMaxReduction;
+//    public final ForgeConfigSpec.IntValue defaultDamageReduction;
+//
+//    public final ForgeConfigSpec.IntValue tinDamageReduction;
+//    public final ForgeConfigSpec.IntValue copperDamageReduction;
+//    public final ForgeConfigSpec.IntValue silverDamageReduction;
+//    public final ForgeConfigSpec.IntValue bronzeDamageReduction;
+//    public final ForgeConfigSpec.IntValue cobaltDamageReduction;
+//    public final ForgeConfigSpec.IntValue obsidianDamageReduction;
+//    public final ForgeConfigSpec.IntValue sterlingDamageReduction;
+//    public final ForgeConfigSpec.IntValue steelDamageReduction;
+//    public final ForgeConfigSpec.IntValue amethystDamageReduction;
+//    public final ForgeConfigSpec.IntValue emeraldDamageReduction;
+//    public final ForgeConfigSpec.IntValue topazDamageReduction;
+//    public final ForgeConfigSpec.IntValue tourmalineDamageReduction;
+//    public final ForgeConfigSpec.IntValue tanzaniteDamageReduction;
+//    public final ForgeConfigSpec.IntValue rubyDamageReduction;
+//    public final ForgeConfigSpec.IntValue sapphireDamageReduction;
+//    public final ForgeConfigSpec.IntValue turquoiseDamageReduction;
+//    public final ForgeConfigSpec.IntValue moissaniteDamageReduction;
+//    public final ForgeConfigSpec.IntValue onyxDamageReduction;
+//    public final ForgeConfigSpec.IntValue grapheneDamageReduction;
 
     public final ForgeConfigSpec.IntValue tinDurability;
     public final ForgeConfigSpec.IntValue copperDurability;
@@ -161,9 +161,6 @@ public class Config {
     public final ForgeConfigSpec.IntValue netherSapphireBottom;
     public final ForgeConfigSpec.IntValue netherMoissaniteBottom;
     public final ForgeConfigSpec.IntValue netherAnthraciteBottom;
-
-    public final ForgeConfigSpec.BooleanValue thornsOnShields;
-    public final ForgeConfigSpec.BooleanValue enableDamageReduction;
 
     public final ForgeConfigSpec.BooleanValue enableCustomDeathSounds;
     public final ForgeConfigSpec.BooleanValue enableCustomPlayerSleepingSound;
@@ -374,9 +371,9 @@ public class Config {
 
         builder.comment("The sound configuration for this mod").push(CATEGORY_SOUNDS).pop();
 
-        enableCustomDeathSounds = getBoolean("enableCustomDeathSounds", CATEGORY_SOUNDS, true, "Whether to enable custom death sounds. Includes bruh & uyêeh sounds.");
-        enableCustomPlayerSleepingSound = getBoolean("enableCustomPlayerSleepingSound", CATEGORY_SOUNDS, true, "Whether to enable custom player sleeping sound. Aauugh.");
-        enableCustomPlayerHurtSound = getBoolean("enableCustomPlayerHurtSound", CATEGORY_SOUNDS, true, "Whether to enable custom player hurting another player sound. Oof.");
+        enableCustomDeathSounds = getBoolean(builder, "enableCustomDeathSounds", CATEGORY_SOUNDS, true, "Whether to enable custom death sounds. Includes bruh & uyêeh sounds.");
+        enableCustomPlayerSleepingSound = getBoolean(builder, "enableCustomPlayerSleepingSound", CATEGORY_SOUNDS, true, "Whether to enable custom player sleeping sound. Aauugh.");
+        enableCustomPlayerHurtSound = getBoolean(builder, "enableCustomPlayerHurtSound", CATEGORY_SOUNDS, true, "Whether to enable custom player hurting another player sound. Oof.");
     }
 
     private static ForgeConfigSpec.BooleanValue getBoolean(ForgeConfigSpec.Builder builder, String name, String category, boolean defaultValue, String comment) {

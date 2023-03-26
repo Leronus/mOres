@@ -1,10 +1,10 @@
 package mod.leronus.mores.item;
 
 import mod.leronus.mores.Mores;
-import mod.leronus.mores.config.Config;
 import mod.leronus.mores.config.MoresConfig;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.custom.*;
+import mod.leronus.mores.sound.ModSounds;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -29,7 +29,14 @@ public class ModItems {
     /**
      * Fills the registry with items
      */
-    //Item Registry
+    public static final RegistryObject<Item> SWEET_CAROLINE_MUSIC_DISC = ITEMS.register("sweet_caroline_music_disc", () -> new RecordItem(4, ModSounds.SWEET_CAROLINE_BOOTLEG, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 4040));
+    public static final RegistryObject<Item> CIPHER_DISC = ITEMS.register("cipher_music_disc", () -> new RecordItem(5, ModSounds.CIPHER, new Item.Properties().tab(ModTabs.MORES_MATERIALS).stacksTo(1).rarity(Rarity.RARE), 3820));
+
+
+    public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).meat().build())));
+    public static final RegistryObject<Item> CARROT_PIE = ITEMS.register("carrot_pie", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
+    public static final RegistryObject<Item> VELVET = ITEMS.register("velvet", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.4F).meat().build())));
+
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
@@ -54,11 +61,17 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHAIN = ITEMS.register("chain", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
+    public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> SILVER_NUGGET = ITEMS.register("silver_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> COBALT_NUGGET = ITEMS.register("cobalt_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
     public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
+    public static final RegistryObject<Item> STERLING_NUGGET = ITEMS.register("sterling_nugget", () -> new Item(new Item.Properties().tab(ModTabs.MORES_MATERIALS)));
 
-    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
-    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 200, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 0), 0.8F).alwaysEat().build())));
+    public static final RegistryObject<Item> SILVER_APPLE = ITEMS.register("silver_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 200, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> BRONZE_APPLE = ITEMS.register("bronze_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 0.8F).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 0), 1.0F).alwaysEat().build())));
+    public static final RegistryObject<Item> COBALT_APPLE = ITEMS.register("cobalt_apple", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).rarity(Rarity.RARE).food(new FoodProperties.Builder().nutrition(4).saturationMod(0.8F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 400, 1), 1.0F).alwaysEat().build())));
 
     public static final RegistryObject<Item> DUCK = ITEMS.register("duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F).meat().build())));
     public static final RegistryObject<Item> COOKED_DUCK = ITEMS.register("cooked_duck", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).meat().build())));
@@ -417,7 +430,7 @@ public class ModItems {
     public static final RegistryObject<Item> TANZANITE_SHOVEL = ITEMS.register("tanzanite_shovel", () -> new ShovelItem(ModTiers.TANZANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () -> new ShovelItem(ModTiers.RUBY, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
-    public static final RegistryObject<Item> SAPPHIItemRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModTiers.SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel", () -> new ShovelItem(ModTiers.SAPPHIRE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
     public static final RegistryObject<Item> TURQUOISE_SHOVEL = ITEMS.register("turquoise_shovel", () -> new ShovelItem(ModTiers.TURQUOISE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
 
     public static final RegistryObject<Item> MOISSANITE_SHOVEL = ITEMS.register("moissanite_shovel", () -> new ShovelItem(ModTiers.MOISSANITE, 1.5F, -3.0F, new Item.Properties().tab(ModTabs.MORES_TOOLS)));
@@ -469,25 +482,25 @@ public class ModItems {
 
     //TODO Check tags
     //Shields
-    public static final RegistryObject<ModShieldItem> TIN_SHIELD = ITEMS.register("tin_shield", () -> new ModShieldItem(MoresConfig.tinDamageReduction, "forge:ingots/tin", MoresConfig.tinDurability, false));
-    public static final RegistryObject<ModShieldItem> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ModShieldItem(MoresConfig.copperDamageReduction, "forge:ingots/copper", MoresConfig.copperDurability, false));
-    public static final RegistryObject<ModShieldItem> SILVER_SHIELD = ITEMS.register("silver_shield", () -> new ModShieldItem(MoresConfig.silverDamageReduction, "forge:ingots/silver", MoresConfig.silverDurability, false));
-    public static final RegistryObject<ModShieldItem> BRONZE_SHIELD = ITEMS.register("bronze_shield", () -> new ModShieldItem(MoresConfig.bronzeDamageReduction, "forge:ingots/bronze", MoresConfig.bronzeDurability, false));
-    public static final RegistryObject<ModShieldItem> COBALT_SHIELD = ITEMS.register("cobalt_shield", () -> new ModShieldItem(MoresConfig.cobaltDamageReduction, "forge:ingots/cobalt", MoresConfig.cobaltDurability, false));
-    public static final RegistryObject<ModShieldItem> OBSIDIAN_SHIELD = ITEMS.register("obsidian_shield", () -> new ModShieldItem(MoresConfig.obsidianDamageReduction, "minecraft:obsidian", MoresConfig.obsidianDurability, false));
-    public static final RegistryObject<ModShieldItem> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ModShieldItem(MoresConfig.sterlingDamageReduction, "forge:ingots/sterling_silver", MoresConfig.sterlingDurability, false));
-    public static final RegistryObject<ModShieldItem> STEEL_SHIELD = ITEMS.register("steel_shield", () -> new ModShieldItem(MoresConfig.steelDamageReduction, "forge:ingots/steel", MoresConfig.steelDurability, false));
-//    public static final RegistryObject<ModShieldItem> AMETHYST_SHIELD = ITEMS.register("amethyst_shield", () -> new ModShieldItem(MoresConfig.amethystDamageReduction, ModTags.Items.AMETHYST, MoresConfig.amethystDurability, false));
-    public static final RegistryObject<ModShieldItem> EMERALD_SHIELD = ITEMS.register("emerald_shield", () -> new ModShieldItem(MoresConfig.emeraldDamageReduction, "forge:gems/emerald", MoresConfig.emeraldDurability, false));
-    public static final RegistryObject<ModShieldItem> TOPAZ_SHIELD = ITEMS.register("topaz_shield", () -> new ModShieldItem(MoresConfig.topazDamageReduction, "forge:gems/topaz", MoresConfig.topazDurability, false));
-    public static final RegistryObject<ModShieldItem> TOURMALINE_SHIELD = ITEMS.register("tourmaline_shield", () -> new ModShieldItem(MoresConfig.tourmalineDamageReduction, "forge:gems/tourmaline", MoresConfig.tourmalineDurability, false));
-    public static final RegistryObject<ModShieldItem> TANZANITE_SHIELD = ITEMS.register("tanzanite_shield", () -> new ModShieldItem(MoresConfig.tanzaniteDamageReduction, "forge:gems/tanzanite", MoresConfig.tanzaniteDurability, false));
-    public static final RegistryObject<ModShieldItem> RUBY_SHIELD = ITEMS.register("ruby_shield", () -> new ModShieldItem(MoresConfig.rubyDamageReduction, "forge:gems/ruby", MoresConfig.rubyDurability, true));
-    public static final RegistryObject<ModShieldItem> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield", () -> new ModShieldItem(MoresConfig.sapphireDamageReduction, "forge:gems/sapphire", MoresConfig.sapphireDurability, false));
-    public static final RegistryObject<ModShieldItem> TURQUOISE_SHIELD = ITEMS.register("turquoise_shield", () -> new ModShieldItem(MoresConfig.turquoiseDamageReduction, "forge:gems/turquoise", MoresConfig.turquoiseDurability, false));
-    public static final RegistryObject<ModShieldItem> MOISSANITE_SHIELD = ITEMS.register("moissanite_shield", () -> new ModShieldItem(MoresConfig.moissaniteDamageReduction, "forge:gems/moissanite", MoresConfig.moissaniteDurability, false));
-    public static final RegistryObject<ModShieldItem> ONYX_SHIELD = ITEMS.register("onyx_shield", () -> new ModShieldItem(MoresConfig.onyxDamageReduction, "forge:gems/onyx", MoresConfig.onyxDurability, false));
-    public static final RegistryObject<ModShieldItem> GRAPHENE_SHIELD = ITEMS.register("graphene_shield", () -> new ModShieldItem(MoresConfig.grapheneDamageReduction, "forge:gems/graphene", MoresConfig.grapheneDurability, true));
+    public static final RegistryObject<ModShieldItem> TIN_SHIELD = ITEMS.register("tin_shield", () -> new ModShieldItem("forge:ingots/tin", MoresConfig.tinDurability, false));
+    public static final RegistryObject<ModShieldItem> COPPER_SHIELD = ITEMS.register("copper_shield", () -> new ModShieldItem("forge:ingots/copper", MoresConfig.copperDurability, false));
+    public static final RegistryObject<ModShieldItem> SILVER_SHIELD = ITEMS.register("silver_shield", () -> new ModShieldItem( "forge:ingots/silver", MoresConfig.silverDurability, false));
+    public static final RegistryObject<ModShieldItem> BRONZE_SHIELD = ITEMS.register("bronze_shield", () -> new ModShieldItem( "forge:ingots/bronze", MoresConfig.bronzeDurability, false));
+    public static final RegistryObject<ModShieldItem> COBALT_SHIELD = ITEMS.register("cobalt_shield", () -> new ModShieldItem( "forge:ingots/cobalt", MoresConfig.cobaltDurability, false));
+    public static final RegistryObject<ModShieldItem> OBSIDIAN_SHIELD = ITEMS.register("obsidian_shield", () -> new ModShieldItem( "forge:ingots/obsidian", MoresConfig.obsidianDurability, false));
+    public static final RegistryObject<ModShieldItem> STERLING_SHIELD = ITEMS.register("sterling_shield", () -> new ModShieldItem("forge:ingots/sterling_silver_silver", MoresConfig.sterlingDurability, false));
+    public static final RegistryObject<ModShieldItem> STEEL_SHIELD = ITEMS.register("steel_shield", () -> new ModShieldItem( "forge:ingots/steel", MoresConfig.steelDurability, false));
+    public static final RegistryObject<ModShieldItem> AMETHYST_SHIELD = ITEMS.register("amethyst_shield", () -> new ModShieldItem("minecraft:amethyst", MoresConfig.amethystDurability, false));
+    public static final RegistryObject<ModShieldItem> EMERALD_SHIELD = ITEMS.register("emerald_shield", () -> new ModShieldItem( "forge:gems/emerald", MoresConfig.emeraldDurability, false));
+    public static final RegistryObject<ModShieldItem> TOPAZ_SHIELD = ITEMS.register("topaz_shield", () -> new ModShieldItem( "forge:gems/topaz", MoresConfig.topazDurability, false));
+    public static final RegistryObject<ModShieldItem> TOURMALINE_SHIELD = ITEMS.register("tourmaline_shield", () -> new ModShieldItem( "forge:gems/tourmaline", MoresConfig.tourmalineDurability, false));
+    public static final RegistryObject<ModShieldItem> TANZANITE_SHIELD = ITEMS.register("tanzanite_shield", () -> new ModShieldItem( "forge:gems/tanzanite", MoresConfig.tanzaniteDurability, false));
+    public static final RegistryObject<ModShieldItem> RUBY_SHIELD = ITEMS.register("ruby_shield", () -> new ModShieldItem( "forge:gems/ruby", MoresConfig.rubyDurability, true));
+    public static final RegistryObject<ModShieldItem> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield", () -> new ModShieldItem( "forge:gems/sapphire", MoresConfig.sapphireDurability, false));
+    public static final RegistryObject<ModShieldItem> TURQUOISE_SHIELD = ITEMS.register("turquoise_shield", () -> new ModShieldItem( "forge:gems/turquoise", MoresConfig.turquoiseDurability, false));
+    public static final RegistryObject<ModShieldItem> MOISSANITE_SHIELD = ITEMS.register("moissanite_shield", () -> new ModShieldItem("forge:gems/moissanite", MoresConfig.moissaniteDurability, false));
+    public static final RegistryObject<ModShieldItem> ONYX_SHIELD = ITEMS.register("onyx_shield", () -> new ModShieldItem( "forge:gems/onyx", MoresConfig.onyxDurability, false));
+    public static final RegistryObject<ModShieldItem> GRAPHENE_SHIELD = ITEMS.register("graphene_shield", () -> new ModShieldItem("forge:gems/graphene", MoresConfig.grapheneDurability, true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
