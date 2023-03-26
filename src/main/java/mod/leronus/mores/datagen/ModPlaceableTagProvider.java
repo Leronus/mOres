@@ -16,7 +16,6 @@ public class ModPlaceableTagProvider extends PaintingVariantTagsProvider {
 
     @Override
     protected void addTags() {
-        if (Config.enableCustomPaintingsMores.get()) {
             // Create tags for Mores paintings
             this.tag(PaintingVariantTags.PLACEABLE).add(ModPaintings.ALIENBONG.get(), ModPaintings.CNTOWER.get(), ModPaintings.TORONTO.get());
 
@@ -29,6 +28,5 @@ public class ModPlaceableTagProvider extends PaintingVariantTagsProvider {
 //                    ModPaintings.LEROYSMILE.get(), ModPaintings.LUUKPOOTNEER.get(), ModPaintings.LUUKZWOEL.get(), ModPaintings.MARTIJNSMILE.get(),
 //                    ModPaintings.MEDEA.get(), ModPaintings.TIMGROTESTOK.get(), ModPaintings.ZWAREKEVIN.get(), ModPaintings.SILBIGUP.get(), ModPaintings.SJORS.get(),
 //                    ModPaintings.LISACUTE.get());
-        }
     }
 }
