@@ -4,12 +4,12 @@
 
 
 Future:
-- Rework config like SimpleOres?
-- Change recipes with item ingot &  gem to forge tags (check bronze battleaxe)
-- Implement spinel(?)
+- Add enabling/disabling of ores by looking at SimpleOres config
+- Add ore deposits to config
 - Make advancements translatable in en_us.lang
 - Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
 - Evaluate fyranite
+- Implement spinel(?)
 
 
 

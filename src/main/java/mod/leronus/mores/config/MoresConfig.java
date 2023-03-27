@@ -7,7 +7,7 @@ import net.minecraftforge.common.ForgeConfigSpec.ConfigValue;
 import net.minecraftforge.fml.config.ModConfig;
 
 public class MoresConfig {
-    public static boolean spawnDuck = true;
+//    public static boolean spawnDuck = true;
 
     public static boolean spawnTin = true;
     public static boolean spawnCobalt = true;
@@ -159,7 +159,7 @@ public class MoresConfig {
 
     public static void bake(ModConfig config) {
         try {
-            spawnDuck = ConfigHolder.COMMON.spawnDuck.get();
+//            spawnDuck = ConfigHolder.COMMON.spawnDuck.get();
 
 //            spawnTin = ConfigHolder.COMMON.spawnTin.get();
 //            spawnCobalt = ConfigHolder.COMMON.spawnCobalt.get();

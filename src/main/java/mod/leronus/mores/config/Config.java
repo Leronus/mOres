@@ -22,7 +22,7 @@ public class Config {
     private static final String SUB_CATEGORY_ORES_ONYX = "onyx";
     private static final String SUB_CATEGORY_ORES_ANTHRACITE = "anthracite";
 
-    public final ForgeConfigSpec.BooleanValue spawnDuck;
+//    public final ForgeConfigSpec.BooleanValue spawnDuck;
 
 //    public final ForgeConfigSpec.BooleanValue spawnTin;
 //    public final ForgeConfigSpec.BooleanValue spawnCobalt;
@@ -366,8 +366,8 @@ public class Config {
 //        enableDamageReduction = getBoolean(builder,"enableDamageReduction", CATEGORY_SHIELDS, true,
 //                "Enables modified damage reduction values for shields.");
 
-        builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
-        spawnDuck = getBoolean(builder,"spawnDuck", CATEGORY_ENTITY, true, "Whether ducks should generate naturally in your Minecraft world.");
+//        builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
+//        spawnDuck = getBoolean(builder,"spawnDuck", CATEGORY_ENTITY, true, "Whether ducks should generate naturally in your Minecraft world.");
 
         builder.comment("The sound configuration for this mod").push(CATEGORY_SOUNDS).pop();
 
