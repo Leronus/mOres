@@ -20,7 +20,7 @@
 	"item": "minecraft:amethyst_shard"
     },
     "output": {
-        "tag": "forge:ingots/bronze",
+        "item": "mores:bronze_ingot",
         "count": 1
     }
 }

@@ -20,7 +20,7 @@
         "item": "minecraft:amethyst_shard"
     },
     "output": {
-        "tag": "forge:ingots/sterling_silver",
+        "item": "mores:sterling_ingot",
         "count": 1
     }
 }

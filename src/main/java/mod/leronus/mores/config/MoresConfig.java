@@ -35,25 +35,25 @@ public class MoresConfig {
     public static boolean enableCustomPlayerSleepingSound = false;
     public static boolean enableCustomPlayerHurtSound = false;
 
-    public static int tinDamageReduction = 60;
-    public static int copperDamageReduction = 60;
-    public static int silverDamageReduction = 65;
-    public static int bronzeDamageReduction = 70;
-    public static int cobaltDamageReduction = 70;
-    public static int sterlingDamageReduction = 70;
-    public static int steelDamageReduction = 75;
-    public static int amethystDamageReduction = 75;
-    public static int emeraldDamageReduction = 80;
-    public static int topazDamageReduction = 80;
-    public static int tourmalineDamageReduction = 80;
-    public static int tanzaniteDamageReduction = 90;
-    public static int rubyDamageReduction = 90;
-    public static int sapphireDamageReduction = 90;
-    public static int moissaniteDamageReduction = 90;
-    public static int obsidianDamageReduction = 100;
-    public static int turquoiseDamageReduction = 100;
-    public static int onyxDamageReduction = 100;
-    public static int grapheneDamageReduction = 100;
+//    public static int tinDamageReduction = 60;
+//    public static int copperDamageReduction = 60;
+//    public static int silverDamageReduction = 65;
+//    public static int bronzeDamageReduction = 70;
+//    public static int cobaltDamageReduction = 70;
+//    public static int sterlingDamageReduction = 70;
+//    public static int steelDamageReduction = 75;
+//    public static int amethystDamageReduction = 75;
+//    public static int emeraldDamageReduction = 80;
+//    public static int topazDamageReduction = 80;
+//    public static int tourmalineDamageReduction = 80;
+//    public static int tanzaniteDamageReduction = 90;
+//    public static int rubyDamageReduction = 90;
+//    public static int sapphireDamageReduction = 90;
+//    public static int moissaniteDamageReduction = 90;
+//    public static int obsidianDamageReduction = 100;
+//    public static int turquoiseDamageReduction = 100;
+//    public static int onyxDamageReduction = 100;
+//    public static int grapheneDamageReduction = 100;
 
     public static int tinDurability = 200;
     public static int copperDurability = 240;
@@ -135,9 +135,9 @@ public class MoresConfig {
     public static int overworldMoissaniteBuriedTop = 40;
     public static int overworldMoissaniteBuriedBottom = -120;
 
-    public static int anthraciteUpperBottom = -64;
-    public static int anthraciteLowerTop = 192;
-    public static int anthraciteLowerBottom = -64;
+    public static int overworldAnthraciteUpperBottom = -64;
+    public static int overworldAnthraciteLowerTop = 192;
+    public static int overworldAnthraciteLowerBottom = -64;
     public static int endOnyxTop = 256;
     public static int endOnyxBottom = -64;
     public static int netherSilverTop = 256;
@@ -153,8 +153,8 @@ public class MoresConfig {
     public static int netherAnthraciteTop = 256;
     public static int netherAnthraciteBottom = -64;
 
-    public static boolean thornsOnShields = true;
-    public static boolean enableDamageReduction = true;
+//    public static boolean thornsOnShields = true;
+//    public static boolean enableDamageReduction = true;
 
 
     public static void bake(ModConfig config) {
@@ -268,9 +268,9 @@ public class MoresConfig {
             overworldMoissaniteSmallBottom = ConfigHolder.COMMON.overworldMoissaniteSmallBottom.get();
             overworldMoissaniteBuriedTop = ConfigHolder.COMMON.overworldMoissaniteBuriedTop.get();
             overworldMoissaniteBuriedBottom = ConfigHolder.COMMON.overworldMoissaniteBuriedBottom.get();
-            anthraciteUpperBottom = ConfigHolder.COMMON.anthraciteUpperBottom.get();
-            anthraciteLowerTop = ConfigHolder.COMMON.anthraciteLowerTop.get();
-            anthraciteLowerBottom = ConfigHolder.COMMON.anthraciteLowerBottom.get();
+            overworldAnthraciteUpperBottom = ConfigHolder.COMMON.anthraciteUpperBottom.get();
+            overworldAnthraciteLowerTop = ConfigHolder.COMMON.anthraciteLowerTop.get();
+            overworldAnthraciteLowerBottom = ConfigHolder.COMMON.anthraciteLowerBottom.get();
             endOnyxTop = ConfigHolder.COMMON.endOnyxTop.get();
             endOnyxBottom = ConfigHolder.COMMON.endOnyxBottom.get();
             netherSilverTop = ConfigHolder.COMMON.netherSilverTop.get();

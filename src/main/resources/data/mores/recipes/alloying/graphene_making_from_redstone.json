@@ -20,7 +20,7 @@
 	"item": "minecraft:redstone"
     },
     "output": {
-        "tag": "forge:gems/graphene",
+        "item": "mores:graphene_gem",
         "count": 1
     }
 }
