@@ -2,6 +2,9 @@ v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
 
+v4.3.3 (1.19.2)
+- Fixed alloy recipes broken by tags
+- Completely reworked config (now finally ordered)
 
 v4.3.2 (1.19.2)
 - Added xp for deepslate anthracite ore

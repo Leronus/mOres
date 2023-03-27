@@ -24,24 +24,24 @@ public class Config {
 
     public final ForgeConfigSpec.BooleanValue spawnDuck;
 
-    public final ForgeConfigSpec.BooleanValue spawnTin;
-    public final ForgeConfigSpec.BooleanValue spawnCobalt;
-    public final ForgeConfigSpec.BooleanValue spawnSilver;
-    public final ForgeConfigSpec.BooleanValue spawnTourmaline;
-    public final ForgeConfigSpec.BooleanValue spawnTopaz;
-    public final ForgeConfigSpec.BooleanValue spawnMoissanite;
-    public final ForgeConfigSpec.BooleanValue spawnRuby;
-    public final ForgeConfigSpec.BooleanValue spawnSapphire;
-    public final ForgeConfigSpec.BooleanValue spawnTurquoise;
-    public final ForgeConfigSpec.BooleanValue spawnAnthracite;
-
-    public final ForgeConfigSpec.BooleanValue spawnTanzanite;
-    public final ForgeConfigSpec.BooleanValue spawnNetherMoissanite;
-    public final ForgeConfigSpec.BooleanValue spawnNetherRuby;
-    public final ForgeConfigSpec.BooleanValue spawnNetherSapphire;
-    public final ForgeConfigSpec.BooleanValue spawnNetherSilver;
-    public final ForgeConfigSpec.BooleanValue spawnNetherAnthracite;
-    public final ForgeConfigSpec.BooleanValue spawnEndOnyx;
+//    public final ForgeConfigSpec.BooleanValue spawnTin;
+//    public final ForgeConfigSpec.BooleanValue spawnCobalt;
+//    public final ForgeConfigSpec.BooleanValue spawnSilver;
+//    public final ForgeConfigSpec.BooleanValue spawnTourmaline;
+//    public final ForgeConfigSpec.BooleanValue spawnTopaz;
+//    public final ForgeConfigSpec.BooleanValue spawnMoissanite;
+//    public final ForgeConfigSpec.BooleanValue spawnRuby;
+//    public final ForgeConfigSpec.BooleanValue spawnSapphire;
+//    public final ForgeConfigSpec.BooleanValue spawnTurquoise;
+//    public final ForgeConfigSpec.BooleanValue spawnAnthracite;
+//
+//    public final ForgeConfigSpec.BooleanValue spawnTanzanite;
+//    public final ForgeConfigSpec.BooleanValue spawnNetherMoissanite;
+//    public final ForgeConfigSpec.BooleanValue spawnNetherRuby;
+//    public final ForgeConfigSpec.BooleanValue spawnNetherSapphire;
+//    public final ForgeConfigSpec.BooleanValue spawnNetherSilver;
+//    public final ForgeConfigSpec.BooleanValue spawnNetherAnthracite;
+//    public final ForgeConfigSpec.BooleanValue spawnEndOnyx;
 
 //    public final ForgeConfigSpec.BooleanValue customShieldMaxReduction;
 //    public final ForgeConfigSpec.IntValue defaultDamageReduction;
@@ -188,28 +188,28 @@ public class Config {
                 These values may also be below the world border of y=-64.
                 """).push(CATEGORY_ORES);
 
-        spawnTin = getBoolean(builder,"spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
+//        spawnTin = getBoolean(builder,"spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
         overworldTinUpperBottom = getInt(builder,"overworldTinUpperLayerMinHeight", SUB_CATEGORY_ORES_TIN, 85, 0, 256,"Minimum height from the bottom for the upper layer of tin ores");
         overworldTinUpperTop = getInt(builder,"overworldTinUpperLayerMaxHeight", SUB_CATEGORY_ORES_TIN, 210, 0, 256,"Maximum height from the bottom for the upper layer of tin ores");
         overworldTinMiddleBottom = getInt(builder,"overworldTinMiddleLayerMinHeight", SUB_CATEGORY_ORES_TIN, 40,0, 256, "Minimum height from the bottom for the upper layer of tin ores");
         overworldTinMiddleTop = getInt(builder,"overworldTinMiddleLayerMaxHeight", SUB_CATEGORY_ORES_TIN, 85,0, 256, "Maximum height from the bottom for the middle layer of tin ores");
         overworldTinSmallTop = getInt(builder,"overworldTinSmallLayerMaxHeight", SUB_CATEGORY_ORES_TIN, -40, -64, 191,"Maximum VERTICAL Y-LEVEL for tin ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
 
-        spawnSilver = getBoolean(builder,"spawnSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the overworld");
+//        spawnSilver = getBoolean(builder,"spawnSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the overworld");
         overworldSilverUpperBottom = getInt(builder,"overworldSilverUpperLayerMinHeight", SUB_CATEGORY_ORES_SILVER, 90,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
         overworldSilverUpperTop = getInt(builder,"overworldSilverUpperLayerMaxHeight", SUB_CATEGORY_ORES_SILVER, 190, 0, 256,"Maximum height from the bottom for the upper layer of silver ores");
         overworldSilverMiddleBottom = getInt(builder,"overworldSilverMiddleLayerMinHeight", SUB_CATEGORY_ORES_SILVER, 60,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
         overworldSilverMiddleTop = getInt(builder,"overworldSilverMiddleLayerMaxHeight", SUB_CATEGORY_ORES_SILVER, 90, 0, 256,"Maximum height from the bottom for the middle layer of silver ores");
         overworldSilverSmallTop = getInt(builder,"overworldSilverSmallLayerMaxHeight", SUB_CATEGORY_ORES_SILVER, 0, -64, 191, "Maximum VERTICAL Y-LEVEL for silver ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
 
-        spawnCobalt = getBoolean(builder,"spawnCobalt", SUB_CATEGORY_ORES_COBALT, true, "Should cobalt spawn in the overworld");
+//        spawnCobalt = getBoolean(builder,"spawnCobalt", SUB_CATEGORY_ORES_COBALT, true, "Should cobalt spawn in the overworld");
         overworldCobaltUpperBottom = getInt(builder,"overworldCobaltUpperLayerMinHeight", SUB_CATEGORY_ORES_COBALT, 100,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
         overworldCobaltUpperTop = getInt(builder,"overworldCobaltUpperLayerMaxHeight", SUB_CATEGORY_ORES_COBALT, 120, 0, 256,"Maximum height from the bottom for the upper layer of cobalt ores");
         overworldCobaltMiddleBottom = getInt(builder,"overworldCobaltMiddleLayerMinHeight", SUB_CATEGORY_ORES_COBALT, 60,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
         overworldCobaltMiddleTop = getInt(builder,"overworldCobaltMiddleLayerMaxHeight", SUB_CATEGORY_ORES_COBALT, 100, 0, 256,"Maximum height from the bottom for the middle layer of cobalt ores");
         overworldCobaltSmallTop = getInt(builder,"overworldCobaltSmallLayerMaxHeight", SUB_CATEGORY_ORES_COBALT, -10,-64, 191,  "Maximum VERTICAL Y-LEVEL for cobalt ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
 
-        spawnTourmaline = getBoolean(builder,"spawnTourmaline", SUB_CATEGORY_ORES_TOURMALINE, true, "Should tourmaline spawn in the overworld");
+//        spawnTourmaline = getBoolean(builder,"spawnTourmaline", SUB_CATEGORY_ORES_TOURMALINE, true, "Should tourmaline spawn in the overworld");
         overworldTourmalineSmallBottom = getInt(builder,"overworldTourmalineSmallLayerMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64, -64, 256, "Minimum height from the bottom for the upper layer of tourmaline ores");
         overworldTourmalineSmallTop = getInt(builder,"overworldTourmalineSmallLayerMaxHeight", SUB_CATEGORY_ORES_TOURMALINE, 110, -64, 256, "Maximum height from the bottom for the upper layer of tourmaline ores");
         overworldTourmalineLargeBottom = getInt(builder,"overworldTourmalineLargeLayerMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64, -64, 256, "Minimum height from the bottom for the upper layer of tourmaline ores");
@@ -217,7 +217,7 @@ public class Config {
         overworldTourmalineBuriedBottom = getInt(builder,"overworldTourmalineBuriedLayerMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64,-64, 256,  "Minimum height from the bottom for the buried layer of tourmaline ores");
         overworldTourmalineBuriedTop = getInt(builder,"overworldTourmalineBuriedLayerMaxHeight", SUB_CATEGORY_ORES_TOURMALINE, 110,-64, 256,  "Maximum height from the bottom for the buried layer of tourmaline ores");
 
-        spawnTopaz = getBoolean(builder,"spawnTopaz", SUB_CATEGORY_ORES_TOPAZ, true, "Should topaz spawn in the overworld");
+//        spawnTopaz = getBoolean(builder,"spawnTopaz", SUB_CATEGORY_ORES_TOPAZ, true, "Should topaz spawn in the overworld");
         overworldTopazSmallBottom = getInt(builder,"overworldTopazSmallLayerMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the upper layer of topaz ores");
         overworldTopazSmallTop = getInt(builder,"overworldTopazSmallLayerMaxHeight", SUB_CATEGORY_ORES_TOPAZ, 95,-64, 256,  "Maximum height from the bottom for the upper layer of topaz ores");
         overworldTopazLargeBottom = getInt(builder,"overworldTopazLargeLayerMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the upper layer of topaz ores");
@@ -225,7 +225,7 @@ public class Config {
         overworldTopazBuriedBottom = getInt(builder,"overworldTopazBuriedLayerMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the buried layer of topaz ores");
         overworldTopazBuriedTop = getInt(builder,"overworldTopazBuriedLayerMaxHeight", SUB_CATEGORY_ORES_TOPAZ, 95,-64, 256,  "Maximum height from the bottom for the buried layer of topaz ores");
 
-        spawnSapphire = getBoolean(builder,"spawnSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the overworld");
+//        spawnSapphire = getBoolean(builder,"spawnSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the overworld");
         overworldSapphireSmallBottom = getInt(builder,"overworldSapphireSmallLayerMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the upper layer of sapphire ores");
         overworldSapphireSmallTop = getInt(builder,"overworldSapphireSmallLayerMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 65, -64, 256, "Maximum height from the bottom for the upper layer of sapphire ores");
         overworldSapphireLargeBottom = getInt(builder,"overworldSapphireLargeLayerMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the upper layer of sapphire ores");
@@ -233,7 +233,7 @@ public class Config {
         overworldSapphireBuriedBottom = getInt(builder,"overworldSapphireBuriedLayerMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the buried layer of sapphire ores");
         overworldSapphireBuriedTop = getInt(builder,"overworldSapphireBuriedLayerMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 65,-64, 256,  "Maximum height from the bottom for the buried layer of sapphire ores");
 
-        spawnRuby = getBoolean(builder,"spawnRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the overworld");
+//        spawnRuby = getBoolean(builder,"spawnRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the overworld");
         overworldRubySmallBottom = getInt(builder,"overworldRubySmallLayerMinHeight", SUB_CATEGORY_ORES_RUBY, -64, -64, 256, "Minimum height from the bottom for the upper layer of ruby ores");
         overworldRubySmallTop = getInt(builder,"overworldRubySmallLayerMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the upper layer of ruby ores");
         overworldRubyLargeBottom = getInt(builder,"overworldRubyLargeLayerMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256, "Minimum height from the bottom for the upper layer of ruby ores");
@@ -241,7 +241,7 @@ public class Config {
         overworldRubyBuriedBottom = getInt(builder,"overworldRubyBuriedLayerMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256, "Minimum height from the bottom for the buried layer of ruby ores");
         overworldRubyBuriedTop = getInt(builder,"overworldRubyBuriedLayerMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the buried layer of ruby ores");
 
-        spawnTurquoise = getBoolean(builder,"spawnTurquoise", SUB_CATEGORY_ORES_TURQUOISE, true, "Should turquoise spawn in the overworld");
+//        spawnTurquoise = getBoolean(builder,"spawnTurquoise", SUB_CATEGORY_ORES_TURQUOISE, true, "Should turquoise spawn in the overworld");
         overworldTurquoiseSmallBottom = getInt(builder,"overworldTurquoiseSmallLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64, -64, 256,"Minimum height from the bottom for the upper layer of turquoise ores");
         overworldTurquoiseSmallTop = getInt(builder,"overworldTurquoiseSmallLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the upper layer of turquoise ores");
         overworldTurquoiseLargeBottom = getInt(builder,"overworldTurquoiseLargeLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64,-64, 256, "Minimum height from the bottom for the upper layer of turquoise ores");
@@ -249,7 +249,7 @@ public class Config {
         overworldTurquoiseBuriedBottom = getInt(builder,"overworldTurquoiseBuriedLayerMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64,-64, 256, "Minimum height from the bottom for the buried layer of turquoise ores");
         overworldTurquoiseBuriedTop = getInt(builder,"overworldTurquoiseBuriedLayerMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the buried layer of turquoise ores");
 
-        spawnMoissanite = getBoolean(builder,"spawnMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the overworld");
+//        spawnMoissanite = getBoolean(builder,"spawnMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the overworld");
         overworldMoissaniteSmallBottom = getInt(builder,"overworldMoissaniteSmallLayerMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the upper layer of moissanite ores");
         overworldMoissaniteSmallTop = getInt(builder,"overworldMoissaniteSmallLayerMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 40, -64, 256,"Maximum height from the bottom for the upper layer of moissanite ores");
         overworldMoissaniteLargeBottom = getInt(builder,"overworldMoissaniteLargeLayerMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the upper layer of moissanite ores");
@@ -257,36 +257,36 @@ public class Config {
         overworldMoissaniteBuriedBottom = getInt(builder,"overworldMoissaniteBuriedLayerMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the buried layer of moissanite ores");
         overworldMoissaniteBuriedTop = getInt(builder,"overworldMoissaniteBuriedLayerMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 40,-64, 256, "Maximum height from the bottom for the buried layer of moissanite ores");
 
-        spawnNetherMoissanite = getBoolean(builder,"spawnNetherMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the nether");
+//        spawnNetherMoissanite = getBoolean(builder,"spawnNetherMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the nether");
         netherMoissaniteBottom = getInt(builder,"netherMoissaniteMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for nether moissanite ore");
         netherMoissaniteTop = getInt(builder,"netherMoissaniteMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 256, -64, 256, "Maximum height from the bottom for nether moissanite ore");
 
-        spawnTanzanite = getBoolean(builder,"spawnTanzanite", SUB_CATEGORY_ORES_TANZANITE, true, "Should tanzanite spawn in the nether");
+//        spawnTanzanite = getBoolean(builder,"spawnTanzanite", SUB_CATEGORY_ORES_TANZANITE, true, "Should tanzanite spawn in the nether");
         netherTanzaniteBottom = getInt(builder,"netherTanzaniteMinHeight", SUB_CATEGORY_ORES_TANZANITE, -64, -64, 256, "Minimum height from the bottom for nether tanzanite ore");
         netherTanzaniteTop = getInt(builder,"netherTanzaniteMaxHeight", SUB_CATEGORY_ORES_TANZANITE, 256, -64, 256, "Maximum height from the bottom for nether tanzanite ore");
 
-        spawnNetherSilver = getBoolean(builder,"spawnNetherSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the nether");
+//        spawnNetherSilver = getBoolean(builder,"spawnNetherSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the nether");
         netherSilverBottom = getInt(builder,"netherSilverMinHeight", SUB_CATEGORY_ORES_SILVER, -64, -64, 256, "Minimum height from the bottom for nether silver ore");
         netherSilverTop = getInt(builder,"netherSilverMaxHeight", SUB_CATEGORY_ORES_SILVER, 256, -64, 256, "Maximum height from the bottom for nether silver ore");
 
-        spawnEndOnyx = getBoolean(builder,"spawnEndOnyx", SUB_CATEGORY_ORES_ONYX, true, "Should onyx spawn in the end");
+//        spawnEndOnyx = getBoolean(builder,"spawnEndOnyx", SUB_CATEGORY_ORES_ONYX, true, "Should onyx spawn in the end");
         endOnyxBottom = getInt(builder,"endOnyxMinHeight", SUB_CATEGORY_ORES_ONYX, -64,-64, 256,  "Minimum height from the bottom for nether silver ore");
         endOnyxTop = getInt(builder,"endOnyxMaxHeight", SUB_CATEGORY_ORES_ONYX, 256, -64, 256, "Maximum height from the bottom for nether silver ore");
 
-        spawnNetherSapphire = getBoolean(builder,"spawnNetherSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the nether");
+//        spawnNetherSapphire = getBoolean(builder,"spawnNetherSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the nether");
         netherSapphireBottom = getInt(builder,"netherSapphireMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64, -64, 256, "Minimum height from the bottom for nether sapphire ore");
         netherSapphireTop = getInt(builder,"netherSapphireMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 256, -64, 256, "Maximum height from the bottom for nether sapphire ore");
 
-        spawnNetherRuby = getBoolean(builder,"spawnNetherRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the nether");
+//        spawnNetherRuby = getBoolean(builder,"spawnNetherRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the nether");
         netherRubyBottom = getInt(builder,"netherRubyMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256,  "Minimum height from the bottom for nether ruby ore");
         netherRubyTop = getInt(builder,"netherRubyMaxHeight", SUB_CATEGORY_ORES_RUBY, 256, -64, 256, "Maximum height from the bottom for nether ruby ore");
 
-        spawnAnthracite = getBoolean(builder,"spawnAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the overworld");
+//        spawnAnthracite = getBoolean(builder,"spawnAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the overworld");
         anthraciteUpperBottom = getInt(builder,"anthraciteUpperLayerMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64,-64, 256,  "Minimum height from the bottom for upper layer anthracite ore (Maximum height cannot be changed due to vertical anchor top!)");
         anthraciteLowerBottom = getInt(builder,"anthraciteLowerLayerMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64, -64, 256, "Minimum height from the bottom for bottom layer anthracite ore");
         anthraciteLowerTop = getInt(builder,"anthraciteLowerLayerMaxHeight", SUB_CATEGORY_ORES_ANTHRACITE, 192,-64, 256,  "Maximum height from the bottom for bottom layer anthracite ore");
 
-        spawnNetherAnthracite = getBoolean(builder,"spawnNetherAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the nether");
+//        spawnNetherAnthracite = getBoolean(builder,"spawnNetherAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the nether");
         netherAnthraciteBottom = getInt(builder,"netherAnthraciteMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64,-64, 256,  "Minimum height from the bottom for nether anthracite ore");
         netherAnthraciteTop = getInt(builder,"netherAnthraciteMaxHeight", SUB_CATEGORY_ORES_ANTHRACITE, 256, -64, 256, "Maximum height from the bottom for nether anthracite ore");
         builder.pop();

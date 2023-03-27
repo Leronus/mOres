@@ -160,25 +160,29 @@ public class MoresConfig {
     public static void bake(ModConfig config) {
         try {
             spawnDuck = ConfigHolder.COMMON.spawnDuck.get();
-            spawnTin = ConfigHolder.COMMON.spawnTin.get();
-            spawnCobalt = ConfigHolder.COMMON.spawnCobalt.get();
-            spawnSilver = ConfigHolder.COMMON.spawnSilver.get();
-            spawnTourmaline = ConfigHolder.COMMON.spawnTourmaline.get();
-            spawnTopaz = ConfigHolder.COMMON.spawnTopaz.get();
-            spawnMoissanite = ConfigHolder.COMMON.spawnMoissanite.get();
-            spawnRuby = ConfigHolder.COMMON.spawnRuby.get();
-            spawnSapphire = ConfigHolder.COMMON.spawnSapphire.get();
-            spawnTurquoise = ConfigHolder.COMMON.spawnTurquoise.get();
-            spawnAnthracite = ConfigHolder.COMMON.spawnAnthracite.get();
-            spawnTanzanite = ConfigHolder.COMMON.spawnTanzanite.get();
-            spawnNetherMoissanite = ConfigHolder.COMMON.spawnNetherMoissanite.get();
-            spawnNetherRuby = ConfigHolder.COMMON.spawnNetherRuby.get();
-            spawnNetherSapphire = ConfigHolder.COMMON.spawnNetherSapphire.get();
-            spawnNetherSilver = ConfigHolder.COMMON.spawnNetherSilver.get();
-            spawnNetherAnthracite = ConfigHolder.COMMON.spawnNetherAnthracite.get();
-            spawnEndOnyx = ConfigHolder.COMMON.spawnEndOnyx.get();
+
+//            spawnTin = ConfigHolder.COMMON.spawnTin.get();
+//            spawnCobalt = ConfigHolder.COMMON.spawnCobalt.get();
+//            spawnSilver = ConfigHolder.COMMON.spawnSilver.get();
+//            spawnTourmaline = ConfigHolder.COMMON.spawnTourmaline.get();
+//            spawnTopaz = ConfigHolder.COMMON.spawnTopaz.get();
+//            spawnMoissanite = ConfigHolder.COMMON.spawnMoissanite.get();
+//            spawnRuby = ConfigHolder.COMMON.spawnRuby.get();
+//            spawnSapphire = ConfigHolder.COMMON.spawnSapphire.get();
+//            spawnTurquoise = ConfigHolder.COMMON.spawnTurquoise.get();
+//            spawnAnthracite = ConfigHolder.COMMON.spawnAnthracite.get();
+//            spawnTanzanite = ConfigHolder.COMMON.spawnTanzanite.get();
+//            spawnNetherMoissanite = ConfigHolder.COMMON.spawnNetherMoissanite.get();
+//            spawnNetherRuby = ConfigHolder.COMMON.spawnNetherRuby.get();
+//            spawnNetherSapphire = ConfigHolder.COMMON.spawnNetherSapphire.get();
+//            spawnNetherSilver = ConfigHolder.COMMON.spawnNetherSilver.get();
+//            spawnNetherAnthracite = ConfigHolder.COMMON.spawnNetherAnthracite.get();
+//            spawnEndOnyx = ConfigHolder.COMMON.spawnEndOnyx.get();
+
+
 //            customShieldMaxReduction = ConfigHolder.COMMON.customShieldMaxReduction.get();
 //            defaultDamageReduction = ConfigHolder.COMMON.defaultDamageReduction.get();
+
 //            tinDamageReduction = ConfigHolder.COMMON.tinDamageReduction.get();
 //            copperDamageReduction = ConfigHolder.COMMON.copperDamageReduction.get();
 //            silverDamageReduction = ConfigHolder.COMMON.silverDamageReduction.get();
