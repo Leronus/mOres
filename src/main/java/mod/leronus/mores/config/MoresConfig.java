@@ -55,25 +55,25 @@ public class MoresConfig {
     public static int onyxDamageReduction = 100;
     public static int grapheneDamageReduction = 100;
 
-    public static int tinDurability = 580;
-    public static int copperDurability = 80;
-    public static int silverDurability = 730;
-    public static int bronzeDurability = 840;
-    public static int cobaltDurability = 1300;
-    public static int obsidianDurability = 3000;
-    public static int sterlingDurability = 1800;
-    public static int steelDurability = 2000;
-    public static int amethystDurability = 1250;
-    public static int emeraldDurability = 2500;
-    public static int topazDurability = 2900;
-    public static int tourmalineDurability = 3500;
-    public static int tanzaniteDurability = 5100;
-    public static int rubyDurability = 4200;
-    public static int sapphireDurability = 4500;
-    public static int turquoiseDurability = 3500;
-    public static int moissaniteDurability = 5300;
-    public static int onyxDurability = 6200;
-    public static int grapheneDurability = 7500;
+    public static int tinDurability = 200;
+    public static int copperDurability = 240;
+    public static int silverDurability = 350;
+    public static int bronzeDurability = 385;
+    public static int cobaltDurability = 500;
+    public static int obsidianDurability = 1200;
+    public static int sterlingDurability = 600;
+    public static int steelDurability = 690;
+    public static int amethystDurability = 550;
+    public static int emeraldDurability = 550;
+    public static int topazDurability = 680;
+    public static int tourmalineDurability = 700;
+    public static int tanzaniteDurability = 720;
+    public static int rubyDurability = 800;
+    public static int sapphireDurability = 825;
+    public static int turquoiseDurability = 1000;
+    public static int moissaniteDurability = 850;
+    public static int onyxDurability = 1500;
+    public static int grapheneDurability = 2000;
 
     public static int overworldTinUpperTop = 210;
     public static int overworldTinUpperBottom = 85;
@@ -121,11 +121,11 @@ public class MoresConfig {
     public static int overworldSapphireBuriedTop = 70;
     public static int overworldSapphireBuriedBottom = -100;
 
-    public static int overworldTurquoiseLargeTop = 10;
+    public static int overworldTurquoiseLargeTop = 20;
     public static int overworldTurquoiseLargeBottom = -60;
-    public static int overworldTurquoiseSmallTop = 10;
+    public static int overworldTurquoiseSmallTop = 20;
     public static int overworldTurquoiseSmallBottom = -60;
-    public static int overworldTurquoiseBuriedTop = 10;
+    public static int overworldTurquoiseBuriedTop = 20;
     public static int overworldTurquoiseBuriedBottom = -60;
 
     public static int overworldMoissaniteLargeTop = 40;

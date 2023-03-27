@@ -343,7 +343,7 @@ public class Config {
         silverDurability = getInt(builder,"silverDurability", CATEGORY_SHIELDS, 350,1, 32767, "The durability of the Silver Shield.");
         bronzeDurability = getInt(builder,"bronzeDurability", CATEGORY_SHIELDS, 385,1, 32767, "The durability of the Bronze Shield.");
         cobaltDurability = getInt(builder,"cobaltDurability", CATEGORY_SHIELDS, 500, 1, 32767,"The durability of the Cobalt Shield.");
-        obsidianDurability = getInt(builder,"obsidianDurability", CATEGORY_SHIELDS, 1500,1, 32767, "The durability of the Obsidian Shield.");
+        obsidianDurability = getInt(builder,"obsidianDurability", CATEGORY_SHIELDS, 1200,1, 32767, "The durability of the Obsidian Shield.");
         sterlingDurability = getInt(builder,"sterlingDurability", CATEGORY_SHIELDS, 600,1, 32767, "The durability of the Sterling Silver Shield.");
         steelDurability = getInt(builder,"steelDurability", CATEGORY_SHIELDS, 690,1, 32767, "The durability of the Steel Shield.");
         amethystDurability = getInt(builder,"amethystDurability", CATEGORY_SHIELDS, 550,1, 32767, "The durability of the Amethyst Shield.");
@@ -355,7 +355,7 @@ public class Config {
         sapphireDurability = getInt(builder,"sapphireDurability", CATEGORY_SHIELDS,  825,1, 32767, "The durability of the Sapphire Shield.");
         turquoiseDurability = getInt(builder,"turquoiseDurability", CATEGORY_SHIELDS, 1000, 1, 32767,"The durability of the Turquoise Shield.");
         moissaniteDurability = getInt(builder,"moissaniteDurability", CATEGORY_SHIELDS, 850, 1, 32767,"The durability of the Moissanite Shield.");
-        onyxDurability = getInt(builder,"onyxDurability", CATEGORY_SHIELDS, 1250, 1, 32767,"The durability of the Onyx Shield.");
+        onyxDurability = getInt(builder,"onyxDurability", CATEGORY_SHIELDS, 1500, 1, 32767,"The durability of the Onyx Shield.");
         grapheneDurability = getInt(builder,"grapheneDurability", CATEGORY_SHIELDS, 2000,1, 32767, "The durability of the Graphene Shield.");
 //        diamondDurability = getInt(builder,"diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
