@@ -1,6 +1,14 @@
 v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
+v4.3.4 (1.19.2)
+- Fixed night vision removal with mOres armor
+- Added veinsPerChunk for every ore to the config
+
+- Oregen changes:
+-- Nerfed small turquoise vps from 17 to 15 & large turquoise vps from 20 to 17
+-- Nerfed overworld anthracite upper vps from 21 to 5 & anthracite lower vps from 15 to 7
+-- Nerfed nether anthracite vps from 25 to 16
 
 v4.3.3 (1.19.2)
 - Fixed alloy recipes broken by tags
