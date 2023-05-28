@@ -224,13 +224,14 @@ public class Config {
                 .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + ".toml")).sync()
                 .autosave().build();
         cfg.load();
+        Config();
         ForgeConfigSpec spec = builder.build();
         Config.spec = spec;
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
         spec.setConfig(cfg);
     }
 
-    Config(final ForgeConfigSpec.Builder builder){
+    public static void Config(){
         builder.comment("""
                 The ore configuration for this mod\s
 

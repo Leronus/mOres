@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import mod.leronus.mores.block.ModBlockEntities;
 import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.block.ModContainers;
+import mod.leronus.mores.config.Config;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.loot.ModLootModifiers;
@@ -25,6 +26,8 @@ public class Mores {
 
     // Very Important Comment
     public Mores() {
+        //Load config
+        new Config();
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

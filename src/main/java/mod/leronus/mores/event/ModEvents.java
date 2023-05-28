@@ -3,23 +3,17 @@ package mod.leronus.mores.event;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.block.ModBlocks;
 import mod.leronus.mores.config.Config;
-import mod.leronus.mores.config.MoresConfig;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.custom.DuckEntity;
 import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.util.ModVillagerTrades;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.event.LootTableLoadEvent;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
@@ -82,7 +76,7 @@ public final class ModEvents
     @SubscribeEvent
     public static void LivingDeathEvent(final LivingDeathEvent event)
     {
-        if (MoresConfig.enableCustomDeathSounds) {
+        if (Config.enableCustomDeathSounds.get()) {
             if (event.getEntity() instanceof ServerPlayer) {
                 if (event.getSource() == DamageSource.LAVA) {
                     // Get the player entity
@@ -112,7 +106,7 @@ public final class ModEvents
     @SubscribeEvent
     public static void LivingHurtEvent(final LivingHurtEvent event)
     {
-        if (MoresConfig.enableCustomPlayerHurtSound) {
+        if (Config.enableCustomPlayerHurtSound.get()) {
             if (event.getEntity() instanceof ServerPlayer) {
                 //Get the entity that deals the damage
                 if (event.getSource().getEntity() instanceof ServerPlayer) {
@@ -134,7 +128,7 @@ public final class ModEvents
      */
     @SubscribeEvent
     public static void PlayerSleepInBedEvent(final PlayerSleepInBedEvent event) {
-        if (MoresConfig.enableCustomPlayerSleepingSound) {
+        if (Config.enableCustomPlayerSleepingSound.get()) {
             if (event.getEntity() instanceof ServerPlayer player) {
                 // Play the 'aauugh' sound for the player at their position
                 player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.AAUUGH.get(), SoundSource.AMBIENT, 0.2f, 1.0f);
