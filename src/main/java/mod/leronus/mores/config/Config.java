@@ -256,31 +256,31 @@ public class Config {
                 """).push(CATEGORY_ORES);
 
 //        spawnTin = getBoolean(builder,"spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
-        overworldTinUpperVeinsPerChunk = getInt(builder,"overworldTinUpperVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 17, 0, 100,"The amount of tin ore veins per chunk for the upper layer");
+        overworldTinUpperVeinsPerChunk = getInt(builder,"overworldTinUpperVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 12, 0, 100,"The amount of tin ore veins per chunk for the upper layer");
         overworldTinUpperBottom = getInt(builder,"overworldTinUpperMinHeight", SUB_CATEGORY_ORES_TIN, 85, 0, 256,"Minimum height from the bottom for the upper layer of tin ores");
         overworldTinUpperTop = getInt(builder,"overworldTinUpperMaxHeight", SUB_CATEGORY_ORES_TIN, 210, 0, 256,"Maximum height from the bottom for the upper layer of tin ores");
-        overworldTinMiddleVeinsPerChunk = getInt(builder,"overworldTinMiddleVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 10, 0, 100,"The amount of tin ore veins per chunk for the middle layer");
+        overworldTinMiddleVeinsPerChunk = getInt(builder,"overworldTinMiddleVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 7, 0, 100,"The amount of tin ore veins per chunk for the middle layer");
         overworldTinMiddleBottom = getInt(builder,"overworldTinMiddleMinHeight", SUB_CATEGORY_ORES_TIN, 40,0, 256, "Minimum height from the bottom for the middle layer of tin ores");
         overworldTinMiddleTop = getInt(builder,"overworldTinMiddleMaxHeight", SUB_CATEGORY_ORES_TIN, 85,0, 256, "Maximum height from the bottom for the middle layer of tin ores");
-        overworldTinSmallVeinsPerChunk = getInt(builder,"overworldTinSmallVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 4, 0, 100,"The amount of small tin ore veins per chunk");
+        overworldTinSmallVeinsPerChunk = getInt(builder,"overworldTinSmallVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 3, 0, 100,"The amount of small tin ore veins per chunk");
         overworldTinSmallTop = getInt(builder,"overworldTinSmallMaxHeight", SUB_CATEGORY_ORES_TIN, -40, -64, 191,"Maximum VERTICAL Y-LEVEL for tin ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
 
 
 //        spawnSilver = getBoolean(builder,"spawnSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the overworld");
-        overworldSilverUpperVeinsPerChunk = getInt(builder,"overworldSilverUpperVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 14, 0, 100,"The amount of silver ore veins per chunk for the upper layer");
+        overworldSilverUpperVeinsPerChunk = getInt(builder,"overworldSilverUpperVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 11, 0, 100,"The amount of silver ore veins per chunk for the upper layer");
         overworldSilverUpperBottom = getInt(builder,"overworldSilverUpperMinHeight", SUB_CATEGORY_ORES_SILVER, 90,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
         overworldSilverUpperTop = getInt(builder,"overworldSilverUpperMaxHeight", SUB_CATEGORY_ORES_SILVER, 190, 0, 256,"Maximum height from the bottom for the upper layer of silver ores");
-        overworldSilverMiddleVeinsPerChunk = getInt(builder,"overworldSilverMiddleVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 10, 0, 100,"The amount of silver ore veins per chunk for the middle layer");
+        overworldSilverMiddleVeinsPerChunk = getInt(builder,"overworldSilverMiddleVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 8, 0, 100,"The amount of silver ore veins per chunk for the middle layer");
         overworldSilverMiddleBottom = getInt(builder,"overworldSilverMiddleMinHeight", SUB_CATEGORY_ORES_SILVER, 60,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
         overworldSilverMiddleTop = getInt(builder,"overworldSilverMiddleMaxHeight", SUB_CATEGORY_ORES_SILVER, 90, 0, 256,"Maximum height from the bottom for the middle layer of silver ores");
         overworldSilverSmallVeinsPerChunk = getInt(builder,"overworldSilverSmallVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 4, 0, 100,"The amount of small silver ore veins per chunk for the upper layer");
         overworldSilverSmallTop = getInt(builder,"overworldSilverSmallMaxHeight", SUB_CATEGORY_ORES_SILVER, 0, -64, 191, "Maximum VERTICAL Y-LEVEL for silver ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
 
 //        spawnCobalt = getBoolean(builder,"spawnCobalt", SUB_CATEGORY_ORES_COBALT, true, "Should cobalt spawn in the overworld");
-        overworldCobaltUpperVeinsPerChunk = getInt(builder,"overworldCobaltUpperVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 4, 0, 100,"The amount of cobalt ore veins per chunk for the upper layer");
+        overworldCobaltUpperVeinsPerChunk = getInt(builder,"overworldCobaltUpperVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 6, 0, 100,"The amount of cobalt ore veins per chunk for the upper layer");
         overworldCobaltUpperBottom = getInt(builder,"overworldCobaltUpperMinHeight", SUB_CATEGORY_ORES_COBALT, 100,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
         overworldCobaltUpperTop = getInt(builder,"overworldCobaltUpperMaxHeight", SUB_CATEGORY_ORES_COBALT, 120, 0, 256,"Maximum height from the bottom for the upper layer of cobalt ores");
-        overworldCobaltMiddleVeinsPerChunk = getInt(builder,"overworldCobaltMiddleVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 14, 0, 100,"The amount of cobalt ore veins per chunk for the middle layer");
+        overworldCobaltMiddleVeinsPerChunk = getInt(builder,"overworldCobaltMiddleVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 12, 0, 100,"The amount of cobalt ore veins per chunk for the middle layer");
         overworldCobaltMiddleBottom = getInt(builder,"overworldCobaltMiddleMinHeight", SUB_CATEGORY_ORES_COBALT, 60,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
         overworldCobaltMiddleTop = getInt(builder,"overworldCobaltMiddleMaxHeight", SUB_CATEGORY_ORES_COBALT, 100, 0, 256,"Maximum height from the bottom for the middle layer of cobalt ores");
         overworldCobaltSmallVeinsPerChunk = getInt(builder,"overworldCobaltSmallVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 5, 0, 100,"The amount of small cobalt ore veins per chunk for the upper layer");
@@ -331,7 +331,7 @@ public class Config {
         overworldRubyBuriedTop = getInt(builder,"overworldRubyBuriedMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the buried layer of ruby ores");
 
 //        spawnTurquoise = getBoolean(builder,"spawnTurquoise", SUB_CATEGORY_ORES_TURQUOISE, true, "Should turquoise spawn in the overworld");
-        overworldTurquoiseSmallVeinsPerChunk = getInt(builder,"overworldTurquoiseSmallVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 15, 0, 100,"The amount of small turquoise ore veins per chunk");
+        overworldTurquoiseSmallVeinsPerChunk = getInt(builder,"overworldTurquoiseSmallVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 13, 0, 100,"The amount of small turquoise ore veins per chunk");
         overworldTurquoiseSmallBottom = getInt(builder,"overworldTurquoiseSmallMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64, -64, 256,"Minimum height from the bottom for the upper layer of turquoise ores");
         overworldTurquoiseSmallTop = getInt(builder,"overworldTurquoiseSmallMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the upper layer of turquoise ores");
         overworldTurquoiseLargeVeinsPerChunk = getInt(builder,"overworldTurquoiseLargeVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 17, 0, 100,"The amount of large turquoise ore veins per chunk");
@@ -358,7 +358,7 @@ public class Config {
         netherMoissaniteTop = getInt(builder,"netherMoissaniteMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 256, -64, 256, "Maximum height from the bottom for nether moissanite ore");
 
 //        spawnTanzanite = getBoolean(builder,"spawnTanzanite", SUB_CATEGORY_ORES_TANZANITE, true, "Should tanzanite spawn in the nether");
-        netherTanzaniteVeinsPerChunk = getInt(builder,"netherTanzaniteVeinsPerChunk", SUB_CATEGORY_ORES_TANZANITE, 11, 0, 100,"The amount of nether tanzanite ore veins per chunk");
+        netherTanzaniteVeinsPerChunk = getInt(builder,"netherTanzaniteVeinsPerChunk", SUB_CATEGORY_ORES_TANZANITE, 10, 0, 100,"The amount of nether tanzanite ore veins per chunk");
         netherTanzaniteBottom = getInt(builder,"netherTanzaniteMinHeight", SUB_CATEGORY_ORES_TANZANITE, -64, -64, 256, "Minimum height from the bottom for nether tanzanite ore");
         netherTanzaniteTop = getInt(builder,"netherTanzaniteMaxHeight", SUB_CATEGORY_ORES_TANZANITE, 256, -64, 256, "Maximum height from the bottom for nether tanzanite ore");
 
@@ -368,7 +368,7 @@ public class Config {
         netherSilverTop = getInt(builder,"netherSilverMaxHeight", SUB_CATEGORY_ORES_SILVER, 256, -64, 256, "Maximum height from the bottom for nether silver ore");
 
 //        spawnEndOnyx = getBoolean(builder,"spawnEndOnyx", SUB_CATEGORY_ORES_ONYX, true, "Should onyx spawn in the end");
-        endOnyxVeinsPerChunk = getInt(builder,"endOnyxVeinsPerChunk", SUB_CATEGORY_ORES_ONYX, 8, 0, 100,"The amount of end onyx ore veins per chunk");
+        endOnyxVeinsPerChunk = getInt(builder,"endOnyxVeinsPerChunk", SUB_CATEGORY_ORES_ONYX, 7, 0, 100,"The amount of end onyx ore veins per chunk");
         endOnyxBottom = getInt(builder,"endOnyxMinHeight", SUB_CATEGORY_ORES_ONYX, -64,-64, 256,  "Minimum height from the bottom for end onyx ore");
         endOnyxTop = getInt(builder,"endOnyxMaxHeight", SUB_CATEGORY_ORES_ONYX, 256, -64, 256, "Maximum height from the bottom for end onyx ore");
 
@@ -383,9 +383,9 @@ public class Config {
         netherRubyTop = getInt(builder,"netherRubyMaxHeight", SUB_CATEGORY_ORES_RUBY, 256, -64, 256, "Maximum height from the bottom for nether ruby ore");
 
 //        spawnAnthracite = getBoolean(builder,"spawnAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the overworld");
-        anthraciteUpperVeinsPerChunk = getInt(builder,"anthraciteUpperVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 5, 0, 100,"The amount of anthracite ore veins per chunk for the upper layer");
+        anthraciteUpperVeinsPerChunk = getInt(builder,"anthraciteUpperVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 9, 0, 100,"The amount of anthracite ore veins per chunk for the upper layer");
         overworldAnthraciteUpperBottom = getInt(builder,"anthraciteUpperMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64,-64, 256,  "Minimum height from the bottom for upper layer anthracite ore (Maximum height cannot be changed due to vertical anchor top!)");
-        anthraciteLowerVeinsPerChunk = getInt(builder,"anthraciteLowerVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 7, 0, 100,"The amount of anthracite ore veins per chunk for the bottom layer");
+        anthraciteLowerVeinsPerChunk = getInt(builder,"anthraciteLowerVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 6, 0, 100,"The amount of anthracite ore veins per chunk for the bottom layer");
         overworldAnthraciteLowerBottom = getInt(builder,"anthraciteLowerMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64, -64, 256, "Minimum height from the bottom for bottom layer anthracite ore");
         overworldAnthraciteLowerTop = getInt(builder,"anthraciteLowerMaxHeight", SUB_CATEGORY_ORES_ANTHRACITE, 192,-64, 256,  "Maximum height from the bottom for bottom layer anthracite ore");
 

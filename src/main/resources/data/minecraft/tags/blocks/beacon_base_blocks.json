@@ -5,7 +5,6 @@
     "minecraft:diamond_block",
     "minecraft:gold_block",
     "minecraft:iron_block",
-    "minecraft:copper_block",
     "mores:ruby_block",
     "mores:sapphire_block",
     "mores:tanzanite_block",
@@ -14,6 +13,11 @@
     "mores:bronze_block",
     "mores:cobalt_block",
     "mores:sterling_block",
-    "mores:steel_block"
+    "mores:steel_block",
+    "mores:tourmaline_block",
+    "mores:topaz_block",
+    "mores:onyx_block",
+    "mores:turquoise_block",
+    "mores:graphene_block"
   ]
 }

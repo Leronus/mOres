@@ -1,7 +1,3 @@
-- Nether ruby / sapphire height rarity nerf?
-- Overworld Turquoise / Moissanite rarity
-- Tune overworld anthracite?
-
 
 Future:
 - Add enabling/disabling of ores & duck by looking at SimpleOres config

@@ -154,13 +154,13 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES.get(), 4)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> ANTHRACITE_ORE_UPPER = CONFIGURED_FEATURES.register("anthracite_ore_upper",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ANTHRACITE_ORES.get(), 12)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ANTHRACITE_ORES.get(), 5)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> ANTHRACITE_ORE_BURIED = CONFIGURED_FEATURES.register("anthracite_ore_buried",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_ANTHRACITE_ORES.get(), 7, 0.3F)));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> NETHER_ANTHRACITE_ORE = CONFIGURED_FEATURES.register("nether_anthracite_ore",
-            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_ANTHRACITE_ORES.get(), 12)));
+            () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(NETHER_ANTHRACITE_ORES.get(), 11)));
 
     public static void register(IEventBus eventBus) {
         CONFIGURED_FEATURES.register(eventBus);

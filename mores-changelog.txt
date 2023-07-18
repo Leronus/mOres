@@ -1,14 +1,27 @@
 v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
+v4.3.5 (1.19.2)
+- Added recipe to create torches using anthracite
+- Added tourmaline, topaz, onyx, turquoise & graphene blocks as beacon base blocks, removed copper block as base block for the beacon
+- Nerfed anthracite veins in the upper part of the overworld
+- Nerfed tin and silver generation in the overworld, buffed cobalt generation in the overworld
+- Added vanilla advancement to wax off copper block with any mores axe
+
+
 v4.3.4 (1.19.2)
+- Fixed config not working (it's still not correctly ordered sadly this is proving very difficult)
 - Fixed night vision removal with mOres armor
 - Added veinsPerChunk for every ore to the config
+- Added mOres blocks & Minecraft Copper Block as base blocks for the beacon
 
 - Oregen changes:
 -- Nerfed small turquoise vps from 17 to 15 & large turquoise vps from 20 to 17
 -- Nerfed overworld anthracite upper vps from 21 to 5 & anthracite lower vps from 15 to 7
 -- Nerfed nether anthracite vps from 25 to 16
+-- Buffed cobalt upper vps
+-- Nerfed tin vps
+
 
 v4.3.3 (1.19.2)
 - Fixed alloy recipes broken by tags
