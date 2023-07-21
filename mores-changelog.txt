@@ -1,6 +1,11 @@
 v4.4.0 (1.19.3)
 - Updated to 1.19.3
 
+
+
+v4.3.6 (1.19.2)
+- Fixed mOres wax_on.json not overriding vanilla wax_on advancement
+
 v4.3.5 (1.19.2)
 - Added recipe to create torches using anthracite
 - Added tourmaline, topaz, onyx, turquoise & graphene blocks as beacon base blocks, removed copper block as base block for the beacon
