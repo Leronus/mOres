@@ -1,20 +1,33 @@
+buildscript {
+    repositories {
+        // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
+        maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
+    }
+}
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 plugins {
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '5.1.+'
-    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.spongepowered.mixin'
 
-version = '4.3.3'
+version = '4.5.0'
 group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'mores'
+archivesBaseName = 'mOres'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'parchment', version: '2022.11.27-1.19.2'
+    mappings channel: 'official', version: "${mc_version}"
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
     runs {
         client {
@@ -22,7 +35,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'mores'
-
+            args '-mixin.config=shieldsplus.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -98,20 +111,15 @@ repositories {
     }
 }
 
+mixin {
+    add sourceSets.main, "mores.refmap.json"
+}
+
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+//    runtimeOnly fg.deobf("curse.maven:xray-256256:3874945") //X-Ray
 
-    // compile against the JEI API but do not include it at runtime
-    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
-    compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
-    // at runtime, use the full JEI jar for Forge
-    runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
-
-    runtimeOnly fg.deobf("curse.maven:classic_bars-317642:4430475")
-    runtimeOnly fg.deobf("curse.maven:better_advancements-272515:4276529")
-//    runtimeOnly fg.deobf("curse.maven:immersive_engineering-231951:4415892")
-    runtimeOnly fg.deobf("curse.maven:jei-238222:4434397")
-    runtimeOnly fg.deobf("curse.maven:xray-256256:3905392") //X-Ray
+    annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }
 
 jar {
@@ -119,7 +127,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.3.3",
+                "Specification-Version": "v4.5.0",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",

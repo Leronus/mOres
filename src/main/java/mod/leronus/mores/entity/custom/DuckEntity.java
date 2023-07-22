@@ -1,7 +1,6 @@
 package mod.leronus.mores.entity.custom;
 
 import mod.leronus.mores.entity.ModEntityTypes;
-import mod.leronus.mores.sound.ModSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
@@ -102,15 +101,15 @@ public class DuckEntity extends Animal {
     }
 
     protected SoundEvent getAmbientSound() {
-        return ModSounds.LIVING_DUCK_SOUND.get();
+        return SoundEvents.CHICKEN_AMBIENT;
     }
 
     protected SoundEvent getHurtSound(DamageSource pDamageSource) {
-        return ModSounds.HURT_DUCK_SOUND.get();
+        return SoundEvents.CHICKEN_HURT;
     }
 
     protected SoundEvent getDeathSound() {
-        return ModSounds.DYING_DUCK_SOUND.get();
+        return SoundEvents.CHICKEN_DEATH;
     }
 
     /**

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mod.leronus.mores.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mores.refmap.json",
+  "mixins": [
+    "ItemMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ShieldItemMixin"
+  ],
+  "minVersion": "0.8"
+}

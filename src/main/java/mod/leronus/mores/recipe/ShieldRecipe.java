@@ -6,18 +6,19 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.inventory.CraftingContainer;
 import net.minecraft.world.item.BannerItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.CraftingBookCategory;
 import net.minecraft.world.item.crafting.CustomRecipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.SimpleRecipeSerializer;
+import net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer;
 import net.minecraft.world.level.Level;
 
 public class ShieldRecipe extends CustomRecipe {
 
-    public static final SimpleRecipeSerializer<ShieldRecipe> SERIALIZER = new SimpleRecipeSerializer<ShieldRecipe>(
+    public static final SimpleCraftingRecipeSerializer<ShieldRecipe> SERIALIZER = new SimpleCraftingRecipeSerializer<ShieldRecipe>(
             ShieldRecipe::new);
 
-    public ShieldRecipe(ResourceLocation idIn) {
-        super(idIn);
+    public ShieldRecipe(ResourceLocation idIn, CraftingBookCategory category) {
+        super(idIn, CraftingBookCategory.EQUIPMENT);
     }
 
     public boolean matches(CraftingContainer inv, Level worldIn) {

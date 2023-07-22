@@ -1,30 +1,12 @@
 package mod.leronus.mores.event;
 
 import mod.leronus.mores.Mores;
-import mod.leronus.mores.block.ModBlocks;
-import mod.leronus.mores.config.Config;
-import mod.leronus.mores.config.MoresConfig;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.custom.DuckEntity;
-import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.util.ModVillagerTrades;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.npc.VillagerProfession;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.event.LootTableLoadEvent;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
-import net.minecraftforge.event.entity.item.ItemTossEvent;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
-import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -79,29 +61,29 @@ public final class ModEvents
      * @param event LivingDeathEvent
      * @author Leronus7000
      */
-    @SubscribeEvent
-    public static void LivingDeathEvent(final LivingDeathEvent event)
-    {
-        if (MoresConfig.enableCustomDeathSounds) {
-            if (event.getEntity() instanceof ServerPlayer) {
-                if (event.getSource() == DamageSource.LAVA) {
-                    // Get the player entity
-                    Player player = (Player) event.getEntity();
-                    // Play the 'bruh' sound for the player at their position
-                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.BRUH.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
-                } else if (event.getSource() == DamageSource.FALL) {
-                    // Get the player entity
-                    Player player = (Player) event.getEntity();
-                    // Play the 'yeahhh' sound for the player at their position
-                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.YEAH.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
-                } else if (event.getSource().getDirectEntity() instanceof ServerPlayer){
-                    // Get the player entity
-                    Player player = (Player) event.getEntity();
-                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WATWAAROM.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
-                }
-            }
-        }
-    } // end LivingDeathEvent()
+//    @SubscribeEvent
+//    public static void LivingDeathEvent(final LivingDeathEvent event)
+//    {
+//        if (MoresConfig.enableCustomDeathSounds) {
+//            if (event.getEntity() instanceof ServerPlayer) {
+//                if (event.getSource() == DamageSource.LAVA) {
+//                    // Get the player entity
+//                    Player player = (Player) event.getEntity();
+//                    // Play the 'bruh' sound for the player at their position
+//                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.BRUH.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
+//                } else if (event.getSource() == DamageSource.FALL) {
+//                    // Get the player entity
+//                    Player player = (Player) event.getEntity();
+//                    // Play the 'yeahhh' sound for the player at their position
+//                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.YEAH.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
+//                } else if (event.getSource().getDirectEntity() instanceof ServerPlayer){
+//                    // Get the player entity
+//                    Player player = (Player) event.getEntity();
+//                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WATWAAROM.get(), SoundSource.AMBIENT, 0.7f, 1.0f);
+//                }
+//            }
+//        }
+//    } // end LivingDeathEvent()
 
     /**
      * Fires when the player hurts
@@ -109,21 +91,21 @@ public final class ModEvents
      * @param event LivingHurtEvent
      * @author Leronus7000
      */
-    @SubscribeEvent
-    public static void LivingHurtEvent(final LivingHurtEvent event)
-    {
-        if (MoresConfig.enableCustomPlayerHurtSound) {
-            if (event.getEntity() instanceof ServerPlayer) {
-                //Get the entity that deals the damage
-                if (event.getSource().getEntity() instanceof ServerPlayer) {
-                    // Get the player entity
-                    Player player = (Player) event.getEntity();
-                    // Play the 'oof' sound for the player at their position
-                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.OOF.get(), SoundSource.AMBIENT, 0.45f, 1.0f);
-                }
-            }
-        }
-    } // end LivingDeathEvent()
+//    @SubscribeEvent
+//    public static void LivingHurtEvent(final LivingHurtEvent event)
+//    {
+//        if (MoresConfig.enableCustomPlayerHurtSound) {
+//            if (event.getEntity() instanceof ServerPlayer) {
+//                //Get the entity that deals the damage
+//                if (event.getSource().getEntity() instanceof ServerPlayer) {
+//                    // Get the player entity
+//                    Player player = (Player) event.getEntity();
+//                    // Play the 'oof' sound for the player at their position
+//                    player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.OOF.get(), SoundSource.AMBIENT, 0.45f, 1.0f);
+//                }
+//            }
+//        }
+//    } // end LivingDeathEvent()
 
 
     /**
@@ -132,25 +114,25 @@ public final class ModEvents
      * @param event PlayerSleepInBedEvent
      * @author Leronus7000
      */
-    @SubscribeEvent
-    public static void PlayerSleepInBedEvent(final PlayerSleepInBedEvent event) {
-        if (MoresConfig.enableCustomPlayerSleepingSound) {
-            if (event.getEntity() instanceof ServerPlayer player) {
-                // Play the 'aauugh' sound for the player at their position
-                player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.AAUUGH.get(), SoundSource.AMBIENT, 0.2f, 1.0f);
-            }
-        }
-    } // end PlayerSleepInBedEvent()
+//    @SubscribeEvent
+//    public static void PlayerSleepInBedEvent(final PlayerSleepInBedEvent event) {
+//        if (MoresConfig.enableCustomPlayerSleepingSound) {
+//            if (event.getEntity() instanceof ServerPlayer player) {
+//                // Play the 'aauugh' sound for the player at their position
+//                player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.AAUUGH.get(), SoundSource.AMBIENT, 0.2f, 1.0f);
+//            }
+//        }
+//    } // end PlayerSleepInBedEvent()
 
-    @SubscribeEvent
-    public static void ItemTossEvent(final ItemTossEvent tossEvent){
-        if (tossEvent.getPlayer() instanceof ServerPlayer player) {
-            BlockState state = tossEvent.getPlayer().getBlockStateOn();
-            if (state.getBlock() == ModBlocks.TURQUOISE_BLOCK.get()) {
-                player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WORTEL9.get(), SoundSource.AMBIENT, 0.8f, 1.0f);
-            }
-        }
-    }
+//    @SubscribeEvent
+//    public static void ItemTossEvent(final ItemTossEvent tossEvent){
+//        if (tossEvent.getPlayer() instanceof ServerPlayer player) {
+//            BlockState state = tossEvent.getPlayer().getBlockStateOn();
+//            if (state.getBlock() == ModBlocks.TURQUOISE_BLOCK.get()) {
+//                player.level.playSound(null, player.getX(), player.getY(), player.getZ(), ModSounds.WORTEL9.get(), SoundSource.AMBIENT, 0.8f, 1.0f);
+//            }
+//        }
+//    }
 
     //LivingHurtEvent
 
