@@ -86,108 +86,108 @@ public class ModPlacedFeatures {
 
         //TODO Finish all the values (dont forget to change triangle to uniform for equal distribution && aboveBottom 0 -> y = -64 aka aboveBottom 64 would be y = 0
         register(context, COBALT_UPPER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_UPPER_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(6, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(124), VerticalAnchor.aboveBottom(312))));
         register(context, COBALT_MIDDLE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_MIDDLE_ORE_KEY),
                 commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(80))));
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(64), VerticalAnchor.aboveBottom(312))));
         register(context, COBALT_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COBALT_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(5, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
         register(context, SILVER_UPPER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_UPPER_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(11, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, SILVER_MIDDLE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_MIDDLE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(8, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, SILVER_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SILVER_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(4, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, NETHER_SILVER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_SILVER_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(16, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
 
         register(context, TOPAZ_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOPAZ_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(7, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, TOPAZ_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOPAZ_LARGE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(10, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, TOPAZ_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOPAZ_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(6, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
         register(context, TOURMALINE_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOURMALINE_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(9, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, TOURMALINE_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOURMALINE_LARGE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(8, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, TOURMALINE_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TOURMALINE_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(5, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
         register(context, RUBY_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(5, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, RUBY_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_LARGE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(6, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, RUBY_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(4, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, NETHER_RUBY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_RUBY_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(4, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
 
         register(context, SAPPHIRE_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SAPPHIRE_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(6, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, SAPPHIRE_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SAPPHIRE_LARGE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(7, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, SAPPHIRE_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SAPPHIRE_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(5, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, NETHER_SAPPHIRE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_SAPPHIRE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(4, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
 
         register(context, NETHER_TANZANITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_TANZANITE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(11, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
 
         register(context, MOISSANITE_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MOISSANITE_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(5, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, MOISSANITE_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MOISSANITE_LARGE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(3, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, MOISSANITE_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MOISSANITE_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(4, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
         register(context, NETHER_MOISSANITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_MOISSANITE_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(7, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
 
         register(context, TURQUOISE_SMALL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TURQUOISE_SMALL_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(14, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(12))));
         register(context, TURQUOISE_LARGE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TURQUOISE_LARGE_ORE_KEY),
                 commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(12))));
         register(context, TURQUOISE_BURIED_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TURQUOISE_BURIED_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(6, // VeinsPerChunk
+                        HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(16))));
 
         register(context, END_ONYX_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_ONYX_ORE_KEY),
-                commonOrePlacement(12, // VeinsPerChunk
-                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-64), VerticalAnchor.aboveBottom(80))));
+                commonOrePlacement(7, // VeinsPerChunk
+                        HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(0), VerticalAnchor.aboveBottom(312))));
     }
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
