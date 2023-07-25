@@ -28,7 +28,7 @@ public class ModRecipes
     public static final RegistryObject<RecipeSerializer<AlloyRecipe>> ALLOY_SERIALIZER =
             RECIPE_SERIALIZERS.register(IAlloyRecipe.TYPE_ID.getPath(), AlloyRecipe.AlloyRecipeSerializer::new);
 
-    public static final RegistryObject<SimpleCraftingRecipeSerializer<ShieldRecipe>> SHIELD_DECORATION_RECIPE = RECIPE_SERIALIZERS.register("shield_decoration_recipe", () -> new SimpleCraftingRecipeSerializer<>(ShieldRecipe::new));
+    public static final RegistryObject<SimpleCraftingRecipeSerializer<ShieldRecipe>> SHIELD_DECORATION_RECIPE = RECIPE_SERIALIZERS.register("shield_decoration", () -> new SimpleCraftingRecipeSerializer<>(ShieldRecipe::new));
 
 
     public static void register(IEventBus eventBus) {

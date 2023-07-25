@@ -3,7 +3,6 @@ package mod.leronus.mores.event;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.custom.DuckEntity;
-import mod.leronus.mores.util.ModVillagerTrades;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
@@ -28,23 +27,23 @@ public final class ModEvents
     /**
      * Intercept villager trades list and modify it.
      */
-    @SubscribeEvent
-    public static void onVillagerTrades(VillagerTradesEvent evt)
-    {
-        if (evt.getType() == VillagerProfession.ARMORER)
-        {
-            ModVillagerTrades.ArmorerTrades(evt);
-        } // end if ARMORER
-
-        else if (evt.getType() == VillagerProfession.TOOLSMITH)
-        {
-            ModVillagerTrades.ToolsmithTrades(evt);
-        } // end-if TOOLSMITH
-        else if (evt.getType() == VillagerProfession.WEAPONSMITH)
-        {
-            ModVillagerTrades.WeaponsmithTrades(evt);
-        } // end-if WEAPONSMITH
-    } // end onVillagerTrades()
+//    @SubscribeEvent
+//    public static void onVillagerTrades(VillagerTradesEvent evt)
+//    {
+//        if (evt.getType() == VillagerProfession.ARMORER)
+//        {
+//            ModVillagerTrades.ArmorerTrades(evt);
+//        } // end if ARMORER
+//
+//        else if (evt.getType() == VillagerProfession.TOOLSMITH)
+//        {
+//            ModVillagerTrades.ToolsmithTrades(evt);
+//        } // end-if TOOLSMITH
+//        else if (evt.getType() == VillagerProfession.WEAPONSMITH)
+//        {
+//            ModVillagerTrades.WeaponsmithTrades(evt);
+//        } // end-if WEAPONSMITH
+//    } // end onVillagerTrades()
 
     @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ModEventBusEvents {

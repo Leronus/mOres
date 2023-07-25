@@ -127,7 +127,7 @@ jar {
         attributes([
                 "Specification-Title": "mOres",
                 "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.5.0",
+                "Specification-Version": "v4.6.0",
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor" :"ItsInfinite",

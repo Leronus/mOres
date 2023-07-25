@@ -1,98 +1,86 @@
 package mod.leronus.mores.recipe;
 
 import mod.leronus.mores.item.custom.ModShieldItem;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.inventory.CraftingContainer;
 import net.minecraft.world.item.BannerItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.CraftingBookCategory;
 import net.minecraft.world.item.crafting.CustomRecipe;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import org.jetbrains.annotations.NotNull;
 
 public class ShieldRecipe extends CustomRecipe {
 
-    public static final SimpleCraftingRecipeSerializer<ShieldRecipe> SERIALIZER = new SimpleCraftingRecipeSerializer<ShieldRecipe>(
-            ShieldRecipe::new);
-
-    public ShieldRecipe(ResourceLocation idIn, CraftingBookCategory category) {
-        super(idIn, CraftingBookCategory.EQUIPMENT);
+    public ShieldRecipe(ResourceLocation id, CraftingBookCategory category) {
+        super(id, category);
     }
 
-    public boolean matches(CraftingContainer inv, Level worldIn) {
-        ItemStack itemstack = ItemStack.EMPTY;
-        ItemStack itemstack1 = ItemStack.EMPTY;
+    public boolean matches(CraftingContainer craftingContainer, @NotNull Level level) {
+        ItemStack shieldStack = ItemStack.EMPTY;
+        ItemStack bannerStack = ItemStack.EMPTY;
 
-        for (int i = 0; i < inv.getContainerSize(); ++i) {
-            ItemStack itemstack2 = inv.getItem(i);
-            if (!itemstack2.isEmpty()) {
-                if (itemstack2.getItem() instanceof BannerItem) {
-                    if (!itemstack1.isEmpty()) {
+        for(int i = 0; i < craftingContainer.getContainerSize(); ++i) {
+            ItemStack itemStack = craftingContainer.getItem(i);
+            if (!itemStack.isEmpty()) {
+                if (itemStack.getItem() instanceof BannerItem) {
+                    if (!bannerStack.isEmpty()) {
                         return false;
                     }
 
-                    itemstack1 = itemstack2;
-                } else {
-                    if (!(itemstack2.getItem() instanceof ModShieldItem)) {
+                    bannerStack = itemStack;
+                }
+                else {
+                    if (!(itemStack.getItem() instanceof ModShieldItem)
+                            || !shieldStack.isEmpty()
+                            || BlockItem.getBlockEntityData(itemStack) != null) {
                         return false;
                     }
 
-                    if (!itemstack.isEmpty()) {
-                        return false;
-                    }
-
-                    if (itemstack2.getTagElement("BlockEntityTag") != null) {
-                        return false;
-                    }
-
-                    itemstack = itemstack2;
+                    shieldStack = itemStack;
                 }
             }
         }
 
-        if (!itemstack.isEmpty() && !itemstack1.isEmpty()) {
-            return true;
-        } else {
-            return false;
-        }
+        return !shieldStack.isEmpty() && !bannerStack.isEmpty();
     }
 
-    public ItemStack assemble(CraftingContainer inv) {
-        ItemStack itemstack = ItemStack.EMPTY;
-        ItemStack itemstack1 = ItemStack.EMPTY;
+    @Override
+    public @NotNull ItemStack assemble(CraftingContainer craftingContainer) {
+        ItemStack bannerStack = ItemStack.EMPTY;
+        ItemStack shieldStack = ItemStack.EMPTY;
 
-        for (int i = 0; i < inv.getContainerSize(); ++i) {
-            ItemStack itemstack2 = inv.getItem(i);
-            if (!itemstack2.isEmpty()) {
-                if (itemstack2.getItem() instanceof BannerItem) {
-                    itemstack = itemstack2;
-                } else if (itemstack2.getItem() instanceof ModShieldItem) {
-                    itemstack1 = itemstack2.copy();
+        for(int i = 0; i < craftingContainer.getContainerSize(); ++i) {
+            ItemStack itemStack = craftingContainer.getItem(i);
+            if (!itemStack.isEmpty()) {
+                if (itemStack.getItem() instanceof BannerItem) {
+                    bannerStack = itemStack;
+                }
+                else if (itemStack.getItem() instanceof ModShieldItem) {
+                    shieldStack = itemStack.copy();
                 }
             }
         }
 
-        if (itemstack1.isEmpty()) {
-            return itemstack1;
-        } else {
-            CompoundTag compoundnbt = itemstack.getTagElement("BlockEntityTag");
-            CompoundTag compoundnbt1 = compoundnbt == null ? new CompoundTag() : compoundnbt.copy();
-            compoundnbt1.putInt("Base", ((BannerItem) itemstack.getItem()).getColor().getId());
-            itemstack1.addTagElement("BlockEntityTag", compoundnbt1);
-            return itemstack1;
+        if (!shieldStack.isEmpty()) {
+            CompoundTag bannerTag = BlockItem.getBlockEntityData(bannerStack);
+            CompoundTag shieldTag = bannerTag == null ? new CompoundTag() : bannerTag.copy();
+            shieldTag.putInt("Base", ((BannerItem) bannerStack.getItem()).getColor().getId());
+            BlockItem.setBlockEntityData(shieldStack, BlockEntityType.BANNER, shieldTag);
         }
+        return shieldStack;
     }
 
-    /**
-     * Used to determine if this recipe can fit in a grid of the given width/height
-     */
     public boolean canCraftInDimensions(int width, int height) {
         return width * height >= 2;
     }
 
-    public RecipeSerializer<?> getSerializer() {
-        return SERIALIZER;
+    public @NotNull RecipeSerializer<?> getSerializer() {
+        return ModRecipes.SHIELD_DECORATION_RECIPE.get();
     }
 }
