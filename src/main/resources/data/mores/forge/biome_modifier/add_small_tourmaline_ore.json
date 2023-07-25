@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:tourmaline_ore_small_placed",
+  "features": "mores:tourmaline_small_placed",
   "step": "underground_ores"
 }

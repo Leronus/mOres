@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:cobalt_ore_small_placed",
+  "features": "mores:cobalt_small_placed",
   "step": "underground_ores"
 }

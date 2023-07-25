@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:anthracite_ore_lower_placed",
+  "features": "mores:overworld_anthracite_placed",
   "step": "underground_ores"
 }

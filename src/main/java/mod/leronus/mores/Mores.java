@@ -11,6 +11,7 @@ import mod.leronus.mores.item.client.ModelHandler;
 import mod.leronus.mores.loot.ModLootModifiers;
 import mod.leronus.mores.painting.ModPaintings;
 import mod.leronus.mores.recipe.ModRecipes;
+import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;

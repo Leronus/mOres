@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:moissanite_ore_large_placed",
+  "features": "mores:moissanite_large_placed",
   "step": "underground_ores"
 }

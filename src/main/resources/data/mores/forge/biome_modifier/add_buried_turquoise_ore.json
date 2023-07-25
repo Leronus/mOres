@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:turquoise_ore_buried_placed",
+  "features": "mores:turquoise_buried_placed",
   "step": "underground_ores"
 }

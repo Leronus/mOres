@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "mores:topaz_ore_buried_placed",
+  "features": "mores:topaz_buried_placed",
   "step": "underground_ores"
 }

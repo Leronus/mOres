@@ -29,9 +29,6 @@ public class BaseFeature extends Feature {
     @Config(min = 0d, max = Float.MAX_VALUE)
     @Label(name = "Min Shield Hurt Damage", description = "The minimum damage dealt to the player for the shield to take damage (reduce durability). Vanilla is 3.")
     public static Double minShieldHurtDamage = 0d;
-    @Config
-    @Label(name = "Combat Test shield disabling", description = "Makes shields always disable for 1.6 seconds like Combat Test snapshots.")
-    public static Boolean combatTestShieldDisabling = true;
 
     public BaseFeature(Module module, boolean enabledByDefault, boolean canBeDisabled) {
         super(module, enabledByDefault, canBeDisabled);
@@ -91,9 +88,5 @@ public class BaseFeature extends Feature {
 
     public static boolean shouldRemoveShieldWindup() {
         return isEnabled(BaseFeature.class) && removeShieldWindup;
-    }
-
-    public static boolean combatTestShieldDisabling() {
-        return isEnabled(BaseFeature.class) && combatTestShieldDisabling;
     }
 }
