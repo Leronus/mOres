@@ -27,12 +27,15 @@ import net.minecraft.world.level.block.entity.BannerPattern;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.Logging;
+import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-@EventBusSubscriber(value = Dist.CLIENT, modid = Mores.MODID, bus = EventBusSubscriber.Bus.MOD)
+import static mod.leronus.mores.Mores.LOGGER;
+
+@Mod.EventBusSubscriber(value = Dist.CLIENT, modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ShieldBlockEntityRenderer extends BlockEntityWithoutLevelRenderer {
 
     public static ShieldBlockEntityRenderer instance;
@@ -54,7 +57,7 @@ public class ShieldBlockEntityRenderer extends BlockEntityWithoutLevelRenderer {
         poseStack.scale(1.0F, -1.0F, -1.0F);
         Material material = hasBanner ? ModelBakery.SHIELD_BASE : ModelBakery.NO_PATTERN_SHIELD;
         if (itemStack.getItem() instanceof ModShieldItem shieldItem) {
-            material = hasBanner ? new Material(Sheets.SHIELD_SHEET, new ResourceLocation(Mores.MODID, "entity/%s_shield_base".formatted(shieldItem.material.materialName))) : new Material(Sheets.SHIELD_SHEET, new ResourceLocation(Mores.MODID, "entity/%s_shield_base_nopattern".formatted(shieldItem.material.materialName)));
+            material = hasBanner ? new Material(Sheets.SHIELD_SHEET, new ResourceLocation(Mores.MODID, "entity/shield/%s_shield".formatted(shieldItem.material.materialName))) : new Material(Sheets.SHIELD_SHEET, new ResourceLocation(Mores.MODID, "entity/shield/%s_shield_nopattern".formatted(shieldItem.material.materialName)));
         }
         VertexConsumer vertexconsumer = material.sprite().wrap(ItemRenderer.getFoilBufferDirect(multiBufferSource, this.shieldModel.renderType(material.atlasLocation()), true, itemStack.hasFoil()));
         this.shieldModel.handle().render(poseStack, vertexconsumer, p_108834_, p_108835_, 1.0F, 1.0F, 1.0F, 1.0F);
