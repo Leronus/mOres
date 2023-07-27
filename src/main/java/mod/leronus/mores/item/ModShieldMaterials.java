@@ -22,8 +22,8 @@ public class ModShieldMaterials {
     public static final ModShieldMaterial SAPPHIRE = new ModShieldMaterial("sapphire", 7, 711, ModTags.Items.SAPPHIRE_GEMS, 18, Rarity.COMMON);
     public static final ModShieldMaterial RUBY = new ModShieldMaterial("ruby", 7, 809, ModTags.Items.RUBY_GEMS, 15, Rarity.COMMON);
     public static final ModShieldMaterial OBSIDIAN = new ModShieldMaterial("obsidian", 7, 821, ModTags.Items.OBSIDIAN_INGOTS, 21, Rarity.COMMON);
-    public static final ModShieldMaterial TURQUOISE = new ModShieldMaterial("turquoise", 7, 1000, ModTags.Items.TURQUOISE_GEMS, 25, Rarity.UNCOMMON);
-    public static final ModShieldMaterial MOISSANITE = new ModShieldMaterial("moissanite", 7, 913, ModTags.Items.MOISSANITE_GEMS, 10, Rarity.UNCOMMON);
-    public static final ModShieldMaterial ONYX = new ModShieldMaterial("onyx", 8, 1111, ModTags.Items.ONYX_GEMS, 13, Rarity.UNCOMMON);
-    public static final ModShieldMaterial GRAPHENE = new ModShieldMaterial("graphene", 9, 1333, ModTags.Items.GRAPHENE_GEMS, 19, Rarity.RARE);
+    public static final ModShieldMaterial TURQUOISE = new ModShieldMaterial("turquoise", 7, 1000, ModTags.Items.TURQUOISE_GEMS, 25, Rarity.COMMON);
+    public static final ModShieldMaterial MOISSANITE = new ModShieldMaterial("moissanite", 7, 913, ModTags.Items.MOISSANITE_GEMS, 10, Rarity.COMMON);
+    public static final ModShieldMaterial ONYX = new ModShieldMaterial("onyx", 8, 1111, ModTags.Items.ONYX_GEMS, 13, Rarity.COMMON);
+    public static final ModShieldMaterial GRAPHENE = new ModShieldMaterial("graphene", 9, 1333, ModTags.Items.GRAPHENE_GEMS, 19, Rarity.UNCOMMON);
 }

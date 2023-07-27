@@ -20,15 +20,6 @@ public class ModelHandler {
         initShields();
     }
 
-/*    @SubscribeEvent
-    public static void onStitch(TextureStitchEvent.Pre event) {
-        for (RegistryObject<SPShieldItem> shieldItem : SPItems.SHIELDS) {
-            shieldItem.get().initClientMaterial();
-            event.addSprite(shieldItem.get().clientMaterial.texture());
-            event.addSprite(shieldItem.get().clientMaterialNoPattern.texture());
-        }
-    }*/
-
     private static void initShields() {
         //noinspection deprecation
         ItemPropertyFunction blockFn = (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getUseItem() == stack ? 1.0F : 0.0F;
