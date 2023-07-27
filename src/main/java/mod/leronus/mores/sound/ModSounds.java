@@ -20,13 +20,6 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> DYING_DUCK_SOUND = registerSoundEvent( "dying_duck_sound");
     public static final RegistryObject<SoundEvent> HURT_DUCK_SOUND = registerSoundEvent( "hurt_duck_sound");
 
-    public static final RegistryObject<SoundEvent> BRUH = registerSoundEvent( "bruh");
-    public static final RegistryObject<SoundEvent> YEAH = registerSoundEvent("yeah");
-    public static final RegistryObject<SoundEvent> AAUUGH = registerSoundEvent( "aauugh");
-    public static final RegistryObject<SoundEvent> OOF = registerSoundEvent( "oof");
-    public static final RegistryObject<SoundEvent> WORTEL9 = registerSoundEvent( "wortel9");
-    public static final RegistryObject<SoundEvent> WATWAAROM = registerSoundEvent( "watwaarom");
-
     public static final RegistryObject<SoundEvent> SWEET_CAROLINE_BOOTLEG = registerSoundEvent("sweet_caroline_bootleg");
     public static final RegistryObject<SoundEvent> CIPHER = registerSoundEvent( "cipher");
 

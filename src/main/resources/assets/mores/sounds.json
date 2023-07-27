@@ -1,140 +1,72 @@
 {
   "living_duck_sound": {
-    "category": "entity",
     "subtitle" : "sound.mores.living_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:entity/living_duck_sound",
+        "name" : "mores:living_duck_sound",
         "stream" : true
       }
     ]
   },
   "dying_duck_sound": {
-    "category": "entity",
     "subtitle" : "sound.mores.dying_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:entity/dying_duck_sound",
+        "name" : "mores:dying_duck_sound",
         "stream" : true
       }
     ]
   },
   "hurt_duck_sound": {
-    "category": "entity",
     "subtitle" : "sound.mores.hurt_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:entity/hurt_duck_sound",
+        "name" : "mores:hurt_duck_sound",
         "stream" : true
       }
     ]
   },
   "that_duck": {
-    "category": "ambient",
     "subtitle" : "sound.mores.that_duck",
     "sounds" : [
       {
-        "name" : "mores:ambient/that_duck",
+        "name" : "mores:that_duck",
         "stream" : true
       }
     ]
   },
   "im_blue": {
-    "category": "players",
     "subtitle" : "sound.mores.im_blue",
     "sounds" : [
       {
-        "name" : "mores:music/im_blue",
+        "name" : "mores:im_blue",
         "stream" : true
       }
     ]
   },
   "my_horse": {
-    "category": "players",
     "subtitle" : "sound.mores.my_horse",
     "sounds" : [
       {
-        "name" : "mores:music/my_horse",
-        "stream" : true
-      }
-    ]
-  },
-  "bruh": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.bruh",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/bruh",
-        "stream" : true
-      }
-    ]
-  },
-  "oof": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.oof",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/oof",
-        "stream" : true
-      }
-    ]
-  },
-  "aauugh": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.aauugh",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/aauugh",
-        "stream" : true
-      }
-    ]
-  },
-  "yeah": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.yeah",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/yeah",
+        "name" : "mores:my_horse",
         "stream" : true
       }
     ]
   },
   "sweet_caroline_bootleg": {
-    "category": "music",
     "subtitle" : "sound.mores.sweet_caroline_bootleg",
     "sounds" : [
       {
-        "name" : "mores:music/sweet_caroline_bootleg",
-        "stream" : true
-      }
-    ]
-  },
-  "wortel9": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.wortel9",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/wortel9",
-        "stream" : true
-      }
-    ]
-  },
-  "watwaarom": {
-    "category": "ambient",
-    "subtitle" : "sound.mores.watwaarom",
-    "sounds" : [
-      {
-        "name" : "mores:ambient/watwaarom",
+        "name" : "mores:sweet_caroline_bootleg",
         "stream" : true
       }
     ]
   },
   "cipher": {
-    "category": "music",
     "subtitle" : "sound.mores.cipher",
     "sounds" : [
       {
-        "name" : "mores:music/cipher",
+        "name" : "mores:cipher",
         "stream" : true
       }
     ]

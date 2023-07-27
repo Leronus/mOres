@@ -1,4 +1,6 @@
-v4.6.0 (1.19.3)
+
+
+Alpha v4.6.0 (1.19.3)
 - Updated to 1.19.3
 -- The way sounds were registered was updated
 -- OreGeneration has been tweaked

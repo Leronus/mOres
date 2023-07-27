@@ -11,6 +11,7 @@ import mod.leronus.mores.item.client.ModelHandler;
 import mod.leronus.mores.loot.ModLootModifiers;
 import mod.leronus.mores.painting.ModPaintings;
 import mod.leronus.mores.recipe.ModRecipes;
+import mod.leronus.mores.sound.ModSounds;
 import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -40,7 +41,7 @@ public class Mores {
         ModRecipes.register(modEventBus);
         ModBlockEntities.register(modEventBus);
         ModContainers.register(modEventBus);
-//        ModSounds.register(modEventBus);
+        ModSounds.register(modEventBus);
         ModEntityTypes.register(modEventBus);
         ModPaintings.register(modEventBus);
 
