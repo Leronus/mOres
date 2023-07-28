@@ -70,7 +70,9 @@ public class ModShieldItem extends ShieldItem {
 //        float finalBlockedDamage = (float) (blockedDamage + ShieldReinforcedEnchantment.getDamageBlocked(reinforced));
 //        int reflection = itemStack.getEnchantmentLevel(ModEnchantments.REFLECTION.get());
 //        float reflectedDamage = ShieldReflectionEnchantment.getReflectedDamage(reflection);
-        components.add(Component.translatable("%s damage blocked", new DecimalFormat("#.#").format(blockedDamage)).withStyle(ChatFormatting.BLUE));
+
+        //TODO Add tooltip for damage blocked
+//        components.add(Component.translatable("%s damage blocked", new DecimalFormat("#.#").format(blockedDamage)).withStyle(ChatFormatting.BLUE));
         /*if (reinforced > 0) {
             components.add(Component.translatable(Strings.Translatable.REINFORCED_BONUS, new DecimalFormat("#.#").format(ShieldReinforcedEnchantment.getDamageBlocked(reinforced))).withStyle(ChatFormatting.DARK_GRAY));
         }*/
