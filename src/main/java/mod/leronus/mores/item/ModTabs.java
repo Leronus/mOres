@@ -1,105 +1,77 @@
-//package mod.leronus.mores.item;
-//
-//import mod.leronus.mores.block.ModBlocks;
-//import net.minecraft.world.item.CreativeModeTab;
-//import net.minecraft.world.item.ItemStack;
-//import net.minecraftforge.api.distmarker.Dist;
-//import net.minecraftforge.api.distmarker.OnlyIn;
-//
-///**
-// * Class that adds custom itemgroup tabs for the items and blocks added by mOres
-// * @author Leronus
-// */
-//public class ModTabs extends CreativeModeTab {
-//    /**
-//     * Declaring all the itemgroups
-//     */
-//    public static final CreativeModeTab MORES_MATERIALS = (new ModTabs(12, "mores_materials") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.RUBY_GEM.get());
-//        }
-//    }).setRecipeFolderName("mores_tools");
-//
-//    public static final CreativeModeTab MORES_BLOCKS = (new ModTabs(13, "mores_blocks") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModBlocks.GRAPHENE_BLOCK.get());
-//        }
-//    }).setRecipeFolderName("mores_blocks");
-//
-//    public static final CreativeModeTab MORES_ORES = (new ModTabs(14, "mores_ores") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModBlocks.DEEPSLATE_TOURMALINE_ORE.get());
-//        }
-//    }).setRecipeFolderName("mores_ores");
-//
-//    public static final CreativeModeTab MORES_TOOLS = (new ModTabs(15, "mores_tools") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.COBALT_PICKAXE.get());
-//        }
-//    }).setRecipeFolderName("mores_tools");
-//
-//    public static final CreativeModeTab MORES_WEAPONS = (new ModTabs(16, "mores_weapons") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.SAPPHIRE_BATTLEAXE.get());
-//        }
-//    }).setRecipeFolderName("mores_weapons");
-//
-//    public static final CreativeModeTab MORES_SHIELDS = (new ModTabs(17, "mores_shields") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.COPPER_SHIELD.get());
-//        }
-//    }).setRecipeFolderName("mores_shields");
-//
-//    public static final CreativeModeTab MORES_ARMOR = (new ModTabs(18, "mores_armor") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.MOISSANITE_CHESTPLATE.get());
-//        }
-//    }).setRecipeFolderName("mores_armor");
-//
-//    public static final CreativeModeTab MORES_HORSE_ARMOR = (new ModTabs(19, "mores_horse_armor") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.AMETHYST_HORSE_ARMOR.get());
-//        }
-//    }).setRecipeFolderName("mores_horse_armor");
-//
-//    public static final CreativeModeTab MORES_FOODS = (new ModTabs(20, "mores_foods") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.SILVER_APPLE.get());
-//        }
-//    }).setRecipeFolderName("mores_foods");
-//
-//    public static final CreativeModeTab MORES_ENTITIES = (new ModTabs(21, "mores_entities") {
-//        @OnlyIn(Dist.CLIENT)
-//        public ItemStack makeIcon() {
-//            return new ItemStack(ModItems.DUCK_SPAWN_EGG.get());
-//        }
-//    }).setRecipeFolderName("mores_entities");
-//
-//    /**
-//     * Constructor that adds the itemgroups
-//     * @param index Position of itemgroup in creative menu
-//     * @param label Name of itemgroup
-//     */
-//    public ModTabs(int index, String label) {
-//        super(index, label);
-//    }
-//
-//    /**
-//     * Default icon
-//     * @return Item for icon
-//     */
-//    @Override
-//    public ItemStack makeIcon() {
-//        return new ItemStack(ModItems.TOPAZ_BATTLEAXE.get());
-//    }
-//}
-//
+package mod.leronus.mores.item;
+
+import mod.leronus.mores.Mores;
+import mod.leronus.mores.block.ModBlocks;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+/**
+ * Class that adds custom item group tabs for the items and blocks added by mOres
+ * @author Leronus
+ */
+@Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ModTabs {
+    /**
+     * Declaring all the itemgroups
+     */
+    public static CreativeModeTab MORES_MATERIALS;
+    public static CreativeModeTab MORES_BLOCKS;
+    public static CreativeModeTab MORES_ORES;
+    public static CreativeModeTab MORES_TOOLS;
+    public static CreativeModeTab MORES_WEAPONS;
+    public static CreativeModeTab MORES_SHIELDS;
+    public static CreativeModeTab MORES_ARMOR;
+    public static CreativeModeTab MORES_HORSE_ARMOR;
+    public static CreativeModeTab MORES_FOODS;
+    public static CreativeModeTab MORES_ENTITIES;
+
+    @SubscribeEvent
+    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
+        MORES_MATERIALS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_materials"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.RUBY_GEM.get()))
+                        .title(Component.translatable("creativemodetab.mores_materials")));
+
+        MORES_BLOCKS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_blocks"),
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.GRAPHENE_BLOCK.get()))
+                        .title(Component.translatable("creativemodetab.mores_blocks")));
+
+        MORES_ORES = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_ores"),
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.DEEPSLATE_TURQUOISE_ORE.get()))
+                        .title(Component.translatable("creativemodetab.mores_ores")));
+
+        MORES_TOOLS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_tools"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.COBALT_PICKAXE.get()))
+                        .title(Component.translatable("creativemodetab.mores_tools")));
+
+        MORES_WEAPONS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_weapons"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.SAPPHIRE_BATTLEAXE.get()))
+                        .title(Component.translatable("creativemodetab.mores_weapons")));
+
+        MORES_SHIELDS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_shields"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.AMETHYST_SHIELD.get()))
+                        .title(Component.translatable("creativemodetab.mores_shields")));
+
+        MORES_ARMOR = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_armor"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.OBSIDIAN_CHESTPLATE.get()))
+                        .title(Component.translatable("creativemodetab.mores_armor")));
+
+        MORES_HORSE_ARMOR = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_horse_armor"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.TOURMALINE_HORSE_ARMOR.get()))
+                        .title(Component.translatable("creativemodetab.mores_horse_armor")));
+
+        MORES_FOODS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_foods"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.SILVER_APPLE.get()))
+                        .title(Component.translatable("creativemodetab.mores_foods")));
+
+        MORES_ENTITIES = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_entities"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.DUCK_SPAWN_EGG.get()))
+                        .title(Component.translatable("creativemodetab.mores_entities")));
+    }
+
+}
+

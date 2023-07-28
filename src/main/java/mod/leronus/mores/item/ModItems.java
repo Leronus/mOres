@@ -466,7 +466,7 @@ public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("coppe
     public static final RegistryObject<Item> TURQUOISE_HOE = ITEMS.register("turquoise_hoe", () -> new HoeItem(ModTiers.TURQUOISE, 0, -3.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> MOISSANITE_HOE = ITEMS.register("moissanite_hoe", () -> new HoeItem(ModTiers.MOISSANITE, 0, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> ONItemYX_HOE = ITEMS.register("onyx_hoe", () -> new HoeItem(ModTiers.ONYX, 0, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> ONYX_HOE = ITEMS.register("onyx_hoe", () -> new HoeItem(ModTiers.ONYX, 0, -3.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> GRAPHENE_HOE = ITEMS.register("graphene_hoe", () -> new HoeItem(ModTiers.GRAPHENE, 0, -3.0F, new Item.Properties()));
 
