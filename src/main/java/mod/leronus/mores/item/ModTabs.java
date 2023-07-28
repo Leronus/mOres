@@ -37,7 +37,7 @@ public class ModTabs {
                         .title(Component.translatable("creativemodetab.mores_materials")));
 
         MORES_BLOCKS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_blocks"),
-                builder -> builder.icon(() -> new ItemStack(ModBlocks.GRAPHENE_BLOCK.get()))
+                builder -> builder.icon(() -> new ItemStack(ModBlocks.TURQUOISE_BLOCK.get()))
                         .title(Component.translatable("creativemodetab.mores_blocks")));
 
         MORES_ORES = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_ores"),
@@ -53,11 +53,11 @@ public class ModTabs {
                         .title(Component.translatable("creativemodetab.mores_weapons")));
 
         MORES_SHIELDS = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_shields"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.AMETHYST_SHIELD.get()))
+                builder -> builder.icon(() -> new ItemStack(ModItems.BRONZE_SHIELD.get()))
                         .title(Component.translatable("creativemodetab.mores_shields")));
 
         MORES_ARMOR = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_armor"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.OBSIDIAN_CHESTPLATE.get()))
+                builder -> builder.icon(() -> new ItemStack(ModItems.GRAPHENE_HELMET.get()))
                         .title(Component.translatable("creativemodetab.mores_armor")));
 
         MORES_HORSE_ARMOR = event.registerCreativeModeTab(new ResourceLocation(Mores.MODID, "mores_horse_armor"),
