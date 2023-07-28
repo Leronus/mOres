@@ -16,8 +16,10 @@ public class ModArmorItem extends ArmorItem {
         super(armorMaterial, equipmentSlotType, properties);
     }
 
+
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {
+        super.onArmorTick(stack, world, player);
         Item HELMET = player.getItemBySlot(EquipmentSlot.HEAD).getItem();
         Item CHESTPLATE = player.getItemBySlot(EquipmentSlot.CHEST).getItem();
         Item LEGGINGS = player.getItemBySlot(EquipmentSlot.LEGS).getItem();
@@ -36,8 +38,6 @@ public class ModArmorItem extends ArmorItem {
                 && LEGGINGS == (ModItems.SAPPHIRE_LEGGINGS.get())
                 && BOOTS == (ModItems.SAPPHIRE_BOOTS.get())) {
             player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 250, 0, false, false));
-        } else {
-            player.removeEffect(MobEffects.NIGHT_VISION);
 
         //Ruby: Fire Resistance
         } if (HELMET == (ModItems.RUBY_HELMET.get())
