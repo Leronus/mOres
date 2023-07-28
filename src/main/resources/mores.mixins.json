@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "mod.leronus.mores.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "refmap": "mores.refmap.json",
   "mixins": [
     "ItemMixin",

@@ -1,10 +1,6 @@
 
 
-Alpha v4.6.0 (1.19.3)
-- Updated to 1.19.3
--- The way sounds were registered was updated
--- OreGeneration has been tweaked
--- Shields have been fully reworked (now supports blocking partial damage) && durability was tweaked
--- The creative mode tabs were changed
--- Config has been changed (ore generation sadly removed, but more shield options)
+Alpha v4.8.0 (1.19.4)
+- Updated to 1.19.4
+--
 

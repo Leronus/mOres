@@ -424,7 +424,7 @@ public abstract class AbstractAlloyFurnaceBlockEntity extends BlockEntity
     private Optional<ItemStack> getResult(final ItemStack input1, final ItemStack input2, final ItemStack catalyst)
     {
         RecipeWrapper inv0 = new RecipeWrapper(new InvWrapper(new SimpleContainer(input1, input2, catalyst)));
-        Optional<ItemStack> maybe_result = getRecipe(input1, input2, catalyst).map(recipe -> recipe.assemble(inv0));
+        Optional<ItemStack> maybe_result = getRecipe(input1, input2, catalyst).map(recipe -> recipe.assemble(inv0, level.registryAccess()));
 
         return Optional.of(maybe_result.orElse(ItemStack.EMPTY));
     }

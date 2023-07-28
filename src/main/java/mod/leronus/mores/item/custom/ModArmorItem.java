@@ -12,7 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class ModArmorItem extends ArmorItem {
-    public ModArmorItem(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlotType, Properties properties) {
+    public ModArmorItem(ArmorMaterial armorMaterial, Type equipmentSlotType, Properties properties) {
         super(armorMaterial, equipmentSlotType, properties);
     }
 

@@ -51,7 +51,7 @@ public class ShieldRecipe extends CustomRecipe {
     }
 
     @Override
-    public @NotNull ItemStack assemble(CraftingContainer craftingContainer) {
+    public @NotNull ItemStack assemble(CraftingContainer craftingContainer, RegistryAccess registryAccess) {
         ItemStack bannerStack = ItemStack.EMPTY;
         ItemStack shieldStack = ItemStack.EMPTY;
 

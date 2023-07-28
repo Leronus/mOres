@@ -6,6 +6,7 @@ import com.google.gson.JsonObject;
 import mod.leronus.mores.api.client.ClientOnlyWrapper;
 import mod.leronus.mores.recipe.ModRecipes;
 import net.minecraft.core.NonNullList;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
@@ -143,13 +144,16 @@ public class AlloyRecipe implements IAlloyRecipe
         }
     } // end matches()
 
+
+
+
     /**
      * Returns an Item that is the result of this recipe
      */
     @Override
-    public ItemStack assemble(RecipeWrapper inv)
+    public ItemStack assemble(RecipeWrapper inv, RegistryAccess registryAccess)
     {
-        return getResultItem().copy();
+        return getResultItem(registryAccess).copy();
     }
 
     /**
@@ -157,7 +161,7 @@ public class AlloyRecipe implements IAlloyRecipe
      * possible result (e.g. it's dynamic and depends on its inputs), then return an empty stack.
      */
     @Override
-    public ItemStack getResultItem()
+    public ItemStack getResultItem(RegistryAccess registryAccess)
     {
         return this.output;
     }
@@ -248,7 +252,7 @@ public class AlloyRecipe implements IAlloyRecipe
             for (Ingredient input : recipe.getIngredients()) {
                 input.toNetwork(buf);
             }
-            buf.writeItemStack(recipe.getResultItem(), true);
+            buf.writeItemStack(recipe.getResultItem(RegistryAccess.EMPTY), true);
             recipe.getCatalyst().toNetwork(buf);
             buf.writeVarInt(recipe.getCookTime());
             buf.writeFloat(recipe.getExperience());
