@@ -153,6 +153,7 @@ public class Mores {
             event.accept(ModItems.TURQUOISE_GEM);
             event.accept(ModItems.ONYX_GEM);
             event.accept(ModItems.GRAPHENE_GEM);
+            event.accept(ModItems.CHAIN);
         }
 
         if(event.getTab() == ModTabs.MORES_BLOCKS) {
@@ -209,6 +210,10 @@ public class Mores {
             event.accept(ModItems.TIN_AXE);
             event.accept(ModItems.TIN_SHOVEL);
             event.accept(ModItems.TIN_HOE);
+            event.accept(ModItems.COPPER_PICKAXE);
+            event.accept(ModItems.COPPER_AXE);
+            event.accept(ModItems.COPPER_SHOVEL);
+            event.accept(ModItems.COPPER_HOE);
             event.accept(ModItems.BRONZE_PICKAXE);
             event.accept(ModItems.BRONZE_AXE);
             event.accept(ModItems.BRONZE_SHOVEL);
@@ -280,10 +285,20 @@ public class Mores {
         }
 
         if (event.getTab() == ModTabs.MORES_WEAPONS){
+            event.accept(ModItems.WOOD_BATTLEAXE);
+            event.accept(ModItems.WOOD_MACE);
+            event.accept(ModItems.WOOD_DAGGER);
+            event.accept(ModItems.STONE_BATTLEAXE);
+            event.accept(ModItems.STONE_MACE);
+            event.accept(ModItems.STONE_DAGGER);
             event.accept(ModItems.TIN_SWORD);
             event.accept(ModItems.TIN_BATTLEAXE);
             event.accept(ModItems.TIN_MACE);
             event.accept(ModItems.TIN_DAGGER);
+            event.accept(ModItems.COPPER_SWORD);
+            event.accept(ModItems.COPPER_BATTLEAXE);
+            event.accept(ModItems.COPPER_MACE);
+            event.accept(ModItems.COPPER_DAGGER);
             event.accept(ModItems.BRONZE_SWORD);
             event.accept(ModItems.BRONZE_BATTLEAXE);
             event.accept(ModItems.BRONZE_MACE);
@@ -292,6 +307,12 @@ public class Mores {
             event.accept(ModItems.SILVER_BATTLEAXE);
             event.accept(ModItems.SILVER_MACE);
             event.accept(ModItems.SILVER_DAGGER);
+            event.accept(ModItems.GOLD_BATTLEAXE);
+            event.accept(ModItems.GOLD_MACE);
+            event.accept(ModItems.GOLD_DAGGER);
+            event.accept(ModItems.IRON_BATTLEAXE);
+            event.accept(ModItems.IRON_MACE);
+            event.accept(ModItems.IRON_DAGGER);
             event.accept(ModItems.COBALT_SWORD);
             event.accept(ModItems.COBALT_BATTLEAXE);
             event.accept(ModItems.COBALT_MACE);
@@ -320,6 +341,9 @@ public class Mores {
             event.accept(ModItems.TOURMALINE_BATTLEAXE);
             event.accept(ModItems.TOURMALINE_MACE);
             event.accept(ModItems.TOURMALINE_DAGGER);
+            event.accept(ModItems.DIAMOND_BATTLEAXE);
+            event.accept(ModItems.DIAMOND_MACE);
+            event.accept(ModItems.DIAMOND_DAGGER);
             event.accept(ModItems.RUBY_SWORD);
             event.accept(ModItems.RUBY_BATTLEAXE);
             event.accept(ModItems.RUBY_MACE);
@@ -344,6 +368,9 @@ public class Mores {
             event.accept(ModItems.OBSIDIAN_BATTLEAXE);
             event.accept(ModItems.OBSIDIAN_MACE);
             event.accept(ModItems.OBSIDIAN_DAGGER);
+            event.accept(ModItems.NETHERITE_BATTLEAXE);
+            event.accept(ModItems.NETHERITE_MACE);
+            event.accept(ModItems.NETHERITE_DAGGER);
             event.accept(ModItems.ONYX_SWORD);
             event.accept(ModItems.ONYX_BATTLEAXE);
             event.accept(ModItems.ONYX_MACE);
@@ -356,6 +383,7 @@ public class Mores {
 
         if (event.getTab() == ModTabs.MORES_SHIELDS){
             event.accept(ModItems.TIN_SHIELD);
+            event.accept(ModItems.COPPER_SHIELD);
             event.accept(ModItems.BRONZE_SHIELD);
             event.accept(ModItems.SILVER_SHIELD);
             event.accept(ModItems.COBALT_SHIELD);
@@ -381,6 +409,10 @@ public class Mores {
             event.accept(ModItems.TIN_CHESTPLATE);
             event.accept(ModItems.TIN_LEGGINGS);
             event.accept(ModItems.TIN_BOOTS);
+            event.accept(ModItems.COPPER_HELMET);
+            event.accept(ModItems.COPPER_CHESTPLATE);
+            event.accept(ModItems.COPPER_LEGGINGS);
+            event.accept(ModItems.COPPER_BOOTS);
             event.accept(ModItems.BRONZE_HELMET);
             event.accept(ModItems.BRONZE_CHESTPLATE);
             event.accept(ModItems.BRONZE_LEGGINGS);
@@ -453,6 +485,7 @@ public class Mores {
 
         if (event.getTab() == ModTabs.MORES_HORSE_ARMOR) {
             event.accept(ModItems.TIN_HORSE_ARMOR);
+            event.accept(ModItems.COPPER_HORSE_ARMOR);
             event.accept(ModItems.BRONZE_HORSE_ARMOR);
             event.accept(ModItems.SILVER_HORSE_ARMOR);
             event.accept(ModItems.COBALT_HORSE_ARMOR);
@@ -470,6 +503,7 @@ public class Mores {
             event.accept(ModItems.OBSIDIAN_HORSE_ARMOR);
             event.accept(ModItems.ONYX_HORSE_ARMOR);
             event.accept(ModItems.GRAPHENE_HORSE_ARMOR);
+            event.accept(ModItems.NETHERITE_HORSE_ARMOR);
         }
 
         if (event.getTab() == ModTabs.MORES_FOODS) {
@@ -479,6 +513,8 @@ public class Mores {
             event.accept(ModItems.CHOCOLATE);
             event.accept(ModItems.VELVET);
             event.accept(ModItems.CARROT_PIE);
+            event.accept(ModItems.DUCK);
+            event.accept(ModItems.COOKED_DUCK);
         }
 
         if (event.getTab() == ModTabs.MORES_ENTITIES) {
