@@ -18,7 +18,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '4.5.0'
+version = '4.6.0'
 group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mOres'
 
