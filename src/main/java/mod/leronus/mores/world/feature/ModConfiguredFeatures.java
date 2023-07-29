@@ -147,34 +147,34 @@ public class ModConfiguredFeatures {
         register(context, NETHER_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_SILVER_ORES.get(),9));
 
         register(context, TOPAZ_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(),4, 0.2F));
-        register(context, TOPAZ_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(),12, 0.6F));
+        register(context, TOPAZ_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(),10, 0.6F));
         register(context, TOPAZ_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOPAZ_ORES.get(),8, 0.8F));
 
         register(context, TOURMALINE_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(),4, 0.1F));
-        register(context, TOURMALINE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(),12, 0.8F));
+        register(context, TOURMALINE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(),10, 0.8F));
         register(context, TOURMALINE_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TOURMALINE_ORES.get(),8, 0.6F));
 
         register(context, NETHER_TANZANITE_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_TANZANITE_ORES.get(),9, 0.5F));
 
         register(context, RUBY_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(),4, 0.5F));
-        register(context, RUBY_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(),12, 0.7F));
+        register(context, RUBY_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(),10, 0.7F));
         register(context, RUBY_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_RUBY_ORES.get(),8, 1.0F));
         register(context, NETHER_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_RUBY_ORES.get(),6, 0.8F));
 
         register(context, SAPPHIRE_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(),4, 0.5F));
-        register(context, SAPPHIRE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(),12, 0.7F));
+        register(context, SAPPHIRE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(),10, 0.7F));
         register(context, SAPPHIRE_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_SAPPHIRE_ORES.get(),8, 1.0F));
         register(context, NETHER_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_SAPPHIRE_ORES.get(),5, 0.7F));
 
         register(context, TURQUOISE_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES.get(),4, 0.5F));
-        register(context, TURQUOISE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES.get(),12, 0.7F));
+        register(context, TURQUOISE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES.get(),10, 0.7F));
         register(context, TURQUOISE_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TURQUOISE_ORES.get(),8, 1.0F));
 
         register(context, END_ONYX_ORE_KEY, Feature.ORE, new OreConfiguration(END_ONYX_ORES.get(),6));
 
-        register(context, MOISSANITE_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),4, 0.5F));
-        register(context, MOISSANITE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),10, 0.7F));
-        register(context, MOISSANITE_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),6, 1.0F));
+        register(context, MOISSANITE_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),2, 0.5F));
+        register(context, MOISSANITE_LARGE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),6, 0.7F));
+        register(context, MOISSANITE_BURIED_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_MOISSANITE_ORES.get(),4, 1.0F));
         register(context, NETHER_MOISSANITE_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_MOISSANITE_ORES.get(),4));
     }
 
