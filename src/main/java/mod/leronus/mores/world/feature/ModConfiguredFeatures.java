@@ -133,7 +133,7 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_ANTHRACITE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_ANTHRACITE_ORES.get(),6, 0.3F));
         register(context, NETHER_ANTHRACITE_ORE_KEY, Feature.ORE, new OreConfiguration(NETHER_ANTHRACITE_ORES.get(),13, 0.65F));
 
-        register(context, TIN_UPPER_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(),14));
+        register(context, TIN_UPPER_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(),10));
         register(context, TIN_MIDDLE_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(),8));
         register(context, TIN_SMALL_ORE_KEY, Feature.ORE, new OreConfiguration(OVERWORLD_TIN_ORES.get(),4));
 
