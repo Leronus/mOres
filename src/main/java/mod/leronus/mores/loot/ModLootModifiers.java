@@ -13,9 +13,8 @@ public class ModLootModifiers {
             DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, Mores.MODID);
 
 
-    //TODO Fix autosmelter
-//    public static final RegistryObject<Codec<AutoSmeltModifier>> AUTO_SMELT =
-//            LOOT_MODIFIER_SERIALIZERS.register("auto_smelt_tool", ()-> AutoSmeltModifier.CODEC);
+    public static final RegistryObject<Codec<AutoSmeltModifier>> AUTO_SMELT =
+            LOOT_MODIFIER_SERIALIZERS.register("auto_smelt_tool", ()-> AutoSmeltModifier.CODEC);
 
 
     public static void register(IEventBus bus) {

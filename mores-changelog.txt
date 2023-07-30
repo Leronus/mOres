@@ -1,6 +1,6 @@
 
 
-Alpha v4.8.0 (1.19.4)
+Release v4.8.0 (1.19.4)
 - Updated to 1.19.4
---
+-- Autosmelt currently not working
 
