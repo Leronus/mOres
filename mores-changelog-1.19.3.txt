@@ -1,6 +1,8 @@
+Release v4.6.1
+- Added alloy furnace to the creative mode tabs
+- Fixed a shield bug relating to how much damage is blocked
 
-
-Alpha v4.6.0 (1.19.3)
+Release v4.6.0
 - Updated to 1.19.3
 -- The way sounds were registered was updated
 -- OreGeneration has been tweaked
