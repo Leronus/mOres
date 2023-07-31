@@ -86,6 +86,7 @@ public class Mores {
         }
         //Blocks
         if(event.getTab() == ModTabs.MORES_BLOCKS) {
+            event.accept(ModBlocks.ALLOY_FURNACE);
             event.accept(ModBlocks.RAW_TIN_BLOCK);
             event.accept(ModBlocks.RAW_SILVER_BLOCK);
             event.accept(ModBlocks.RAW_COBALT_BLOCK);
