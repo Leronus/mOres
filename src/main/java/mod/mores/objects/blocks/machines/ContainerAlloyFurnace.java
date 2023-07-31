@@ -1,14 +1,15 @@
 package mod.mores.objects.blocks.machines;
 
-import mod.mores.inventory.SlotInputTwo;
-import mod.mores.inventory.SlotOutput;
+import mod.mores.objects.blocks.machines.slots.SlotOutput;
 import mod.mores.objects.blocks.machines.slots.SlotAlloyFurnaceFuel;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IContainerListener;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -87,70 +88,90 @@ public class ContainerAlloyFurnace extends Container
         return this.tileentity.isUsableByPlayer(playerIn);
     }
 
+    /**
+     * Handle when the stack in slot {@code index} is shift-clicked. Normally
+     * this moves the stack between the player inventory and the other
+     * inventory(s).
+     */
     @Override
     public ItemStack transferStackInSlot(EntityPlayer playerIn, int index)
     {
-        ItemStack stack = ItemStack.EMPTY;
-        Slot slot = (Slot)this.inventorySlots.get(index);
+        ItemStack itemstack = ItemStack.EMPTY;
+        Slot slot = this.inventorySlots.get(index);
 
-        if(slot != null && slot.getHasStack())
+        if (slot != null && slot.getHasStack())
         {
-            ItemStack stack1 = slot.getStack();
-            stack = stack1.copy();
+            ItemStack itemstack1 = slot.getStack();
+            itemstack = itemstack1.copy();
 
-            if(index == OUTPUT)
+            // output slot?
+            if (index == OUTPUT)
             {
-                if(!this.mergeItemStack(stack1, OUTPUT + 1, OUTPUT + 36 + 1, true)) return ItemStack.EMPTY;
-                slot.onSlotChange(stack1, stack);
-            }
-            else if(index != 2 && index != 1 && index != 0)
-            {
-                Slot slot1 = (Slot)this.inventorySlots.get(index + 1);
-
-                if(!AlloyFurnaceRecipes.getInstance().getAlloyResult(stack1, slot1.getStack()).isEmpty())
+                if (!this.mergeItemStack(itemstack1, 4, 40, true))
                 {
-                    if(!this.mergeItemStack(stack1, 0, 2, false))
-                    {
-                        return ItemStack.EMPTY;
-                    }
-                    else if(TileEntityAlloyFurnace.isItemFuel(stack1))
-                    {
-                        if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
-                    }
-                    else if(TileEntityAlloyFurnace.isItemFuel(stack1))
-                    {
-                        if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
-                    }
-                    else if(TileEntityAlloyFurnace.isItemFuel(stack1))
-                    {
-                        if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
-                    }
-                    else if(index >= 4 && index < 31)
-                    {
-                        if(!this.mergeItemStack(stack1, 31, 40, false)) return ItemStack.EMPTY;
-                    }
-                    else if(index >= 31 && index < 40 && !this.mergeItemStack(stack1, 4, 31, false))
+                    return ItemStack.EMPTY;
+                }
+                slot.onSlotChange(itemstack1, itemstack);
+            }
+            // player inv/hotbar slot?
+            else if (index > OUTPUT )
+            {
+                // inputs
+                if(AlloyFurnaceRecipes.isItemInput(itemstack1))
+                {
+                    if(!this.mergeItemStack(itemstack1, 0, 1, false)
+                            && !this.mergeItemStack(itemstack1, 1, 2, false))
+                        if (!this.mergeItemStack(itemstack1, 2, 3, false) && itemstack1.getItem() == Items.COAL)
+                            return ItemStack.EMPTY;
+                }
+                // fusion furnace uses standard fuel.
+                else if (TileEntityFurnace.isItemFuel(itemstack1))
+                {
+                    if (!this.mergeItemStack(itemstack1, 2, 3, false))
                     {
                         return ItemStack.EMPTY;
                     }
                 }
+                // catalysts
+//                else if(AlloyFurnaceRecipes.isItemCatalyst(itemstack1))
+//                {
+//                    if (!this.mergeItemStack(itemstack1, 4, 5, false))
+//                        return ItemStack.EMPTY;
+//                }
+                else if (index < 31)
+                {
+                    if (!this.mergeItemStack(itemstack1, 31, 40, false))
+                    {
+                        return ItemStack.EMPTY;
+                    }
+                }
+                else if (index >= 31 && index < 40 && !this.mergeItemStack(itemstack1, 4, 31, false))
+                {
+                    return ItemStack.EMPTY;
+                }
             }
-            else if(!this.mergeItemStack(stack1, 4, 40, false))
+            else if (!this.mergeItemStack(itemstack1, 4, 40, false))
             {
                 return ItemStack.EMPTY;
             }
-            if(stack1.isEmpty())
+
+            if (itemstack1.isEmpty())
             {
                 slot.putStack(ItemStack.EMPTY);
             }
             else
             {
                 slot.onSlotChanged();
-
             }
-            if(stack1.getCount() == stack.getCount()) return ItemStack.EMPTY;
-            slot.onTake(playerIn, stack1);
+
+            if (itemstack1.getCount() == itemstack.getCount())
+            {
+                return ItemStack.EMPTY;
+            }
+
+            slot.onTake(playerIn, itemstack1);
         }
-        return stack;
+
+        return itemstack;
     }
 }

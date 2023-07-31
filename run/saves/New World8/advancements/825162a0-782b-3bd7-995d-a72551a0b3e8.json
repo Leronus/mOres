@@ -1,0 +1,98 @@
+{
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_all": {
+    "criteria": {
+      "obtain_steel_ingot": "2022-12-25 02:43:45 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2022-12-25 02:43:45 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2022-12-25 02:43:45 +0100"
+    },
+    "done": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "mores:mores/obtain_steel": {
+    "criteria": {
+      "obtain_steel_ingot": "2023-07-31 00:35:39 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/craft_alloy_furnace": {
+    "criteria": {
+      "obtain_copper_ore": "2023-07-31 00:35:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2023-07-31 00:35:39 +0200"
+    },
+    "done": true
+  },
+  "mores:mores/obtain_all": {
+    "criteria": {
+      "obtain_steel_ingot": "2023-07-31 00:35:39 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "extreme_hills": "2023-07-31 00:35:39 +0200"
+    },
+    "done": false
+  }
+}

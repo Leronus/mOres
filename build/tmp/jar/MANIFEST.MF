@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: 1.12.2
-Implementation-Version: v2.0
-Specification-Vendor: examplemodsareus
-Specification-Title: examplemod
-Implementation-Timestamp: 2022-12-25T01:52:30+0100
-Specification-Version: 1
-Implementation-Vendor: examplemodsareus
+Implementation-Version: v1.2.0
+Specification-Vendor: ItsInfinite
+Specification-Title: mOres
+Implementation-Timestamp: 2022-12-25T02:14:35+0100
+Specification-Version: v1.2.0
+Implementation-Vendor: ItsInfinite
 

@@ -83,4 +83,22 @@ public class AlloyFurnaceRecipes
         }
         return 0.0F;
     }
+
+    public static boolean isItemInput(ItemStack item)
+    {
+        if (item.getItem() == ItemInit.TURQUOISE_GEM ||
+            item.getItem() == ItemInit.COPPER_INGOT ||
+            item.getItem() == ItemInit.TIN_INGOT ||
+            item.getItem() == ItemInit.SILVER_INGOT ||
+            item.getItem() == Items.QUARTZ ||
+            item.getItem() == Items.COAL ||
+            item.getItem() == Items.IRON_INGOT ||
+            item.getItem() == ItemInit.TURQUOISE_GEM ||
+            item.getItem() == ItemInit.ONYX_GEM
+        ){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

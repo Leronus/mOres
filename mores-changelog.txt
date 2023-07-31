@@ -1,0 +1,6 @@
+Release v1.3.0 
+- Fixed alloy furnace causing crashes when shift clicking items and made sure shift clicking works again
+
+Release v1.2.0 
+- Fixed harvest levels of the iron pickaxe & diamond pickaxe
+

@@ -1,6 +1,6 @@
-Args: "--in-jar", "C:\Users\Leron\Desktop\mOres\1.12.2\build\libs\mOres-v2.0.jar", "--out-jar", "C:\Users\Leron\Desktop\mOres\1.12.2\build\reobfJar\output.jar", "--srg-in", "C:\Users\Leron\Desktop\mOres\1.12.2\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Users\Leron\Desktop\mOres\1.12.2\build\libs\mOres-v1.2.0.jar", "--out-jar", "C:\Users\Leron\Desktop\mOres\1.12.2\build\reobfJar\output.jar", "--srg-in", "C:\Users\Leron\Desktop\mOres\1.12.2\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
-Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2854_mapped_snapshot_20171003-1.12-recomp.jar
+Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12\forge-1.12.2-14.23.5.2859_mapped_snapshot_20171003-1.12-recomp.jar
 Classpath: C:\Users\Leron\.gradle\caches\forge_gradle\minecraft_repo\versions\1.12.2\client-extra.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.13\c18446ec4d5814f447d7a79b314ba9a27cc8dbc8\mergetool-1.0.13-forge.jar
@@ -27,6 +27,9 @@ Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j18-impl\2.15.0\88f72ad364bfc3a7cf43186fc17212f2b4bb8d97\log4j-slf4j18-impl-2.15.0.jar
+Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.15.0\ba55c13d7ac2fd44df9cc8074455719a33f375b9\log4j-core-2.15.0.jar
+Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.15.0\4a5aa7e55a29391c6f66e0b259d5189aa11e45d0\log4j-api-2.15.0.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\net.minecraftforge\legacydev\0.2.3.1\f2cd4a8c9f09faf1c1e4a9a4c65df36e634f95db\legacydev-0.2.3.1-fatjar.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
@@ -53,8 +56,6 @@ Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.commons\
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
-Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
-Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b04f3ee8f5e43fa3b162981b50bb72fe1acabb33\lwjgl-platform-2.9.4-nightly-20150209.jar
@@ -69,6 +70,7 @@ Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-ana
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar
 Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar
+Classpath: C:\Users\Leron\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar
 WorkDir: C:\Users\Leron\Desktop\mOres\1.12.2\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
