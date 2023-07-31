@@ -56,6 +56,7 @@ public class ModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.TURQUOISE_BLOCK.get()))
                     .title(Component.translatable("creativemodetab.mores_blocks"))
                     .displayItems((pParameters, event) -> {
+                        event.accept(ModBlocks.ALLOY_FURNACE.get());
                         event.accept(ModBlocks.RAW_TIN_BLOCK.get());
                         event.accept(ModBlocks.RAW_SILVER_BLOCK.get());
                         event.accept(ModBlocks.RAW_COBALT_BLOCK.get());
