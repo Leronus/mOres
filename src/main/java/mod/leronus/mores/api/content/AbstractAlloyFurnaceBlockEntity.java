@@ -360,7 +360,7 @@ public abstract class AbstractAlloyFurnaceBlockEntity extends BlockEntity
     {
         final Optional<ItemStack> result = getResult(inventory.getStackInSlot(INPUT1_SLOT),
                 inventory.getStackInSlot(INPUT2_SLOT), inventory.getStackInSlot(CATALYST_SLOT));
-        return result.isPresent() && ItemStack.isSame(result.get(), stack);
+        return result.isPresent() && ItemStack.isSameItem(result.get(), stack);
     }
 
     public boolean isFuel(ItemStack stack)
@@ -476,7 +476,7 @@ public abstract class AbstractAlloyFurnaceBlockEntity extends BlockEntity
             {
                 return true;
             }
-            else if (!outstack.sameItem(result))
+            else if (!outstack.is(result.getItem()))
             {
                 return false;
             }
@@ -743,7 +743,7 @@ public abstract class AbstractAlloyFurnaceBlockEntity extends BlockEntity
 
         for (Entry<ResourceLocation, Integer> entry : this.recipe2xp_map.entrySet())
         {
-            player.level.getRecipeManager().byKey(entry.getKey()).ifPresent((p_213993_3_) -> {
+            player.level().getRecipeManager().byKey(entry.getKey()).ifPresent((p_213993_3_) -> {
                 list.add(p_213993_3_);
                 spawnExpOrbs(player, entry.getValue(), ((AlloyRecipe) p_213993_3_).getExperience());
             });
@@ -772,7 +772,7 @@ public abstract class AbstractAlloyFurnaceBlockEntity extends BlockEntity
         {
             int j = ExperienceOrb.getExperienceValue(pCount);
             pCount -= j;
-            player.level.addFreshEntity(new ExperienceOrb(player.level, player.getX(), player.getY() + 0.5D,
+            player.level().addFreshEntity(new ExperienceOrb(player.level(), player.getX(), player.getY() + 0.5D,
                     player.getZ() + 0.5D, j));
         }
     } // end spawnExpOrbs()

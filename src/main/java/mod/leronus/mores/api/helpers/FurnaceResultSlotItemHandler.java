@@ -56,7 +56,7 @@ public class FurnaceResultSlotItemHandler extends SlotItemHandler
     @Override
     protected void checkTakeAchievements(ItemStack stack)
     {
-        stack.onCraftedBy(this.player.level, this.player, this.removeCount);
+        stack.onCraftedBy(this.player.level(), this.player, this.removeCount);
         if (this.player instanceof ServerPlayer && this.blockEntity instanceof AlloyFurnaceBlockEntity)
         {
             ((AlloyFurnaceBlockEntity)this.blockEntity).grantExperience(this.player);

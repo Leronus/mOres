@@ -6,6 +6,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.api.content.AbstractAlloyFurnaceContainer;
 import mod.leronus.mores.block.custom.AlloyFurnaceBlockEntity;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
@@ -27,43 +28,43 @@ public abstract class AbstractAlloyFurnaceScreen<T extends AbstractAlloyFurnaceC
     }
 
     @Override
-    public void render(PoseStack matStack, final int mouseX, final int mouseY, final float partialTicks)
+    public void render(GuiGraphics graphics, final int mouseX, final int mouseY, final float partialTicks)
     {
-        this.renderBackground(matStack);
-        super.render(matStack, mouseX, mouseY, partialTicks);
-        this.renderTooltip(matStack, mouseX, mouseY);  // formerly renderHoveredTooltip
+        this.renderBackground(graphics);
+        super.render(graphics, mouseX, mouseY, partialTicks);
+        this.renderTooltip(graphics, mouseX, mouseY);  // formerly renderHoveredTooltip
     }
 
     @Override
-    protected void renderBg(PoseStack pPoseStack, float pPartialTick, int pMouseX, int pMouseY) {
+    protected void renderBg(GuiGraphics graphics, float pPartialTick, int pMouseX, int pMouseY) {
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
         int x = (width - imageWidth) / 2;
         int y = (height - imageHeight) / 2;
 
-        this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
+        graphics.blit(TEXTURE, x, y, 0, 0, imageWidth, imageHeight);
 
         final AlloyFurnaceBlockEntity blockEntity = (AlloyFurnaceBlockEntity) this.menu.blockEntity;
         if (blockEntity.isBurning())
         {
             int k = this.getFuelBurnTimeScaled(13);
-            this.blit(pPoseStack, x + 56, y + 36 + 12 - k, 176, 12 - k, 14, k + 1);
+            graphics.blit(TEXTURE, x + 56, y + 36 + 12 - k, 176, 12 - k, 14, k + 1);
         }
 
         int l = this.getSmeltTimeScaled(24);
-        this.blit(pPoseStack, x + 79, y + 34, 176, 14, l + 1, 16);
+        graphics.blit(TEXTURE, x + 79, y + 34, 176, 14, l + 1, 16);
     }
 
     /**
      * Probably corresponds to ContainerScreen.renderLabels() in 1.16.1.
      * Formerly drawGuiContainerForegroundLayer() in 1.15.2.
-     * @param matStack
+     * @param graphics
      * @param mouseX
      * @param mouseY
      */
     @Override
-    protected void renderLabels(PoseStack matStack, int mouseX, int mouseY)
+    protected void renderLabels(GuiGraphics graphics, int mouseX, int mouseY)
     {
         // Copied from AbstractFurnaceScreen#drawGuiContainerForegroundLayer
         String alloy_furnace = this.title.getString();
@@ -77,11 +78,11 @@ public abstract class AbstractAlloyFurnaceScreen<T extends AbstractAlloyFurnaceC
 //        {
         //Second piece of text - "furnace"
 //              this.font.draw(matStack, alloy_split_furnace[1], 120.0F, 6.0F, displayNameColor);
-        this.font.draw(matStack, alloy_furnace, 100.0F, 6.0F, displayNameColor);
+        graphics.drawString(this.font, alloy_furnace, 100.0F, 6.0F, displayNameColor, true);
 //        }
         //Inventory text
-        this.font.draw(matStack, this.playerInventoryTitle.getString(),
-                120.0F, (float) (this.imageHeight - 96 + 2), displayNameColor);
+        graphics.drawString(this.font, this.playerInventoryTitle.getString(),
+                120.0F, (float) (this.imageHeight - 96 + 2), displayNameColor, true);
     } // end ()
 
     private int getSmeltTimeScaled(int pixels)

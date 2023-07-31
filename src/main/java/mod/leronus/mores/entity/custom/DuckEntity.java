@@ -67,20 +67,20 @@ public class DuckEntity extends Animal {
         super.aiStep();
         this.oFlap = this.flap;
         this.oFlapSpeed = this.flapSpeed;
-        this.flapSpeed += (this.onGround ? -1.0F : 4.0F) * 0.3F;
+        this.flapSpeed += (this.onGround() ? -1.0F : 4.0F) * 0.3F;
         this.flapSpeed = Mth.clamp(this.flapSpeed, 0.0F, 1.0F);
-        if (!this.onGround && this.flapping < 1.0F) {
+        if (!this.onGround() && this.flapping < 1.0F) {
             this.flapping = 1.0F;
         }
 
         this.flapping *= 0.9F;
         Vec3 vec3 = this.getDeltaMovement();
-        if (!this.onGround && vec3.y < 0.0D) {
+        if (!this.onGround() && vec3.y < 0.0D) {
             this.setDeltaMovement(vec3.multiply(1.0D, 0.6D, 1.0D));
         }
 
         this.flap += this.flapping * 2.0F;
-        if (!this.level.isClientSide && this.isAlive() && !this.isBaby() && !this.isDuckJockey() && --this.eggTime <= 0) {
+        if (!this.level().isClientSide && this.isAlive() && !this.isBaby() && !this.isDuckJockey() && --this.eggTime <= 0) {
             this.playSound(SoundEvents.CHICKEN_EGG, 1.0F, (this.random.nextFloat() - this.random.nextFloat()) * 0.2F + 1.0F);
             this.spawnAtLocation(Items.GOLD_NUGGET);
             this.gameEvent(GameEvent.ENTITY_PLACE);
@@ -174,15 +174,15 @@ public class DuckEntity extends Animal {
         return this.isDuckJockey();
     }
 
-    public void positionRider(Entity pPassenger) {
-        super.positionRider(pPassenger);
+    protected void positionRider(Entity passenger, Entity.MoveFunction moveFunction) {
+        super.positionRider(passenger, moveFunction);
         float f = Mth.sin(this.yBodyRot * ((float)Math.PI / 180F));
         float f1 = Mth.cos(this.yBodyRot * ((float)Math.PI / 180F));
         float f2 = 0.1F;
         float f3 = 0.0F;
-        pPassenger.setPos(this.getX() + (double)(0.1F * f), this.getY(0.5D) + pPassenger.getMyRidingOffset() + 0.0D, this.getZ() - (double)(0.1F * f1));
-        if (pPassenger instanceof LivingEntity) {
-            ((LivingEntity)pPassenger).yBodyRot = this.yBodyRot;
+        moveFunction.accept(passenger, this.getX() + (double)(0.1F * f), this.getY(0.5D) + passenger.getMyRidingOffset() + 0.0D, this.getZ() - (double)(0.1F * f1));
+        if (passenger instanceof LivingEntity) {
+            ((LivingEntity)passenger).yBodyRot = this.yBodyRot;
         }
 
     }

@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[44,)" #mandatory
+loaderVersion="[46,)" #mandatory
 license="All rights reserved"
 issueTrackerURL="https://github.com/Leronus/mOres/issues"
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -26,13 +26,13 @@ It adds much more variety and is very entertaining to play with friends.
 [[dependencies.mores]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[44,)" #mandatory
+    versionRange="[46,)" #mandatory
     ordering="AFTER"
     side="BOTH"
 [[dependencies.mores]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.3,1.20)"
+    versionRange="[1.20,)"
     ordering="AFTER"
     side="BOTH"
