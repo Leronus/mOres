@@ -10,6 +10,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "mores:tourmaline_horse_armor"
         },

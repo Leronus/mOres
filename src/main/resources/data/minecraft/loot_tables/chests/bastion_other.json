@@ -58,7 +58,7 @@
     },
     {
       "rolls": 1,
-      "bonus_rolls": 0,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -72,6 +72,18 @@
             },
             {
               "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mores:obsidian_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
             }
           ]
         },
