@@ -239,6 +239,8 @@
 
   "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamond Equipment",
   "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidian Ingot",
+  "item.mores.smithing_template.obsidian_upgrade.base_slot_description" : "Add diamond armor, weapon or tool",
+  "item.mores.smithing_template.obsidian_upgrade.additions_slot_description" : "Add Obsidian Ingot",
   "upgrade.mores.obsidian_upgrade" : "Obsidian Upgrade",
 
   "item.mores.obsidian_helmet" : "Obsidian Helmet",
