@@ -1,11 +1,8 @@
 
-Future:
-- Add enabling/disabling of ores & duck by looking at SimpleOres config
-- Add ore deposits to config
-- Make advancements translatable in en_us.lang
-- Add custom armor sounds (that way I can add my own subtitles, could even just copy netherites sound
-- Evaluate fyranite
-- Implement spinel(?)
+
+- Add armor trims
+- Add shields to combat creative mode tab
+
 
 
 

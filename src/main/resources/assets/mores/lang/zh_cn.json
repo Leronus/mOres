@@ -240,7 +240,11 @@
   "item.mores.obsidian_chestplate" : "黑曜石胸甲",
   "item.mores.obsidian_leggings" : "黑曜石护腿",
   "item.mores.obsidian_boots" : "黑曜石靴",
+  "item.mores.obsidian_upgrade_smithing_template" : "Obsidian Upgrade Smithing Template",
 
+  "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamond Equipment",
+  "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidian Ingot",
+  "upgrade.mores.obsidian_upgrade" : "Obsidian Upgrade",
 
   "item.mores.silver_ingot" : "银锭",
   "item.mores.silver_horse_armor" : "银马铠",

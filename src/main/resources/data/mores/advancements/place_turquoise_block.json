@@ -1,10 +1,10 @@
 {
   "display": {
-    "title": "√9 = 3",
-    "description": "Craft a turquoise block",
     "icon": {
       "item": "mores:turquoise_block"
     },
+    "title": "√9 = 3",
+    "description": "Craft a turquoise block",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
@@ -15,12 +15,18 @@
     "place_turquoise_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "mores:turquoise_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "mores:turquoise_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },
   "rewards": {
-    "experience": 100,
-    "function" : "mores:mores/play_wortel9"
+    "function": "mores:mores/play_wortel9",
+    "experience": 100
   }
 }

@@ -234,6 +234,11 @@
   "item.mores.obsidian_chestplate": "Obsidianen borstplaat",
   "item.mores.obsidian_leggings": "Obsidianen beenstukken",
   "item.mores.obsidian_boots": "Obsidianen laarzen",
+  "item.mores.obsidian_upgrade_smithing_template" : "Obsidianen Smeedmal",
+
+  "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamanten Uitrusting",
+  "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidianen Staaf",
+  "upgrade.mores.obsidian_upgrade" : "Obsidiaan Upgrade",
 
 
   "item.mores.silver_ingot": "Zilverstaaf",

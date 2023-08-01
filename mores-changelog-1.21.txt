@@ -1,0 +1,7 @@
+
+
+Release v5.1.0
+- Updated to 1.20.1
+-- Fixed netherite recipes and place_block (& wax_off.json) advancements not working anymore due to version change
+-- Added obsidian upgrade smithing template (texture, model, lang, ModItems.java) and updated its corresponding smithing recipes
+-- 

@@ -1,10 +1,10 @@
 {
   "display": {
-    "title": "Second Place",
-    "description": "Place a silver block",
     "icon": {
       "item": "mores:silver_block"
     },
+    "title": "Second Place",
+    "description": "Place a silver block",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
@@ -15,7 +15,13 @@
     "place_silver_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "mores:silver_block"
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "mores:silver_block",
+            "properties": {}
+          }
+        ]
       }
     }
   },

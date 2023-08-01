@@ -441,6 +441,7 @@ public class Mores {
             event.accept(ModItems.ONYX_GEM);
             event.accept(ModItems.GRAPHENE_GEM);
             event.accept(ModItems.CHAIN);
+            event.accept(ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE);
         }
         //Spawn Eggs
         if(event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
