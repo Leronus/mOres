@@ -1,0 +1,7 @@
+{
+  "asset_id": "mores:sicko",
+  "description": {
+    "translate": "trim_pattern.mores.sicko"
+  },
+  "template_item": "mores:sicko_armor_trim_smithing_template"
+}

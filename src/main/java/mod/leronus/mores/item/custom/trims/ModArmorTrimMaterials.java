@@ -35,16 +35,16 @@ public class ModArmorTrimMaterials {
     }
 
     public static void bootstrap(BootstapContext<TrimMaterial> material) {
-        register(material, BRONZE, ModItems.BRONZE_INGOT.get(), Style.EMPTY.withColor(14931140), 0.1F);
-        register(material, STERLING, ModItems.STERLING_INGOT.get(), Style.EMPTY.withColor(15527148), 0.2F);
-        register(material, STEEL, ModItems.STEEL_INGOT.get(), Style.EMPTY.withColor(6445145), 0.3F);
-        register(material, TOPAZ, ModItems.TOPAZ_GEM.get(), Style.EMPTY.withColor(9901575), 0.4F);
-        register(material, TOURMALINE, ModItems.TOURMALINE_GEM.get(), Style.EMPTY.withColor(11823181), 0.5F);
-        register(material, TANZANITE, ModItems.TANZANITE_GEM.get(), Style.EMPTY.withColor(14594349), 0.6F);
-        register(material, RUBY, ModItems.RUBY_GEM.get(), Style.EMPTY.withColor(1155126), 0.7F);
-        register(material, TURQUOISE, ModItems.TURQUOISE_GEM.get(), Style.EMPTY.withColor(7269586), 0.8F);
-        register(material, SAPPHIRE, ModItems.SAPPHIRE_GEM.get(), Style.EMPTY.withColor(4288151), 0.9F);
-        register(material, GRAPHENE, ModItems.GRAPHENE_GEM.get(), Style.EMPTY.withColor(10116294), 1.0F);
+        register(material, BRONZE, ModItems.BRONZE_INGOT.get(), Style.EMPTY.withColor(14931140), 1.1F);
+        register(material, STERLING, ModItems.STERLING_INGOT.get(), Style.EMPTY.withColor(15527148), 1.2F);
+        register(material, STEEL, ModItems.STEEL_INGOT.get(), Style.EMPTY.withColor(6445145), 1.3F);
+        register(material, TOPAZ, ModItems.TOPAZ_GEM.get(), Style.EMPTY.withColor(9901575), 1.4F);
+        register(material, TOURMALINE, ModItems.TOURMALINE_GEM.get(), Style.EMPTY.withColor(11823181), 1.5F);
+        register(material, TANZANITE, ModItems.TANZANITE_GEM.get(), Style.EMPTY.withColor(14594349), 1.6F);
+        register(material, RUBY, ModItems.RUBY_GEM.get(), Style.EMPTY.withColor(1155126), 1.7F);
+        register(material, TURQUOISE, ModItems.TURQUOISE_GEM.get(), Style.EMPTY.withColor(7269586), 1.8F);
+        register(material, SAPPHIRE, ModItems.SAPPHIRE_GEM.get(), Style.EMPTY.withColor(4288151), 1.9F);
+        register(material, GRAPHENE, ModItems.GRAPHENE_GEM.get(), Style.EMPTY.withColor(10116294), 2.0F);
     }
 
     public static Optional<Holder.Reference<TrimMaterial>> getFromIngredient(RegistryAccess registryAccess, ItemStack itemStack) {

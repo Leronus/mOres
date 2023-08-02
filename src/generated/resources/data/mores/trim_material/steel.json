@@ -1,0 +1,9 @@
+{
+  "asset_name": "steel",
+  "description": {
+    "color": "#625859",
+    "translate": "trim_material.mores.steel"
+  },
+  "ingredient": "mores:steel_ingot",
+  "item_model_index": 1.3
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "graphene",
+  "description": {
+    "color": "#9A5CC6",
+    "translate": "trim_material.mores.graphene"
+  },
+  "ingredient": "mores:graphene_gem",
+  "item_model_index": 2.0
+}

@@ -1,4 +1,15 @@
-// 1.20.1	2023-08-01T03:25:19.8827844	Registries
+// 1.20.1	2023-08-02T16:30:59.6166231	Registries
+c15e5262f5fd3357099c844e334e070145a3ba4c data/mores/trim_material/bronze.json
+0538fb5871812498e4342e4c8dc07ab1332fdd33 data/mores/trim_material/graphene.json
+2efb7128180f55e3f066e242cbaaa97c1a4f14f7 data/mores/trim_material/ruby.json
+45bb61e4e55e99d50247b5f9f8fee75ab296f6f6 data/mores/trim_material/sapphire.json
+a34f1afc68c984d81b4c8efb20bb2fca2ac896a3 data/mores/trim_material/steel.json
+f04a5b84f860ba43b19026bf03d89ca92b8e6b1c data/mores/trim_material/sterling.json
+d7db4b0431cbebcd4fbf93de2b216c733d3ac772 data/mores/trim_material/tanzanite.json
+ee8778b116bcda54de2c60ccc0049355defb2df2 data/mores/trim_material/topaz.json
+87c3cf4abc7310f4b1f5b7a804bd09593efd7a19 data/mores/trim_material/tourmaline.json
+496131965facd8f8a065713036167f0fde2acaf4 data/mores/trim_material/turquoise.json
+46b062f90404ac7bd6cdd18c990517e3022bd6b9 data/mores/trim_pattern/sicko.json
 c3718dc77d968155c9dc63cbcd631a1401caef7e data/mores/worldgen/configured_feature/cobalt_middle_ore.json
 814053ef8f2951e0b02e8d3806ea49579665cd68 data/mores/worldgen/configured_feature/cobalt_small_ore.json
 c3718dc77d968155c9dc63cbcd631a1401caef7e data/mores/worldgen/configured_feature/cobalt_upper_ore.json
