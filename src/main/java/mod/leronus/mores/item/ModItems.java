@@ -3,11 +3,10 @@ package mod.leronus.mores.item;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.custom.*;
+import mod.leronus.mores.item.custom.trims.ModArmorTrimPatterns;
 import mod.leronus.mores.sound.ModSounds;
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -84,7 +83,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties()));
 
-    public static final RegistryObject<Item> OBSIDIAN_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("obsidian_upgrade_smithing_template", ModSmithingTemplateItem::createObsidianUpgradeTemplate);
+    public static final RegistryObject<Item> OBSIDIAN_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("obsidian_upgrade_smithing_template", ()-> ModSmithingTemplateItem.createObsidianUpgradeTemplate());
+    public static final RegistryObject<Item> SICKO_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("sicko_armor_trim_smithing_template", ()-> ModSmithingTemplateItem.createArmorTrimTemplate(ModArmorTrimPatterns.SICKO));
 
 
     //All horse armor

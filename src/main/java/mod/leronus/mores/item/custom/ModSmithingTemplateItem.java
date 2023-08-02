@@ -4,8 +4,10 @@ import mod.leronus.mores.Mores;
 import net.minecraft.ChatFormatting;
 import net.minecraft.Util;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.SmithingTemplateItem;
+import net.minecraft.world.item.armortrim.TrimPattern;
 
 import java.util.List;
 
@@ -35,6 +37,12 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
     private static final ResourceLocation EMPTY_SLOT_SHOVEL = new ResourceLocation("item/empty_slot_shovel");
     private static final ResourceLocation EMPTY_SLOT_PICKAXE = new ResourceLocation("item/empty_slot_pickaxe");
     private static final ResourceLocation EMPTY_SLOT_INGOT = new ResourceLocation("item/empty_slot_ingot");
+    private static final ResourceLocation EMPTY_SLOT_REDSTONE_DUST = new ResourceLocation("item/empty_slot_redstone_dust");
+    private static final ResourceLocation EMPTY_SLOT_QUARTZ = new ResourceLocation("item/empty_slot_quartz");
+    private static final ResourceLocation EMPTY_SLOT_EMERALD = new ResourceLocation("item/empty_slot_emerald");
+    private static final ResourceLocation EMPTY_SLOT_DIAMOND = new ResourceLocation("item/empty_slot_diamond");
+    private static final ResourceLocation EMPTY_SLOT_LAPIS_LAZULI = new ResourceLocation("item/empty_slot_lapis_lazuli");
+    private static final ResourceLocation EMPTY_SLOT_AMETHYST_SHARD = new ResourceLocation("item/empty_slot_amethyst_shard");
     private static final ResourceLocation EMPTY_SLOT_BATTLEAXE = new ResourceLocation(Mores.MODID, "item/empty_battleaxe");
     private static final ResourceLocation EMPTY_SLOT_MACE = new ResourceLocation(Mores.MODID,"item/empty_mace");
     private static final ResourceLocation EMPTY_SLOT_DAGGER = new ResourceLocation(Mores.MODID,"item/empty_dagger");
@@ -55,4 +63,19 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
         return List.of(EMPTY_SLOT_INGOT);
     }
 
+
+    public static SmithingTemplateItem createArmorTrimTemplate(ResourceKey<TrimPattern> p_266875_) {
+        return createArmorTrimTemplate(p_266875_.location());
+    }
+
+    public static SmithingTemplateItem createArmorTrimTemplate(ResourceLocation p_266880_) {
+        return new SmithingTemplateItem(ARMOR_TRIM_APPLIES_TO, ARMOR_TRIM_INGREDIENTS, Component.translatable(Util.makeDescriptionId("trim_pattern", p_266880_)).withStyle(TITLE_FORMAT), ARMOR_TRIM_BASE_SLOT_DESCRIPTION, ARMOR_TRIM_ADDITIONS_SLOT_DESCRIPTION, createTrimmableArmorIconList(), createTrimmableMaterialIconList());
+    }
+    private static List<ResourceLocation> createTrimmableArmorIconList() {
+        return List.of(EMPTY_SLOT_HELMET, EMPTY_SLOT_CHESTPLATE, EMPTY_SLOT_LEGGINGS, EMPTY_SLOT_BOOTS);
+    }
+
+    private static List<ResourceLocation> createTrimmableMaterialIconList() {
+        return List.of(EMPTY_SLOT_INGOT, EMPTY_SLOT_REDSTONE_DUST, EMPTY_SLOT_LAPIS_LAZULI, EMPTY_SLOT_QUARTZ, EMPTY_SLOT_DIAMOND, EMPTY_SLOT_EMERALD, EMPTY_SLOT_AMETHYST_SHARD);
+    }
 }

@@ -50,6 +50,7 @@ public class Mores {
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
+
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
