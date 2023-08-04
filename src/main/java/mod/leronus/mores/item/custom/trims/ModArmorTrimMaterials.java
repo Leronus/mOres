@@ -36,7 +36,7 @@ public class ModArmorTrimMaterials extends TrimMaterials {
     }
 
     public static void bootstrap(BootstapContext<TrimMaterial> material) {
-        register(material, BRONZE, ModItems.BRONZE_INGOT.get(), Style.EMPTY.withColor(13395456), 1.1F);
+        register(material, BRONZE, ModItems.BRONZE_INGOT.get(), Style.EMPTY.withColor(13395456), 0.31F);
         register(material, STERLING, ModItems.STERLING_INGOT.get(), Style.EMPTY.withColor(16777164), 1.2F);
         register(material, STEEL, ModItems.STEEL_INGOT.get(), Style.EMPTY.withColor(4210752), 1.3F);
         register(material, TOPAZ, ModItems.TOPAZ_GEM.get(), Style.EMPTY.withColor(1745919), 1.4F);

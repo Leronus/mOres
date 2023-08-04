@@ -60,12 +60,6 @@
       "predicate": {
         "trim_type": 1.0
       }
-    },
-    {
-      "model": "mores:item/sapphire_boots_bronze_trim",
-      "predicate": {
-        "trim_type": 1.1
-      }
     }
   ],
   "textures": {

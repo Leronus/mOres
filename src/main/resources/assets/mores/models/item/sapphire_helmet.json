@@ -64,7 +64,7 @@
     {
       "model": "mores:item/sapphire_helmet_bronze_trim",
       "predicate": {
-        "trim_type": 1.1
+        "trim_type": 0.31
       }
     }
   ],
