@@ -1,9 +1,9 @@
 {
   "asset_name": "bronze",
   "description": {
-    "color": "#edac32",
+    "color": "#CC6600",
     "translate": "trim_material.mores.bronze"
   },
   "ingredient": "mores:bronze_ingot",
-  "item_model_index": 1.1
+  "item_model_index": 0.02
 }

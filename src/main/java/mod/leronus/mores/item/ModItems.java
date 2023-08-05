@@ -3,7 +3,6 @@ package mod.leronus.mores.item;
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.item.custom.*;
-import mod.leronus.mores.item.custom.trims.ModArmorTrimPatterns;
 import mod.leronus.mores.sound.ModSounds;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -84,7 +83,7 @@ public class ModItems {
     public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties()));
 
     public static final RegistryObject<Item> OBSIDIAN_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("obsidian_upgrade_smithing_template", ()-> ModSmithingTemplateItem.createObsidianUpgradeTemplate());
-    public static final RegistryObject<Item> SICKO_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("sicko_armor_trim_smithing_template", ()-> ModSmithingTemplateItem.createArmorTrimTemplate(ModArmorTrimPatterns.SICKO));
+//    public static final RegistryObject<Item> SICKO_ARMOR_TRIM_SMITHING_TEMPLATE = ITEMS.register("sicko_armor_trim_smithing_template", ()-> ModSmithingTemplateItem.createArmorTrimTemplate(ModArmorTrimPatterns.SICKO));
 
 
     //All horse armor
@@ -117,8 +116,8 @@ public class ModItems {
     public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ModArmorItem(ModArmorMaterials.TIN, ArmorItem.Type.BOOTS, (new Item.Properties())));
 
     public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, (new Item.Properties())));
-public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.CHESTPLATE, (new Item.Properties())));
-public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.LEGGINGS, (new Item.Properties())));
+    public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.CHESTPLATE, (new Item.Properties())));
+    public static final RegistryObject<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.LEGGINGS, (new Item.Properties())));
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, (new Item.Properties())));
 
     public static final RegistryObject<Item> SILVER_HELMET = ITEMS.register("silver_helmet", () -> new ModArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.HELMET, (new Item.Properties())));

@@ -62,9 +62,81 @@
       }
     },
     {
+      "model": "mores:item/sapphire_boots_tin_trim",
+      "predicate": {
+        "trim_type": 0.01
+      }
+    },
+    {
       "model": "mores:item/sapphire_boots_bronze_trim",
       "predicate": {
-        "trim_type": 1.1
+        "trim_type": 0.02
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_silver_trim",
+      "predicate": {
+        "trim_type": 0.03
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_sterling_trim",
+      "predicate": {
+        "trim_type": 0.04
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_steel_trim",
+      "predicate": {
+        "trim_type": 0.05
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_topaz_trim",
+      "predicate": {
+        "trim_type": 0.06
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_tourmaline_trim",
+      "predicate": {
+        "trim_type": 0.07
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_tanzanite_trim",
+      "predicate": {
+        "trim_type": 0.08
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_ruby_trim",
+      "predicate": {
+        "trim_type": 0.09
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_moissanite_trim",
+      "predicate": {
+        "trim_type": 0.12
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_turquoise_trim",
+      "predicate": {
+        "trim_type": 0.13
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_onyx_trim",
+      "predicate": {
+        "trim_type": 0.14
+      }
+    },
+    {
+      "model": "mores:item/sapphire_boots_graphene_trim",
+      "predicate": {
+        "trim_type": 0.15
       }
     }
   ],
