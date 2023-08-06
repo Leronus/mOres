@@ -62,7 +62,7 @@
       }
     },
     {
-      "model": "mores:item/tin_boots_tin_trim",
+      "model": "mores:item/tin_boots_sapphire_trim",
       "predicate": {
         "trim_type": 0.11
       }

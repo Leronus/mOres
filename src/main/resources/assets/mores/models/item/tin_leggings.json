@@ -62,7 +62,7 @@
       }
     },
     {
-      "model": "mores:item/tin_leggings_tin_trim",
+      "model": "mores:item/tin_leggings_sapphire_trim",
       "predicate": {
         "trim_type": 0.11
       }

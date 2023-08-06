@@ -62,7 +62,7 @@
       }
     },
     {
-      "model": "mores:item/tin_helmet_tin_trim",
+      "model": "mores:item/tin_helmet_sapphire_trim",
       "predicate": {
         "trim_type": 0.11
       }
