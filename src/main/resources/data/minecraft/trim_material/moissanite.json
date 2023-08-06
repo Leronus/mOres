@@ -1,7 +1,7 @@
 {
   "asset_name": "moissanite",
   "description": {
-    "color": "#80FFAA",
+    "color": "#d4f725",
     "translate": "trim_material.mores.moissanite"
   },
   "ingredient": "mores:moissanite_gem",
