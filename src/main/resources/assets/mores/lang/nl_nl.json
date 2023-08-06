@@ -853,7 +853,22 @@
   "item.mores.graphene_shield.light_blue": "Lichtblauw Grafenen Schild",
   "item.mores.graphene_shield.magenta": "Magenta Grafenen Schild",
   "item.mores.graphene_shield.orange": "Oranje Grafenen Schild",
-  "item.mores.graphene_shield.white": "Wit Grafenen Schild"
+  "item.mores.graphene_shield.white": "Wit Grafenen Schild",
+
+  "trim_material.mores.tin": "Tin materiaal",
+  "trim_material.mores.bronze": "Brons materiaal",
+  "trim_material.mores.silver": "Zilver materiaal",
+  "trim_material.mores.sterling": "Sterling zilver materiaal",
+  "trim_material.mores.steel": "Staal materiaal",
+  "trim_material.mores.topaz": "Topaas materiaal",
+  "trim_material.mores.tourmaline": "Toermalijn materiaal",
+  "trim_material.mores.tanzanite": "Tanzaniet materiaal",
+  "trim_material.mores.ruby": "Robijn materiaal",
+  "trim_material.mores.sapphire": "Saffier materiaal",
+  "trim_material.mores.moissanite": "Moissaniet materiaal",
+  "trim_material.mores.turquoise": "Turkoois materiaal",
+  "trim_material.mores.onyx": "Onyx materiaal",
+  "trim_material.mores.graphene": "Grafeen materiaal"
 }
 
 

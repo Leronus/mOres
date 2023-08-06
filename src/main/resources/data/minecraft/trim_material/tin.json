@@ -1,7 +1,7 @@
 {
   "asset_name": "tin",
   "description": {
-    "color": "#CC6600",
+    "color": "#f0f0f0",
     "translate": "trim_material.mores.tin"
   },
   "ingredient": "mores:tin_ingot",

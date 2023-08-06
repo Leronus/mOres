@@ -867,5 +867,20 @@
   "item.mores.graphene_shield.light_blue": "淡蓝色石墨烯盾牌",
   "item.mores.graphene_shield.magenta": "品红色石墨烯盾牌",
   "item.mores.graphene_shield.orange": "橙色石墨烯盾牌",
-  "item.mores.graphene_shield.white": "白色石墨烯盾牌"
+  "item.mores.graphene_shield.white": "白色石墨烯盾牌",
+
+  "trim_material.mores.tin": "Tin Material",
+  "trim_material.mores.bronze": "Bronze Material",
+  "trim_material.mores.silver": "Silver Material",
+  "trim_material.mores.sterling": "Sterling Silver Material",
+  "trim_material.mores.steel": "Steel Material",
+  "trim_material.mores.topaz": "Topaz Material",
+  "trim_material.mores.tourmaline": "Tourmaline Material",
+  "trim_material.mores.tanzanite": "Tanzanite Material",
+  "trim_material.mores.ruby": "Ruby Material",
+  "trim_material.mores.sapphire": "Sapphire Material",
+  "trim_material.mores.moissanite": "Moissanite Material",
+  "trim_material.mores.turquoise": "Turquoise Material",
+  "trim_material.mores.onyx": "Onyx Material",
+  "trim_material.mores.graphene": "Graphene Material"
 }
