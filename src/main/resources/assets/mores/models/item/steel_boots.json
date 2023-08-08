@@ -92,6 +92,12 @@
       }
     },
     {
+      "model": "mores:item/steel_boots_cobalt_trim",
+      "predicate": {
+        "trim_type": 0.16
+      }
+    },
+    {
       "model": "mores:item/steel_boots_iron_trim",
       "predicate": {
         "trim_type": 0.2
