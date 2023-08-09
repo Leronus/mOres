@@ -1,4 +1,6 @@
-
+Release v5.2.0
+- Added ALL mOres materials as armor trims and made ALL mOres armor trimmable (with both vanilla and mOres materials; vanilla armor can also be trimmed with mOres materials)
+- Added a translation file for British English (was American/Dutch/Chinese before)
 
 Release v5.1.0
 - Updated to 1.20.1
