@@ -883,5 +883,6 @@
   "trim_material.mores.moissanite": "Moissanite Material",
   "trim_material.mores.turquoise": "Turquoise Material",
   "trim_material.mores.onyx": "Onyx Material",
-  "trim_material.mores.graphene": "Graphene Material"
+  "trim_material.mores.graphene": "Graphene Material",
+  "trim_material.mores.obsidian": "Obsidian Material"
 }

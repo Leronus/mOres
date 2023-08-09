@@ -98,6 +98,12 @@
       }
     },
     {
+      "model": "minecraft:item/gold_leggings_obsidian_trim",
+      "predicate": {
+        "trim_type": 0.17
+      }
+    },
+    {
       "model": "minecraft:item/gold_leggings_iron_trim",
       "predicate": {
         "trim_type": 0.2

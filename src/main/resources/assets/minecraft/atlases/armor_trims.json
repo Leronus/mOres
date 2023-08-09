@@ -66,7 +66,8 @@
                 "moissanite": "trims/color_palettes/moissanite",
                 "turquoise": "trims/color_palettes/turquoise",
                 "onyx": "trims/color_palettes/onyx",
-                "graphene": "trims/color_palettes/graphene"
+                "graphene": "trims/color_palettes/graphene",
+                "obsidian": "trims/color_palettes/obsidian"
             }
         }
     ]

@@ -92,6 +92,12 @@
       }
     },
     {
+      "model": "mores:item/sterling_boots_obsidian_trim",
+      "predicate": {
+        "trim_type": 0.17
+      }
+    },
+    {
       "model": "mores:item/sterling_boots_cobalt_trim",
       "predicate": {
         "trim_type": 0.16

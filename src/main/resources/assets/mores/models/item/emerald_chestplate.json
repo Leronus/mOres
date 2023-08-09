@@ -98,7 +98,13 @@
       }
     },
     {
-      "model": "mores:item/emerald_chestplate_iron_trim",
+      "model": "mores:item/emerald_boots_obsidian_trim",
+      "predicate": {
+        "trim_type": 0.17
+      }
+    },
+    {
+      "model": "mores:item/emerald_boots_iron_trim",
       "predicate": {
         "trim_type": 0.2
       }

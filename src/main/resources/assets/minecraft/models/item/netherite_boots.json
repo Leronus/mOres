@@ -98,6 +98,12 @@
       }
     },
     {
+      "model": "minecraft:item/netherite_boots_obsidian_trim",
+      "predicate": {
+        "trim_type": 0.17
+      }
+    },
+    {
       "model": "minecraft:item/netherite_boots_iron_trim",
       "predicate": {
         "trim_type": 0.2

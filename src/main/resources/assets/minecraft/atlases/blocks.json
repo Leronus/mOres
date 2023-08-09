@@ -24,7 +24,8 @@
         "moissanite": "minecraft:trims/color_palettes/moissanite",
         "turquoise": "minecraft:trims/color_palettes/turquoise",
         "onyx": "minecraft:trims/color_palettes/onyx",
-        "graphene": "minecraft:trims/color_palettes/graphene"
+        "graphene": "minecraft:trims/color_palettes/graphene",
+        "obsidian": "minecraft:trims/color_palettes/obsidian"
       }
     }
   ]

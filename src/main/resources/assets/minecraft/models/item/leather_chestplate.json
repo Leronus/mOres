@@ -98,6 +98,12 @@
       }
     },
     {
+      "model": "minecraft:item/leather_chestplate_obsidian_trim",
+      "predicate": {
+        "trim_type": 0.17
+      }
+    },
+    {
       "model": "minecraft:item/leather_chestplate_iron_trim",
       "predicate": {
         "trim_type": 0.2
