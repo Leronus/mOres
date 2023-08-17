@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "mores:steel_ingot"
+      "tag": "forge:ingots/steel"
     },
     {
       "item": "minecraft:flint"

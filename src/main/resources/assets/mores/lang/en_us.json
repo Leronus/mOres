@@ -2,6 +2,15 @@
   "mores.shield_damage_reduction" : "Shield Damage Reduction",
   "mores.shield_blocking" : "Shield Blocking",
 
+  "item.mores.sweet_caroline_music_disc" : "Music Disc",
+  "item.mores.sweet_caroline_music_disc.desc" : "Neil Diamond - Sweet Caroline (Diagnostix Bootleg)",
+  "item.mores.cipher_music_disc" : "Music Disc",
+  "item.mores.cipher_music_disc.desc" : "LEMMiNO - Cipher (BGM)",
+
+  "item.mores.velvet": "Velvet",
+  "item.mores.carrot_pie": "Carrot Pie",
+  "item.mores.chocolate": "Chocolate",
+
   "block.mores.alloy_furnace" : "Alloy Furnace",
   "container.mores.alloy_furnace" : "Alloy Furnace",
 
@@ -181,6 +190,7 @@
 
   "item.mores.obsidian_horse_armor" : "Obsidian Horse Armor",
 
+  "item.mores.obsidian_ingot" : "Obsidian Ingot",
   "item.mores.obsidian_sword" : "Obsidian Sword",
   "item.mores.obsidian_shovel" : "Obsidian Shovel",
   "item.mores.obsidian_pickaxe" : "Obsidian Pickaxe",

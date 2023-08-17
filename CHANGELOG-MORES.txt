@@ -1,9 +1,29 @@
+Release v3.2.0
+- Added missing recipes for the shields
+- Added tags to recipes to make the items compatible with other mods
+- Added recipes to smelt raw metal blocks directly into their respective blocks (copper, gold, tin, silver, iron & cobalt)
+- Added silver, cobalt, bronze, sterling steel, silver & all gemstone blocks as base blocks for the beacon
+- Added obsidian ingot which can be obtained by blasting obsidian
+- Added amethyst shield
+- Added chocolate, velvet & carrot pie food items
+- Added cipher music disc
+- Added Simplified Chinese & British translations
+- Updated amethyst, bronze, copper, moissanite, obsidian, sapphire, steel, tanzanite, topaz, tourmaline & turquoise item textures
+- Updated amethyst recipes to use amethyst shard instead of amethyst gem (removing amethyst gem altogether)
+- Updated amethyst block texture
+- Fixed damage reduction tooltip for the vanilla Shield
+- Changed obsidian recipes to use the obsidian ingot
+- Changed obsidian and netherite from crafting recipes to smithing recipes
+- Balanced the shields durability
+
+
 Release v3.1.0
 - Added tags for nuggets to make them compatible with other mods
 - Updated nugget textures
 - Added missing nugget items (sterling silver, carbon steel, copper and tin)
 - Added missing recipes for smelting metals from tools and armor to nuggets and crafting nuggets back to ingots
-
+- Added cobalt apple
+- Changed silver and bronze apple effects
 
 
 Release v3.0.7

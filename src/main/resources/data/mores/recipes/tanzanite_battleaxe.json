@@ -17,7 +17,7 @@
     },
     "$":
     {
-      "item": "mores:tanzanite_gem"
+      "tag": "forge:gems/tanzanite"
     }
   },
 

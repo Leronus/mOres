@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:ingots/obsidian"
+  },
+  "base": {
+    "item": "mores:diamond_battleaxe"
+  },
+  "result": {
+    "item": "mores:obsidian_battleaxe"
+  }
+}

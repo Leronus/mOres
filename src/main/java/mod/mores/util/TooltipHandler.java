@@ -32,7 +32,8 @@ public class TooltipHandler {
 
             if (shield == Items.SHIELD) {
                 tooltip.add(new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
-                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction + "%"));
+                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction.get().toString() + "%"));
+                tooltip.add(new TextComponent(ChatFormatting.GRAY + "Durability: " + ChatFormatting.LIGHT_PURPLE + Config.defaultDurability.get()));
             } else if (shield instanceof ModShieldItem modShieldItem) {
                 tooltip.add(new TranslatableComponent("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
                         .append(": " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%"));

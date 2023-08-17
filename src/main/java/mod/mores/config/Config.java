@@ -64,6 +64,7 @@ public class Config {
     public static ConfigValue<Integer> onyxDamageReduction;
     public static ConfigValue<Integer> grapheneDamageReduction;
 
+    public static ConfigValue<Integer> defaultDurability;
     public static ConfigValue<Integer> tinDurability;
     public static ConfigValue<Integer> copperDurability;
     public static ConfigValue<Integer> silverDurability;
@@ -324,25 +325,26 @@ public class Config {
         grapheneDamageReduction = getInt("grapheneDamageReduction", CATEGORY_SHIELD, 100,
                 "The portion of the incoming damage Graphene Shields block in percent.");
 
-        copperDurability = getInt("copperDurability", CATEGORY_SHIELD, 580, "The durability of the Copper Shield.");
-        tinDurability = getInt("tinDurability", CATEGORY_SHIELD, 80, "The durability of the Tin Shield.");
-        silverDurability = getInt("silverDurability", CATEGORY_SHIELD, 730, "The durability of the Silver Shield.");
-        bronzeDurability = getInt("bronzeDurability", CATEGORY_SHIELD, 840, "The durability of the Bronze Shield.");
-        cobaltDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 1300, "The durability of the Cobalt Shield.");
-        obsidianDurability = getInt("obsidianDurability", CATEGORY_SHIELD, 3000, "The durability of the Obsidian Shield.");
-        sterlingDurability = getInt("sterlingDurability", CATEGORY_SHIELD, 1800, "The durability of the Sterling Silver Shield.");
-        steelDurability = getInt("steelDurability", CATEGORY_SHIELD, 2000, "The durability of the Steel Shield.");
-        amethystDurability = getInt("amethystDurability", CATEGORY_SHIELD, 1250, "The durability of the Amethyst Shield.");
-        emeraldDurability = getInt("emeraldDurability", CATEGORY_SHIELD, 2500, "The durability of the Emerald Shield.");
-        topazDurability = getInt("topazDurability", CATEGORY_SHIELD, 2900, "The durability of the Topaz Shield.");
-        tourmalineDurability = getInt("tourmalineDurability", CATEGORY_SHIELD, 3500, "The durability of the Tourmaline Shield.");
-        tanzaniteDurability = getInt("tanzaniteDurability", CATEGORY_SHIELD, 5100, "The durability of the Tanzanite Shield.");
-        rubyDurability = getInt("rubyDurability", CATEGORY_SHIELD, 4200, "The durability of the Ruby Shield.");
-        sapphireDurability = getInt("sapphireDurability", CATEGORY_SHIELD, 4500, "The durability of the Sapphire Shield.");
-        turquoiseDurability = getInt("turquoiseDurability", CATEGORY_SHIELD, 3500, "The durability of the Turquoise Shield.");
-        moissaniteDurability = getInt("moissaniteDurability", CATEGORY_SHIELD, 5300, "The durability of the Moissanite Shield.");
-        onyxDurability = getInt("onyxDurability", CATEGORY_SHIELD, 6200, "The durability of the Onyx Shield.");
-        grapheneDurability = getInt("grapheneDurability", CATEGORY_SHIELD, 7500, "The durability of the Graphene Shield.");
+        defaultDurability = getInt("copperDurability", CATEGORY_SHIELD, 336, "The durability of the default Shield.");
+        copperDurability = getInt("copperDurability", CATEGORY_SHIELD, 112, "The durability of the Copper Shield.");
+        tinDurability = getInt("tinDurability", CATEGORY_SHIELD, 84, "The durability of the Tin Shield.");
+        silverDurability = getInt("silverDurability", CATEGORY_SHIELD, 134, "The durability of the Silver Shield.");
+        bronzeDurability = getInt("bronzeDurability", CATEGORY_SHIELD, 299, "The durability of the Bronze Shield.");
+        cobaltDurability = getInt("cobaltDurability", CATEGORY_SHIELD, 388, "The durability of the Cobalt Shield.");
+        obsidianDurability = getInt("obsidianDurability", CATEGORY_SHIELD, 821, "The durability of the Obsidian Shield.");
+        sterlingDurability = getInt("sterlingDurability", CATEGORY_SHIELD, 333, "The durability of the Sterling Silver Shield.");
+        steelDurability = getInt("steelDurability", CATEGORY_SHIELD, 555, "The durability of the Steel Shield.");
+        amethystDurability = getInt("amethystDurability", CATEGORY_SHIELD, 420, "The durability of the Amethyst Shield.");
+        emeraldDurability = getInt("emeraldDurability", CATEGORY_SHIELD, 500, "The durability of the Emerald Shield.");
+        topazDurability = getInt("topazDurability", CATEGORY_SHIELD, 632, "The durability of the Topaz Shield.");
+        tourmalineDurability = getInt("tourmalineDurability", CATEGORY_SHIELD, 621, "The durability of the Tourmaline Shield.");
+        tanzaniteDurability = getInt("tanzaniteDurability", CATEGORY_SHIELD, 784, "The durability of the Tanzanite Shield.");
+        rubyDurability = getInt("rubyDurability", CATEGORY_SHIELD, 809, "The durability of the Ruby Shield.");
+        sapphireDurability = getInt("sapphireDurability", CATEGORY_SHIELD, 711, "The durability of the Sapphire Shield.");
+        turquoiseDurability = getInt("turquoiseDurability", CATEGORY_SHIELD, 1000, "The durability of the Turquoise Shield.");
+        moissaniteDurability = getInt("moissaniteDurability", CATEGORY_SHIELD, 913, "The durability of the Moissanite Shield.");
+        onyxDurability = getInt("onyxDurability", CATEGORY_SHIELD, 1111, "The durability of the Onyx Shield.");
+        grapheneDurability = getInt("grapheneDurability", CATEGORY_SHIELD, 1333, "The durability of the Graphene Shield.");
 //        diamondDurability = getInt("diamondDurability", CATEGORY_SHIELD, 4600,
 //                "The durability of the Diamond Shield.");
 //        netheriteDurability = getInt("netheriteDurability", CATEGORY_SHIELD, 6300,

@@ -13,7 +13,7 @@
             "item": "minecraft:copper_ingot"
         },
         {
-            "item": "mores:tin_ingot"
+            "tag": "forge:ingots/tin"
         }
     ],
     "catalyst": {

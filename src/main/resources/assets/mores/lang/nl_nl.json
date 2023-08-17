@@ -2,13 +2,20 @@
   "mores.shield_damage_reduction" : "Schild schadeverlaging",
   "mores.shield_blocking" : "Schild aan het blokkeren",
 
+  "item.mores.cipher_music_disc" : "Muziekplaat",
+  "item.mores.cipher_music_disc.desc" : "LEMMiNO - Cipher (BGM)",
+
+  "item.mores.velvet": "Velvet",
+  "item.mores.carrot_pie": "Worteltaart",
+  "item.mores.chocolate": "Chocolade",
+
   "block.mores.alloy_furnace": "Legeringsoven",
   "container.alloy_furnace": "Legeringsoven",
 
-  "item.mores.raw_copper" : "Ruw Koper",
-  "item.mores.raw_tin" : "Ruw Tin",
-  "item.mores.raw_silver" : "Ruw Zilver",
-  "item.mores.raw_cobalt" : "Ruw Kobalt",
+  "item.mores.raw_copper" : "Ruw koper",
+  "item.mores.raw_tin" : "Ruw tin",
+  "item.mores.raw_silver" : "Ruw zilver",
+  "item.mores.raw_cobalt" : "Ruw kobalt",
 
   "item.mores.wood_battleaxe": "Houten strijdbijl",
   "item.mores.wood_mace": "Houten strijdknots",
@@ -176,6 +183,7 @@
 
   "item.mores.obsidian_horse_armor": "Obsidianen paardenharnas",
 
+  "item.mores.obsidian_ingot" : "Obsidiaanstaaf",
   "item.mores.obsidian_sword": "Obsidianen zwaard",
   "item.mores.obsidian_shovel": "Obsidianen schep",
   "item.mores.obsidian_pickaxe": "Obsidianen houweel",

@@ -25,7 +25,7 @@
     },
     "G":
     {
-      "item": "mores:ruby_gem"
+      "tag": "forge:gems/ruby"
     }
   },
 

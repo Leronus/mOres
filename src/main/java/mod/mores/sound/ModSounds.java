@@ -18,6 +18,9 @@ public class ModSounds {
 //    public static final RegistryObject<SoundEvent> DARUDE_SANDSTORM = registerSoundEvent("darude_sandstorm");
 //    public static final RegistryObject<SoundEvent> RICK_ASTLEY = registerSoundEvent("rick_astley");
 //    public static final RegistryObject<SoundEvent> CRAZY_FROG = registerSoundEvent("crazy_frog");
+
+    public static final RegistryObject<SoundEvent> CIPHER = registerSoundEvent("cipher");
+
     public static final RegistryObject<SoundEvent> IM_BLUE = registerSoundEvent("im_blue");
     public static final RegistryObject<SoundEvent> MY_HORSE = registerSoundEvent("my_horse");
 

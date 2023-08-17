@@ -24,7 +24,7 @@ public class ModelHandler {
                     (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getUseItem() == stack ? 1.0F : 0.0F,
                     ModItems.COPPER_SHIELD.get(), ModItems.TIN_SHIELD.get(), ModItems.BRONZE_SHIELD.get(),
                     ModItems.SILVER_SHIELD.get(), ModItems.COBALT_SHIELD.get(),
-//                    ModItems.AMETHYST_SHIELD.get(),
+                    ModItems.AMETHYST_SHIELD.get(),
                     ModItems.EMERALD_SHIELD.get(),
                     ModItems.OBSIDIAN_SHIELD.get(), ModItems.STERLING_SHIELD.get(), ModItems.STEEL_SHIELD.get(),
                     ModItems.TOPAZ_SHIELD.get(), ModItems.TOURMALINE_SHIELD.get(), ModItems.TANZANITE_SHIELD.get(),

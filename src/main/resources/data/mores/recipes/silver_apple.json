@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "mores:silver_ingot"
+      "tag": "forge:ingots/silver"
     },
     "X": {
       "item": "minecraft:apple"

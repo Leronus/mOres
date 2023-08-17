@@ -58,5 +58,15 @@
         "stream" : true
       }
     ]
+  },
+  "cipher": {
+    "category": "music",
+    "subtitle" : "sound.mores.cipher",
+    "sounds" : [
+      {
+        "name" : "mores:music/cipher",
+        "stream" : true
+      }
+    ]
   }
 }
