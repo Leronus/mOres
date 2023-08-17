@@ -24,5 +24,7 @@ public class ModRecipes
     public static final RegistryObject<RecipeSerializer<AlloyRecipe>> ALLOY_SERIALIZER =
             RECIPE_SERIALIZERS.register(IAlloyRecipe.TYPE_ID.getPath(), () -> new AlloyRecipe.AlloyRecipeSerializer());
 
+    public static final RegistryObject<RecipeSerializer<ShieldRecipe>> SHIELD_SERIALIZER =
+            RECIPE_SERIALIZERS.register("shield_decoration", ()-> ShieldRecipe.SERIALIZER);
 
 } // end class ModRecipes

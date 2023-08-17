@@ -1,5 +1,6 @@
 Release v3.2.0
-- Added missing recipes for the shields
+- Added missing crafting recipes for the shields
+- Added recipes to craft banners with shields
 - Added tags to recipes to make the items compatible with other mods
 - Added recipes to smelt raw metal blocks directly into their respective blocks (copper, gold, tin, silver, iron & cobalt)
 - Added silver, cobalt, bronze, sterling steel, silver & all gemstone blocks as base blocks for the beacon

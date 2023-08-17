@@ -14,9 +14,9 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.1.0'
-group = 'mod.mores.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'mores'
+version = "${mod_version}-mc${mc_version}"
+group = 'mod.leronus.mores'
+archivesBaseName = 'mOres'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -80,7 +80,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
     runtimeOnly fg.deobf("curse.maven:xray-256256:3712732") //XRay for testing ore gen
     //runtimeOnly fg.deobf("curse.maven:hwyla-253449:3033593") // Hwyla for tooltip
     //runtimeOnly fg.deobf("curse.maven:waila_harvestability-79287:3289488") // Harvestability tooltip
@@ -89,13 +89,13 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title": "mOres",
-                "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v3.1.0",
-                "Implementation-Title": project.name,
-                "Implementation-Version": project.jar.archiveVersion,
-                "Implementation-Vendor" :"ItsInfinite",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Specification-Title"     : "mOres",
+                "Specification-Vendor"    : "ItsInfinite",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "leronus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
         ])
     }
 }
