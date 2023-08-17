@@ -35,7 +35,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'mores'
-            args '-mixin.config=shieldsplus.mixins.json'
+            args '-mixin.config=mores.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -45,13 +45,10 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'mores'
-
+            args '-mixin.config=mores.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -60,13 +57,10 @@ minecraft {
         }
         gameTestServer {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'mores'
-
+            args '-mixin.config=mores.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -76,14 +70,10 @@ minecraft {
 
         data {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             args '--mod', 'mores', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-
             mods {
                 mores {
                     source sourceSets.main
@@ -98,7 +88,6 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven { url "https://www.cursemaven.com" }
-
     maven {
         // location of the maven that hosts JEI files
         name = "Progwml6 maven"
@@ -118,7 +107,6 @@ mixin {
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 //    runtimeOnly fg.deobf("curse.maven:xray-256256:4248118") //X-Ray
-
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }
 

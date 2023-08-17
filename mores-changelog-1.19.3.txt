@@ -1,3 +1,6 @@
+Release v4.6.2
+- Fixed mOres shields not rendering properly when blocking
+
 Release v4.6.1
 - Added alloy furnace to the creative mode tabs
 - Fixed a shield bug relating to how much damage is blocked
