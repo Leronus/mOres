@@ -1,4 +1,7 @@
 
+- Add disk drops for mobs killing duck
+- Make the advancements translatable
+
 Future:
 - Add enabling/disabling of ores & duck by looking at SimpleOres config
 - Add ore deposits to config

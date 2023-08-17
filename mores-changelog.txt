@@ -1,16 +1,7 @@
-v5.1.0 (1.20.1)
-- Updated to 1.20.1
-
-v5.0.0 (1.20)
-- Updated to 1.20
-
-v4.8.0 (1.19.4)
-- Updated to 1.19.4
-
-
-v4.6.0 (1.19.3)
-- Updated to 1.19.3
-
+v4.3.8 (1.19.2)
+- Added amethyst block
+- Fixed British translation not working
+- Minor change in Dutch translation
 
 v4.3.7 (1.19.2)
 - Added recipes for smelting raw metal blocks (tin, copper, iron, silver, gold & cobalt) to blocks directly

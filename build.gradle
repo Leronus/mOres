@@ -5,9 +5,9 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '4.3.6'
-group = 'mod.leronus.mores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'mores'
+version = "${mod_version}-mc${mc_version}"
+group = 'mod.leronus.mores'
+archivesBaseName = 'mOres'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
     // compile against the JEI API but do not include it at runtime
     compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
@@ -116,13 +116,13 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title": "mOres",
-                "Specification-Vendor": "ItsInfinite",
-                "Specification-Version": "v4.3.6",
-                "Implementation-Title": project.name,
-                "Implementation-Version": project.jar.archiveVersion,
-                "Implementation-Vendor" :"ItsInfinite",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Specification-Title"     : "mOres",
+                "Specification-Vendor"    : "ItsInfinite",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "leronus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
         ])
     }
 }

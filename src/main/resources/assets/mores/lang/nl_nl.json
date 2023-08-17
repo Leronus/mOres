@@ -49,10 +49,10 @@
   "block.mores.nether_anthracite_ore" : "Netheranthracieterts",
   "block.mores.deepslate_anthracite_ore" : "Deepslateanthracieterts",
 
-  "item.mores.raw_copper" : "Ruw Koper",
-  "item.mores.raw_tin" : "Ruw Tin",
-  "item.mores.raw_silver" : "Ruw Zilver",
-  "item.mores.raw_cobalt" : "Ruw Kobalt",
+  "item.mores.raw_copper" : "Ruw koper",
+  "item.mores.raw_tin" : "Ruw tin",
+  "item.mores.raw_silver" : "Ruw zilver",
+  "item.mores.raw_cobalt" : "Ruw kobalt",
 
   "item.mores.wood_battleaxe": "Houten strijdbijl",
   "item.mores.wood_mace": "Houten strijdknots",
