@@ -1,5 +1,6 @@
 Release v4.6.2
 - Fixed mOres shields not rendering properly when blocking
+- Added amethyst block which can be crafted with 9 amethyst shards
 
 Release v4.6.1
 - Added alloy furnace to the creative mode tabs
