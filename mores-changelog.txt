@@ -1,3 +1,9 @@
+v4.4.0 (1.19.2)
+- Updated all shield textures
+- Updated all silver textures
+- Updated all ruby tool and weapon textures
+- Updated obsidian battleaxe texture
+
 v4.3.8 (1.19.2)
 - Added amethyst block
 - Fixed British translation not working
