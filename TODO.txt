@@ -1,4 +1,13 @@
 
+- Shield textures
+- Gold mace
+- Copper battleaxe
+- Topaz & tanzanite mace/battleaxe brightness
+- Onyx battleaxe / mace?
+- Turquoise battleaxe / mace?
+- Diamond battleaxe / mace?
+
+
 Future:
 - Add enabling/disabling of ores & duck by looking at SimpleOres config
 - Add ore deposits to config
