@@ -95,6 +95,7 @@ public class Mores {
             event.accept(ModBlocks.SILVER_BLOCK);
             event.accept(ModBlocks.COBALT_BLOCK);
             event.accept(ModBlocks.STERLING_BLOCK);
+            event.accept(ModBlocks.AMETHYST_BLOCK);
             event.accept(ModBlocks.STEEL_BLOCK);
             event.accept(ModBlocks.TOPAZ_BLOCK);
             event.accept(ModBlocks.TOURMALINE_BLOCK);
@@ -462,6 +463,7 @@ public class Mores {
             event.accept(ModBlocks.SILVER_BLOCK);
             event.accept(ModBlocks.COBALT_BLOCK);
             event.accept(ModBlocks.STERLING_BLOCK);
+            event.accept(ModBlocks.AMETHYST_BLOCK);
             event.accept(ModBlocks.STEEL_BLOCK);
             event.accept(ModBlocks.TOPAZ_BLOCK);
             event.accept(ModBlocks.TOURMALINE_BLOCK);

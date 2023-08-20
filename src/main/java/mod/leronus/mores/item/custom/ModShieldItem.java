@@ -2,7 +2,6 @@ package mod.leronus.mores.item.custom;
 
 import mod.leronus.mores.api.client.ClientMaterials;
 import mod.leronus.mores.item.client.ShieldBlockEntityRenderer;
-import net.minecraft.ChatFormatting;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.resources.model.Material;
@@ -18,7 +17,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.text.DecimalFormat;
 import java.util.List;
 import java.util.function.Consumer;
 

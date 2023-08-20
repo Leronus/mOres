@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "mores:amethyst_block",
     "mores:cobalt_block",
     "mores:raw_cobalt_block",
     "mores:cobalt_ore",

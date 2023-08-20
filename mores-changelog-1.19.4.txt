@@ -1,3 +1,13 @@
+Release v4.8.3 (1.19.4)
+- Added amethyst block
+- Updated all shield textures
+- Updated all silver textures
+- Updated all ruby tool and weapon textures
+- Updated obsidian battleaxe texture
+
+Release v4.8.2 (1.19.4)
+- Added alloy furnace to creative mode tabs
+
 Release v4.8.1 (1.19.4)
 - Fixed autosmelt for ruby tools
 
