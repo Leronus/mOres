@@ -1,3 +1,10 @@
+Release v5.3.0
+- Fixed blocking shield animations for mOres shields
+- Updated all shield textures
+- Updated all silver textures
+- Updated all ruby tool and weapon textures
+- Updated obsidian battleaxe texture
+
 Release v5.2.0
 - Added ALL mOres materials as armor trims and made ALL mOres armor trimmable (with both vanilla and mOres materials; vanilla armor can also be trimmed with mOres materials)
 - Added a translation file for British English (was American/Dutch/Chinese before)
