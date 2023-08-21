@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "mores:amethyst_block",
     "mores:topaz_ore",
     "mores:tourmaline_ore",
     "mores:ruby_ore",
