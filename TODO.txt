@@ -1,6 +1,5 @@
+- Add amethyst block
 
-- Loottable update (specifically for obsidian smithing upgrade)
-- Add armor trims
 - Add shields to combat creative mode tab
 
 
