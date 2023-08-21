@@ -1,3 +1,22 @@
+v4.4.2 (1.19.2)
+-
+
+v4.4.1 (1.19.2)
+- Updated all moissanite tools & weapons textures
+- Updated all tanzanite tools & weapons textures
+- Updated all tourmaline tools & weapons textures
+- Updated all topaz tools & weapons textures
+- Updated all emerald tools & weapons textures
+- Updated all turquoise tools, weapons & armor textures
+- Updated all sapphire tools and weapons textures
+- Updated all emerald tools and weapons textures
+- Updated all turquoise tools, weapons & armor textures
+- Updated gold, iron, cobalt, copper, diamond and sterling silver battleaxe, dagger & mace textures
+- Updated tin battleaxe & dagger texture
+- Updated copper sword texture
+- Updated raw cobalt texture
+- Updated tanzanite & moissanite gem textures
+
 v4.4.0 (1.19.2)
 - Updated all shield textures
 - Updated all silver textures
