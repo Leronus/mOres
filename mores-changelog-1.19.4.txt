@@ -1,4 +1,24 @@
+Release v4.8.4 (1.19.4)
+- Fixed amethyst block not being minable with any pickaxe (requires iron or up)
+- Updated all sapphire tools and weapon textures
+- Updated all moissanite tools & weapons textures
+- Updated all tanzanite tools & weapons textures
+- Updated all tourmaline tools & weapons textures
+- Updated all topaz tools & weapons textures
+- Updated all emerald tools & weapons textures
+- Updated all turquoise tools, weapons & armor textures
+- Updated all sapphire tools and weapons textures
+- Updated all emerald tools and weapons textures
+- Updated all turquoise tools, weapons & armor textures
+- Updated gold, iron, cobalt, copper, diamond and sterling silver battleaxe, dagger & mace textures
+- Updated tin battleaxe & dagger texture
+- Updated copper sword texture
+- Updated raw cobalt texture
+- Updated tanzanite & moissanite gem
+
+
 Release v4.8.3 (1.19.4)
+- Fixed blocking shield animation
 - Added amethyst block
 - Updated all shield textures
 - Updated all silver textures
