@@ -4,6 +4,7 @@ import mod.leronus.mores.Mores;
 import mod.leronus.mores.api.helpers.LightUtils;
 import mod.leronus.mores.block.custom.AlloyFurnaceBlock;
 import mod.leronus.mores.item.ModItems;
+import mod.leronus.mores.item.ModTabs;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -58,6 +59,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.COLOR_BROWN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> STERLING_BLOCK = registerBlock("sterling_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> AMETHYST_BLOCK = registerBlock("amethyst_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).strength(5.0F, 6.0F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).mapColor(MapColor.COLOR_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).mapColor(MapColor.COLOR_LIGHT_BLUE).strength(3.0F, 3.0F).sound(SoundType.STONE).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
