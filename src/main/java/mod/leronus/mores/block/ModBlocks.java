@@ -1,10 +1,7 @@
 package mod.leronus.mores.block;
 
 import mod.leronus.mores.Mores;
-import mod.leronus.mores.api.helpers.LightUtils;
-import mod.leronus.mores.block.custom.AlloyFurnaceBlock;
 import mod.leronus.mores.item.ModItems;
-import mod.leronus.mores.item.ModTabs;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -13,7 +10,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -96,7 +92,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GRAPHENE_BLOCK = registerBlock("graphene_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).mapColor(MapColor.COLOR_GREEN).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.copy(Blocks.FURNACE).mapColor(MapColor.COLOR_LIGHT_GRAY).strength(4.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))));
+//    public static final RegistryObject<AlloyFurnaceBlock> ALLOY_FURNACE = registerBlock("alloy_furnace", () -> new AlloyFurnaceBlock(BlockBehaviour.Properties.copy(Blocks.FURNACE).mapColor(MapColor.COLOR_LIGHT_GRAY).strength(4.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops().lightLevel(LightUtils.setSwitchedLight(BlockStateProperties.LIT, 13))));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
