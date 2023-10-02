@@ -87,6 +87,7 @@ mixin {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
+    runtimeOnly fg.deobf("curse.maven:xray-256256:4595142") //X-Ray
 
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }

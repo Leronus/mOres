@@ -16,6 +16,8 @@ public class ModLootModifiers {
     public static final RegistryObject<Codec<AutoSmeltModifier>> AUTO_SMELT =
             LOOT_MODIFIER_SERIALIZERS.register("auto_smelt_tool", ()-> AutoSmeltModifier.CODEC);
 
+    public static final RegistryObject<Codec<? extends IGlobalLootModifier>> ADD_ITEM =
+            LOOT_MODIFIER_SERIALIZERS.register("add_item", AddItemModifier.CODEC);
 
     public static void register(IEventBus bus) {
         LOOT_MODIFIER_SERIALIZERS.register(bus);
