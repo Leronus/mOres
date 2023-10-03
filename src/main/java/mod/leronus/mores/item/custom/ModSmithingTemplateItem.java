@@ -27,6 +27,30 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
     private static final Component OBSIDIAN_UPGRADE_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.obsidian_upgrade.base_slot_description")));
     private static final Component OBSIDIAN_UPGRADE_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.obsidian_upgrade.additions_slot_description")));
 
+    private static final Component BRONZE_ALLOY = Component.translatable(Util.makeDescriptionId("alloy", new ResourceLocation(Mores.MODID,"bronze_alloy"))).withStyle(TITLE_FORMAT);
+    private static final Component BRONZE_ALLOY_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.bronze_alloy.applies_to"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component BRONZE_ALLOY_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.bronze_alloy.ingredients"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component BRONZE_ALLOY_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.bronze_alloy.base_slot_description")));
+    private static final Component BRONZE_ALLOY_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.bronze_alloy.additions_slot_description")));
+
+    private static final Component STERLING_ALLOY = Component.translatable(Util.makeDescriptionId("alloy", new ResourceLocation(Mores.MODID,"sterling_alloy"))).withStyle(TITLE_FORMAT);
+    private static final Component STERLING_ALLOY_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.sterling_alloy.applies_to"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component STERLING_ALLOY_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.sterling_alloy.ingredients"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component STERLING_ALLOY_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.sterling_alloy.base_slot_description")));
+    private static final Component STERLING_ALLOY_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.sterling_alloy.additions_slot_description")));
+
+    private static final Component STEEL_ALLOY = Component.translatable(Util.makeDescriptionId("alloy", new ResourceLocation(Mores.MODID,"steel_alloy"))).withStyle(TITLE_FORMAT);
+    private static final Component STEEL_ALLOY_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.steel_alloy.applies_to"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component STEEL_ALLOY_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.steel_alloy.ingredients"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component STEEL_ALLOY_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.steel_alloy.base_slot_description")));
+    private static final Component STEEL_ALLOY_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.steel_alloy.additions_slot_description")));
+
+    private static final Component GRAPHENE_ALLOY = Component.translatable(Util.makeDescriptionId("alloy", new ResourceLocation(Mores.MODID,"graphene_alloy"))).withStyle(TITLE_FORMAT);
+    private static final Component GRAPHENE_ALLOY_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.graphene_alloy.applies_to"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component GRAPHENE_ALLOY_INGREDIENTS = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.graphene_alloy.ingredients"))).withStyle(DESCRIPTION_FORMAT);
+    private static final Component GRAPHENE_ALLOY_BASE_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.graphene_alloy.base_slot_description")));
+    private static final Component GRAPHENE_ALLOY_ADDITIONS_SLOT_DESCRIPTION = Component.translatable(Util.makeDescriptionId("item", new ResourceLocation(Mores.MODID,"smithing_template.graphene_alloy.additions_slot_description")));
+
     private static final ResourceLocation EMPTY_SLOT_HELMET = new ResourceLocation("item/empty_armor_slot_helmet");
     private static final ResourceLocation EMPTY_SLOT_CHESTPLATE = new ResourceLocation("item/empty_armor_slot_chestplate");
     private static final ResourceLocation EMPTY_SLOT_LEGGINGS = new ResourceLocation("item/empty_armor_slot_leggings");
@@ -43,26 +67,60 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
     private static final ResourceLocation EMPTY_SLOT_DIAMOND = new ResourceLocation("item/empty_slot_diamond");
     private static final ResourceLocation EMPTY_SLOT_LAPIS_LAZULI = new ResourceLocation("item/empty_slot_lapis_lazuli");
     private static final ResourceLocation EMPTY_SLOT_AMETHYST_SHARD = new ResourceLocation("item/empty_slot_amethyst_shard");
-    private static final ResourceLocation EMPTY_SLOT_BATTLEAXE = new ResourceLocation(Mores.MODID, "item/empty_battleaxe");
-    private static final ResourceLocation EMPTY_SLOT_MACE = new ResourceLocation(Mores.MODID,"item/empty_mace");
-    private static final ResourceLocation EMPTY_SLOT_DAGGER = new ResourceLocation(Mores.MODID,"item/empty_dagger");
+    //Mores location
+    private static final ResourceLocation EMPTY_SLOT_COAL = new ResourceLocation(Mores.MODID, "item/empty_slot_coal");
+    private static final ResourceLocation EMPTY_SLOT_BATTLEAXE = new ResourceLocation(Mores.MODID, "item/empty_slot_battleaxe");
+    private static final ResourceLocation EMPTY_SLOT_MACE = new ResourceLocation(Mores.MODID,"item/empty_slot_mace");
+    private static final ResourceLocation EMPTY_SLOT_DAGGER = new ResourceLocation(Mores.MODID,"item/empty_slot_dagger");
 
-
+    //Constructor
     public ModSmithingTemplateItem(Component appliesTo, Component ingredients, Component upgradeDescription, Component baseSlotDescription, Component additionsSlotDescription, List<ResourceLocation> baseSlotEmptyIcons, List<ResourceLocation> additionalSlotEmptyIcons) {
         super(appliesTo, ingredients, upgradeDescription, baseSlotDescription, additionsSlotDescription, baseSlotEmptyIcons, additionalSlotEmptyIcons);
     }
 
+    //Upgrade Templates
     public static SmithingTemplateItem createObsidianUpgradeTemplate() {
         return new SmithingTemplateItem(OBSIDIAN_UPGRADE_APPLIES_TO, OBSIDIAN_UPGRADE_INGREDIENTS, OBSIDIAN_UPGRADE, OBSIDIAN_UPGRADE_BASE_SLOT_DESCRIPTION, OBSIDIAN_UPGRADE_ADDITIONS_SLOT_DESCRIPTION, createObsidianUpgradeIconList(), createObsidianUpgradeMaterialList());
     }
+
+
+    //Alloy Templates
+    public static SmithingTemplateItem createBronzeAlloyTemplate() {
+        return new SmithingTemplateItem(BRONZE_ALLOY_APPLIES_TO, BRONZE_ALLOY_INGREDIENTS, BRONZE_ALLOY, BRONZE_ALLOY_BASE_SLOT_DESCRIPTION, BRONZE_ALLOY_ADDITIONS_SLOT_DESCRIPTION, createIngotAlloyIconList(), createObsidianUpgradeMaterialList());
+    }
+    public static SmithingTemplateItem createSterlingAlloyTemplate() {
+        return new SmithingTemplateItem(STERLING_ALLOY_APPLIES_TO, STERLING_ALLOY_INGREDIENTS, STERLING_ALLOY, STERLING_ALLOY_BASE_SLOT_DESCRIPTION, STERLING_ALLOY_ADDITIONS_SLOT_DESCRIPTION, createIngotAlloyIconList(), createIngotAlloyIconList());
+    }
+
+    public static SmithingTemplateItem createSteelAlloyTemplate() {
+        return new SmithingTemplateItem(STEEL_ALLOY_APPLIES_TO, STEEL_ALLOY_INGREDIENTS, STEEL_ALLOY, STEEL_ALLOY_BASE_SLOT_DESCRIPTION, STEEL_ALLOY_ADDITIONS_SLOT_DESCRIPTION, createIngotAlloyIconList(), createCoalIconList());
+    }
+
+    public static SmithingTemplateItem createGrapheneAlloyTemplate() {
+        return new SmithingTemplateItem(GRAPHENE_ALLOY_APPLIES_TO, GRAPHENE_ALLOY_INGREDIENTS, GRAPHENE_ALLOY, GRAPHENE_ALLOY_BASE_SLOT_DESCRIPTION, GRAPHENE_ALLOY_ADDITIONS_SLOT_DESCRIPTION, createGemAlloyIconList(), createGemAlloyIconList());
+    }
+
+
+
+    //Icon Lists
     private static List<ResourceLocation> createObsidianUpgradeIconList() {
         return List.of(EMPTY_SLOT_BATTLEAXE, EMPTY_SLOT_MACE, EMPTY_SLOT_DAGGER, EMPTY_SLOT_HELMET, EMPTY_SLOT_SWORD, EMPTY_SLOT_CHESTPLATE, EMPTY_SLOT_PICKAXE, EMPTY_SLOT_LEGGINGS, EMPTY_SLOT_AXE, EMPTY_SLOT_BOOTS, EMPTY_SLOT_HOE, EMPTY_SLOT_SHOVEL);
+    }
+    private static List<ResourceLocation> createIngotAlloyIconList() {
+        return List.of(EMPTY_SLOT_INGOT);
+    }
+
+    private static List<ResourceLocation> createGemAlloyIconList() {
+        return List.of(EMPTY_SLOT_DIAMOND);
     }
 
     private static List<ResourceLocation> createObsidianUpgradeMaterialList() {
         return List.of(EMPTY_SLOT_INGOT);
     }
 
+    private static List<ResourceLocation> createCoalIconList() {
+        return List.of(EMPTY_SLOT_COAL);
+    }
 
     public static SmithingTemplateItem createArmorTrimTemplate(ResourceKey<TrimPattern> p_266875_) {
         return createArmorTrimTemplate(p_266875_.location());
