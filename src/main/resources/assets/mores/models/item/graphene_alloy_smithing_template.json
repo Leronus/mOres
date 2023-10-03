@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "mores:item/bronze_alloy_smithing_template"
+    "layer0": "mores:item/graphene_alloy_smithing_template"
   }
 }
