@@ -240,7 +240,7 @@
   "item.mores.obsidian_chestplate" : "黑曜石胸甲",
   "item.mores.obsidian_leggings" : "黑曜石护腿",
   "item.mores.obsidian_boots" : "黑曜石靴",
-  "item.mores.obsidian_upgrade_smithing_template" : "Obsidian Upgrade Smithing Template",
+  "item.mores.obsidian_upgrade_smithing_template" : "Smithing Template",
 
   "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamond Equipment",
   "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidian Ingot",
@@ -383,7 +383,7 @@
   "item.mores.bronze_leggings" : "青铜护腿",
   "item.mores.bronze_boots" : "青铜靴",
 
-  "item.mores.bronze_alloy_smithing_template" : "Bronze Alloy Smithing Template",
+  "item.mores.bronze_alloy_smithing_template" : "Smithing Template",
   "item.mores.smithing_template.bronze_alloy.applies_to" : "Copper Ingot",
   "item.mores.smithing_template.bronze_alloy.ingredients" : "Tin Ingot",
   "item.mores.smithing_template.bronze_alloy.base_slot_description" : "Add Copper Ingot",
@@ -439,7 +439,7 @@
   "item.mores.sterling_spear" : "标准银矛",
   "item.mores.sterling_shield" : "标准银盾牌",
 
-  "item.mores.sterling_alloy_smithing_template" : "标准银锭 Alloy Smithing Template",
+  "item.mores.sterling_alloy_smithing_template" : "Smithing Template",
   "item.mores.smithing_template.sterling_alloy.applies_to" : "Silver Ingot",
   "item.mores.smithing_template.sterling_alloy.ingredients" : "Copper Ingot",
   "item.mores.smithing_template.sterling_alloy.base_slot_description" : "Add Silver Ingot",
@@ -535,12 +535,11 @@
   "item.mores.graphene_leggings" : "石墨烯护腿",
   "item.mores.graphene_boots" : "石墨烯靴",
 
-  "item.mores.graphene_alloy_smithing_template" : "石墨烯 Alloy Smithing Template",
+  "item.mores.graphene_alloy_smithing_template" : "Smithing Template",
   "item.mores.smithing_template.graphene_alloy.applies_to" : "Turquoise",
   "item.mores.smithing_template.graphene_alloy.ingredients" : "Onyx",
   "item.mores.smithing_template.graphene_alloy.base_slot_description" : "Add Turquoise",
   "item.mores.smithing_template.graphene_alloy.additions_slot_description" : "Add Onyx",
-  "alloy.mores.graphene_alloy" : "石墨烯 Alloy",
   "alloy.mores.graphene_alloy" : "石墨烯 Alloy",
 
   "item.mores.chain" : "铁链",

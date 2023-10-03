@@ -234,7 +234,7 @@
   "item.mores.obsidian_chestplate": "Obsidianen borstplaat",
   "item.mores.obsidian_leggings": "Obsidianen beenstukken",
   "item.mores.obsidian_boots": "Obsidianen laarzen",
-  "item.mores.obsidian_upgrade_smithing_template" : "Obsidianen smeedmal",
+  "item.mores.obsidian_upgrade_smithing_template" : "Smeedmal",
 
   "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamanten uitrusting",
   "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidiaanstaaf",
@@ -351,7 +351,7 @@
   "item.mores.bronze_leggings": "Bronzen beenstukken",
   "item.mores.bronze_boots": "Bronzen laarzen",
 
-  "item.mores.bronze_alloy_smithing_template" : "Bronzen legeringssmeedmal",
+  "item.mores.bronze_alloy_smithing_template" : "Smeedmal",
   "item.mores.smithing_template.bronze_alloy.applies_to" : "Koperstaaf",
   "item.mores.smithing_template.bronze_alloy.ingredients" : "Tinstaaf",
   "item.mores.smithing_template.bronze_alloy.base_slot_description" : "Voeg koperstaaf toe",
@@ -378,7 +378,7 @@
   "item.mores.steel_leggings": "Koolstofstalen beenstukken",
   "item.mores.steel_boots": "Koolstofstalen laarzen",
 
-  "item.mores.steel_alloy_smithing_template" : "Stalen legeringssmeedmal",
+  "item.mores.steel_alloy_smithing_template" : "Smeedmal",
   "item.mores.smithing_template.steel_alloy.applies_to" : "IJzerstaaf",
   "item.mores.smithing_template.steel_alloy.ingredients" : "Kool",
   "item.mores.smithing_template.steel_alloy.base_slot_description" : "Voeg ijzerstaaf toe",
@@ -405,7 +405,7 @@
   "item.mores.sterling_dagger": "Sterling zilveren dolk",
   "item.mores.sterling_spear": "Sterling zilveren speer",
 
-  "item.mores.sterling_alloy_smithing_template" : "Sterling zilveren legeringssmeedmal",
+  "item.mores.sterling_alloy_smithing_template" : "Smeedmal",
   "item.mores.smithing_template.sterling_alloy.applies_to" : "Zilverstaaf",
   "item.mores.smithing_template.sterling_alloy.ingredients" : "Koperstaaf",
   "item.mores.smithing_template.sterling_alloy.base_slot_description" : "Voeg zilverstaaf toe",
@@ -498,7 +498,7 @@
   "item.mores.graphene_leggings": "Grafenen beenstukken",
   "item.mores.graphene_boots": "Grafenen laarzen",
 
-  "item.mores.graphene_alloy_smithing_template" : "Grafenen legeringssmeedmal",
+  "item.mores.graphene_alloy_smithing_template" : "Smeedmal",
   "item.mores.smithing_template.graphene_alloy.applies_to" : "Turkoois",
   "item.mores.smithing_template.graphene_alloy.ingredients" : "Onyx",
   "item.mores.smithing_template.graphene_alloy.base_slot_description" : "Voeg turkoois toe",
