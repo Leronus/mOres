@@ -1,8 +1,7 @@
 {
-    "pack": {
-        "description": "mOres resources",
-        "pack_format": 10,
-        "forge:resource_pack_format": 9,
-        "forge:data_pack_format": 10
-    }
+  "pack": {
+    "pack_format": 13,
+    "description": ""
+  }
 }
+
