@@ -384,13 +384,6 @@
   "item.mores.bronze_leggings" : "Bronze Leggings",
   "item.mores.bronze_boots" : "Bronze Boots",
 
-  "item.mores.bronze_alloy_smithing_template" : "Bronze Alloy Smithing Template",
-  "item.mores.smithing_template.bronze_alloy.applies_to" : "Copper Ingot",
-  "item.mores.smithing_template.bronze_alloy.ingredients" : "Tin Ingot",
-  "item.mores.smithing_template.bronze_alloy.base_slot_description" : "Add Copper Ingot",
-  "item.mores.smithing_template.bronze_alloy.additions_slot_description" : "Add Tin Ingot",
-  "alloy.mores.bronze_alloy" : "Bronze Alloy",
-
 
   "item.mores.steel_ingot" : "Carbon Steel Ingot",
   "item.mores.steel_horse_armor" : "Carbon Steel Horse Armour",
@@ -412,13 +405,6 @@
   "item.mores.steel_leggings" : "Carbon Steel Leggings",
   "item.mores.steel_boots" : "Carbon Steel Boots",
 
-  "item.mores.steel_alloy_smithing_template" : "Steel Alloy Smithing Template",
-  "item.mores.smithing_template.steel_alloy.applies_to" : "Iron Ingot",
-  "item.mores.smithing_template.steel_alloy.ingredients" : "Coal",
-  "item.mores.smithing_template.steel_alloy.base_slot_description" : "Add Iron Ingot",
-  "item.mores.smithing_template.steel_alloy.additions_slot_description" : "Add Coal",
-  "alloy.mores.steel_alloy" : "Steel Alloy",
-
 
   "item.mores.sterling_helmet" : "Sterling Silver Helmet",
   "item.mores.sterling_chestplate" : "Sterling Silver Chestplate",
@@ -439,13 +425,6 @@
   "item.mores.sterling_dagger" : "Sterling Silver Dagger",
   "item.mores.sterling_spear" : "Sterling Silver Spear",
   "item.mores.sterling_shield" : "Sterling Silver Shield",
-
-  "item.mores.sterling_alloy_smithing_template" : "Sterling Silver Alloy Smithing Template",
-  "item.mores.smithing_template.sterling_alloy.applies_to" : "Silver Ingot",
-  "item.mores.smithing_template.sterling_alloy.ingredients" : "Copper Ingot",
-  "item.mores.smithing_template.sterling_alloy.base_slot_description" : "Add Silver Ingot",
-  "item.mores.smithing_template.sterling_alloy.additions_slot_description" : "Add Copper Ingot",
-  "alloy.mores.sterling_alloy" : "Sterling Silver Alloy",
 
 
   "item.mores.tourmaline_gem" : "Tourmaline",
@@ -535,13 +514,6 @@
   "item.mores.graphene_chestplate" : "Graphene Chestplate",
   "item.mores.graphene_leggings" : "Graphene Leggings",
   "item.mores.graphene_boots" : "Graphene Boots",
-
-  "item.mores.graphene_alloy_smithing_template" : "Graphene Alloy Smithing Template",
-  "item.mores.smithing_template.graphene_alloy.applies_to" : "Turquoise",
-  "item.mores.smithing_template.graphene_alloy.ingredients" : "Onyx",
-  "item.mores.smithing_template.graphene_alloy.base_slot_description" : "Add Turquoise",
-  "item.mores.smithing_template.graphene_alloy.additions_slot_description" : "Add Onyx",
-  "alloy.mores.graphene_alloy" : "Graphene Alloy",
 
   "item.mores.chain" : "Metal Wire",
   "item.mores.tin_nugget" : "Tin Nugget",

@@ -174,11 +174,17 @@ public class DuckEntity extends Animal {
         return this.isDuckJockey();
     }
 
-    protected void positionRider(Entity rider, Entity.MoveFunction move) {
-        super.positionRider(rider, move);
-        if (rider instanceof LivingEntity) {
-            ((LivingEntity)rider).yBodyRot = this.yBodyRot;
+    protected void positionRider(Entity passenger, Entity.MoveFunction moveFunction) {
+        super.positionRider(passenger, moveFunction);
+        float f = Mth.sin(this.yBodyRot * ((float)Math.PI / 180F));
+        float f1 = Mth.cos(this.yBodyRot * ((float)Math.PI / 180F));
+        float f2 = 0.1F;
+        float f3 = 0.0F;
+        moveFunction.accept(passenger, this.getX() + (double)(0.1F * f), this.getY(0.5D) + passenger.getMyRidingOffset() + 0.0D, this.getZ() - (double)(0.1F * f1));
+        if (passenger instanceof LivingEntity) {
+            ((LivingEntity)passenger).yBodyRot = this.yBodyRot;
         }
+
     }
 
     /**
