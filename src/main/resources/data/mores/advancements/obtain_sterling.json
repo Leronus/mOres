@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:craft_alloy_furnace",
+  "parent": "mores:smelt_more",
   "criteria": {
     "obtain_sterling_ingot": {
       "trigger": "minecraft:inventory_changed",
