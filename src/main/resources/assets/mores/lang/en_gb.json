@@ -235,7 +235,7 @@
   "item.mores.obsidian_dagger" : "Obsidian Dagger",
   "item.mores.obsidian_spear" : "Obsidian Spear",
   "item.mores.obsidian_shield" : "Obsidian Shield",
-  "item.mores.obsidian_upgrade_smithing_template" : "Obsidian Upgrade Smithing Template",
+  "item.mores.obsidian_upgrade_smithing_template" : "Smithing Template",
 
   "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamond Equipment",
   "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidian Ingot",
