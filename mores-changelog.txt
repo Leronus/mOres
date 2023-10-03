@@ -74,7 +74,7 @@ v4.3.0 (1.19.2)
 - Added all new loot tables for chests
 - Added new cipher music disc
 - Added xp for nether silver ore and increased xp for nether anthracite
-- Added item drop event (when standing on turquoise block) to activate wortel 9 easter egg sound
+- Added item drop event (when standing on turquoise block) to activate wortel 9 Easter egg sound
 - Added √9 sound
 - Added velvet, carrot pie and chocolate food items
 - Added advancement for eating chocolate
@@ -116,7 +116,7 @@ v4.2.5 (1.19.2)
 -- Nerfed emerald attack damage by 0.3
 -- Buffed amethyst attack damage by 0.2
 -- Nerfed topaz and tourmaline efficiency by 0.5, nerfed atk dmg by 0.3
--- Tanzanite efficiency buff, enchantibility/durability nerf
+-- Tanzanite efficiency buff, enchantability/durability nerf
 -- Ruby minor enchantability nerf
 -- Onyx & Turquoise durability nerf
 -- Obsidian big buff all around
@@ -141,11 +141,11 @@ v4.2.4 (1.19.2)
 - Added obsidian ingot (used in smithing table)
 - Added fuel functionality for anthracite (has 2.5x burnTime of coal)
 - Added anthracite ore and nether anthracite ore (drops 1-3)
-- Added cobalt nugget (will be added to loottables later, plans for cobalt apple)
+- Added cobalt nugget (will be added to loot tables later, plans for cobalt apple)
 - Added some meme sounds that play when you die (for example to fall damage or lava) - Can be disabled in config!
 - Added shield recipes, changed a little since 1.16.5 mOres
 - Added simplified Chinese translation by sssssLug
-- Readded amethyst shield
+- Redid amethyst shield
 - Renamed chain to metal wire (chain already exists in vanilla)
 - Updated all obsidian textures
 - Updated graphene sword texture
@@ -163,7 +163,7 @@ v4.2.4 (1.19.2)
 
 v4.2.3 (1.19.2)
 - Updated raw tin, cobalt and silver texture
-- Added anthracite texture and fixed its ingame name
+- Added anthracite texture and fixed its translation
 - Fixed tooltips adding extra lines unnecessarily (added Dutch translation as well)
 
 - Rebalanced the armour:
@@ -171,11 +171,11 @@ v4.2.3 (1.19.2)
 -- silver slight durability nerf
 -- bronze durability nerf, armor point buff
 -- sterling silver toughness nerf
--- cobalt durability / enchantibility nerf
+-- cobalt durability / enchantability nerf
 -- obsidian armour point buff
 -- emerald buff
 -- topaz nerf
--- tourmaline enchantibility & toughness nerf, armour point buff
+-- tourmaline enchantability & toughness nerf, armour point buff
 -- tanzanite armour point buff
 -- onyx durability nerf
 -- graphene durability buff
