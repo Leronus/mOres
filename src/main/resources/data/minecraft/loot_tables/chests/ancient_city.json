@@ -437,6 +437,21 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:obsidian_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
+        }
+      ]
     }
   ]
 }
