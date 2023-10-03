@@ -1,0 +1,5 @@
+Release v5.4.0
+- Updated Minecraft version (1.20.2)
+- Removed alloy furnace (alloying is now done through smithing, using the new templates)
+
+
