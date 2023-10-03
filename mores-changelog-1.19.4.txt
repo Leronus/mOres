@@ -1,3 +1,6 @@
+Release v4.8.5 (1.19.4)
+- Updated Forge version (45.0.41 -> 45.2.2)
+
 Release v4.8.4 (1.19.4)
 - Fixed amethyst block not being minable with any pickaxe (requires iron or up)
 - Updated all sapphire tools and weapon textures
