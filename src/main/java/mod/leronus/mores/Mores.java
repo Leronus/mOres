@@ -443,10 +443,6 @@ public class Mores {
             event.accept(ModItems.GRAPHENE_GEM);
             event.accept(ModItems.CHAIN);
             event.accept(ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE);
-            event.accept(ModItems.BRONZE_ALLOY_SMITHING_TEMPLATE);
-            event.accept(ModItems.STEEL_ALLOY_SMITHING_TEMPLATE);
-            event.accept(ModItems.STERLING_ALLOY_SMITHING_TEMPLATE);
-            event.accept(ModItems.GRAPHENE_ALLOY_SMITHING_TEMPLATE);
         }
         //Spawn Eggs
         if(event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

@@ -1,29 +1,30 @@
 {
   "display": {
-    "title": "Less Shine, More Power",
-    "description": "Alloy a stronger version of silver using copper",
+    "title": "Alloying Time",
+    "description": "Craft your very first Alloy Furnace",
     "icon": {
-      "item": "mores:sterling_ingot"
+      "item": "mores:alloy_furnace"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:craft_alloy_furnace",
+  "parent": "mores:smelt_more",
   "criteria": {
-    "obtain_sterling_ingot": {
+    "obtain_alloy_furnace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["mores:sterling_ingot"]
+            "items":
+            ["mores:alloy_furnace"]
           }
         ]
       }
     }
   },
   "rewards": {
-    "experience": 35
+    "experience": 50
   }
 }

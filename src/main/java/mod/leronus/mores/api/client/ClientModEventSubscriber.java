@@ -1,9 +1,14 @@
 package mod.leronus.mores.api.client;
 
 import mod.leronus.mores.Mores;
+import mod.leronus.mores.block.ModContainers;
+import mod.leronus.mores.block.custom.AlloyFurnaceContainer;
+import mod.leronus.mores.block.custom.screen.AlloyFurnaceScreen;
 import mod.leronus.mores.entity.ModEntityTypes;
 import mod.leronus.mores.entity.client.DuckRenderer;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -29,10 +34,10 @@ public class ClientModEventSubscriber
     {
         // Register ContainerType Screens
         // ScreenManager.registerFactory is not safe to call during parallel mod loading, so we queue it to run later
-//        event.enqueueWork(() -> {
-//            MenuScreens.register((MenuType<AlloyFurnaceContainer>) ModContainers.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
-//            LOGGER.debug("Registered ContainerType Screens");
-//        });
+        event.enqueueWork(() -> {
+            MenuScreens.register((MenuType<AlloyFurnaceContainer>) ModContainers.ALLOY_FURNACE.get(), AlloyFurnaceScreen::new);
+            LOGGER.debug("Registered ContainerType Screens");
+        });
         //Register the duck entity client side
         EntityRenderers.register(ModEntityTypes.DUCK.get(), DuckRenderer::new);
     } // end onFMLClientSetupEvent

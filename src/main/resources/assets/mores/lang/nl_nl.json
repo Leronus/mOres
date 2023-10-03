@@ -239,7 +239,7 @@
   "item.mores.smithing_template.obsidian_upgrade.applies_to" : "Diamanten uitrusting",
   "item.mores.smithing_template.obsidian_upgrade.ingredients" : "Obsidiaanstaaf",
   "item.mores.smithing_template.obsidian_upgrade.base_slot_description" : "Voeg diamanten uitrusting, wapen of gereedschap toe",
-  "item.mores.smithing_template.obsidian_upgrade.additions_slot_description" : "Voeg obsidiaanstaaf toe",
+  "item.mores.smithing_template.obsidian_upgrade.additions_slot_description" : "Voeg obsidianen staaf toe",
   "upgrade.mores.obsidian_upgrade" : "Obsidiaan upgrade",
 
 
@@ -351,13 +351,6 @@
   "item.mores.bronze_leggings": "Bronzen beenstukken",
   "item.mores.bronze_boots": "Bronzen laarzen",
 
-  "item.mores.bronze_alloy_smithing_template" : "Bronzen legeringssmeedmal",
-  "item.mores.smithing_template.bronze_alloy.applies_to" : "Koperstaaf",
-  "item.mores.smithing_template.bronze_alloy.ingredients" : "Tinstaaf",
-  "item.mores.smithing_template.bronze_alloy.base_slot_description" : "Voeg koperstaaf toe",
-  "item.mores.smithing_template.bronze_alloy.additions_slot_description" : "Voeg tinstaaf toe",
-  "alloy.mores.bronze_alloy" : "Bronzen legering",
-
 
   "item.mores.steel_ingot": "Koolstofstaalstaaf",
   "item.mores.steel_horse_armor": "Koolstofstalen paardenharnas",
@@ -378,13 +371,6 @@
   "item.mores.steel_leggings": "Koolstofstalen beenstukken",
   "item.mores.steel_boots": "Koolstofstalen laarzen",
 
-  "item.mores.steel_alloy_smithing_template" : "Stalen legeringssmeedmal",
-  "item.mores.smithing_template.steel_alloy.applies_to" : "IJzerstaaf",
-  "item.mores.smithing_template.steel_alloy.ingredients" : "Kool",
-  "item.mores.smithing_template.steel_alloy.base_slot_description" : "Voeg ijzerstaaf toe",
-  "item.mores.smithing_template.steel_alloy.additions_slot_description" : "Voeg kool toe",
-  "alloy.mores.steel_alloy" : "Stalen legering",
-
 
   "item.mores.sterling_helmet": "Sterling zilveren helm",
   "item.mores.sterling_chestplate": "Sterling zilveren borstplaat",
@@ -404,13 +390,6 @@
   "item.mores.sterling_mace": "Sterling zilveren strijdknots",
   "item.mores.sterling_dagger": "Sterling zilveren dolk",
   "item.mores.sterling_spear": "Sterling zilveren speer",
-
-  "item.mores.sterling_alloy_smithing_template" : "Sterling zilveren legeringssmeedmal",
-  "item.mores.smithing_template.sterling_alloy.applies_to" : "Zilverstaaf",
-  "item.mores.smithing_template.sterling_alloy.ingredients" : "Koperstaaf",
-  "item.mores.smithing_template.sterling_alloy.base_slot_description" : "Voeg zilverstaaf toe",
-  "item.mores.smithing_template.sterling_alloy.additions_slot_description" : "Voeg koperstaaf toe",
-  "alloy.mores.sterling_alloy" : "Sterling zilveren legering",
 
 
   "item.mores.tourmaline_gem": "Toermalijn",
@@ -497,14 +476,6 @@
   "item.mores.graphene_chestplate": "Grafenen borstplaat",
   "item.mores.graphene_leggings": "Grafenen beenstukken",
   "item.mores.graphene_boots": "Grafenen laarzen",
-
-  "item.mores.graphene_alloy_smithing_template" : "Grafenen legeringssmeedmal",
-  "item.mores.smithing_template.graphene_alloy.applies_to" : "Turkoois",
-  "item.mores.smithing_template.graphene_alloy.ingredients" : "Onyx",
-  "item.mores.smithing_template.graphene_alloy.base_slot_description" : "Voeg turkoois toe",
-  "item.mores.smithing_template.graphene_alloy.additions_slot_description" : "Voeg onyx toe",
-  "alloy.mores.graphene_alloy" : "Grafenen legering",
-
 
 
   "item.mores.turquoise_gem": "Turkoois",
