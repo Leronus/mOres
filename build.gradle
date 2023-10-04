@@ -74,6 +74,7 @@ processResources {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:' + minecraft_version + '-' + forge_version
+//    runtimeOnly fg.deobf("curse.maven:xray-256256:4595142") //X-Ray
     implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:${terrablender_version}")
 }
 
