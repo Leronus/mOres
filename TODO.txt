@@ -1,6 +1,4 @@
-- Add amethyst block
-
-- Add shields to combat creative mode tab
+- Add new smithing templates to loottables
 
 
 

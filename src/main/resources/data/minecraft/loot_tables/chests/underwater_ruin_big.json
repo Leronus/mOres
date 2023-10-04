@@ -185,6 +185,30 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:bronze_alloy_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:sterling_alloy_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:steel_alloy_smithing_template"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        }
+      ]
     }
   ]
 }

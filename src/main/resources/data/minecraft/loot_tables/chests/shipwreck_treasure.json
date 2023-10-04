@@ -183,6 +183,25 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mores:steel_alloy_smithing_template"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "mores:sterling_alloy_smithing_template"
+        }
+      ]
     }
   ]
 }

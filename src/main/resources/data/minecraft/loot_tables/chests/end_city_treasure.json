@@ -497,6 +497,21 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mores:graphene_alloy_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone"
+        }
+      ]
     }
   ]
 }
