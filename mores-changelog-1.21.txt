@@ -1,3 +1,7 @@
+Release v5.3.4
+- Fixed music discs not working
+- Fixed spawn rate of mOres music discs in dungeons
+
 Release v5.3.3
 - Updated Forge version (47.2.1)
 - Fixed loot tables
