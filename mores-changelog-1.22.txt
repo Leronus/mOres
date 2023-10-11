@@ -1,5 +1,10 @@
+Release v5.4.1
+- Fixed music discs not working
+- Fixed spawn rate of mOres music discs in dungeons
+- Updated forge
+
 Release v5.4.0
 - Updated Minecraft version (1.20.2)
-- Removed alloy furnace (alloying is now done through smithing, using the new templates)
+- Removed alloy furnace (alloying is now done through smithing, using the new templates - they spawn mostly in ruined portals, dungeons and shipwrecks - the graphene one is found in an end city)
 
 

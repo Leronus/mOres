@@ -1,204 +1,127 @@
 buildscript {
     repositories {
-        maven { url = 'https://maven.minecraftforge.net/' }
+        // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
+        maven { url = 'https://maven.minecraftforge.net' }
         maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.+', changing: true
-        classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
-    }
-
-    gradle.projectsEvaluated {
-        tasks.withType(JavaCompile) {
-            options.compilerArgs << "-Xmaxerrs" << "1000"
-        }
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
     }
 }
-
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 plugins {
-    id "com.matthewprenger.cursegradle" version "1.4.0"
+    id 'eclipse'
+    id 'maven-publish'
 }
-
-apply plugin: 'maven-publish'
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'idea'
 apply plugin: 'org.spongepowered.mixin'
 
-repositories { mavenLocal() }
 
-group = "mod.leronus.mores"
-archivesBaseName = "${mod_name}"
-version = "${minecraft_version}-${mod_version}.${System.getenv().BUILD_NUMBER}"
-def mod_build_version = "${mod_version}.${System.getenv().BUILD_NUMBER}"
+version = "${mod_version}-mc${mc_version}"
+group = 'mod.leronus.mores'
+archivesBaseName = 'mOres'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: minecraft_version
-    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    mappings channel: 'official', version: "${mc_version}"
 
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
     runs {
-        client = {
-            workingDirectory = project.file("run")
-            source sourceSets.main
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'mores'
+            args '-mixin.config=mores.mixins.json'
+            mods {
+                mores {
+                    source sourceSets.main
+                }
+            }
         }
-        server = {
-            workingDirectory = project.file("run")
-            source sourceSets.main
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'mores'
+            args '-mixin.config=mores.mixins.json'
+            mods {
+                mores {
+                    source sourceSets.main
+                }
+            }
         }
         data {
-            workingDirectory = project.file("run")
-            source sourceSets.main
-            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/'),  '--existing', file('src/generated/resources/')
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
+            args '--mod', 'mores', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                mores {
+                    source sourceSets.main
+                }
+            }
         }
     }
 }
 
-// Configure  the source folders
-sourceSets {
-    main {
-        java {
-            srcDir "src/main/java"
-        }
-        resources {
-            srcDir "src/main/resources"
-            srcDir 'src/generated/resources'
-        }
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    flatDir {
+        dirs "libs"
     }
+    maven { url "https://www.cursemaven.com" }
 }
 
-processResources {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+mixin {
+    add sourceSets.main, "mores.refmap.json"
+    config 'mores.mixins.json'
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:' + minecraft_version + '-' + forge_version
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 //    runtimeOnly fg.deobf("curse.maven:xray-256256:4595142") //X-Ray
-    implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:${terrablender_version}")
+
+    annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }
 
 jar {
     manifest {
         attributes([
-                'Specification-Title'     : mod_name,
-                'Specification-Vendor'    : mod_author,
-                'Specification-Version'   : mod_build_version,
-                'Implementation-Title'    : project.name,
-                'Implementation-Version'  : mod_build_version,
-                'Implementation-Vendor'   : mod_author,
-                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                'Timestampe'              : System.currentTimeMillis(),
-                'Built-On-Java'           : "${System.getProperty('java.vm.version')} (${System.getProperty('java.vm.vendor')})",
-                'Build-On-Minecraft'      : minecraft_version
+                "Specification-Title"     : "mOres",
+                "Specification-Vendor"    : "ItsInfinite",
+                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "leronus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "MixinConfigs": "mores.mixins.json"
         ])
     }
 }
 
-task deobfJar(type: Jar) {
-    from sourceSets.main.output
-    classifier = 'deobf'
-}
-
-task apiJar(type: Jar) {
-    from(sourceSets.main.allJava) {
-        include "${mod_id}/api/**"
-    }
-    from (sourceSets.main.output) {
-        include 'LICENSE.txt'
-        include "${mod_id}/api/**"
-    }
-
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    classifier = 'api'
-}
-
-def changelog_file = rootProject.file("build/${mod_name}-${version}-changelog.txt")
-
-curseforge {
-    if (project.hasProperty('curseApiKey')) {
-        apiKey = project.getProperty('curseApiKey')
-    }
-    project {
-        id = mod_curseforge_id
-
-        if (changelog_file.exists()) {
-            changelog = changelog_file
-        }
-
-        releaseType = 'beta'
-        addGameVersion minecraft_version
-
-        mainArtifact(jar) {
-            displayName = "${mod_display_name} ${version}"
-        }
-
-        addArtifact deobfJar
-        addArtifact apiJar
-
-        relations {
-            requiredDependency 'terrablender'
-        }
-    }
-}
-
-artifacts {
-    if (changelog_file.exists()) {
-        archives changelog_file
-    }
-    archives jar
-    archives deobfJar
-    archives apiJar
-}
+jar.finalizedBy('reobfJar')
 
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            // We must use artifact jar to ensure the Forge dependency is excluded from the pom, breaking fg.deobf()
             artifact jar
-            artifact deobfJar
-            artifact apiJar
-            groupId project.group
-            artifactId project.archivesBaseName
-            version project.version
-
-            pom {
-                name = project.mod_name
-                description = project.mod_description
-                url = project.mod_git_url
-                scm {
-                    url = project.mod_git_url
-                    connection = project.mod_scm_url
-                    developerConnection = project.mod_scm_url
-                }
-                issueManagement {
-                    system = 'github'
-                    url = project.mod_issues_url
-                }
-                licenses {
-                    license {
-                        name = 'All Rights Reserved'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'leronus'
-                        name = 'Leronus'
-                    }
-                }
-            }
         }
     }
     repositories {
         maven {
-            url "https://maven.minecraftforge.net/releases/"
-            authentication {
-                basic(BasicAuthentication)
-            }
-            credentials {
-                username = System.env.MAVEN_USER ?:'fake'
-                password = System.env.MAVEN_PASSWORD ?:'news'
-            }
+            url "file://${project.projectDir}/mcmodsrepo"
         }
     }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
