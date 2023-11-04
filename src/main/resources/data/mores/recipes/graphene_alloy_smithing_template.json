@@ -8,7 +8,7 @@
       "tag": "minecraft:stone"
     },
     "S": {
-      "item": "mores:turquoise_alloy_smithing_template"
+      "item": "mores:graphene_alloy_smithing_template"
     }
   },
   "pattern": [
@@ -18,7 +18,7 @@
   ],
   "result": {
     "count": 2,
-    "item": "mores:turquoise_alloy_smithing_template"
+    "item": "mores:graphene_alloy_smithing_template"
   },
   "show_notification": true
 }

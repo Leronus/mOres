@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "mores:copper_ingot"
+      "item": "minecraft:copper_ingot"
     },
     "C": {
       "tag": "minecraft:stone"

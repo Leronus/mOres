@@ -15,7 +15,7 @@ public class ModTiers {
     public static final ForgeTier COPPER = new ForgeTier(1, 90, 5.0F, 1.5F, 4, BlockTags.NEEDS_STONE_TOOL,() -> Ingredient.of(Items.COPPER_INGOT));
     public static final ForgeTier SILVER = new ForgeTier(2, 230, 5.5F, 2.0F, 16, BlockTags.NEEDS_STONE_TOOL,() -> Ingredient.of(ModItems.SILVER_INGOT.get()));
     public static final ForgeTier BRONZE = new ForgeTier(2, 270, 6.0F, 2.0F, 7, BlockTags.NEEDS_STONE_TOOL,() -> Ingredient.of(ModItems.BRONZE_INGOT.get()));
-    public static final ForgeTier IRON = new ForgeTier(2, 250, 6.0F, 2.0F, 14, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(Items.DIAMOND));
+    public static final ForgeTier IRON = new ForgeTier(2, 250, 6.0F, 2.0F, 14, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(Items.IRON_INGOT));
     public static final ForgeTier STERLING = new ForgeTier(2, 320, 6.0F, 2.2F, 14, BlockTags.NEEDS_STONE_TOOL,() -> Ingredient.of(ModItems.STERLING_INGOT.get()));
     public static final ForgeTier COBALT = new ForgeTier(2, 350, 6.5F, 2.2F, 12, BlockTags.NEEDS_STONE_TOOL,() -> Ingredient.of(ModItems.COBALT_INGOT.get()));
     public static final ForgeTier STEEL = new ForgeTier(3, 600, 6.5F, 2.5F, 18, BlockTags.NEEDS_IRON_TOOL,() -> Ingredient.of(ModItems.STEEL_INGOT.get()));
