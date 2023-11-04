@@ -47,7 +47,6 @@
     "mores:deepslate_ruby_ore",
     "mores:deepslate_moissanite_ore",
     "mores:deepslate_turquoise_ore",
-    "mores:deepslate_anthracite_ore",
-    "mores:alloy_furnace"
+    "mores:deepslate_anthracite_ore"
   ]
 }
