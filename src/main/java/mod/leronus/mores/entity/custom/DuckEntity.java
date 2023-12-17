@@ -121,14 +121,14 @@ public class DuckEntity extends Animal {
     public void playAmbientSound() {
         SoundEvent soundevent = this.getAmbientSound();
         if (soundevent != null) {
-            this.playSound(soundevent, 0.2F, this.getVoicePitch());
+            this.playSound(soundevent, 0.15F, this.getVoicePitch());
         }
     }
     @Override
     protected void playHurtSound(DamageSource damageSource) {
         SoundEvent soundevent = this.getHurtSound(damageSource);
         if (soundevent != null) {
-            this.playSound(soundevent, 0.6F, this.getVoicePitch());
+            this.playSound(soundevent, 0.55F, this.getVoicePitch());
         }
     }
 
