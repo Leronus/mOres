@@ -6,9 +6,14 @@
   ],
   "spawners": {
     "type": "mores:duck",
-    "weight": 10,
+    "weight": 8,
     "minCount": 2,
     "maxCount": 4
-  }
-
+  },
+  "conditions": [
+    {
+      "type": "forge:location_predicate",
+      "predicate": "forge:avoid_caves"
+    }
+  ]
 }

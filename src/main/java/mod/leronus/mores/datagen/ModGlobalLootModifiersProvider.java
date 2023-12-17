@@ -17,22 +17,22 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
     @Override
     protected void start() {
-        add("obsidian_upgrade_smithing_template_hoglin_stable_chest", new AddItemModifier(new LootItemCondition[] {
-                LootItemRandomChanceCondition.randomChance(0.10f).build(),
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build() },
-                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
-
-        add("obsidian_upgrade_smithing_template_generic_chest", new AddItemModifier(new LootItemCondition[] {
-                LootItemRandomChanceCondition.randomChance(0.10f).build(),
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build() },
-                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
-
-        add("obsidian_upgrade_smithing_template_bridge_chest", new AddItemModifier(new LootItemCondition[] {
-                LootItemRandomChanceCondition.randomChance(0.10f).build(),
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build() },
-                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
-
-        add("obsidian_upgrade_smithing_template_treasure_chest", new AddItemModifier(new LootItemCondition[] {
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build() }, ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
+//        add("obsidian_upgrade_smithing_template_hoglin_stable_chest", new AddItemModifier(new LootItemCondition[] {
+//                LootItemRandomChanceCondition.randomChance(0.10f).build(),
+//                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build() },
+//                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
+//
+//        add("obsidian_upgrade_smithing_template_generic_chest", new AddItemModifier(new LootItemCondition[] {
+//                LootItemRandomChanceCondition.randomChance(0.10f).build(),
+//                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build() },
+//                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
+//
+//        add("obsidian_upgrade_smithing_template_bridge_chest", new AddItemModifier(new LootItemCondition[] {
+//                LootItemRandomChanceCondition.randomChance(0.10f).build(),
+//                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build() },
+//                ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
+//
+//        add("obsidian_upgrade_smithing_template_treasure_chest", new AddItemModifier(new LootItemCondition[] {
+//                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build() }, ModItems.OBSIDIAN_UPGRADE_SMITHING_TEMPLATE.get()));
     }
 }
