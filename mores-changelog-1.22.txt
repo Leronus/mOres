@@ -1,6 +1,6 @@
 Release v5.4.3
 - Removed natural duck generation indefinitely
-- Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts
+- Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts & shipwrecks
 - Fixed shield decoration recipes, the player is now able to add banners to mOres shields again
 - Updated Forge (48.0.34 -> 48.1.0)
 
