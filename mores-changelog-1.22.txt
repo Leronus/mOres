@@ -1,3 +1,8 @@
+Release v5.4.3
+- Removed natural duck generation indefinitely
+- Added duck egg which has a 25% chance of spawning a duck. Can be found in pillager outposts.
+- Updated Forge (48.0.34 -> 48.1.0)
+
 Release v5.4.2
 - Fixed all pickaxes broken by removal of Alloy Furnace
 - Fixed music discs not working

@@ -81,6 +81,7 @@ public class ModItems {
     public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new ModFuelItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties()));
+    public static final RegistryObject<Item> DUCK_EGG  = ITEMS.register("duck_egg", () -> new ModEggItem(new Item.Properties()));
 
     public static final RegistryObject<Item> OBSIDIAN_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("obsidian_upgrade_smithing_template", ()-> ModSmithingTemplateItem.createObsidianUpgradeTemplate());
     public static final RegistryObject<Item> STERLING_ALLOY_SMITHING_TEMPLATE = ITEMS.register("sterling_alloy_smithing_template", ()-> ModSmithingTemplateItem.createSterlingAlloyTemplate());
