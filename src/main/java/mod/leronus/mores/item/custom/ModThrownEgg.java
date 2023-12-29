@@ -14,7 +14,7 @@ public class ModThrownEgg extends ThrownEgg {
 
     @Override
     protected void onHit(HitResult result) {
-        if (!this.level().isClientSide) {
+        if (!this.level.isClientSide) {
             if (this.random.nextInt(4) == 0) {
                 int i = 1;
                 if (this.random.nextInt(24) == 0) {
@@ -22,16 +22,16 @@ public class ModThrownEgg extends ThrownEgg {
                 }
 
                 for(int j = 0; j < i; ++j) {
-                    DuckEntity duck = ModEntityTypes.DUCK.get().create(this.level());
+                    DuckEntity duck = ModEntityTypes.DUCK.get().create(this.level);
                     if (duck != null) {
                         duck.setAge(-24000);
                         duck.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
-                        this.level().addFreshEntity(duck);
+                        this.level.addFreshEntity(duck);
                     }
                 }
             }
 
-            this.level().broadcastEntityEvent(this, (byte)3);
+            this.level.broadcastEntityEvent(this, (byte)3);
             this.discard();
         }
     }
