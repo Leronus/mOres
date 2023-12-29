@@ -68,6 +68,7 @@ public class ItemInit{
     public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(MoresTabs.MORES_FOODS).food(new Food.Builder().nutrition(3).saturationMod(0.4F).effect(() -> new EffectInstance(Effects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(() -> new EffectInstance(Effects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
 
     public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ItemSpawnEgg(EntityTypeInit.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
+    public static final RegistryObject<ItemEgg> DUCK_EGG  = ITEMS.register("duck_egg", () -> new ItemEgg(new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
 
     //All horse armor
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1).tab(MoresTabs.MORES_HORSE_ARMOR)));

@@ -455,7 +455,8 @@
   "item.mores.silver_apple" : "Zilveren appel",
   "item.mores.bronze_apple" : "Bronzen appel",
   "item.mores.rooiekool": "Rooiekool",
-  "item.mores.duck_spawn_egg": "Spawnei Eend",
+  "item.mores.duck_spawn_egg": "Eendenspawnei",
+  "item.mores.duck_egg": "Eendenei",
 
   "entity.mores.duck": "Eend",
   "item.mores.duck": "Rauwe eend",

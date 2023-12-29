@@ -1,3 +1,9 @@
+Release v2.3.6
+- Disabled natural duck generation in config by default (can be enabled)
+- Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts & shipwrecks
+- Fixed duck spawn egg (creative)
+- Updated Forge version (40.2.0 -> 40.2.14)
+
 v2.3.5
 - Fixed netherite horse armors name displaying wrongly
 - Fixed a tin smelting recipe

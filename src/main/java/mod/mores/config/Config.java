@@ -199,7 +199,7 @@ public class Config {
     private void entityConfig(){
         builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
 
-        spawnDuck = getBoolean("spawnDuck", CATEGORY_ENTITY, true, "Should ducks spawn naturally");
+        spawnDuck = getBoolean("spawnDuck", CATEGORY_ENTITY, false, "Should ducks spawn naturally");
     }
 
 
