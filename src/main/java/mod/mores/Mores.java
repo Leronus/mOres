@@ -2,6 +2,7 @@ package mod.mores;
 
 import mod.mores.block.entity.ModBlockEntities;
 import mod.mores.config.Config;
+import mod.mores.entity.ModEntityTypes;
 import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.block.ModBlocks;
 import mod.mores.item.ModItems;
@@ -57,7 +58,7 @@ public class Mores
 //        ModEffects.register(bus);
 
 //        ModPotions.register(bus);
-//        ModEntityTypes.register(bus);
+        ModEntityTypes.register(bus);
 
 //        ModStructures.register(bus);
 //        ModVillagers.register(bus);

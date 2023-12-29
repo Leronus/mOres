@@ -16,16 +16,18 @@ public class ModThrownEgg extends ThrownEgg {
     protected void onHit(HitResult result) {
         if (!this.level.isClientSide) {
             if (this.random.nextInt(4) == 0) {
-                int $$1 = 1;
+                int i = 1;
                 if (this.random.nextInt(24) == 0) {
-                    $$1 = 3;
+                    i = 3;
                 }
 
-                for(int $$2 = 0; $$2 < $$1; ++$$2) {
-                    Duck $$3 = (Duck) ModEntityTypes.DUCK.get().create(this.level);
-                    $$3.setAge(-24000);
-                    $$3.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
-                    this.level.addFreshEntity($$3);
+                for(int j = 0; j < i; ++j) {
+                    Duck duck = ModEntityTypes.DUCK.get().create(this.level);
+                    if (duck != null) {
+                        duck.setAge(-24000);
+                        duck.moveTo(this.getX(), this.getY(), this.getZ(), this.getYRot(), 0.0F);
+                        this.level.addFreshEntity(duck);
+                    }
                 }
             }
 
