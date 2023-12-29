@@ -1,3 +1,9 @@
+Release v4.8.6 (1.19.4)
+- Removed natural duck generation indefinitely
+- Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts & shipwrecks
+- Added British translations
+- Updated Forge version (45.2.2 -> 45.2.6)
+
 Release v4.8.5 (1.19.4)
 - Updated Forge version (45.0.41 -> 45.2.2)
 
