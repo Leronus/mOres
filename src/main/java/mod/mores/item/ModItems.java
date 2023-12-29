@@ -1,19 +1,15 @@
 package mod.mores.item;
 
 import mod.mores.Mores;
-import mod.mores.block.ModBlocks;
 import mod.mores.config.Config;
-import mod.mores.item.custom.ModArmorItem;
-import mod.mores.item.custom.ModShieldItem;
-import mod.mores.item.custom.ModSwordItem;
+import mod.mores.entity.ModEntityTypes;
+import mod.mores.item.custom.*;
 import mod.mores.sound.ModSounds;
-import mod.mores.util.ModTags;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -83,7 +79,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(3).saturationMod(0.4F).effect(() -> new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
 
-//    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ItemSpawnEgg(EntityTypeInit.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(MoresTabs.MORES_ENTITIES)));
+    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ModSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(ModTabs.MORES_ENTITIES)));
+    public static final RegistryObject<Item> DUCK_EGG  = ITEMS.register("duck_egg", () -> new ModEggItem(new Item.Properties()));
+
 
     //All horse armor
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1).tab(ModTabs.MORES_HORSE_ARMOR)));

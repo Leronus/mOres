@@ -115,7 +115,7 @@ public class Duck extends Animal {
     public void playAmbientSound() {
         SoundEvent soundevent = this.getAmbientSound();
         if (soundevent != null) {
-            this.playSound(soundevent, 0.3F, this.getVoicePitch());
+            this.playSound(soundevent, 0.15F, this.getVoicePitch());
         }
     }
 
@@ -123,7 +123,7 @@ public class Duck extends Animal {
     protected void playHurtSound(DamageSource damageSource) {
         SoundEvent soundevent = this.getHurtSound(damageSource);
         if (soundevent != null) {
-            this.playSound(soundevent, 0.6F, this.getVoicePitch());
+            this.playSound(soundevent, 0.55F, this.getVoicePitch());
         }
     }
 

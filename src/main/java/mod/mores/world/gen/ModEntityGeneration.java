@@ -12,8 +12,8 @@ import java.util.List;
 
 public class ModEntityGeneration {
     public static void onEntitySpawn(final BiomeLoadingEvent event) {
-        addEntityToAllOverworldBiomes(event, ModEntityTypes.DUCK.get(),
-                8, 3, 6);
+//        addEntityToAllOverworldBiomes(event, ModEntityTypes.DUCK.get(),
+//                8, 3, 6);
     }
 
     private static void addEntityToAllBiomesExceptThese(BiomeLoadingEvent event, EntityType<?> type,
