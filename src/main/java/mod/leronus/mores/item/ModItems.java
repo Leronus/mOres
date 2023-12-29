@@ -82,6 +82,7 @@ public class ModItems {
     public static final RegistryObject<Item> ANTHRACITE = ITEMS.register("anthracite", () -> new ModFuelItem(new Item.Properties()));
 
     public static final RegistryObject<Item> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties()));
+    public static final RegistryObject<Item> DUCK_EGG  = ITEMS.register("duck_egg", () -> new ModEggItem(new Item.Properties()));
 
     //All horse armor
     public static final RegistryObject<Item> COPPER_HORSE_ARMOR = ITEMS.register("copper_horse_armor", () -> new HorseArmorItem(3, "copper", (new Item.Properties()).stacksTo(1)));

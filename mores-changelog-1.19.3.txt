@@ -1,5 +1,7 @@
 Release v4.6.4
-- 
+- Removed natural duck generation indefinitely
+- Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts & shipwrecks
+- Added British translations
 
 Release v4.6.3
 - Fixed amethyst block not being minable with any pickaxe (requires iron or up)
