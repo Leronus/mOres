@@ -846,6 +846,7 @@ public class Mores {
         //Spawn Eggs
         if(event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.DUCK_SPAWN_EGG);
+            event.accept(ModItems.DUCK_EGG);
         }
     }
 }
