@@ -1,10 +1,7 @@
-v4.4.3 (1.19.2)
+v4.4.2 (1.19.2)
 - Removed natural duck generation indefinitely
 - Added duck egg which has a 25% chance of spawning a duck; found in pillager outposts & shipwrecks
-- Updated Forge version (43.3.2 -> 43.3.5)
-
-v4.4.2 (1.19.2)
-- Updated Forge version (43.2.21 -> 43.3.2)
+- Updated Forge version (43.2.21 -> 43.3.5)
 
 v4.4.1 (1.19.2)
 - Updated all moissanite tools & weapons textures
