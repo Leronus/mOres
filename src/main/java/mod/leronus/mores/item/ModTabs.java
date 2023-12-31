@@ -437,7 +437,7 @@ public class ModTabs {
                         event.accept(ModItems.CARROT_PIE.get());
                         event.accept(ModItems.DUCK.get());
                         event.accept(ModItems.COOKED_DUCK.get());
-                        event.accept(ModItems.DUCK_EGG.get());
+//                        event.accept(ModItems.DUCK_EGG.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MORES_ENTITIES = CREATIVE_MODE_TABS.register("mores_entities",

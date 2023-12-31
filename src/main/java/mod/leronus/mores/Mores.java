@@ -88,7 +88,7 @@ public class Mores {
         }
         //Food & Drinks
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            for (RegistryObject<Item> itemRegistryObject : Arrays.asList(ModItems.BRONZE_APPLE, ModItems.SILVER_APPLE, ModItems.COBALT_APPLE, ModItems.CHOCOLATE, ModItems.VELVET, ModItems.CARROT_PIE, ModItems.DUCK, ModItems.COOKED_DUCK, ModItems.DUCK_EGG)) {
+            for (RegistryObject<Item> itemRegistryObject : Arrays.asList(ModItems.BRONZE_APPLE, ModItems.SILVER_APPLE, ModItems.COBALT_APPLE, ModItems.CHOCOLATE, ModItems.VELVET, ModItems.CARROT_PIE, ModItems.DUCK, ModItems.COOKED_DUCK)) {
                 event.accept(itemRegistryObject);
             }
         }
