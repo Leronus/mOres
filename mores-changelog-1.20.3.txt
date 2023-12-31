@@ -1,5 +1,5 @@
 Release v5.6.0
-- Blocks updated
-- Duck sound fixed
+- Blocks updated due to version update
+- Duck egg temporarily disabled due to version update
 - Updated Minecraft version (1.20.2 -> 1.20.3)
 
