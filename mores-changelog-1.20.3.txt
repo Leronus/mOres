@@ -1,0 +1,5 @@
+Release v5.6.0
+- Blocks updated
+- Duck sound fixed
+- Updated Minecraft version (1.20.2 -> 1.20.3)
+

@@ -23,6 +23,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.phys.Vec3;
+import org.jetbrains.annotations.NotNull;
 
 public class DuckEntity extends Animal {
     private static final Ingredient FOOD_ITEMS = Ingredient.of(Items.WHEAT_SEEDS, Items.MELON_SEEDS, Items.PUMPKIN_SEEDS, Items.BEETROOT_SEEDS);
@@ -111,25 +112,6 @@ public class DuckEntity extends Animal {
 
     protected SoundEvent getDeathSound() {
         return ModSounds.DYING_DUCK_SOUND.get();
-    }
-
-    /**
-     * Overriding the playAmbientSound() & playHurtSound() for the Duck to adjust the volume, to prevent your ears being blown off :)
-     * @author Leronus
-     */
-    @Override
-    public void playAmbientSound() {
-        SoundEvent soundevent = this.getAmbientSound();
-        if (soundevent != null) {
-            this.playSound(soundevent, 0.15F, this.getVoicePitch());
-        }
-    }
-    @Override
-    protected void playHurtSound(DamageSource damageSource) {
-        SoundEvent soundevent = this.getHurtSound(damageSource);
-        if (soundevent != null) {
-            this.playSound(soundevent, 0.55F, this.getVoicePitch());
-        }
     }
 
     protected void playStepSound(BlockPos pPos, BlockState pBlock) {
