@@ -26,7 +26,7 @@ public class ModTiers {
     public static final ForgeTier DIAMOND = new ForgeTier(3, 1561, 8.0F, 3.0F, 10, BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.DIAMOND));
     public static final ForgeTier SAPPHIRE = new ForgeTier(3, 1782, 8.0F, 3.5F, 15, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.SAPPHIRE_GEM.get()));
     public static final ForgeTier TANZANITE = new ForgeTier(3, 1957, 8.0F, 3.5F, 17, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.TANZANITE_GEM.get()));
-    public static final ForgeTier OBSIDIAN = new ForgeTier(3, 2169, 8.5F, 3.5F, 13,  BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(Items.OBSIDIAN));
+    public static final ForgeTier OBSIDIAN = new ForgeTier(3, 2169, 8.5F, 3.5F, 13,  BlockTags.NEEDS_DIAMOND_TOOL,() -> Ingredient.of(ModItems.OBSIDIAN_INGOT.get()));
     public static final ForgeTier RUBY = new ForgeTier(3, 1601, 8.0F, 3.5F, 11,  BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.RUBY_GEM.get()));
     public static final ForgeTier MOISSANITE = new ForgeTier(3, 1723, 8.0F, 3.5F, 23, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.MOISSANITE_GEM.get()));
     public static final ForgeTier NETHERITE = new ForgeTier(4, 2031, 9.0F, 4.0F, 15, BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.NETHERITE_INGOT));
