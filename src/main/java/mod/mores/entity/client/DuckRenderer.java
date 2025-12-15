@@ -15,8 +15,8 @@ import net.minecraft.world.entity.animal.Chicken;
 public class DuckRenderer extends MobRenderer<Duck, DuckModel<Duck>> {
     public static final ResourceLocation TEXTURE = new ResourceLocation(Mores.MODID, "textures/entity/duck/duck_entity_model.png");
 
-    public DuckRenderer(EntityRendererProvider.Context manager) {
-        super(manager, new DuckModel<>(manager.bakeLayer(new ModelLayerLocation(TEXTURE, "duck"))), 0.3F);
+    public DuckRenderer(EntityRendererProvider.Context ctx) {
+        super(ctx, new DuckModel<>(ctx.bakeLayer(ModModelLayers.DUCK_LAYER)), 0.3F);
     }
 
     @Override

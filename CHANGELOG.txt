@@ -1,4 +1,5 @@
-Release v3.2.4
+Release v3.3.0
+- Finally added the Duck
 - Updated Licensing
 - Updated Forge version (40.2.21 -> 40.3.0)
 

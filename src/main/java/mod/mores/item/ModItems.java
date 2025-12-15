@@ -10,6 +10,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -79,7 +80,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> ROOIEKOOL = ITEMS.register("rooiekool", () -> new Item(new Item.Properties().tab(ModTabs.MORES_FOODS).food(new FoodProperties.Builder().nutrition(3).saturationMod(0.4F).effect(() -> new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 250, 0), 0.9F).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 1.0F).alwaysEat().build())));
 
-    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG  = ITEMS.register("duck_spawn_egg", () -> new ModSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400, new Item.Properties().tab(ModTabs.MORES_ENTITIES)));
+    public static final RegistryObject<SpawnEggItem> DUCK_SPAWN_EGG =
+            ITEMS.register("duck_spawn_egg",
+                    () -> new ForgeSpawnEggItem(ModEntityTypes.DUCK, 0x006808, 0xFFD400,
+                            new Item.Properties().tab(ModTabs.MORES_ENTITIES)));
     public static final RegistryObject<Item> DUCK_EGG  = ITEMS.register("duck_egg", () -> new ModEggItem(new Item.Properties()));
 
 

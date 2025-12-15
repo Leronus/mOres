@@ -15,7 +15,7 @@ public class ModEntityTypes {
             DeferredRegister.create(ForgeRegistries.ENTITIES, Mores.MODID);
 
     public static final RegistryObject<EntityType<Duck>> DUCK = ENTITY_TYPES.register("duck",
-            () -> EntityType.Builder.of(Duck::new, MobCategory.WATER_AMBIENT)
+            () -> EntityType.Builder.of(Duck::new, MobCategory.CREATURE)
                     .sized(0.4F, 0.7F)
                     .build(new ResourceLocation(Mores.MODID, "duck").toString()));
 

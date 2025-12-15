@@ -3,8 +3,8 @@ package mod.mores;
 import mod.mores.block.entity.ModBlockEntities;
 import mod.mores.config.Config;
 import mod.mores.entity.ModEntityTypes;
-import mod.mores.item.custom.ModSpawnEggItem;
 import mod.mores.block.ModBlocks;
+import mod.mores.entity.custom.Duck;
 import mod.mores.item.ModItems;
 import mod.mores.recipe.ModRecipes;
 import mod.mores.block.custom.screen.AlloyFurnaceScreen;
@@ -16,6 +16,8 @@ import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -96,14 +98,16 @@ public class Mores
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        //Adding a flower
-//        event.enqueueWork(() -> {
-//            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.PINK_ROSE.getId(), ModBlocks.POTTED_PINK_ROSE);
-//
-//            BrewingRecipeRegistry.addRecipe(new BetterBrewingRecipe(Potions.AWKWARD,
-//                    ModItems.RUBY.get(), ModPotions.FREEZE_POTION.get()));
-//        });
+        event.enqueueWork(() -> {
+            SpawnPlacements.register(
+                    ModEntityTypes.DUCK.get(),
+                    SpawnPlacements.Type.ON_GROUND,
+                    Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                    Duck::canDuckSpawn
+            );
+        });
     }
+
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
@@ -114,6 +118,6 @@ public class Mores
 
     @SubscribeEvent
     public static void registerEntities(final RegistryEvent.Register<EntityType<?>> event) {
-        ModSpawnEggItem.initSpawnEggs();
+//        ModSpawnEggItem.initSpawnEggs();
     }
 }

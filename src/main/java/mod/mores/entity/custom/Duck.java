@@ -19,9 +19,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.phys.Vec3;
+
+import java.util.Random;
 
 public class Duck extends Animal {
     private static final Ingredient FOOD_ITEMS = Ingredient.of(Items.WHEAT_SEEDS, Items.MELON_SEEDS, Items.PUMPKIN_SEEDS, Items.BEETROOT_SEEDS);
@@ -198,4 +201,14 @@ public class Duck extends Animal {
     public void setDuckJockey(boolean pJockey) {
         this.isDuckJockey = pJockey;
     }
+
+    public static boolean canDuckSpawn(EntityType<Duck> type,
+                                       ServerLevelAccessor level,
+                                       MobSpawnType reason,
+                                       BlockPos pos,
+                                       Random random) {
+        return level.getBlockState(pos.below()).isValidSpawn(level, pos.below(), type)
+                && level.getRawBrightness(pos, 0) > 8;
+    }
+
 }
