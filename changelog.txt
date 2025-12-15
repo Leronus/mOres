@@ -1,4 +1,5 @@
 Release v5.3.7
+- Added artifacts compatibility (w/ Heater Pickaxe)
 - Updated Licensing
 - Updated Forge (47.3.5 -> 47.4.10)
 

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mores:moissanite_ore",
+    "mores:deepslate_moissanite_ore",
+    "mores:nether_moissanite_ore"
+  ]
+}

@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '6.0.+', changing: true
         classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
     }
 }
@@ -36,7 +36,6 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'mores'
-            args '-mixin.config=mores.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -49,7 +48,6 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'mores'
-            args '-mixin.config=mores.mixins.json'
             mods {
                 mores {
                     source sourceSets.main
@@ -88,6 +86,11 @@ mixin {
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
     runtimeOnly fg.deobf("curse.maven:xray-256256:4595142") //X-Ray
+    runtimeOnly fg.deobf("curse.maven:artifacts-312353:6399828") //Artifacts
+    runtimeOnly fg.deobf("curse.maven:expandability-465066:5301414") //ExpandAbility
+    runtimeOnly fg.deobf("curse.maven:architectury-419699:5137938") //Architectury
+    runtimeOnly fg.deobf("curse.maven:clothconfig-348521:5729105") //Cloth Config API
+    runtimeOnly fg.deobf("curse.maven:curiosapi-309927:6418456") //Curios API
 
     annotationProcessor "org.spongepowered:mixin:${mixin_version}:processor"
 }

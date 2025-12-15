@@ -23,7 +23,7 @@ This improves combat, exploration, and mining in particular.
 
 It adds much more variety and is very entertaining to play with friends.
 '''
-[[dependencies.mores]] #optional
+[[dependencies.mores]]
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[46,)" #mandatory
@@ -35,4 +35,10 @@ It adds much more variety and is very entertaining to play with friends.
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.20,)"
     ordering="AFTER"
+    side="BOTH"
+[[dependencies.mores]]
+    modId="artifacts"
+    mandatory=false
+    versionRange="[9.5.0,)"
+    ordering="NONE"
     side="BOTH"

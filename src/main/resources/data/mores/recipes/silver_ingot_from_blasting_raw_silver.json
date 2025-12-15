@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "silver_ingot",
   "ingredient": {
-    "item": "mores:raw_silver"
+    "tag": "forge:raw_materials/silver"
   },
   "result": "mores:silver_ingot",
   "experience": 0.6,

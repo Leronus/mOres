@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_materials/cobalt",
+    "#forge:raw_materials/tin",
+    "#forge:raw_materials/silver"
+  ]
+}
