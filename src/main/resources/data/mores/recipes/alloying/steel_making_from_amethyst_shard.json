@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "modid": "mores",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "type": "mores:alloying",
+    "cookingtime": 300,
+    "experience": 2.0,
+    "inputs": [
+        {
+            "tag": "minecraft:coals"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    ],
+    "catalyst": {
+	"item": "minecraft:amethyst_shard"
+    },
+    "output": {
+        "item": "mores:steel_ingot",
+        "count": 1
+    }
+}

@@ -3,7 +3,7 @@
     "title": "My Valentine",
     "description": "Obtain a tourmaline gem",
     "icon": {
-      "item": "mores:tourmaline_ore"
+      "item": "mores:tourmaline_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

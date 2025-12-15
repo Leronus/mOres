@@ -1,16 +1,16 @@
 {
   "display": {
-    "title": "Godverdomme Lekker Broodje!",
-    "description": "You have done it. Collect all mOres materials!",
+    "title": "Taneleer Tivan",
+    "description": "Collect all mOres materials! Dat smaakt als een godverdomme lekker broodje.",
     "icon": {
-      "item": "mores:graphene_gem"
+      "item": "mores:deepslate_turquoise_ore"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "mores:obtain_onyx",
+  "parent": "mores:obtain_graphene",
   "criteria": {
     "obtain_tin_ingot": {
       "trigger": "minecraft:inventory_changed",
@@ -79,18 +79,6 @@
           {
             "items": [
               "mores:sterling_ingot"
-            ]
-          }
-        ]
-      }
-    },
-    "obtain_amethyst_gem": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "mores:amethyst_gem"
             ]
           }
         ]
@@ -206,7 +194,7 @@
     }
   },
   "requirements": [
-    ["obtain_tin_ingot"], ["obtain_bronze_ingot"], ["obtain_silver_ingot"], ["obtain_steel_ingot"], ["obtain_sterling_ingot"], ["obtain_cobalt_ingot"], ["obtain_amethyst_gem"], ["obtain_topaz_gem"], ["obtain_tourmaline"], ["obtain_ruby_gem"], ["obtain_sapphire_gem"], ["obtain_turquoise_gem"], ["obtain_onyx_gem"], ["obtain_tanzanite_gem"], ["obtain_turquoise_gem"], ["obtain_moissanite_gem"], ["obtain_graphene_gem"]
+    ["obtain_tin_ingot"], ["obtain_bronze_ingot"], ["obtain_silver_ingot"], ["obtain_steel_ingot"], ["obtain_sterling_ingot"], ["obtain_cobalt_ingot"], ["obtain_topaz_gem"], ["obtain_tourmaline"], ["obtain_ruby_gem"], ["obtain_sapphire_gem"], ["obtain_turquoise_gem"], ["obtain_onyx_gem"], ["obtain_tanzanite_gem"], ["obtain_turquoise_gem"], ["obtain_moissanite_gem"], ["obtain_graphene_gem"]
   ],
   "rewards": {
     "experience": 500

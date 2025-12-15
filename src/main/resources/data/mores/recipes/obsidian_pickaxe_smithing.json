@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing",
-  "addition": {
-    "tag": "forge:ingots/obsidian"
-  },
-  "base": {
-    "item": "minecraft:diamond_pickaxe"
-  },
-  "result": {
-    "item": "mores:obsidian_pickaxe"
-  }
+  "base": { "item": "minecraft:diamond_pickaxe" },
+  "addition": { "item": "mores:obsidian_ingot" },
+  "result": { "item": "mores:obsidian_pickaxe" }
 }

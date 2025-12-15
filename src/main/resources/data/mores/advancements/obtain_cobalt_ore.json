@@ -3,7 +3,7 @@
     "title": "Very Balt Of You",
     "description": "Obtain raw cobalt",
     "icon": {
-      "item": "mores:cobalt_ore"
+      "item": "mores:raw_cobalt"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

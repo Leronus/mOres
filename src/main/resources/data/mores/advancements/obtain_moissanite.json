@@ -3,7 +3,7 @@
     "title": "This Is My Swamp",
     "description": "Obtain a moissanite gem",
     "icon": {
-      "item": "mores:moissanite_ore"
+      "item": "mores:moissanite_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

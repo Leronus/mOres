@@ -1,16 +1,16 @@
 {
   "display": {
-    "title": "This Ain't No Emerald",
+    "title": "Topazzler",
     "description": "Obtain a topaz gem",
     "icon": {
-      "item": "mores:topaz_ore"
+      "item": "mores:topaz_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "mores:obtain_cobalt_ore",
+  "parent": "mores:acquire_hardware",
   "criteria": {
     "obtain_topaz_gem": {
       "trigger": "minecraft:inventory_changed",

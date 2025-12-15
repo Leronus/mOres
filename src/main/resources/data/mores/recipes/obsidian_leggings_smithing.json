@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing",
-  "addition": {
-    "tag": "forge:ingots/obsidian"
-  },
-  "base": {
-    "item": "minecraft:diamond_leggings"
-  },
-  "result": {
-    "item": "mores:obsidian_leggings"
-  }
+  "base": { "item": "minecraft:diamond_leggings" },
+  "addition": { "item": "mores:obsidian_ingot" },
+  "result": { "item": "mores:obsidian_leggings" }
 }

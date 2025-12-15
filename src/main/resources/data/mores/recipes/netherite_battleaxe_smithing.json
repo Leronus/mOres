@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "mores:diamond_battleaxe"
-  },
-  "result": {
-    "item": "mores:netherite_battleaxe"
-  }
+  "base": { "item": "mores:diamond_battleaxe" },
+  "addition": { "item": "minecraft:netherite_ingot" },
+  "result": { "item": "mores:netherite_battleaxe" }
 }

@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing",
-  "addition": {
-    "tag": "forge:ingots/obsidian"
-  },
-  "base": {
-    "item": "minecraft:diamond_hoe"
-  },
-  "result": {
-    "item": "mores:obsidian_hoe"
-  }
+  "base": { "item": "minecraft:diamond_hoe" },
+  "addition": { "item": "mores:obsidian_ingot" },
+  "result": { "item": "mores:obsidian_hoe" }
 }

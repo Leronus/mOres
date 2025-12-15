@@ -1,12 +1,6 @@
 {
   "type": "minecraft:smithing",
-  "addition": {
-    "tag": "forge:ingots/obsidian"
-  },
-  "base": {
-    "item": "minecraft:diamond_helmet"
-  },
-  "result": {
-    "item": "mores:obsidian_helmet"
-  }
+  "base": { "item": "minecraft:diamond_helmet" },
+  "addition": { "item": "mores:obsidian_ingot" },
+  "result": { "item": "mores:obsidian_helmet" }
 }

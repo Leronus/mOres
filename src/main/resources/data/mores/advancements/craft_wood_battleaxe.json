@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "Real Mjölnir",
-    "description": "Craft a wooden battleaxe to slay some rats",
+    "title": "Mjölnir",
+    "description": "Craft a wooden battleaxe",
     "icon": {
       "item": "mores:wood_battleaxe"
     },

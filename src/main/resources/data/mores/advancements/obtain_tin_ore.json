@@ -3,7 +3,7 @@
     "title": "Even Worse Than Copper",
     "description": "Obtain raw tin",
     "icon": {
-      "item": "mores:tin_ore"
+      "item": "mores:raw_tin"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",

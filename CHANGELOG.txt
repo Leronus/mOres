@@ -1,4 +1,6 @@
 Release v3.3.0
+- Added missing recipes (mostly related to Alloy Furnace & Duck)
+- Added missing advancements (mostly related to Alloy Furnace & Duck)
 - Finally added the Duck
 - Updated Licensing
 - Updated Forge version (40.2.21 -> 40.3.0)
