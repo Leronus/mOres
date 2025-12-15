@@ -522,10 +522,10 @@ public class ItemInit{
     public static final RegistryObject<BlockItem> ONYX_BLOCK = ITEMS.register("onyx_block", () -> new BlockItem(BlockInit.ONYX_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
 
     // Vanilla
-    public static final RegistryObject<BlockItem> DIAMOND_ORE = VANILLA_ITEMS.register("diamond_ore", () -> new BlockItem(BlockInit.DIAMOND_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+//    public static final RegistryObject<BlockItem> DIAMOND_ORE = VANILLA_ITEMS.register("diamond_ore", () -> new BlockItem(BlockInit.DIAMOND_ORE.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> DIAMOND_BLOCK = VANILLA_ITEMS.register("diamond_block", () -> new BlockItem(BlockInit.DIAMOND_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> OBSIDIAN = VANILLA_ITEMS.register("obsidian", () -> new BlockItem(BlockInit.OBSIDIAN.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
-    public static final RegistryObject<BlockItem> ANCIENT_DEBRIS = VANILLA_ITEMS.register("ancient_debris", () -> new BlockItem(BlockInit.ANCIENT_DEBRIS.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
+//    public static final RegistryObject<BlockItem> ANCIENT_DEBRIS = VANILLA_ITEMS.register("ancient_debris", () -> new BlockItem(BlockInit.ANCIENT_DEBRIS.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<BlockItem> NETHERITE_BLOCK = VANILLA_ITEMS.register("netherite_block", () -> new BlockItem(BlockInit.NETHERITE_BLOCK.get(), new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)));
 
     public static final RegistryObject<BlockItem> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new BlockItem(BlockInit.BRONZE_BLOCK.get(), new Item.Properties().tab(MoresTabs.MORES_BLOCKS)));
