@@ -15,14 +15,14 @@ public final class ModEvents
 {
 //    private static final MoresInjectionLookup lootLookupMap = new MoresInjectionLookup();
 
-    @SubscribeEvent
-    public static void LootLoad(final LootTableLoadEvent event)
-    {
+//    @SubscribeEvent
+//    public static void LootLoad(final LootTableLoadEvent event)
+//    {
 //        if (MoresConfig.addChestLoot)
 //        {
 //            LootUtils.LootLoadHandler(Mores.MODID, event, lootLookupMap);
 //        } // end-if config allows
-    } // end LootLoad()
+//    } // end LootLoad()
 
     /**
      * Intercept villager trades list and modify it.

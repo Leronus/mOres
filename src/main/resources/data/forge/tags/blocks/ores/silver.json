@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mores:silver_ore",
+    "mores:deepslate_silver_ore",
+    "mores:nether_silver_ore"
+  ]
+}
