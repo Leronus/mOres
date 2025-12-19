@@ -1,0 +1,11 @@
+{
+  "type": "mores:configurable_add_spawns",
+  "biomes": ["minecraft:beach", "minecraft:river"],
+  "category": "creature",
+  "spawner": {
+    "type": "mores:duck",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

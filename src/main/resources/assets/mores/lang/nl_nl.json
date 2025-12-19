@@ -5,6 +5,7 @@
   "mores.full_set_bonus": "Volledige Set Bonus: ",
   "mores.harvest_level": "Oogst niveau: ",
   "mores.durability": "Duurzaamheid: ",
+  "mores.protection": "Bescherming: ",
   "mores.efficiency": "Efficiëntie: ",
   "mores.jump_boost": "Sprongen",
   "mores.haste": "Vlotheid",
@@ -847,7 +848,27 @@
   "item.mores.graphene_shield.light_blue": "Lichtblauw Grafenen Schild",
   "item.mores.graphene_shield.magenta": "Magenta Grafenen Schild",
   "item.mores.graphene_shield.orange": "Oranje Grafenen Schild",
-  "item.mores.graphene_shield.white": "Wit Grafenen Schild"
+  "item.mores.graphene_shield.white": "Wit Grafenen Schild",
+  "container.mores.alloy_furnace": "Alloy Furnace",
+  "item.mores.ruby_shield": "Ruby Shield",
+  "item.mores.cobalt_shield": "Cobalt Shield",
+  "item.mores.amethyst_shield": "Amethyst Shield",
+  "item.mores.sapphire_shield": "Sapphire Shield",
+  "item.mores.copper_shield": "Copper Shield",
+  "item.mores.emerald_shield": "Emerald Shield",
+  "item.mores.obsidian_shield": "Obsidian Shield",
+  "item.mores.silver_shield": "Silver Shield",
+  "item.mores.topaz_shield": "Topaz Shield",
+  "item.mores.turquoise_shield": "Turquoise Shield",
+  "item.mores.moissanite_shield": "Moissanite Shield",
+  "item.mores.tin_shield": "Tin Shield",
+  "item.mores.bronze_shield": "Bronze Shield",
+  "item.mores.steel_shield": "Carbon Steel Shield",
+  "item.mores.sterling_shield": "Sterling Silver Shield",
+  "item.mores.tourmaline_shield": "Tourmaline Shield",
+  "item.mores.tanzanite_shield": "Tanzanite Shield",
+  "item.mores.onyx_shield": "Onyx Shield",
+  "item.mores.graphene_shield": "Graphene Shield"
 }
 
 

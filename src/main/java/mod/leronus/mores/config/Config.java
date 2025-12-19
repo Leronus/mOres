@@ -14,7 +14,14 @@ import java.io.File;
 public class Config {
     public static CommentedFileConfig cfg;
     private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
+
+    private static final String CATEGORY_TOOLTIPS = "tooltips";
+    private static final String CATEGORY_ENTITY = "entities";
+    private static final String CATEGORY_PAINTINGS = "paintings";
+    private static final String CATEGORY_SOUNDS = "sounds";
+    private static final String CATEGORY_SHIELDS = "shields";
     private static final String CATEGORY_ORES = "ores";
+
     private static final String SUB_CATEGORY_ORES_TIN = "tin";
     private static final String SUB_CATEGORY_ORES_SILVER = "silver";
     private static final String SUB_CATEGORY_ORES_COBALT = "cobalt";
@@ -27,11 +34,8 @@ public class Config {
     private static final String SUB_CATEGORY_ORES_TURQUOISE = "turquoise";
     private static final String SUB_CATEGORY_ORES_ONYX = "onyx";
     private static final String SUB_CATEGORY_ORES_ANTHRACITE = "anthracite";
-    private static final String CATEGORY_SHIELDS = "shields";
-    private static final String CATEGORY_ENTITY = "entities";
-    private static final String CATEGORY_PAINTINGS = "paintings";
-    private static final String CATEGORY_SOUNDS = "sounds";
 
+    public static BooleanValue enableTooltips;
     public static BooleanValue enableCustomPaintingsMores;
     public static BooleanValue spawnDuck;
 
@@ -97,7 +101,7 @@ public class Config {
     public static ConfigValue<Integer> onyxDurability;
     public static ConfigValue<Integer> grapheneDurability;
 
-
+    // Ores
     public static ConfigValue<Integer> overworldTinUpperVeinsPerChunk;
     public static ConfigValue<Integer> overworldTinMiddleVeinsPerChunk;
     public static ConfigValue<Integer> overworldTinSmallVeinsPerChunk;
@@ -107,108 +111,130 @@ public class Config {
     public static ConfigValue<Integer> overworldCobaltUpperVeinsPerChunk;
     public static ConfigValue<Integer> overworldCobaltMiddleVeinsPerChunk;
     public static ConfigValue<Integer> overworldCobaltSmallVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldTourmalineSmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldTourmalineLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldTourmalineBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldTopazSmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldTopazLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldTopazBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldSapphireSmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldSapphireLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldSapphireBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldRubySmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldRubyLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldRubyBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldTurquoiseSmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldTurquoiseLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldTurquoiseBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> overworldMoissaniteSmallVeinsPerChunk;
     public static ConfigValue<Integer> overworldMoissaniteLargeVeinsPerChunk;
     public static ConfigValue<Integer> overworldMoissaniteBuriedVeinsPerChunk;
+
     public static ConfigValue<Integer> netherMoissaniteVeinsPerChunk;
     public static ConfigValue<Integer> netherTanzaniteVeinsPerChunk;
     public static ConfigValue<Integer> netherSilverVeinsPerChunk;
+
     public static ConfigValue<Integer> endOnyxVeinsPerChunk;
+
     public static ConfigValue<Integer> netherSapphireVeinsPerChunk;
     public static ConfigValue<Integer> netherRubyVeinsPerChunk;
+
     public static ConfigValue<Integer> anthraciteUpperVeinsPerChunk;
     public static ConfigValue<Integer> anthraciteLowerVeinsPerChunk;
     public static ConfigValue<Integer> netherAnthraciteVeinsPerChunk;
 
+    // Heights
     public static ConfigValue<Integer> overworldTinUpperTop;
-    public static ConfigValue<Integer> overworldSilverUpperTop;
-    public static ConfigValue<Integer> overworldCobaltUpperTop;
     public static ConfigValue<Integer> overworldTinUpperBottom;
-    public static ConfigValue<Integer> overworldSilverUpperBottom;
-    public static ConfigValue<Integer> overworldCobaltUpperBottom;
-    public static ConfigValue<Integer> overworldAnthraciteUpperBottom;
-
     public static ConfigValue<Integer> overworldTinMiddleTop;
-    public static ConfigValue<Integer> overworldSilverMiddleTop;
-    public static ConfigValue<Integer> overworldCobaltMiddleTop;
     public static ConfigValue<Integer> overworldTinMiddleBottom;
-    public static ConfigValue<Integer> overworldSilverMiddleBottom;
-    public static ConfigValue<Integer> overworldCobaltMiddleBottom;
     public static ConfigValue<Integer> overworldTinSmallTop;
+
+    public static ConfigValue<Integer> overworldSilverUpperTop;
+    public static ConfigValue<Integer> overworldSilverUpperBottom;
+    public static ConfigValue<Integer> overworldSilverMiddleTop;
+    public static ConfigValue<Integer> overworldSilverMiddleBottom;
     public static ConfigValue<Integer> overworldSilverSmallTop;
+
+    public static ConfigValue<Integer> overworldCobaltUpperTop;
+    public static ConfigValue<Integer> overworldCobaltUpperBottom;
+    public static ConfigValue<Integer> overworldCobaltMiddleTop;
+    public static ConfigValue<Integer> overworldCobaltMiddleBottom;
     public static ConfigValue<Integer> overworldCobaltSmallTop;
 
+    // Gem anchors
     public static ConfigValue<Integer> overworldTopazSmallTop;
-    public static ConfigValue<Integer> overworldTourmalineSmallTop;
-    public static ConfigValue<Integer> overworldRubySmallTop;
-    public static ConfigValue<Integer> overworldSapphireSmallTop;
-    public static ConfigValue<Integer> overworldTurquoiseSmallTop;
-    public static ConfigValue<Integer> overworldMoissaniteSmallTop;
     public static ConfigValue<Integer> overworldTopazSmallBottom;
-    public static ConfigValue<Integer> overworldTourmalineSmallBottom;
-    public static ConfigValue<Integer> overworldRubySmallBottom;
-    public static ConfigValue<Integer> overworldSapphireSmallBottom;
-    public static ConfigValue<Integer> overworldTurquoiseSmallBottom;
-    public static ConfigValue<Integer> overworldMoissaniteSmallBottom;
-
     public static ConfigValue<Integer> overworldTopazLargeTop;
-    public static ConfigValue<Integer> overworldTourmalineLargeTop;
-    public static ConfigValue<Integer> overworldRubyLargeTop;
-    public static ConfigValue<Integer> overworldSapphireLargeTop;
-    public static ConfigValue<Integer> overworldTurquoiseLargeTop;
-    public static ConfigValue<Integer> overworldMoissaniteLargeTop;
     public static ConfigValue<Integer> overworldTopazLargeBottom;
-    public static ConfigValue<Integer> overworldTourmalineLargeBottom;
-    public static ConfigValue<Integer> overworldRubyLargeBottom;
-    public static ConfigValue<Integer> overworldSapphireLargeBottom;
-    public static ConfigValue<Integer> overworldTurquoiseLargeBottom;
-    public static ConfigValue<Integer> overworldMoissaniteLargeBottom;
-
     public static ConfigValue<Integer> overworldTopazBuriedTop;
-    public static ConfigValue<Integer> overworldTourmalineBuriedTop;
-    public static ConfigValue<Integer> overworldRubyBuriedTop;
-    public static ConfigValue<Integer> overworldSapphireBuriedTop;
-    public static ConfigValue<Integer> overworldTurquoiseBuriedTop;
-    public static ConfigValue<Integer> overworldMoissaniteBuriedTop;
     public static ConfigValue<Integer> overworldTopazBuriedBottom;
+
+    public static ConfigValue<Integer> overworldTourmalineSmallTop;
+    public static ConfigValue<Integer> overworldTourmalineSmallBottom;
+    public static ConfigValue<Integer> overworldTourmalineLargeTop;
+    public static ConfigValue<Integer> overworldTourmalineLargeBottom;
+    public static ConfigValue<Integer> overworldTourmalineBuriedTop;
     public static ConfigValue<Integer> overworldTourmalineBuriedBottom;
+
+    public static ConfigValue<Integer> overworldRubySmallTop;
+    public static ConfigValue<Integer> overworldRubySmallBottom;
+    public static ConfigValue<Integer> overworldRubyLargeTop;
+    public static ConfigValue<Integer> overworldRubyLargeBottom;
+    public static ConfigValue<Integer> overworldRubyBuriedTop;
     public static ConfigValue<Integer> overworldRubyBuriedBottom;
+
+    public static ConfigValue<Integer> overworldSapphireSmallTop;
+    public static ConfigValue<Integer> overworldSapphireSmallBottom;
+    public static ConfigValue<Integer> overworldSapphireLargeTop;
+    public static ConfigValue<Integer> overworldSapphireLargeBottom;
+    public static ConfigValue<Integer> overworldSapphireBuriedTop;
     public static ConfigValue<Integer> overworldSapphireBuriedBottom;
+
+    public static ConfigValue<Integer> overworldTurquoiseSmallTop;
+    public static ConfigValue<Integer> overworldTurquoiseSmallBottom;
+    public static ConfigValue<Integer> overworldTurquoiseLargeTop;
+    public static ConfigValue<Integer> overworldTurquoiseLargeBottom;
+    public static ConfigValue<Integer> overworldTurquoiseBuriedTop;
     public static ConfigValue<Integer> overworldTurquoiseBuriedBottom;
+
+    public static ConfigValue<Integer> overworldMoissaniteSmallTop;
+    public static ConfigValue<Integer> overworldMoissaniteSmallBottom;
+    public static ConfigValue<Integer> overworldMoissaniteLargeTop;
+    public static ConfigValue<Integer> overworldMoissaniteLargeBottom;
+    public static ConfigValue<Integer> overworldMoissaniteBuriedTop;
     public static ConfigValue<Integer> overworldMoissaniteBuriedBottom;
 
+    public static ConfigValue<Integer> overworldAnthraciteUpperBottom;
     public static ConfigValue<Integer> overworldAnthraciteLowerBottom;
     public static ConfigValue<Integer> overworldAnthraciteLowerTop;
+
     public static ConfigValue<Integer> endOnyxTop;
     public static ConfigValue<Integer> endOnyxBottom;
 
     public static ConfigValue<Integer> netherSilverTop;
-    public static ConfigValue<Integer> netherTanzaniteTop;
-    public static ConfigValue<Integer> netherRubyTop;
-    public static ConfigValue<Integer> netherSapphireTop;
-    public static ConfigValue<Integer> netherMoissaniteTop;
     public static ConfigValue<Integer> netherSilverBottom;
+
+    public static ConfigValue<Integer> netherTanzaniteTop;
     public static ConfigValue<Integer> netherTanzaniteBottom;
+
+    public static ConfigValue<Integer> netherRubyTop;
     public static ConfigValue<Integer> netherRubyBottom;
+
+    public static ConfigValue<Integer> netherSapphireTop;
     public static ConfigValue<Integer> netherSapphireBottom;
+
+    public static ConfigValue<Integer> netherMoissaniteTop;
     public static ConfigValue<Integer> netherMoissaniteBottom;
-    public static ConfigValue<Integer> netherAnthraciteBottom;
+
     public static ConfigValue<Integer> netherAnthraciteTop;
+    public static ConfigValue<Integer> netherAnthraciteBottom;
 
     public static BooleanValue thornsOnShields;
     public static BooleanValue enableDamageReduction;
@@ -220,18 +246,59 @@ public class Config {
     public static ForgeConfigSpec spec;
 
     public Config() {
-        cfg = CommentedFileConfig
-                .builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + ".toml")).sync()
-                .autosave().build();
+        cfg = CommentedFileConfig.builder(new File(FMLPaths.CONFIGDIR.get().toString(), Mores.MODID + ".toml"))
+                .sync()
+                .autosave()
+                .preserveInsertionOrder()
+                .build();
+
         cfg.load();
-        Config();
-        ForgeConfigSpec spec = builder.build();
-        Config.spec = spec;
+
+        buildConfig();
+
+        spec = builder.build();
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, spec, cfg.getFile().getName());
         spec.setConfig(cfg);
     }
 
-    public static void Config(){
+    private static void buildConfig() {
+
+        // --------------------
+        // tooltips
+        // --------------------
+        builder.comment("The tooltip configuration for this mod").push(CATEGORY_TOOLTIPS);
+        enableTooltips = bool(builder,
+                "enableTooltips", true,
+                "Whether to enable custom mOres tooltips, showing durability for armor/tools and full set bonuses for armor.");
+        builder.pop();
+
+        // --------------------
+        // sounds
+        // --------------------
+        builder.comment("The sound configuration for this mod").push(CATEGORY_SOUNDS);
+        enableCustomDeathSounds = bool(builder,
+                "enableCustomDeathSounds", false,
+                "Whether to enable custom death sounds. Includes bruh & uyêeh sounds.");
+        enableCustomPlayerSleepingSound = bool(builder,
+                "enableCustomPlayerSleepingSound", false,
+                "Whether to enable custom player sleeping sound. Aauugh.");
+        enableCustomPlayerHurtSound = bool(builder,
+                "enableCustomPlayerHurtSound", false,
+                "Whether to enable custom player hurting another player sound. Oof.");
+        builder.pop();
+
+        // --------------------
+        // entities
+        // --------------------
+        builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY);
+        spawnDuck = bool(builder,
+                "spawnDuck", false,
+                "Whether ducks should generate naturally in your Minecraft world (beaches/rivers).");
+        builder.pop();
+
+        // --------------------
+        // ores (root)
+        // --------------------
         builder.comment("""
                 The ore configuration for this mod\s
 
@@ -239,254 +306,436 @@ public class Config {
                 \tfrequent veins relatively high in the world, referred to as 'upper'
                 \tmedium veins distributed fairly evenly across the middle layer of the world, referred to as 'middle'
                 \tsmaller veins that are generated in a very wide radius, referred to as 'small'
-                
+
                 For the 'upper' and 'middle' generation methods, the number is the amount of vertical blocks from bedrock (usually y=-64).
                 For example, overworldTinUpperMaxHeight default value is 210 which means the ores will spawn up to a maximum height of -64 + 210 -> y = 146
-                
+
                 The 'small' generation methods are different. The minimum height is bedrock and the maximum height is the absolute y-level.
                 For example, overworldTinSmallMaxHeight default value is -40 which means the ores will spawn up to a maximum height of y=-40
 
                 Gem ores are also generated in 3 separate veins; Referred to as 'small', 'large' and 'buried'
                 Ores that have been generated buried means they will not spawn in contact with air, meaning they are rare.
                 The values for the vertical anchors correspond to the y value in your Minecraft world.
-                
+
                 These values may also be below the world border of y=-64.
-                
+
                 * Buried means an ore has less chance to spawn if the block next to it is air (no block).
                 """).push(CATEGORY_ORES);
 
-//        spawnTin = getBoolean(builder,"spawnTin", SUB_CATEGORY_ORES_TIN, true, "Should tin spawn in the overworld");
-        overworldTinUpperVeinsPerChunk = getInt(builder,"overworldTinUpperVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 12, 0, 100,"The amount of tin ore veins per chunk for the upper layer");
-        overworldTinUpperBottom = getInt(builder,"overworldTinUpperMinHeight", SUB_CATEGORY_ORES_TIN, 85, 0, 256,"Minimum height from the bottom for the upper layer of tin ores");
-        overworldTinUpperTop = getInt(builder,"overworldTinUpperMaxHeight", SUB_CATEGORY_ORES_TIN, 210, 0, 256,"Maximum height from the bottom for the upper layer of tin ores");
-        overworldTinMiddleVeinsPerChunk = getInt(builder,"overworldTinMiddleVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 7, 0, 100,"The amount of tin ore veins per chunk for the middle layer");
-        overworldTinMiddleBottom = getInt(builder,"overworldTinMiddleMinHeight", SUB_CATEGORY_ORES_TIN, 40,0, 256, "Minimum height from the bottom for the middle layer of tin ores");
-        overworldTinMiddleTop = getInt(builder,"overworldTinMiddleMaxHeight", SUB_CATEGORY_ORES_TIN, 85,0, 256, "Maximum height from the bottom for the middle layer of tin ores");
-        overworldTinSmallVeinsPerChunk = getInt(builder,"overworldTinSmallVeinsPerChunk", SUB_CATEGORY_ORES_TIN, 3, 0, 100,"The amount of small tin ore veins per chunk");
-        overworldTinSmallTop = getInt(builder,"overworldTinSmallMaxHeight", SUB_CATEGORY_ORES_TIN, -40, -64, 191,"Maximum VERTICAL Y-LEVEL for tin ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
-
-
-//        spawnSilver = getBoolean(builder,"spawnSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the overworld");
-        overworldSilverUpperVeinsPerChunk = getInt(builder,"overworldSilverUpperVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 11, 0, 100,"The amount of silver ore veins per chunk for the upper layer");
-        overworldSilverUpperBottom = getInt(builder,"overworldSilverUpperMinHeight", SUB_CATEGORY_ORES_SILVER, 90,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
-        overworldSilverUpperTop = getInt(builder,"overworldSilverUpperMaxHeight", SUB_CATEGORY_ORES_SILVER, 190, 0, 256,"Maximum height from the bottom for the upper layer of silver ores");
-        overworldSilverMiddleVeinsPerChunk = getInt(builder,"overworldSilverMiddleVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 8, 0, 100,"The amount of silver ore veins per chunk for the middle layer");
-        overworldSilverMiddleBottom = getInt(builder,"overworldSilverMiddleMinHeight", SUB_CATEGORY_ORES_SILVER, 60,0, 256, "Minimum height from the bottom for the upper layer of silver ores");
-        overworldSilverMiddleTop = getInt(builder,"overworldSilverMiddleMaxHeight", SUB_CATEGORY_ORES_SILVER, 90, 0, 256,"Maximum height from the bottom for the middle layer of silver ores");
-        overworldSilverSmallVeinsPerChunk = getInt(builder,"overworldSilverSmallVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 4, 0, 100,"The amount of small silver ore veins per chunk for the upper layer");
-        overworldSilverSmallTop = getInt(builder,"overworldSilverSmallMaxHeight", SUB_CATEGORY_ORES_SILVER, 0, -64, 191, "Maximum VERTICAL Y-LEVEL for silver ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
-
-//        spawnCobalt = getBoolean(builder,"spawnCobalt", SUB_CATEGORY_ORES_COBALT, true, "Should cobalt spawn in the overworld");
-        overworldCobaltUpperVeinsPerChunk = getInt(builder,"overworldCobaltUpperVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 6, 0, 100,"The amount of cobalt ore veins per chunk for the upper layer");
-        overworldCobaltUpperBottom = getInt(builder,"overworldCobaltUpperMinHeight", SUB_CATEGORY_ORES_COBALT, 100,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
-        overworldCobaltUpperTop = getInt(builder,"overworldCobaltUpperMaxHeight", SUB_CATEGORY_ORES_COBALT, 120, 0, 256,"Maximum height from the bottom for the upper layer of cobalt ores");
-        overworldCobaltMiddleVeinsPerChunk = getInt(builder,"overworldCobaltMiddleVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 12, 0, 100,"The amount of cobalt ore veins per chunk for the middle layer");
-        overworldCobaltMiddleBottom = getInt(builder,"overworldCobaltMiddleMinHeight", SUB_CATEGORY_ORES_COBALT, 60,0, 256, "Minimum height from the bottom for the upper layer of cobalt ores");
-        overworldCobaltMiddleTop = getInt(builder,"overworldCobaltMiddleMaxHeight", SUB_CATEGORY_ORES_COBALT, 100, 0, 256,"Maximum height from the bottom for the middle layer of cobalt ores");
-        overworldCobaltSmallVeinsPerChunk = getInt(builder,"overworldCobaltSmallVeinsPerChunk", SUB_CATEGORY_ORES_COBALT, 5, 0, 100,"The amount of small cobalt ore veins per chunk for the upper layer");
-        overworldCobaltSmallTop = getInt(builder,"overworldCobaltSmallMaxHeight", SUB_CATEGORY_ORES_COBALT, -10,-64, 191,  "Maximum VERTICAL Y-LEVEL for cobalt ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
-
-//        spawnTourmaline = getBoolean(builder,"spawnTourmaline", SUB_CATEGORY_ORES_TOURMALINE, true, "Should tourmaline spawn in the overworld");
-        overworldTourmalineSmallVeinsPerChunk = getInt(builder,"overworldTourmalineSmallVeinsPerChunk", SUB_CATEGORY_ORES_TOURMALINE, 9, 0, 100,"The amount of small tourmaline ore veins per chunk");
-        overworldTourmalineSmallBottom = getInt(builder,"overworldTourmalineSmallMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64, -64, 256, "Minimum height from the bottom for the upper layer of tourmaline ores");
-        overworldTourmalineSmallTop = getInt(builder,"overworldTourmalineSmallMaxHeight", SUB_CATEGORY_ORES_TOURMALINE, 110, -64, 256, "Maximum height from the bottom for the upper layer of tourmaline ores");
-        overworldTourmalineLargeVeinsPerChunk = getInt(builder,"overworldTourmalineLargeVeinsPerChunk", SUB_CATEGORY_ORES_TOURMALINE, 8, 0, 100,"The amount of large tourmaline ore veins per chunk");
-        overworldTourmalineLargeBottom = getInt(builder,"overworldTourmalineLargeMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64, -64, 256, "Minimum height from the bottom for the upper layer of tourmaline ores");
-        overworldTourmalineLargeTop = getInt(builder,"overworldTourmalineLargeMaxHeight", SUB_CATEGORY_ORES_TOURMALINE, 110, -64, 256, "Maximum height from the bottom for the middle layer of tourmaline ores");
-        overworldTourmalineBuriedVeinsPerChunk = getInt(builder,"overworldTourmalineBuriedVeinsPerChunk", SUB_CATEGORY_ORES_TOURMALINE, 5, 0, 100,"The amount of buried* tourmaline ore veins per chunk");
-        overworldTourmalineBuriedBottom = getInt(builder,"overworldTourmalineBuriedMinHeight", SUB_CATEGORY_ORES_TOURMALINE, -64,-64, 256,  "Minimum height from the bottom for the buried layer of tourmaline ores");
-        overworldTourmalineBuriedTop = getInt(builder,"overworldTourmalineBuriedMaxHeight", SUB_CATEGORY_ORES_TOURMALINE, 110,-64, 256,  "Maximum height from the bottom for the buried layer of tourmaline ores");
-
-//        spawnTopaz = getBoolean(builder,"spawnTopaz", SUB_CATEGORY_ORES_TOPAZ, true, "Should topaz spawn in the overworld");
-        overworldTopazSmallVeinsPerChunk = getInt(builder,"overworldTopazSmallVeinsPerChunk", SUB_CATEGORY_ORES_TOPAZ, 7, 0, 100,"The amount of small topaz ore veins per chunk");
-        overworldTopazSmallBottom = getInt(builder,"overworldTopazSmallMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the upper layer of topaz ores");
-        overworldTopazSmallTop = getInt(builder,"overworldTopazSmallMaxHeight", SUB_CATEGORY_ORES_TOPAZ, 95,-64, 256,  "Maximum height from the bottom for the upper layer of topaz ores");
-        overworldTopazLargeVeinsPerChunk = getInt(builder,"overworldTopazLargeVeinsPerChunk", SUB_CATEGORY_ORES_TOPAZ, 10, 0, 100,"The amount of large topaz ore veins per chunk");
-        overworldTopazLargeBottom = getInt(builder,"overworldTopazLargeMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the upper layer of topaz ores");
-        overworldTopazLargeTop = getInt(builder,"overworldTopazLargeMaxHeight", SUB_CATEGORY_ORES_TOPAZ, 95, -64, 256, "Maximum height from the bottom for the middle layer of topaz ores");
-        overworldTopazBuriedVeinsPerChunk = getInt(builder,"overworldTopazBuriedVeinsPerChunk", SUB_CATEGORY_ORES_TOPAZ, 6, 0, 100,"The amount of buried* topaz ore veins per chunk");
-        overworldTopazBuriedBottom = getInt(builder,"overworldTopazBuriedMinHeight", SUB_CATEGORY_ORES_TOPAZ, -64, -64, 256, "Minimum height from the bottom for the buried layer of topaz ores");
-        overworldTopazBuriedTop = getInt(builder,"overworldTopazBuriedMaxHeight", SUB_CATEGORY_ORES_TOPAZ, 95,-64, 256,  "Maximum height from the bottom for the buried layer of topaz ores");
-
-//        spawnSapphire = getBoolean(builder,"spawnSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the overworld");
-        overworldSapphireSmallVeinsPerChunk = getInt(builder,"overworldSapphireSmallVeinsPerChunk", SUB_CATEGORY_ORES_SAPPHIRE, 6, 0, 100,"The amount of small sapphire ore veins per chunk");
-        overworldSapphireSmallBottom = getInt(builder,"overworldSapphireSmallMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the upper layer of sapphire ores");
-        overworldSapphireSmallTop = getInt(builder,"overworldSapphireSmallMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 65, -64, 256, "Maximum height from the bottom for the upper layer of sapphire ores");
-        overworldSapphireLargeVeinsPerChunk = getInt(builder,"overworldSapphireLargeVeinsPerChunk", SUB_CATEGORY_ORES_SAPPHIRE, 7, 0, 100,"The amount of large sapphire ore veins per chunk");
-        overworldSapphireLargeBottom = getInt(builder,"overworldSapphireLargeMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the upper layer of sapphire ores");
-        overworldSapphireLargeTop = getInt(builder,"overworldSapphireLargeMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 65, -64, 256, "Maximum height from the bottom for the middle layer of sapphire ores");
-        overworldSapphireBuriedVeinsPerChunk = getInt(builder,"overworldSapphireBuriedVeinsPerChunk", SUB_CATEGORY_ORES_SAPPHIRE, 5, 0, 100,"The amount of buried* sapphire ore veins per chunk");
-        overworldSapphireBuriedBottom = getInt(builder,"overworldSapphireBuriedMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64,-64, 256,  "Minimum height from the bottom for the buried layer of sapphire ores");
-        overworldSapphireBuriedTop = getInt(builder,"overworldSapphireBuriedMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 65,-64, 256,  "Maximum height from the bottom for the buried layer of sapphire ores");
-
-//        spawnRuby = getBoolean(builder,"spawnRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the overworld");
-        overworldRubySmallVeinsPerChunk = getInt(builder,"overworldRubySmallVeinsPerChunk", SUB_CATEGORY_ORES_RUBY, 5, 0, 100,"The amount of small ruby ore veins per chunk");
-        overworldRubySmallBottom = getInt(builder,"overworldRubySmallMinHeight", SUB_CATEGORY_ORES_RUBY, -64, -64, 256, "Minimum height from the bottom for the upper layer of ruby ores");
-        overworldRubySmallTop = getInt(builder,"overworldRubySmallMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the upper layer of ruby ores");
-        overworldRubyLargeVeinsPerChunk = getInt(builder,"overworldRubyLargeVeinsPerChunk", SUB_CATEGORY_ORES_RUBY, 6, 0, 100,"The amount of large ruby ore veins per chunk");
-        overworldRubyLargeBottom = getInt(builder,"overworldRubyLargeMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256, "Minimum height from the bottom for the upper layer of ruby ores");
-        overworldRubyLargeTop = getInt(builder,"overworldRubyLargeMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the middle layer of ruby ores");
-        overworldRubyBuriedVeinsPerChunk = getInt(builder,"overworldRubyBuriedVeinsPerChunk", SUB_CATEGORY_ORES_RUBY, 4, 0, 100,"The amount of buried* ruby ore veins per chunk");
-        overworldRubyBuriedBottom = getInt(builder,"overworldRubyBuriedMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256, "Minimum height from the bottom for the buried layer of ruby ores");
-        overworldRubyBuriedTop = getInt(builder,"overworldRubyBuriedMaxHeight", SUB_CATEGORY_ORES_RUBY, 70, -64, 256,"Maximum height from the bottom for the buried layer of ruby ores");
-
-//        spawnTurquoise = getBoolean(builder,"spawnTurquoise", SUB_CATEGORY_ORES_TURQUOISE, true, "Should turquoise spawn in the overworld");
-        overworldTurquoiseSmallVeinsPerChunk = getInt(builder,"overworldTurquoiseSmallVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 13, 0, 100,"The amount of small turquoise ore veins per chunk");
-        overworldTurquoiseSmallBottom = getInt(builder,"overworldTurquoiseSmallMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64, -64, 256,"Minimum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseSmallTop = getInt(builder,"overworldTurquoiseSmallMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseLargeVeinsPerChunk = getInt(builder,"overworldTurquoiseLargeVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 17, 0, 100,"The amount of large turquoise ore veins per chunk");
-        overworldTurquoiseLargeBottom = getInt(builder,"overworldTurquoiseLargeMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64,-64, 256, "Minimum height from the bottom for the upper layer of turquoise ores");
-        overworldTurquoiseLargeTop = getInt(builder,"overworldTurquoiseLargeMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the middle layer of turquoise ores");
-        overworldTurquoiseBuriedVeinsPerChunk = getInt(builder,"overworldTurquoiseBuriedVeinsPerChunk", SUB_CATEGORY_ORES_TURQUOISE, 10, 0, 100,"The amount of buried* turquoise ore veins per chunk");
-        overworldTurquoiseBuriedBottom = getInt(builder,"overworldTurquoiseBuriedMinHeight", SUB_CATEGORY_ORES_TURQUOISE, -64,-64, 256, "Minimum height from the bottom for the buried layer of turquoise ores");
-        overworldTurquoiseBuriedTop = getInt(builder,"overworldTurquoiseBuriedMaxHeight", SUB_CATEGORY_ORES_TURQUOISE, 20,-64, 256, "Maximum height from the bottom for the buried layer of turquoise ores");
-
-//        spawnMoissanite = getBoolean(builder,"spawnMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the overworld");
-        overworldMoissaniteSmallVeinsPerChunk = getInt(builder,"overworldMoissaniteSmallVeinsPerChunk", SUB_CATEGORY_ORES_MOISSANITE, 6, 0, 100,"The amount of small moissanite ore veins per chunk");
-        overworldMoissaniteSmallBottom = getInt(builder,"overworldMoissaniteSmallMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the upper layer of moissanite ores");
-        overworldMoissaniteSmallTop = getInt(builder,"overworldMoissaniteSmallMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 40, -64, 256,"Maximum height from the bottom for the upper layer of moissanite ores");
-        overworldMoissaniteLargeVeinsPerChunk = getInt(builder,"overworldMoissaniteLargeVeinsPerChunk", SUB_CATEGORY_ORES_MOISSANITE, 4, 0, 100,"The amount of large moissanite ore veins per chunk");
-        overworldMoissaniteLargeBottom = getInt(builder,"overworldMoissaniteLargeMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the upper layer of moissanite ores");
-        overworldMoissaniteLargeTop = getInt(builder,"overworldMoissaniteLargeMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 40, -64, 256,"Maximum height from the bottom for the middle layer of moissanite ores");
-        overworldMoissaniteBuriedVeinsPerChunk = getInt(builder,"overworldMoissaniteBuriedVeinsPerChunk", SUB_CATEGORY_ORES_MOISSANITE, 3, 0, 100,"The amount of buried* moissanite ore veins per chunk");
-        overworldMoissaniteBuriedBottom = getInt(builder,"overworldMoissaniteBuriedMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for the buried layer of moissanite ores");
-        overworldMoissaniteBuriedTop = getInt(builder,"overworldMoissaniteBuriedMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 40,-64, 256, "Maximum height from the bottom for the buried layer of moissanite ores");
-
-//        spawnNetherMoissanite = getBoolean(builder,"spawnNetherMoissanite", SUB_CATEGORY_ORES_MOISSANITE, true, "Should moissanite spawn in the nether");
-        netherMoissaniteVeinsPerChunk = getInt(builder,"netherMoissaniteVeinsPerChunk", SUB_CATEGORY_ORES_MOISSANITE, 7, 0, 100,"The amount of nether moissanite ore veins per chunk");
-        netherMoissaniteBottom = getInt(builder,"netherMoissaniteMinHeight", SUB_CATEGORY_ORES_MOISSANITE, -64,-64, 256, "Minimum height from the bottom for nether moissanite ore");
-        netherMoissaniteTop = getInt(builder,"netherMoissaniteMaxHeight", SUB_CATEGORY_ORES_MOISSANITE, 256, -64, 256, "Maximum height from the bottom for nether moissanite ore");
-
-//        spawnTanzanite = getBoolean(builder,"spawnTanzanite", SUB_CATEGORY_ORES_TANZANITE, true, "Should tanzanite spawn in the nether");
-        netherTanzaniteVeinsPerChunk = getInt(builder,"netherTanzaniteVeinsPerChunk", SUB_CATEGORY_ORES_TANZANITE, 10, 0, 100,"The amount of nether tanzanite ore veins per chunk");
-        netherTanzaniteBottom = getInt(builder,"netherTanzaniteMinHeight", SUB_CATEGORY_ORES_TANZANITE, -64, -64, 256, "Minimum height from the bottom for nether tanzanite ore");
-        netherTanzaniteTop = getInt(builder,"netherTanzaniteMaxHeight", SUB_CATEGORY_ORES_TANZANITE, 256, -64, 256, "Maximum height from the bottom for nether tanzanite ore");
-
-//        spawnNetherSilver = getBoolean(builder,"spawnNetherSilver", SUB_CATEGORY_ORES_SILVER, true, "Should silver spawn in the nether");
-        netherSilverVeinsPerChunk = getInt(builder,"netherSilverVeinsPerChunk", SUB_CATEGORY_ORES_SILVER, 18, 0, 100,"The amount of nether silver ore veins per chunk");
-        netherSilverBottom = getInt(builder,"netherSilverMinHeight", SUB_CATEGORY_ORES_SILVER, -64, -64, 256, "Minimum height from the bottom for nether silver ore");
-        netherSilverTop = getInt(builder,"netherSilverMaxHeight", SUB_CATEGORY_ORES_SILVER, 256, -64, 256, "Maximum height from the bottom for nether silver ore");
-
-//        spawnEndOnyx = getBoolean(builder,"spawnEndOnyx", SUB_CATEGORY_ORES_ONYX, true, "Should onyx spawn in the end");
-        endOnyxVeinsPerChunk = getInt(builder,"endOnyxVeinsPerChunk", SUB_CATEGORY_ORES_ONYX, 7, 0, 100,"The amount of end onyx ore veins per chunk");
-        endOnyxBottom = getInt(builder,"endOnyxMinHeight", SUB_CATEGORY_ORES_ONYX, -64,-64, 256,  "Minimum height from the bottom for end onyx ore");
-        endOnyxTop = getInt(builder,"endOnyxMaxHeight", SUB_CATEGORY_ORES_ONYX, 256, -64, 256, "Maximum height from the bottom for end onyx ore");
-
-//        spawnNetherSapphire = getBoolean(builder,"spawnNetherSapphire", SUB_CATEGORY_ORES_SAPPHIRE, true, "Should sapphire spawn in the nether");
-        netherSapphireVeinsPerChunk = getInt(builder,"netherSapphireVeinsPerChunk", SUB_CATEGORY_ORES_SAPPHIRE, 4, 0, 100,"The amount of nether sapphire ore veins per chunk");
-        netherSapphireBottom = getInt(builder,"netherSapphireMinHeight", SUB_CATEGORY_ORES_SAPPHIRE, -64, -64, 256, "Minimum height from the bottom for nether sapphire ore");
-        netherSapphireTop = getInt(builder,"netherSapphireMaxHeight", SUB_CATEGORY_ORES_SAPPHIRE, 256, -64, 256, "Maximum height from the bottom for nether sapphire ore");
-
-//        spawnNetherRuby = getBoolean(builder,"spawnNetherRuby", SUB_CATEGORY_ORES_RUBY, true, "Should ruby spawn in the nether");
-        netherRubyVeinsPerChunk = getInt(builder,"netherRubyVeinsPerChunk", SUB_CATEGORY_ORES_RUBY, 4, 0, 100,"The amount of nether ruby ore veins per chunk");
-        netherRubyBottom = getInt(builder,"netherRubyMinHeight", SUB_CATEGORY_ORES_RUBY, -64,-64, 256,  "Minimum height from the bottom for nether ruby ore");
-        netherRubyTop = getInt(builder,"netherRubyMaxHeight", SUB_CATEGORY_ORES_RUBY, 256, -64, 256, "Maximum height from the bottom for nether ruby ore");
-
-//        spawnAnthracite = getBoolean(builder,"spawnAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the overworld");
-        anthraciteUpperVeinsPerChunk = getInt(builder,"anthraciteUpperVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 9, 0, 100,"The amount of anthracite ore veins per chunk for the upper layer");
-        overworldAnthraciteUpperBottom = getInt(builder,"anthraciteUpperMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64,-64, 256,  "Minimum height from the bottom for upper layer anthracite ore (Maximum height cannot be changed due to vertical anchor top!)");
-        anthraciteLowerVeinsPerChunk = getInt(builder,"anthraciteLowerVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 6, 0, 100,"The amount of anthracite ore veins per chunk for the bottom layer");
-        overworldAnthraciteLowerBottom = getInt(builder,"anthraciteLowerMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64, -64, 256, "Minimum height from the bottom for bottom layer anthracite ore");
-        overworldAnthraciteLowerTop = getInt(builder,"anthraciteLowerMaxHeight", SUB_CATEGORY_ORES_ANTHRACITE, 192,-64, 256,  "Maximum height from the bottom for bottom layer anthracite ore");
-
-//        spawnNetherAnthracite = getBoolean(builder,"spawnNetherAnthracite", SUB_CATEGORY_ORES_ANTHRACITE, true, "Should anthracite spawn in the nether");
-        netherAnthraciteVeinsPerChunk = getInt(builder,"netherAnthraciteVeinsPerChunk", SUB_CATEGORY_ORES_ANTHRACITE, 17, 0, 100,"The amount of nether anthracite ore veins per chunk");
-        netherAnthraciteBottom = getInt(builder,"netherAnthraciteMinHeight", SUB_CATEGORY_ORES_ANTHRACITE, -64,-64, 256,  "Minimum height from the bottom for nether anthracite ore");
-        netherAnthraciteTop = getInt(builder,"netherAnthraciteMaxHeight", SUB_CATEGORY_ORES_ANTHRACITE, 256, -64, 256, "Maximum height from the bottom for nether anthracite ore");
+        // ores.tin
+        builder.push(SUB_CATEGORY_ORES_TIN);
+        overworldTinUpperVeinsPerChunk = integer(builder,
+                "overworldTinUpperVeinsPerChunk", 12, 0, 100,
+                "The amount of tin ore veins per chunk for the upper layer");
+        overworldTinUpperBottom = integer(builder,
+                "overworldTinUpperMinHeight", 85, 0, 256,
+                "Minimum height from the bottom for the upper layer of tin ores");
+        overworldTinUpperTop = integer(builder,
+                "overworldTinUpperMaxHeight", 210, 0, 256,
+                "Maximum height from the bottom for the upper layer of tin ores");
+        overworldTinMiddleVeinsPerChunk = integer(builder,
+                "overworldTinMiddleVeinsPerChunk", 7, 0, 100,
+                "The amount of tin ore veins per chunk for the middle layer");
+        overworldTinMiddleBottom = integer(builder,
+                "overworldTinMiddleMinHeight", 40, 0, 256,
+                "Minimum height from the bottom for the middle layer of tin ores");
+        overworldTinMiddleTop = integer(builder,
+                "overworldTinMiddleMaxHeight", 85, 0, 256,
+                "Maximum height from the bottom for the middle layer of tin ores");
+        overworldTinSmallVeinsPerChunk = integer(builder,
+                "overworldTinSmallVeinsPerChunk", 3, 0, 100,
+                "The amount of small tin ore veins per chunk");
+        overworldTinSmallTop = integer(builder,
+                "overworldTinSmallMaxHeight", -40, -64, 191,
+                "Maximum VERTICAL Y-LEVEL for tin ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
         builder.pop();
 
-        builder.comment("The shield configuration for this mod").push(CATEGORY_SHIELDS).pop();
-//        customShieldMaxReduction = getBoolean(builder,"customShieldMaxReduction", CATEGORY_SHIELDS, true,
-//                "If set to true Shields added by other mods block 100% of the incoming damage, "
-//                        + "if set to false they will block the amount set in defaultDamageReduction.");
-//
-//        defaultDamageReduction = getInt(builder,"defaultDamageReduction", CATEGORY_SHIELDS, 60, 0, 100,
-//                "The portion of the incoming damage Vanilla Shields block in percent.");
-//
-//        copperDamageReduction = getInt(builder,"copperDamageReduction", CATEGORY_SHIELDS, 60,0, 100,
-//                "The portion of the incoming damage Copper Shields block in percent.");
-//        tinDamageReduction = getInt(builder,"tinDamageReduction", CATEGORY_SHIELDS, 60,0, 100,
-//                "The portion of the incoming damage Tin Shields block in percent.");
-//        silverDamageReduction = getInt(builder,"silverDamageReduction", CATEGORY_SHIELDS, 65,0, 100,
-//                "The portion of the incoming damage Silver Shields block in percent.");
-//        bronzeDamageReduction = getInt(builder,"bronzeDamageReduction", CATEGORY_SHIELDS, 65,0, 100,
-//                "The portion of the incoming damage Bronze Shields block in percent.");
-//        cobaltDamageReduction = getInt(builder,"cobaltDamageReduction", CATEGORY_SHIELDS, 65,0, 100,
-//                "The portion of the incoming damage Cobalt Shields block in percent.");
-//        obsidianDamageReduction = getInt(builder,"obsidianDamageReduction", CATEGORY_SHIELDS, 85,0, 100,
-//                "The portion of the incoming damage Obsidian Shields block in percent.");
-//        sterlingDamageReduction = getInt(builder,"sterlingDamageReduction", CATEGORY_SHIELDS, 75,0, 100,
-//                "The portion of the incoming damage Sterling Silver Shields block in percent.");
-//        steelDamageReduction = getInt(builder,"steelDamageReduction", CATEGORY_SHIELDS, 80,0, 100,
-//                "The portion of the incoming damage Carbon Steel Shields block in percent.");
-//        amethystDamageReduction = getInt(builder,"amethystDamageReduction", CATEGORY_SHIELDS, 70,0, 100,
-//                "The portion of the incoming damage Amethyst Shields block in percent.");
-//        emeraldDamageReduction = getInt(builder,"emeraldDamageReduction", CATEGORY_SHIELDS, 80,0, 100,
-//                "The portion of the incoming damage Emerald Shields block in percent.");
-//        topazDamageReduction = getInt(builder,"topazDamageReduction", CATEGORY_SHIELDS, 80,0, 100,
-//                "The portion of the incoming damage Topaz Shields block in percent.");
-//        tourmalineDamageReduction = getInt(builder,"tourmalineDamageReduction", CATEGORY_SHIELDS, 80,0, 100,
-//                "The portion of the incoming damage Tourmaline Shields block in percent.");
-//        tanzaniteDamageReduction = getInt(builder,"tanzaniteDamageReduction", CATEGORY_SHIELDS, 85,0, 100,
-//                "The portion of the incoming damage Tanzanite Shields block in percent.");
-//        rubyDamageReduction = getInt(builder,"rubyDamageReduction", CATEGORY_SHIELDS, 90,0, 100,
-//                "The portion of the incoming damage Ruby Shields block in percent.");
-//        sapphireDamageReduction = getInt(builder,"sapphireDamageReduction", CATEGORY_SHIELDS, 93,0, 100,
-//                "The portion of the incoming damage Sapphire Shields block in percent.");
-//        turquoiseDamageReduction = getInt(builder,"turquoiseDamageReduction", CATEGORY_SHIELDS, 95,0, 100,
-//                "The portion of the incoming damage Sapphire Shields block in percent.");
-//        moissaniteDamageReduction = getInt(builder,"moissaniteDamageReduction", CATEGORY_SHIELDS, 95,0, 100,
-//                "The portion of the incoming damage Moissanite Shields block in percent.");
-//        onyxDamageReduction = getInt(builder,"onyxDamageReduction", CATEGORY_SHIELDS, 95,0, 100,
-//                "The portion of the incoming damage Onyx Shields block in percent.");
-//        grapheneDamageReduction = getInt(builder,"grapheneDamageReduction", CATEGORY_SHIELDS, 100,0, 100,
-//                "The portion of the incoming damage Graphene Shields block in percent.");
+        // ores.silver
+        builder.push(SUB_CATEGORY_ORES_SILVER);
+        overworldSilverUpperVeinsPerChunk = integer(builder,
+                "overworldSilverUpperVeinsPerChunk", 11, 0, 100,
+                "The amount of silver ore veins per chunk for the upper layer");
+        overworldSilverUpperBottom = integer(builder,
+                "overworldSilverUpperMinHeight", 90, 0, 256,
+                "Minimum height from the bottom for the upper layer of silver ores");
+        overworldSilverUpperTop = integer(builder,
+                "overworldSilverUpperMaxHeight", 190, 0, 256,
+                "Maximum height from the bottom for the upper layer of silver ores");
+        overworldSilverMiddleVeinsPerChunk = integer(builder,
+                "overworldSilverMiddleVeinsPerChunk", 8, 0, 100,
+                "The amount of silver ore veins per chunk for the middle layer");
+        overworldSilverMiddleBottom = integer(builder,
+                "overworldSilverMiddleMinHeight", 60, 0, 256,
+                "Minimum height from the bottom for the upper layer of silver ores");
+        overworldSilverMiddleTop = integer(builder,
+                "overworldSilverMiddleMaxHeight", 90, 0, 256,
+                "Maximum height from the bottom for the middle layer of silver ores");
+        overworldSilverSmallVeinsPerChunk = integer(builder,
+                "overworldSilverSmallVeinsPerChunk", 4, 0, 100,
+                "The amount of small silver ore veins per chunk for the upper layer");
+        overworldSilverSmallTop = integer(builder,
+                "overworldSilverSmallMaxHeight", 0, -64, 191,
+                "Maximum VERTICAL Y-LEVEL for silver ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
+        netherSilverVeinsPerChunk = integer(builder,
+                "netherSilverVeinsPerChunk", 18, 0, 100,
+                "The amount of nether silver ore veins per chunk");
+        netherSilverBottom = integer(builder,
+                "netherSilverMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether silver ore");
+        netherSilverTop = integer(builder,
+                "netherSilverMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether silver ore");
+        builder.pop();
 
-        copperDurability = getInt(builder,"copperDurability", CATEGORY_SHIELDS, 200, 1, 32767, "The durability of the Copper Shield.");
-        tinDurability = getInt(builder,"tinDurability", CATEGORY_SHIELDS, 240, 1, 32767,"The durability of the Tin Shield.");
-        silverDurability = getInt(builder,"silverDurability", CATEGORY_SHIELDS, 350,1, 32767, "The durability of the Silver Shield.");
-        bronzeDurability = getInt(builder,"bronzeDurability", CATEGORY_SHIELDS, 385,1, 32767, "The durability of the Bronze Shield.");
-        cobaltDurability = getInt(builder,"cobaltDurability", CATEGORY_SHIELDS, 500, 1, 32767,"The durability of the Cobalt Shield.");
-        obsidianDurability = getInt(builder,"obsidianDurability", CATEGORY_SHIELDS, 1200,1, 32767, "The durability of the Obsidian Shield.");
-        sterlingDurability = getInt(builder,"sterlingDurability", CATEGORY_SHIELDS, 600,1, 32767, "The durability of the Sterling Silver Shield.");
-        steelDurability = getInt(builder,"steelDurability", CATEGORY_SHIELDS, 690,1, 32767, "The durability of the Steel Shield.");
-        amethystDurability = getInt(builder,"amethystDurability", CATEGORY_SHIELDS, 550,1, 32767, "The durability of the Amethyst Shield.");
-        emeraldDurability = getInt(builder,"emeraldDurability", CATEGORY_SHIELDS, 550,1, 32767, "The durability of the Emerald Shield.");
-        topazDurability = getInt(builder,"topazDurability", CATEGORY_SHIELDS, 680, 1, 32767,"The durability of the Topaz Shield.");
-        tourmalineDurability = getInt(builder,"tourmalineDurability", CATEGORY_SHIELDS, 700, 1, 32767,"The durability of the Tourmaline Shield.");
-        tanzaniteDurability = getInt(builder,"tanzaniteDurability", CATEGORY_SHIELDS, 720,1, 32767, "The durability of the Tanzanite Shield.");
-        rubyDurability = getInt(builder,"rubyDurability", CATEGORY_SHIELDS, 800,1, 32767, "The durability of the Ruby Shield.");
-        sapphireDurability = getInt(builder,"sapphireDurability", CATEGORY_SHIELDS,  825,1, 32767, "The durability of the Sapphire Shield.");
-        turquoiseDurability = getInt(builder,"turquoiseDurability", CATEGORY_SHIELDS, 1000, 1, 32767,"The durability of the Turquoise Shield.");
-        moissaniteDurability = getInt(builder,"moissaniteDurability", CATEGORY_SHIELDS, 850, 1, 32767,"The durability of the Moissanite Shield.");
-        onyxDurability = getInt(builder,"onyxDurability", CATEGORY_SHIELDS, 1500, 1, 32767,"The durability of the Onyx Shield.");
-        grapheneDurability = getInt(builder,"grapheneDurability", CATEGORY_SHIELDS, 2000,1, 32767, "The durability of the Graphene Shield.");
-//        diamondDurability = getInt(builder,"diamondDurability", CATEGORY_SHIELD, 4600,
-//                "The durability of the Diamond Shield.");
-//        netheriteDurability = getInt(builder,"netheriteDurability", CATEGORY_SHIELD, 6300,
-//                "The durability of the Netherite Shield.");
-//        thornsOnShields = getBoolean(builder,"thornsOnShields", CATEGORY_SHIELDS, true,
-//                "Allows the Thorns enchantment to be applied to Shields");
-//        enableDamageReduction = getBoolean(builder,"enableDamageReduction", CATEGORY_SHIELDS, true,
-//                "Enables modified damage reduction values for shields.");
+        // ores.cobalt
+        builder.push(SUB_CATEGORY_ORES_COBALT);
+        overworldCobaltUpperVeinsPerChunk = integer(builder,
+                "overworldCobaltUpperVeinsPerChunk", 6, 0, 100,
+                "The amount of cobalt ore veins per chunk for the upper layer");
+        overworldCobaltUpperBottom = integer(builder,
+                "overworldCobaltUpperMinHeight", 100, 0, 256,
+                "Minimum height from the bottom for the upper layer of cobalt ores");
+        overworldCobaltUpperTop = integer(builder,
+                "overworldCobaltUpperMaxHeight", 120, 0, 256,
+                "Maximum height from the bottom for the upper layer of cobalt ores");
+        overworldCobaltMiddleVeinsPerChunk = integer(builder,
+                "overworldCobaltMiddleVeinsPerChunk", 12, 0, 100,
+                "The amount of cobalt ore veins per chunk for the middle layer");
+        overworldCobaltMiddleBottom = integer(builder,
+                "overworldCobaltMiddleMinHeight", 60, 0, 256,
+                "Minimum height from the bottom for the upper layer of cobalt ores");
+        overworldCobaltMiddleTop = integer(builder,
+                "overworldCobaltMiddleMaxHeight", 100, 0, 256,
+                "Maximum height from the bottom for the middle layer of cobalt ores");
+        overworldCobaltSmallVeinsPerChunk = integer(builder,
+                "overworldCobaltSmallVeinsPerChunk", 5, 0, 100,
+                "The amount of small cobalt ore veins per chunk for the upper layer");
+        overworldCobaltSmallTop = integer(builder,
+                "overworldCobaltSmallMaxHeight", -10, -64, 191,
+                "Maximum VERTICAL Y-LEVEL for cobalt ore generation in small veins - NOTE: This generation method differs from the others. The bottom anchor for this generation cannot be changed (starts spawning from bedrock; y=-64)");
+        builder.pop();
 
-//        builder.comment("The entity configuration for this mod").push(CATEGORY_ENTITY).pop();
-//        spawnDuck = getBoolean(builder,"spawnDuck", CATEGORY_ENTITY, true, "Whether ducks should generate naturally in your Minecraft world.");
+        // ores.tourmaline
+        builder.push(SUB_CATEGORY_ORES_TOURMALINE);
+        overworldTourmalineSmallVeinsPerChunk = integer(builder,
+                "overworldTourmalineSmallVeinsPerChunk", 9, 0, 100,
+                "The amount of small tourmaline ore veins per chunk");
+        overworldTourmalineSmallBottom = integer(builder,
+                "overworldTourmalineSmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of tourmaline ores");
+        overworldTourmalineSmallTop = integer(builder,
+                "overworldTourmalineSmallMaxHeight", 110, -64, 256,
+                "Maximum height from the bottom for the upper layer of tourmaline ores");
 
-        builder.comment("The sound configuration for this mod").push(CATEGORY_SOUNDS).pop();
+        overworldTourmalineLargeVeinsPerChunk = integer(builder,
+                "overworldTourmalineLargeVeinsPerChunk", 8, 0, 100,
+                "The amount of large tourmaline ore veins per chunk");
+        overworldTourmalineLargeBottom = integer(builder,
+                "overworldTourmalineLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of tourmaline ores");
+        overworldTourmalineLargeTop = integer(builder,
+                "overworldTourmalineLargeMaxHeight", 110, -64, 256,
+                "Maximum height from the bottom for the middle layer of tourmaline ores");
 
-        enableCustomDeathSounds = getBoolean(builder, "enableCustomDeathSounds", CATEGORY_SOUNDS, false, "Whether to enable custom death sounds. Includes bruh & uyêeh sounds.");
-        enableCustomPlayerSleepingSound = getBoolean(builder, "enableCustomPlayerSleepingSound", CATEGORY_SOUNDS, false, "Whether to enable custom player sleeping sound. Aauugh.");
-        enableCustomPlayerHurtSound = getBoolean(builder, "enableCustomPlayerHurtSound", CATEGORY_SOUNDS, false, "Whether to enable custom player hurting another player sound. Oof.");
+        overworldTourmalineBuriedVeinsPerChunk = integer(builder,
+                "overworldTourmalineBuriedVeinsPerChunk", 5, 0, 100,
+                "The amount of buried* tourmaline ore veins per chunk");
+        overworldTourmalineBuriedBottom = integer(builder,
+                "overworldTourmalineBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of tourmaline ores");
+        overworldTourmalineBuriedTop = integer(builder,
+                "overworldTourmalineBuriedMaxHeight", 110, -64, 256,
+                "Maximum height from the bottom for the buried layer of tourmaline ores");
+        builder.pop();
+
+        // ores.topaz
+        builder.push(SUB_CATEGORY_ORES_TOPAZ);
+        overworldTopazSmallVeinsPerChunk = integer(builder,
+                "overworldTopazSmallVeinsPerChunk", 7, 0, 100,
+                "The amount of small topaz ore veins per chunk");
+        overworldTopazSmallBottom = integer(builder,
+                "overworldTopazSmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of topaz ores");
+        overworldTopazSmallTop = integer(builder,
+                "overworldTopazSmallMaxHeight", 95, -64, 256,
+                "Maximum height from the bottom for the upper layer of topaz ores");
+
+        overworldTopazLargeVeinsPerChunk = integer(builder,
+                "overworldTopazLargeVeinsPerChunk", 10, 0, 100,
+                "The amount of large topaz ore veins per chunk");
+        overworldTopazLargeBottom = integer(builder,
+                "overworldTopazLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of topaz ores");
+        overworldTopazLargeTop = integer(builder,
+                "overworldTopazLargeMaxHeight", 95, -64, 256,
+                "Maximum height from the bottom for the middle layer of topaz ores");
+
+        overworldTopazBuriedVeinsPerChunk = integer(builder,
+                "overworldTopazBuriedVeinsPerChunk", 6, 0, 100,
+                "The amount of buried* topaz ore veins per chunk");
+        overworldTopazBuriedBottom = integer(builder,
+                "overworldTopazBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of topaz ores");
+        overworldTopazBuriedTop = integer(builder,
+                "overworldTopazBuriedMaxHeight", 95, -64, 256,
+                "Maximum height from the bottom for the buried layer of topaz ores");
+        builder.pop();
+
+        // ores.sapphire
+        builder.push(SUB_CATEGORY_ORES_SAPPHIRE);
+        overworldSapphireSmallVeinsPerChunk = integer(builder,
+                "overworldSapphireSmallVeinsPerChunk", 6, 0, 100,
+                "The amount of small sapphire ore veins per chunk");
+        overworldSapphireSmallBottom = integer(builder,
+                "overworldSapphireSmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of sapphire ores");
+        overworldSapphireSmallTop = integer(builder,
+                "overworldSapphireSmallMaxHeight", 65, -64, 256,
+                "Maximum height from the bottom for the upper layer of sapphire ores");
+
+        overworldSapphireLargeVeinsPerChunk = integer(builder,
+                "overworldSapphireLargeVeinsPerChunk", 7, 0, 100,
+                "The amount of large sapphire ore veins per chunk");
+        overworldSapphireLargeBottom = integer(builder,
+                "overworldSapphireLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of sapphire ores");
+        overworldSapphireLargeTop = integer(builder,
+                "overworldSapphireLargeMaxHeight", 65, -64, 256,
+                "Maximum height from the bottom for the middle layer of sapphire ores");
+
+        overworldSapphireBuriedVeinsPerChunk = integer(builder,
+                "overworldSapphireBuriedVeinsPerChunk", 5, 0, 100,
+                "The amount of buried* sapphire ore veins per chunk");
+        overworldSapphireBuriedBottom = integer(builder,
+                "overworldSapphireBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of sapphire ores");
+        overworldSapphireBuriedTop = integer(builder,
+                "overworldSapphireBuriedMaxHeight", 65, -64, 256,
+                "Maximum height from the bottom for the buried layer of sapphire ores");
+
+        netherSapphireVeinsPerChunk = integer(builder,
+                "netherSapphireVeinsPerChunk", 4, 0, 100,
+                "The amount of nether sapphire ore veins per chunk");
+        netherSapphireBottom = integer(builder,
+                "netherSapphireMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether sapphire ore");
+        netherSapphireTop = integer(builder,
+                "netherSapphireMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether sapphire ore");
+        builder.pop();
+
+        // ores.ruby
+        builder.push(SUB_CATEGORY_ORES_RUBY);
+        overworldRubySmallVeinsPerChunk = integer(builder,
+                "overworldRubySmallVeinsPerChunk", 5, 0, 100,
+                "The amount of small ruby ore veins per chunk");
+        overworldRubySmallBottom = integer(builder,
+                "overworldRubySmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of ruby ores");
+        overworldRubySmallTop = integer(builder,
+                "overworldRubySmallMaxHeight", 70, -64, 256,
+                "Maximum height from the bottom for the upper layer of ruby ores");
+
+        overworldRubyLargeVeinsPerChunk = integer(builder,
+                "overworldRubyLargeVeinsPerChunk", 6, 0, 100,
+                "The amount of large ruby ore veins per chunk");
+        overworldRubyLargeBottom = integer(builder,
+                "overworldRubyLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of ruby ores");
+        overworldRubyLargeTop = integer(builder,
+                "overworldRubyLargeMaxHeight", 70, -64, 256,
+                "Maximum height from the bottom for the middle layer of ruby ores");
+
+        overworldRubyBuriedVeinsPerChunk = integer(builder,
+                "overworldRubyBuriedVeinsPerChunk", 4, 0, 100,
+                "The amount of buried* ruby ore veins per chunk");
+        overworldRubyBuriedBottom = integer(builder,
+                "overworldRubyBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of ruby ores");
+        overworldRubyBuriedTop = integer(builder,
+                "overworldRubyBuriedMaxHeight", 70, -64, 256,
+                "Maximum height from the bottom for the buried layer of ruby ores");
+
+        netherRubyVeinsPerChunk = integer(builder,
+                "netherRubyVeinsPerChunk", 4, 0, 100,
+                "The amount of nether ruby ore veins per chunk");
+        netherRubyBottom = integer(builder,
+                "netherRubyMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether ruby ore");
+        netherRubyTop = integer(builder,
+                "netherRubyMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether ruby ore");
+        builder.pop();
+
+        // ores.turquoise
+        builder.push(SUB_CATEGORY_ORES_TURQUOISE);
+        overworldTurquoiseSmallVeinsPerChunk = integer(builder,
+                "overworldTurquoiseSmallVeinsPerChunk", 13, 0, 100,
+                "The amount of small turquoise ore veins per chunk");
+        overworldTurquoiseSmallBottom = integer(builder,
+                "overworldTurquoiseSmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of turquoise ores");
+        overworldTurquoiseSmallTop = integer(builder,
+                "overworldTurquoiseSmallMaxHeight", 20, -64, 256,
+                "Maximum height from the bottom for the upper layer of turquoise ores");
+
+        overworldTurquoiseLargeVeinsPerChunk = integer(builder,
+                "overworldTurquoiseLargeVeinsPerChunk", 17, 0, 100,
+                "The amount of large turquoise ore veins per chunk");
+        overworldTurquoiseLargeBottom = integer(builder,
+                "overworldTurquoiseLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of turquoise ores");
+        overworldTurquoiseLargeTop = integer(builder,
+                "overworldTurquoiseLargeMaxHeight", 20, -64, 256,
+                "Maximum height from the bottom for the middle layer of turquoise ores");
+
+        overworldTurquoiseBuriedVeinsPerChunk = integer(builder,
+                "overworldTurquoiseBuriedVeinsPerChunk", 10, 0, 100,
+                "The amount of buried* turquoise ore veins per chunk");
+        overworldTurquoiseBuriedBottom = integer(builder,
+                "overworldTurquoiseBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of turquoise ores");
+        overworldTurquoiseBuriedTop = integer(builder,
+                "overworldTurquoiseBuriedMaxHeight", 20, -64, 256,
+                "Maximum height from the bottom for the buried layer of turquoise ores");
+        builder.pop();
+
+        // ores.moissanite
+        builder.push(SUB_CATEGORY_ORES_MOISSANITE);
+        overworldMoissaniteSmallVeinsPerChunk = integer(builder,
+                "overworldMoissaniteSmallVeinsPerChunk", 6, 0, 100,
+                "The amount of small moissanite ore veins per chunk");
+        overworldMoissaniteSmallBottom = integer(builder,
+                "overworldMoissaniteSmallMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of moissanite ores");
+        overworldMoissaniteSmallTop = integer(builder,
+                "overworldMoissaniteSmallMaxHeight", 40, -64, 256,
+                "Maximum height from the bottom for the upper layer of moissanite ores");
+
+        overworldMoissaniteLargeVeinsPerChunk = integer(builder,
+                "overworldMoissaniteLargeVeinsPerChunk", 4, 0, 100,
+                "The amount of large moissanite ore veins per chunk");
+        overworldMoissaniteLargeBottom = integer(builder,
+                "overworldMoissaniteLargeMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the upper layer of moissanite ores");
+        overworldMoissaniteLargeTop = integer(builder,
+                "overworldMoissaniteLargeMaxHeight", 40, -64, 256,
+                "Maximum height from the bottom for the middle layer of moissanite ores");
+
+        overworldMoissaniteBuriedVeinsPerChunk = integer(builder,
+                "overworldMoissaniteBuriedVeinsPerChunk", 3, 0, 100,
+                "The amount of buried* moissanite ore veins per chunk");
+        overworldMoissaniteBuriedBottom = integer(builder,
+                "overworldMoissaniteBuriedMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for the buried layer of moissanite ores");
+        overworldMoissaniteBuriedTop = integer(builder,
+                "overworldMoissaniteBuriedMaxHeight", 40, -64, 256,
+                "Maximum height from the bottom for the buried layer of moissanite ores");
+
+        netherMoissaniteVeinsPerChunk = integer(builder,
+                "netherMoissaniteVeinsPerChunk", 7, 0, 100,
+                "The amount of nether moissanite ore veins per chunk");
+        netherMoissaniteBottom = integer(builder,
+                "netherMoissaniteMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether moissanite ore");
+        netherMoissaniteTop = integer(builder,
+                "netherMoissaniteMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether moissanite ore");
+        builder.pop();
+
+        // ores.tanzanite
+        builder.push(SUB_CATEGORY_ORES_TANZANITE);
+        netherTanzaniteVeinsPerChunk = integer(builder,
+                "netherTanzaniteVeinsPerChunk", 10, 0, 100,
+                "The amount of nether tanzanite ore veins per chunk");
+        netherTanzaniteBottom = integer(builder,
+                "netherTanzaniteMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether tanzanite ore");
+        netherTanzaniteTop = integer(builder,
+                "netherTanzaniteMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether tanzanite ore");
+        builder.pop();
+
+        // ores.onyx
+        builder.push(SUB_CATEGORY_ORES_ONYX);
+        endOnyxVeinsPerChunk = integer(builder,
+                "endOnyxVeinsPerChunk", 7, 0, 100,
+                "The amount of end onyx ore veins per chunk");
+        endOnyxBottom = integer(builder,
+                "endOnyxMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for end onyx ore");
+        endOnyxTop = integer(builder,
+                "endOnyxMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for end onyx ore");
+        builder.pop();
+
+        // ores.anthracite
+        builder.push(SUB_CATEGORY_ORES_ANTHRACITE);
+        anthraciteUpperVeinsPerChunk = integer(builder,
+                "anthraciteUpperVeinsPerChunk", 9, 0, 100,
+                "The amount of anthracite ore veins per chunk for the upper layer");
+        overworldAnthraciteUpperBottom = integer(builder,
+                "anthraciteUpperMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for upper layer anthracite ore (Maximum height cannot be changed due to vertical anchor top!)");
+
+        anthraciteLowerVeinsPerChunk = integer(builder,
+                "anthraciteLowerVeinsPerChunk", 6, 0, 100,
+                "The amount of anthracite ore veins per chunk for the bottom layer");
+        overworldAnthraciteLowerBottom = integer(builder,
+                "anthraciteLowerMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for bottom layer anthracite ore");
+        overworldAnthraciteLowerTop = integer(builder,
+                "anthraciteLowerMaxHeight", 192, -64, 256,
+                "Maximum height from the bottom for bottom layer anthracite ore");
+
+        netherAnthraciteVeinsPerChunk = integer(builder,
+                "netherAnthraciteVeinsPerChunk", 17, 0, 100,
+                "The amount of nether anthracite ore veins per chunk");
+        netherAnthraciteBottom = integer(builder,
+                "netherAnthraciteMinHeight", -64, -64, 256,
+                "Minimum height from the bottom for nether anthracite ore");
+        netherAnthraciteTop = integer(builder,
+                "netherAnthraciteMaxHeight", 256, -64, 256,
+                "Maximum height from the bottom for nether anthracite ore");
+        builder.pop();
+
+        builder.pop(); // ores root
+
+        // --------------------
+        // shields
+        // --------------------
+        builder.comment("The shield configuration for this mod").push(CATEGORY_SHIELDS);
+
+        copperDurability = integer(builder, "copperDurability", 200, 1, 32767, "The durability of the Copper Shield.");
+        tinDurability = integer(builder, "tinDurability", 240, 1, 32767, "The durability of the Tin Shield.");
+        silverDurability = integer(builder, "silverDurability", 350, 1, 32767, "The durability of the Silver Shield.");
+        bronzeDurability = integer(builder, "bronzeDurability", 385, 1, 32767, "The durability of the Bronze Shield.");
+        cobaltDurability = integer(builder, "cobaltDurability", 500, 1, 32767, "The durability of the Cobalt Shield.");
+        obsidianDurability = integer(builder, "obsidianDurability", 1200, 1, 32767, "The durability of the Obsidian Shield.");
+        sterlingDurability = integer(builder, "sterlingDurability", 600, 1, 32767, "The durability of the Sterling Silver Shield.");
+        steelDurability = integer(builder, "steelDurability", 690, 1, 32767, "The durability of the Steel Shield.");
+        amethystDurability = integer(builder, "amethystDurability", 550, 1, 32767, "The durability of the Amethyst Shield.");
+        emeraldDurability = integer(builder, "emeraldDurability", 550, 1, 32767, "The durability of the Emerald Shield.");
+        topazDurability = integer(builder, "topazDurability", 680, 1, 32767, "The durability of the Topaz Shield.");
+        tourmalineDurability = integer(builder, "tourmalineDurability", 700, 1, 32767, "The durability of the Tourmaline Shield.");
+        tanzaniteDurability = integer(builder, "tanzaniteDurability", 720, 1, 32767, "The durability of the Tanzanite Shield.");
+        rubyDurability = integer(builder, "rubyDurability", 800, 1, 32767, "The durability of the Ruby Shield.");
+        sapphireDurability = integer(builder, "sapphireDurability", 825, 1, 32767, "The durability of the Sapphire Shield.");
+        turquoiseDurability = integer(builder, "turquoiseDurability", 1000, 1, 32767, "The durability of the Turquoise Shield.");
+        moissaniteDurability = integer(builder, "moissaniteDurability", 850, 1, 32767, "The durability of the Moissanite Shield.");
+        onyxDurability = integer(builder, "onyxDurability", 1500, 1, 32767, "The durability of the Onyx Shield.");
+        grapheneDurability = integer(builder, "grapheneDurability", 2000, 1, 32767, "The durability of the Graphene Shield.");
+
+        builder.pop();
     }
 
-    private static BooleanValue getBoolean(ForgeConfigSpec.Builder builder, String name, String category, boolean defaultValue, String comment) {
-        String path = category + "." + name;
-        return builder.comment(comment, "Default: " + defaultValue).define(path, defaultValue);
+    // --- "local key" helpers (order is kept in the order you call them) ---
+
+    private static BooleanValue bool(ForgeConfigSpec.Builder b, String name, boolean def, String comment) {
+        return b.comment(comment, "Default: " + def).define(name, def);
     }
 
-    private static ConfigValue<Integer> getInt(ForgeConfigSpec.Builder builder, String name, String category, int defaultValue, int min, int max, String comment) {
-        String path = category + "." + name;
-        return builder.comment(comment, "Default: " + defaultValue).defineInRange(path, defaultValue, min, max);
+    private static ConfigValue<Integer> integer(ForgeConfigSpec.Builder b, String name, int def, int min, int max, String comment) {
+        return b.comment(comment, "Default: " + def).defineInRange(name, def, min, max);
     }
 }

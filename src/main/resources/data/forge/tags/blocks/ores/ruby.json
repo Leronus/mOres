@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mores:ruby_ore",
+    "mores:deepslate_ruby_ore",
+    "mores:nether_ruby_ore"
+  ]
+}

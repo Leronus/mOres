@@ -26,16 +26,14 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class ModEvents
 {
-//    private static final MoresInjectionLookup lootLookupMap = new MoresInjectionLookup();
-
-    @SubscribeEvent
-    public static void LootLoad(final LootTableLoadEvent event)
-    {
-//        if (MoresConfig.addChestLoot)
+//    @SubscribeEvent
+//    public static void LootLoad(final LootTableLoadEvent event)
+//    {
+//        if (Config.addChestLoot)
 //        {
 //            LootUtils.LootLoadHandler(Mores.MODID, event, lootLookupMap);
 //        } // end-if config allows
-    } // end LootLoad()
+//    } // end LootLoad()
 
     /**
      * Intercept villager trades list and modify it.
@@ -57,14 +55,6 @@ public final class ModEvents
             ModVillagerTrades.WeaponsmithTrades(evt);
         } // end-if WEAPONSMITH
     } // end onVillagerTrades()
-
-    @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ModEventBusEvents {
-        @SubscribeEvent
-        public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
-            event.put(ModEntityTypes.DUCK.get(), DuckEntity.createAttributes().build());
-        }
-    }
 
     /**
      * Fires when the player dies
@@ -145,8 +135,13 @@ public final class ModEvents
             }
         }
     }
-
     //LivingHurtEvent
 
-
+    @Mod.EventBusSubscriber(modid = Mores.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ModEventBusEvents {
+        @SubscribeEvent
+        public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
+            event.put(ModEntityTypes.DUCK.get(), DuckEntity.createAttributes().build());
+        }
+    }
 } // end class

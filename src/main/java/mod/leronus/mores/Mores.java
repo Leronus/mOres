@@ -11,6 +11,7 @@ import mod.leronus.mores.loot.ModLootModifiers;
 import mod.leronus.mores.painting.ModPaintings;
 import mod.leronus.mores.recipe.ModRecipes;
 import mod.leronus.mores.sound.ModSounds;
+import mod.leronus.mores.world.ModBiomeModifiers;
 import mod.leronus.mores.world.feature.ModConfiguredFeatures;
 import mod.leronus.mores.world.feature.ModPlacedFeatures;
 import net.minecraftforge.common.MinecraftForge;
@@ -42,7 +43,7 @@ public class Mores {
         ModSounds.register(modEventBus);
         ModEntityTypes.register(modEventBus);
         ModPaintings.register(modEventBus);
-
+        ModBiomeModifiers.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
