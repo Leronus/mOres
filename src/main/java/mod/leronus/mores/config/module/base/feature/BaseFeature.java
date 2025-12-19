@@ -29,6 +29,20 @@ public class BaseFeature extends Feature {
     @Config(min = 0d, max = Float.MAX_VALUE)
     @Label(name = "Min Shield Hurt Damage", description = "The minimum damage dealt to the player for the shield to take damage (reduce durability). Vanilla is 3.")
     public static Double minShieldHurtDamage = 0d;
+    @Config
+    @Label(
+            name = "Ruby Autosmelt",
+            description = "If true, Ruby tools autosmelt block drops (via global loot modifier)."
+    )
+    public static Boolean rubyAutoSmelt = true;
+    @Config
+    @Label(
+            name = "Enable Extra Tooltips",
+            description = "If false, Mores will not add any extra tooltip lines (durability, bonuses, stats, etc.)."
+    )
+    public static Boolean extraTooltips = true;
+
+
 
     public BaseFeature(Module module, boolean enabledByDefault, boolean canBeDisabled) {
         super(module, enabledByDefault, canBeDisabled);

@@ -1,5 +1,10 @@
 Release v5.3.7
-- Added artifacts compatibility (w/ Heater Pickaxe)
+- Updated Dutch language file with missing translations
+- Added tooltips to config and added tooltips for horse armor (protection)
+- Added autosmelt for ruby tools to config
+- Fixed armor trims for diamond on diamond, iron on iron, netherite on netherite (missing textures, now added + more visible)
+- Fixed duck eggs not spawning in shipwrecks
+- Added artifacts compatibility (w/ Heater Pickaxe) | Added forge tags for better compatibility with other mods
 - Updated Licensing
 - Updated Forge (47.3.5 -> 47.4.10)
 

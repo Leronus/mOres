@@ -2,6 +2,8 @@ package mod.leronus.mores.api.client;
 
 import mod.leronus.mores.Mores;
 import mod.leronus.mores.config.Config;
+import mod.leronus.mores.config.module.base.Feature;
+import mod.leronus.mores.config.module.base.feature.BaseFeature;
 import mod.leronus.mores.item.ModArmorMaterials;
 import mod.leronus.mores.item.ModItems;
 import mod.leronus.mores.item.ModTiers;
@@ -24,22 +26,26 @@ public class TooltipHandler {
 
     @SubscribeEvent
     public static void onTooltip(ItemTooltipEvent e) {
+        // Feature enabled + toggle enabled?
+        if (!Feature.isEnabled(BaseFeature.class) || !BaseFeature.extraTooltips) {
+            return;
+        }
         if (e.getItemStack().getItem() instanceof ShieldItem) {
             Item shield = e.getItemStack().getItem();
             List<Component> tooltip = e.getToolTip();
             tooltip.add(Component.literal(""));
-//            tooltip.add(ModShieldItem.getBlockingTextComponent());
-
-//            if (shield == Items.SHIELD) {
-//                tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
-//                        .append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction.get() + "%"));
-            if (shield instanceof ModShieldItem modShieldItem) {
-//                tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY)
-//                          .append(": " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%"));
-                tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(modShieldItem.material.durability)).withStyle(ChatFormatting.LIGHT_PURPLE)));
-            } else {
-//                tooltip.add(Component.translatable(": " + ChatFormatting.GOLD + (Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get()) + "%"));
+//          tooltip.add(ModShieldItem.getBlockingTextComponent());
+            if (shield == Items.SHIELD) {
+//              tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY).append(": " + ChatFormatting.GOLD + Config.defaultDamageReduction.get() + "%"));
+                tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(shield.getMaxDamage())).withStyle(ChatFormatting.LIGHT_PURPLE)));
             }
+            if (shield instanceof ModShieldItem modShieldItem) {
+//              tooltip.add(Component.translatable("mores.shield_damage_reduction").withStyle(ChatFormatting.GRAY).append(": " + ChatFormatting.GOLD + modShieldItem.getDamageReduction() + "%"));
+                tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(modShieldItem.material.durability)).withStyle(ChatFormatting.LIGHT_PURPLE)));
+            }
+//          else {
+//                tooltip.add(Component.translatable(": " + ChatFormatting.GOLD + (Config.customShieldMaxReduction.get() ? 100 : Config.defaultDamageReduction.get()) + "%"));
+//          }
         }
 
         if(e.getItemStack().getItem() instanceof SwordItem) {
@@ -188,10 +194,15 @@ public class TooltipHandler {
                 tooltip.add(Component.translatable("mores.efficiency").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(tieredItem.getTier().getSpeed())).withStyle(ChatFormatting.RED)));
             }
 
-            if (tieredItem.getTier() == ModTiers.RUBY && !(tieredItem instanceof HoeItem) && !(tieredItem instanceof SwordItem)){
+            if (tieredItem.getTier() == ModTiers.RUBY && !(tieredItem instanceof HoeItem) && !(tieredItem instanceof SwordItem) && BaseFeature.rubyAutoSmelt){
                 tooltip.add(Component.literal(""));
                 tooltip.add(Component.translatable("mores.bonus").withStyle(ChatFormatting.GRAY).append(Component.translatable("mores.auto_smelt").withStyle(ChatFormatting.DARK_RED)));
             }
+        }
+        if (e.getItemStack().getItem() instanceof HorseArmorItem horseArmorItem) {
+            List<Component> tooltip = e.getToolTip();
+            tooltip.add(Component.literal(""));
+            tooltip.add(Component.translatable("mores.protection").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(horseArmorItem.getProtection())).withStyle(ChatFormatting.GOLD)));
         }
     }
 }
