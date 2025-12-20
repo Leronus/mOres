@@ -1,7 +1,5 @@
 - Add new smithing templates to loottables (?)
 
-- Fix shield decoration
-
 
 
 

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/tin",
+    "#forge:ores/silver",
+    "#forge:ores/cobalt",
+    "#forge:ores/topaz",
+    "#forge:ores/tourmaline",
+    "#forge:ores/tanzanite",
+    "#forge:ores/ruby",
+    "#forge:ores/sapphire",
+    "#forge:ores/moissanite",
+    "#forge:ores/turquoise",
+    "#forge:ores/onyx"
+  ]
+}
