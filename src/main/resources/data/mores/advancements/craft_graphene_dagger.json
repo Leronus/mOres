@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Jack The Ripper",
-    "description": "Craft a graphene dagger",
+    "title": {
+      "text": "Jack The Ripper"
+    },
+    "description": {
+      "text": "Craft a graphene dagger"
+    },
     "icon": {
-      "item": "mores:graphene_dagger"
+      "id": "mores:graphene_dagger"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["mores:graphene_dagger"]
+            "items": [
+              "mores:graphene_dagger"
+            ]
           }
         ]
       }

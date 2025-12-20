@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:deepslate_moissanite_ore"
   },
-  "result": "mores:moissanite_gem",
+  "result": {
+    "id": "mores:moissanite_gem"
+  },
   "experience": 1.0,
   "cookingtime": 100
 }

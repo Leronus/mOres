@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Quicksilver",
-    "description": "Obtain raw silver",
+    "title": {
+      "text": "Quicksilver"
+    },
+    "description": {
+      "text": "Obtain raw silver"
+    },
     "icon": {
-      "item": "mores:raw_silver"
+      "id": "mores:raw_silver"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_tin_ore",
   "criteria": {
-    "obtain_silver_ore": {
+    "obtain_raw_silver": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

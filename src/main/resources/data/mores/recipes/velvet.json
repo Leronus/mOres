@@ -1,20 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:egg"
-        },
-        {
-            "item": "minecraft:beetroot"
-        },
-        {
-            "item": "minecraft:wheat"
-        },
-        {
-            "item": "minecraft:sugar"
-        }
-    ],
-    "result": {
-        "item": "mores:velvet"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
     }
+  ],
+  "result": {
+    "id": "mores:velvet",
+    "count": 1
+  }
 }

@@ -31,7 +31,7 @@
 
   "result":
   {
-    "item":  "minecraft:golden_horse_armor",
+    "id":  "minecraft:golden_horse_armor",
     "count": 1
   }
 }

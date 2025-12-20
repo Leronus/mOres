@@ -27,6 +27,7 @@ public class ModTabs {
                         event.accept(ModItems.RAW_SILVER.get());
                         event.accept(ModItems.RAW_COBALT.get());
                         event.accept(ModItems.TIN_NUGGET.get());
+                        event.accept(ModItems.COPPER_NUGGET.get());
                         event.accept(ModItems.BRONZE_NUGGET.get());
                         event.accept(ModItems.SILVER_NUGGET.get());
                         event.accept(ModItems.COBALT_NUGGET.get());
@@ -437,7 +438,6 @@ public class ModTabs {
                         event.accept(ModItems.CARROT_PIE.get());
                         event.accept(ModItems.DUCK.get());
                         event.accept(ModItems.COOKED_DUCK.get());
-//                        event.accept(ModItems.DUCK_EGG.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MORES_ENTITIES = CREATIVE_MODE_TABS.register("mores_entities",
@@ -445,6 +445,7 @@ public class ModTabs {
                     .title(Component.translatable("creativemodetab.mores_entities"))
                     .displayItems((pParameters, event) -> {
                         event.accept(ModItems.DUCK_SPAWN_EGG.get());
+                        event.accept(ModItems.DUCK_EGG.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

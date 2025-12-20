@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Whiter Than Bart",
-    "description": "Craft full silver armor",
+    "title": {
+      "text": "Whiter Than Bart"
+    },
+    "description": {
+      "text": "Craft full silver armor"
+    },
     "icon": {
-      "item": "mores:silver_chestplate"
+      "id": "mores:silver_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_silver_sword",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_silver_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:silver_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_silver_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:silver_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_silver_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:silver_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_silver_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:silver_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_silver_helmet"
+    ],
+    [
+      "craft_silver_chestplate"
+    ],
+    [
+      "craft_silver_leggings"
+    ],
+    [
+      "craft_silver_boots"
+    ]
+  ],
   "rewards": {
     "experience": 250
   }

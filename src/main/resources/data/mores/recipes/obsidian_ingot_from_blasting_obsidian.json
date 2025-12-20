@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "minecraft:obsidian"
   },
-  "result": "mores:obsidian_ingot",
+  "result": {
+    "id": "mores:obsidian_ingot"
+  },
   "experience": 0.7,
   "cookingtime": 100
 }

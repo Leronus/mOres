@@ -1,12 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bedrock"
+      "id": "minecraft:bedrock"
     },
-    "title": "WHAT? WHERE?",
-    "description": "You wandered too far off just like Martijn... Find bedrock",
+    "title": {
+      "text": "WHAT? WHERE?"
+    },
+    "description": {
+      "text": "You wandered too far off just like Martijn... Find bedrock"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -18,8 +23,11 @@
         "player": {
           "location": {
             "position": {
-              "y": -63
-            }
+              "y": {
+                "min": -63
+              }
+            },
+            "dimension": "minecraft:overworld"
           }
         }
       }

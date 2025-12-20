@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "mores:raw_tin_block"
   },
-  "result": "mores:tin_block",
+  "result": {
+    "id": "mores:tin_block"
+  },
   "experience": 6.3,
   "cookingtime": 1800
 }

@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Knuppel",
-    "description": "Craft a wooden mace",
+    "title": {
+      "text": "The Knuppel"
+    },
+    "description": {
+      "text": "Craft a wooden mace"
+    },
     "icon": {
-      "item": "mores:wood_mace"
+      "id": "mores:wood_mace"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_wood_battleaxe",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_wood_mace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

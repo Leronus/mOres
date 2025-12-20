@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Unbreakable Four",
-    "description": "Craft all obsidian tools",
+    "title": {
+      "text": "Unbreakable Four"
+    },
+    "description": {
+      "text": "Craft all obsidian tools"
+    },
     "icon": {
-      "item": "mores:obsidian_axe"
+      "id": "mores:obsidian_axe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -62,7 +67,18 @@
     }
   },
   "requirements": [
-    ["craft_obsidian_pickaxe"], ["craft_obsidian_axe"], ["craft_obsidian_shovel"], ["craft_obsidian_hoe"]
+    [
+      "craft_obsidian_pickaxe"
+    ],
+    [
+      "craft_obsidian_axe"
+    ],
+    [
+      "craft_obsidian_shovel"
+    ],
+    [
+      "craft_obsidian_hoe"
+    ]
   ],
   "rewards": {
     "experience": 45

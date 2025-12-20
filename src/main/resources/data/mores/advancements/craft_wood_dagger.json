@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Prison Shank",
-    "description": "Craft a makeshift dagger",
+    "title": {
+      "text": "Prison Shank"
+    },
+    "description": {
+      "text": "Craft a makeshift dagger"
+    },
     "icon": {
-      "item": "mores:wood_dagger"
+      "id": "mores:wood_dagger"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:root",
   "criteria": {
-    "obtain_graphene": {
+    "craft_wood_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

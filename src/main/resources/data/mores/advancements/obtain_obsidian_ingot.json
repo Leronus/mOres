@@ -1,14 +1,18 @@
 {
   "display": {
     "icon": {
-      "item": "mores:obsidian_ingot"
+      "id": "mores:obsidian_ingot"
     },
-    "title": "Leveling Up",
-    "description": "Obtain an obsidian ingot",
+    "title": {
+      "text": "Leveling Up"
+    },
+    "description": {
+      "text": "Obtain an obsidian ingot"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
-    "announce_to_chat": true,
     "show_toast": true,
+    "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_topaz",
@@ -25,10 +29,5 @@
         ]
       }
     }
-  },
-  "requirements": [
-    [
-      "obsidian_ingot"
-    ]
-  ]
+  }
 }

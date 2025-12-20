@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:topaz_ore"
   },
-  "result": "mores:topaz_gem",
+  "result": {
+    "id": "mores:topaz_gem"
+  },
   "experience": 0.9,
   "cookingtime": 100
 }

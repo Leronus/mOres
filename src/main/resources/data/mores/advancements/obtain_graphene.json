@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "The Chemist",
-    "description": "Alloy onyx and diamond, the ultimate material...",
+    "title": {
+      "text": "The Chemist"
+    },
+    "description": {
+      "text": "Alloy onyx and diamond, the ultimate material..."
+    },
     "icon": {
-      "item": "mores:graphene_gem"
+      "id": "mores:graphene_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["mores:graphene_gem"]
+            "items": [
+              "mores:graphene_gem"
+            ]
           }
         ]
       }

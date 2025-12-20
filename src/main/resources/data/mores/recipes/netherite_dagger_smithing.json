@@ -10,6 +10,6 @@
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "mores:netherite_dagger"
+    "id": "mores:netherite_dagger"
   }
 }

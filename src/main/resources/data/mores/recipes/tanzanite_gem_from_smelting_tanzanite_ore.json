@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:nether_tanzanite_ore"
   },
-  "result": "mores:tanzanite_gem",
+  "result": {
+    "id": "mores:tanzanite_gem"
+  },
   "experience": 1.0,
   "cookingtime": 200
 }

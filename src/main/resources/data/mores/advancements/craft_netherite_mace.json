@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Bat Man",
-    "description": "Craft a netherite mace",
+    "title": {
+      "text": "The Bat Man"
+    },
+    "description": {
+      "text": "Craft a netherite mace"
+    },
     "icon": {
-      "item": "mores:netherite_mace"
+      "id": "mores:netherite_mace"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_stone_mace",
   "criteria": {
-    "craft_stone_mace": {
+    "craft_netherite_mace": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

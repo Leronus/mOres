@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "mores:raw_cobalt_block"
   },
-  "result": "mores:cobalt_block",
+  "result": {
+    "id": "mores:cobalt_block"
+  },
   "experience": 7.0,
   "cookingtime": 1800
 }

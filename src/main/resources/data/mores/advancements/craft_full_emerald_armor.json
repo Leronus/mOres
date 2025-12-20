@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Feeling Lucky",
-    "description": "Craft full emerald armor",
+    "title": {
+      "text": "Feeling Lucky"
+    },
+    "description": {
+      "text": "Craft full emerald armor"
+    },
     "icon": {
-      "item": "mores:emerald_chestplate"
+      "id": "mores:emerald_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_emerald_gear",
   "criteria": {
-    "craft_emerald_tool": {
+    "craft_emerald_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:emerald_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_emerald_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:emerald_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_emerald_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:emerald_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_emerald_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:emerald_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_emerald_helmet"
+    ],
+    [
+      "craft_emerald_chestplate"
+    ],
+    [
+      "craft_emerald_leggings"
+    ],
+    [
+      "craft_emerald_boots"
+    ]
+  ],
   "rewards": {
     "experience": 125
   }

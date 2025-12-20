@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Might As Well Use Stone",
-    "description": "Craft a tin pickaxe",
+    "title": {
+      "text": "Might As Well Use Stone"
+    },
+    "description": {
+      "text": "Craft a tin pickaxe"
+    },
     "icon": {
-      "item": "mores:tin_pickaxe"
+      "id": "mores:tin_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

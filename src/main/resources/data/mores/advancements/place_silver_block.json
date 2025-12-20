@@ -1,12 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "mores:silver_block"
+      "id": "mores:silver_block"
     },
-    "title": "Second Place",
-    "description": "Place a silver block",
+    "title": {
+      "text": "Second Place"
+    },
+    "description": {
+      "text": "Place a silver block"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

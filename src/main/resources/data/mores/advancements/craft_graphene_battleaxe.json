@@ -1,23 +1,30 @@
 {
   "display": {
-    "title": "Kratos",
-    "description": "Craft the strongest weapon in the game, the graphene battleaxe",
+    "title": {
+      "text": "Kratos"
+    },
+    "description": {
+      "text": "Craft the strongest weapon in the game, the graphene battleaxe"
+    },
     "icon": {
-      "item": "mores:graphene_battleaxe"
+      "id": "mores:graphene_battleaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_graphene",
   "criteria": {
-    "obtain_graphene": {
+    "obtain_graphene_battleaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["mores:graphene_battleaxe"]
+            "items": [
+              "mores:graphene_battleaxe"
+            ]
           }
         ]
       }

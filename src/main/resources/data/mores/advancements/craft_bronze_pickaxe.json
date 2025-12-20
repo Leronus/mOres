@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Time To Dig Deeper",
-    "description": "Craft a bronze pickaxe",
+    "title": {
+      "text": "Time To Dig Deeper"
+    },
+    "description": {
+      "text": "Craft a bronze pickaxe"
+    },
     "icon": {
-      "item": "mores:bronze_pickaxe"
+      "id": "mores:bronze_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

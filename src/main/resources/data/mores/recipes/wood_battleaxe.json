@@ -1,29 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-
-  "pattern":
-  [
+  "pattern": [
     "$ $",
     "$#$",
     " # "
   ],
-
-
-  "key":
-  {
-    "#":
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "$":
-    {
+    "$": {
       "tag": "minecraft:planks"
     }
   },
-
-  "result":
-  {
-    "item":  "mores:wood_battleaxe",
+  "result": {
+    "id": "mores:wood_battleaxe",
     "count": 1
   }
 }

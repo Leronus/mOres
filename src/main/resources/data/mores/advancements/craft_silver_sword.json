@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Death To Werewolves!",
-    "description": "Craft a silver sword",
+    "title": {
+      "text": "Death To Werewolves!"
+    },
+    "description": {
+      "text": "Craft a silver sword"
+    },
     "icon": {
-      "item": "mores:silver_sword"
+      "id": "mores:silver_sword"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_silver_ore",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_silver_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

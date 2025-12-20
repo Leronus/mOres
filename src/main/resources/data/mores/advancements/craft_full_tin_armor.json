@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Tin Can",
-    "description": "Craft full tin armor",
+    "title": {
+      "text": "Tin Can"
+    },
+    "description": {
+      "text": "Craft full tin armor"
+    },
     "icon": {
-      "item": "mores:tin_chestplate"
+      "id": "mores:tin_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:smelt_more",
   "criteria": {
-    "obtain_tin_armor": {
+    "craft_tin_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:tin_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tin_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tin_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tin_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tin_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tin_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tin_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_tin_helmet"
+    ],
+    [
+      "craft_tin_chestplate"
+    ],
+    [
+      "craft_tin_leggings"
+    ],
+    [
+      "craft_tin_boots"
+    ]
+  ],
   "rewards": {
     "experience": 20
   }

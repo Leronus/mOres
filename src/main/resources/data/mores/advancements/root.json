@@ -3,7 +3,7 @@
     "title": "mOres",
     "description": "made by Leronus",
     "icon": {
-      "item": "mores:raw_tin_block"
+      "id": "mores:raw_tin_block"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
@@ -17,9 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:crafting_table"
-            ]
+            "items": ["minecraft:crafting_table"]
           }
         ]
       }

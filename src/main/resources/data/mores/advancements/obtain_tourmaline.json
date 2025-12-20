@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "My Valentine",
-    "description": "Obtain a tourmaline gem",
+    "title": {
+      "text": "My Valentine"
+    },
+    "description": {
+      "text": "Obtain a tourmaline gem"
+    },
     "icon": {
-      "item": "mores:tourmaline_gem"
+      "id": "mores:tourmaline_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

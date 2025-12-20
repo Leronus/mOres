@@ -1,33 +1,35 @@
 {
   "display": {
-    "title": "Dark Horse",
-    "description": "Obtain onyx horse armor",
+    "title": {
+      "text": "Dark Horse"
+    },
+    "description": {
+      "text": "Obtain onyx horse armor"
+    },
     "icon": {
-      "item": "mores:onyx_horse_armor"
+      "id": "mores:onyx_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_horse_armor",
   "criteria": {
-    "craft_horse_armor": {
+    "obtain_onyx_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "mores:onyx_horse_armor"
-          ]
-        }
-      ]
+            ]
+          }
+        ]
+      }
     }
-  }
-},
-  "requirements": [
-    ["craft_horse_armor"]
-  ],
+  },
   "rewards": {
     "experience": 100
   }

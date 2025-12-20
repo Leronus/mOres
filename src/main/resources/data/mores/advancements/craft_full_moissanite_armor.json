@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "What Are You Doing In My Swamp",
-    "description": "Craft full moissanite armor",
+    "title": {
+      "text": "What Are You Doing In My Swamp"
+    },
+    "description": {
+      "text": "Craft full moissanite armor"
+    },
     "icon": {
-      "item": "mores:moissanite_chestplate"
+      "id": "mores:moissanite_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_moissanite",
   "criteria": {
-    "craft_full_shrek_armor": {
+    "craft_moissanite_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:moissanite_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_moissanite_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:moissanite_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_moissanite_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:moissanite_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_moissanite_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:moissanite_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_moissanite_helmet"
+    ],
+    [
+      "craft_moissanite_chestplate"
+    ],
+    [
+      "craft_moissanite_leggings"
+    ],
+    [
+      "craft_moissanite_boots"
+    ]
+  ],
   "rewards": {
     "experience": 150
   }

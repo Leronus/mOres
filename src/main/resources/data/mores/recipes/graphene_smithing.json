@@ -10,6 +10,6 @@
     "item": "mores:onyx_gem"
   },
   "result": {
-    "item": "mores:graphene_gem"
+    "id": "mores:graphene_gem"
   }
 }

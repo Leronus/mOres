@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Less Shine, More Power",
-    "description": "Alloy a stronger version of silver using copper",
+    "title": {
+      "text": "Less Shine, More Power"
+    },
+    "description": {
+      "text": "Alloy a stronger version of silver using copper"
+    },
     "icon": {
-      "item": "mores:sterling_ingot"
+      "id": "mores:sterling_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["mores:sterling_ingot"]
+            "items": [
+              "mores:sterling_ingot"
+            ]
           }
         ]
       }

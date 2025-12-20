@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Dagger of Doom",
-    "description": "Craft one scary dagger, forged in the eternal depths of the End",
+    "title": {
+      "text": "Dagger of Doom"
+    },
+    "description": {
+      "text": "Craft one scary dagger, forged in the eternal depths of the End"
+    },
     "icon": {
-      "item": "mores:onyx_dagger"
+      "id": "mores:onyx_dagger"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_onyx",
   "criteria": {
-    "obtain_graphene": {
+    "craft_onyx_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

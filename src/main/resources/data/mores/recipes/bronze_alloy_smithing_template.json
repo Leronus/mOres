@@ -18,7 +18,7 @@
   ],
   "result": {
     "count": 2,
-    "item": "mores:bronze_alloy_smithing_template"
+    "id": "mores:bronze_alloy_smithing_template"
   },
   "show_notification": true
 }

@@ -1,28 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-
-  "pattern":
-  [
+  "pattern": [
     "$",
     "$",
     "#"
   ],
-
-  "key":
-  {
-    "#":
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "$":
-    {
+    "$": {
       "tag": "forge:gems/turquoise"
     }
   },
-
-  "result":
-  {
-    "item":  "mores:turquoise_sword",
+  "result": {
+    "id": "mores:turquoise_sword",
     "count": 1
   }
 }

@@ -34,7 +34,9 @@ public class ClientModEventSubscriber
 //            LOGGER.debug("Registered ContainerType Screens");
 //        });
         //Register the duck entity client side
-        EntityRenderers.register(ModEntityTypes.DUCK.get(), DuckRenderer::new);
+        event.enqueueWork(() ->
+                EntityRenderers.register(ModEntityTypes.DUCK.get(), DuckRenderer::new)
+        );
     } // end onFMLClientSetupEvent
 
 

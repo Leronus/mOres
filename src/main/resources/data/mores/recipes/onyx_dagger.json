@@ -3,8 +3,8 @@
 
   "pattern":
   [
-    " $ ",
-    " # "
+    "$",
+    "#"
   ],
 
 
@@ -22,7 +22,7 @@
 
   "result":
   {
-    "item":  "mores:onyx_dagger",
+    "id":  "mores:onyx_dagger",
     "count": 1
   }
 }

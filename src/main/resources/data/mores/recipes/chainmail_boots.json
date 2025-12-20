@@ -18,7 +18,7 @@
 
   "result":
   {
-    "item":  "minecraft:chainmail_boots",
+    "id":  "minecraft:chainmail_boots",
     "count": 1
   }
 }

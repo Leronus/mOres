@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "onyx_gem",
+  "ingredient": {
+    "item": "mores:onyx_ore"
+  },
+  "result": {
+    "id": "mores:onyx_gem"
+  },
+  "experience": 1.1,
+  "cookingtime": 100
+}

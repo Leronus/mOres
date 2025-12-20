@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Bitcoin",
-    "description": "Obtain a turquoise gem",
+    "title": {
+      "text": "Bitcoin"
+    },
+    "description": {
+      "text": "Obtain a turquoise gem"
+    },
     "icon": {
-      "item": "mores:turquoise_gem"
+      "id": "mores:turquoise_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

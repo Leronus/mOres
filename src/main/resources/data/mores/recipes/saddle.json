@@ -27,7 +27,7 @@
 
   "result":
   {
-    "item":  "minecraft:saddle",
+    "id":  "minecraft:saddle",
     "count": 1
   }
 }

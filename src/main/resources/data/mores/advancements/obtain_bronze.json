@@ -1,23 +1,30 @@
 {
   "display": {
-    "title": "The Bronze Age",
-    "description": "Craft first alloy out of tin and copper",
+    "title": {
+      "text": "The Bronze Age"
+    },
+    "description": {
+      "text": "Craft first alloy out of tin and copper"
+    },
     "icon": {
-      "item": "mores:bronze_ingot"
+      "id": "mores:bronze_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:smelt_more",
   "criteria": {
-    "obtain_steel_ingot": {
+    "obtain_bronze_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["mores:bronze_ingot"]
+            "items": [
+              "mores:bronze_ingot"
+            ]
           }
         ]
       }

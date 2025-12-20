@@ -10,6 +10,6 @@
     "item": "mores:tin_ingot"
   },
   "result": {
-    "item": "mores:bronze_ingot"
+    "id": "mores:bronze_ingot"
   }
 }

@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:nether_ruby_ore"
   },
-  "result": "mores:ruby_gem",
+  "result": {
+    "id": "mores:ruby_gem"
+  },
   "experience": 1.0,
   "cookingtime": 200
 }

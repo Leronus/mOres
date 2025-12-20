@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "This Is My Swamp",
-    "description": "Obtain a moissanite gem",
+    "title": {
+      "text": "This Is My Swamp"
+    },
+    "description": {
+      "text": "Obtain a moissanite gem"
+    },
     "icon": {
-      "item": "mores:moissanite_gem"
+      "id": "mores:moissanite_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_sapphire",
   "criteria": {
-    "obtain_moissanite_ore": {
+    "obtain_moissanite_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

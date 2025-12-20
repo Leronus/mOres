@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Efficiency 100",
-    "description": "Craft full topaz armor and tools",
+    "title": {
+      "text": "Efficiency 100"
+    },
+    "description": {
+      "text": "Craft full topaz armor and tools"
+    },
     "icon": {
-      "item": "mores:topaz_sword"
+      "id": "mores:topaz_sword"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -122,7 +127,33 @@
     }
   },
   "requirements": [
-    ["craft_topaz_sword"], ["craft_topaz_pickaxe"], ["craft_topaz_axe"], ["craft_topaz_shovel"], ["craft_topaz_hoe"], ["craft_topaz_helmet"], ["craft_topaz_chestplate"], ["craft_topaz_leggings"], ["craft_topaz_boots"]
+    [
+      "craft_topaz_sword"
+    ],
+    [
+      "craft_topaz_pickaxe"
+    ],
+    [
+      "craft_topaz_axe"
+    ],
+    [
+      "craft_topaz_shovel"
+    ],
+    [
+      "craft_topaz_hoe"
+    ],
+    [
+      "craft_topaz_helmet"
+    ],
+    [
+      "craft_topaz_chestplate"
+    ],
+    [
+      "craft_topaz_leggings"
+    ],
+    [
+      "craft_topaz_boots"
+    ]
   ],
   "rewards": {
     "experience": 125

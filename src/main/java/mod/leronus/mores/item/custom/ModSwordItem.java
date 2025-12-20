@@ -5,6 +5,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
@@ -12,47 +13,57 @@ import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
 
 public class ModSwordItem extends SwordItem {
+
     private final int maxUses;
 
-
-    public ModSwordItem(Tier toolMaterial, int attackDamage, float attackSpeed, Properties itemProperties) {
-        super(toolMaterial, attackDamage, attackSpeed, itemProperties);
+    public ModSwordItem(Tier toolMaterial, int attackDamage, float attackSpeed, Item.Properties itemProperties) {
+        // 1.20.6+: SwordItem constructor is (Tier, Properties) and attributes go into Properties
+        super(toolMaterial, itemProperties.attributes(SwordItem.createAttributes(toolMaterial, attackDamage, attackSpeed)));
         this.maxUses = toolMaterial.getUses();
     }
 
     /**
      * Called when an enemy is attacked using the sword
-     * @param stack Itemstack used to attack with
-     * @param target Target entity that is being attacked
-     * @param attacker The entity attacking the enemy
-     * @return Hurt enemy
      */
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        //If the item is an onyx sword, apply wither effect on targetEntity
-        if(stack.getItem() == ModItems.ONYX_SWORD.get() || stack.getItem() == ModItems.ONYX_MACE.get() || stack.getItem() == ModItems.ONYX_DAGGER.get() || stack.getItem() == ModItems.ONYX_BATTLEAXE.get()) {
-            target.addEffect(new MobEffectInstance(MobEffects.WITHER, 250, 1, false, false));
+        // Onyx weapons apply Wither
+        if (isOnyxWeapon(stack)) {
+            // MobEffects.WITHER is a Holder<MobEffect> in 1.20.6, and MobEffectInstance expects a Holder
+            target.addEffect(new MobEffectInstance(MobEffects.WITHER, 250, 1, false, false, true));
         }
         return super.hurtEnemy(stack, target, attacker);
     }
 
     /**
-     * Called when item is created
-     * @param stack Itemstack of the item being created
-     * @param world Level that the player is in
-     * @param playerEntity Player that created the item
+     * Called when item is created (crafted)
      */
     @Override
-    public void onCraftedBy(ItemStack stack, Level world, Player playerEntity) {
-        //Add enchantment to silver sword upon creation
-        if (stack.getItem() == ModItems.SILVER_SWORD.get() || stack.getItem() == ModItems.SILVER_DAGGER.get()
-                || stack.getItem() == ModItems.SILVER_MACE.get() ||  stack.getItem() == ModItems.SILVER_BATTLEAXE.get()) {
+    public void onCraftedBy(ItemStack stack, Level level, Player player) {
+        // Add Smite I to silver weapons
+        if (isSilverWeapon(stack)) {
             stack.enchant(Enchantments.SMITE, 1);
         }
-        super.onCraftedBy(stack, world, playerEntity);
+        super.onCraftedBy(stack, level, player);
     }
 
     public int getMaxUses() {
         return maxUses;
+    }
+
+    private static boolean isOnyxWeapon(ItemStack stack) {
+        Item item = stack.getItem();
+        return item == ModItems.ONYX_SWORD.get()
+                || item == ModItems.ONYX_MACE.get()
+                || item == ModItems.ONYX_DAGGER.get()
+                || item == ModItems.ONYX_BATTLEAXE.get();
+    }
+
+    private static boolean isSilverWeapon(ItemStack stack) {
+        Item item = stack.getItem();
+        return item == ModItems.SILVER_SWORD.get()
+                || item == ModItems.SILVER_DAGGER.get()
+                || item == ModItems.SILVER_MACE.get()
+                || item == ModItems.SILVER_BATTLEAXE.get();
     }
 }

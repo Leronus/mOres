@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Massive Improvement",
-    "description": "Obtain a sapphire gem",
+    "title": {
+      "text": "Massive Improvement"
+    },
+    "description": {
+      "text": "Obtain a sapphire gem"
+    },
     "icon": {
-      "item": "mores:sapphire_gem"
+      "id": "mores:sapphire_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

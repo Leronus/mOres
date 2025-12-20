@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Ultimate Simp",
-    "description": "Impress the ladies with beautiful tourmaline armor",
+    "title": {
+      "text": "The Ultimate Simp"
+    },
+    "description": {
+      "text": "Impress the ladies with beautiful tourmaline armor"
+    },
     "icon": {
-      "item": "mores:tourmaline_leggings"
+      "id": "mores:tourmaline_leggings"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_tourmaline",
   "criteria": {
-    "craft_full_tourmaline_armor": {
+    "craft_tourmaline_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:tourmaline_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tourmaline_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tourmaline_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tourmaline_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tourmaline_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tourmaline_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tourmaline_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_tourmaline_helmet"
+    ],
+    [
+      "craft_tourmaline_chestplate"
+    ],
+    [
+      "craft_tourmaline_leggings"
+    ],
+    [
+      "craft_tourmaline_boots"
+    ]
+  ],
   "rewards": {
     "experience": 125
   }

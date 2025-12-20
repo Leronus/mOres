@@ -13,5 +13,7 @@
       "item": "mores:gold_battleaxe"
     }
   ],
-  "result": "minecraft:gold_nugget"
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
 }

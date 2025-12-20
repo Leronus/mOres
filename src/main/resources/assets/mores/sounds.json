@@ -3,8 +3,7 @@
     "subtitle" : "sound.mores.living_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:living_duck_sound",
-        "stream" : true
+        "name" : "mores:living_duck_sound"
       }
     ]
   },
@@ -12,8 +11,7 @@
     "subtitle" : "sound.mores.dying_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:dying_duck_sound",
-        "stream" : true
+        "name" : "mores:dying_duck_sound"
       }
     ]
   },
@@ -21,8 +19,7 @@
     "subtitle" : "sound.mores.hurt_duck_sound",
     "sounds" : [
       {
-        "name" : "mores:hurt_duck_sound",
-        "stream" : true
+        "name" : "mores:hurt_duck_sound"
       }
     ]
   },
@@ -30,8 +27,7 @@
     "subtitle" : "sound.mores.that_duck",
     "sounds" : [
       {
-        "name" : "mores:that_duck",
-        "stream" : true
+        "name" : "mores:that_duck"
       }
     ]
   },

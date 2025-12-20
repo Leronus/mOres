@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Hi Elmo",
-    "description": "Craft full ruby armor",
+    "title": {
+      "text": "Hi Elmo"
+    },
+    "description": {
+      "text": "Craft full ruby armor"
+    },
     "icon": {
-      "item": "mores:ruby_helmet"
+      "id": "mores:ruby_helmet"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_ruby_pickaxe",
   "criteria": {
-    "obtain_ruby": {
+    "craft_ruby_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:ruby_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_ruby_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:ruby_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_ruby_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:ruby_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_ruby_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:ruby_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_ruby_helmet"
+    ],
+    [
+      "craft_ruby_chestplate"
+    ],
+    [
+      "craft_ruby_leggings"
+    ],
+    [
+      "craft_ruby_boots"
+    ]
+  ],
   "rewards": {
     "experience": 200
   }

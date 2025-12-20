@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Very Balt Of You",
-    "description": "Obtain raw cobalt",
+    "title": {
+      "text": "Very Balt Of You"
+    },
+    "description": {
+      "text": "Obtain raw cobalt"
+    },
     "icon": {
-      "item": "mores:raw_cobalt"
+      "id": "mores:raw_cobalt"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:acquire_hardware",
   "criteria": {
-    "obtain_cobalt_ore": {
+    "obtain_raw_cobalt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "I'm Blue",
-    "description": "Craft full sapphire armor",
+    "title": {
+      "text": "I'm Blue"
+    },
+    "description": {
+      "text": "Craft full sapphire armor"
+    },
     "icon": {
-      "item": "mores:sapphire_helmet"
+      "id": "mores:sapphire_helmet"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_sapphire",
   "criteria": {
-    "obtain_ruby": {
+    "craft_sapphire_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:sapphire_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_sapphire_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:sapphire_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_sapphire_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:sapphire_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_sapphire_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:sapphire_boots"
@@ -40,8 +66,22 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_sapphire_helmet"
+    ],
+    [
+      "craft_sapphire_chestplate"
+    ],
+    [
+      "craft_sapphire_leggings"
+    ],
+    [
+      "craft_sapphire_boots"
+    ]
+  ],
   "rewards": {
     "experience": 200,
-    "function" : "mores:mores/play_im_blue"
+    "function": "mores:mores/play_im_blue"
   }
 }

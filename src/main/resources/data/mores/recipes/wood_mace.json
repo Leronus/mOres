@@ -1,29 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
-
-  "pattern":
-  [
+  "pattern": [
     " $$",
     " $$",
     "#  "
   ],
-
-
-  "key":
-  {
-    "#":
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "$":
-    {
+    "$": {
       "tag": "minecraft:planks"
     }
   },
-
-  "result":
-  {
-    "item":  "mores:wood_mace",
+  "result": {
+    "id": "mores:wood_mace",
     "count": 1
   }
 }

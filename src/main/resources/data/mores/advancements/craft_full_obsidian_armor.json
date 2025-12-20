@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Immovable",
-    "description": "Craft full obsidian armor",
+    "title": {
+      "text": "Immovable"
+    },
+    "description": {
+      "text": "Craft full obsidian armor"
+    },
     "icon": {
-      "item": "mores:obsidian_chestplate"
+      "id": "mores:obsidian_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_obsidian_tools",
   "criteria": {
-    "craft_full_obsidian_armor": {
+    "craft_obsidian_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:obsidian_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_obsidian_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:obsidian_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_obsidian_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:obsidian_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_obsidian_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:obsidian_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_obsidian_helmet"
+    ],
+    [
+      "craft_obsidian_chestplate"
+    ],
+    [
+      "craft_obsidian_leggings"
+    ],
+    [
+      "craft_obsidian_boots"
+    ]
+  ],
   "rewards": {
     "experience": 150
   }

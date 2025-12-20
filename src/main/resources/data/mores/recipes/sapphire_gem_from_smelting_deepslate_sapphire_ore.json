@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:deepslate_sapphire_ore"
   },
-  "result": "mores:sapphire_gem",
+  "result": {
+    "id": "mores:sapphire_gem"
+  },
   "experience": 1.0,
   "cookingtime": 200
 }

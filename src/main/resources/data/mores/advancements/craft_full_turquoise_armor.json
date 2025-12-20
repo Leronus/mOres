@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Poseidon",
-    "description": "Craft full turquoise armor",
+    "title": {
+      "text": "Poseidon"
+    },
+    "description": {
+      "text": "Craft full turquoise armor"
+    },
     "icon": {
-      "item": "mores:turquoise_chestplate"
+      "id": "mores:turquoise_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_turquoise",
   "criteria": {
-    "craft_full_turquoise_armor": {
+    "craft_turquoise_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:turquoise_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_turquoise_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:turquoise_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_turquoise_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:turquoise_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_turquoise_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:turquoise_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_turquoise_helmet"
+    ],
+    [
+      "craft_turquoise_chestplate"
+    ],
+    [
+      "craft_turquoise_leggings"
+    ],
+    [
+      "craft_turquoise_boots"
+    ]
+  ],
   "rewards": {
     "experience": 200
   }

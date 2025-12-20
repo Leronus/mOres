@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Negotiator",
-    "description": "Obtain an emerald",
+    "title": {
+      "text": "The Negotiator"
+    },
+    "description": {
+      "text": "Obtain an emerald"
+    },
     "icon": {
-      "item": "minecraft:emerald"
+      "id": "minecraft:emerald"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_cobalt_ore",
   "criteria": {
-    "obtain_topaz_gem": {
+    "obtain_emerald": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

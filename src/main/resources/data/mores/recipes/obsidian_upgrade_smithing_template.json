@@ -18,7 +18,7 @@
   ],
   "result": {
     "count": 2,
-    "item": "mores:obsidian_upgrade_smithing_template"
+    "id": "mores:obsidian_upgrade_smithing_template"
   },
   "show_notification": true
 }

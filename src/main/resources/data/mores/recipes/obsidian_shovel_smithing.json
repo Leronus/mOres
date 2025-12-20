@@ -10,6 +10,6 @@
     "item": "mores:obsidian_ingot"
   },
   "result": {
-    "item": "mores:obsidian_shovel"
+    "id": "mores:obsidian_shovel"
   }
 }

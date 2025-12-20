@@ -4,7 +4,9 @@
   "ingredient": {
     "tag": "forge:raw_materials/silver"
   },
-  "result": "mores:silver_ingot",
+  "result": {
+    "id": "mores:silver_ingot"
+  },
   "experience": 0.6,
   "cookingtime": 100
 }

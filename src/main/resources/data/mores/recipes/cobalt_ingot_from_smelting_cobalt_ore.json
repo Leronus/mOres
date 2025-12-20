@@ -4,7 +4,9 @@
   "ingredient": {
     "tag": "forge:ores/cobalt"
   },
-  "result": "mores:cobalt_ingot",
+  "result": {
+    "id": "mores:cobalt_ingot"
+  },
   "experience": 0.8,
   "cookingtime": 200
 }

@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Pyromaniac",
-    "description": "Craft all ruby tools as well as full ruby fire resistant armor",
+    "title": {
+      "text": "Pyromaniac"
+    },
+    "description": {
+      "text": "Craft all ruby tools as well as full ruby fire resistant armor"
+    },
     "icon": {
-      "item": "mores:ruby_axe"
+      "id": "mores:ruby_axe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -122,9 +127,33 @@
     }
   },
   "requirements": [
-    ["craft_ruby_sword"], ["craft_ruby_pickaxe"], ["craft_ruby_axe"], ["craft_ruby_shovel"],
-      ["craft_ruby_hoe"], ["craft_ruby_helmet"], ["craft_ruby_chestplate"], ["craft_ruby_leggings"],
-      ["craft_ruby_boots"]
+    [
+      "craft_ruby_sword"
+    ],
+    [
+      "craft_ruby_pickaxe"
+    ],
+    [
+      "craft_ruby_axe"
+    ],
+    [
+      "craft_ruby_shovel"
+    ],
+    [
+      "craft_ruby_hoe"
+    ],
+    [
+      "craft_ruby_helmet"
+    ],
+    [
+      "craft_ruby_chestplate"
+    ],
+    [
+      "craft_ruby_leggings"
+    ],
+    [
+      "craft_ruby_boots"
+    ]
   ],
   "rewards": {
     "experience": 200

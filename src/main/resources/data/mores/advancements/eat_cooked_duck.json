@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Christmas Comin' Early",
-    "description": "Roasted duck seems like a good meal",
+    "title": {
+      "text": "Christmas Comin' Early"
+    },
+    "description": {
+      "text": "Roasted duck seems like a good meal"
+    },
     "icon": {
-      "item": "mores:cooked_duck"
+      "id": "mores:cooked_duck"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,7 @@
       "conditions": {
         "item": {
           "items": [
-              "mores:cooked_duck"
+            "mores:cooked_duck"
           ]
         }
       }

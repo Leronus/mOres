@@ -4,7 +4,9 @@
   "ingredient": {
     "item": "mores:tourmaline_ore"
   },
-  "result": "mores:tourmaline_gem",
+  "result": {
+    "id": "mores:tourmaline_gem"
+  },
   "experience": 0.9,
   "cookingtime": 200
 }

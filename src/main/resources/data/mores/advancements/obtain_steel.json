@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Hephaestos",
-    "description": "You have alloyed coal and iron into steel",
+    "title": {
+      "text": "Hephaestos"
+    },
+    "description": {
+      "text": "You have alloyed coal and iron into steel"
+    },
     "icon": {
-      "item": "mores:steel_ingot"
+      "id": "mores:steel_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["mores:steel_ingot"]
+            "items": [
+              "mores:steel_ingot"
+            ]
           }
         ]
       }

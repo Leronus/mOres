@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Milka Oreo",
-    "description": "It's actually too good though. Eat some chocolate.",
+    "title": {
+      "text": "Milka Oreo"
+    },
+    "description": {
+      "text": "It's actually too good though. Eat some chocolate."
+    },
     "icon": {
-      "item": "mores:chocolate"
+      "id": "mores:chocolate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,7 +22,7 @@
       "conditions": {
         "item": {
           "items": [
-              "mores:chocolate"
+            "mores:chocolate"
           ]
         }
       }

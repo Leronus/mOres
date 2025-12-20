@@ -11,7 +11,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,7 +23,7 @@ import java.util.function.Consumer;
 
 public class ModShieldItem extends ShieldItem {
 
-    public static final EnchantmentCategory SHIELD = EnchantmentCategory.create("shield", s -> s instanceof ShieldItem);
+//    public static final EnchantmentCategory SHIELD = EnchantmentCategory.create("shield", s -> s instanceof ShieldItem);
 
     public static final ResourceLocation BLOCKING = new ResourceLocation("minecraft:blocking");
     public final ModShieldMaterial material;
@@ -59,11 +58,6 @@ public class ModShieldItem extends ShieldItem {
         return this.material.enchantmentValue;
     }
 
-    @Override
-    public void appendHoverText(@NotNull ItemStack itemStack, @Nullable Level level, @NotNull List<Component> components, @NotNull TooltipFlag tooltipFlag) {
-        super.appendHoverText(itemStack, level, components, tooltipFlag);
-        addDamageBlockedText(itemStack, components, this.getBlockedDamage());
-    }
 
     public static void addDamageBlockedText(ItemStack itemStack, List<Component> components, double blockedDamage) {
 //        int reinforced = itemStack.getEnchantmentLevel(ModEnchantments.REINFORCED.get());

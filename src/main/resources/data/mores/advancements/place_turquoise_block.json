@@ -1,12 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "mores:turquoise_block"
+      "id": "mores:turquoise_block"
     },
-    "title": "√9 = 3",
-    "description": "Craft a turquoise block",
+    "title": {
+      "text": "√9 = 3"
+    },
+    "description": {
+      "text": "Craft a turquoise block"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

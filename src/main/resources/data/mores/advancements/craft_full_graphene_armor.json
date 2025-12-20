@@ -1,37 +1,85 @@
 {
   "display": {
-    "title": "Overpowered",
-    "description": "Craft full graphene armor",
+    "title": {
+      "text": "Overpowered"
+    },
+    "description": {
+      "text": "Craft full graphene armor"
+    },
     "icon": {
-      "item": "mores:graphene_chestplate"
+      "id": "mores:graphene_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_graphene",
   "criteria": {
-    "craft_full_graphene_armor": {
+    "craft_graphene_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["mores:graphene_helmet"]
-          },
+            "items": [
+              "mores:graphene_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "craft_graphene_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
-            "items": ["mores:graphene_chestplate"]
-          },
+            "items": [
+              "mores:graphene_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "craft_graphene_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
-            "items": ["mores:graphene_leggings"]
-          },
+            "items": [
+              "mores:graphene_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "craft_graphene_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
-            "items": ["mores:graphene_boots"]
+            "items": [
+              "mores:graphene_boots"
+            ]
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "craft_graphene_helmet"
+    ],
+    [
+      "craft_graphene_chestplate"
+    ],
+    [
+      "craft_graphene_leggings"
+    ],
+    [
+      "craft_graphene_boots"
+    ]
+  ],
   "rewards": {
     "experience": 250
   }

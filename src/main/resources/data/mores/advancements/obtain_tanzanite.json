@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Nether More",
-    "description": "Obtain a tanzanite gem",
+    "title": {
+      "text": "Nether More"
+    },
+    "description": {
+      "text": "Obtain a tanzanite gem"
+    },
     "icon": {
-      "item": "mores:tanzanite_gem"
+      "id": "mores:tanzanite_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:mine_nether_silver",
   "criteria": {
-    "obtain_steel_ingot": {
+    "obtain_tanzanite_gem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

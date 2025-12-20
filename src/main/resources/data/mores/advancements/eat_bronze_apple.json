@@ -1,10 +1,14 @@
 {
   "display": {
     "icon": {
-      "item": "mores:bronze_apple"
+      "id": "mores:bronze_apple"
     },
-    "title": "Oooruk",
-    "description": "Eat a bronze apple",
+    "title": {
+      "text": "Oooruk"
+    },
+    "description": {
+      "text": "Eat a bronze apple"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,

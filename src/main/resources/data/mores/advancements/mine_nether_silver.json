@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Silver McNugget",
-    "description": "Obtain a silver nugget",
+    "title": {
+      "text": "Silver McNugget"
+    },
+    "description": {
+      "text": "Obtain a silver nugget"
+    },
     "icon": {
-      "item": "mores:silver_nugget"
+      "id": "mores:silver_nugget"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_obsidian_ingot",
   "criteria": {
-    "obtain_silver_ore": {
+    "obtain_silver_nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

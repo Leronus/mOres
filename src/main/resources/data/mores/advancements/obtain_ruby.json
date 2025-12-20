@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Fiery Diamond",
-    "description": "Obtain a ruby gem",
+    "title": {
+      "text": "Fiery Diamond"
+    },
+    "description": {
+      "text": "Obtain a ruby gem"
+    },
     "icon": {
-      "item": "mores:ruby_gem"
+      "id": "mores:ruby_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

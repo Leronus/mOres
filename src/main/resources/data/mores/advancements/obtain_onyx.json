@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "This Is The End",
-    "description": "Obtain an onyx gem",
+    "title": {
+      "text": "This Is The End"
+    },
+    "description": {
+      "text": "Obtain an onyx gem"
+    },
     "icon": {
-      "item": "mores:onyx_gem"
+      "id": "mores:onyx_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

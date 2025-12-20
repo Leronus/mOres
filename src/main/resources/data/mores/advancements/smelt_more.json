@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "More Metal",
-    "description": "Smelt a mOres metal",
+    "title": {
+      "text": "More Metal"
+    },
+    "description": {
+      "text": "Smelt a mOres metal"
+    },
     "icon": {
-      "item": "mores:tin_ingot"
+      "id": "mores:tin_ingot"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -62,7 +67,12 @@
     }
   },
   "requirements": [
-    ["smelt_silver_ore", "smelt_copper_ore", "smelt_tin_ore", "smelt_cobalt_ore"]
+    [
+      "smelt_silver_ore",
+      "smelt_copper_ore",
+      "smelt_tin_ore",
+      "smelt_cobalt_ore"
+    ]
   ],
   "rewards": {
     "experience": 30

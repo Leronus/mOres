@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Topazzler",
-    "description": "Obtain a topaz gem",
+    "title": {
+      "text": "Topazzler"
+    },
+    "description": {
+      "text": "Obtain a topaz gem"
+    },
     "icon": {
-      "item": "mores:topaz_gem"
+      "id": "mores:topaz_gem"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

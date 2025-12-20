@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Neanderthaler",
-    "description": "Craft a stone mace",
+    "title": {
+      "text": "Neanderthaler"
+    },
+    "description": {
+      "text": "Craft a stone mace"
+    },
     "icon": {
-      "item": "mores:stone_mace"
+      "id": "mores:stone_mace"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Just Because I Can",
-    "description": "Craft full chainmail armor",
+    "title": {
+      "text": "Just Because I Can"
+    },
+    "description": {
+      "text": "Craft full chainmail armor"
+    },
     "icon": {
-      "item": "minecraft:chainmail_chestplate"
+      "id": "minecraft:chainmail_chestplate"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_chain",
   "criteria": {
-    "craft_full_chainmail": {
+    "craft_chainmail_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "minecraft:chainmail_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_chainmail_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "minecraft:chainmail_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_chainmail_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "minecraft:chainmail_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_chainmail_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "minecraft:chainmail_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "craft_chainmail_helmet"
+    ],
+    [
+      "craft_chainmail_chestplate"
+    ],
+    [
+      "craft_chainmail_leggings"
+    ],
+    [
+      "craft_chainmail_boots"
+    ]
+  ],
   "rewards": {
     "experience": 100
   }

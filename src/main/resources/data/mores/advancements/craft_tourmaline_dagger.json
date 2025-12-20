@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Heartbreaker",
-    "description": "Craft a tourmaline dagger",
+    "title": {
+      "text": "Heartbreaker"
+    },
+    "description": {
+      "text": "Craft a tourmaline dagger"
+    },
     "icon": {
-      "item": "mores:tourmaline_dagger"
+      "id": "mores:tourmaline_dagger"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_wood_dagger",
   "criteria": {
-    "obtain_tourmaline": {
+    "craft_tourmaline_dagger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

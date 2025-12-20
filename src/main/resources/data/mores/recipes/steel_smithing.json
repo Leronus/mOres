@@ -10,6 +10,6 @@
     "item": "minecraft:coal"
   },
   "result": {
-    "item": "mores:steel_ingot"
+    "id": "mores:steel_ingot"
   }
 }

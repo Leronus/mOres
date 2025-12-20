@@ -1,57 +1,54 @@
 {
   "display": {
-    "title": "Look at my horse",
-    "description": "My horse is amazing! - Craft horse armor",
+    "title": {
+      "text": "Look at my horse"
+    },
+    "description": {
+      "text": "My horse is amazing! - Craft horse armor"
+    },
     "icon": {
-      "item": "mores:tin_horse_armor"
+      "id": "mores:tin_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:smelt_more",
   "criteria": {
-    "craft_horse_armor": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "mores:silver_horse_armor",
-              "mores:tanzanite_horse_armor",
-              "mores:copper_horse_armor",
-              "mores:tin_horse_armor",
-              "mores:cobalt_horse_armor",
-              "mores:emerald_horse_armor",
-              "mores:obsidian_horse_armor",
-              "mores:bronze_horse_armor",
-              "mores:steel_horse_armor",
-              "minecraft:golden_horse_armor",
-              "minecraft:iron_horse_armor",
-              "minecraft:diamond_horse_armor",
-              "mores:amethyst_horse_armor",
-              "mores:topaz_horse_armor",
-              "mores:tourmaline_horse_armor",
-              "mores:onyx_horse_armor",
-              "mores:ruby_horse_armor",
-              "mores:sapphire_horse_armor",
-              "mores:turquoise_horse_armor",
-              "mores:moissanite_horse_armor",
-              "mores:graphene_horse_armor",
-              "mores:sterling_horse_armor",
-              "mores:netherite_horse_armor"
-          ]
-        }
-      ]
-    }
-  }
-},
+    "silver": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:silver_horse_armor"] }] } },
+    "tanzanite": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:tanzanite_horse_armor"] }] } },
+    "copper": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:copper_horse_armor"] }] } },
+    "tin": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:tin_horse_armor"] }] } },
+    "cobalt": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:cobalt_horse_armor"] }] } },
+    "emerald": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:emerald_horse_armor"] }] } },
+    "obsidian": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:obsidian_horse_armor"] }] } },
+    "bronze": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:bronze_horse_armor"] }] } },
+    "steel": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:steel_horse_armor"] }] } },
+    "gold": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["minecraft:golden_horse_armor"] }] } },
+    "iron": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["minecraft:iron_horse_armor"] }] } },
+    "diamond": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["minecraft:diamond_horse_armor"] }] } },
+    "amethyst": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:amethyst_horse_armor"] }] } },
+    "topaz": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:topaz_horse_armor"] }] } },
+    "tourmaline": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:tourmaline_horse_armor"] }] } },
+    "onyx": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:onyx_horse_armor"] }] } },
+    "ruby": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:ruby_horse_armor"] }] } },
+    "sapphire": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:sapphire_horse_armor"] }] } },
+    "turquoise": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:turquoise_horse_armor"] }] } },
+    "moissanite": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:moissanite_horse_armor"] }] } },
+    "graphene": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:graphene_horse_armor"] }] } },
+    "sterling": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:sterling_horse_armor"] }] } },
+    "netherite": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "items": ["mores:netherite_horse_armor"] }] } }
+  },
   "requirements": [
-    ["craft_horse_armor"]
+    ["silver"], ["tanzanite"], ["copper"], ["tin"], ["cobalt"], ["emerald"], ["obsidian"],
+    ["bronze"], ["steel"], ["gold"], ["iron"], ["diamond"], ["amethyst"], ["topaz"],
+    ["tourmaline"], ["onyx"], ["ruby"], ["sapphire"], ["turquoise"], ["moissanite"],
+    ["graphene"], ["sterling"], ["netherite"]
   ],
   "rewards": {
     "experience": 100,
-    "function" : "mores:mores/play_my_horse"
+    "function": "mores:mores/play_my_horse"
   }
 }

@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Dark Knight",
-    "description": "Craft full onyx armor",
+    "title": {
+      "text": "The Dark Knight"
+    },
+    "description": {
+      "text": "Craft full onyx armor"
+    },
     "icon": {
-      "item": "mores:onyx_helmet"
+      "id": "mores:onyx_helmet"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_onyx",
   "criteria": {
-    "obtain_onyx_armor": {
+    "obtain_onyx_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,17 +25,38 @@
             "items": [
               "mores:onyx_helmet"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "obtain_onyx_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:onyx_chestplate"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "obtain_onyx_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:onyx_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "obtain_onyx_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:onyx_boots"
@@ -40,6 +66,20 @@
       }
     }
   },
+  "requirements": [
+    [
+      "obtain_onyx_helmet"
+    ],
+    [
+      "obtain_onyx_chestplate"
+    ],
+    [
+      "obtain_onyx_leggings"
+    ],
+    [
+      "obtain_onyx_boots"
+    ]
+  ],
   "rewards": {
     "experience": 400
   }

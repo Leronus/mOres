@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "You Shall Not Pass",
-    "description": "Craft your first mOres shield.",
+    "title": {
+      "text": "You Shall Not Pass"
+    },
+    "description": {
+      "text": "Craft your first mOres shield."
+    },
     "icon": {
-      "item": "mores:bronze_shield"
+      "id": "mores:bronze_shield"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -17,8 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:copper_shield"
             ]
           }
@@ -30,8 +34,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:tin_shield"
             ]
           }
@@ -43,8 +46,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:bronze_shield"
             ]
           }
@@ -56,8 +58,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:silver_shield"
             ]
           }
@@ -69,8 +70,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:cobalt_shield"
             ]
           }
@@ -82,8 +82,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:steel_shield"
             ]
           }
@@ -95,8 +94,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:sterling_shield"
             ]
           }
@@ -108,8 +106,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:topaz_shield"
             ]
           }
@@ -121,8 +118,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:tourmaline_shield"
             ]
           }
@@ -134,8 +130,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:ruby_shield"
             ]
           }
@@ -147,8 +142,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:sapphire_shield"
             ]
           }
@@ -160,8 +154,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:onyx_shield"
             ]
           }
@@ -173,8 +166,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:tanzanite_shield"
             ]
           }
@@ -186,8 +178,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:moissanite_shield"
             ]
           }
@@ -199,8 +190,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:turquoise_shield"
             ]
           }
@@ -212,8 +202,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:graphene_shield"
             ]
           }
@@ -225,8 +214,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:emerald_shield"
             ]
           }
@@ -238,8 +226,7 @@
       "conditions": {
         "items": [
           {
-            "items":
-            [
+            "items": [
               "mores:obsidian_shield"
             ]
           }
@@ -249,23 +236,57 @@
   },
   "requirements": [
     [
-      "obtain_copper_shield",
-      "obtain_tin_shield",
-      "obtain_bronze_shield",
-      "obtain_silver_shield",
-      "obtain_steel_shield",
-      "obtain_sterling_shield",
-      "obtain_cobalt_shield",
-      "obtain_topaz_shield",
-      "obtain_tourmaline_shield",
-      "obtain_ruby_shield",
-      "obtain_sapphire_shield",
-      "obtain_onyx_shield",
-      "obtain_tanzanite_shield",
-      "obtain_turquoise_shield",
-      "obtain_moissanite_shield",
-      "obtain_graphene_shield",
-      "obtain_emerald_shield",
+      "obtain_copper_shield"
+    ],
+    [
+      "obtain_tin_shield"
+    ],
+    [
+      "obtain_bronze_shield"
+    ],
+    [
+      "obtain_silver_shield"
+    ],
+    [
+      "obtain_steel_shield"
+    ],
+    [
+      "obtain_sterling_shield"
+    ],
+    [
+      "obtain_cobalt_shield"
+    ],
+    [
+      "obtain_topaz_shield"
+    ],
+    [
+      "obtain_tourmaline_shield"
+    ],
+    [
+      "obtain_ruby_shield"
+    ],
+    [
+      "obtain_sapphire_shield"
+    ],
+    [
+      "obtain_onyx_shield"
+    ],
+    [
+      "obtain_tanzanite_shield"
+    ],
+    [
+      "obtain_turquoise_shield"
+    ],
+    [
+      "obtain_moissanite_shield"
+    ],
+    [
+      "obtain_graphene_shield"
+    ],
+    [
+      "obtain_emerald_shield"
+    ],
+    [
       "obtain_obsidian_shield"
     ]
   ],

@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "The Autosmelter",
-    "description": "Craft a ruby pickaxe",
+    "title": {
+      "text": "The Autosmelter"
+    },
+    "description": {
+      "text": "Craft a ruby pickaxe"
+    },
     "icon": {
-      "item": "mores:ruby_pickaxe"
+      "id": "mores:ruby_pickaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_ruby",
   "criteria": {
-    "craft_sapphire_pickaxe": {
+    "craft_ruby_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

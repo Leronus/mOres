@@ -1,25 +1,30 @@
 {
   "display": {
-    "title": "What Is This Kinky Stuff??",
-    "description": "Craft metal wire for chainmail",
+    "title": {
+      "text": "What Is This Kinky Stuff??"
+    },
+    "description": {
+      "text": "Craft metal wire for chainmail"
+    },
     "icon": {
-      "item": "mores:chain"
+      "id": "mores:chain"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:acquire_hardware",
   "criteria": {
-    "obtain_copper_ore": {
+    "obtain_chain": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "mores:chain"
-              ]
+            ]
           }
         ]
       }

@@ -1,28 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-
-  "pattern":
-  [
-    " $ ",
-    " # "
+  "pattern": [
+    "$",
+    "#"
   ],
-
-
-  "key":
-  {
-    "#":
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "$":
-    {
+    "$": {
       "tag": "minecraft:planks"
     }
   },
-
-  "result":
-  {
-    "item":  "mores:wood_dagger",
+  "result": {
+    "id": "mores:wood_dagger",
     "count": 1
   }
 }

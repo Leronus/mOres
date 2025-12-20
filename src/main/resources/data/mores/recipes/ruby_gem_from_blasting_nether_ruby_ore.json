@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "ruby_gem",
+  "ingredient": {
+    "item": "mores:nether_ruby_ore"
+  },
+  "result": {
+    "id": "mores:ruby_gem"
+  },
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -1,12 +1,17 @@
 {
   "display": {
     "icon": {
-      "item": "mores:bronze_block"
+      "id": "mores:bronze_block"
     },
-    "title": "Third Place",
-    "description": "Place a bronze block",
+    "title": {
+      "text": "Third Place"
+    },
+    "description": {
+      "text": "Place a bronze block"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },

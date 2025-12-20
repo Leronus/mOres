@@ -4,7 +4,9 @@
   "ingredient": {
     "tag": "forge:raw_materials/tin"
   },
-  "result": "mores:tin_ingot",
+  "result": {
+    "id": "mores:tin_ingot"
+  },
   "experience": 0.5,
   "cookingtime": 200
 }

@@ -1,12 +1,17 @@
 {
   "display": {
-    "title": "Give it a lick",
-    "description": "Tastes just like raisins - Craft all horse armor",
+    "title": {
+      "text": "Give it a lick"
+    },
+    "description": {
+      "text": "Tastes just like raisins - Craft all horse armor"
+    },
     "icon": {
-      "item": "mores:graphene_horse_armor"
+      "id": "mores:graphene_horse_armor"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -228,6 +233,18 @@
         ]
       }
     },
+    "craft_tanzanite_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:tanzanite_horse_armor"
+            ]
+          }
+        ]
+      }
+    },
     "craft_moissanite_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -263,34 +280,93 @@
           }
         ]
       }
+    },
+    "craft_netherite_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mores:netherite_horse_armor"
+            ]
+          }
+        ]
+      }
     }
   },
-  "craft_tanzanite_horse_armor": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": [
-            "mores:tanzanite_horse_armor"
-          ]
-        }
-      ]
-    }
-  },
-  "craft_netherite_horse_armor": {
-    "trigger": "minecraft:inventory_changed",
-    "conditions": {
-      "items": [
-        {
-          "items": [
-            "mores:netherite_horse_armor"
-          ]
-        }
-      ]
-    }
-  },
+  "requirements": [
+    [
+      "craft_silver_horse_armor"
+    ],
+    [
+      "craft_copper_horse_armor"
+    ],
+    [
+      "craft_tin_horse_armor"
+    ],
+    [
+      "craft_cobalt_horse_armor"
+    ],
+    [
+      "craft_emerald_horse_armor"
+    ],
+    [
+      "craft_obsidian_horse_armor"
+    ],
+    [
+      "craft_bronze_horse_armor"
+    ],
+    [
+      "craft_steel_horse_armor"
+    ],
+    [
+      "craft_gold_horse_armor"
+    ],
+    [
+      "craft_iron_horse_armor"
+    ],
+    [
+      "craft_diamond_horse_armor"
+    ],
+    [
+      "craft_amethyst_horse_armor"
+    ],
+    [
+      "craft_topaz_horse_armor"
+    ],
+    [
+      "craft_tourmaline_horse_armor"
+    ],
+    [
+      "craft_onyx_horse_armor"
+    ],
+    [
+      "craft_ruby_horse_armor"
+    ],
+    [
+      "craft_sapphire_horse_armor"
+    ],
+    [
+      "craft_turquoise_horse_armor"
+    ],
+    [
+      "craft_tanzanite_horse_armor"
+    ],
+    [
+      "craft_moissanite_horse_armor"
+    ],
+    [
+      "craft_graphene_horse_armor"
+    ],
+    [
+      "craft_sterling_horse_armor"
+    ],
+    [
+      "craft_netherite_horse_armor"
+    ]
+  ],
   "rewards": {
     "experience": 1000,
-    "function" : "mores:mores/play_my_horse"
+    "function": "mores:mores/play_my_horse"
   }
 }

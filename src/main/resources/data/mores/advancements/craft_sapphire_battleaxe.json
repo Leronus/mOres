@@ -1,18 +1,23 @@
 {
   "display": {
-    "title": "Warrior Of The Moon",
-    "description": "Craft a sapphire battleaxe",
+    "title": {
+      "text": "Warrior Of The Moon"
+    },
+    "description": {
+      "text": "Craft a sapphire battleaxe"
+    },
     "icon": {
-      "item": "mores:sapphire_battleaxe"
+      "id": "mores:sapphire_battleaxe"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:craft_wood_battleaxe",
   "criteria": {
-    "obtain_copper_ore": {
+    "craft_sapphire_battleaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

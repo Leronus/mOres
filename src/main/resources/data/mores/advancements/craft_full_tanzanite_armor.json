@@ -1,45 +1,85 @@
 {
   "display": {
-    "title": "Purple Flash",
-    "description": "Craft full tanzanite armor",
+    "title": {
+      "text": "Purple Flash"
+    },
+    "description": {
+      "text": "Craft full tanzanite armor"
+    },
     "icon": {
-      "item": "mores:tanzanite_boots"
+      "id": "mores:tanzanite_boots"
     },
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "parent": "mores:obtain_tanzanite",
   "criteria": {
-    "obtain_tanzanite_armor": {
+    "craft_tanzanite_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "mores:tanzanite_helmet"
-              ]
-          },
+            ]
+          }
+        ]
+      }
+    },
+    "craft_tanzanite_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tanzanite_chestplate"
-              ]
-          },
+            ]
+          }
+        ]
+      }
+    },
+    "craft_tanzanite_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tanzanite_leggings"
             ]
-          },
+          }
+        ]
+      }
+    },
+    "craft_tanzanite_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
           {
             "items": [
               "mores:tanzanite_boots"
-              ]
+            ]
           }
         ]
       }
     }
   },
+  "requirements": [
+    [
+      "craft_tanzanite_helmet"
+    ],
+    [
+      "craft_tanzanite_chestplate"
+    ],
+    [
+      "craft_tanzanite_leggings"
+    ],
+    [
+      "craft_tanzanite_boots"
+    ]
+  ],
   "rewards": {
     "experience": 125
   }
