@@ -1,5 +1,6 @@
 //package mod.leronus.mores.block.custom;
 //
+//import com.mojang.serialization.MapCodec;
 //import mod.leronus.mores.api.content.AbstractAlloyFurnaceBlock;
 //import mod.leronus.mores.api.content.AbstractAlloyFurnaceBlockEntity;
 //import mod.leronus.mores.block.ModBlockEntities;
@@ -12,6 +13,7 @@
 //import net.minecraft.world.entity.player.Player;
 //import net.minecraft.world.inventory.AbstractContainerMenu;
 //import net.minecraft.world.level.Level;
+//import net.minecraft.world.level.block.BaseEntityBlock;
 //import net.minecraft.world.level.block.entity.BlockEntity;
 //import net.minecraft.world.level.block.entity.BlockEntityTicker;
 //import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -26,6 +28,11 @@
 //    {
 //        super(builder);
 //    } // end ctor
+//
+//    @Override
+//    protected MapCodec<? extends BaseEntityBlock> codec() {
+//        return null;
+//    }
 //
 //    @SuppressWarnings("dep-ann")
 //    @Override

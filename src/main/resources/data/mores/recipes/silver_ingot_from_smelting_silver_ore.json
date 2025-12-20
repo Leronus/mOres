@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "group": "silver_ingot",
   "ingredient": {
-    "item": "mores:silver_ore"
+    "tag": "forge:ores/silver"
   },
   "result": "mores:silver_ingot",
   "experience": 0.6,

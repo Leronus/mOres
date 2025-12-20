@@ -1,9 +1,0 @@
-Beta v5.8.1
-- Added bronze armor to trimmable armor
-- Changed repair ingredient of obsidian tools from obsidian to obsidian ingot (obtained by blasting obsidian)
-- Updated Forge version (49.0.30 -> 49.1.4)
-
-Beta v5.8.0
-- Duck egg temporarily disabled due to version update
-- Updated Minecraft version (1.20.3 -> 1.20.4)
-
