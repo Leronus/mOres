@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "group": "cobalt_ingot",
   "ingredient": {
-    "item": "mores:cobalt_ore"
+    "tag": "forge:ores/cobalt"
   },
   "result": "mores:cobalt_ingot",
   "experience": 0.8,

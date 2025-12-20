@@ -5,7 +5,7 @@
       "item": "mores:turquoise_gem"
     },
     "C": {
-      "tag": "minecraft:stone"
+      "item": "minecraft:stone"
     },
     "S": {
       "item": "mores:graphene_alloy_smithing_template"

@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "tin_ingot",
   "ingredient": {
-    "item": "mores:tin_ore"
+    "tag": "forge:ores/tin"
   },
   "result": "mores:tin_ingot",
   "experience": 0.5,

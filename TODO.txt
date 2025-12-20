@@ -1,6 +1,6 @@
 - Add new smithing templates to loottables (?)
 
-- Fix shield decoration
+- Add tooltip for vanilla armor (durability)
 
 
 

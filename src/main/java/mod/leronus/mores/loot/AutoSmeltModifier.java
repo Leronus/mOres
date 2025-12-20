@@ -37,6 +37,10 @@ public class AutoSmeltModifier extends LootModifier {
     @NotNull
     @Override
     public ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
+        // config toggle
+        if (!mod.leronus.mores.config.module.base.feature.BaseFeature.rubyAutoSmelt) {
+            return generatedLoot; // do nothing
+        }
         ObjectArrayList<ItemStack> ret = new ObjectArrayList<ItemStack>();
         generatedLoot.forEach((stack) -> ret.add(smelt(stack, context)));
         return ret;
