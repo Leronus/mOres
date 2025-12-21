@@ -1,6 +1,3 @@
-- Add new smithing templates to loottables (?)
-
-
 
 
 

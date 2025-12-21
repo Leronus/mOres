@@ -444,12 +444,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 7,
           "name": "mores:obsidian_upgrade_smithing_template"
         },
         {
           "type": "minecraft:empty",
-          "weight": 7
+          "weight": 3
         }
       ]
     }

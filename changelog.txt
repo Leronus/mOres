@@ -1,11 +1,13 @@
 Release v5.4.4
 - Updated Dutch language file with missing translations
 - Fixed iron, diamond, netherite material armor trims (darker variant)
-- Fixed shipwreck loot_table (duck eggs)
 - Fixed alloy smithing recipes not working and slightly changed them (refer to https://github.com/Leronus/mOres/wiki/Smithing-Templates)
+- Fixed shipwreck loot_table (duck eggs) and updated a few other loot_tables for the Alloy Smithing Templates
+- Added bronze gear to armor trims as well (was missing previously)
 - Added missing recipes for bronze tool/armor smelting to nuggets
+- Added missing recipes for blasting ruby, sapphire & onyx ores (nether/deepslate/overworld)
 - Added missing armor trims textures for iron, diamond, netherite
-- Added tooltip for horse armor
+- Added tooltip for horse armor & vanilla armor
 - Added tooltips to configuration (delete from .minecraft/config to regenerate)
 - Added autosmelt feature to configuration
 - Added Forge tags for better mod compatibility
