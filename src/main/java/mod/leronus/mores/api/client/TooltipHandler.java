@@ -106,8 +106,13 @@ public class TooltipHandler {
                 addSetBonusLine(tooltip, "mores.conduit", ChatFormatting.AQUA);
             }
         }
+        // --- Vanilla Armor ---
+        if (item instanceof ArmorItem) {
+            tooltip.add(Component.empty());
+            addDurabilityLines(tooltip, stack, "mores.durability");
+        }
 
-        // --- Tiered tools (pickaxe/axe/shovel/hoe etc) ---
+        // --- Tiered tools (pickaxe/axe/shovel/hoe) ---
         if (item instanceof TieredItem tieredItem) {
             Tier tier = tieredItem.getTier();
 

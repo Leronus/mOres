@@ -1,4 +1,6 @@
-Beta v5.9.0
-- Updated Minecraft version (1.20.4 -> 1.20.6)
+Release v5.9.0
+- Added vanilla armor to tooltips as well (mOres tooltips can be disabled in the config)
+- Updated Alloy Smithing Template recipes & loot_tables (replacing Alloy Furnace)
+- Updated to Minecraft version 1.20.6
 
 
