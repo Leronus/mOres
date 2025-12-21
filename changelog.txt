@@ -1,3 +1,7 @@
+Release v5.3.8
+- Added tooltips for vanilla armor as well
+- Added missing blasting recipes for sapphire/ruby/onyx ores
+
 Release v5.3.7
 - Updated Dutch language file with missing translations
 - Added tooltips to config and added tooltips for horse armor (protection)
