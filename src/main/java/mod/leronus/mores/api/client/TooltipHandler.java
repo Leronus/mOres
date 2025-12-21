@@ -26,13 +26,13 @@ public class TooltipHandler {
 
     @SubscribeEvent
     public static void onTooltip(ItemTooltipEvent e) {
+        List<Component> tooltip = e.getToolTip();
         // Feature enabled + toggle enabled?
         if (!Feature.isEnabled(BaseFeature.class) || !BaseFeature.extraTooltips) {
             return;
         }
         if (e.getItemStack().getItem() instanceof ShieldItem) {
             Item shield = e.getItemStack().getItem();
-            List<Component> tooltip = e.getToolTip();
             tooltip.add(Component.literal(""));
 //          tooltip.add(ModShieldItem.getBlockingTextComponent());
             if (shield == Items.SHIELD) {
@@ -49,7 +49,6 @@ public class TooltipHandler {
         }
 
         if(e.getItemStack().getItem() instanceof SwordItem) {
-            List<Component> tooltip = e.getToolTip();
             if (e.getItemStack().getItem() instanceof SwordItem sword) {
                 if (sword == Items.NETHERITE_SWORD){
                     Tier netherite = Tiers.NETHERITE;
@@ -89,7 +88,6 @@ public class TooltipHandler {
             }
         }
         if (e.getItemStack().getItem() instanceof ModArmorItem modArmorItem) {
-            List<Component> tooltip = e.getToolTip();
             if (modArmorItem.getMaterial() == ModArmorMaterials.TIN) {
                 //Making the tooltips
                 tooltip.add(Component.translatable(""));
@@ -179,9 +177,11 @@ public class TooltipHandler {
                 tooltip.add(Component.translatable(""));
                 tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.GRAPHENE.getDurabilityForType(modArmorItem.getType()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
             }
+        } else if (e.getItemStack().getItem() instanceof ArmorItem armorItem) {
+            tooltip.add(Component.translatable(""));
+            tooltip.add(Component.translatable("mores.durability").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(ModArmorMaterials.GRAPHENE.getDurabilityForType(armorItem.getType()))).withStyle(ChatFormatting.LIGHT_PURPLE)));
         }
         if (e.getItemStack().getItem() instanceof TieredItem tieredItem) {
-            List<Component> tooltip = e.getToolTip();
 
             if (e.getItemStack().getItem() instanceof ModBattleAxeItem moddedBattleAxe) {
                 tooltip.add(Component.literal(""));
@@ -200,7 +200,6 @@ public class TooltipHandler {
             }
         }
         if (e.getItemStack().getItem() instanceof HorseArmorItem horseArmorItem) {
-            List<Component> tooltip = e.getToolTip();
             tooltip.add(Component.literal(""));
             tooltip.add(Component.translatable("mores.protection").withStyle(ChatFormatting.GRAY).append(Component.translatable(String.valueOf(horseArmorItem.getProtection())).withStyle(ChatFormatting.GOLD)));
         }

@@ -1,11 +1,12 @@
 Beta v5.8.2
 - Fixed Alloy Smithing Template recipes not working and slightly changed them (refer to https://github.com/Leronus/mOres/wiki/Smithing-Templates) - no Alloy Furnace in versions 1.20.2-1.20.6
 - Fixed iron, diamond, netherite material armor trims (darker variant)
-- Fixed shipwreck loot_table (duck eggs)
+- Fixed shipwreck loot_table (duck eggs) and updated a few other loot_tables for the Alloy Smithing Templates
 - Updated Dutch language file with missing translations
+- Added missing blasting recipes for sapphire/ruby/onyx ores
 - Added missing recipes for bronze tool/armor smelting to nuggets
 - Added missing armor trims textures for iron, diamond, netherite
-- Added tooltip for horse armor
+- Added tooltip for horse armor & vanilla armor
 - Added tooltips to configuration (delete from .minecraft/config to regenerate)
 - Added autosmelt feature to configuration
 - Added Forge tags for better mod compatibility
